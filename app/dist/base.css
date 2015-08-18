@@ -9,8 +9,12 @@
     flex-flow: column nowrap; }
     .policyTable .policyRow.tableHeader {
       display: none; }
-  .policyTable .policyTopic {
-    align-self: center; }
+  .policyTable .policyCells {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    flex-flow: column nowrap; }
   .policyTable .policyCell {
     display: flex;
     flex-grow: 1;
@@ -18,6 +22,10 @@
     flex-basis: 0;
     flex-flow: column nowrap;
     align-items: center; }
+    .policyTable .policyCell.policyTopic {
+      align-self: center;
+      display: flex;
+      flex-direction: column; }
   .policyTable .policyCell--party {
     align-self: flex-start; }
   .policyTable .policyCell--points {
@@ -35,9 +43,11 @@
 
 @media screen and (min-width: 800px) {
   .policyTable .policyRow {
-    flex-direction: row; }
+    flex-direction: column; }
     .policyTable .policyRow.tableHeader {
       display: flex; }
+  .policyTable .policyCells {
+    flex-direction: row; }
   .policyTable .policyCell--party {
     display: none; } }
 
@@ -61,11 +71,6 @@ body {
   margin: 0;
   list-style-type: circle; }
 
-.policyPoint--link {
-  text-decoration: none; }
-  .policyPoint--link:hover {
-    text-decoration: underline; }
-
 .policyCell {
   padding: 5px; }
   .policyCell.partyTitle {
@@ -78,6 +83,14 @@ body {
     border: none; }
   .policyCell--party {
     margin: 0; }
+
+.policyTimeline {
+  align-self: center;
+  background: #eee;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0; }
 
 .policyTopic {
   border: none; }

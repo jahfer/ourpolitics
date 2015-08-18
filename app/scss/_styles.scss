@@ -24,14 +24,6 @@ body {
   list-style-type: circle;
 }
 
-.policyPoint--link {
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
 .policyCell {
   padding: 5px;
 
@@ -50,6 +42,15 @@ body {
   &--party {
     margin: 0;
   }
+}
+
+.policyTimeline {
+  align-self: center;
+  background: #eee;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .policyTopic {

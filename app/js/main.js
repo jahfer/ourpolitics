@@ -11,17 +11,10 @@ function* entries(obj) {
 }
 
 class PolicyPoint extends React.Component {
-  _onClick(e) {
-    alert(this.props.policy.summary);
-    
-    e.preventDefault();
-    return false;
-  }
-
   render() {
     return (
       <li className="policyPoint">
-        <a className="policyPoint--link" href='#' onClick={this._onClick.bind(this)}>{this.props.policy.summary}</a>
+        <a className="policyPoint--link">{this.props.policy.summary}</a>
       </li>
     )
   }
@@ -54,8 +47,14 @@ class PolicyRow extends React.Component {
 
     return (
       <div className="policyRow">
-        <div className="policyCell policyTopic"><h3 className="policyTopic--title">{this.props.topic}</h3></div>
-        {policyCells}
+        <div className="policyCells">
+          <div className="policyCell policyTopic">
+            <h3 className="policyTopic--title">{this.props.topic}</h3>
+            <a href="#">Details</a>
+          </div>
+          {policyCells}
+        </div>
+        <div className="policyTimeline">Hello world</div>
       </div>
     );
   }
@@ -71,10 +70,12 @@ class PolicyTable extends React.Component {
     return (
       <div className="policyTable">
         <div className="policyRow tableHeader">
-          <div className="policyCell"></div>
-          <div className="policyCell partyTitle textColor--NDP">NDP</div>
-          <div className="policyCell partyTitle textColor--Conservatives">Conservatives</div>
-          <div className="policyCell partyTitle textColor--Liberals">Liberals</div>
+          <div className="policyCells">
+            <div className="policyCell"></div>
+            <div className="policyCell partyTitle textColor--NDP">NDP</div>
+            <div className="policyCell partyTitle textColor--Conservatives">Conservatives</div>
+            <div className="policyCell partyTitle textColor--Liberals">Liberals</div>
+          </div>
         </div>
         {policyRows}
       </div>
