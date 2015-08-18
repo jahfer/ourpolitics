@@ -1,1 +1,18 @@
-* { background-color: #eee }
+$ndp-color: #F37021;
+$cpc-color: #1A4782;
+$lpc-color: #D71920;
+
+@import 'layout';
+@import 'styles';
+
+.textColor{
+  &--NDP {
+    color: $ndp-color;
+  }
+  &--Conservatives {
+    color: $cpc-color;
+  }
+  &--Liberals {
+    color: $lpc-color;
+  }
+}

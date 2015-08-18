@@ -1,0 +1,182 @@
+{
+  "topics": {
+    "Child-care": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "National $15/day daycare"},
+          {"summary": "Keep Universal Child Care Benefit from Conservatives"}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Universal Child Care Benefit (taxable)"}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Canada Child Benefit (non-taxable)"}
+        ]}
+      ]
+    },
+
+    "Senate": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Abolish"}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Reform"}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "No new appointments, let provinces handle it"}
+        ]}
+      ]
+    },
+
+    "C-51": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Repeal"}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Keep"}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Reform"}
+        ]}
+      ]
+    },
+
+    "Taxes": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Raise corporate taxes"},
+          {"summary": "Lower small business tax"},
+          {"summary": "Remove stock option tax-benefit"},
+          {"summary": "Remove capital gains loophole"}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Home renovation tax credit"},
+          {"summary": "Bump first-time home buyer RRSP withdrawal limit to $35K (from $25K)"}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Lower middle-class taxes"},
+          {"summary": "New tax bracket above $200k"},
+          {"summary": "Remove income splitting"}
+        ]}
+      ]
+    },
+
+    "Environment": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Lower emissions"},
+          {"summary": "Increase renewable energy production"},
+          {"summary": "Preserve national parks"},
+          {"summary": "Pro-pipeline if environmental regulations attached"}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Pro-pipeline (Kinder Morgan, Keystone XL)"}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Focus on clean technology"},
+          {"summary": "Preserve national parks"}
+        ]}
+      ]
+    },
+
+    "Transit": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Commit gas-tax funds to transit infrastructure"}
+        ]},
+        {"party": "Conservatives", "policies": []},
+        {"party": "Liberals", "policies": []}
+      ]
+    },
+
+    "Aboriginal Relations": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "National public inquiry into missing and murdered aboriginal women within 100 days of taking office"}
+        ]},
+        {"party": "Conservatives", "policies": []},
+        {"party": "Liberals", "policies": [
+          {"summary": "Build renewed relationship with gov’t"},
+          {"summary": "National public inquiry into missing and murdered aboriginal women"}
+        ]}
+      ]
+    },
+
+    "Electoral Reform": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Mixed Member Parliament"}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Keep current system"},
+          {"summary": "Pass law requiring national referendum for any electoral reform"}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Committee to find best alternative (MMP, SRV)"},
+          {"summary": "Avoid referendum to pass reform"}
+        ]}
+      ]
+    },
+
+    "International Trade": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Pro-TPP"}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Pro-TPP"}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Pro-TPP"}
+        ]}
+      ]
+    },
+
+    "Foreign Relations": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Pro-Israel"},
+          {"summary": "In favour of a two-state solution"}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Anti-Russia"},
+          {"summary": "Anti-Iran"},
+          {"summary": "Pro-Israel"}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "In favour of a two-state solution"}
+        ]}
+      ]
+    },
+
+    "Coalition Government": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Depends on the day"}
+        ]},
+        {"party": "Conservatives", "policies": []},
+        {"party": "Liberals", "policies": [
+          {"summary": "Absolutely not"}
+        ]}
+      ]
+    },
+
+    "Science": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Encourage free speech for scientists"},
+          {"summary": "Create Parliamentary science watchdog", "details": "Not controlled by PM; gives Parliament info and expert advice on issue"}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Keep"}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Encourage free speech for scientists"},
+          {"summary": "Create Chief Science Officer appointed by PM"}
+        ]}
+      ]
+    }
+  }
+}

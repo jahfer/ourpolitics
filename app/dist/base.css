@@ -1,2 +1,117 @@
-* {
-  background-color: #eee; }
+/* layout */
+.policyTable {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between; }
+  .policyTable .policyRow {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap; }
+    .policyTable .policyRow.tableHeader {
+      display: none; }
+  .policyTable .policyTopic {
+    align-self: center; }
+  .policyTable .policyCell {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    flex-flow: column nowrap;
+    align-items: center; }
+  .policyTable .policyCell--party {
+    align-self: flex-start; }
+  .policyTable .policyCell--points {
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: flex-start; }
+  .policyTable .partyTitle {
+    align-self: center; }
+
+@media screen and (min-width: 650px) {
+  .policyTable .policyCell {
+    flex-direction: row; }
+  .policyTable .policyCell--party {
+    min-width: 130px; } }
+
+@media screen and (min-width: 800px) {
+  .policyTable .policyRow {
+    flex-direction: row; }
+    .policyTable .policyRow.tableHeader {
+      display: flex; }
+  .policyTable .policyCell--party {
+    display: none; } }
+
+/* styling */
+body {
+  background-color: #eee;
+  font-family: "Avenir Next", sans-serif; }
+
+#content {
+  width: 90%;
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px 5% 60px;
+  background-color: #fff; }
+
+.pageTitle {
+  text-align: center; }
+
+.policyCell--points {
+  padding: 0;
+  margin: 0;
+  list-style-type: circle; }
+
+.policyPoint--link {
+  text-decoration: none; }
+  .policyPoint--link:hover {
+    text-decoration: underline; }
+
+.policyCell {
+  padding: 5px; }
+  .policyCell.partyTitle {
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 5px;
+    display: block; }
+  .policyCell:last-of-type {
+    border: none; }
+  .policyCell--party {
+    margin: 0; }
+
+.policyTopic {
+  border: none; }
+
+.policyTopic--title {
+  margin: 5px 0; }
+
+.policyRow {
+  border-bottom: 1px solid #000;
+  padding: 10px 0; }
+  .policyRow.tableHeader {
+    padding: 0;
+    border-bottom: 2px solid #000; }
+
+@media screen and (min-width: 650px) {
+  .policyCell--points {
+    padding-left: 20px; } }
+
+@media screen and (min-width: 800px) {
+  .policyCell {
+    border-bottom: none; }
+  .policyPoint {
+    margin-bottom: 10px;
+    /*padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;*/ }
+    .policyPoint:last-of-type {
+      border: none;
+      margin-bottom: 0; } }
+
+.textColor--NDP {
+  color: #F37021; }
+
+.textColor--Conservatives {
+  color: #1A4782; }
+
+.textColor--Liberals {
+  color: #D71920; }

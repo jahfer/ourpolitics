@@ -1,84 +1,117 @@
 /* @flow */
 
 import * as React from "react";
-import {parse} from "marked";
+import "babelify/polyfill";
+import {_} from "lodash";
 
-class Comment extends React.Component {
+function* entries(obj) {
+  for (let key of Object.keys(obj)) {
+   yield [key, obj[key]];
+  }
+}
+
+class PolicyPoint extends React.Component {
+  _onClick(e) {
+    alert(this.props.policy.summary);
+    
+    e.preventDefault();
+    return false;
+  }
+
   render() {
-    var rawMarkup = parse(this.props.children.toString(), {sanitize: true})
     return (
-      <div className="comment">
-        <h2 className="commentAuthor">
-          {this.props.author}
-        </h2>
-        <span dangerouslySetInnerHTML={{__html: rawMarkup}} />
+      <li className="policyPoint">
+        <a className="policyPoint--link" href='#' onClick={this._onClick.bind(this)}>{this.props.policy.summary}</a>
+      </li>
+    )
+  }
+}
+
+class PolicyCell extends React.Component {
+  render() {
+    let listItems = (this.props.policies.length) ? this.props.policies.map((policy) => <PolicyPoint policy={policy} />) : <li>N/A</li>
+
+    return (
+      <div className="policyCell">
+        <h4 className={`policyCell--party textColor--${this.props.party}`}>{this.props.party}</h4>
+        <ul className="policyCell--points">
+          {listItems}
+        </ul>
       </div>
     );
   }
 }
 
-class CommentList extends React.Component {
+class PolicyRow extends React.Component {
+  findPoliciesForParty(party) {
+    return _.chain(this.props.data.positions).find('party', party).value()
+  }
+
   render() {
-    var commentNodes = this.props.data.map((comment) =>
-      <Comment author={comment.author}>
-        {comment.text}
-      </Comment>
-    );
+    let policyCells = ['NDP', 'Conservatives', 'Liberals']
+      .map(this.findPoliciesForParty.bind(this))
+      .map((data) => <PolicyCell party={data.party} policies={data.policies} />)
+
     return (
-      <div className="commentList">
-        {commentNodes}
+      <div className="policyRow">
+        <div className="policyCell policyTopic"><h3 className="policyTopic--title">{this.props.topic}</h3></div>
+        {policyCells}
       </div>
     );
   }
 }
 
-class CommentForm extends React.Component {
+class PolicyTable extends React.Component {
   render() {
+    let policyRows = []
+    for (let [topic, data] of entries(this.props.data)) {
+      policyRows.push(<PolicyRow topic={topic} data={data} />)
+    }
+
     return (
-      <div className="commentForm">
-        Hello, world! I am a CommentForm.
+      <div className="policyTable">
+        <div className="policyRow tableHeader">
+          <div className="policyCell"></div>
+          <div className="policyCell partyTitle textColor--NDP">NDP</div>
+          <div className="policyCell partyTitle textColor--Conservatives">Conservatives</div>
+          <div className="policyCell partyTitle textColor--Liberals">Liberals</div>
+        </div>
+        {policyRows}
       </div>
     );
   }
 }
 
-class CommentBox extends React.Component {
+class PolicyBreakdown extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { data: [] };
+    this.state = {data: {}};
   }
 
-  loadCommentsFromServer() {
+  loadPoliciesFromServer() {
     fetch(this.props.url)
       .then((response) => response.json())
-      .then((data) => this.setState({data}))
+      .then((data) => this.setState({data: data.topics}))
       .catch((err) => console.error(this.props.url, err.toString()))
   }
 
   componentDidMount() {
-    this.loadCommentsFromServer();
-    setInterval(this.loadCommentsFromServer.bind(this), this.props.pollInterval);
+    this.loadPoliciesFromServer();
   }
 
   render() {
     return (
-      <div className="commentBox">
-        <h1>Comments</h1>
-        <CommentList data={this.state.data} />
-        <CommentForm />
+      <div className="policyBreakdown">
+        <h1 className="pageTitle">Policy Breakdown</h1>
+        <PolicyTable data={this.state.data} />
       </div>
     );
   }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  var data = [
-    {author: "Pete Hunt", text: "This is a comment"},
-    {author: "Jordan Walke", text: "This is *another* comment"}
-  ];
-
   React.render(
-    <CommentBox url="/data/comments.json" pollInterval={2000} />,
+    <PolicyBreakdown url="/data/policies.json" pollInterval={2000} />,
     document.getElementById('content')
   )
 })

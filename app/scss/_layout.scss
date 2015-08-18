@@ -1,0 +1,72 @@
+/* layout */
+
+.policyTable {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  .policyRow {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+
+    &.tableHeader {
+      display: none;
+    }
+  }
+
+  .policyTopic {
+    align-self: center;
+  }
+
+  .policyCell {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .policyCell--party {
+    align-self: flex-start;
+  }
+
+  .policyCell--points {
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: flex-start;
+  }
+
+  .partyTitle {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .policyTable {
+    .policyCell {
+      flex-direction: row;
+    }
+
+    .policyCell--party {
+      min-width: 130px;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .policyTable {
+    .policyRow {
+      flex-direction: row;
+
+      &.tableHeader {
+        display: flex;
+      }
+    }
+
+    .policyCell--party {
+      display: none;
+    }
+  }
+}
