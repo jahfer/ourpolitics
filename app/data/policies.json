@@ -3,14 +3,30 @@
     "Child-care": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "National $15/day daycare"},
-          {"summary": "Keep Universal Child Care Benefit from Conservatives"}
+          {"summary": "National $15/day daycare",
+           "references": [
+              {"url": "http://google.com", "date": "2015-01-12"},
+              {"url": "http://facebook.com", "date": "2015-05-01"}
+           ]},
+          {"summary": "Keep Universal Child Care Benefit",
+           "references": [
+              {"url": "http://google.com", "date": "2015-04-26"},
+              {"url": "http://facebook.com", "date": "2015-06-14"}
+           ]}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Universal Child Care Benefit (taxable)"}
+          {"summary": "Universal Child Care Benefit (taxable)",
+           "references": [
+              {"url": "http://google.com", "date": "2015-08-01"},
+              {"url": "http://facebook.com", "date": "2015-07-05"}
+           ]}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Canada Child Benefit (non-taxable)"}
+          {"summary": "Canada Child Benefit (non-taxable)",
+           "references": [
+              {"url": "http://google.com", "date": "2015-05-30"},
+              {"url": "http://facebook.com", "date": "2015-08-15"}
+           ]}
         ]}
       ]
     },
@@ -18,13 +34,16 @@
     "Senate": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Abolish"}
+          {"summary": "Abolish",
+           "references": []}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Reform"}
+          {"summary": "Reform",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "No new appointments, let provinces handle it"}
+          {"summary": "No new appointments",
+           "references": []}
         ]}
       ]
     },
@@ -32,13 +51,16 @@
     "C-51": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Repeal"}
+          {"summary": "Repeal",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Keep"}
+          {"summary": "Keep",
+           "references": []}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Reform"}
+          {"summary": "Reform",
+           "references": []}
         ]}
       ]
     },
@@ -46,19 +68,28 @@
     "Taxes": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Raise corporate taxes"},
-          {"summary": "Lower small business tax"},
-          {"summary": "Remove stock option tax-benefit"},
-          {"summary": "Remove capital gains loophole"}
+          {"summary": "Raise corporate taxes",
+           "references": []},
+          {"summary": "Lower small business tax",
+           "references": []},
+          {"summary": "Remove stock option tax-benefit",
+           "references": []},
+          {"summary": "Remove capital gains loophole",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Home renovation tax credit"},
-          {"summary": "Bump first-time home buyer RRSP withdrawal limit to $35K (from $25K)"}
+          {"summary": "Home renovation tax credit",
+           "references": []},
+          {"summary": "Bump RRSP withdrawal limit",
+           "references": []}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Lower middle-class taxes"},
-          {"summary": "New tax bracket above $200k"},
-          {"summary": "Remove income splitting"}
+          {"summary": "Lower middle-class taxes",
+           "references": []},
+          {"summary": "New tax bracket above $200k",
+           "references": []},
+          {"summary": "Remove income splitting",
+           "references": []}
         ]}
       ]
     },
@@ -66,17 +97,24 @@
     "Environment": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Lower emissions"},
-          {"summary": "Increase renewable energy production"},
-          {"summary": "Preserve national parks"},
-          {"summary": "Pro-pipeline if environmental regulations attached"}
+          {"summary": "Lower emissions",
+           "references": []},
+          {"summary": "Increase renewable energy production",
+           "references": []},
+          {"summary": "Preserve national parks",
+           "references": []},
+          {"summary": "Environmental study on pipeline impact",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Pro-pipeline (Kinder Morgan, Keystone XL)"}
+          {"summary": "Pro-pipeline (Kinder Morgan, Keystone XL)",
+           "references": []}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Focus on clean technology"},
-          {"summary": "Preserve national parks"}
+          {"summary": "Focus on clean technology",
+           "references": []},
+          {"summary": "Preserve national parks",
+           "references": []}
         ]}
       ]
     },
@@ -84,7 +122,8 @@
     "Transit": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Commit gas-tax funds to transit infrastructure"}
+          {"summary": "Commit gas-tax funds to transit infrastructure",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": []},
         {"party": "Liberals", "policies": []}
@@ -94,12 +133,15 @@
     "Aboriginal Relations": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "National public inquiry into missing and murdered aboriginal women within 100 days of taking office"}
+          {"summary": "National public inquiry within 100 days of office",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": []},
         {"party": "Liberals", "policies": [
-          {"summary": "Build renewed relationship with gov’t"},
-          {"summary": "National public inquiry into missing and murdered aboriginal women"}
+          {"summary": "Build renewed relationship with gov’t",
+           "references": []},
+          {"summary": "National public inquiry",
+           "references": []}
         ]}
       ]
     },
@@ -107,15 +149,20 @@
     "Electoral Reform": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Mixed Member Parliament"}
+          {"summary": "Mixed Member Parliament",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Keep current system"},
-          {"summary": "Pass law requiring national referendum for any electoral reform"}
+          {"summary": "Keep current system",
+           "references": []},
+          {"summary": "Require national referendum for reform",
+           "references": []}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Committee to find best alternative (MMP, SRV)"},
-          {"summary": "Avoid referendum to pass reform"}
+          {"summary": "Committee to find best alternative",
+           "references": []},
+          {"summary": "Avoid referendum to pass reform",
+           "references": []}
         ]}
       ]
     },
@@ -123,13 +170,16 @@
     "International Trade": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Pro-TPP"}
+          {"summary": "Pro-TPP",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Pro-TPP"}
+          {"summary": "Pro-TPP",
+           "references": []}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Pro-TPP"}
+          {"summary": "Pro-TPP",
+           "references": []}
         ]}
       ]
     },
@@ -137,16 +187,22 @@
     "Foreign Relations": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Pro-Israel"},
-          {"summary": "In favour of a two-state solution"}
+          {"summary": "Pro-Israel",
+           "references": []},
+          {"summary": "In favour of a two-state solution",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Anti-Russia"},
-          {"summary": "Anti-Iran"},
-          {"summary": "Pro-Israel"}
+          {"summary": "Anti-Russia",
+           "references": []},
+          {"summary": "Anti-Iran",
+           "references": []},
+          {"summary": "Pro-Israel",
+           "references": []}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "In favour of a two-state solution"}
+          {"summary": "In favour of a two-state solution",
+           "references": []}
         ]}
       ]
     },
@@ -154,11 +210,13 @@
     "Coalition Government": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Depends on the day"}
+          {"summary": "Depends on the day",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": []},
         {"party": "Liberals", "policies": [
-          {"summary": "Absolutely not"}
+          {"summary": "Absolutely not",
+           "references": []}
         ]}
       ]
     },
@@ -166,15 +224,21 @@
     "Science": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Encourage free speech for scientists"},
-          {"summary": "Create Parliamentary science watchdog", "details": "Not controlled by PM; gives Parliament info and expert advice on issue"}
+          {"summary": "Encourage free speech for scientists",
+           "references": []},
+          {"summary": "Create Parliamentary science watchdog",
+           "details": "Not controlled by PM; gives Parliament info and expert advice on issue",
+           "references": []}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Keep"}
+          {"summary": "Keep",
+           "references": []}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Encourage free speech for scientists"},
-          {"summary": "Create Chief Science Officer appointed by PM"}
+          {"summary": "Encourage free speech for scientists",
+           "references": []},
+          {"summary": "Create Chief Science Officer",
+           "references": []}
         ]}
       ]
     }

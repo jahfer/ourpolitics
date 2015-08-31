@@ -15,8 +15,12 @@
     }
   }
 
-  .policyTopic {
-    align-self: center;
+  .policyCells {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    flex-flow: column nowrap;
   }
 
   .policyCell {
@@ -26,6 +30,12 @@
     flex-basis: 0;
     flex-flow: column nowrap;
     align-items: center;
+
+    &.policyTopic {
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .policyCell--party {
@@ -58,11 +68,15 @@
 @media screen and (min-width: 800px) {
   .policyTable {
     .policyRow {
-      flex-direction: row;
+      flex-direction: column;
 
       &.tableHeader {
         display: flex;
       }
+    }
+
+    .policyCells {
+      flex-direction: row;
     }
 
     .policyCell--party {
