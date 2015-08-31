@@ -16,3 +16,16 @@ $lpc-color: #D71920;
     color: $lpc-color;
   }
 }
+
+
+.backgroundColor{
+  &--NDP {
+    background-color: $ndp-color;
+  }
+  &--Conservatives {
+    background-color: $cpc-color;
+  }
+  &--Liberals {
+    background-color: $lpc-color;
+  }
+}

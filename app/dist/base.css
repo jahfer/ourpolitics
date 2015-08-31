@@ -54,7 +54,7 @@
 /* styling */
 body {
   background-color: #eee;
-  font-family: "Avenir Next", sans-serif; }
+  font-family: sans-serif; }
 
 #content {
   width: 90%;
@@ -72,7 +72,8 @@ body {
   list-style-type: circle; }
 
 .policyCell {
-  padding: 5px; }
+  padding: 5px;
+  line-height: 1.3em; }
   .policyCell.partyTitle {
     font-weight: bold;
     text-align: center;
@@ -86,11 +87,9 @@ body {
 
 .policyTimeline {
   align-self: center;
-  background: #eee;
   display: block;
   width: 100%;
-  text-align: center;
-  padding: 20px 0; }
+  border-top: 1px solid #bbb; }
 
 .policyTopic {
   border: none; }
@@ -99,11 +98,33 @@ body {
   margin: 5px 0; }
 
 .policyRow {
-  border-bottom: 1px solid #000;
-  padding: 10px 0; }
+  margin-bottom: 10px 0;
+  padding-top: 10px;
+  border-bottom: 1px solid #000; }
   .policyRow.tableHeader {
     padding: 0;
     border-bottom: 2px solid #000; }
+
+.policyCells {
+  padding-bottom: 10px; }
+
+.timelineRow {
+  display: flex; }
+
+.timelineElement {
+  display: inline-block;
+  padding: 5px;
+  width: 260px;
+  color: #fff;
+  font-size: 12px; }
+
+.event {
+  background-color: #eee;
+  flex: 1;
+  height: 80%; }
+
+.spacer {
+  background-color: none; }
 
 @media screen and (min-width: 650px) {
   .policyCell--points {
@@ -128,3 +149,12 @@ body {
 
 .textColor--Liberals {
   color: #D71920; }
+
+.backgroundColor--NDP {
+  background-color: #F37021; }
+
+.backgroundColor--Conservatives {
+  background-color: #1A4782; }
+
+.backgroundColor--Liberals {
+  background-color: #D71920; }

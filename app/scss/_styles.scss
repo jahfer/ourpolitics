@@ -2,7 +2,7 @@
 
 body { 
   background-color: #eee;
-  font-family: "Avenir Next", sans-serif;
+  font-family: sans-serif;
 }
 
 #content {
@@ -26,6 +26,7 @@ body {
 
 .policyCell {
   padding: 5px;
+  line-height: 1.3em;
 
   &.partyTitle {
     font-weight: bold;
@@ -46,11 +47,9 @@ body {
 
 .policyTimeline {
   align-self: center;
-  background: #eee;
   display: block;
   width: 100%;
-  text-align: center;
-  padding: 20px 0;
+  border-top: 1px solid #bbb;
 }
 
 .policyTopic {
@@ -62,13 +61,41 @@ body {
 }
 
 .policyRow {
+  margin-bottom: 10px 0;
+  padding-top: 10px;
   border-bottom: 1px solid #000;
-  padding: 10px 0;
 
   &.tableHeader {
     padding: 0;
     border-bottom: 2px solid #000;
   }
+}
+
+.policyCells {
+  padding-bottom: 10px;
+}
+
+.timelineRow {
+  display: flex;
+}
+
+.timelineElement {
+  display: inline-block;
+  padding: 5px;
+  width: 260px;
+
+  color: #fff;
+  font-size: 12px;
+}
+
+.event {
+  background-color: #eee;
+  flex: 1;
+  height: 80%;
+}
+
+.spacer {
+  background-color: none;
 }
 
 @media screen and (min-width: 650px) {
