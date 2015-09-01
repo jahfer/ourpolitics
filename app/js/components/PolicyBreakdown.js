@@ -30,8 +30,17 @@ class PolicyCell extends React.Component {
 }
 
 class PolicyRow extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {timelineOpen: false}
+  }
+
   findPoliciesForParty(party) {
     return _.chain(this.props.data.positions).find('party', party).value()
+  }
+
+  toggleTimeline() {
+    this.setState({timelineOpen: !this.state.timelineOpen})
   }
 
   render() {
@@ -44,11 +53,15 @@ class PolicyRow extends React.Component {
         <div className="policyCells">
           <div className="policyCell policyTopic">
             <h3 className="policyTopic--title">{this.props.topic}</h3>
-            <a href="#">Details</a>
+            <a href="#" onClick={this.toggleTimeline.bind(this)}>
+              {this.state.timelineOpen ? 'Close' : 'Details'}
+            </a>
           </div>
           {policyCells}
         </div>
-        <PolicyTimeline partyPositions={this.props.data.positions} />
+        {this.state.timelineOpen &&
+          <PolicyTimeline partyPositions={this.props.data.positions} />
+        }
       </div>
     );
   }

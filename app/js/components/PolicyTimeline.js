@@ -15,14 +15,34 @@ class Event extends React.Component {
 }
 
 class TimelineRow extends React.Component {
+  openTabForReference(url) {
+    let tab = window.open(url, '_blank')
+    tab.focus()
+  }
+
   render() {
-    let startOffset, endOffset;
+    let references = this.props.policy.references.map(ref => {
+      ref.weekOfYear = new Date(ref.date).getWeekNumber()
+      return ref
+    }).sort((a, b) => a.weekOfYear - b.weekOfYear);
+
+    let nodes = references.reduce((acc, ref) => {
+      let {elements: elements, prevWeekOfYear: prevWeekOfYear} = acc
+      let spacerLength = ref.weekOfYear - (prevWeekOfYear + 1)
+
+      elements.push(<div style={{flex: spacerLength}} className="spacer"></div>)
+      elements.push(
+        <div className={`event backgroundColor--${this.props.party}`} onClick={this.openTabForReference.bind(this, ref.url)}>
+          <div className="referenceText">{ref.company}</div>
+        </div>
+      )
+
+      return {elements, prevWeekOfYear: ref.weekOfYear}
+    }, {elements: [], prevWeekOfYear: 0})
 
     if (this.props.policy.references.length) {
-      let referenceDate = new Date(this.props.policy.references[0].date)
-      let weekOfYear = referenceDate.getWeekNumber();
-      startOffset = weekOfYear-1;
-      endOffset = 51-weekOfYear;
+      let spacerLength = 52 - references.slice(-1)[0].weekOfYear
+      nodes.elements.push(<div style={{flex: spacerLength}} className="spacer"></div>)
     }
 
     return (
@@ -32,9 +52,7 @@ class TimelineRow extends React.Component {
         </div>
         {this.props.policy.references.length > 0 &&
           <div style={{display: 'flex', flex: 1, alignItems: 'center'}}>
-            <div style={{flex: startOffset}}></div>
-            <div className={`event backgroundColor--${this.props.party}`}></div>
-            <div style={{flex: endOffset}}></div>
+            {nodes.elements}
           </div>
         }
       </div>

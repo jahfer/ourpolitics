@@ -89,7 +89,8 @@ body {
   align-self: center;
   display: block;
   width: 100%;
-  border-top: 1px solid #bbb; }
+  border-top: 1px solid #bbb;
+  padding: 10px 0; }
 
 .policyTopic {
   border: none; }
@@ -100,7 +101,9 @@ body {
 .policyRow {
   margin-bottom: 10px 0;
   padding-top: 10px;
-  border-bottom: 1px solid #000; }
+  border-bottom: 1px solid #000;
+  /*transition: max-height 1s ease-in-out;
+  overflow: hidden;*/ }
   .policyRow.tableHeader {
     padding: 0;
     border-bottom: 2px solid #000; }
@@ -120,11 +123,34 @@ body {
 
 .event {
   background-color: #eee;
-  flex: 1;
-  height: 80%; }
+  opacity: 0.8;
+  height: 80%;
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 0 5px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  font-size: 11px;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap; }
+  .event:hover {
+    opacity: 1;
+    cursor: pointer;
+    padding: 2px 15px; }
+    .event:hover .referenceText {
+      width: 100%; }
 
 .spacer {
-  background-color: none; }
+  background-color: none;
+  border-bottom: 1px solid #ddd;
+  height: 0px; }
+
+.referenceText {
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 4px;
+  width: 0%; }
 
 @media screen and (min-width: 650px) {
   .policyCell--points {
