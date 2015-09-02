@@ -7,6 +7,7 @@ var watchify = require('watchify');
 var assign = require('lodash.assign');
 var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
 
 var customOpts = {
   entries: ['./app/js/main.js'],
@@ -47,6 +48,10 @@ gulp.task('serve', ['js', 'sass'], function() {
 gulp.task('sass', function() {
   return gulp.src('./app/scss/*.scss')
     .pipe(sass())
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions'],
+      cascade: false
+    }))
     .pipe(gulp.dest('./app/dist'))
     .pipe(browserSync.reload({stream: true}));
 });

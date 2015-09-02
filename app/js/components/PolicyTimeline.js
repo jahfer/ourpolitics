@@ -33,7 +33,7 @@ class TimelineRow extends React.Component {
       elements.push(<div style={{flex: spacerLength}} className="spacer"></div>)
       elements.push(
         <div className={`event backgroundColor--${this.props.party}`} onClick={this.openTabForReference.bind(this, ref.url)}>
-          <div className="referenceText">{ref.company}</div>
+          <div className="referenceText">{ref.publisher}</div>
         </div>
       )
 

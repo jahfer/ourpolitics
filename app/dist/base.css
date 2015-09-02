@@ -1,52 +1,99 @@
 /* layout */
 .policyTable {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between; }
   .policyTable .policyRow {
     width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column nowrap; }
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto; }
     .policyTable .policyRow.tableHeader {
       display: none; }
   .policyTable .policyCells {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
     flex-flow: column nowrap; }
   .policyTable .policyCell {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center; }
     .policyTable .policyCell.policyTopic {
+      -webkit-align-self: center;
+      -ms-flex-item-align: center;
       align-self: center;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
       flex-direction: column; }
   .policyTable .policyCell--party {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
     align-self: flex-start; }
   .policyTable .policyCell--points {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
     align-self: flex-start; }
   .policyTable .partyTitle {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
     align-self: center; }
 
 @media screen and (min-width: 650px) {
   .policyTable .policyCell {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row; }
   .policyTable .policyCell--party {
     min-width: 130px; } }
 
 @media screen and (min-width: 800px) {
   .policyTable .policyRow {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column; }
     .policyTable .policyRow.tableHeader {
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex; }
   .policyTable .policyCells {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row; }
   .policyTable .policyCell--party {
     display: none; } }
@@ -86,6 +133,8 @@ body {
     margin: 0; }
 
 .policyTimeline {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
   align-self: center;
   display: block;
   width: 100%;
@@ -102,6 +151,9 @@ body {
   margin-bottom: 10px 0;
   padding-top: 10px;
   border-bottom: 1px solid #000;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   /*transition: max-height 1s ease-in-out;
   overflow: hidden;*/ }
   .policyRow.tableHeader {
@@ -112,6 +164,8 @@ body {
   padding-bottom: 10px; }
 
 .timelineRow {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
 
 .timelineElement {
@@ -124,12 +178,14 @@ body {
 .event {
   background-color: #eee;
   opacity: 0.8;
-  height: 80%;
+  height: 18px;
   border-radius: 2px;
   padding: 0 5px;
   margin: 0 5px;
   font-weight: bold;
   color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   font-size: 11px;
   transition: all 0.2s ease-in-out;
@@ -149,8 +205,8 @@ body {
 .referenceText {
   display: inline-block;
   overflow: hidden;
-  margin-top: 4px;
-  width: 0%; }
+  width: 0%;
+  line-height: 18px; }
 
 @media screen and (min-width: 650px) {
   .policyCell--points {

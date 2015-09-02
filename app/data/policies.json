@@ -5,28 +5,28 @@
         {"party": "NDP", "policies": [
           {"summary": "National $15/day daycare",
            "references": [
-              {"url": "http://google.com", "company": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "company": "CBC", "date": "2015-05-01"}
+              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
+              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
            ]},
           {"summary": "Keep Universal Child Care Benefit",
            "references": [
-              {"url": "http://google.com", "company": "The Star", "date": "2015-04-26"},
-              {"url": "http://facebook.com", "company": "The Globe & Mail", "date": "2015-06-14"},
-              {"url": "http://facebook.com", "company": "CBC", "date": "2015-06-14"}
+              {"url": "http://google.com", "publisher": "The Star", "date": "2015-04-26"},
+              {"url": "http://facebook.com", "publisher": "The Globe & Mail", "date": "2015-06-14"},
+              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-06-14"}
            ]}
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Universal Child Care Benefit (taxable)",
            "references": [
-              {"url": "http://google.com", "company": "National Post", "date": "2015-08-01"},
-              {"url": "http://facebook.com", "company": "The Star", "date": "2015-07-05"}
+              {"url": "http://google.com", "publisher": "National Post", "date": "2015-08-01"},
+              {"url": "http://facebook.com", "publisher": "The Star", "date": "2015-07-05"}
            ]}
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Canada Child Benefit (non-taxable)",
            "references": [
-              {"url": "http://google.com", "company": "The Walrus", "date": "2015-05-30"},
-              {"url": "http://facebook.com", "company": "CBC", "date": "2015-08-15"}
+              {"url": "http://google.com", "publisher": "The Walrus", "date": "2015-05-30"},
+              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-08-15"}
            ]}
         ]}
       ]
