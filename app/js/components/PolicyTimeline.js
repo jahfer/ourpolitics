@@ -1,12 +1,6 @@
 import * as React from "react";
 import {_} from "lodash";
-
-Date.prototype.getWeekNumber = function(){
-  var d = new Date(+this);
-  d.setHours(0,0,0);
-  d.setDate(d.getDate()+4-(d.getDay()||7));
-  return Math.ceil((((d-new Date(d.getFullYear(),0,1))/8.64e7)+1)/7);
-};
+import "../util";
 
 class Event extends React.Component {
   render() {
@@ -75,13 +69,30 @@ class TimelinePartyRow extends React.Component {
 export class PolicyTimeline extends React.Component {
   render() {
     let timelineRows = this.props.partyPositions.map(function (positions) {
-      return positions.policies.length > 0 ? <TimelinePartyRow party={positions.party} policies={positions.policies} /> : null;
+      return positions.policies.length > 0 ? <TimelinePartyRow party={positions.party} policies={positions.policies} key={`PolicyTimeline:${positions.party}`} /> : null;
     });
 
     timelineRows = _.compact(timelineRows);
 
     return (
       <div className="policyTimeline">
+        <div className="timelineRow timelineTickMarks">
+          <div className="timelineElement"></div>
+          <div style={{display: 'flex', flex: 1}}>
+            <div style={{flex: 1, textAlign: 'center'}}>JAN</div>
+            <div style={{flex: 1, textAlign: 'center'}}>FEB</div>
+            <div style={{flex: 1, textAlign: 'center'}}>MAR</div>
+            <div style={{flex: 1, textAlign: 'center'}}>APR</div>
+            <div style={{flex: 1, textAlign: 'center'}}>MAY</div>
+            <div style={{flex: 1, textAlign: 'center'}}>JUN</div>
+            <div style={{flex: 1, textAlign: 'center'}}>JUL</div>
+            <div style={{flex: 1, textAlign: 'center'}}>AUG</div>
+            <div style={{flex: 1, textAlign: 'center'}}>SEP</div>
+            <div style={{flex: 1, textAlign: 'center'}}>OCT</div>
+            <div style={{flex: 1, textAlign: 'center'}}>NOV</div>
+            <div style={{flex: 1, textAlign: 'center'}}>DEC</div>
+          </div>
+        </div>
         {timelineRows}
       </div>
     )

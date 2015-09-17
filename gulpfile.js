@@ -24,7 +24,7 @@ b.on('log', gutil.log); // output build logs to terminal
 function bundle() {
   return b
     .transform(babelify.configure({
-      blacklist: ["regenerator"]
+      optional: ["runtime"]
     }))
     .bundle()
     .on('error', gutil.log.bind(gutil, 'Browserify Error'))

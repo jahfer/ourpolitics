@@ -7,9 +7,11 @@
     "gulp": "^3.9.0",
     "lodash": "^3.10.1",
     "marked": "^0.3.5",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "whatwg-fetch": "^0.9.0"
   },
   "devDependencies": {
+    "babel-runtime": "^5.8.20",
     "babelify": "^6.1.3",
     "browser-sync": "^2.8.2",
     "browserify": "^11.0.1",
