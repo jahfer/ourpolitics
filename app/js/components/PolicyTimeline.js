@@ -77,20 +77,20 @@ export class PolicyTimeline extends React.Component {
     return (
       <div className="policyTimeline">
         <div className="timelineRow timelineTickMarks">
-          <div className="timelineElement"></div>
+          <div className="timelineElement">Reference Articles</div>
           <div style={{display: 'flex', flex: 1}}>
-            <div style={{flex: 1, textAlign: 'center'}}>JAN</div>
-            <div style={{flex: 1, textAlign: 'center'}}>FEB</div>
-            <div style={{flex: 1, textAlign: 'center'}}>MAR</div>
-            <div style={{flex: 1, textAlign: 'center'}}>APR</div>
-            <div style={{flex: 1, textAlign: 'center'}}>MAY</div>
-            <div style={{flex: 1, textAlign: 'center'}}>JUN</div>
-            <div style={{flex: 1, textAlign: 'center'}}>JUL</div>
-            <div style={{flex: 1, textAlign: 'center'}}>AUG</div>
-            <div style={{flex: 1, textAlign: 'center'}}>SEP</div>
-            <div style={{flex: 1, textAlign: 'center'}}>OCT</div>
-            <div style={{flex: 1, textAlign: 'center'}}>NOV</div>
-            <div style={{flex: 1, textAlign: 'center'}}>DEC</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>JAN</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>FEB</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>MAR</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>APR</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>MAY</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>JUN</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>JUL</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>AUG</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>SEP</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>OCT</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>NOV</div>
+            <div className="timelineTickMark" style={{flex: 1, textAlign: 'center'}}>DEC</div>
           </div>
         </div>
         {timelineRows}

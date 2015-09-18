@@ -140,8 +140,9 @@ body {
   display: block;
   width: 100%;
   border-top: 1px solid #bbb;
-  padding: 10px 0;
-  position: relative; }
+  padding: 31px 0 10px;
+  position: relative;
+  overflow: hidden; }
 
 .policyTopic {
   border: none; }
@@ -184,18 +185,32 @@ body {
 .timelineRow {
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  z-index: 2;
+  position: relative; }
 
 .timelineTickMarks {
   position: absolute;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  top: 0;
+  padding: 10px 0;
+  font-size: 11px;
+  color: #777;
+  z-index: 1; }
+  .timelineTickMarks .timelineElement {
+    font-weight: bold; }
+
+.timelineTickMark {
+  border-right: 1px dashed #ddd; }
+  .timelineTickMark:last-of-type {
+    border: none; }
 
 .timelineElement {
   display: inline-block;
   padding: 5px;
   width: 260px;
-  color: #fff;
+  color: #333;
   font-size: 12px; }
 
 .event {
@@ -219,11 +234,6 @@ body {
     padding: 2px 15px; }
     .event:hover .referenceText {
       width: 100%; }
-
-.spacer {
-  background-color: none;
-  border-bottom: 1px solid #ddd;
-  height: 0px; }
 
 .referenceText {
   display: inline-block;
