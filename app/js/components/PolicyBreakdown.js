@@ -54,15 +54,9 @@ class PolicyRow extends React.Component {
         <div className="policyCells">
           <div className="policyCell policyTopic">
             <h3 className="policyTopic--title">{this.props.topic}</h3>
-            <a href="#" onClick={this.toggleTimeline.bind(this)}>
-              {this.state.timelineOpen ? 'Close' : 'Details'}
-            </a>
           </div>
           {policyCells}
         </div>
-        {this.state.timelineOpen &&
-          <PolicyTimeline partyPositions={this.props.data.positions} />
-        }
       </div>
     );
   }
