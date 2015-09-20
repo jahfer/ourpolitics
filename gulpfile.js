@@ -9,32 +9,13 @@ var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 
-var customOpts = {
-  entries: ['./app/js/main.js'],
-  debug: true
-};
-
-var opts = assign({}, watchify.args, customOpts);
-var b = watchify(browserify(opts));
-
-gulp.task('js', bundle); // so you can run `gulp js` to build the file
-b.on('update', bundle); // on any dep update, runs the bundler
-b.on('log', gutil.log); // output build logs to terminal
-
-function bundle() {
-  return b
-    .transform(babelify.configure({
-      optional: ["runtime"]
-    }))
-    .bundle()
-    .on('error', gutil.log.bind(gutil, 'Browserify Error'))
-    .pipe(source('all.js'))
-    .pipe(gulp.dest('./app/dist'));
-}
-
 gulp.task('serve', ['js', 'sass'], function() {
+  var bundle = createBundle();
+  bundle.on('update', function() { execBundle(bundle); });
+  bundle.on('log', gutil.log);
+
   browserSync({
-    server: "./app"
+    server: './app'
   });
 
   gulp.watch('./app/scss/*.scss', ['sass']);
@@ -43,6 +24,13 @@ gulp.task('serve', ['js', 'sass'], function() {
     './app/dist/*.js',
     './app/*.html'
   ]).on('change', browserSync.reload);
+
+  execBundle(bundle);
+});
+
+gulp.task('js', function() {
+  var bundle = createBundle();
+  execBundle(bundle);
 });
 
 gulp.task('sass', function() {
@@ -57,3 +45,27 @@ gulp.task('sass', function() {
 });
 
 gulp.task('default', ['serve']);
+
+function createBundle() {
+  var customOpts = {
+    entries: ['./app/js/main.js'],
+    debug: true
+  };
+
+  var opts = assign({}, watchify.args, customOpts);
+  var bundle = watchify(browserify(opts));
+
+  bundle.transform(babelify.configure({
+    optional: ['runtime']
+  }));
+
+  return bundle;
+}
+
+function execBundle(b) {
+  return b
+    .bundle()
+    .on('error', gutil.log.bind(gutil, 'Browserify Error'))
+    .pipe(source('all.js'))
+    .pipe(gulp.dest('./app/dist'));
+}
