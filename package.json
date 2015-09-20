@@ -8,6 +8,8 @@
     "lodash": "^3.10.1",
     "marked": "^0.3.5",
     "react": "^0.13.3",
+    "react-modal": "^0.3.0",
+    "reflux": "^0.2.12",
     "whatwg-fetch": "^0.9.0"
   },
   "devDependencies": {
