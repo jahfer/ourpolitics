@@ -2,38 +2,32 @@ import * as React from 'react';
 import 'babelify/polyfill';
 import {_} from 'lodash';
 import {entries} from '../util';
-// import {PolicyTimeline} from './PolicyTimeline';
 import * as Reflux from 'reflux';
 
 require('whatwg-fetch');
 var Modal = require('react-modal');
+var objectAssign = require('object-assign');
+var matchMedia = require('matchmedia');
 
-const customStyles = {
-  overlay : {
-    position          : 'fixed',
-    top               : 0,
-    left              : 0,
-    right             : 0,
-    bottom            : 0,
-    backgroundColor   : 'rgba(255, 255, 255, 0.75)'
-  },
-  content : {
-    position                   : 'absolute',
-    top                        : '40px',
-    left                       : '40px',
-    right                      : '40px',
-    bottom                     : '40px',
-    border                     : '1px solid #ccc',
-    background                 : '#fff',
-    overflow                   : 'auto',
-    WebkitOverflowScrolling    : 'touch',
-    borderRadius               : '4px',
-    outline                    : 'none',
-    padding                    : '20px'
+const modalStyles = (function(){
+  let modalStyles = {
+    content: {
+      textAlign: 'center',
+      backgroundColor: '#fff',
+      border: 'none'
+    }
+  };
+
+  if (matchMedia('(max-width: 800px)').matches) {
+    modalStyles.content = objectAssign(modalStyles.content, {
+      borderRadius: 0,
+      left: 0,
+      right: 0
+    });
   }
-};
 
-Modal.setAppElement(document.getElementById('modal'));
+  return modalStyles;
+})();
 
 let Actions = Reflux.createActions([
   'policyPointSelected'
@@ -41,7 +35,7 @@ let Actions = Reflux.createActions([
 
 class PolicyPoint extends React.Component {
   onClick() {
-    Actions.policyPointSelected(this.props.policy);
+    Actions.policyPointSelected({policy: this.props.policy, party: this.props.party, topic: this.props.topic});
   }
 
   render() {
@@ -54,12 +48,21 @@ class PolicyPoint extends React.Component {
 }
 
 PolicyPoint.propTypes = {
+  party: React.PropTypes.string,
   policy: React.PropTypes.objectOf({important: React.PropTypes.bool, summary: React.PropTypes.string})
 };
 
 class PolicyCell extends React.Component {
+  createPolicyPoints(party, policies) {
+    if (policies.length) {
+      return policies.map((policy) => <PolicyPoint topic={this.props.topic} party={party} policy={policy} />);
+    } else {
+      return <li>N/A</li>;
+    }
+  }
+
   render() {
-    let listItems = (this.props.policies.length) ? this.props.policies.map((policy) => <PolicyPoint policy={policy} />) : <li>N/A</li>;
+    let listItems = this.createPolicyPoints(this.props.party, this.props.policies);
 
     return (
       <div className="policyCell">
@@ -94,7 +97,7 @@ class PolicyRow extends React.Component {
   render() {
     let policyCells = ['NDP', 'Conservatives', 'Liberals']
       .map(this.findPoliciesForParty.bind(this))
-      .map((data) => <PolicyCell party={data.party} policies={data.policies} key={`${this.props.topic}:${data.party}`} />);
+      .map((data) => <PolicyCell party={data.party} topic={this.props.topic} policies={data.policies} key={`${this.props.topic}:${data.party}`} />);
 
     return (
       <div className="policyRow">
@@ -139,20 +142,40 @@ class PolicyTable extends React.Component {
 
 PolicyTable.propTypes = {
   data: React.PropTypes.object
-};
+}; 
 
 class PolicyModal extends React.Component {
   render() {
     return (
-      <h1>{this.props.point.summary}</h1>
+      <div className="policyModal">
+        <h1>{this.props.topic}</h1>
+        <h2>{this.props.party}</h2>
+        <p>{this.props.point.summary}</p>
+        <p>{this.props.point.details}</p>
+        {this.props.point.references.map(ref => <li>{ref.url}</li>)}
+        <a className="modal--close" onClick={this.props.closeModal}>&lt; Go back</a>
+      </div>
     );
   }
 }
 
+PolicyModal.propTypes = {
+  closeModal: React.PropTypes.func,
+  party: React.PropTypes.string,
+  point: React.PropTypes.objectOf({
+    summary: React.PropTypes.string,
+    important: React.PropTypes.bool,
+    references: React.PropTypes.array
+  }),
+  topic: React.PropTypes.string
+};
+
+const partyColors = {'NDP': '#F37021', 'Conservatives': '#1A4782', 'Liberals': '#D71920'};
+
 export class PolicyBreakdown extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {data: {}};
+    this.state = {data: {}, modalStyles};
   }
 
   componentDidMount() {
@@ -179,8 +202,16 @@ export class PolicyBreakdown extends React.Component {
     this.setState({modalIsOpen: false});
   }
 
-  updateModal(policyPoint) {
-    this.setState({selectedPoint: policyPoint});
+  updateModal(data) {
+    const overlay = {backgroundColor: partyColors[data.party]};
+
+    this.setState({
+      selectedPoint: data.policy,
+      selectedParty: data.party,
+      selectedTopic: data.topic,
+      modalStyles: objectAssign({}, modalStyles, {overlay})
+    });
+
     this.openModal();
   }
 
@@ -190,8 +221,8 @@ export class PolicyBreakdown extends React.Component {
         <Modal 
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal.bind(this)}
-          style={customStyles}>
-          <PolicyModal point={this.state.selectedPoint} />
+          style={this.state.modalStyles}>
+          <PolicyModal point={this.state.selectedPoint} party={this.state.selectedParty} topic={this.state.selectedTopic} closeModal={this.closeModal.bind(this)} />
         </Modal>
         <h1 className="pageTitle">Policy Breakdown</h1>
         <PolicyTable data={this.state.data} />

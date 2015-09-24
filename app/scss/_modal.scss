@@ -1,0 +1,16 @@
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.policyModal {
+  min-height: 90%;
+  position: relative;
+}
+
+.modal--close {
+  display: block;
+  padding: 11px;
+  background: #eee;
+  font-weight: bold;
+  cursor: pointer;
+}

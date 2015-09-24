@@ -36,6 +36,7 @@ gulp.task('js', function() {
 gulp.task('sass', function() {
   return gulp.src('./app/scss/*.scss')
     .pipe(sass())
+    .on('error', gutil.log.bind(gutil, 'Sass Error'))
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
       cascade: false

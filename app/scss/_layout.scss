@@ -18,13 +18,13 @@
 
   .policyCells {
     display: flex;
-    flex: 1;
+    flex: 1 0 auto;
     flex-flow: column nowrap;
   }
 
   .policyCell {
     display: flex;
-    flex: 1;
+    flex: 1 0 auto;
     flex-flow: column nowrap;
     align-items: center;
 
@@ -74,6 +74,10 @@
 
     .policyCells {
       flex-direction: row;
+    }
+
+    .policyCell {
+      flex-basis: 0%;
     }
 
     .policyCell--party {

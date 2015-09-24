@@ -26,9 +26,9 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap; }
@@ -36,9 +36,9 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
     -webkit-flex-flow: column nowrap;
     -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
@@ -95,6 +95,10 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row; }
+  .policyTable .policyCell {
+    -webkit-flex-basis: 0%;
+    -ms-flex-preferred-size: 0%;
+    flex-basis: 0%; }
   .policyTable .policyCell--party {
     display: none; } }
 
@@ -106,7 +110,7 @@ body {
 
 #content {
   max-width: 960px;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 20px 30px 60px;
   box-sizing: border-box;
   background-color: #fff; }
@@ -171,6 +175,12 @@ body {
   .policyPoint:last-of-type {
     border: none;
     margin-bottom: 0; }
+
+.policyPoint--link {
+  cursor: pointer;
+  color: #1A0DAB; }
+  .policyPoint--link:hover {
+    text-decoration: underline; }
 
 .policyPoint.customBullet {
   list-style: none; }
@@ -250,6 +260,20 @@ body {
 @media screen and (min-width: 800px) {
   .policyCell {
     border-bottom: none; } }
+
+.ReactModal__Body--open {
+  overflow: hidden; }
+
+.policyModal {
+  min-height: 90%;
+  position: relative; }
+
+.modal--close {
+  display: block;
+  padding: 11px;
+  background: #eee;
+  font-weight: bold;
+  cursor: pointer; }
 
 .textColor--NDP {
   color: #F37021; }
