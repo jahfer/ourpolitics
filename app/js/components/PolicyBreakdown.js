@@ -9,26 +9,6 @@ var Modal = require('react-modal');
 var objectAssign = require('object-assign');
 var matchMedia = require('matchmedia');
 
-const modalStyles = (function(){
-  let modalStyles = {
-    content: {
-      textAlign: 'center',
-      backgroundColor: '#fff',
-      border: 'none'
-    }
-  };
-
-  if (matchMedia('(max-width: 800px)').matches) {
-    modalStyles.content = objectAssign(modalStyles.content, {
-      borderRadius: 0,
-      left: 0,
-      right: 0
-    });
-  }
-
-  return modalStyles;
-})();
-
 let Actions = Reflux.createActions([
   'policyPointSelected'
 ]);
@@ -77,7 +57,8 @@ class PolicyCell extends React.Component {
 
 PolicyCell.propTypes = {
   party: React.PropTypes.string,
-  policies: React.PropTypes.array
+  policies: React.PropTypes.array,
+  topic: React.PropTypes.string
 };
 
 class PolicyRow extends React.Component {
@@ -148,12 +129,25 @@ class PolicyModal extends React.Component {
   render() {
     return (
       <div className="policyModal">
-        <h1>{this.props.topic}</h1>
-        <h2>{this.props.party}</h2>
-        <p>{this.props.point.summary}</p>
-        <p>{this.props.point.details}</p>
-        {this.props.point.references.map(ref => <li>{ref.url}</li>)}
-        <a className="modal--close" onClick={this.props.closeModal}>&lt; Go back</a>
+        <div className="modal--content"> 
+          <div className="modal--topicBox">
+            <p>{this.props.topic} - {this.props.party}</p>
+          </div>
+
+          <h1 className="modal--heading modal--heading__primary">{this.props.point.summary}</h1>
+          <div className="modal--details">
+            <p>{this.props.point.details}</p>
+          </div>
+        </div>
+
+        <div className="modal--sidebar">
+          <a href="#" className="modal--close" onClick={this.props.closeModal}></a>
+
+          <h2 className="modal--heading modal--heading__secondary">References</h2>
+          <ul>
+            {this.props.point.references.map(ref => <li><a href={ref.url}>{ref.publisher}</a></li>)}
+          </ul>
+        </div>
       </div>
     );
   }
@@ -171,6 +165,33 @@ PolicyModal.propTypes = {
 };
 
 const partyColors = {'NDP': '#F37021', 'Conservatives': '#1A4782', 'Liberals': '#D71920'};
+
+const modalStyles = (function(){
+  let modalStyles = {
+    content: {
+      padding: 0,
+      margin: '0 auto',
+      top: '10%',
+      bottom: '10%',
+      border: 'none',
+      maxHeight: 600,
+      maxWidth: 1000
+    }
+  };
+
+  if (matchMedia('(max-width: 650px)').matches) {
+    modalStyles.content = objectAssign(modalStyles.content, {
+      borderRadius: 0,
+      left: 0,
+      right: 0,
+      top: 0,
+      bottom: 0,
+      maxHeight: 'none'
+    });
+  }
+
+  return modalStyles;
+})();
 
 export class PolicyBreakdown extends React.Component {
   constructor(props) {
@@ -209,7 +230,7 @@ export class PolicyBreakdown extends React.Component {
       selectedPoint: data.policy,
       selectedParty: data.party,
       selectedTopic: data.topic,
-      modalStyles: objectAssign({}, modalStyles, {overlay})
+      modalStyles: objectAssign(modalStyles, {overlay})
     });
 
     this.openModal();

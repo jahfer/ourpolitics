@@ -2,7 +2,9 @@
 
 body { 
   background-color: #eee;
-  font-family: sans-serif;
+  color: #303030;
+  font-family: georgia, serif;
+  line-height: 1.3em;
   margin: 0;
 }
 
@@ -176,12 +178,6 @@ body {
     }
   }
 }
-
-// .spacer {
-//   background-color: none;
-//   border-bottom: 1px solid #ddd;
-//   height: 0px;
-// }
 
 .referenceText {
   display: inline-block;
