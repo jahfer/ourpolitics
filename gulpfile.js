@@ -22,7 +22,9 @@ gulp.task('serve', ['js', 'sass'], function() {
 
   gulp.watch([
     './app/dist/*.js',
-    './app/*.html'
+    './app/*.html',
+    './app/data/*',
+    './app/data/content/**/*'
   ]).on('change', browserSync.reload);
 
   execBundle(bundle);

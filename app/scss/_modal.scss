@@ -21,11 +21,12 @@ $color-cream: #f9f9f1;
 }
 
 .modal--topicBox {
-  font-size: 14px;
+  font-size: 0.75em;
   flex: 0 0 33px;
   display: flex;
   padding-left: 10px;
 
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   font-family: 'Questrial', sans-serif;
   border: 1px solid #333;
@@ -55,10 +56,18 @@ $color-cream: #f9f9f1;
   font-size: 18px;
   line-height: 1.3em;
 
-  & > p {
+  p {
     flex: 0 1 520px;
     margin: 0;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', georgia, serif;
+    margin-bottom: 0.3em;
+  }
+
+  h1, h5, h6 { text-transform: uppercase; }
+  h4 { font-style: italic; }
 }
 
 .modal--sidebar {
@@ -77,6 +86,12 @@ $color-cream: #f9f9f1;
 @media screen and (min-width: 800px) {
   .ReactModal__Content {
     box-shadow: 1px 2px 4px rgba(0,0,0,0.75);
+    transition: transform .2s ease-in-out; /*or cubic-bezier(.4,0,.5,1.4)*/
+    transform: scale(0.3);
+
+    &.ReactModal__Content--after-open {
+      transform: scale(1);
+    }
   }
 
   .policyModal {
@@ -106,6 +121,8 @@ $color-cream: #f9f9f1;
     color: $color-cream;
     font-size: 32px;
     content: '\f00d';
+    padding: 6px 10px;
+    margin-right: -10px;
   }
 
   &:hover::before {

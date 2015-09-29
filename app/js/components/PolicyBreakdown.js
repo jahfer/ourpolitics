@@ -3,9 +3,11 @@ import 'babelify/polyfill';
 import {_} from 'lodash';
 import {entries} from '../util';
 import * as Reflux from 'reflux';
+import * as ReactMarkdown from 'react-markdown';
 
 require('whatwg-fetch');
 var Modal = require('react-modal');
+var Markdown = require('react-markdown');
 var objectAssign = require('object-assign');
 var matchMedia = require('matchmedia');
 
@@ -15,6 +17,7 @@ let Actions = Reflux.createActions([
 
 class PolicyPoint extends React.Component {
   onClick() {
+    console.log('[POLICYPOINT] onClick fired', this.props.party);
     Actions.policyPointSelected({policy: this.props.policy, party: this.props.party, topic: this.props.topic});
   }
 
@@ -29,7 +32,8 @@ class PolicyPoint extends React.Component {
 
 PolicyPoint.propTypes = {
   party: React.PropTypes.string,
-  policy: React.PropTypes.objectOf({important: React.PropTypes.bool, summary: React.PropTypes.string})
+  policy: React.PropTypes.objectOf({important: React.PropTypes.bool, summary: React.PropTypes.string}),
+  topic: React.PropTypes.string
 };
 
 class PolicyCell extends React.Component {
@@ -125,7 +129,33 @@ PolicyTable.propTypes = {
   data: React.PropTypes.object
 }; 
 
+class Spinner extends React.Component {
+  render() {
+    return <div className="spinner" />;
+  }
+}
+
 class PolicyModal extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {content: '', isLoading: true};
+  }
+
+  componentWillMount() {
+    this.fetchContent();
+  }
+
+  fetchContent() {
+    let filePath = `./data/content/${this.props.point.details}`;
+    fetch(filePath)
+      .then(raw => {
+        if (raw.status === 200) { return raw.text(); }
+        else { throw `Article ${filePath} not found`; }
+      })
+      .then(content => this.setState({content, isLoading: false}))
+      .catch(console.error.bind(console));
+  }
+
   render() {
     return (
       <div className="policyModal">
@@ -136,7 +166,13 @@ class PolicyModal extends React.Component {
 
           <h1 className="modal--heading modal--heading__primary">{this.props.point.summary}</h1>
           <div className="modal--details">
-            <p>{this.props.point.details}</p>
+            {this.state.isLoading &&
+              <Spinner />
+            }
+
+            {!this.state.isLoading &&
+              <Markdown source={this.state.content} />
+            }
           </div>
         </div>
 
@@ -164,7 +200,12 @@ PolicyModal.propTypes = {
   topic: React.PropTypes.string
 };
 
-const partyColors = {'NDP': '#F37021', 'Conservatives': '#1A4782', 'Liberals': '#D71920'};
+const opacity = 0.8;
+const partyColors = {
+  NDP: `rgba(243,112,33, ${opacity})`,
+  Conservatives: `rgba(26,71,130, ${opacity})`,
+  Liberals: `rgba(215,25,32, ${opacity})`
+};
 
 const modalStyles = (function(){
   let modalStyles = {
@@ -175,7 +216,8 @@ const modalStyles = (function(){
       bottom: '10%',
       border: 'none',
       maxHeight: 600,
-      maxWidth: 1000
+      maxWidth: 1000,
+      background: '#303030'
     }
   };
 
@@ -245,7 +287,7 @@ export class PolicyBreakdown extends React.Component {
           style={this.state.modalStyles}>
           <PolicyModal point={this.state.selectedPoint} party={this.state.selectedParty} topic={this.state.selectedTopic} closeModal={this.closeModal.bind(this)} />
         </Modal>
-        <h1 className="pageTitle">Policy Breakdown</h1>
+        <h1 className="pageTitle">Simple Politics</h1>
         <PolicyTable data={this.state.data} />
       </div>
     );

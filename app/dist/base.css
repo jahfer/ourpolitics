@@ -5,10 +5,7 @@
   display: flex;
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  flex-flow: column nowrap; }
   .policyTable .policyRow {
     width: 100%;
     display: -webkit-flex;
@@ -80,7 +77,7 @@
     -ms-flex-direction: row;
     flex-direction: row; }
   .policyTable .policyCell--party {
-    min-width: 130px; } }
+    min-width: 150px; } }
 
 @media screen and (min-width: 800px) {
   .policyTable .policyRow {
@@ -104,7 +101,7 @@
 
 /* styling */
 body {
-  background-color: #eee;
+  background-color: #f9f9f1;
   color: #303030;
   font-family: georgia, serif;
   line-height: 1.3em;
@@ -114,11 +111,15 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 20px 30px 60px;
-  box-sizing: border-box;
-  background-color: #fff; }
+  box-sizing: border-box; }
 
 .pageTitle {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 1em;
+  margin: 40px  0; }
 
 .policyCell--points {
   padding: 0;
@@ -129,14 +130,14 @@ body {
   padding: 5px;
   line-height: 1.3em; }
   .policyCell.partyTitle {
-    font-weight: bold;
+    font-family: 'Merriweather', georgia, serif;
     text-align: center;
-    font-style: italic;
     padding-bottom: 5px;
     display: block; }
   .policyCell:last-of-type {
     border: none; }
   .policyCell--party {
+    font-family: 'Merriweather', georgia, serif;
     margin: 0; }
 
 .policyTimeline {
@@ -151,7 +152,9 @@ body {
   overflow: hidden; }
 
 .policyTopic {
-  border: none; }
+  text-align: center;
+  border: none;
+  font-family: 'Merriweather', georgia, serif; }
 
 .policyTopic--title {
   margin: 5px 0; }
@@ -159,7 +162,7 @@ body {
 .policyRow {
   margin-bottom: 10px 0;
   padding-top: 10px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #DCDCD5;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -179,8 +182,7 @@ body {
     margin-bottom: 0; }
 
 .policyPoint--link {
-  cursor: pointer;
-  color: #1A0DAB; }
+  cursor: pointer; }
   .policyPoint--link:hover {
     text-decoration: underline; }
 
@@ -253,6 +255,12 @@ body {
   width: 0%;
   line-height: 18px; }
 
+.spinner {
+  width: 100%;
+  height: 64px;
+  text-align: center;
+  background: url("../img/spinner.gif") no-repeat center center; }
+
 @media screen and (min-width: 650px) {
   #content {
     width: 90%; }
@@ -291,7 +299,7 @@ body {
   overflow-y: scroll; }
 
 .modal--topicBox {
-  font-size: 14px;
+  font-size: 0.75em;
   -webkit-flex: 0 0 33px;
   -ms-flex: 0 0 33px;
   flex: 0 0 33px;
@@ -299,6 +307,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding-left: 10px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   font-family: 'Questrial', sans-serif;
   border: 1px solid #333; }
@@ -323,11 +332,18 @@ body {
   display: flex;
   font-size: 18px;
   line-height: 1.3em; }
-  .modal--details > p {
+  .modal--details p {
     -webkit-flex: 0 1 520px;
     -ms-flex: 0 1 520px;
     flex: 0 1 520px;
     margin: 0; }
+  .modal--details h1, .modal--details h2, .modal--details h3, .modal--details h4, .modal--details h5, .modal--details h6 {
+    font-family: 'Merriweather', georgia, serif;
+    margin-bottom: 0.3em; }
+  .modal--details h1, .modal--details h5, .modal--details h6 {
+    text-transform: uppercase; }
+  .modal--details h4 {
+    font-style: italic; }
 
 .modal--sidebar {
   padding: 21px;
@@ -343,7 +359,15 @@ body {
 
 @media screen and (min-width: 800px) {
   .ReactModal__Content {
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.75); }
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.75);
+    transition: -webkit-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    /*or cubic-bezier(.4,0,.5,1.4)*/
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3); }
+    .ReactModal__Content.ReactModal__Content--after-open {
+      -webkit-transform: scale(1);
+      transform: scale(1); }
   .policyModal {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -371,7 +395,9 @@ body {
       font-family: 'FontAwesome';
       color: #f9f9f1;
       font-size: 32px;
-      content: '\f00d'; }
+      content: '\f00d';
+      padding: 6px 10px;
+      margin-right: -10px; }
     .modal--close:hover::before {
       color: #ffbd00; } }
 

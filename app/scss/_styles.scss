@@ -1,7 +1,8 @@
 /* styling */
+$color-cream: #f9f9f1;
 
 body { 
-  background-color: #eee;
+  background-color: $color-cream;
   color: #303030;
   font-family: georgia, serif;
   line-height: 1.3em;
@@ -13,12 +14,15 @@ body {
   margin: 0 auto;
   padding: 20px 30px 60px;
   box-sizing: border-box;
-
-  background-color: #fff;
 }
 
 .pageTitle {
   text-align: center;
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 1em;
+  margin: 40px  0;
 }
 
 .policyCell--points {
@@ -32,9 +36,8 @@ body {
   line-height: 1.3em;
 
   &.partyTitle {
-    font-weight: bold;
+    font-family: 'Merriweather', georgia, serif;
     text-align: center;
-    font-style: italic;
     padding-bottom: 5px;
     display: block;
   }
@@ -44,6 +47,7 @@ body {
   }
 
   &--party {
+    font-family: 'Merriweather', georgia, serif;
     margin: 0;
   }
 }
@@ -59,7 +63,9 @@ body {
 }
 
 .policyTopic {
+  text-align: center;
   border: none;
+  font-family: 'Merriweather', georgia, serif;
 }
 
 .policyTopic--title {
@@ -69,7 +75,7 @@ body {
 .policyRow {
   margin-bottom: 10px 0;
   padding-top: 10px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #DCDCD5;
   flex-shrink: 0;
   /*transition: max-height 1s ease-in-out;
   overflow: hidden;*/
@@ -95,7 +101,6 @@ body {
 
 .policyPoint--link {
   cursor: pointer;
-  color: #1A0DAB;
 
   &:hover {
     text-decoration: underline;
@@ -184,6 +189,13 @@ body {
   overflow: hidden;
   width: 0%;
   line-height: 18px;
+}
+
+.spinner {
+  width: 100%;
+  height: 64px;
+  text-align: center;
+  background: url('../img/spinner.gif') no-repeat center center;
 }
 
 @media screen and (min-width: 650px) {

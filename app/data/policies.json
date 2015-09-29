@@ -4,13 +4,14 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "National $15/day daycare",
-           "details": "The NDP plan to roll out a nation-wide daycare system which will create 1 million spots for children by 2020. The estimated cost would be around $20bn—funded largely from closing existing tax loopholes on high-income earners.",
+           "details": "ndp/daycare.md",
            "important": true,
            "references": [
               {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
               {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
            ]},
           {"summary": "Keep Universal Child Care Benefit",
+           "details": "ndp/uccb.md",
            "references": [
               {"url": "http://google.com", "publisher": "The Star", "date": "2015-04-26"},
               {"url": "http://facebook.com", "publisher": "The Globe & Mail", "date": "2015-06-14"},
@@ -19,6 +20,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Universal Child Care Benefit (taxable)",
+           "details": "cpc/uccb.md",
            "important": true,
            "references": [
               {"url": "http://google.com", "publisher": "National Post", "date": "2015-08-01"},
@@ -27,6 +29,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Canada Child Benefit (non-taxable)",
+           "details": "lpc/ccb.md",
            "references": [
               {"url": "http://google.com", "publisher": "The Walrus", "date": "2015-05-30"},
               {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-08-15"}
