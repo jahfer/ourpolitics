@@ -91,7 +91,7 @@ body {
 }
 
 .policyPoint {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 
   &:last-of-type {
     border: none;
@@ -212,4 +212,7 @@ body {
   .policyCell {
     border-bottom: none;
   }
+
+
+.policyPoint { margin-bottom: 10px; }
 }
