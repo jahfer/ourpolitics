@@ -196,6 +196,10 @@ body {
 .customBullet--star:before {
   content: '\f005'; }
 
+.emptyPolicy {
+  color: #999;
+  font-style: italic; }
+
 .timelineRow {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -337,8 +341,10 @@ body {
   .modal--details p {
     -webkit-flex: 0 1 520px;
     -ms-flex: 0 1 520px;
-    flex: 0 1 520px;
-    margin: 0; }
+    flex: 0 1 520px; }
+  .modal--details blockquote {
+    color: #777;
+    font-style: italic; }
   .modal--details h1, .modal--details h2, .modal--details h3, .modal--details h4, .modal--details h5, .modal--details h6 {
     font-family: 'Merriweather', georgia, serif;
     margin-bottom: 0.3em; }

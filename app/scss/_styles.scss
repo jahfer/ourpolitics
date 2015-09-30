@@ -121,6 +121,11 @@ body {
   content: '\f005';
 }
 
+.emptyPolicy {
+  color: #999;
+  font-style: italic;
+}
+
 .timelineRow {
   display: flex;
   z-index: 2;

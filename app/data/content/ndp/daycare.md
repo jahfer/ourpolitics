@@ -1,1 +1,0 @@
-The NDP plan to roll out a nation-wide daycare system which will create 1 million spots for children by 2020. The estimated cost would be around $20bn—funded largely from closing existing tax loopholes on high-income earners.

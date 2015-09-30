@@ -1,24 +1,21 @@
-import * as React from 'react';
+// polyfills
+import 'whatwg-fetch';
 import 'babelify/polyfill';
+import matchMedia from 'matchmedia';
+import objectAssign from 'object-assign';
+// utils
 import {_} from 'lodash';
 import {entries} from '../util';
-import * as Reflux from 'reflux';
-import * as ReactMarkdown from 'react-markdown';
-
-require('whatwg-fetch');
-var Modal = require('react-modal');
-var Markdown = require('react-markdown');
-var objectAssign = require('object-assign');
-var matchMedia = require('matchmedia');
-
-let Actions = Reflux.createActions([
-  'policyPointSelected'
-]);
+// libs
+import * as React from 'react';
+import {policyPointSelected} from '../actions/PolicyTableActions';
+import {PolicyModal} from './PolicyModal';
+import Modal from 'react-modal';
 
 class PolicyPoint extends React.Component {
   onClick() {
     console.log('[POLICYPOINT] onClick fired', this.props.party);
-    Actions.policyPointSelected({policy: this.props.policy, party: this.props.party, topic: this.props.topic});
+    policyPointSelected({policy: this.props.policy, party: this.props.party, topic: this.props.topic});
   }
 
   render() {
@@ -41,7 +38,7 @@ class PolicyCell extends React.Component {
     if (policies.length) {
       return policies.map((policy) => <PolicyPoint topic={this.props.topic} party={party} policy={policy} />);
     } else {
-      return <li>N/A</li>;
+      return <li className="emptyPolicy">No policy</li>;
     }
   }
 
@@ -127,77 +124,6 @@ class PolicyTable extends React.Component {
 
 PolicyTable.propTypes = {
   data: React.PropTypes.object
-}; 
-
-class Spinner extends React.Component {
-  render() {
-    return <div className="spinner" />;
-  }
-}
-
-class PolicyModal extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {content: '', isLoading: true};
-  }
-
-  componentWillMount() {
-    this.fetchContent();
-  }
-
-  fetchContent() {
-    let filePath = `./data/content/${this.props.point.details}`;
-    fetch(filePath)
-      .then(raw => {
-        if (raw.status === 200) { return raw.text(); }
-        else { throw `Article ${filePath} not found`; }
-      })
-      .then(content => this.setState({content, isLoading: false}))
-      .catch(console.error.bind(console));
-  }
-
-  render() {
-    return (
-      <div className="policyModal">
-        <div className="modal--content"> 
-          <div className="modal--topicBox">
-            <p>{this.props.topic} - {this.props.party}</p>
-          </div>
-
-          <h1 className="modal--heading modal--heading__primary">{this.props.point.summary}</h1>
-          <div className="modal--details">
-            {this.state.isLoading &&
-              <Spinner />
-            }
-
-            {!this.state.isLoading &&
-              <Markdown source={this.state.content} />
-            }
-          </div>
-        </div>
-
-        <div className="modal--sidebar">
-          <a href="#" className="modal--close" onClick={this.props.closeModal}></a>
-
-          <h2 className="modal--heading modal--heading__secondary">References</h2>
-          <ul>
-            {this.props.point.references.map(ref => <li><a href={ref.url}>{ref.publisher}</a></li>)}
-          </ul>
-        </div>
-      </div>
-    );
-  }
-}
-
-PolicyModal.propTypes = {
-  closeModal: React.PropTypes.func,
-  party: React.PropTypes.string,
-  point: React.PropTypes.objectOf({
-    summary: React.PropTypes.string,
-    important: React.PropTypes.bool,
-    references: React.PropTypes.array
-  }),
-  topic: React.PropTypes.string
 };
 
 const opacity = 0.8;
@@ -243,7 +169,7 @@ export class PolicyBreakdown extends React.Component {
 
   componentDidMount() {
     this.loadPoliciesFromServer();
-    this.unsubscribe = Actions.policyPointSelected.listen(this.updateModal.bind(this));
+    this.unsubscribe = policyPointSelected.listen(this.updateModal.bind(this));
   }
 
   componentWillUnmount() {
@@ -263,6 +189,7 @@ export class PolicyBreakdown extends React.Component {
 
   closeModal() {
     this.setState({modalIsOpen: false});
+    return false;
   }
 
   updateModal(data) {
@@ -287,7 +214,7 @@ export class PolicyBreakdown extends React.Component {
           style={this.state.modalStyles}>
           <PolicyModal point={this.state.selectedPoint} party={this.state.selectedParty} topic={this.state.selectedTopic} closeModal={this.closeModal.bind(this)} />
         </Modal>
-        <h1 className="pageTitle">Simple Politics</h1>
+
         <PolicyTable data={this.state.data} />
       </div>
     );

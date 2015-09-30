@@ -58,7 +58,11 @@ $color-cream: #f9f9f1;
 
   p {
     flex: 0 1 520px;
-    margin: 0;
+  }
+
+  blockquote {
+    color: #777;
+    font-style: italic;
   }
 
   h1, h2, h3, h4, h5, h6 {

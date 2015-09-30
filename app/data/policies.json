@@ -4,35 +4,78 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "National $15/day daycare",
-           "details": "ndp/daycare.md",
+           "details": "ndp_daycare.md",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-daycare-child-care-ndp-spin-cycle-1.3237594",
+                "publisher": "CBC",
+                "title": "Spin Cycle: How viable is the NDP's national child-care plan?",
+                "date": "2015-09-22"
+              },
+              {
+                "url": "http://globalnews.ca/news/2176583/what-we-know-about-the-ndps-childcare-plan/",
+                "publisher": "Global News",
+                "title": "What we know about the NDP’s childcare plan",
+                "date": "2015-08-20"
+              }
            ]},
           {"summary": "Keep Universal Child Care Benefit",
-           "details": "ndp/uccb.md",
+           "details": "ndp_uccb.md",
            "references": [
-              {"url": "http://google.com", "publisher": "The Star", "date": "2015-04-26"},
-              {"url": "http://facebook.com", "publisher": "The Globe & Mail", "date": "2015-06-14"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-06-14"}
+              {
+                "url": "http://ottawacitizen.com/news/politics/mulcair-says-ndp-government-would-keep-tory-child-care-benefits",
+                "title": "Mulcair says NDP government would keep Tory child care benefits",
+                "publisher": "Ottawa Citizen",
+                "date": "2015-01-15"
+              },
+              {
+                "url": "http://actionplan.gc.ca/en/initiative/universal-child-care-benefit",
+                "title": "Universal Child Care Benefit",
+                "publisher": "Economic Action Plan"
+              },
+              {
+                "url": "http://www.cbc.ca/news/politics/3-things-to-know-about-the-uccb-payments-impact-1.3161108",
+                "title": "3 things to know about the UCCB payments' impact",
+                "publisher": "CBC",
+                "date": "2015-07-21"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Universal Child Care Benefit (taxable)",
-           "details": "cpc/uccb.md",
+          {"summary": "Universal Child Care Benefit",
+           "details": "cpc_uccb.md",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-08-01"},
-              {"url": "http://facebook.com", "publisher": "The Star", "date": "2015-07-05"}
+              {
+                "url": "http://actionplan.gc.ca/en/initiative/universal-child-care-benefit",
+                "title": "Universal Child Care Benefit",
+                "publisher": "Economic Action Plan"
+              },
+              {
+                "url": "http://www.cbc.ca/news/politics/3-things-to-know-about-the-uccb-payments-impact-1.3161108",
+                "title": "3 things to know about the UCCB payments' impact",
+                "publisher": "CBC",
+                "date": "2015-07-21"
+              }
            ]}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Canada Child Benefit (non-taxable)",
-           "details": "lpc/ccb.md",
+          {"summary": "Canada Child Benefit",
+           "details": "lpc_ccb.md",
            "references": [
-              {"url": "http://google.com", "publisher": "The Walrus", "date": "2015-05-30"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-08-15"}
+              {
+                "url": "http://www.ctvnews.ca/politics/new-child-benefits-may-not-be-worth-as-much-as-advertised-experts-say-1.2481038",
+                "publisher": "CTV News",
+                "title": "New child benefits may not be worth as much as advertised, experts say",
+                "date": "2015-07-21"
+              },
+              {
+                "url": "http://www.thestar.com/opinion/commentary/2015/05/06/liberal-child-benefit-plan-makes-a-lot-of-sense.html",
+                "publisher": "The Star",
+                "title": "(Opinion) Liberal child-benefit plan makes a lot of sense",
+                "date": "2015-05-06"
+              }
            ]}
         ]}
       ]
@@ -43,23 +86,56 @@
         {"party": "NDP", "policies": [
           {"summary": "Abolish",
            "important": true,
+           "details": "ndp_senate.md",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-senate-abolition-ndp-1.3235746",
+                "publisher": "CBC",
+                "title": "Tom Mulcair says some senators willing to work with NDP government",
+                "date": "2015-09-20"
+              },
+              {
+                "url": "http://www.hilltimes.com/news/news/2015/09/28/liberal-sen-campbell-says-he-30-senators-willing-to-work-with-mulcair-if-ndp-wins-race/43517",
+                "publisher": "The Hill Times",
+                "title": "Liberal Sen. Campbell says he, 30 Senators willing to work with Mulcair if NDP wins race",
+                "date": "2015-09-28"
+              }
            ]}
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Reform",
+           "details": "lpc_senate.md",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "http://www.thestar.com/opinion/commentary/2014/05/11/justin_trudeaus_senate_reform_plan_has_no_teeth.html",
+                "publisher": "The Star",
+                "title": "(Opinion) Justin Trudeau’s Senate reform plan has no teeth",
+                "date": "2015-05-11"
+              },
+              {
+                "url": "http://news.nationalpost.com/full-comment/stephen-maher-justin-trudeau-lets-hear-those-ideas-for-senate-reform-you-promised",
+                "publisher": "National Post",
+                "title": "(Opinion) Justin Trudeau, let’s hear those ideas for Senate reform you promised",
+                "date": "2015-06-12"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "No new appointments",
+           "details": "cpc_senate.md",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "http://www.thestar.com/news/canada/2015/07/24/stephen-harper-imposes-moratorium-on-senate-appointments.html",
+                "publisher": "The Star",
+                "title": "Stephen Harper swears off new Senate appointments",
+                "date": "2015-07-24"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/news/politics/harper-wall-to-call-for-abolition-of-senate-on-friday-report/article25658737/",
+                "publisher": "The Globe and Mail",
+                "title": "Stephen Harper vows not to make any Senate appointments",
+                "date": "2015-07-24"
+              }
            ]}
         ]}
       ]
@@ -71,22 +147,34 @@
           {"summary": "Repeal",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Keep",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Reform",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]}
       ]
@@ -97,55 +185,91 @@
         {"party": "NDP", "policies": [
           {"summary": "Raise corporate taxes",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "Lower small business tax",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "Remove stock option tax-benefit",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "Remove capital gains loophole",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Home renovation tax credit",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "Bump RRSP withdrawal limit",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Lower middle-class taxes",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "New tax bracket above $200k",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "Remove income splitting",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]}
       ]
@@ -155,45 +279,74 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Lower emissions",
+           "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "Increase renewable energy production",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "Preserve national parks",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "Environmental study on pipeline impact",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Pro-pipeline (Kinder Morgan, Keystone XL)",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Focus on clean technology",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]},
           {"summary": "Preserve national parks",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]}
       ]
@@ -205,8 +358,12 @@
           {"summary": "Commit gas-tax funds to transit infrastructure",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": []},
@@ -220,22 +377,24 @@
           {"summary": "National public inquiry within 100 days of office",
            "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": []},
         {"party": "Liberals", "policies": [
-          {"summary": "Build renewed relationship with gov’t",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]},
           {"summary": "National public inquiry",
-           "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]}
       ]
@@ -245,35 +404,36 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Mixed Member Parliament",
-           "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Keep current system",
+          {"summary": "Require referendum for any reform",
+           "details": "cpc_reform_referendum.md",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]},
-          {"summary": "Require national referendum for reform",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "http://www.torontosun.com/2015/07/27/exclusive-tories-to-require-a-vote-on-changing-elections",
+                "publisher": "Toronto Sun",
+                "title": "Tories to require a vote on changing elections",
+                "date": "2015-07-27"
+              }
            ]}
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Committee to find best alternative",
-           "important": true,
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]},
-          {"summary": "Avoid referendum to pass reform",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "http://www.thestar.com/news/canada/2015/06/17/electoral-reform-spells-trouble-for-stephen-harpers-conservatives-hbert.html",
+                "publisher": "The Star",
+                "title": "Electoral reform spells trouble for Stephen Harper’s Conservatives",
+                "date": "2015-06-17"
+              }
            ]}
         ]}
       ]
@@ -284,83 +444,34 @@
         {"party": "NDP", "policies": [
           {"summary": "Pro-TPP",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Pro-TPP",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Pro-TPP",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]}
-        ]}
-      ]
-    },
-
-    "Foreign Relations": {
-      "positions": [
-        {"party": "NDP", "policies": [
-          {"summary": "Pro-Israel",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]},
-          {"summary": "In favour of a two-state solution",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]}
-        ]},
-        {"party": "Conservatives", "policies": [
-          {"summary": "Anti-Russia",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]},
-          {"summary": "Anti-Iran",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]},
-          {"summary": "Pro-Israel",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]}
-        ]},
-        {"party": "Liberals", "policies": [
-          {"summary": "In favour of a two-state solution",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]}
-        ]}
-      ]
-    },
-
-    "Coalition Government": {
-      "positions": [
-        {"party": "NDP", "policies": [
-          {"summary": "Depends on the day",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]}
-        ]},
-        {"party": "Conservatives", "policies": []},
-        {"party": "Liberals", "policies": [
-          {"summary": "Absolutely not",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
            ]}
         ]}
       ]
@@ -369,35 +480,39 @@
     "Science": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Encourage free speech for scientists",
+          {"summary": "Create Parliamentary Science Officer",
+           "details": "ndp_science_officer.md",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]},
-          {"summary": "Create Parliamentary science watchdog",
-           "details": "Not controlled by PM; gives Parliament info and expert advice on issue. Lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor lorem ipsum dolor sit amet consecutor",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "http://www.ndp.ca/news/scientific-community-rallies-behind-ndp-proposal-science",
+                "publisher": "NDP.ca",
+                "title": "Scientific community rallies behind NDP proposal for science",
+                "date": "2014-11-26"
+              },
+              {
+                "url": "https://evidencefordemocracy.ca/en/sciencewatchdog",
+                "publisher": "Evidence for Democracy",
+                "title": "Petition for Bill C-558",
+                "date": "2014-11-26"
+              },
+              {
+                "url": "https://openparliament.ca/bills/41-2/C-558/",
+                "publisher": "Open Parliament",
+                "title": "Bill C-558 - Parliamentary Science Officer Act",
+                "date": "2013-12-03"
+              }
            ]}
         ]},
-        {"party": "Conservatives", "policies": [
-          {"summary": "Keep",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]}
-        ]},
+        {"party": "Conservatives", "policies": []},
         {"party": "Liberals", "policies": [
-          {"summary": "Encourage free speech for scientists",
-           "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
-           ]},
           {"summary": "Create Chief Science Officer",
+           "details": "lpc_science_officer.md",
            "references": [
-              {"url": "http://google.com", "publisher": "National Post", "date": "2015-01-12"},
-              {"url": "http://facebook.com", "publisher": "CBC", "date": "2015-05-01"}
+              {
+                "url": "http://www.liberal.ca/realchange/unmuzzle-science/",
+                "publisher": "Liberal.ca",
+                "title": "Unmuzzle Scientists"
+              }
            ]}
         ]}
       ]
