@@ -28,12 +28,21 @@ export class PolicyModal extends React.Component {
       .catch(console.error.bind(console));
   }
 
+  urlForIssue() {
+    let body = encodeURIComponent('## Problem\n\n\n## Suggested Change\n\n\n## References\n');
+    return `https://github.com/jahfer/simple-politics/issues/new?title=[${this.props.party}] Suggested edit for "${this.props.point.summary}"&body=${body}`;
+  }
+
   render() {
     return (
       <div className="policyModal">
         <div className="modal--content"> 
-          <div className="modal--topicBox">
-            <p>{this.props.topic} - {this.props.party}</p>
+          <div className="modal--headingInfo">
+            <div className="modal--topicBox">
+              <p>{this.props.topic} - {this.props.party}</p>
+            </div>
+
+            <a href={this.urlForIssue()} target="_blank">Suggest edit</a>
           </div>
 
           <h1 className="modal--heading modal--heading__primary">{this.props.point.summary}</h1>

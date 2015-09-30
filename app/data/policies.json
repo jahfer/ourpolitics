@@ -404,18 +404,25 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Mixed Member Parliament",
+           "details": "ndp_reform.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.thestar.com/news/canada/2015/09/10/electoral-reform-back-in-the-spotlight.html",
+                "publisher": "The Star",
+                "title": "Electoral reform back in the spotlight",
+                "date": "2015-09-10"
+              },
+              {
+                "url": "http://www.ndp.ca/news/ndp-wants-to-implement-mixed-proportional-system",
+                "publisher": "NDP.ca",
+                "title": "The NDP wants to implement a mixed proportional system",
+                "date": "2014-12-02"
               }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Require referendum for any reform",
-           "details": "cpc_reform_referendum.md",
+           "details": "cpc_reform.md",
            "references": [
               {
                 "url": "http://www.torontosun.com/2015/07/27/exclusive-tories-to-require-a-vote-on-changing-elections",
@@ -427,12 +434,18 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Committee to find best alternative",
+           "details": "lpc_reform.md",
            "references": [
               {
                 "url": "http://www.thestar.com/news/canada/2015/06/17/electoral-reform-spells-trouble-for-stephen-harpers-conservatives-hbert.html",
                 "publisher": "The Star",
                 "title": "Electoral reform spells trouble for Stephen Harper’s Conservatives",
                 "date": "2015-06-17"
+              },
+              {
+                "url": "https://www.liberal.ca/policy-resolutions/31-priority-resolution-restoring-trust-canadas-democracy/",
+                "publisher": "Liberal.ca",
+                "title": "Priority Resolution 31: Restoring Trust in Canada’s Democracy"
               }
            ]}
         ]}

@@ -20,22 +20,36 @@ $color-cream: #f9f9f1;
   overflow-y: scroll;
 }
 
-.modal--topicBox {
-  font-size: 0.75em;
-  flex: 0 0 33px;
+.modal--headingInfo {
   display: flex;
-  padding-left: 10px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
 
-  letter-spacing: 0.15em;
   text-transform: uppercase;
-  font-family: 'Questrial', sans-serif;
-  border: 1px solid #333;
+  font-size: 0.75em;
+  letter-spacing: 0.05em;
 
-  & > p {
-    margin: 0;
-    align-self: center;
-  }
+  p { margin: 0; }
 }
+
+// .modal--topicBox {
+//   font-size: 0.75em;
+//   flex: 0 0 33px;
+//   display: flex;
+//   padding-left: 10px;
+
+//   letter-spacing: 0.15em;
+//   text-transform: uppercase;
+//   font-family: 'Questrial', sans-serif;
+//   border: 1px solid #333;
+
+//   & > p {
+//     margin: 0;
+//     align-self: center;
+//   }
+// }
 
 .modal--heading {
   line-height: 1.3em;

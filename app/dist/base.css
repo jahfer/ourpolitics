@@ -304,24 +304,23 @@ body {
   flex: 2;
   overflow-y: scroll; }
 
-.modal--topicBox {
-  font-size: 0.75em;
-  -webkit-flex: 0 0 33px;
-  -ms-flex: 0 0 33px;
-  flex: 0 0 33px;
+.modal--headingInfo {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 10px;
-  letter-spacing: 0.15em;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
   text-transform: uppercase;
-  font-family: 'Questrial', sans-serif;
-  border: 1px solid #333; }
-  .modal--topicBox > p {
-    margin: 0;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center; }
+  font-size: 0.75em;
+  letter-spacing: 0.05em; }
+  .modal--headingInfo p {
+    margin: 0; }
 
 .modal--heading {
   line-height: 1.3em;
