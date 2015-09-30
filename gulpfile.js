@@ -15,7 +15,7 @@ gulp.task('serve', ['js', 'sass'], function() {
   bundle.on('log', gutil.log);
 
   browserSync({
-    server: './app'
+    server: './'
   });
 
   gulp.watch('./app/scss/*.scss', ['sass']);

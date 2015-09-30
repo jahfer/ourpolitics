@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Markdown from 'react-markdown';
+import {shopURL} from '../config';
 
 class Spinner extends React.Component {
   render() {
@@ -18,7 +19,7 @@ export class PolicyModal extends React.Component {
   }
 
   fetchContent() {
-    let filePath = `./data/content/${this.props.point.details}`;
+    let filePath = `${shopURL}/app/data/content/${this.props.point.details}`;
     fetch(filePath)
       .then(raw => {
         if (raw.status === 200) { return raw.text(); }
