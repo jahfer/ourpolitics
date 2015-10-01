@@ -248,15 +248,6 @@
                 "title": "",
                 "date": "2015-00-00"
               }
-           ]},
-          {"summary": "Remove capital gains loophole",
-           "references": [
-              {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
-              }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
@@ -317,15 +308,21 @@
      "Healthcare": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Pharmacare",
-           "details": "ndp_pharmacare.md",
+          {"summary": "Negotiate better prices for prescription medication",
+           "details": "ndp_healthcare.md",
            "important": true,
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.thestar.com/news/canada/2015/09/18/ndp-promises-26-billion-towards-universal-drug-plan.html",
+                "publisher": "The Star",
+                "title": "NDP promises $2.6 billion towards universal drug plan",
+                "date": "2015-09-18"
+              },
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-seniors-medication-prices-1.3234173",
+                "publisher": "CBC",
+                "title": "Tom Mulcair commits $2.6B to support pharmacare plan",
+                "date": "2015-09-18"
               }
            ]},
            {"summary": "Expand mental healthcare",
@@ -336,15 +333,33 @@
                 "publisher": "CBC",
                 "title": "Tom Mulcair lays out NDP plan to improve youth mental-health care",
                 "date": "2015-09-15"
+              },
+              {
+                "url": "http://www.ndp.ca/news/mulcair-to-improve-mental-health-care-young-canadians",
+                "publisher": "NDP.ca",
+                "title": "Mulcair to improve mental health care for young Canadians",
+                "date": "2015-09-15"
               }
            ]},
            {"summary": "National Alzheimer's and dementia strategy",
            "details": "ndp_alzheimers.md",
            "references": [
               {
+                "url": "http://www.ndp.ca/news/mulcair-to-launch-national-alzheimers-and-dementia-strategy",
+                "publisher": "NDP.ca",
+                "title": "Mulcair to launch national Alzheimer’s and dementia strategy",
+                "date": "2015-09-14"
+              },
+              {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-healthcare-doctors-1.3227153",
                 "publisher": "CBC",
                 "title": "Tom Mulcair makes multiple pledges to improve health care",
+                "date": "2015-09-14"
+              },
+              {
+                "url": "http://www.huffingtonpost.ca/2015/09/14/ndp-earmarks-500-million-over-four-years-to-build-clinics-hire-health-staff_n_8134440.html",
+                "publisher": "Huffington Post",
+                "title": "Mulcair's Health Care Blitz Includes Funding For Tackling Dementia, Alzheimer's",
                 "date": "2015-09-14"
               }
            ]},
@@ -355,6 +370,12 @@
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-healthcare-doctors-1.3227153",
                 "publisher": "CBC",
                 "title": "Tom Mulcair makes multiple pledges to improve health care",
+                "date": "2015-09-14"
+              },
+              {
+                "url": "http://www.thestar.com/news/federal-election/2015/09/14/ndp-prescribes-500m-for-health-care-system.html",
+                "publisher": "The Star",
+                "title": "NDP prescribes $500M for health-care system",
                 "date": "2015-09-14"
               }
            ]}
@@ -368,6 +389,11 @@
                 "url": "http://www.liberal.ca/realchange/investing-in-health-and-home-care/",
                 "publisher": "Liberal.ca",
                 "title": "Investing in health and home care"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/",
+                "publisher": "The Globe and Mail",
+                "title": "Trudeau promises $3-billion investment in home care, mental health"
               }
            ]}
         ]}
@@ -563,7 +589,7 @@
       ]
     },
 
-    "Transit": {
+    "Infrastructure": {
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Better Transit Plan",
@@ -590,23 +616,66 @@
               }
            ]}
         ]},
-        {"party": "Conservatives", "policies": []},
+        {"party": "Conservatives", "policies": [
+          {
+            "summary": "Invest in building and renewing infrastructure",
+            "details": "cpc_infrastructure.md",
+            "references": [
+              {
+                "url": "http://www.thestar.com/news/canada/2015/08/27/a-look-at-each-federal-partys-infrastructure-election-promises.html",
+                "publisher": "The Star",
+                "title": "A look at each federal party's infrastructure election promises",
+                "date": "2015-08-27"
+              }
+            ]
+          }
+        ]},
         {"party": "Liberals", "policies": [
-        {"summary": "Invest in public infrastructure",
-         "details": "lpc_transit.md",
-         "references": [
-            {
-              "url": "http://www.liberal.ca/realchange/investing-in-public-transit-infrastructure/",
-              "publisher": "Liberal.ca",
-              "title": "Investing in public transit infrastructure"
-            },
-            {
-              "url": "http://globalnews.ca/news/2213160/justin-trudeau-to-make-announcement-about-public-transport-in-vancouver/",
-              "publisher": "Global News",
-              "title": "Justin Trudeau announces ‘historic’ transit investment in Vancouver",
-              "date": "2015-09-10"
-            }
-         ]}]}
+          {"summary": "Federal infrastructure bank",
+           "details": "lpc_infrastructure_bank.md",
+           "important": true,
+           "references": [
+              {
+                "url": "https://www.liberal.ca/realchange/financing-infrastructure-investments-with-the-canada-infrastructure-bank/",
+                "publisher": "Liberal.ca",
+                "title": "Financing infrastructure investments with the Canada Infrastructure Bank"
+              }
+           ]},
+           {
+            "summary": "Double federal infrastructure investment",
+            "details": "lpc_infrastructure_investment.md",
+            "important": true,
+            "references": [
+              {
+                "url": "http://www.thestar.com/news/canada/2015/08/27/a-look-at-each-federal-partys-infrastructure-election-promises.html",
+                "publisher": "The Star",
+                "title": "A look at each federal party's infrastructure election promises",
+                "date": "2015-08-27"
+              },
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-liberals-infrastructure-deficits-1.3205535",
+                "publisher": "CBC",
+                "title": "Justin Trudeau says Liberals plan 3 years of deficits to push infrastructure",
+                "date": "2015-08-27"
+              }
+            ]
+           },
+           {"summary": "Invest in public transit",
+            "details": "lpc_transit.md",
+            "references": [
+              {
+                "url": "http://www.liberal.ca/realchange/investing-in-public-transit-infrastructure/",
+                "publisher": "Liberal.ca",
+                "title": "Investing in public transit infrastructure"
+              },
+              {
+                "url": "http://globalnews.ca/news/2213160/justin-trudeau-to-make-announcement-about-public-transport-in-vancouver/",
+                "publisher": "Global News",
+                "title": "Justin Trudeau announces ‘historic’ transit investment in Vancouver",
+                "date": "2015-09-10"
+              }
+           ]}
+        ]}
       ]
     },
 
@@ -682,6 +751,16 @@
            ]}
         ]},
         {"party": "Liberals", "policies": [
+          {"summary": "Increase funding for homecare",
+           "details": "lpc_homecare.md",
+           "important": true,
+           "references": [
+              {
+                "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/",
+                "publisher": "The Globe and Mail",
+                "title": "Trudeau promises $3-billion investment in home care, mental health"
+              }
+          ]},
           {"summary": "Increase funding and reduce OAS and GIS age requirement to 65",
            "details": "lpc_seniors.md",
            "references": [
@@ -769,10 +848,10 @@
                 "date": "2014-11-26"
               },
               {
-                "url": "https://evidencefordemocracy.ca/en/sciencewatchdog",
-                "publisher": "Evidence for Democracy",
-                "title": "Petition for Bill C-558",
-                "date": "2014-11-26"
+                "url": "http://www.theglobeandmail.com/news/politics/mulcair-pledges-to-end-muzzling-of-scientists-by-creating-parliamentary-science-officer-role/article26597765/",
+                "publisher": "The Globe and Mail",
+                "title": "Mulcair pledges to end ‘muzzling’ of scientists by creating parliamentary science officer role ",
+                "date": "2015-09-30"
               },
               {
                 "url": "https://openparliament.ca/bills/41-2/C-558/",
