@@ -395,6 +395,20 @@
                 "publisher": "The Globe and Mail",
                 "title": "Trudeau promises $3-billion investment in home care, mental health"
               }
+           ]},
+           {"summary": "Expand mental healthcare",
+           "details": "lpc_mental_healthcare.md",
+           "references": [
+              {
+                "url": "https://www.liberal.ca/policy-resolutions/51-priority-resolution-national-framework-mental-health/",
+                "publisher": "Liberal.ca",
+                "title": "51. Priority Resolution: National Framework for Mental Health"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/",
+                "publisher": "The Globe and Mail",
+                "title": "Trudeau promises $3-billion investment in home care, mental health"
+              }
            ]}
         ]}
       ]
@@ -682,7 +696,7 @@
     "International Trade": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Pro-TPP with concerns",
+          {"summary": "Pro-TPP with concerns over dairy concessions",
            "details": "ndp_tpp.md",
            "references": [
               {
@@ -778,7 +792,7 @@
            ]}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Pro-TPP except for dairy concessions",
+          {"summary": "Pro-TPP, but would not allow dairy concessions",
            "details": "lpc_tpp.md",
            "references": [
               {
