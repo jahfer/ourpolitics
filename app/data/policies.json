@@ -81,66 +81,6 @@
       ]
     },
 
-    "Senate": {
-      "positions": [
-        {"party": "NDP", "policies": [
-          {"summary": "Abolish",
-           "important": true,
-           "details": "ndp_senate.md",
-           "references": [
-              {
-                "url": "http://www.cbc.ca/news/politics/canada-election-2015-senate-abolition-ndp-1.3235746",
-                "publisher": "CBC",
-                "title": "Tom Mulcair says some senators willing to work with NDP government",
-                "date": "2015-09-20"
-              },
-              {
-                "url": "http://www.hilltimes.com/news/news/2015/09/28/liberal-sen-campbell-says-he-30-senators-willing-to-work-with-mulcair-if-ndp-wins-race/43517",
-                "publisher": "The Hill Times",
-                "title": "Liberal Sen. Campbell says he, 30 Senators willing to work with Mulcair if NDP wins race",
-                "date": "2015-09-28"
-              }
-           ]}
-        ]},
-        {"party": "Liberals", "policies": [
-          {"summary": "Reform",
-           "details": "lpc_senate.md",
-           "references": [
-              {
-                "url": "http://www.thestar.com/opinion/commentary/2014/05/11/justin_trudeaus_senate_reform_plan_has_no_teeth.html",
-                "publisher": "The Star",
-                "title": "(Opinion) Justin Trudeau’s Senate reform plan has no teeth",
-                "date": "2015-05-11"
-              },
-              {
-                "url": "http://news.nationalpost.com/full-comment/stephen-maher-justin-trudeau-lets-hear-those-ideas-for-senate-reform-you-promised",
-                "publisher": "National Post",
-                "title": "(Opinion) Justin Trudeau, let’s hear those ideas for Senate reform you promised",
-                "date": "2015-06-12"
-              }
-           ]}
-        ]},
-        {"party": "Conservatives", "policies": [
-          {"summary": "No new appointments",
-           "details": "cpc_senate.md",
-           "references": [
-              {
-                "url": "http://www.thestar.com/news/canada/2015/07/24/stephen-harper-imposes-moratorium-on-senate-appointments.html",
-                "publisher": "The Star",
-                "title": "Stephen Harper swears off new Senate appointments",
-                "date": "2015-07-24"
-              },
-              {
-                "url": "http://www.theglobeandmail.com/news/politics/harper-wall-to-call-for-abolition-of-senate-on-friday-report/article25658737/",
-                "publisher": "The Globe and Mail",
-                "title": "Stephen Harper vows not to make any Senate appointments",
-                "date": "2015-07-24"
-              }
-           ]}
-        ]}
-      ]
-    },
-
     "C-51": {
       "positions": [
         {"party": "NDP", "policies": [
@@ -374,6 +314,66 @@
       ]
     },
 
+     "Healthcare": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Pharmacare",
+           "details": "ndp_pharmacare.md",
+           "important": true,
+           "references": [
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
+           ]},
+           {"summary": "Expand mental healthcare",
+           "details": "ndp_mental_healthcare.md",
+           "references": [
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-mental-health-fund-youth-1.3228711",
+                "publisher": "CBC",
+                "title": "Tom Mulcair lays out NDP plan to improve youth mental-health care",
+                "date": "2015-09-15"
+              }
+           ]},
+           {"summary": "National Alzheimer's and dementia strategy",
+           "details": "ndp_alzheimers.md",
+           "references": [
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-healthcare-doctors-1.3227153",
+                "publisher": "CBC",
+                "title": "Tom Mulcair makes multiple pledges to improve health care",
+                "date": "2015-09-14"
+              }
+           ]},
+           {"summary": "Better funding for doctors, nurses and clinics",
+           "details": "ndp_healthcare_funding.md",
+           "references": [
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-healthcare-doctors-1.3227153",
+                "publisher": "CBC",
+                "title": "Tom Mulcair makes multiple pledges to improve health care",
+                "date": "2015-09-14"
+              }
+           ]}
+        ]},
+        {"party": "Conservatives", "policies": []},
+        {"party": "Liberals", "policies": [
+          {"summary": "Negotiate better prices for prescription medication",
+           "details": "lpc_healthcare.md",
+           "references": [
+              {
+                "url": "http://www.liberal.ca/realchange/investing-in-health-and-home-care/",
+                "publisher": "Liberal.ca",
+                "title": "Investing in health and home care"
+              }
+           ]}
+        ]}
+      ]
+    },
+
     "Environment": {
       "positions": [
         {"party": "NDP", "policies": [
@@ -388,15 +388,6 @@
               }
            ]},
           {"summary": "Increase renewable energy production",
-           "references": [
-              {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
-              }
-           ]},
-          {"summary": "Preserve national parks",
            "references": [
               {
                 "url": "",
@@ -437,64 +428,68 @@
                 "title": "",
                 "date": "2015-00-00"
               }
-           ]},
-          {"summary": "Preserve national parks",
-           "references": [
-              {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
-              }
            ]}
         ]}
       ]
     },
 
-    "Transit": {
+    "Senate": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Better Transit Plan",
+          {"summary": "Abolish",
            "important": true,
-           "details": "ndp_transit.md",
+           "details": "ndp_senate.md",
            "references": [
               {
-                "url": "http://www.lfpress.com/2015/07/24/ndp-leader-tom-mulcair-promoting-plan-to-use-part-of-gas-tax-for-infrastructure-projects",
-                "publisher": "London Free Press",
-                "title": "NDP leader Tom Mulcair vows to back hard services, transit",
-                "date": "2015-07-24"
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-senate-abolition-ndp-1.3235746",
+                "publisher": "CBC",
+                "title": "Tom Mulcair says some senators willing to work with NDP government",
+                "date": "2015-09-20"
               },
               {
-                "url": "http://www.ndp.ca/news/mulcair-outlines-plan-to-invest-ontario-municipalities-0",
-                "publisher": "NDP.ca",
-                "title": "Mulcair outlines plan to invest in Ontario municipalities ",
-                "date": "2015-07-24"
-              },
-              {
-                "url": "http://globalnews.ca/news/2040485/tom-mulcair-promises-canadas-cities-an-extra-cent-from-the-existing-gas-tax/",
-                "publisher": "Global News",
-                "title": "Tom Mulcair promises Canada’s cities an extra cent from the existing gas tax",
-                "date": "2015-06-06"
+                "url": "http://www.hilltimes.com/news/news/2015/09/28/liberal-sen-campbell-says-he-30-senators-willing-to-work-with-mulcair-if-ndp-wins-race/43517",
+                "publisher": "The Hill Times",
+                "title": "Liberal Sen. Campbell says he, 30 Senators willing to work with Mulcair if NDP wins race",
+                "date": "2015-09-28"
               }
            ]}
         ]},
-        {"party": "Conservatives", "policies": []},
         {"party": "Liberals", "policies": [
-        {"summary": "Invest in public infrastructure",
-         "details": "lpc_transit.md",
-         "references": [
-            {
-              "url": "http://www.liberal.ca/realchange/investing-in-public-transit-infrastructure/",
-              "publisher": "Liberal.ca",
-              "title": "Investing in public transit infrastructure"
-            },
-            {
-              "url": "http://globalnews.ca/news/2213160/justin-trudeau-to-make-announcement-about-public-transport-in-vancouver/",
-              "publisher": "Global News",
-              "title": "Justin Trudeau announces ‘historic’ transit investment in Vancouver",
-              "date": "2015-09-10"
-            }
-         ]}]}
+          {"summary": "Reform",
+           "details": "lpc_senate.md",
+           "references": [
+              {
+                "url": "http://www.thestar.com/opinion/commentary/2014/05/11/justin_trudeaus_senate_reform_plan_has_no_teeth.html",
+                "publisher": "The Star",
+                "title": "(Opinion) Justin Trudeau’s Senate reform plan has no teeth",
+                "date": "2015-05-11"
+              },
+              {
+                "url": "http://news.nationalpost.com/full-comment/stephen-maher-justin-trudeau-lets-hear-those-ideas-for-senate-reform-you-promised",
+                "publisher": "National Post",
+                "title": "(Opinion) Justin Trudeau, let’s hear those ideas for Senate reform you promised",
+                "date": "2015-06-12"
+              }
+           ]}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "No new appointments",
+           "details": "cpc_senate.md",
+           "references": [
+              {
+                "url": "http://www.thestar.com/news/canada/2015/07/24/stephen-harper-imposes-moratorium-on-senate-appointments.html",
+                "publisher": "The Star",
+                "title": "Stephen Harper swears off new Senate appointments",
+                "date": "2015-07-24"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/news/politics/harper-wall-to-call-for-abolition-of-senate-on-friday-report/article25658737/",
+                "publisher": "The Globe and Mail",
+                "title": "Stephen Harper vows not to make any Senate appointments",
+                "date": "2015-07-24"
+              }
+           ]}
+        ]}
       ]
     },
 
@@ -568,6 +563,147 @@
       ]
     },
 
+    "Transit": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Better Transit Plan",
+           "important": true,
+           "details": "ndp_transit.md",
+           "references": [
+              {
+                "url": "http://www.lfpress.com/2015/07/24/ndp-leader-tom-mulcair-promoting-plan-to-use-part-of-gas-tax-for-infrastructure-projects",
+                "publisher": "London Free Press",
+                "title": "NDP leader Tom Mulcair vows to back hard services, transit",
+                "date": "2015-07-24"
+              },
+              {
+                "url": "http://www.ndp.ca/news/mulcair-outlines-plan-to-invest-ontario-municipalities-0",
+                "publisher": "NDP.ca",
+                "title": "Mulcair outlines plan to invest in Ontario municipalities ",
+                "date": "2015-07-24"
+              },
+              {
+                "url": "http://globalnews.ca/news/2040485/tom-mulcair-promises-canadas-cities-an-extra-cent-from-the-existing-gas-tax/",
+                "publisher": "Global News",
+                "title": "Tom Mulcair promises Canada’s cities an extra cent from the existing gas tax",
+                "date": "2015-06-06"
+              }
+           ]}
+        ]},
+        {"party": "Conservatives", "policies": []},
+        {"party": "Liberals", "policies": [
+        {"summary": "Invest in public infrastructure",
+         "details": "lpc_transit.md",
+         "references": [
+            {
+              "url": "http://www.liberal.ca/realchange/investing-in-public-transit-infrastructure/",
+              "publisher": "Liberal.ca",
+              "title": "Investing in public transit infrastructure"
+            },
+            {
+              "url": "http://globalnews.ca/news/2213160/justin-trudeau-to-make-announcement-about-public-transport-in-vancouver/",
+              "publisher": "Global News",
+              "title": "Justin Trudeau announces ‘historic’ transit investment in Vancouver",
+              "date": "2015-09-10"
+            }
+         ]}]}
+      ]
+    },
+
+    "International Trade": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Pro-TPP",
+           "references": [
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
+           ]}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Pro-TPP",
+           "references": [
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
+           ]}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Pro-TPP",
+           "references": [
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
+           ]}
+        ]}
+      ]
+    },
+
+    "Seniors": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Increase funding and reduce OAS age requirement to 65",
+           "details": "ndp_seniors.md",
+           "references": [
+              {
+                "url": "http://www.ndp.ca/plan",
+                "publisher": "NDP.ca",
+                "title": "Security in Retirement"
+              }
+           ]},
+           {"summary": "Support income splitting for seniors",
+           "details": "ndp_seniors_income_splitting.md",
+           "references": [
+              {
+                "url": "http://www.ndp.ca/plan",
+                "publisher": "NDP.ca",
+                "title": "Security in Retirement"
+              }
+           ]}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Single-seniors tax credit",
+           "details": "cpc_seniors.md",
+           "references": [
+              {
+                "url": "http://www.conservative.ca/cpc/support-for-canadian-seniors/",
+                "publisher": "Conservative.ca",
+                "title": "Support For Canadian Seniors"
+              }
+           ]}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Increase funding and reduce OAS and GIS age requirement to 65",
+           "details": "lpc_seniors.md",
+           "references": [
+              {
+                "url": "http://www.liberal.ca/realchange/retirement-security-for-our-seniors/",
+                "publisher": "Liberal.ca",
+                "title": "Retirement security for our seniors"
+              }
+           ]},
+           {"summary": "Support income splitting for seniors",
+           "details": "lpc_seniors_income_splitting.md",
+           "references": [
+              {
+                "url": "https://www.liberal.ca/fact-check-trudeau-will-keep-pension-income-splitting-for-seniors/",
+                "publisher": "Liberal.ca",
+                "title": "Fact Check: Trudeau will keep pension income splitting for seniors"
+              }
+           ]}
+        ]}
+      ]
+    },
+
     "Electoral Reform": {
       "positions": [
         {"party": "NDP", "policies": [
@@ -614,116 +750,6 @@
                 "url": "https://www.liberal.ca/policy-resolutions/31-priority-resolution-restoring-trust-canadas-democracy/",
                 "publisher": "Liberal.ca",
                 "title": "Priority Resolution 31: Restoring Trust in Canada’s Democracy"
-              }
-           ]}
-        ]}
-      ]
-    },
-
-    "International Trade": {
-      "positions": [
-        {"party": "NDP", "policies": [
-          {"summary": "Pro-TPP",
-           "references": [
-              {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
-              }
-           ]}
-        ]},
-        {"party": "Conservatives", "policies": [
-          {"summary": "Pro-TPP",
-           "references": [
-              {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
-              }
-           ]}
-        ]},
-        {"party": "Liberals", "policies": [
-          {"summary": "Pro-TPP",
-           "references": [
-              {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
-              }
-           ]}
-        ]}
-      ]
-    },
-
-     "Healthcare": {
-      "positions": [
-        {"party": "NDP", "policies": [
-          {"summary": "Pharmacare",
-           "important": true,
-           "references": [
-              {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
-              }
-           ]},
-           {"summary": "Expand mental healthcare",
-           "references": [
-              {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
-              }
-           ]}
-        ]},
-        {"party": "Conservatives", "policies": []},
-        {"party": "Liberals", "policies": [
-          {"summary": "Negotiate better prices for prescription medication",
-           "references": [
-              {
-                "url": "http://www.liberal.ca/realchange/investing-in-health-and-home-care/",
-                "publisher": "Liberal.ca",
-                "title": "Investing in health and home care"
-              }
-           ]}
-        ]}
-      ]
-    },
-
-    "Seniors": {
-      "positions": [
-        {"party": "NDP", "policies": [
-          {"summary": "Expand homecare for seniors",
-           "references": [
-              {
-                "url": "http://www.ndp.ca/plan",
-                "publisher": "NDP.ca",
-                "title": "Better health care"
-              }
-           ]}
-        ]},
-        {"party": "Conservatives", "policies": [
-          {"summary": "Single-seniors tax credit",
-           "references": [
-              {
-                "url": "http://www.conservative.ca/cpc/support-for-canadian-seniors/",
-                "publisher": "Conservative.ca",
-                "title": "Support For Canadian Seniors"
-              }
-           ]}
-        ]},
-        {"party": "Liberals", "policies": [
-          {"summary": "Decrease OAS and GIS age requirement to 65",
-           "references": [
-              {
-                "url": "http://www.liberal.ca/realchange/retirement-security-for-our-seniors/",
-                "publisher": "Liberal.ca",
-                "title": "Retirement security for our seniors"
               }
            ]}
         ]}

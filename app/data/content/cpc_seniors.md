@@ -1,0 +1,1 @@
+As part of their platform, the Conservatives will introduce a **$2,000** tax credit, aimed at helping single and widowed seniors. This will extend to almost 1.6 million seniors across Canada with pension income. Combined with the Pension Income tax credit already available, seniors are eligible to deduct up to **$600**/year in taxes.
