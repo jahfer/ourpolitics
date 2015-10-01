@@ -145,35 +145,134 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Repeal",
+           "details": "ndp_c51.md",
            "important": true,
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html",
+                "publisher": "Yahoo! News",
+                "title": "Bill C-51 for Dummies: What you should know",
+                "date": "2015-03-15"
+              },
+              {
+                "url": "http://www.nationalobserver.com/2015/06/09/news/bill-c-51-passed-senate-despite-widespread-public-opposition",
+                "publisher": "National Observer",
+                "title": "Bill C-51 passed by Senate, despite widespread public opposition",
+                "date": "2015-06-09"
+              },
+              {
+                "url": "http://www.canadianprogressiveworld.com/2015/07/22/rights-groups-launch-charter-challenge-against-harpers-bill-c-51/",
+                "publisher": "Canadian Progress World",
+                "title": "Rights Groups Launch Charter Challenge Against Harper’s Bill C-51",
+                "date": "2015-07-22"
+              },
+              {
+                "url": "http://thewalrus.ca/bill-c-51-the-good-the-bad-and-the-truly-ugly/",
+                "publisher": "The Walrus",
+                "title": "Bill C-51: the Good, the Bad…and the Truly Ugly",
+                "date": "2015-02-13"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/globe-debate/editorials/anti-terrorism-bill-will-unleash-csis-on-a-lot-more-than-terrorists/article22821691/",
+                "publisher": "CBC",
+                "title": "(Opinion) Anti-terrorism bill will unleash CSIS on a lot more than terrorists ",
+                "date": "2015-02-05"
+              },
+              {
+                "url": "https://cjfe.org/resources/features/bill-c-51-freedom-assembly-and-canadians%E2%80%99-ability-protest",
+                "publisher": "Canadian Journalists for Free Expression",
+                "title": "Bill C-51, Freedom of Assembly and Canadians’ Ability to Protest",
+                "date": "2015-06-27"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/globe-debate/without-big-changes-bill-c-51-means-big-data/article23320329/",
+                "publisher": "The Globe and Mail",
+                "title": "Without big changes, Bill C-51 means big data ",
+                "date": "2015-03-06"
+              },
+              {
+                "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565886",
+                "publisher": "Social Science Research Network",
+                "title": "Bill C-51 Backgrounder # 3: Sharing Information and Lost Lessons from the Maher Arar Experience",
+                "date": "2015-02-16"
               }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Keep",
+           "details": "cpc_c51.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html",
+                "publisher": "Yahoo! News",
+                "title": "Bill C-51 for Dummies: What you should know",
+                "date": "2015-03-15"
+              },
+              {
+                "url": "http://thewalrus.ca/bill-c-51-the-good-the-bad-and-the-truly-ugly/",
+                "publisher": "The Walrus",
+                "title": "Bill C-51: the Good, the Bad…and the Truly Ugly",
+                "date": "2015-02-13"
+              },
+              {
+                "url": "http://www.nationalobserver.com/2015/06/09/news/bill-c-51-passed-senate-despite-widespread-public-opposition",
+                "publisher": "National Observer",
+                "title": "Bill C-51 passed by Senate, despite widespread public opposition",
+                "date": "2015-06-09"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/globe-debate/without-big-changes-bill-c-51-means-big-data/article23320329/",
+                "publisher": "The Globe and Mail",
+                "title": "Without big changes, Bill C-51 means big data ",
+                "date": "2015-03-06"
+              },
+              {
+                "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565886",
+                "publisher": "Social Science Research Network",
+                "title": "Bill C-51 Backgrounder # 3: Sharing Information and Lost Lessons from the Maher Arar Experience",
+                "date": "2015-02-16"
               }
            ]}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Reform",
+          {"summary": "Amend",
+           "details": "lpc_c51.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html",
+                "publisher": "Yahoo! News",
+                "title": "Bill C-51 for Dummies: What you should know",
+                "date": "2015-03-15"
+              },
+              {
+                "url": "http://thewalrus.ca/bill-c-51-the-good-the-bad-and-the-truly-ugly/",
+                "publisher": "The Walrus",
+                "title": "Bill C-51: the Good, the Bad…and the Truly Ugly",
+                "date": "2015-02-13"
+              },
+              {
+                "url": "http://www.nationalobserver.com/2015/06/09/news/bill-c-51-passed-senate-despite-widespread-public-opposition",
+                "publisher": "National Observer",
+                "title": "Bill C-51 passed by Senate, despite widespread public opposition",
+                "date": "2015-06-09"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/globe-debate/without-big-changes-bill-c-51-means-big-data/article23320329/",
+                "publisher": "The Globe and Mail",
+                "title": "Without big changes, Bill C-51 means big data ",
+                "date": "2015-03-06"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/news/politics/trudeaus-liberals-proposing-modest-amendments-to-bill-c-51/article25010473/",
+                "publisher": "The Globe and Mail",
+                "title": "Trudeau vows to repeal parts of Bill C-51",
+                "date": "2015-06-17"
+              },
+              {
+                "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565886",
+                "publisher": "Social Science Research Network",
+                "title": "Bill C-51 Backgrounder # 3: Sharing Information and Lost Lessons from the Maher Arar Experience",
+                "date": "2015-02-16"
               }
            ]}
         ]}
@@ -355,45 +454,114 @@
     "Transit": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Commit gas-tax funds to transit infrastructure",
+          {"summary": "Better Transit Plan",
            "important": true,
+           "details": "ndp_transit.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.lfpress.com/2015/07/24/ndp-leader-tom-mulcair-promoting-plan-to-use-part-of-gas-tax-for-infrastructure-projects",
+                "publisher": "London Free Press",
+                "title": "NDP leader Tom Mulcair vows to back hard services, transit",
+                "date": "2015-07-24"
+              },
+              {
+                "url": "http://www.ndp.ca/news/mulcair-outlines-plan-to-invest-ontario-municipalities-0",
+                "publisher": "NDP.ca",
+                "title": "Mulcair outlines plan to invest in Ontario municipalities ",
+                "date": "2015-07-24"
+              },
+              {
+                "url": "http://globalnews.ca/news/2040485/tom-mulcair-promises-canadas-cities-an-extra-cent-from-the-existing-gas-tax/",
+                "publisher": "Global News",
+                "title": "Tom Mulcair promises Canada’s cities an extra cent from the existing gas tax",
+                "date": "2015-06-06"
               }
            ]}
         ]},
         {"party": "Conservatives", "policies": []},
-        {"party": "Liberals", "policies": []}
+        {"party": "Liberals", "policies": [
+        {"summary": "Invest in public infrastructure",
+         "details": "lpc_transit.md",
+         "references": [
+            {
+              "url": "http://www.liberal.ca/realchange/investing-in-public-transit-infrastructure/",
+              "publisher": "Liberal.ca",
+              "title": "Investing in public transit infrastructure"
+            },
+            {
+              "url": "http://globalnews.ca/news/2213160/justin-trudeau-to-make-announcement-about-public-transport-in-vancouver/",
+              "publisher": "Global News",
+              "title": "Justin Trudeau announces ‘historic’ transit investment in Vancouver",
+              "date": "2015-09-10"
+            }
+         ]}]}
       ]
     },
 
     "Aboriginal Relations": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "National public inquiry within 100 days of office",
+          {"summary": "Inquiry into missing and murdered women within 100 days of office",
            "important": true,
+           "details": "ndp_aboriginal_relations.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.cbc.ca/news/politics/tom-mulcair-vows-aboriginal-women-inquiry-within-100-days-if-ndp-elected-1.2748280",
+                "publisher": "CBC",
+                "title": "Tom Mulcair vows aboriginal women inquiry within 100 days if NDP elected",
+                "date": "2015-08-27"
               }
            ]}
         ]},
-        {"party": "Conservatives", "policies": []},
-        {"party": "Liberals", "policies": [
-          {"summary": "National public inquiry",
+        {"party": "Conservatives", "policies": [
+          {"summary": "Do not support national inquiry",
+           "details": "cpc_aboriginal_relations.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.cbc.ca/news/politics/tom-mulcair-vows-aboriginal-women-inquiry-within-100-days-if-ndp-elected-1.2748280",
+                "publisher": "CBC",
+                "title": "Tom Mulcair vows aboriginal women inquiry within 100 days if NDP elected",
+                "date": "2015-08-27"
+              }
+           ]},
+           {"summary": "Funding for training",
+           "details": "cpc_aboriginal_funding.md",
+           "references": [
+              {
+                "url": "http://www.thestar.com/news/federal-election/2015/09/01/what-the-parties-are-promising-on-aboriginal-issues.html",
+                "publisher": "The Star",
+                "title": "What the parties are promising on Aboriginal issues",
+                "date": "2015-09-01"
+              }
+           ]}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Inquiry into missing and murdered women",
+           "details": "lpc_aboriginal_relations.md",
+           "references": [
+              {
+                "url": "https://www.liberal.ca/realchange/missing-and-murdered-indigenous-women/",
+                "publisher": "Liberal.ca",
+                "title": "Missing and murdered Indigenous women and girls"
+              }
+           ]},
+           {"summary": "Invest in First Nations education",
+           "details": "lpc_aboriginal_education.md",
+           "references": [
+              {
+                "url": "https://www.liberal.ca/realchange/investing-2-6-billion-in-first-nations-education/",
+                "publisher": "Liberal.ca",
+                "title": "Investing $2.6 billion in First Nations education"
+              },
+              {
+                "url": "https://www.liberal.ca/realchange/new-investments-in-post-secondary-funding-for-indigenous-students/",
+                "publisher": "Liberal.ca",
+                "title": "New investments in post-secondary funding for Indigenous students"
+              },
+              {
+                "url": "https://www.liberal.ca/realchange/expanding-first-nations-education-infrastructure/",
+                "publisher": "Liberal.ca",
+                "title": "Expanding First Nations education infrastructure"
               }
            ]}
         ]}
@@ -484,6 +652,78 @@
                 "publisher": "",
                 "title": "",
                 "date": "2015-00-00"
+              }
+           ]}
+        ]}
+      ]
+    },
+
+     "Healthcare": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Pharmacare",
+           "important": true,
+           "references": [
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
+           ]},
+           {"summary": "Expand mental healthcare",
+           "references": [
+              {
+                "url": "",
+                "publisher": "",
+                "title": "",
+                "date": "2015-00-00"
+              }
+           ]}
+        ]},
+        {"party": "Conservatives", "policies": []},
+        {"party": "Liberals", "policies": [
+          {"summary": "Negotiate better prices for prescription medication",
+           "references": [
+              {
+                "url": "http://www.liberal.ca/realchange/investing-in-health-and-home-care/",
+                "publisher": "Liberal.ca",
+                "title": "Investing in health and home care"
+              }
+           ]}
+        ]}
+      ]
+    },
+
+    "Seniors": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Expand homecare for seniors",
+           "references": [
+              {
+                "url": "http://www.ndp.ca/plan",
+                "publisher": "NDP.ca",
+                "title": "Better health care"
+              }
+           ]}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Single-seniors tax credit",
+           "references": [
+              {
+                "url": "http://www.conservative.ca/cpc/support-for-canadian-seniors/",
+                "publisher": "Conservative.ca",
+                "title": "Support For Canadian Seniors"
+              }
+           ]}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Decrease OAS and GIS age requirement to 65",
+           "references": [
+              {
+                "url": "http://www.liberal.ca/realchange/retirement-security-for-our-seniors/",
+                "publisher": "Liberal.ca",
+                "title": "Retirement security for our seniors"
               }
            ]}
         ]}
