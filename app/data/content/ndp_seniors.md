@@ -1,0 +1,1 @@
+The NDP has planned reduce the age limit for receiving the Old Age Security to **age 65**, a reduction from the current 67. Also, the NDP will increase the Guaranteed Income Supplement for low-income seniors, but have not stated by how much.
