@@ -301,8 +301,7 @@ body {
   display: flex;
   -webkit-flex: 2;
   -ms-flex: 2;
-  flex: 2;
-  overflow-y: scroll; }
+  flex: 2; }
 
 .modal--headingInfo {
   display: -webkit-flex;
