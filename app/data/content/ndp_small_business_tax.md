@@ -1,0 +1,1 @@
+The NDP plan to cut the small business tax rate to **9%**, down from the current **11%**. This is estimated to provide small businesses a savings of **$600 million/year**, and is aimed at helping small businesses grow and create jobs.
