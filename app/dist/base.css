@@ -113,6 +113,10 @@ body {
   padding: 20px 30px 60px;
   box-sizing: border-box; }
 
+.footerInfo {
+  text-align: center;
+  margin-top: 20px; }
+
 .pageTitle {
   text-align: center;
   font-family: 'Questrial', sans-serif;
