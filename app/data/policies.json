@@ -1187,6 +1187,25 @@
       ]
     },
 
+    "Education": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "End interest on federal student loans",
+           "details": "ndp_student_loans.md",
+           "references": [
+              {
+                "url": "http://ottawacitizen.com/news/politics/new-democrats-announce-plan-to-end-interest-on-student-loans",
+                "publisher": "Ottawa Citizen",
+                "title": "New Democrats announce plan to end interest on student loans",
+                "date": "2015-10-01"
+              }
+           ]}
+        ]},
+        {"party": "Conservatives", "policies": []},
+        {"party": "Liberals", "policies": []}
+      ]
+    },
+
     "Electoral Reform": {
       "positions": [
         {"party": "NDP", "policies": [
