@@ -463,58 +463,114 @@
     "Environment": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Lower emissions",
+          {"summary": "Lower emissions through cap-and-trade",
            "important": true,
+           "details": "ndp_cap_and_trade.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-ndp-climate-change-1.3245598",
+                "publisher": "CBC",
+                "title": "NDP's cap-and-trade system would let provinces opt out",
+                "date": "2015-09-27"
               }
            ]},
-          {"summary": "Increase renewable energy production",
+          {"summary": "Encourage renewable energy usage",
+           "details": "ndp_green_tech.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.huffingtonpost.ca/2015/10/01/mulcair-pushes-home-retrofits-renewable-energy-as-part-of-climate-change-plan_n_8226962.html",
+                "publisher": "Huffington Post",
+                "title": "Tom Mulcair: NDP Climate Plan Will Help Retrofit Homes, Apartments",
+                "date": "2015-10-01"
               }
            ]},
-          {"summary": "Environmental study on pipeline impact",
+          {"summary": "Mostly anti-pipeline",
+           "details": "ndp_pipeline.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.vancouversun.com/business/leader+Thomas+Mulcair+throws+pipeline+policy+punches/10078481/story.html",
+                "publisher": "Vancouver Sun",
+                "title": "NDP leader Thomas Mulcair throws pipeline-policy punches",
+                "date": "2014-07-31"
+              },
+              {
+                "url": "http://www.winnipegfreepress.com/special/federal-election/Dan-Lett-322470502.html",
+                "publisher": "Winnipeg Free Press",
+                "title": "NDP's carefully crafted pipeline policy will only face more attacks",
+                "date": "2015-08-20"
+              },
+              {
+                "url": "http://www.cbc.ca/news/canada/new-brunswick/brian-gallant-criticizes-tom-mulcair-s-energy-east-pipeline-stance-1.3197057",
+                "publisher": "CBC",
+                "title": "Brian Gallant criticizes Tom Mulcair's Energy East pipeline stance",
+                "date": "2015-08-19"
+              },
+              {
+                "url": "http://www.cbc.ca/player/News/Politics/ID/2676007875/",
+                "publisher": "CBC",
+                "title": "Tom Mulcair agrees with Clinton on Keystone XL",
+                "date": "2015-09-23"
               }
            ]}
         ]},
         {"party": "Conservatives", "policies": [
-          {"summary": "Pro-pipeline (Kinder Morgan, Keystone XL)",
+          {"summary": "Pro-pipeline",
            "important": true,
+           "details": "cpc_pipeline.md",
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.thestar.com/news/canada/2014/06/17/conservatives_approve_gateway_pipeline.html",
+                "publisher": "The Star",
+                "title": "Conservatives approve Northern Gateway pipeline",
+                "date": "2014-06-17"
+              },
+              {
+                "url": "http://www.thestar.com/news/canada/2015/09/23/conservatives-take-long-term-view-on-keystone-xl-pipeline.html",
+                "publisher": "The Star",
+                "title": "Conservatives take long-term view on Keystone XL pipeline",
+                "date": "2015-09-23"
+              },
+              {
+                "url": "http://canadians.org/blog/liberals-and-conservatives-support-energy-east-oil-terminal-st-lawrence-river",
+                "publisher": "The Council of Canadians",
+                "title": "Liberals and Conservatives support Energy East oil terminal on the St. Lawrence River",
+                "date": "2014-10-22"
               }
            ]}
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Focus on clean technology",
+           "details": "lpc_green_tech.md",
            "important": true,
            "references": [
               {
-                "url": "",
-                "publisher": "",
-                "title": "",
-                "date": "2015-00-00"
+                "url": "http://www.liberal.ca/realchange/investing-in-clean-technologies/",
+                "publisher": "Liberal.ca",
+                "title": "Investing in clean technologies"
+              },
+              {
+                "url": "http://www.cp24.com/news/federal-election-2015/trudeau-says-liberal-government-would-invest-in-clean-tech-create-good-jobs-1.2522269",
+                "publisher": "CP24",
+                "title": "Trudeau says Liberal government would invest in clean tech, create good jobs",
+                "date": "2015-08-18"
               }
-           ]}
+           ]},
+           {"summary": "Pro-pipeline except Northern Gateway",
+             "details": "lpc_pipeline.md",
+            "references": [
+              {
+                "url": "http://www.cbc.ca/news/canada/new-brunswick/brian-gallant-criticizes-tom-mulcair-s-energy-east-pipeline-stance-1.3197057",
+                "publisher": "CBC",
+                "title": "Brian Gallant criticizes Tom Mulcair's Energy East pipeline stance",
+                "date": "2015-08-19"
+              },
+              {
+                "url": "http://www.thestar.com/news/canada/2015/09/10/liberal-leader-justin-trudeau-talks-pipeline-politics.html",
+                "publisher": "The Star",
+                "title": "Liberal Leader Justin Trudeau talks pipeline politics",
+                "date": "2015-09-10"
+              }
+            ]}
         ]}
       ]
     },
