@@ -38,12 +38,16 @@ export class PolicyModal extends React.Component {
     return (
       <div className="policyModal">
         <div className="modal--content"> 
-          <div className="modal--headingInfo">
-            <div className="modal--topicBox">
-              <p>{this.props.topic} - {this.props.party}</p>
-            </div>
+        
+          <div className="modal--headingContainer">
+            <div className="modal--headingInfo">
+              <div className="modal--topicBox">
+                <p>{this.props.topic} - {this.props.party}</p>
+              </div>
 
-            <a href={this.urlForIssue()} target="_blank">Suggest edit</a>
+              <a href={this.urlForIssue()} target="_blank">Suggest edit</a>
+            </div>
+            <a className="modal--closeLink" href='#' onClick={this.props.closeModal}></a>
           </div>
 
           <h1 className="modal--heading modal--heading__primary">{this.props.point.summary}</h1>
