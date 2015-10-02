@@ -205,6 +205,11 @@ export class PolicyBreakdown extends React.Component {
     this.openModal();
   }
 
+  urlForIssue() {
+    let body = encodeURIComponent('## Problem\n\n\n## Suggested Change\n\n\n## References\n');
+    return `https://github.com/jahfer/simple-politics/issues/new?title=[General] Suggested edit&body=${body}`;
+  }
+
   render() {
     return (
       <div className="policyBreakdown">
@@ -216,6 +221,10 @@ export class PolicyBreakdown extends React.Component {
         </Modal>
 
         <PolicyTable data={this.state.data} />
+
+        <footer>
+          <p className="footerInfo">Made by <a target="_blank" href="https://twitter.com/jahfer">@jahfer</a> | <a target="_blank" href={this.urlForIssue()}>Suggest edit</a></p>
+        </footer>
       </div>
     );
   }
