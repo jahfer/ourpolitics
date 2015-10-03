@@ -35,7 +35,6 @@ gulp.task('serve', ['js', 'sass'], function() {
 
 gulp.task('release', ['js', 'sass'], function() {
   console.log('Build complete.');
-  process.exit(0);
 });
 
 gulp.task('js', function() {
