@@ -19,6 +19,14 @@ body {
 .footerInfo {
   text-align: center;
   margin-top: 20px;
+
+  a { 
+    color: #666;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .pageTitle {

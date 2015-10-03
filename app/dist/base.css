@@ -116,6 +116,11 @@ body {
 .footerInfo {
   text-align: center;
   margin-top: 20px; }
+  .footerInfo a {
+    color: #666;
+    text-decoration: none; }
+    .footerInfo a:hover {
+      text-decoration: underline; }
 
 .pageTitle {
   font-family: sans-serif;
