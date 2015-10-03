@@ -973,9 +973,15 @@
     "International Trade": {
       "positions": [
         {"party": "NDP", "policies": [
-          {"summary": "Pro-TPP with concerns over dairy concessions",
+          {"summary": "Anti-TPP",
            "details": "ndp_tpp.md",
            "references": [
+              {
+                "url": "http://www.theglobeandmail.com/news/politics/tpp-trade-talks-extended-an-extra-day-as-progress-seen-on-auto-imports/article26631467/",
+                "publisher": "The Globe and Mail",
+                "title": "NDP government would not adhere to a TPP deal, Mulcair says in letter",
+                "date": "2015-10-02"
+              },
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-tom-mulcair-says-stephen-harper-is-weak-and-vulnerable-on-tpp-talks-1.3178689",
                 "publisher": "CBC",
@@ -999,12 +1005,6 @@
                 "publisher": "Michael Geist",
                 "title": "The TPP Copyright Chapter Leaks: Canada May Face Website Blocking, New Criminal Provisions & Term Extension",
                 "date": "2015-08-05"
-              },
-              {
-                "url": "http://www.theglobeandmail.com/news/politics/trade-minister-ed-fast-at-atlanta-meetings-pushing-for-trans-pacific-partnership-deal/article26597742/",
-                "publisher": "The Globe and mail",
-                "title": "Canada, Mexico seek concessions on auto rules at TPP talks",
-                "date": "2015-09-30"
               },
               {
                 "url": "http://www.ctvnews.ca/business/how-the-tpp-could-affect-canada-s-auto-industry-1.2589784",
@@ -1070,13 +1070,13 @@
            ]}
         ]},
         {"party": "Liberals", "policies": [
-          {"summary": "Pro-TPP, but would not allow dairy concessions",
+          {"summary": "Pro-TPP, but concerns over dairy concessions",
            "details": "lpc_tpp.md",
            "references": [
               {
                 "url": "http://ipolitics.ca/2015/09/26/liberals-wont-support-tpp-if-dairy-concessions-are-made-eyking/",
                 "publisher": "iPolitics",
-                "title": "http://ipolitics.ca/2015/09/26/liberals-wont-support-tpp-if-dairy-concessions-are-made-eyking/",
+                "title": "Reports of dairy concessions in TPP ‘absolutely false’: Fast",
                 "date": "2015-09-26"
               },
               {
