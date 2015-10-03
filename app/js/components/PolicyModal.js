@@ -42,7 +42,7 @@ export class PolicyModal extends React.Component {
 
   urlForIssue() {
     let body = encodeURIComponent('## Problem\n\n\n## Suggested Change\n\n\n## References\n');
-    return `https://github.com/jahfer/simple-politics/issues/new?title=[${this.props.party}] Suggested edit for "${this.props.point.summary}"&body=${body}`;
+    return `https://github.com/jahfer/simple-politics/issues/new?title=[${this.props.topic} - ${this.props.party}] Suggested edit for "${this.props.point.summary}"&body=${body}`;
   }
 
   render() {
