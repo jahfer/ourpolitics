@@ -22,12 +22,18 @@ body {
 }
 
 .pageTitle {
-  text-align: center;
-  font-family: 'Questrial', sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.4em;
-  font-size: 1em;
-  margin: 40px  0;
+  font-size: 1.7em;
+  text-indent: -9999em;
+  background-image: url('../img/logo.png');
+  width: 100%;
+  height: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 0;
 }
 
 .policyCell--points {
@@ -43,8 +49,9 @@ body {
   &.partyTitle {
     font-family: 'Merriweather', georgia, serif;
     text-align: center;
-    padding-bottom: 5px;
+    padding: 15px;
     display: block;
+    color: #fff;
   }
 
   &:last-of-type {
@@ -79,7 +86,7 @@ body {
 
 .policyRow {
   margin-bottom: 10px 0;
-  padding-top: 10px;
+  padding: 10px 0;
   border-bottom: 1px solid #DCDCD5;
   flex-shrink: 0;
   /*transition: max-height 1s ease-in-out;
@@ -87,13 +94,15 @@ body {
 
   &.tableHeader {
     padding: 0;
-    border-bottom: 2px solid #000;
+    border-bottom: none;
+    margin-bottom: 10px;
+    // border-bottom: 2px solid #000;
   }
 }
 
-.policyCells {
-  padding-bottom: 10px;
-}
+// .policyCells {
+//   padding-bottom: 10px;
+// }
 
 .policyPoint {
   margin-bottom: 5px;
@@ -211,6 +220,10 @@ body {
 @media screen and (min-width: 650px) {
   #content {
     width: 90%;
+  }
+
+  .pageTitle {
+    height: 120px;
   }
 
   .policyCell--points {

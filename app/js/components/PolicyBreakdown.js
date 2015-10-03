@@ -110,10 +110,10 @@ class PolicyTable extends React.Component {
       <div className="policyTable">
         <div className="policyRow tableHeader">
           <div className="policyCells">
-            <div className="policyCell"></div>
-            <div className="policyCell partyTitle textColor--NDP">NDP</div>
-            <div className="policyCell partyTitle textColor--Conservatives">Conservatives</div>
-            <div className="policyCell partyTitle textColor--Liberals">Liberals</div>
+            <div className="policyCell partyTitle backgroundColor--Empty">Topics</div>
+            <div className="policyCell partyTitle backgroundColor--NDP">NDP</div>
+            <div className="policyCell partyTitle backgroundColor--Conservatives">Conservatives</div>
+            <div className="policyCell partyTitle backgroundColor--Liberals">Liberals</div>
           </div>
         </div>
         {policyRows}
@@ -213,13 +213,14 @@ export class PolicyBreakdown extends React.Component {
   render() {
     return (
       <div className="policyBreakdown">
-        <Modal 
+        <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal.bind(this)}
           style={this.state.modalStyles}>
           <PolicyModal point={this.state.selectedPoint} party={this.state.selectedParty} topic={this.state.selectedTopic} closeModal={this.closeModal.bind(this)} />
         </Modal>
 
+        <h1 className="pageTitle">Our Politics</h1>
         <PolicyTable data={this.state.data} />
 
         <footer>
