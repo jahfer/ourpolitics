@@ -334,6 +334,8 @@ body {
   letter-spacing: 0.05em; }
   .modal--headingInfo p {
     margin: 0; }
+  .modal--headingInfo a {
+    color: #888; }
 
 .modal--headingContainer {
   display: -webkit-flex;
