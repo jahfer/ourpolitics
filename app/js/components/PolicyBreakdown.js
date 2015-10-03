@@ -14,7 +14,7 @@ import Modal from 'react-modal';
 
 class PolicyPoint extends React.Component {
   onClick() {
-    ga('send', 'event', 'PolicyPoint', 'click', 'point', `${this.props.policy.party} - ${this.props.topic} - ${this.props.policy.summary}`);
+    ga('send', 'event', 'PolicyPoint', 'click', `${this.props.party} - ${this.props.topic} - ${this.props.policy.summary}`, 1);
     policyPointSelected({policy: this.props.policy, party: this.props.party, topic: this.props.topic});
   }
 
