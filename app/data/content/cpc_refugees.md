@@ -1,0 +1,1 @@
+The Conservative government has promised to bring in **10,000** refugees from Syria over the next **three years**.
