@@ -690,9 +690,30 @@
            ]}
         ]},
         {"party": "Liberals", "policies": [
+          {"summary": "National carbon tax",
+           "details": "lpc_carbon_tax.md",
+           "important": true,
+           "references": [
+            {
+              "url": "http://www.liberal.ca/realchange/taking-action-on-climate-change/",
+              "publisher": "Liberal.ca",
+              "title": "Taking Action on Climate Change"
+            },
+            {
+              "url": "http://www.theglobeandmail.com/news/politics/trudeau-vows-to-adopt-carbon-pricing-if-liberals-win-election/article22842010/",
+              "publisher": "The Globe and Mail",
+              "title": "Trudeau announces carbon-pricing plan if Liberals win election",
+              "date": "2015-02-06"
+            },
+            {
+              "url": "http://www.theglobeandmail.com/news/politics/trudeau-unveils-liberal-environment-plan-including-green-bonds/article25176587/",
+              "publisher": "The Globe and Mail",
+              "title": "Trudeau vows Liberal environment plan will ‘be putting a price on carbon’",
+              "date": "2015-06-30"
+            }
+          ]},
           {"summary": "Focus on clean technology",
            "details": "lpc_green_tech.md",
-           "important": true,
            "references": [
               {
                 "url": "http://www.liberal.ca/realchange/investing-in-clean-technologies/",
@@ -1055,6 +1076,157 @@
       ]
     },
 
+    "Foreign Policy": {
+      "positions": [
+        {"party": "NDP", "policies": [
+          {"summary": "Withdraw from fight against ISIS",
+            "details": "ndp_isis.md",
+            "references": [
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-iraq-syria-canada-military-mission-mulcair-harper-trudeau-1.3223568",
+                "publisher": "CBC",
+                "title": "ISIS mission: Comparing leaders' positions on military involvement",
+                "date": "2015-09-10"
+              },
+              {
+                "url": "http://www.thestar.com/news/federal-election/2015/09/10/ndp-leader-tom-mulcair-promising-thousands-of-jobs-paid-internships.html",
+                "publisher": "The Star",
+                "title": "Mulcair would pull Canada from U.S.-led mission in Mideast if elected",
+                "date": "2015-09-10"
+              }
+            ]
+          },
+          {"summary": "Accept 10,000 refugees within 2015",
+           "details": "ndp_refugees.md",
+           "references": [
+            {
+              "url": "http://www.cbc.ca/news/politics/ndp-liberal-refugees-1.3217055",
+              "publisher": "CBC",
+              "title": "NDP, Liberals urge government to accept thousands more Syrian refugees",
+              "date": "2015-09-05"
+            },
+            {
+              "url": "http://www.thestar.com/news/canada/2015/09/05/ndp-and-liberals-call-for-canada-to-accept-more-syrian-refugees.html",
+              "publisher": "The Star",
+              "title": "NDP and Liberals call for Canada to accept more Syrian refugees",
+              "date": "2015-09-05"
+            },
+            {
+              "url": "http://www.ctvnews.ca/politics/election/ndp-liberals-call-for-increased-refugee-settlement-in-canada-by-year-s-end-1.2549599",
+              "publisher": "CTV News",
+              "title": "NDP, Liberals call for increased refugee settlement in Canada by year's end",
+              "date": "2015-09-07"
+            }
+           ]},
+           {"summary": "Increase foreign aid",
+            "details": "ndp_foreign_aid.md",
+            "references": [
+              {
+                "url": "http://www.macleans.ca/politics/ottawa/ndp-predicts-four-surpluses-health-care-foreign-aid-details-pending/",
+                "publisher": "Maclean's",
+                "title": "NDP predicts four surpluses; health care, foreign aid details pending",
+                "date": "2015-09-16"
+              },
+              {
+                "url": "http://www.ndp.ca/news/mulcair-to-restore-canadian-leadership-foreign-aid",
+                "publisher": "NDP.ca",
+                "title": "Mulcair to restore Canadian leadership on foreign aid",
+                "date": "2015-09-28"
+              },
+              {
+                "url": "http://www.cp24.com/news/canada-s-foreign-aid-spending-shrinking-official-1.2203952",
+                "publisher": "CP24",
+                "title": "Canada's foreign aid spending shrinking: Official",
+                "date": "2015-01-24"
+              }
+            ]}
+        ]},
+        {"party": "Conservatives", "policies": [
+          {"summary": "Pursue long-term fight against ISIS",
+            "important": true,
+            "details": "cpc_isis.md",
+            "references": [
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-iraq-syria-canada-military-mission-mulcair-harper-trudeau-1.3223568",
+                "publisher": "CBC",
+                "title": "ISIS mission: Comparing leaders' positions on military involvement",
+                "date": "2015-09-10"
+              },
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-harper-religion-aug10-1.3185333",
+                "publisher": "CBC",
+                "title": "ISIS mission, not aid alone, needed to help refugees, Stephen Harper says",
+                "date": "2015-08-10"
+              }
+            ]
+          },
+          {"summary": "Accept 10,000 refugees over three years",
+           "details": "cpc_refugees.md",
+           "references": [
+            {
+              "url": "http://www.cbc.ca/news/politics/ndp-liberal-refugees-1.3217055",
+              "publisher": "CBC",
+              "title": "NDP, Liberals urge government to accept thousands more Syrian refugees",
+              "date": "2015-09-05"
+            },
+            {
+              "url": "http://www.thestar.com/news/canada/2015/09/05/ndp-and-liberals-call-for-canada-to-accept-more-syrian-refugees.html",
+              "publisher": "The Star",
+              "title": "NDP and Liberals call for Canada to accept more Syrian refugees",
+              "date": "2015-09-05"
+            },
+            {
+              "url": "http://www.ctvnews.ca/politics/election/ndp-liberals-call-for-increased-refugee-settlement-in-canada-by-year-s-end-1.2549599",
+              "publisher": "CTV News",
+              "title": "NDP, Liberals call for increased refugee settlement in Canada by year's end",
+              "date": "2015-09-07"
+            }
+           ]}
+        ]},
+        {"party": "Liberals", "policies": [
+          {"summary": "Train local soldiers against ISIS",
+            "details": "lpc_isis.md",
+            "references": [
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-iraq-syria-canada-military-mission-mulcair-harper-trudeau-1.3223568",
+                "publisher": "CBC",
+                "title": "ISIS mission: Comparing leaders' positions on military involvement",
+                "date": "2015-09-10"
+              },
+              {
+                "url": "http://www.cbc.ca/news/politics/justin-trudeau-i-ll-end-isis-combat-mission-restore-relations-with-iran-1.3124949",
+                "publisher": "CBC",
+                "title": "Justin Trudeau: I'll end ISIS combat mission, restore relations with Iran",
+                "date": "2015-06-23"
+              }
+            ]
+          },
+          {"summary": "Accept 25,000 refugees within 2015",
+           "details": "lpc_refugees.md",
+           "references": [
+            {
+              "url": "http://www.cbc.ca/news/politics/ndp-liberal-refugees-1.3217055",
+              "publisher": "CBC",
+              "title": "NDP, Liberals urge government to accept thousands more Syrian refugees",
+              "date": "2015-09-05"
+            },
+            {
+              "url": "http://www.thestar.com/news/canada/2015/09/05/ndp-and-liberals-call-for-canada-to-accept-more-syrian-refugees.html",
+              "publisher": "The Star",
+              "title": "NDP and Liberals call for Canada to accept more Syrian refugees",
+              "date": "2015-09-05"
+            },
+            {
+              "url": "http://www.ctvnews.ca/politics/election/ndp-liberals-call-for-increased-refugee-settlement-in-canada-by-year-s-end-1.2549599",
+              "publisher": "CTV News",
+              "title": "NDP, Liberals call for increased refugee settlement in Canada by year's end",
+              "date": "2015-09-07"
+            }
+           ]}
+        ]}
+      ]
+    },
+
     "Marijuana": {
       "positions": [
         {"party": "NDP", "policies": [
@@ -1188,7 +1360,7 @@
       ]
     },
 
-    "Education": {
+    "Youth": {
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "End interest on federal student loans",
@@ -1203,7 +1375,29 @@
            ]}
         ]},
         {"party": "Conservatives", "policies": []},
-        {"party": "Liberals", "policies": []}
+        {"party": "Liberals", "policies": [
+          {"summary": "Invest in youth employment and opportunity",
+           "details": "lpc_youth.md",
+           "references": [
+              {
+                "url": "https://www.liberal.ca/files/2015/09/Creating-Jobs-and-Opportunity-For-Young-Canadians.pdf",
+                "publisher": "Liberal.ca",
+                "title": "Creating Jobs and Opportunity for Young Canadians"
+              },
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-trudeau-youth-employment-jobs-1.3224237",
+                "publisher": "CBC",
+                "title": "Justin Trudeau lays out $1.5B youth employment strategy",
+                "date": "2015-09-11"
+              },
+              {
+                "url": "http://www.theglobeandmail.com/news/politics/liberals-vows-to-outspend-ndp-on-youth-employment-strategy/article26329455/",
+                "publisher": "The Globe and Mail",
+                "title": "Liberals pledge to create 40,000 youth jobs",
+                "date": "2015-09-11"
+              }
+           ]}
+        ]}
       ]
     },
 
