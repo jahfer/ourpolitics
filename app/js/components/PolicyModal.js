@@ -8,6 +8,17 @@ class Spinner extends React.Component {
   }
 }
 
+class Reference extends React.Component {
+  render() {
+    return (
+      <li className="reference">
+        <a target="_blank" href={this.props.source.url}><h2 className="reference--title">{this.props.source.title}</h2></a>
+        <div className="reference--meta">{this.props.source.publisher}</div>
+      </li>
+    );
+  }
+}
+
 export class PolicyModal extends React.Component {
   constructor(props) {
     super(props);
@@ -66,8 +77,8 @@ export class PolicyModal extends React.Component {
           <a href="#" className="modal--close" onClick={this.props.closeModal}></a>
 
           <h2 className="modal--heading modal--heading__secondary">References</h2>
-          <ul>
-            {this.props.point.references.map(ref => <li><a href={ref.url}>{ref.publisher}</a></li>)}
+          <ul className="reference--list">
+            {this.props.point.references.map(ref => <Reference source={ref} />)}
           </ul>
         </div>
       </div>

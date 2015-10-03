@@ -64,6 +64,7 @@ $color-cream: #f9f9f1;
 
   &.modal--heading__secondary {
     font-size: 1.2em;
+    margin-bottom: 30px;
   }
 }
 
@@ -96,11 +97,38 @@ $color-cream: #f9f9f1;
   color: #fff;
   position: relative;
   flex: 1;
+  font-family: 'Merriweather', georgia, serif;
 
   a {
     color: #fff;
     text-decoration: none;
+    display: inherit;
   }
+}
+
+.reference {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.reference--list {
+  padding-left: 0;
+}
+
+.reference--title {
+  font-size: 0.8em;
+  margin: 0;
+  color: #ddd;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.reference--meta {
+  font-size: 0.65em;
+  text-transform: uppercase;
+  color: #999;
 }
 
 @media screen and (min-width: 800px) {
@@ -115,6 +143,7 @@ $color-cream: #f9f9f1;
   }
 
   .policyModal {
+    height: 100%;
     display: flex;
     flex-direction: row;
     display: flex;
@@ -122,6 +151,7 @@ $color-cream: #f9f9f1;
 
   .modal--content {
     flex: 2.5;
+    overflow-y: scroll;
   }
 
   .modal--sidebar {
@@ -129,6 +159,7 @@ $color-cream: #f9f9f1;
     bottom: auto;
     position: static;
     width: auto;
+    overflow-y: scroll;
   }
 
   .modal--close {
