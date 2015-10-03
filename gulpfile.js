@@ -1,6 +1,9 @@
 var gulp = require('gulp');
 var babelify = require('babelify');
 var browserify = require('browserify');
+var envify = require('envify');
+var streamify  = require('gulp-streamify');
+var uglify = require('gulp-uglify');
 var source = require('vinyl-source-stream');
 var gutil = require('gulp-util');
 var watchify = require('watchify');
@@ -30,6 +33,10 @@ gulp.task('serve', ['js', 'sass'], function() {
   execBundle(bundle);
 });
 
+gulp.task('release', ['js', 'sass'], function() {
+  console.log('Build complete.');
+});
+
 gulp.task('js', function() {
   var bundle = createBundle();
   execBundle(bundle);
@@ -52,7 +59,8 @@ gulp.task('default', ['serve']);
 function createBundle() {
   var customOpts = {
     entries: ['./app/js/main.js'],
-    debug: true
+    debug: false,
+    transform: [envify]
   };
 
   var opts = assign({}, watchify.args, customOpts);
@@ -70,5 +78,6 @@ function execBundle(b) {
     .bundle()
     .on('error', gutil.log.bind(gutil, 'Browserify Error'))
     .pipe(source('all.js'))
+    .pipe(streamify(uglify()))
     .pipe(gulp.dest('./app/dist'));
 }
