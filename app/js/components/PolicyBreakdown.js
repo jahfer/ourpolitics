@@ -223,6 +223,9 @@ export class PolicyBreakdown extends React.Component {
         </Modal>
 
         <h1 className="pageTitle">Our Politics</h1>
+        <ul className="legend">
+          <li className="customBullet customBullet--star">Key party policy</li>
+        </ul>
         <PolicyTable data={this.state.data} />
 
         <footer>
