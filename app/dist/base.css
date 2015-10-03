@@ -136,6 +136,11 @@ body {
   background-size: contain;
   margin-top: 0; }
 
+.legend {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9em; }
+
 .policyCell--points {
   padding: 0;
   margin: 0;
@@ -200,9 +205,9 @@ body {
   .policyPoint--link:hover {
     text-decoration: underline; }
 
-.policyPoint.customBullet {
+.customBullet {
   list-style: none; }
-  .policyPoint.customBullet:before {
+  .customBullet:before {
     font-family: 'FontAwesome';
     color: #ffbd00;
     margin: 0 5px 0 -20px; }
