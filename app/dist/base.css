@@ -361,7 +361,8 @@ body {
     font-size: 200%;
     margin: 40px 0 10px; }
   .modal--heading.modal--heading__secondary {
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    margin-bottom: 30px; }
 
 .modal--details {
   display: -webkit-flex;
@@ -391,10 +392,31 @@ body {
   position: relative;
   -webkit-flex: 1;
   -ms-flex: 1;
-  flex: 1; }
+  flex: 1;
+  font-family: 'Merriweather', georgia, serif; }
   .modal--sidebar a {
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    display: inherit; }
+
+.reference {
+  list-style: none;
+  margin-bottom: 15px; }
+
+.reference--list {
+  padding-left: 0; }
+
+.reference--title {
+  font-size: 0.8em;
+  margin: 0;
+  color: #ddd; }
+  .reference--title:hover {
+    text-decoration: underline; }
+
+.reference--meta {
+  font-size: 0.65em;
+  text-transform: uppercase;
+  color: #999; }
 
 @media screen and (min-width: 800px) {
   .ReactModal__Content {
@@ -408,6 +430,7 @@ body {
       -webkit-transform: scale(1);
       transform: scale(1); }
   .policyModal {
+    height: 100%;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -418,14 +441,16 @@ body {
   .modal--content {
     -webkit-flex: 2.5;
     -ms-flex: 2.5;
-    flex: 2.5; }
+    flex: 2.5;
+    overflow-y: scroll; }
   .modal--sidebar {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     bottom: auto;
     position: static;
-    width: auto; }
+    width: auto;
+    overflow-y: scroll; }
   .modal--close {
     position: absolute;
     right: 21px;

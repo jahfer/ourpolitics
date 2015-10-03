@@ -143,7 +143,8 @@ const modalStyles = (function(){
       border: 'none',
       maxHeight: 600,
       maxWidth: 1000,
-      background: '#303030'
+      background: '#303030',
+      overflow: 'hidden'
     }
   };
 
@@ -154,7 +155,8 @@ const modalStyles = (function(){
       right: 0,
       top: 0,
       bottom: 0,
-      maxHeight: 'none'
+      maxHeight: 'none',
+      overflow: 'auto'
     });
   }
 
