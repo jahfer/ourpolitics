@@ -1355,6 +1355,22 @@
                 "title": "New Democrats announce plan to end interest on student loans",
                 "date": "2015-10-01"
               }
+           ]},
+           {"summary": "Provide protections for unpaid internships",
+           "details": "ndp_internships.md",
+           "references": [
+              {
+                "url": "http://www.ndp.ca/news/ndp-will-protect-interns",
+                "publisher": "NDP.ca",
+                "title": "NDP will protect interns",
+                "date": "2015-02-17"
+              },
+              {
+                "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-youth-internships-jobs-1.3222513",
+                "publisher": "CBC",
+                "title": "Tom Mulcair promises $200M to boost youth employment ",
+                "date": "2015-09-10"
+              }
            ]}
         ]},
         {"party": "Conservatives", "policies": []},
