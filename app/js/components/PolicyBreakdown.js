@@ -20,7 +20,7 @@ class PolicyPoint extends React.Component {
 
   render() {
     return (
-      <li className={`${this.props.policy.important ? 'policyPoint customBullet customBullet--star' : 'policyPoint'}`}>
+      <li className='policyPoint'>
         <a onClick={this.onClick.bind(this)} className="policyPoint--link">{this.props.policy.summary}</a>
       </li>
     );
@@ -223,9 +223,6 @@ export class PolicyBreakdown extends React.Component {
         </Modal>
 
         <h1 className="pageTitle">Our Politics</h1>
-        <ul className="legend">
-          <li className="customBullet customBullet--star">Key party policy (subjective)</li>
-        </ul>
         <PolicyTable data={this.state.data} />
 
         <footer>

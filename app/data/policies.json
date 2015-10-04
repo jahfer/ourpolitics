@@ -5,7 +5,6 @@
         {"party": "NDP", "policies": [
           {"summary": "National $15/day daycare",
            "details": "ndp_daycare.md",
-           "important": true,
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-daycare-child-care-ndp-spin-cycle-1.3237594",
@@ -45,7 +44,6 @@
         {"party": "Conservatives", "policies": [
           {"summary": "Universal Child Care Benefit",
            "details": "cpc_uccb.md",
-           "important": true,
            "references": [
               {
                 "url": "http://actionplan.gc.ca/en/initiative/universal-child-care-benefit",
@@ -86,7 +84,6 @@
         {"party": "NDP", "policies": [
           {"summary": "Repeal",
            "details": "ndp_c51.md",
-           "important": true,
            "references": [
               {
                 "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html",
@@ -323,7 +320,6 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Home renovation tax credit",
-           "important": true,
            "details": "cpc_home_renovation.md",
            "references": [
               {
@@ -391,7 +387,6 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Lower middle-class taxes, new tax bracket above $200k",
-           "important": true,
            "details": "lpc_middle_class_taxes.md",
            "references": [
               {
@@ -512,7 +507,6 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Pro-TPP",
-           "important": true,
            "details": "cpc_tpp.md",
            "references": [
               {
@@ -615,7 +609,6 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Lower emissions through cap-and-trade",
-           "important": true,
            "details": "ndp_cap_and_trade.md",
            "references": [
               {
@@ -666,7 +659,6 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Pro-pipeline",
-           "important": true,
            "details": "cpc_pipeline.md",
            "references": [
               {
@@ -692,7 +684,6 @@
         {"party": "Liberals", "policies": [
           {"summary": "National carbon tax",
            "details": "lpc_carbon_tax.md",
-           "important": true,
            "references": [
             {
               "url": "http://www.liberal.ca/realchange/taking-action-on-climate-change/",
@@ -751,7 +742,6 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Abolish",
-           "important": true,
            "details": "ndp_senate.md",
            "references": [
               {
@@ -811,7 +801,6 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Inquiry into missing and murdered women within 100 days of office",
-           "important": true,
            "details": "ndp_aboriginal_relations.md",
            "references": [
               {
@@ -882,7 +871,6 @@
         {"party": "NDP", "policies": [
           {"summary": "Negotiate better prices for prescription medication",
            "details": "ndp_healthcare.md",
-           "important": true,
            "references": [
               {
                 "url": "http://www.thestar.com/news/canada/2015/09/18/ndp-promises-26-billion-towards-universal-drug-plan.html",
@@ -990,7 +978,6 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Better Transit Plan",
-           "important": true,
            "details": "ndp_transit.md",
            "references": [
               {
@@ -1030,7 +1017,6 @@
         {"party": "Liberals", "policies": [
           {"summary": "Federal infrastructure bank",
            "details": "lpc_infrastructure_bank.md",
-           "important": true,
            "references": [
               {
                 "url": "https://www.liberal.ca/realchange/financing-infrastructure-investments-with-the-canada-infrastructure-bank/",
@@ -1268,7 +1254,6 @@
         {"party": "Liberals", "policies": [
           {"summary": "Legalize",
            "details": "lpc_marijuana.md",
-           "important": true,
            "references": [
             {
               "url": "http://www.ctvnews.ca/politics/election/liberals-committed-to-legalizing-marijuana-trudeau-1.2588260",
@@ -1317,7 +1302,6 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Single-seniors tax credit",
-           "important": true,
            "details": "cpc_seniors.md",
            "references": [
               {
@@ -1330,7 +1314,6 @@
         {"party": "Liberals", "policies": [
           {"summary": "Increase funding for homecare",
            "details": "lpc_homecare.md",
-           "important": true,
            "references": [
               {
                 "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/",
