@@ -12,9 +12,23 @@ import {policyPointSelected} from '../actions/PolicyTableActions';
 import {PolicyModal} from './PolicyModal';
 import Modal from 'react-modal';
 
+const CONSERVATIVE = Symbol.for('Conservatives');
+const NDP = Symbol.for('NDP');
+const LIBERAL = Symbol.for('Liberals');
+const PARTIES = [NDP, CONSERVATIVE, LIBERAL];
+
+const mapPartyToSym = {
+  'NDP': NDP,
+  'NPD': NDP,
+  'Conservatives': CONSERVATIVE,
+  'Conservateur': CONSERVATIVE,
+  'Liberals': LIBERAL,
+  'Libéral': LIBERAL
+};
+
 class PolicyPoint extends React.Component {
   onClick() {
-    ga('send', 'event', 'PolicyPoint', 'click', `${this.props.party} - ${this.props.topic} - ${this.props.policy.summary}`, 1);
+    ga('send', 'event', 'PolicyPoint', 'click', `${Symbol.keyFor(this.props.party)} - ${this.props.topic} - ${this.props.policy.summary}`, 1);
     policyPointSelected({policy: this.props.policy, party: this.props.party, topic: this.props.topic});
   }
 
@@ -47,7 +61,7 @@ class PolicyCell extends React.Component {
 
     return (
       <div className="policyCell">
-        <h4 className={`policyCell--party textColor--${this.props.party}`}>{this.props.party}</h4>
+        <h4 className={`policyCell--party textColor--${Symbol.keyFor(this.props.party)}`}>{this.props.party}</h4>
         <ul className="policyCell--points">
           {listItems}
         </ul>
@@ -77,9 +91,9 @@ class PolicyRow extends React.Component {
   }
 
   render() {
-    let policyCells = ['NDP', 'Conservatives', 'Liberals']
+    let policyCells = PARTIES
       .map(this.findPoliciesForParty.bind(this))
-      .map((data) => <PolicyCell party={data.party} topic={this.props.topic} policies={data.policies} key={`${this.props.topic}:${data.party}`} />);
+      .map((data) => <PolicyCell party={data.party} topic={this.props.topic} policies={data.policies} key={`${this.props.topic}:${Symbol.keyFor(data.party)}`} />);
 
     return (
       <div className="policyRow">
@@ -127,11 +141,11 @@ PolicyTable.propTypes = {
 };
 
 const opacity = 0.8;
-const partyColors = {
-  NDP: `rgba(243,112,33, ${opacity})`,
-  Conservatives: `rgba(26,71,130, ${opacity})`,
-  Liberals: `rgba(215,25,32, ${opacity})`
-};
+const partyColours = new Map([
+  [NDP, `rgba(243,112,33, ${opacity})`],
+  [CONSERVATIVE, `rgba(26,71,130, ${opacity})`],
+  [LIBERAL, `rgba(215,25,32, ${opacity})`]
+]);
 
 const modalStyles = (function(){
   let modalStyles = {
@@ -181,7 +195,19 @@ export class PolicyBreakdown extends React.Component {
   loadPoliciesFromServer() {
     fetch(this.props.url)
       .then((response) => response.json())
-      .then((data) => this.setState({data: data.topics}))
+      .then((raw) => {
+        let result = {};
+        for (let [topic, data] of entries(raw.topics)) {
+          const symbolizedParties = data.positions.map(function(position) {
+            position.party = mapPartyToSym[position.party];
+            return position;
+          });
+          data.positions = symbolizedParties;
+          result[topic] = data;
+        }
+        return result;
+      })
+      .then((topics) => this.setState({data: topics}))
       .catch((err) => console.error(this.props.url, err.toString()));
   }
 
@@ -195,7 +221,7 @@ export class PolicyBreakdown extends React.Component {
   }
 
   updateModal(data) {
-    const overlay = {backgroundColor: partyColors[data.party]};
+    const overlay = {backgroundColor: partyColours.get(data.party)};
 
     this.setState({
       selectedPoint: data.policy,
