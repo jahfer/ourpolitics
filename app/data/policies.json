@@ -4,7 +4,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "National $15/day daycare",
-           "details": "ndp_daycare.md",
+           "key": "ndp_daycare",
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-daycare-child-care-ndp-spin-cycle-1.3237594",
@@ -20,7 +20,7 @@
               }
            ]},
           {"summary": "Keep Universal Child Care Benefit",
-           "details": "ndp_uccb.md",
+           "key": "ndp_uccb",
            "references": [
               {
                 "url": "http://ottawacitizen.com/news/politics/mulcair-says-ndp-government-would-keep-tory-child-care-benefits",
@@ -43,7 +43,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Universal Child Care Benefit",
-           "details": "cpc_uccb.md",
+           "key": "cpc_uccb",
            "references": [
               {
                 "url": "http://actionplan.gc.ca/en/initiative/universal-child-care-benefit",
@@ -60,7 +60,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Canada Child Benefit",
-           "details": "lpc_ccb.md",
+           "key": "lpc_ccb",
            "references": [
               {
                 "url": "http://www.ctvnews.ca/politics/new-child-benefits-may-not-be-worth-as-much-as-advertised-experts-say-1.2481038",
@@ -83,7 +83,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Repeal",
-           "details": "ndp_c51.md",
+           "key": "ndp_c51",
            "references": [
               {
                 "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html",
@@ -137,7 +137,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Keep",
-           "details": "cpc_c51.md",
+           "key": "cpc_c51",
            "references": [
               {
                 "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html",
@@ -173,7 +173,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Amend",
-           "details": "lpc_c51.md",
+           "key": "lpc_c51",
            "references": [
               {
                 "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html",
@@ -220,7 +220,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Raise corporate taxes",
-           "details": "ndp_corporate_taxes.md",
+           "key": "ndp_corporate_taxes",
            "references": [
               {
                 "url": "http://www.macleans.ca/economy/economicanalysis/why-the-ndps-exact-plan-for-the-federal-corporate-tax-rate-matters/",
@@ -242,7 +242,7 @@
               }
            ]},
           {"summary": "Remove stock option tax-benefit",
-           "details": "ndp_stock_options.md",
+           "key": "ndp_stock_options",
            "references": [
               {
                 "url": "http://www.theglobeandmail.com/report-on-business/companies-likely-to-shift-from-stock-options-under-ndp-tax-plan/article26462192/",
@@ -258,7 +258,7 @@
               }
            ]},
           {"summary": "Lower small business tax",
-           "details": "ndp_small_business_tax.md",
+           "key": "ndp_small_business_tax",
            "references": [
               {
                 "url": "http://news.nationalpost.com/news/canada/canadian-politics/mulcair-unveils-ndp-plan-to-goose-the-sputtering-economy-tax-cuts-for-small-business-and-manufacturers",
@@ -280,7 +280,7 @@
               }
            ]},
           {"summary": "Remove income splitting",
-           "details": "ndp_income_splitting.md",
+           "key": "ndp_income_splitting",
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/would-opposition-parties-scrap-pension-income-splitting-1.3064910",
@@ -296,7 +296,7 @@
               }
            ]},
           {"summary": "Reduce TFSA contribution limit",
-           "details": "ndp_tfsa.md",
+           "key": "ndp_tfsa",
            "references": [
               {
                 "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/",
@@ -320,7 +320,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Home renovation tax credit",
-           "details": "cpc_home_renovation.md",
+           "key": "cpc_home_renovation",
            "references": [
               {
                 "url": "http://www.conservative.ca/cpc/579/",
@@ -341,7 +341,7 @@
               }
            ]},
           {"summary": "Bump RRSP withdrawal limit",
-           "details": "cpc_rrsp.md",
+           "key": "cpc_rrsp",
            "references": [
               {
                 "url": "http://www.theglobeandmail.com/report-on-business/economy/housing/the-real-estate-beat/harper-vows-to-boost-rrsp-withdrawal-limit-for-first-time-buyers/article25945628/",
@@ -363,7 +363,7 @@
               }
            ]},
           {"summary": "Don't change TFSA contribution limit",
-           "details": "cpc_tfsa.md",
+           "key": "cpc_tfsa",
            "references": [
               {
                 "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/",
@@ -387,7 +387,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Lower middle-class taxes, new tax bracket above $200k",
-           "details": "lpc_middle_class_taxes.md",
+           "key": "lpc_middle_class_taxes",
            "references": [
               {
                 "url": "http://www.liberal.ca/realchange/tax-break-for-the-middle-class/",
@@ -408,7 +408,7 @@
               }
            ]},
           {"summary": "Remove income splitting",
-           "details": "lpc_income_splitting.md",
+           "key": "lpc_income_splitting",
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/would-opposition-parties-scrap-pension-income-splitting-1.3064910",
@@ -430,7 +430,7 @@
               }
            ]},
           {"summary": "Reduce TFSA contribution limit",
-           "details": "lpc_tfsa.md",
+           "key": "lpc_tfsa",
            "references": [
               {
                 "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/",
@@ -459,7 +459,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Anti-TPP",
-           "details": "ndp_tpp.md",
+           "key": "ndp_tpp",
            "references": [
               {
                 "url": "http://www.theglobeandmail.com/news/politics/tpp-trade-talks-extended-an-extra-day-as-progress-seen-on-auto-imports/article26631467/",
@@ -507,7 +507,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Pro-TPP",
-           "details": "cpc_tpp.md",
+           "key": "cpc_tpp",
            "references": [
               {
                 "url": "http://ipolitics.ca/2015/06/29/as-tpp-moves-ahead-mulcair-moves-to-make-supply-management-an-election-issue/",
@@ -555,7 +555,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Pro-TPP, but concerns over dairy concessions",
-           "details": "lpc_tpp.md",
+           "key": "lpc_tpp",
            "references": [
               {
                 "url": "http://ipolitics.ca/2015/09/26/liberals-wont-support-tpp-if-dairy-concessions-are-made-eyking/",
@@ -609,7 +609,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Lower emissions through cap-and-trade",
-           "details": "ndp_cap_and_trade.md",
+           "key": "ndp_cap_and_trade",
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-ndp-climate-change-1.3245598",
@@ -619,7 +619,7 @@
               }
            ]},
           {"summary": "Encourage renewable energy usage",
-           "details": "ndp_green_tech.md",
+           "key": "ndp_green_tech",
            "references": [
               {
                 "url": "http://www.huffingtonpost.ca/2015/10/01/mulcair-pushes-home-retrofits-renewable-energy-as-part-of-climate-change-plan_n_8226962.html",
@@ -629,7 +629,7 @@
               }
            ]},
           {"summary": "Mostly anti-pipeline",
-           "details": "ndp_pipeline.md",
+           "key": "ndp_pipeline",
            "references": [
               {
                 "url": "http://www.vancouversun.com/business/leader+Thomas+Mulcair+throws+pipeline+policy+punches/10078481/story.html",
@@ -659,7 +659,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Pro-pipeline",
-           "details": "cpc_pipeline.md",
+           "key": "cpc_pipeline",
            "references": [
               {
                 "url": "http://www.thestar.com/news/canada/2014/06/17/conservatives_approve_gateway_pipeline.html",
@@ -683,7 +683,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "National carbon tax",
-           "details": "lpc_carbon_tax.md",
+           "key": "lpc_carbon_tax",
            "references": [
             {
               "url": "http://www.liberal.ca/realchange/taking-action-on-climate-change/",
@@ -704,7 +704,7 @@
             }
           ]},
           {"summary": "Focus on clean technology",
-           "details": "lpc_green_tech.md",
+           "key": "lpc_green_tech",
            "references": [
               {
                 "url": "http://www.liberal.ca/realchange/investing-in-clean-technologies/",
@@ -719,7 +719,7 @@
               }
            ]},
            {"summary": "Pro-pipeline except Northern Gateway",
-             "details": "lpc_pipeline.md",
+             "key": "lpc_pipeline",
             "references": [
               {
                 "url": "http://www.cbc.ca/news/canada/new-brunswick/brian-gallant-criticizes-tom-mulcair-s-energy-east-pipeline-stance-1.3197057",
@@ -742,7 +742,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Abolish",
-           "details": "ndp_senate.md",
+           "key": "ndp_senate",
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-senate-abolition-ndp-1.3235746",
@@ -760,7 +760,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Reform",
-           "details": "lpc_senate.md",
+           "key": "lpc_senate",
            "references": [
               {
                 "url": "http://www.thestar.com/opinion/commentary/2014/05/11/justin_trudeaus_senate_reform_plan_has_no_teeth.html",
@@ -778,7 +778,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "No new appointments",
-           "details": "cpc_senate.md",
+           "key": "cpc_senate",
            "references": [
               {
                 "url": "http://www.thestar.com/news/canada/2015/07/24/stephen-harper-imposes-moratorium-on-senate-appointments.html",
@@ -801,7 +801,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Inquiry into missing and murdered women within 100 days of office",
-           "details": "ndp_aboriginal_relations.md",
+           "key": "ndp_aboriginal_relations",
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/tom-mulcair-vows-aboriginal-women-inquiry-within-100-days-if-ndp-elected-1.2748280",
@@ -813,7 +813,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Do not support national inquiry",
-           "details": "cpc_aboriginal_relations.md",
+           "key": "cpc_aboriginal_relations",
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/tom-mulcair-vows-aboriginal-women-inquiry-within-100-days-if-ndp-elected-1.2748280",
@@ -823,7 +823,7 @@
               }
            ]},
            {"summary": "Funding for training",
-           "details": "cpc_aboriginal_funding.md",
+           "key": "cpc_aboriginal_funding",
            "references": [
               {
                 "url": "http://www.thestar.com/news/federal-election/2015/09/01/what-the-parties-are-promising-on-aboriginal-issues.html",
@@ -835,7 +835,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Inquiry into missing and murdered women",
-           "details": "lpc_aboriginal_relations.md",
+           "key": "lpc_aboriginal_relations",
            "references": [
               {
                 "url": "https://www.liberal.ca/realchange/missing-and-murdered-indigenous-women/",
@@ -844,7 +844,7 @@
               }
            ]},
            {"summary": "Invest in First Nations education",
-           "details": "lpc_aboriginal_education.md",
+           "key": "lpc_aboriginal_education",
            "references": [
               {
                 "url": "https://www.liberal.ca/realchange/investing-2-6-billion-in-first-nations-education/",
@@ -870,7 +870,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Negotiate better prices for prescription medication",
-           "details": "ndp_healthcare.md",
+           "key": "ndp_healthcare",
            "references": [
               {
                 "url": "http://www.thestar.com/news/canada/2015/09/18/ndp-promises-26-billion-towards-universal-drug-plan.html",
@@ -886,7 +886,7 @@
               }
            ]},
            {"summary": "Expand mental healthcare",
-           "details": "ndp_mental_healthcare.md",
+           "key": "ndp_mental_healthcare",
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-mental-health-fund-youth-1.3228711",
@@ -902,7 +902,7 @@
               }
            ]},
            {"summary": "National Alzheimer's and dementia strategy",
-           "details": "ndp_alzheimers.md",
+           "key": "ndp_alzheimers",
            "references": [
               {
                 "url": "http://www.ndp.ca/news/mulcair-to-launch-national-alzheimers-and-dementia-strategy",
@@ -924,7 +924,7 @@
               }
            ]},
            {"summary": "Better funding for doctors, nurses and clinics",
-           "details": "ndp_healthcare_funding.md",
+           "key": "ndp_healthcare_funding",
            "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-healthcare-doctors-1.3227153",
@@ -943,7 +943,7 @@
         {"party": "Conservatives", "policies": []},
         {"party": "Liberals", "policies": [
           {"summary": "Negotiate better prices for prescription medication",
-           "details": "lpc_healthcare.md",
+           "key": "lpc_healthcare",
            "references": [
               {
                 "url": "http://www.liberal.ca/realchange/investing-in-health-and-home-care/",
@@ -957,7 +957,7 @@
               }
            ]},
            {"summary": "Expand mental healthcare",
-           "details": "lpc_mental_healthcare.md",
+           "key": "lpc_mental_healthcare",
            "references": [
               {
                 "url": "https://www.liberal.ca/policy-resolutions/51-priority-resolution-national-framework-mental-health/",
@@ -978,7 +978,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Better Transit Plan",
-           "details": "ndp_transit.md",
+           "key": "ndp_transit",
            "references": [
               {
                 "url": "http://www.lfpress.com/2015/07/24/ndp-leader-tom-mulcair-promoting-plan-to-use-part-of-gas-tax-for-infrastructure-projects",
@@ -1003,7 +1003,7 @@
         {"party": "Conservatives", "policies": [
           {
             "summary": "Invest in building and renewing infrastructure",
-            "details": "cpc_infrastructure.md",
+            "key": "cpc_infrastructure",
             "references": [
               {
                 "url": "http://www.thestar.com/news/canada/2015/08/27/a-look-at-each-federal-partys-infrastructure-election-promises.html",
@@ -1016,7 +1016,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Federal infrastructure bank",
-           "details": "lpc_infrastructure_bank.md",
+           "key": "lpc_infrastructure_bank",
            "references": [
               {
                 "url": "https://www.liberal.ca/realchange/financing-infrastructure-investments-with-the-canada-infrastructure-bank/",
@@ -1026,7 +1026,7 @@
            ]},
            {
             "summary": "Double federal infrastructure investment",
-            "details": "lpc_infrastructure_investment.md",
+            "key": "lpc_infrastructure_investment",
             "important": true,
             "references": [
               {
@@ -1044,7 +1044,7 @@
             ]
            },
            {"summary": "Invest in public transit",
-            "details": "lpc_transit.md",
+            "key": "lpc_transit",
             "references": [
               {
                 "url": "http://www.liberal.ca/realchange/investing-in-public-transit-infrastructure/",
@@ -1066,7 +1066,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Withdraw from fight against ISIS",
-            "details": "ndp_isis.md",
+            "key": "ndp_isis",
             "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-iraq-syria-canada-military-mission-mulcair-harper-trudeau-1.3223568",
@@ -1083,7 +1083,7 @@
             ]
           },
           {"summary": "Accept 10,000 refugees within 2015",
-           "details": "ndp_refugees.md",
+           "key": "ndp_refugees",
            "references": [
             {
               "url": "http://www.cbc.ca/news/politics/ndp-liberal-refugees-1.3217055",
@@ -1105,12 +1105,12 @@
             }
            ]},
            {"summary": "Increase foreign aid",
-            "details": "ndp_foreign_aid.md",
+            "key": "ndp_foreign_aid",
             "references": [
               {
-                "url": "http://www.macleans.ca/politics/ottawa/ndp-predicts-four-surpluses-health-care-foreign-aid-details-pending/",
+                "url": "http://www.macleans.ca/politics/ottawa/ndp-predicts-four-surpluses-health-care-foreign-aid-key-pending/",
                 "publisher": "Maclean's",
-                "title": "NDP predicts four surpluses; health care, foreign aid details pending",
+                "title": "NDP predicts four surpluses; health care, foreign aid key pending",
                 "date": "2015-09-16"
               },
               {
@@ -1130,7 +1130,7 @@
         {"party": "Conservatives", "policies": [
           {"summary": "Pursue long-term fight against ISIS",
             "important": true,
-            "details": "cpc_isis.md",
+            "key": "cpc_isis",
             "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-iraq-syria-canada-military-mission-mulcair-harper-trudeau-1.3223568",
@@ -1147,7 +1147,7 @@
             ]
           },
           {"summary": "Accept 10,000 refugees over three years",
-           "details": "cpc_refugees.md",
+           "key": "cpc_refugees",
            "references": [
             {
               "url": "http://www.cbc.ca/news/politics/ndp-liberal-refugees-1.3217055",
@@ -1171,7 +1171,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Train local soldiers against ISIS",
-            "details": "lpc_isis.md",
+            "key": "lpc_isis",
             "references": [
               {
                 "url": "http://www.cbc.ca/news/politics/canada-election-2015-iraq-syria-canada-military-mission-mulcair-harper-trudeau-1.3223568",
@@ -1188,7 +1188,7 @@
             ]
           },
           {"summary": "Accept 25,000 refugees within 2015",
-           "details": "lpc_refugees.md",
+           "key": "lpc_refugees",
            "references": [
             {
               "url": "http://www.cbc.ca/news/politics/ndp-liberal-refugees-1.3217055",
@@ -1217,7 +1217,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Decriminalize",
-           "details": "ndp_marijuana.md",
+           "key": "ndp_marijuana",
            "references": [
            {
               "url": "http://www.cbc.ca/news/politics/ndp-mulcair-marijuana-decriminalization-1.3199532",
@@ -1235,7 +1235,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Criminalize",
-           "details": "cpc_marijuana.md",
+           "key": "cpc_marijuana",
            "references": [
            {
               "url": "http://www.cbc.ca/news/politics/ndp-mulcair-marijuana-decriminalization-1.3199532",
@@ -1253,7 +1253,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Legalize",
-           "details": "lpc_marijuana.md",
+           "key": "lpc_marijuana",
            "references": [
             {
               "url": "http://www.ctvnews.ca/politics/election/liberals-committed-to-legalizing-marijuana-trudeau-1.2588260",
@@ -1282,7 +1282,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Increase funding and reduce OAS age requirement to 65",
-           "details": "ndp_seniors.md",
+           "key": "ndp_seniors",
            "references": [
               {
                 "url": "http://www.ndp.ca/plan",
@@ -1291,7 +1291,7 @@
               }
            ]},
            {"summary": "Support income splitting for seniors",
-           "details": "ndp_seniors_income_splitting.md",
+           "key": "ndp_seniors_income_splitting",
            "references": [
               {
                 "url": "http://www.ndp.ca/plan",
@@ -1302,7 +1302,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Single-seniors tax credit",
-           "details": "cpc_seniors.md",
+           "key": "cpc_seniors",
            "references": [
               {
                 "url": "http://www.conservative.ca/cpc/support-for-canadian-seniors/",
@@ -1313,7 +1313,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Increase funding for homecare",
-           "details": "lpc_homecare.md",
+           "key": "lpc_homecare",
            "references": [
               {
                 "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/",
@@ -1322,7 +1322,7 @@
               }
           ]},
           {"summary": "Increase funding and reduce OAS and GIS age requirement to 65",
-           "details": "lpc_seniors.md",
+           "key": "lpc_seniors",
            "references": [
               {
                 "url": "http://www.liberal.ca/realchange/retirement-security-for-our-seniors/",
@@ -1331,7 +1331,7 @@
               }
            ]},
            {"summary": "Support income splitting for seniors",
-           "details": "lpc_seniors_income_splitting.md",
+           "key": "lpc_seniors_income_splitting",
            "references": [
               {
                 "url": "https://www.liberal.ca/fact-check-trudeau-will-keep-pension-income-splitting-for-seniors/",
@@ -1347,7 +1347,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "End interest on federal student loans",
-           "details": "ndp_student_loans.md",
+           "key": "ndp_student_loans",
            "references": [
               {
                 "url": "http://ottawacitizen.com/news/politics/new-democrats-announce-plan-to-end-interest-on-student-loans",
@@ -1357,7 +1357,7 @@
               }
            ]},
            {"summary": "Provide protections for unpaid internships",
-           "details": "ndp_internships.md",
+           "key": "ndp_internships",
            "references": [
               {
                 "url": "http://www.ndp.ca/news/ndp-will-protect-interns",
@@ -1376,7 +1376,7 @@
         {"party": "Conservatives", "policies": []},
         {"party": "Liberals", "policies": [
           {"summary": "Invest in youth employment and opportunity",
-           "details": "lpc_youth.md",
+           "key": "lpc_youth",
            "references": [
               {
                 "url": "https://www.liberal.ca/files/2015/09/Creating-Jobs-and-Opportunity-For-Young-Canadians.pdf",
@@ -1404,7 +1404,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Mixed Member Parliament",
-           "details": "ndp_reform.md",
+           "key": "ndp_reform",
            "references": [
               {
                 "url": "http://www.thestar.com/news/canada/2015/09/10/electoral-reform-back-in-the-spotlight.html",
@@ -1422,7 +1422,7 @@
         ]},
         {"party": "Conservatives", "policies": [
           {"summary": "Require referendum for any reform",
-           "details": "cpc_reform.md",
+           "key": "cpc_reform",
            "references": [
               {
                 "url": "http://www.torontosun.com/2015/07/27/exclusive-tories-to-require-a-vote-on-changing-elections",
@@ -1434,7 +1434,7 @@
         ]},
         {"party": "Liberals", "policies": [
           {"summary": "Committee to find best alternative",
-           "details": "lpc_reform.md",
+           "key": "lpc_reform",
            "references": [
               {
                 "url": "http://www.thestar.com/news/canada/2015/06/17/electoral-reform-spells-trouble-for-stephen-harpers-conservatives-hbert.html",
@@ -1461,7 +1461,7 @@
       "positions": [
         {"party": "NDP", "policies": [
           {"summary": "Create Parliamentary Science Officer",
-           "details": "ndp_science_officer.md",
+           "key": "ndp_science_officer",
            "references": [
               {
                 "url": "http://www.ndp.ca/news/scientific-community-rallies-behind-ndp-proposal-science",
@@ -1486,7 +1486,7 @@
         {"party": "Conservatives", "policies": []},
         {"party": "Liberals", "policies": [
           {"summary": "Create Chief Science Officer",
-           "details": "lpc_science_officer.md",
+           "key": "lpc_science_officer",
            "references": [
               {
                 "url": "http://www.liberal.ca/realchange/unmuzzle-science/",

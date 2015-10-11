@@ -1,6 +1,7 @@
-import * as React from 'react';
+import React from 'react';
 import Markdown from 'react-markdown';
 import {shopURL} from '../config';
+import HistoryActions from '../actions/HistoryActions';
 
 class Spinner extends React.Component {
   render() {
@@ -19,7 +20,7 @@ class Reference extends React.Component {
   }
 }
 
-export class PolicyModal extends React.Component {
+export default class PolicyModal extends React.Component {
   constructor(props) {
     super(props);
     this.state = {content: '', isLoading: true};
@@ -30,7 +31,7 @@ export class PolicyModal extends React.Component {
   }
 
   fetchContent() {
-    let filePath = `${shopURL}/app/data/content/${this.props.point.details}`;
+    let filePath = `${shopURL}/app/data/content/${this.props.point.key}.md`;
     fetch(filePath)
       .then(raw => {
         if (raw.status === 200) { return raw.text(); }
@@ -58,7 +59,6 @@ export class PolicyModal extends React.Component {
 
               <a href={this.urlForIssue()} target="_blank">Suggest edit</a>
             </div>
-            <a className="modal--closeLink" href='#' onClick={this.props.closeModal}></a>
           </div>
 
           <h1 className="modal--heading modal--heading__primary">{this.props.point.summary}</h1>
@@ -74,7 +74,7 @@ export class PolicyModal extends React.Component {
         </div>
 
         <div className="modal--sidebar">
-          <a href="#" className="modal--close" onClick={this.props.closeModal}></a>
+          <a href="#" className="modal--close" onClick={HistoryActions.pageBack}></a>
 
           <h2 className="modal--heading modal--heading__secondary">References</h2>
           <ul className="reference--list">

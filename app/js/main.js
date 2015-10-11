@@ -1,11 +1,11 @@
 /* @flow */
 import {shopURL} from './config';
-import * as React from 'react';
-import {PolicyBreakdown} from './components/PolicyBreakdown';
+import React from 'react';
+import OurPolitics from './components/OurPolitics';
 
 document.addEventListener('DOMContentLoaded', function() {
   React.render(
-    <PolicyBreakdown url={`${shopURL}/app/data/policies.json`} pollInterval={2000} />,
+    <OurPolitics url={`${shopURL}/app/data/policies.json`} />,
     document.getElementById('content')
   );
 });

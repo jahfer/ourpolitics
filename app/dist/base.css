@@ -355,17 +355,6 @@ body {
   -ms-flex-align: center;
   align-items: center; }
 
-.modal--closeLink {
-  text-align: right;
-  text-decoration: none; }
-  .modal--closeLink:after {
-    font-family: 'FontAwesome';
-    color: #333;
-    font-size: 32px;
-    content: '\f00d';
-    padding: 6px 10px;
-    margin-right: -10px; }
-
 .modal--heading {
   line-height: 1.3em;
   font-family: 'Merriweather', georgia, serif; }
