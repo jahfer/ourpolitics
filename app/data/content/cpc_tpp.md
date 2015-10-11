@@ -5,4 +5,4 @@ The TPP is a cross-pacific trade agreement including Canada, USA, Japan, Chile, 
 
 - Looser requirements for tariff-free cars and trucks, allowing cars to be manufactured outside of North America
 - Copyright protections will become much stricter, enforcing criminal charges when violating copyright law, and restricting free use
-- Would dismantle “supply management” for Canadian dairy and poultry farmers, which enforces purchasing of local goods
+- Would open small part of dairy, poultry and egg markets (1.5% to 3.25% of production) to foreign imports
