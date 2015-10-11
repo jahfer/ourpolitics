@@ -61,7 +61,7 @@ class PolicyCell extends React.Component {
 
     return (
       <div className="policyCell">
-        <h4 className={`policyCell--party textColor--${Symbol.keyFor(this.props.party)}`}>{this.props.party}</h4>
+        <h4 className={`policyCell--party textColor--${Symbol.keyFor(this.props.party)}`}>{Symbol.keyFor(this.props.party)}</h4>
         <ul className="policyCell--points">
           {listItems}
         </ul>
