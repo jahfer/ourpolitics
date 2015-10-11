@@ -42,7 +42,7 @@ export class PolicyModal extends React.Component {
 
   urlForIssue() {
     let body = encodeURIComponent('## Problem\n\n\n## Suggested Change\n\n\n## References\n');
-    return `https://github.com/jahfer/simple-politics/issues/new?title=[${this.props.topic} - ${this.props.party}] Suggested edit for "${this.props.point.summary}"&body=${body}`;
+    return `https://github.com/jahfer/simple-politics/issues/new?title=[${this.props.topic} - ${Symbol.keyFor(this.props.party)}] Suggested edit for "${this.props.point.summary}"&body=${body}`;
   }
 
   render() {
@@ -53,7 +53,7 @@ export class PolicyModal extends React.Component {
           <div className="modal--headingContainer">
             <div className="modal--headingInfo">
               <div className="modal--topicBox">
-                <p>{this.props.topic} - {this.props.party}</p>
+                <p>{this.props.topic} - {Symbol.keyFor(this.props.party)}</p>
               </div>
 
               <a href={this.urlForIssue()} target="_blank">Suggest edit</a>
