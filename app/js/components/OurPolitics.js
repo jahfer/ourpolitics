@@ -1,12 +1,14 @@
 import React from 'react';
 import matchMedia from 'matchmedia';
 import objectAssign from 'object-assign';
-import HistoryStore from '../stores/HistoryStore';
 import Modal from 'react-modal';
 import PolicyModal from './PolicyModal';
 import PolicyTable from './PolicyTable';
+import PolicyActions from '../actions/PolicyActions';
 import HistoryActions from '../actions/HistoryActions';
-import {LIBERAL, CONSERVATIVE, NDP, mapPartyToSym, entries} from '../util';
+import HistoryStore from '../stores/HistoryStore';
+import PolicyStore from '../stores/PolicyStore';
+import {LIBERAL, CONSERVATIVE, NDP} from '../util';
 
 const opacity = 0.8;
 const partyColours = new Map([
@@ -63,22 +65,9 @@ export default class OurPolitics extends React.Component {
   }
 
   loadPoliciesFromServer() {
-    fetch(this.props.url)
-      .then((response) => response.json())
-      .then((raw) => {
-        let result = {};
-        for (let [topic, data] of entries(raw.topics)) {
-          const symbolizedParties = data.positions.map(function(position) {
-            position.party = mapPartyToSym[position.party];
-            return position;
-          });
-          data.positions = symbolizedParties;
-          result[topic] = data;
-        }
-        return result;
-      })
-      .then((topics) => this.setState({data: topics}))
-      .catch((err) => console.error(this.props.url, err.toString()));
+    PolicyActions.loadPolicies
+      .triggerPromise(this.props.url)
+      .then((data) => this.setState({data}));
   }
 
   openModal() {

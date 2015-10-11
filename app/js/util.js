@@ -11,12 +11,10 @@ Date.prototype.getWeekNumber = function(){
   return Math.ceil((((d-new Date(d.getFullYear(),0,1))/8.64e7)+1)/7);
 };
 
-
 export const CONSERVATIVE = Symbol.for('Conservatives');
 export const NDP = Symbol.for('NDP');
 export const LIBERAL = Symbol.for('Liberals');
 export const PARTIES = [NDP, CONSERVATIVE, LIBERAL];
-
 export const mapPartyToSym = {
   'NDP': NDP,
   'NPD': NDP,
