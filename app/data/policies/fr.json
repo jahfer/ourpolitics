@@ -26,7 +26,7 @@
                 }
               ],
               "details": "ndp_science_officer.md",
-              "summary": "Créer le poste d'agent scientifique parlementaire",
+              "summary": "Créer le poste d'agent scientifique parlementaire"
             }
           ],
           "party": "NPD"
@@ -46,7 +46,7 @@
                 }
               ],
               "details": "lpc_science_officer.md",
-              "summary": "Créer le poste d'agent scientifique en chef",
+              "summary": "Créer le poste d'agent scientifique en chef"
             }
           ],
           "party": "Libéral"
@@ -73,7 +73,7 @@
                 }
               ],
               "details": "ndp_reform.md",
-              "summary": "Parlement à la proportielle mixte",
+              "summary": "Parlement à la proportielle mixte"
             }
           ],
           "party": "NPD"
@@ -90,7 +90,7 @@
                 }
               ],
               "details": "cpc_reform.md",
-              "summary": "Exiger un référendum pour n'importe quelle réforme",
+              "summary": "Exiger un référendum pour n'importe quelle réforme"
             }
           ],
           "party": "Conservateur"
@@ -117,7 +117,7 @@
                 }
               ],
               "details": "lpc_reform.md",
-              "summary": "Mettre en place un comité pour trouver la meilleur alternative",
+              "summary": "Mettre en place un comité pour trouver la meilleur alternative"
             }
           ],
           "party": "Libéral"
@@ -138,7 +138,7 @@
                 }
               ],
               "details": "ndp_student_loans.md",
-              "summary": "Supprimer les intérêts sur les prêts étudiant fédéraux",
+              "summary": "Supprimer les intérêts sur les prêts étudiant fédéraux"
             },
             {
               "references": [
@@ -156,7 +156,7 @@
                 }
               ],
               "details": "ndp_internships.md",
-              "summary": "Assurer une protection contre les stages non-rémunérés",
+              "summary": "Assurer une protection contre les stages non-rémunérés"
             }
           ],
           "party": "NPD"
@@ -188,7 +188,7 @@
                 }
               ],
               "details": "lpc_youth.md",
-              "summary": "Investir dans l'emploi pour les jeunes",
+              "summary": "Investir dans l'emploi pour les jeunes"
             }
           ],
           "party": "Libéral"
@@ -208,7 +208,7 @@
                 }
               ],
               "details": "ndp_seniors.md",
-              "summary": "Augmenter le financement et abaisser l'âge de la retraite à 65 ans",
+              "summary": "Augmenter le financement et abaisser l'âge de la retraite à 65 ans"
             },
             {
               "references": [
@@ -219,7 +219,7 @@
                 }
               ],
               "details": "ndp_seniors_income_splitting.md",
-              "summary": "Appuie la séparation des revenues pour les personnes agées",
+              "summary": "Appuie la séparation des revenues pour les personnes agées"
             }
           ],
           "party": "NPD"
@@ -235,7 +235,7 @@
                 }
               ],
               "details": "cpc_seniors.md",
-              "summary": "Réduction d'impôt pour les personnes agées seules",
+              "summary": "Réduction d'impôt pour les personnes agées seules"
             }
           ],
           "party": "Conservateur"
@@ -251,7 +251,7 @@
                 }
               ],
               "details": "lpc_homecare.md",
-              "summary": "Augmenter le financement pour les soins à domicile",
+              "summary": "Augmenter le financement pour les soins à domicile"
             },
             {
               "references": [
@@ -262,7 +262,7 @@
                 }
               ],
               "details": "lpc_seniors.md",
-              "summary": "Augmenter le financement et abaisser l'âge pour le revenu minimum garantie et la pension à 65 ans",
+              "summary": "Augmenter le financement et abaisser l'âge pour le revenu minimum garantie et la pension à 65 ans"
             },
             {
               "references": [
@@ -273,7 +273,7 @@
                 }
               ],
               "details": "lpc_seniors_income_splitting.md",
-              "summary": "Appuie le séparation des revenues pour les personnes agées",
+              "summary": "Appuie le séparation des revenues pour les personnes agées"
             }
           ],
           "party": "Libéral"
@@ -300,7 +300,7 @@
                 }
               ],
               "details": "ndp_marijuana.md",
-              "summary": "Décriminaliser",
+              "summary": "Décriminaliser"
             }
           ],
           "party": "NPD"
@@ -323,7 +323,7 @@
                 }
               ],
               "details": "cpc_marijuana.md",
-              "summary": "Criminaliser",
+              "summary": "Criminaliser"
             }
           ],
           "party": "Conservateur"
@@ -352,7 +352,7 @@
                 }
               ],
               "details": "lpc_marijuana.md",
-              "summary": "Légaliser",
+              "summary": "Légaliser"
             }
           ],
           "party": "Libéral"
@@ -379,7 +379,7 @@
                 }
               ],
               "details": "ndp_isis.md",
-              "summary": "Se retirer de la lutte contre l'État islamique",
+              "summary": "Se retirer de la lutte contre l'État islamique"
             },
             {
               "references": [
@@ -403,7 +403,7 @@
                 }
               ],
               "details": "ndp_refugees.md",
-              "summary": "Accepter 10 000 réfugiés en 2015",
+              "summary": "Accepter 10 000 réfugiés en 2015"
             },
             {
               "references": [
@@ -427,7 +427,7 @@
                 }
               ],
               "details": "ndp_foreign_aid.md",
-              "summary": "Augmenter l'aide internationale",
+              "summary": "Augmenter l'aide internationale"
             }
           ],
           "party": "NPD"
@@ -451,7 +451,7 @@
               ],
               "details": "cpc_isis.md",
               "important": true,
-              "summary": "Poursuivre le combat de long terme contre l'État Islamique",
+              "summary": "Poursuivre le combat de long terme contre l'État Islamique"
             },
             {
               "references": [
@@ -475,7 +475,7 @@
                 }
               ],
               "details": "cpc_refugees.md",
-              "summary": "Accepter 10 000 réfugiés d'ici 3 ans",
+              "summary": "Accepter 10 000 réfugiés d'ici 3 ans"
             }
           ],
           "party": "Conservateur"
@@ -498,7 +498,7 @@
                 }
               ],
               "details": "lpc_isis.md",
-              "summary": "Entraîner les troupes canadiennes pour combattre l'État Islamique",
+              "summary": "Entraîner les troupes canadiennes pour combattre l'État Islamique"
             },
             {
               "references": [
@@ -522,7 +522,7 @@
                 }
               ],
               "details": "lpc_refugees.md",
-              "summary": "Accepter 25 000 réfugiés d'ici 2015",
+              "summary": "Accepter 25 000 réfugiés d'ici 2015"
             }
           ],
           "party": "Libéral"
@@ -555,7 +555,7 @@
                 }
               ],
               "details": "ndp_transit.md",
-              "summary": "Un meilleur plan pour le transport en commun",
+              "summary": "Un meilleur plan pour le transport en commun"
             }
           ],
           "party": "NPD"
@@ -572,7 +572,7 @@
                 }
               ],
               "details": "cpc_infrastructure.md",
-              "summary": "Investir dans la construction et la rénovation des infrastructure",
+              "summary": "Investir dans la construction et la rénovation des infrastructure"
             }
           ],
           "party": "Conservateur"
@@ -588,7 +588,7 @@
                 }
               ],
               "details": "lpc_infrastructure_bank.md",
-              "summary": "Banque de l'infrastructure du Canada",
+              "summary": "Banque de l'infrastructure du Canada"
             },
             {
               "references": [
@@ -607,7 +607,7 @@
               ],
               "important": true,
               "details": "lpc_infrastructure_investment.md",
-              "summary": "Doubler les investissements fédéral en investissement",
+              "summary": "Doubler les investissements fédéral en investissement"
             },
             {
               "references": [
@@ -624,7 +624,7 @@
                 }
               ],
               "details": "lpc_transit.md",
-              "summary": "Investir dans le transport en commun",
+              "summary": "Investir dans le transport en commun"
             }
           ],
           "party": "Libéral"
@@ -651,7 +651,7 @@
                 }
               ],
               "details": "ndp_healthcare.md",
-              "summary": "Négocier pour des meilleurs prix sur les prescriptions médicales",
+              "summary": "Négocier pour des meilleurs prix sur les prescriptions médicales"
             },
             {
               "references": [
@@ -669,7 +669,7 @@
                 }
               ],
               "details": "ndp_mental_healthcare.md",
-              "summary": "Étendre la couverture médicale en santé mentale",
+              "summary": "Étendre la couverture médicale en santé mentale"
             },
             {
               "references": [
@@ -693,7 +693,7 @@
                 }
               ],
               "details": "ndp_alzheimers.md",
-              "summary": "Stratégie nationale sur la démence et l'Alzheimer",
+              "summary": "Stratégie nationale sur la démence et l'Alzheimer"
             },
             {
               "references": [
@@ -711,7 +711,7 @@
                 }
               ],
               "details": "ndp_healthcare_funding.md",
-              "summary": "Augmenter le financement des docteurs, des infirmières et des cliniques",
+              "summary": "Augmenter le financement des docteurs, des infirmières et des cliniques"
             }
           ],
           "party": "NPD"
@@ -736,7 +736,7 @@
                 }
               ],
               "details": "lpc_healthcare.md",
-              "summary": "Négocier de meilleurs prix pour les prescriptions médicales",
+              "summary": "Négocier de meilleurs prix pour les prescriptions médicales"
             },
             {
               "references": [
@@ -752,7 +752,7 @@
                 }
               ],
               "details": "lpc_mental_healthcare.md",
-              "summary": "Étendre la couverture médicale pour la santé mentale",
+              "summary": "Étendre la couverture médicale pour la santé mentale"
             }
           ],
           "party": "Libéral"
@@ -773,7 +773,7 @@
                 }
               ],
               "details": "ndp_aboriginal_relations.md",
-              "summary": "Enquête sur la disparition et l'assassinat des femmes autochtones dans les premiers 100 jours",
+              "summary": "Enquête sur la disparition et l'assassinat des femmes autochtones dans les premiers 100 jours"
             }
           ],
           "party": "NPD"
@@ -790,7 +790,7 @@
                 }
               ],
               "details": "cpc_aboriginal_relations.md",
-              "summary": "N'appuie pas d'enquête nationale",
+              "summary": "N'appuie pas d'enquête nationale"
             },
             {
               "references": [
@@ -802,7 +802,7 @@
                 }
               ],
               "details": "cpc_aboriginal_funding.md",
-              "summary": "Subvention pour la formation",
+              "summary": "Subvention pour la formation"
             }
           ],
           "party": "Conservateur"
@@ -818,7 +818,7 @@
                 }
               ],
               "details": "lpc_aboriginal_relations.md",
-              "summary": "Enquête sur les femmes autochtones disparues et assassinées",
+              "summary": "Enquête sur les femmes autochtones disparues et assassinées"
             },
             {
               "references": [
@@ -839,7 +839,7 @@
                 }
               ],
               "details": "lpc_aboriginal_education.md",
-              "summary": "Investir dans l'éducation des Premières Nations",
+              "summary": "Investir dans l'éducation des Premières Nations"
             }
           ],
           "party": "Libéral"
@@ -866,7 +866,7 @@
                 }
               ],
               "details": "ndp_senate.md",
-              "summary": "Abolir",
+              "summary": "Abolir"
             }
           ],
           "party": "NPD"
@@ -889,7 +889,7 @@
                 }
               ],
               "details": "lpc_senate.md",
-              "summary": "Réformer",
+              "summary": "Réformer"
             }
           ],
           "party": "Libéral"
@@ -912,7 +912,7 @@
                 }
               ],
               "details": "cpc_senate.md",
-              "summary": "Aucun changement",
+              "summary": "Aucun changement"
             }
           ],
           "party": "Conservateur"
@@ -933,7 +933,7 @@
                 }
               ],
               "details": "ndp_cap_and_trade.md",
-              "summary": "Diminuer les émissions par un marché sur le carbone",
+              "summary": "Diminuer les émissions par un marché sur le carbone"
             },
             {
               "references": [
@@ -945,7 +945,7 @@
                 }
               ],
               "details": "ndp_green_tech.md",
-              "summary": "Encourager la production d'énergie renouvelable",
+              "summary": "Encourager la production d'énergie renouvelable"
             },
             {
               "references": [
@@ -975,7 +975,7 @@
                 }
               ],
               "details": "ndp_pipeline.md",
-              "summary": "Généralement anti-pipeline",
+              "summary": "Généralement anti-pipeline"
             }
           ],
           "party": "NPD"
@@ -1004,7 +1004,7 @@
                 }
               ],
               "details": "cpc_pipeline.md",
-              "summary": "Pro-pipeline",
+              "summary": "Pro-pipeline"
             }
           ],
           "party": "Conservateur"
@@ -1032,7 +1032,7 @@
                 }
               ],
               "details": "lpc_carbon_tax.md",
-              "summary": "Taxe nationale sur le carbone",
+              "summary": "Taxe nationale sur le carbone"
             },
             {
               "references": [
@@ -1049,7 +1049,7 @@
                 }
               ],
               "details": "lpc_green_tech.md",
-              "summary": "Prioriser les technologies propres",
+              "summary": "Prioriser les technologies propres"
             },
             {
               "references": [
@@ -1067,7 +1067,7 @@
                 }
               ],
               "details": "lpc_pipeline.md",
-              "summary": "Pro-oléoducs à l'exception du Northern Gateway",
+              "summary": "Pro-oléoducs à l'exception du Northern Gateway"
             }
           ],
           "party": "Libéral"
@@ -1124,7 +1124,7 @@
                 }
               ],
               "details": "ndp_tpp.md",
-              "summary": "Anti-PTP",
+              "summary": "Anti-PTP"
             }
           ],
           "party": "NPD"
@@ -1177,7 +1177,7 @@
                 }
               ],
               "details": "cpc_tpp.md",
-              "summary": "Pro-PTP",
+              "summary": "Pro-PTP"
             }
           ],
           "party": "Conservateur"
@@ -1230,7 +1230,7 @@
                 }
               ],
               "details": "lpc_tpp.md",
-              "summary": "Pro-PTP, mais inquiet des concessions dans le domaine de la production laitière",
+              "summary": "Pro-PTP, mais inquiet des concessions dans le domaine de la production laitière"
             }
           ],
           "party": "Libéral"
@@ -1263,7 +1263,7 @@
                 }
               ],
               "details": "ndp_corporate_taxes.md",
-              "summary": "Augmenter l'impôt des corporations",
+              "summary": "Augmenter l'impôt des corporations"
             },
             {
               "references": [
@@ -1281,7 +1281,7 @@
                 }
               ],
               "details": "ndp_stock_options.md",
-              "summary": "Supprimer l'avantage fiscal sur les options d'achat d'actions",
+              "summary": "Supprimer l'avantage fiscal sur les options d'achat d'actions"
             },
             {
               "references": [
@@ -1305,7 +1305,7 @@
                 }
               ],
               "details": "ndp_small_business_tax.md",
-              "summry_fr": "Diminuer l'impôt des petites entreprises",
+              "summary": "Diminuer l'impôt des petites entreprises"
             },
             {
               "references": [
@@ -1323,7 +1323,7 @@
                 }
               ],
               "details": "ndp_income_splitting.md",
-              "summary": "Supprimer le partage des revenues",
+              "summary": "Supprimer le partage des revenues"
             },
             {
               "references": [
@@ -1347,7 +1347,7 @@
                 }
               ],
               "details": "ndp_tfsa.md",
-              "summary": "Réduire la limite de contribution au CELI",
+              "summary": "Réduire la limite de contribution au CELI"
             }
           ],
           "party": "NPD"
@@ -1375,7 +1375,7 @@
                 }
               ],
               "details": "cpc_home_renovation.md",
-              "summary": "Crédit d'impôt à la rénovation",
+              "summary": "Crédit d'impôt à la rénovation"
             },
             {
               "references": [
@@ -1399,7 +1399,7 @@
                 }
               ],
               "details": "cpc_rrsp.md",
-              "summary": "Augmenter la limite de RAP des REER",
+              "summary": "Augmenter la limite de RAP des REER"
             },
             {
               "references": [
@@ -1423,7 +1423,7 @@
                 }
               ],
               "details": "cpc_tfsa.md",
-              "summary": "Ne pas modifier la limite de contribution au CELI",
+              "summary": "Ne pas modifier la limite de contribution au CELI"
             }
           ],
           "party": "Conservateur"
@@ -1451,7 +1451,7 @@
                 }
               ],
               "details": "lpc_middle_class_taxes.md",
-              "summary": "Diminer l'impôt de la classe moyenne, créer un nouvel échelon d'impôt pour les revenues de plus de $200k",
+              "summary": "Diminer l'impôt de la classe moyenne, créer un nouvel échelon d'impôt pour les revenues de plus de $200k"
             },
             {
               "references": [
@@ -1475,7 +1475,7 @@
                 }
               ],
               "details": "lpc_income_splitting.md",
-              "summary": "Supprimer le partage des revenues",
+              "summary": "Supprimer le partage des revenues"
             },
             {
               "references": [
@@ -1499,7 +1499,7 @@
                 }
               ],
               "details": "lpc_tfsa.md",
-              "summary": "Réduire la limite de contribution au CELI",
+              "summary": "Réduire la limite de contribution au CELI"
             }
           ],
           "party": "Libéral"
@@ -1562,7 +1562,7 @@
                 }
               ],
               "details": "ndp_c51.md",
-              "summary": "Abroger",
+              "summary": "Abroger"
             }
           ],
           "party": "NPD"
@@ -1603,7 +1603,7 @@
                 }
               ],
               "details": "cpc_c51.md",
-              "summary": "Préserver",
+              "summary": "Préserver"
             }
           ],
           "party": "Conservateur"
@@ -1650,7 +1650,7 @@
                 }
               ],
               "details": "lpc_c51.md",
-              "summary": "Amender",
+              "summary": "Amender"
             }
           ],
           "party": "Libéral"
@@ -1677,7 +1677,7 @@
                 }
               ],
               "details": "ndp_daycare.md",
-              "summary": "Garderies à 15$ par jour à la grandeur du pays",
+              "summary": "Garderies à 15$ par jour à la grandeur du pays"
             },
             {
               "references": [
@@ -1700,7 +1700,7 @@
                 }
               ],
               "details": "ndp_uccb.md",
-              "summary": "Préserver l'universalité du système de garde d'enfants",
+              "summary": "Préserver l'universalité du système de garde d'enfants"
             }
           ],
           "party": "NPD"
@@ -1722,7 +1722,7 @@
                 }
               ],
               "details": "cpc_uccb.md",
-              "summary": "Universalité du bénéfice de garde d'enfants",
+              "summary": "Universalité du bénéfice de garde d'enfants"
             }
           ],
           "party": "Conservateur"
@@ -1745,7 +1745,7 @@
                 }
               ],
               "details": "lpc_ccb.md",
-              "summary": "Bénéfice pour les enfants du Canada",
+              "summary": "Bénéfice pour les enfants du Canada"
             }
           ],
           "party": "Libéral"
