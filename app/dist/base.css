@@ -128,13 +128,16 @@ body {
   letter-spacing: 0.4em;
   font-size: 1.7em;
   text-indent: -9999em;
-  background-image: url("../img/logo.png");
   width: 100%;
   height: 90px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 0; }
+  .pageTitle.lang-en {
+    background-image: url("../img/logo-en.png"); }
+  .pageTitle.lang-fr {
+    background-image: url("../img/logo-fr.png"); }
 
 .legend {
   font-style: italic;

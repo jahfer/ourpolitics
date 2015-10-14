@@ -248,7 +248,7 @@ export class PolicyBreakdown extends React.Component {
           <PolicyModal point={this.state.selectedPoint} party={this.state.selectedParty} topic={this.state.selectedTopic} closeModal={this.closeModal.bind(this)} />
         </Modal>
 
-        <h1 className="pageTitle">Our Politics</h1>
+        <h1 className={`pageTitle lang-${I18n.locale}`}>Our Politics</h1>
         <PolicyTable data={this.state.data} />
 
         <footer>
