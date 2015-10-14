@@ -5,7 +5,7 @@ import matchMedia from 'matchmedia';
 import objectAssign from 'object-assign';
 // utils
 import {_} from 'lodash';
-import {entries} from '../util';
+import {entries} from '../util/general';
 import {
   LIBERAL, CONSERVATIVE, NDP, PARTIES,
   NO_POLICY_LISTED, TOPICS, MADE_BY, SUGGEST_EDIT
