@@ -7,7 +7,7 @@ translations.set(LIBERAL, {en: 'Liberals', fr: 'Libéral'});
 translations.set(NO_POLICY_LISTED, {en: 'No policy', fr: 'Absence de politique'});
 translations.set(TOPICS, {en: 'Topics', fr: 'Sujets'});
 translations.set(MADE_BY, {en: 'Made by', fr: 'Fait par'});
-translations.set(SUGGEST_EDIT, {en: 'Suggest edit', fr: 'Suggérer modifier'});
+translations.set(SUGGEST_EDIT, {en: 'Suggest edit', fr: 'Suggérer une modification'});
 
 const i18n = {
   init(locale = 'en') {
