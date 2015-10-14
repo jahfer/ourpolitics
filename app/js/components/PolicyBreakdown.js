@@ -6,16 +6,16 @@ import objectAssign from 'object-assign';
 // utils
 import {_} from 'lodash';
 import {entries} from '../util';
+import {
+  LIBERAL, CONSERVATIVE, NDP, PARTIES,
+  NO_POLICY_LISTED, TOPICS, MADE_BY, SUGGEST_EDIT
+} from '../util/constants';
+import I18n from '../util/i18n';
 // libs
 import * as React from 'react';
 import {policyPointSelected} from '../actions/PolicyTableActions';
 import {PolicyModal} from './PolicyModal';
 import Modal from 'react-modal';
-
-const CONSERVATIVE = Symbol.for('Conservatives');
-const NDP = Symbol.for('NDP');
-const LIBERAL = Symbol.for('Liberals');
-const PARTIES = [NDP, CONSERVATIVE, LIBERAL];
 
 const mapPartyToSym = {
   'NDP': NDP,
@@ -52,7 +52,7 @@ class PolicyCell extends React.Component {
     if (policies.length) {
       return policies.map((policy) => <PolicyPoint topic={this.props.topic} party={party} policy={policy} />);
     } else {
-      return <li className="emptyPolicy">No policy</li>;
+      return <li className="emptyPolicy">{I18n.get(NO_POLICY_LISTED)}</li>;
     }
   }
 
@@ -124,10 +124,10 @@ class PolicyTable extends React.Component {
       <div className="policyTable">
         <div className="policyRow tableHeader">
           <div className="policyCells">
-            <div className="policyCell partyTitle backgroundColor--Empty">Topics</div>
-            <div className="policyCell partyTitle backgroundColor--NDP">NDP</div>
-            <div className="policyCell partyTitle backgroundColor--Conservatives">Conservatives</div>
-            <div className="policyCell partyTitle backgroundColor--Liberals">Liberals</div>
+            <div className="policyCell partyTitle backgroundColor--Empty">{I18n.get(TOPICS)}</div>
+            <div className="policyCell partyTitle backgroundColor--NDP">{I18n.get(NDP)}</div>
+            <div className="policyCell partyTitle backgroundColor--Conservatives">{I18n.get(CONSERVATIVE)}</div>
+            <div className="policyCell partyTitle backgroundColor--Liberals">{I18n.get(LIBERAL)}</div>
           </div>
         </div>
         {policyRows}
@@ -252,7 +252,7 @@ export class PolicyBreakdown extends React.Component {
         <PolicyTable data={this.state.data} />
 
         <footer>
-          <p className="footerInfo">Made by <a target="_blank" href="https://twitter.com/jahfer">@jahfer</a> | <a target="_blank" href={this.urlForIssue()}>Suggest edit</a></p>
+          <p className="footerInfo">{I18n.get(MADE_BY)} <a target="_blank" href="https://twitter.com/jahfer">@jahfer</a> | <a target="_blank" href={this.urlForIssue()}>{I18n.get(SUGGEST_EDIT)}</a></p>
         </footer>
       </div>
     );
