@@ -5,7 +5,7 @@ import {PolicyBreakdown} from './components/PolicyBreakdown';
 
 document.addEventListener('DOMContentLoaded', function() {
   React.render(
-    <PolicyBreakdown url={`${shopURL}/app/data/policies.json`} pollInterval={2000} />,
+    <PolicyBreakdown url={`${shopURL}/app/data/policies/fr.json`} pollInterval={2000} />,
     document.getElementById('content')
   );
 });
