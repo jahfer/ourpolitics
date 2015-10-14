@@ -1,6 +1,8 @@
 import * as React from 'react';
 import Markdown from 'react-markdown';
 import {shopURL} from '../config';
+import {SUGGEST_EDIT} from '../util/constants';
+import I18n from '../util/i18n';
 
 class Spinner extends React.Component {
   render() {
@@ -53,10 +55,10 @@ export class PolicyModal extends React.Component {
           <div className="modal--headingContainer">
             <div className="modal--headingInfo">
               <div className="modal--topicBox">
-                <p>{this.props.topic} - {Symbol.keyFor(this.props.party)}</p>
+                <p>{this.props.topic} - {I18n.get(this.props.party)}</p>
               </div>
 
-              <a href={this.urlForIssue()} target="_blank">Suggest edit</a>
+              <a href={this.urlForIssue()} target="_blank">{I18n.get(SUGGEST_EDIT)}</a>
             </div>
             <a className="modal--closeLink" href='#' onClick={this.props.closeModal}></a>
           </div>
