@@ -11,6 +11,7 @@ translations.set(SUGGEST_EDIT, {en: 'Suggest edit', fr: 'Suggérer modifier'});
 
 const i18n = {
   init(locale = 'en') {
+    if (locale !== 'en' && locale !== 'fr') { locale = 'en'; }
     this.locale = locale;
   },
 

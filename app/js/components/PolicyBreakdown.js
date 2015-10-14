@@ -42,7 +42,6 @@ class PolicyPoint extends React.Component {
 }
 
 PolicyPoint.propTypes = {
-  party: React.PropTypes.string,
   policy: React.PropTypes.objectOf({important: React.PropTypes.bool, summary: React.PropTypes.string}),
   topic: React.PropTypes.string
 };
@@ -71,7 +70,6 @@ class PolicyCell extends React.Component {
 }
 
 PolicyCell.propTypes = {
-  party: React.PropTypes.string,
   policies: React.PropTypes.array,
   topic: React.PropTypes.string
 };
