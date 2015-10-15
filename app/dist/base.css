@@ -120,6 +120,11 @@ body {
   position: absolute;
   right: 0;
   font-size: 0.9em; }
+  .langSelection, .langSelection a {
+    color: #aaa;
+    text-decoration: none; }
+  .langSelection .active {
+    color: #666; }
 
 .footerInfo {
   text-align: center;
@@ -366,17 +371,6 @@ body {
   -ms-flex-align: center;
   align-items: center; }
 
-.modal--closeLink {
-  text-align: right;
-  text-decoration: none; }
-  .modal--closeLink:after {
-    font-family: 'FontAwesome';
-    color: #333;
-    font-size: 32px;
-    content: '\f00d';
-    padding: 6px 10px;
-    margin-right: -10px; }
-
 .modal--heading {
   line-height: 1.3em;
   font-family: 'Merriweather', georgia, serif; }
@@ -486,9 +480,7 @@ body {
       padding: 6px 10px;
       margin-right: -10px; }
     .modal--close:hover::before {
-      color: #ffbd00; }
-  .modal--closeLink {
-    display: none; } }
+      color: #ffbd00; } }
 
 .textColor--NDP {
   color: #F37021; }

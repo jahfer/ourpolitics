@@ -4,10 +4,10 @@ import 'babelify/polyfill';
 import matchMedia from 'matchmedia';
 import objectAssign from 'object-assign';
 // reflux
-import PolicyActions from '../actions/PolicyActions';
+import PolicyStore from '../stores/PolicyStore';
 import HistoryActions from '../actions/HistoryActions';
 import HistoryStore from '../stores/HistoryStore';
-import PolicyStore from '../stores/PolicyStore';
+import '../stores/PolicyStore';
 // utils
 import {_} from 'lodash';
 import {entries} from '../util/general';
@@ -178,20 +178,19 @@ export class PolicyBreakdown extends React.Component {
   }
 
   componentDidMount() {
-    this.loadPoliciesFromServer();
     this.unsubscribeFromHistoryStore = HistoryStore.listen(this.updateModal.bind(this));
-    this.unsubscribeFromHistory = HistoryActions.pageBack.listen(this.closeModal.bind(this));
+    this.unsubscribeFromHistory = HistoryActions.closeModal.listen(this.closeModal.bind(this));
+    this.unsubscribeFromPolicyChanges = PolicyStore.listen(this.setPolicies.bind(this));
   }
 
   componentWillUnmount() {
     this.unsubscribeFromHistoryStore();
     this.unsubscribeFromHistory();
+    this.unsubscribeFromPolicyChanges();
   }
 
-  loadPoliciesFromServer() {
-    PolicyActions.loadPolicies
-      .triggerPromise(this.props.url)
-      .then((data) => this.setState({data}));
+  setPolicies(data) {
+    this.setState({data});
   }
 
   openModal() {
@@ -232,7 +231,7 @@ export class PolicyBreakdown extends React.Component {
         </Modal>
 
         <div className="langSelection">
-          <a href="#">EN</a> | <a href="#">FR</a>
+          <a href="#en" className={I18n.locale === 'en' ? 'active' : null} >EN</a> | <a href="#fr" className={I18n.locale === 'fr' ? 'active' : null} >FR</a>
         </div>
 
         <h1 className={`pageTitle lang-${I18n.locale}`}>Our Politics</h1>
@@ -245,7 +244,3 @@ export class PolicyBreakdown extends React.Component {
     );
   }
 }
-
-PolicyBreakdown.propTypes = {
-  url: React.PropTypes.string
-};

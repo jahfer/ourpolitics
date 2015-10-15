@@ -40,20 +40,6 @@ $color-cream: #f9f9f1;
   align-items: center;
 }
 
-.modal--closeLink {
-  text-align: right;
-  text-decoration: none;
-
-  &:after {
-    font-family: 'FontAwesome';
-    color: #333;
-    font-size: 32px;
-    content: '\f00d';
-    padding: 6px 10px;
-    margin-right: -10px;
-  }
-}
-
 .modal--heading {
   line-height: 1.3em;
   font-family: 'Merriweather', georgia, serif;
@@ -180,10 +166,5 @@ $color-cream: #f9f9f1;
     &:hover::before {
       color: #ffbd00;
     }
-  }
-
-
-  .modal--closeLink {
-    display: none;
   }
 }

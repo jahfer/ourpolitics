@@ -61,7 +61,6 @@ export class PolicyModal extends React.Component {
 
               <a href={this.urlForIssue()} target="_blank">{I18n.get(SUGGEST_EDIT)}</a>
             </div>
-            <a className="modal--closeLink" href='#' onClick={HistoryActions.pageBack}></a>
           </div>
 
           <h1 className="modal--heading modal--heading__primary">{this.props.point.summary}</h1>
@@ -77,7 +76,7 @@ export class PolicyModal extends React.Component {
         </div>
 
         <div className="modal--sidebar">
-          <a href="#" className="modal--close" onClick={this.props.closeModal}></a>
+          <a href="#" className="modal--close" onClick={HistoryActions.pageBack}></a>
 
           <h2 className="modal--heading modal--heading__secondary">References</h2>
           <ul className="reference--list">

@@ -1,5 +1,3 @@
 import Reflux from 'reflux';
 
-export default Reflux.createActions({
-  loadPolicies: {asyncResult: true}
-});
+export default Reflux.createActions(['loadPolicies']);

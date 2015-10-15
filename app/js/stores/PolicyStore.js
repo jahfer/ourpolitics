@@ -5,8 +5,14 @@ import {mapPartyToSym, entries} from '../util/general';
 export default Reflux.createStore({
   listenables: PolicyActions,
 
+  init() {
+    this._cache = {};
+  },
+
   onLoadPolicies(url) {
-    this._policies = {};
+    if (this._cache[url]) {
+      return this.trigger(this._cache[url]);
+    }
 
     fetch(url)
       .then((response) => response.json())
@@ -23,13 +29,9 @@ export default Reflux.createStore({
         return result;
       })
       .then((topics) => {
-        this._policies = topics;
-        PolicyActions.loadPolicies.completed(this.policies);
+        this._cache[url] = topics;
+        this.trigger(topics);
       })
-      .catch((err) => PolicyActions.loadPolicies.failed(err));
-  },
-
-  get policies() {
-    return this._policies;
+      .catch((err) => console.error(err));
   }
 });
