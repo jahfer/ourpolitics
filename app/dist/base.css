@@ -113,6 +113,14 @@ body {
   padding: 20px 30px 60px;
   box-sizing: border-box; }
 
+.policyBreakdown {
+  position: relative; }
+
+.langSelection {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
 .footerInfo {
   text-align: center;
   margin-top: 20px; }

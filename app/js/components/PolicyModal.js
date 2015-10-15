@@ -3,6 +3,7 @@ import Markdown from 'react-markdown';
 import {shopURL} from '../config';
 import {SUGGEST_EDIT} from '../util/constants';
 import I18n from '../util/i18n';
+import HistoryActions from '../actions/HistoryActions';
 
 class Spinner extends React.Component {
   render() {
@@ -60,7 +61,7 @@ export class PolicyModal extends React.Component {
 
               <a href={this.urlForIssue()} target="_blank">{I18n.get(SUGGEST_EDIT)}</a>
             </div>
-            <a className="modal--closeLink" href='#' onClick={this.props.closeModal}></a>
+            <a className="modal--closeLink" href='#' onClick={HistoryActions.pageBack}></a>
           </div>
 
           <h1 className="modal--heading modal--heading__primary">{this.props.point.summary}</h1>
