@@ -824,13 +824,13 @@ exports['default'] = _reflux2['default'].createStore(_Object$defineProperties({
       party: _Symbol$keyFor(data.party),
       topic: data.topic,
       policy: data.policy
-    }, data.topic, (this.rootUrl + '/' + _Symbol$keyFor(data.party) + '/' + data.topic + '/' + data.policy.key).toLowerCase());
+    }, data.topic, (this.rootUrl + '/' + _Symbol$keyFor(data.party) + '/' + data.topic + '/' + data.policy.details.slice(0, -3)).toLowerCase());
 
     this.trigger(data);
   },
 
   registerUrlChange: function registerUrlChange() {
-    if (window.location.hash === '') {
+    if (['', '#en', '#fr'].indexOf(window.location.hash) !== -1) {
       _actionsHistoryActions2['default'].closeModal();
       return this.navigateToRoot();
     }

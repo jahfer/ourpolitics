@@ -22,13 +22,13 @@ export default Reflux.createStore({
       party: Symbol.keyFor(data.party),
       topic: data.topic,
       policy: data.policy
-    }, data.topic, `${this.rootUrl}/${Symbol.keyFor(data.party)}/${data.topic}/${data.policy.key}`.toLowerCase());
+    }, data.topic, `${this.rootUrl}/${Symbol.keyFor(data.party)}/${data.topic}/${data.policy.details.slice(0,-3)}`.toLowerCase());
 
     this.trigger(data);
   },
 
   registerUrlChange() {
-    if (window.location.hash === '') {
+    if (['', '#en', '#fr'].indexOf(window.location.hash) !== -1) {
       HistoryActions.closeModal();
       return this.navigateToRoot();
     }
