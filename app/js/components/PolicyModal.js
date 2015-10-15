@@ -1,6 +1,9 @@
 import * as React from 'react';
 import Markdown from 'react-markdown';
 import {shopURL} from '../config';
+import {SUGGEST_EDIT} from '../util/constants';
+import I18n from '../util/i18n';
+import HistoryActions from '../actions/HistoryActions';
 
 class Spinner extends React.Component {
   render() {
@@ -53,12 +56,11 @@ export class PolicyModal extends React.Component {
           <div className="modal--headingContainer">
             <div className="modal--headingInfo">
               <div className="modal--topicBox">
-                <p>{this.props.topic} - {Symbol.keyFor(this.props.party)}</p>
+                <p>{this.props.topic} - {I18n.get(this.props.party)}</p>
               </div>
 
-              <a href={this.urlForIssue()} target="_blank">Suggest edit</a>
+              <a href={this.urlForIssue()} target="_blank">{I18n.get(SUGGEST_EDIT)}</a>
             </div>
-            <a className="modal--closeLink" href='#' onClick={this.props.closeModal}></a>
           </div>
 
           <h1 className="modal--heading modal--heading__primary">{this.props.point.summary}</h1>
@@ -74,7 +76,7 @@ export class PolicyModal extends React.Component {
         </div>
 
         <div className="modal--sidebar">
-          <a href="#" className="modal--close" onClick={this.props.closeModal}></a>
+          <a href="#" className="modal--close" onClick={HistoryActions.pageBack}></a>
 
           <h2 className="modal--heading modal--heading__secondary">References</h2>
           <ul className="reference--list">

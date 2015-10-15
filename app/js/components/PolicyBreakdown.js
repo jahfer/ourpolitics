@@ -3,33 +3,29 @@ import 'whatwg-fetch';
 import 'babelify/polyfill';
 import matchMedia from 'matchmedia';
 import objectAssign from 'object-assign';
+// reflux
+import PolicyStore from '../stores/PolicyStore';
+import HistoryActions from '../actions/HistoryActions';
+import HistoryStore from '../stores/HistoryStore';
+import '../stores/PolicyStore';
 // utils
 import {_} from 'lodash';
-import {entries} from '../util';
+import {entries} from '../util/general';
+import {
+  LIBERAL, CONSERVATIVE, NDP, PARTIES,
+  NO_POLICY_LISTED, TOPICS, MADE_BY, SUGGEST_EDIT
+} from '../util/constants';
+import I18n from '../util/i18n';
 // libs
 import * as React from 'react';
-import {policyPointSelected} from '../actions/PolicyTableActions';
 import {PolicyModal} from './PolicyModal';
 import Modal from 'react-modal';
-
-const CONSERVATIVE = Symbol.for('Conservatives');
-const NDP = Symbol.for('NDP');
-const LIBERAL = Symbol.for('Liberals');
-const PARTIES = [NDP, CONSERVATIVE, LIBERAL];
-
-const mapPartyToSym = {
-  'NDP': NDP,
-  'NPD': NDP,
-  'Conservatives': CONSERVATIVE,
-  'Conservateur': CONSERVATIVE,
-  'Liberals': LIBERAL,
-  'Libéral': LIBERAL
-};
 
 class PolicyPoint extends React.Component {
   onClick() {
     ga('send', 'event', 'PolicyPoint', 'click', `${Symbol.keyFor(this.props.party)} - ${this.props.topic} - ${this.props.policy.summary}`, 1);
-    policyPointSelected({policy: this.props.policy, party: this.props.party, topic: this.props.topic});
+    let data = {policy: this.props.policy, party: this.props.party, topic: this.props.topic};
+    HistoryActions.navigateToModal(data);
   }
 
   render() {
@@ -42,7 +38,6 @@ class PolicyPoint extends React.Component {
 }
 
 PolicyPoint.propTypes = {
-  party: React.PropTypes.string,
   policy: React.PropTypes.objectOf({important: React.PropTypes.bool, summary: React.PropTypes.string}),
   topic: React.PropTypes.string
 };
@@ -52,7 +47,7 @@ class PolicyCell extends React.Component {
     if (policies.length) {
       return policies.map((policy) => <PolicyPoint topic={this.props.topic} party={party} policy={policy} />);
     } else {
-      return <li className="emptyPolicy">No policy</li>;
+      return <li className="emptyPolicy">{I18n.get(NO_POLICY_LISTED)}</li>;
     }
   }
 
@@ -71,7 +66,6 @@ class PolicyCell extends React.Component {
 }
 
 PolicyCell.propTypes = {
-  party: React.PropTypes.string,
   policies: React.PropTypes.array,
   topic: React.PropTypes.string
 };
@@ -124,10 +118,10 @@ class PolicyTable extends React.Component {
       <div className="policyTable">
         <div className="policyRow tableHeader">
           <div className="policyCells">
-            <div className="policyCell partyTitle backgroundColor--Empty">Topics</div>
-            <div className="policyCell partyTitle backgroundColor--NDP">NDP</div>
-            <div className="policyCell partyTitle backgroundColor--Conservatives">Conservatives</div>
-            <div className="policyCell partyTitle backgroundColor--Liberals">Liberals</div>
+            <div className="policyCell partyTitle backgroundColor--Empty">{I18n.get(TOPICS)}</div>
+            <div className="policyCell partyTitle backgroundColor--NDP">{I18n.get(NDP)}</div>
+            <div className="policyCell partyTitle backgroundColor--Conservatives">{I18n.get(CONSERVATIVE)}</div>
+            <div className="policyCell partyTitle backgroundColor--Liberals">{I18n.get(LIBERAL)}</div>
           </div>
         </div>
         {policyRows}
@@ -184,31 +178,19 @@ export class PolicyBreakdown extends React.Component {
   }
 
   componentDidMount() {
-    this.loadPoliciesFromServer();
-    this.unsubscribe = policyPointSelected.listen(this.updateModal.bind(this));
+    this.unsubscribeFromHistoryStore = HistoryStore.listen(this.updateModal.bind(this));
+    this.unsubscribeFromHistory = HistoryActions.closeModal.listen(this.closeModal.bind(this));
+    this.unsubscribeFromPolicyChanges = PolicyStore.listen(this.setPolicies.bind(this));
   }
 
   componentWillUnmount() {
-    this.unsubscribe();
+    this.unsubscribeFromHistoryStore();
+    this.unsubscribeFromHistory();
+    this.unsubscribeFromPolicyChanges();
   }
 
-  loadPoliciesFromServer() {
-    fetch(this.props.url)
-      .then((response) => response.json())
-      .then((raw) => {
-        let result = {};
-        for (let [topic, data] of entries(raw.topics)) {
-          const symbolizedParties = data.positions.map(function(position) {
-            position.party = mapPartyToSym[position.party];
-            return position;
-          });
-          data.positions = symbolizedParties;
-          result[topic] = data;
-        }
-        return result;
-      })
-      .then((topics) => this.setState({data: topics}))
-      .catch((err) => console.error(this.props.url, err.toString()));
+  setPolicies(data) {
+    this.setState({data});
   }
 
   openModal() {
@@ -245,20 +227,20 @@ export class PolicyBreakdown extends React.Component {
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal.bind(this)}
           style={this.state.modalStyles}>
-          <PolicyModal point={this.state.selectedPoint} party={this.state.selectedParty} topic={this.state.selectedTopic} closeModal={this.closeModal.bind(this)} />
+          <PolicyModal point={this.state.selectedPoint} party={this.state.selectedParty} topic={this.state.selectedTopic} />
         </Modal>
 
-        <h1 className="pageTitle">Our Politics</h1>
+        <div className="langSelection">
+          <a href="#en" className={I18n.locale === 'en' ? 'active' : null} >EN</a> | <a href="#fr" className={I18n.locale === 'fr' ? 'active' : null} >FR</a>
+        </div>
+
+        <h1 className={`pageTitle lang-${I18n.locale}`}>Our Politics</h1>
         <PolicyTable data={this.state.data} />
 
         <footer>
-          <p className="footerInfo">Made by <a target="_blank" href="https://twitter.com/jahfer">@jahfer</a> | <a target="_blank" href={this.urlForIssue()}>Suggest edit</a></p>
+          <p className="footerInfo">{I18n.get(MADE_BY)} <a target="_blank" href="https://twitter.com/jahfer">@jahfer</a> | <a target="_blank" href={this.urlForIssue()}>{I18n.get(SUGGEST_EDIT)}</a></p>
         </footer>
       </div>
     );
   }
 }
-
-PolicyBreakdown.propTypes = {
-  url: React.PropTypes.string
-};
