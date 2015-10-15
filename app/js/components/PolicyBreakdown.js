@@ -3,6 +3,11 @@ import 'whatwg-fetch';
 import 'babelify/polyfill';
 import matchMedia from 'matchmedia';
 import objectAssign from 'object-assign';
+// reflux
+import PolicyStore from '../stores/PolicyStore';
+import HistoryActions from '../actions/HistoryActions';
+import HistoryStore from '../stores/HistoryStore';
+import '../stores/PolicyStore';
 // utils
 import {_} from 'lodash';
 import {entries} from '../util/general';
@@ -13,23 +18,14 @@ import {
 import I18n from '../util/i18n';
 // libs
 import * as React from 'react';
-import {policyPointSelected} from '../actions/PolicyTableActions';
 import {PolicyModal} from './PolicyModal';
 import Modal from 'react-modal';
-
-const mapPartyToSym = {
-  'NDP': NDP,
-  'NPD': NDP,
-  'Conservatives': CONSERVATIVE,
-  'Conservateur': CONSERVATIVE,
-  'Liberals': LIBERAL,
-  'Libéral': LIBERAL
-};
 
 class PolicyPoint extends React.Component {
   onClick() {
     ga('send', 'event', 'PolicyPoint', 'click', `${Symbol.keyFor(this.props.party)} - ${this.props.topic} - ${this.props.policy.summary}`, 1);
-    policyPointSelected({policy: this.props.policy, party: this.props.party, topic: this.props.topic});
+    let data = {policy: this.props.policy, party: this.props.party, topic: this.props.topic};
+    HistoryActions.navigateToModal(data);
   }
 
   render() {
@@ -182,31 +178,19 @@ export class PolicyBreakdown extends React.Component {
   }
 
   componentDidMount() {
-    this.loadPoliciesFromServer();
-    this.unsubscribe = policyPointSelected.listen(this.updateModal.bind(this));
+    this.unsubscribeFromHistoryStore = HistoryStore.listen(this.updateModal.bind(this));
+    this.unsubscribeFromHistory = HistoryActions.closeModal.listen(this.closeModal.bind(this));
+    this.unsubscribeFromPolicyChanges = PolicyStore.listen(this.setPolicies.bind(this));
   }
 
   componentWillUnmount() {
-    this.unsubscribe();
+    this.unsubscribeFromHistoryStore();
+    this.unsubscribeFromHistory();
+    this.unsubscribeFromPolicyChanges();
   }
 
-  loadPoliciesFromServer() {
-    fetch(this.props.url)
-      .then((response) => response.json())
-      .then((raw) => {
-        let result = {};
-        for (let [topic, data] of entries(raw.topics)) {
-          const symbolizedParties = data.positions.map(function(position) {
-            position.party = mapPartyToSym[position.party];
-            return position;
-          });
-          data.positions = symbolizedParties;
-          result[topic] = data;
-        }
-        return result;
-      })
-      .then((topics) => this.setState({data: topics}))
-      .catch((err) => console.error(this.props.url, err.toString()));
+  setPolicies(data) {
+    this.setState({data});
   }
 
   openModal() {
@@ -243,8 +227,12 @@ export class PolicyBreakdown extends React.Component {
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal.bind(this)}
           style={this.state.modalStyles}>
-          <PolicyModal point={this.state.selectedPoint} party={this.state.selectedParty} topic={this.state.selectedTopic} closeModal={this.closeModal.bind(this)} />
+          <PolicyModal point={this.state.selectedPoint} party={this.state.selectedParty} topic={this.state.selectedTopic} />
         </Modal>
+
+        <div className="langSelection">
+          <a href="#en" className={I18n.locale === 'en' ? 'active' : null} >EN</a> | <a href="#fr" className={I18n.locale === 'fr' ? 'active' : null} >FR</a>
+        </div>
 
         <h1 className={`pageTitle lang-${I18n.locale}`}>Our Politics</h1>
         <PolicyTable data={this.state.data} />
@@ -256,7 +244,3 @@ export class PolicyBreakdown extends React.Component {
     );
   }
 }
-
-PolicyBreakdown.propTypes = {
-  url: React.PropTypes.string
-};

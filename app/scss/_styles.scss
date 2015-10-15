@@ -16,6 +16,16 @@ body {
   box-sizing: border-box;
 }
 
+.policyBreakdown { position: relative; }
+
+.langSelection {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em;
+  &, a { color: #aaa; text-decoration: none; }
+  .active { color: #666; }
+}
+
 .footerInfo {
   text-align: center;
   margin-top: 20px;
