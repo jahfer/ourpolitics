@@ -29,7 +29,7 @@ export default Reflux.createStore({
 
   registerUrlChange() {
     const pageLocaleFromUrl = this.currentLocale();
-    if (pageLocaleFromUrl !== I18n.locale) {
+    if (pageLocaleFromUrl && pageLocaleFromUrl !== I18n.locale) {
       I18n.locale = pageLocaleFromUrl;
       delete this._rootUrl;
       HistoryActions.localeChanged(I18n.locale);

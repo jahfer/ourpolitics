@@ -831,7 +831,7 @@ exports['default'] = _reflux2['default'].createStore(_Object$defineProperties({
 
   registerUrlChange: function registerUrlChange() {
     var pageLocaleFromUrl = this.currentLocale();
-    if (pageLocaleFromUrl !== _utilI18n2['default'].locale) {
+    if (pageLocaleFromUrl && pageLocaleFromUrl !== _utilI18n2['default'].locale) {
       _utilI18n2['default'].locale = pageLocaleFromUrl;
       delete this._rootUrl;
       _actionsHistoryActions2['default'].localeChanged(_utilI18n2['default'].locale);
