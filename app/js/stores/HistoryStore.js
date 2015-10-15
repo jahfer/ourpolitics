@@ -28,16 +28,14 @@ export default Reflux.createStore({
   },
 
   registerUrlChange() {
-    if (['', '#en', '#fr'].indexOf(window.location.hash) !== -1) {
-      HistoryActions.closeModal();
-      return this.navigateToRoot();
-    }
-
     const pageLocaleFromUrl = this.currentLocale();
     if (pageLocaleFromUrl !== I18n.locale) {
       I18n.locale = pageLocaleFromUrl;
       delete this._rootUrl;
       HistoryActions.localeChanged(I18n.locale);
+    } else if (['', '#en', '#fr'].indexOf(window.location.hash) !== -1) {
+      HistoryActions.closeModal();
+      return this.navigateToRoot();
     }
   },
 
