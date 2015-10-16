@@ -1,0 +1,1 @@
+Le gouvernment Conservateur veut instituer un crédit d'impôt à la rénovation afin d'augmenter la valeur des maisons existantes. On estime que ce plan couterait **$1.5 milliard/années**, et les déduction pourrait atteindre de **$1000-$6000** sur leur impôt pour des rénovations sur leur maison.

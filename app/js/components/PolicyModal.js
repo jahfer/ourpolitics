@@ -33,7 +33,7 @@ export class PolicyModal extends React.Component {
   }
 
   fetchContent() {
-    let filePath = `${shopURL}/app/data/content/${this.props.point.details}`;
+    let filePath = `${shopURL}/app/data/content/${I18n.locale}/${this.props.point.details}`;
     fetch(filePath)
       .then(raw => {
         if (raw.status === 200) { return raw.text(); }
@@ -51,8 +51,8 @@ export class PolicyModal extends React.Component {
   render() {
     return (
       <div className="policyModal">
-        <div className="modal--content"> 
-        
+        <div className="modal--content">
+
           <div className="modal--headingContainer">
             <div className="modal--headingInfo">
               <div className="modal--topicBox">
