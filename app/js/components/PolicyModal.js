@@ -52,7 +52,6 @@ export class PolicyModal extends React.Component {
     return (
       <div className="policyModal">
         <div className="modal--content">
-
           <div className="modal--headingContainer">
             <div className="modal--headingInfo">
               <div className="modal--topicBox">
