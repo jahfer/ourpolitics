@@ -1,0 +1,1 @@
+The Liberals would reject the Northern Gateway pipeline (Alberta to British Columbia), but would support the development of Keystone XL (Alberta to Texas). They would consider pursuing development of Energy East (Alberta to eastern Canada), but would base it on feedback from the community and provide more oversight and regulation.

@@ -1,0 +1,1 @@
+The Liberal party would immediately launch a national public inquiry into missing and murdered aboriginal women in Canada. From the inquiry, they intend to produce recommendations for changes within governments, law enforcement and other areas to help prevent further crime.

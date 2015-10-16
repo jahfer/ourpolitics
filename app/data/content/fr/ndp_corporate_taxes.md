@@ -1,0 +1,1 @@
+The NDP have pledged to increase the corporate tax rate to **17%**, up from the existing 15%. Estimates state that the rate increase could bring in an additional **$5 billion/year** to the federal government.
