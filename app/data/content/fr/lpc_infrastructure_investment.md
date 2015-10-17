@@ -1,1 +1,1 @@
-The Liberals have committed to doubling the current federal infrastructure investment to **$125 billion** over the next 10 years.  The investment would be focused on public transit, social infrastructure and "green" projects.
+Les libéraux se sont engagés à doubler les investissements actuel en infrastructure à  **125 milliards$**  au courant des 10 prochaines années. Les investissement seront concentrés les transports publiques, les infrastructures sociales et les projets "verts".

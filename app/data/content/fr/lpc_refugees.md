@@ -1,1 +1,1 @@
-The Liberal party has planned to accept **25,000** federally-sponsored refugees by the end of the year, and would invest **$100 million** in the effort to do so. They would also provide **$100 million** to the United Nations for their refugee efforts.
+Le parti Libéral a planifié d'accepter **25.000** réfugiés parainnés d'ici à la fin de l'année, et ils investiraient **100 millions$** afin de supporter cet effort. Ils founiraient aussi **100 millions$** aux Nations Unis pour leur efforts auprès des réfugiés.

@@ -1,5 +1,5 @@
-The Liberal party intends to invest **$515 million/year** in primary education for First Nations individuals (kindergarten to grade 12), with an eventual annual investment of **$750 million/year**.
+Le parti libéral entend investir **515 millions$/années** en éducation primaire pour les premières nations (de la garderie à la fin du secondaire), avec un investissement éventuel de **750 millions$/années**.
 
-For Indigenous students in post-secondary education, the Liberal party intends to invest **$50 million/year** in financial assistance.
+Pour les étudiants post-secondaire des premières nations, le parti libéral entend investir **50 millions/années** en aide financière.
 
-Alongside this spending, the Liberals will add **$500 million** over three years for First Nations education infrastructure.
+De plus, les libéraux ajouterait **500 millions** sur 3 ans pour les infrastructure en éducation des premières nations.
