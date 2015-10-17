@@ -1,3 +1,3 @@
-The Liberal party intends to reduce the age limit for receiving the _Old Age Security_ and _Guaranteed Income Supplement_ to **age 65**, down from the current 67.
+Le parti Libéral entend diminuer l'àge minimum de 67 ans à **65 ans** pour avoir droit à la _pension de la Sécurité de la vieillesse_ et le _supplément de revenu garanti_.
 
-The Liberal party will also increase the _Guaranteed Income Supplement_ by **10%** for single, low-income seniors.
+Le parti Libéral augmentera aussi le _supplément de revenu garanti_ de **10%** pour les retraités seul et ayant peu un revenus peu élevé.

@@ -1,1 +1,1 @@
-The Liberal government would invest **$200 million** into clean technology for forestry, fisheries, mining, energy, and agricultural sectors. They would also invest an additional **$100 million** in the producers of the clean technology to encourage development.
+Un gouvernement libéral investirait **200 millions$** dans les technologies vertes des secteurs de la foresterie, pêcherie, mines, énergie et agriculture. De plus, les libéraux investiraient **100 millions$** addionnels pour encourager les technologies de productions vertes.

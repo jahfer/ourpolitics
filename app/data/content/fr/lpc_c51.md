@@ -1,8 +1,9 @@
-The Liberals have promised to amend certain aspects of C-51 that they feel go too far. Mr. Trudeau is supportive of the newly-granted powers to police and spy agencies, but would support more oversight and parliamentary review.
+Les libéraux ont promis d'amender certains aspects de C-51 plus extrêmes selon eux. M. Trudeau supporte les nouveaux pouvoirs des corps policiers et des agences d'espionage mais supporterait plus de surveillance et un examen du parlement.
 
-##### What is Bill C-51?
-- Enables information sharing across 17 federal agencies without judicial barriers
-- Allows police to detain terrorism suspects for 7 days without charge
-- Lets the Minister of Public Safety add individuals to the no-fly list
-- Enables CSIS to disrupt terror plots, protests, and websites interfering with the safety or economic stability of Canada
-- Prohibits speech that promotes or glorifies terrorism
+##### Qu'est-ce que le Bill C-51 ?
+- Rend possible le partage d'informations entre 17 agences fédérales sans aucune barrières judicières
+- Permet aux corps policiers de détenir les suspects de terrorismes 7 jours sans devoir porter des accusations
+- Autorise le ministère de la sécurité publique à ajouter des individus sur la liste d'interdiction de vol
+- Accorde au SCRS le pouvoir d'intervenir à l'encontre d'actes terroristes, de manifestations et de site Internets
+qui pourrait interférer avec la sécurité et la stabilité économique du Canada
+- Interdit le discours de promotion et de glorification du terrorisme

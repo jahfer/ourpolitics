@@ -1,6 +1,6 @@
-The Liberals would replace the Universal Child Care Benefit with the _Canada Child Benefit_:
+Les Libéraux remplaceraient La prestation universelle pour la garde d'enfants par une _Prestation les enfants canadiens_:
 
-- Up to **$533/month** for families with children under the age of six
-- Up to **$450/month** to families with children under the age of 18
+- Jusqu'à **533$/mois** pour les familles avec des enfants de moins de 6 ans
+- Jusqu'à **450$/mois** aux familles avec des enfants de moins de 18 ans
 
-Unlike the UCCB, the Canada Child Benefit would not be taxable, is matched with inflation, and would be weighted based on the income of the household. Families earning above $160,000 would not receive anything under the Canada Child Benefit.
+Au contraire du PUGE, la prestation pour les enfants canadiens ne serait pas imposable, augmenterait avec l'inflation et serait ajustée au revenu des ménages. Les familles ayant un revenu supérieur à 160 000$ ne seraient pas éligibles.
