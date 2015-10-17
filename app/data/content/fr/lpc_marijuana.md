@@ -1,1 +1,1 @@
-The Liberal party intends to legalize and regulate the marijuana industry as soon as possible if elected. According to Mr. Trudeau, they have suggested a timeline anywhere between a month and two years, but intend to make it a top priority for the government.
+Le parti Libéral à l'intention de légalisé et de réguler l'industrie du cannabis le plus tôt possible s'ils est élu. Selon M. Trudeau, ils ont suggérés un échéancier qui varie de 1 mois à 2 ans, c'est l'intention d'en faire l'une des grandes priorités du gouvernement.

@@ -1,1 +1,1 @@
-The Liberal party would end Canada’s bombing contribution in the US-led campaign against ISIS in Iraq and Syria. Instead, they would participate by increasing the number of soldiers training local troops on the ground in an attempt to fight the terror group.
+Le parti libéral arrêterait la contribution du Canada dans les bombardements de la coalition contre l'EI en Irak et en Syrie. À la place, ils enverraient un plus grand nombre de formateur pour entraîner les troupes locales sur le terrain afin de combattre les groupes terroristes.

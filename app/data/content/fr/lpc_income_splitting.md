@@ -1,3 +1,3 @@
-The Liberal party would remove the ability for families with children under 18 to split income between themselves and their spouse as a method of paying lower taxes. This plan would raise **$2.2 billion** in tax revenue.
+Le parti libéral annulerait la politique de fragmentation des revenues qui permet actuellement à des familles de payer moins de taxes si elles comptes un enfant de moins de 18 ans. Cela permettrait au gouvernement d'augmenter ses revenues de **2.2 milliards$**.
 
-The Liberals would still allow pension-splitting for seniors.
+Le parti libéral maintiendrait toutefois la fragmentation de revenues pour les personnes agées.

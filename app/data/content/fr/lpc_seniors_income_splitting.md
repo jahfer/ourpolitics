@@ -1,4 +1,4 @@
-The Liberals have promised to continue pension-splitting for seniors.
+Les libéraux ont promis de maintenir la fragmentation de revenues pour les personnes agées.
 
-##### What is pension-splitting?
-Pension-splitting allows individuals to have a smaller tax burden by splitting their pension income between their spouse and themselves. If one individual is earning much less than the other (through a pension or other means), their tax rate will be much more preferential than for the individual in the higher tax bracket.
+##### Qu'est-ce que la fragmentation de revenues ?
+La fragmentation de la pension permet aux individus de payer moins d'impôt en séparant les revenus de leur pension avec leur conjoint(e). Si quelqu'un a un revenu grandement inférieur en comparaison de celui de son partenair (part sa pension mais aussi par d'autres sources de revenus), leur niveau d'imposition combiné sera grandement inférieur que si chacun déclarait séparément.

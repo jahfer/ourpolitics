@@ -1,1 +1,1 @@
-The Liberals have promised to negotiate a better long-term healthcare plan with the provinces. Upon a successful agreement, the Liberal party will invest **$3 billion** over the next four years into improving home care for seniors.
+Les libéraux ont promis de négocier une meilleure entente à propos des soins de longues durées avec les provinces, le parti Libéral investira **3 milliards$** au courant des quatres prochaines années afin d'améliorer les soins à domiciles pour les personnes agées.
