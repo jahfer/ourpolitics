@@ -488,6 +488,14 @@ var PolicyBreakdown = (function (_React$Component5) {
               { target: '_blank', href: 'https://twitter.com/jahfer' },
               '@jahfer'
             ),
+            ', ',
+            _utilI18n2['default'].get(_utilConstants.TRANSLATION_BY).toLowerCase(),
+            ' ',
+            React.createElement(
+              'a',
+              { target: '_blank', href: 'https://twitter.com/mlhamel' },
+              '@mlhamel'
+            ),
             ' | ',
             React.createElement(
               'a',
@@ -1098,6 +1106,7 @@ translations.set(_constants.NO_POLICY_LISTED, { en: 'No policy', fr: 'Absence de
 translations.set(_constants.TOPICS, { en: 'Topics', fr: 'Sujets' });
 translations.set(_constants.MADE_BY, { en: 'Made by', fr: 'Fait par' });
 translations.set(_constants.SUGGEST_EDIT, { en: 'Suggest edit', fr: 'Suggérer une modification' });
+translations.set(_constants.TRANSLATION_BY, { en: 'Translated by', fr: 'Traduit par' });
 
 var i18n = _Object$defineProperties({
   init: function init() {

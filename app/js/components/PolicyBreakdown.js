@@ -13,7 +13,7 @@ import {_} from 'lodash';
 import {entries} from '../util/general';
 import {
   LIBERAL, CONSERVATIVE, NDP, PARTIES,
-  NO_POLICY_LISTED, TOPICS, MADE_BY, SUGGEST_EDIT
+  NO_POLICY_LISTED, TOPICS, MADE_BY, TRANSLATION_BY, SUGGEST_EDIT
 } from '../util/constants';
 import I18n from '../util/i18n';
 // libs
@@ -238,7 +238,7 @@ export class PolicyBreakdown extends React.Component {
         <PolicyTable data={this.state.data} />
 
         <footer>
-          <p className="footerInfo">{I18n.get(MADE_BY)} <a target="_blank" href="https://twitter.com/jahfer">@jahfer</a> | <a target="_blank" href={this.urlForIssue()}>{I18n.get(SUGGEST_EDIT)}</a></p>
+          <p className="footerInfo">{I18n.get(MADE_BY)} <a target="_blank" href="https://twitter.com/jahfer">@jahfer</a>, {I18n.get(TRANSLATION_BY).toLowerCase()} <a target="_blank" href="https://twitter.com/mlhamel">@mlhamel</a> | <a target="_blank" href={this.urlForIssue()}>{I18n.get(SUGGEST_EDIT)}</a></p>
         </footer>
       </div>
     );
