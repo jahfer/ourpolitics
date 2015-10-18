@@ -1,4 +1,4 @@
-import {LIBERAL, CONSERVATIVE, NDP, NO_POLICY_LISTED, TOPICS, MADE_BY, SUGGEST_EDIT} from './constants';
+import {LIBERAL, CONSERVATIVE, NDP, NO_POLICY_LISTED, TOPICS, MADE_BY, TRANSLATION_BY, SUGGEST_EDIT} from './constants';
 
 let translations = new Map();
 translations.set(NDP, {en: 'NDP', fr: 'NPD'});
@@ -8,6 +8,7 @@ translations.set(NO_POLICY_LISTED, {en: 'No policy', fr: 'Absence de politique'}
 translations.set(TOPICS, {en: 'Topics', fr: 'Sujets'});
 translations.set(MADE_BY, {en: 'Made by', fr: 'Fait par'});
 translations.set(SUGGEST_EDIT, {en: 'Suggest edit', fr: 'Suggérer une modification'});
+translations.set(TRANSLATION_BY, {en: 'Translated by', fr: 'Traduit par'});
 
 const i18n = {
   init(locale = 'en') {
