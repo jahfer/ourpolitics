@@ -438,8 +438,8 @@ body {
 @media screen and (min-width: 800px) {
   .ReactModal__Content {
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.75);
-    transition: -webkit-transform 0.2s ease-in-out;
-    transition: transform 0.2s ease-in-out;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
     /*or cubic-bezier(.4,0,.5,1.4)*/
     -webkit-transform: scale(0.3);
     transform: scale(0.3); }
