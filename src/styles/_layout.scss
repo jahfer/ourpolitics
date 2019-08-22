@@ -1,0 +1,86 @@
+/* layout */
+
+.policyTable {
+  display: flex;
+  flex-flow: column nowrap;
+
+  .policyRow {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 0 auto;
+
+    &.tableHeader {
+      display: none;
+    }
+  }
+
+  .policyCells {
+    display: flex;
+    flex: 1 0 auto;
+    flex-flow: column nowrap;
+  }
+
+  .policyCell {
+    display: flex;
+    flex: 1 0 auto;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    &.policyTopic {
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .policyCell--party {
+    align-self: flex-start;
+  }
+
+  .policyCell--points {
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: flex-start;
+  }
+
+  .partyTitle {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .policyTable {
+    .policyCell {
+      flex-direction: row;
+    }
+
+    .policyCell--party {
+      min-width: 150px;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .policyTable {
+    .policyRow {
+      flex-direction: column;
+
+      &.tableHeader {
+        display: flex;
+      }
+    }
+
+    .policyCells {
+      flex-direction: row;
+    }
+
+    .policyCell {
+      flex-basis: 0%;
+    }
+
+    .policyCell--party {
+      display: none;
+    }
+  }
+}
