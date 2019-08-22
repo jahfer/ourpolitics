@@ -1,0 +1,23 @@
+
+{
+  "name": "our-politics",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": [{
+    "module": "commonjs",
+    "in-source": true
+  }],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "bs-fetch"
+  ],
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3
+}

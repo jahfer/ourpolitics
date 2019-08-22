@@ -1,0 +1,200 @@
+$color-cream: #f9f9f1;
+
+.policyModal--content {
+  position: absolute;
+  background: #fff;
+  overflow: auto;
+  WebkitOverflowScrolling: touch;
+  outline: none;
+
+  border-radius: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-height: none;
+  overflow: auto;
+  border: none;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.policyModal {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: $color-cream;
+}
+
+.modal--content {
+  flex-direction: column;
+  padding: 35px;
+  display: flex;
+  flex: 2;
+}
+
+.modal--headingInfo {
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.05em;
+
+  p { margin: 0; }
+  a { color: #888; }
+}
+
+.modal--headingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.modal--heading {
+  line-height: 1.3em;
+  font-family: 'Merriweather', georgia, serif;
+
+  &.modal--heading__primary {
+    font-size: 200%;
+    margin: 40px 0 10px;
+  }
+
+  &.modal--heading__secondary {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+}
+
+.modal--details {
+  display: flex;
+  font-size: 18px;
+  line-height: 1.3em;
+
+  p {
+    flex: 0 1 520px;
+  }
+
+  blockquote {
+    color: #777;
+    font-style: italic;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', georgia, serif;
+    margin-bottom: 0.3em;
+  }
+
+  h1, h5, h6 { text-transform: uppercase; }
+  h4 { font-style: italic; }
+}
+
+.modal--sidebar {
+  padding: 21px;
+  background: #303030;
+  color: #fff;
+  position: relative;
+  flex: 1;
+  font-family: 'Merriweather', georgia, serif;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    display: inherit;
+  }
+}
+
+.reference {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.reference--list {
+  padding-left: 0;
+}
+
+.reference--title {
+  font-size: 0.8em;
+  margin: 0;
+  color: #ddd;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.reference--meta {
+  font-size: 0.65em;
+  text-transform: uppercase;
+  color: #999;
+}
+
+@media screen and (min-width: 650px) {
+  .policyModal--content {
+    margin: 0 auto;
+    top: 10%;
+    bottom: 10%;
+    max-height: 600px;
+    max-width: 1000px;
+    background: #303030;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .ReactModal__Content {
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.75);
+    transition: transform .2s ease-in-out; /*or cubic-bezier(.4,0,.5,1.4)*/
+    transform: scale(0.3);
+
+    &.ReactModal__Content--after-open {
+      transform: scale(1);
+    }
+  }
+
+  .policyModal {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .modal--content {
+    flex: 2.5;
+    overflow-y: scroll;
+  }
+
+  .modal--sidebar {
+    flex: 1;
+    bottom: auto;
+    position: static;
+    width: auto;
+    overflow-y: scroll;
+  }
+
+  .modal--close {
+    position: absolute;
+    right: 21px;
+    top: 21px;
+
+    &:before {
+      font-family: 'FontAwesome';
+      color: $color-cream;
+      font-size: 32px;
+      content: '\f00d';
+      padding: 6px 10px;
+      margin-right: -10px;
+    }
+
+    &:hover::before {
+      color: #ffbd00;
+    }
+  }
+}
