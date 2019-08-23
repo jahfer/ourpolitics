@@ -1,1 +1,0 @@
-The Conservative government raised the TFSA contribution limit from $5,500/year to **$10,000/year** in the 2015 budget. The intention of the policy is to encourage Canadians to save more money for long-term security. This policy is estimated to cost **$1.1 billion** over five years.

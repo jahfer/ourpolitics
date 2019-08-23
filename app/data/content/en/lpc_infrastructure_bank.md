@@ -1,1 +1,0 @@
-The Liberal party would use Canada’s strong lending and negotiating power to reduce the cost of infrastructure for provinces and municipalities. By having the federal government manage the infrastructure centrally, they are able to secure lower costs for projects, as well as pool capital from multiple investors to aid projects.

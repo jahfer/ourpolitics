@@ -1,1 +1,0 @@
-Les libéraux rejeterais le projet de pipeline Northern Gateway (de l'Alberta à la Colombie-Britanique), mais ils supporteraient Keystore XL (de l'Alberta au Texas). Ils considéraient la poursuite du développement de Énergie Est (de l'Alberta à l'est du Canada), mais cela dépendra du support de la communauté et de la mise en place de méchanismes de surveillance et de régulation.

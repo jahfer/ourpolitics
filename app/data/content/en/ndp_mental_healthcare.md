@@ -1,3 +1,0 @@
-The NDP plans to commit **$100 million** intended to improve mental-health services for young people. Of that money, **$15 million/year** over four years would be used to increase the efficiency of the current system as well as research and invest in best practices.
-
-> The [Mental Health Commission of Canada] has found that addressing childhood mental-health issues can lead to lifetime health-care savings of up to $140,000. - CBC

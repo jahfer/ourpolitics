@@ -1,3 +1,0 @@
-The Liberal party intends to lower the marginal tax rate for individuals earning between **$44,701–$89,401** by 7%, from 22% to **20.5%**. For incomes within this bracket, individuals would be able to save around **$670/year**.
-
-For individuals earning over $200,000/year, a new top tax bracket will be introduced at **33%**. This is expected to raise  nearly **$3 billion** in revenue for the federal government.

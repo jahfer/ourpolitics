@@ -1,3 +1,0 @@
-Stephen Harper has promised to not appoint any new Senators while he remains Prime Minister. The intention of his plan is to force the provinces into action through either reform or abolition of the Senate.
-
-> “Let me be kind of blunt about this: The number of vacancies in the Senate will continue to rise, and other than some voices in the Senate, and some people who want to be appointed to the Senate, no one’s going to complain,” - Stephen Harper

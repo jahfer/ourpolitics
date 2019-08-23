@@ -1,1 +1,0 @@
-The Liberal party would roll back the changes made by the Conservative government to the Tax Free Savings Account, which had raised the contribution limit to $10,000/year. Under the Liberals, that limit would be reduced to **$5,500/year**, which could bring in an additional **$1.1 billion** of tax revenue over five years.

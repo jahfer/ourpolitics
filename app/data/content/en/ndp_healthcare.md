@@ -1,3 +1,0 @@
-The NDP intend to improve access and reduce the cost of prescription medication through bulk federal purchasing at lower-negotiated rates. By negotiating rates federally, the government would be able to secure low rates which will lower the cost of medication bought by provincial governments.
-
-The NDP plan to invest **$2.6 billion** over four years to lower the cost of prescription drugs purchased by the provinces, and **$80 million** over four years towards the bulk-purchase plan itself. The plan is estimated to save provinces $3 billion/year.

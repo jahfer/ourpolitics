@@ -1,1 +1,0 @@
-The NDP will commit **$500 million** to increase the number of clinics around the country by 200, along with hiring **7,000** new doctors and nurses. Areas with a shortage of healthcare workers will be first priority under the plan.

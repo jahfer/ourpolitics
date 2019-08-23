@@ -1,4 +1,0 @@
-The NDP plan on raising **$500 million** by removing the employee stock option tax benefit. They have stated they would keep the benefit in-tact for options granted by “early-stage companies”, but have not identified criteria for the term.
-
-##### What is the Stock Option Tax Benefit?
-Companies typically reward employees and high-level executives with stock options as an alternative to higher salary or a bonus. Presently, only 50% of the profit from a stock option sale is taxable, which is identical to how capital gains are treated. Under the NDP plan, 100% of the profit would be taxable, which some see as unfair since capital gains would be given preferential tax treatment.

@@ -1,1 +1,0 @@
-Le parti libéral du Canada utiliserait sa position de force pour négocier une rédufction du prix des infrastructure pour les provinces et les municipalités. En faisant en sorte que le gouvernement fédéral gère de façon centralisée ses infrastructures, cela permettrait de s'assurer de diminuer ses coûts et en regroupant le capital différents départements plusieurs projets.
