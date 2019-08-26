@@ -15,9 +15,7 @@ let make = (~topic, ~parties, ~policies) => {
   });
 
   let language = React.useContext(LanguageContext.ctx);
-
-  module Language = { let language = language };
-  module Topic = Strings.Topic.WithLanguage(Language);
+  module T = Strings.I18n({ let language = language });
 
   let find_or_default = (key, map) => switch (PartyMap.find(key, map)) {
   | policies => Some(policies)
@@ -27,7 +25,7 @@ let make = (~topic, ~parties, ~policies) => {
   <div className="policyRow">
     <div className="policyCells">
       <div className="policyCell policyTopic">
-        <h3 className="policyTopic--title">{ Topic.react_string(topic) }</h3>
+        <h3 className="policyTopic--title">{ T.Topic.react_string(topic) }</h3>
       </div>
       {
         parties

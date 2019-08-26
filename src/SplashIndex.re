@@ -1,10 +1,6 @@
 [@react.component]
 let make = () => {
   let language = React.useContext(LanguageContext.ctx);
-
-  module Lang = { let language = language };
-  module Text = Strings.Text.WithLanguage(Lang);
-
   <>
     <ul>
       <li>

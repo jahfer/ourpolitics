@@ -45,17 +45,14 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
   let language = React.useContext(LanguageContext.ctx);
   let dispatch = React.useContext(PolicyModalDispatch.ctx);
 
-  module Lang = { let language = language };
-  module Text = Strings.Text.WithLanguage(Lang);
-  module Topic = Strings.Topic.WithLanguage(Lang);
-  module Party = Strings.Party.WithLanguage(Lang);
+  module T = Strings.I18n({ let language = language });
 
   /* urlForIssue() {
     let body = encodeURIComponent('## Problem\n\n\n## Suggested Change\n\n\n## References\n');
     return `https://github.com/jahfer/simple-politics/issues/new?title=[${topic} - ${Symbol.keyFor(party)}] Suggested edit for "${point.summary}"&body=${body}`;
   } */
 
-  let topic_title = Topic.to_str(policy.topic) ++ " - " ++ Party.to_str(policy.party);
+  let topic_title = T.Topic.to_str(policy.topic) ++ " - " ++ T.Party.to_str(policy.party);
 
   let style = Modal.styles(
     ~overlay = Modal.overlay_styles(
@@ -77,11 +74,11 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
         </div>
 
         <h1 className="modal--heading modal--heading__primary">
-          {Text.react_string(policy.summary)}
+          {T.Text.react_string(policy.summary)}
         </h1>
 
         <div className="modal--details"
-          dangerouslySetInnerHTML={ policy.details->Text.to_str->Utils.dangerousHtml }>
+          dangerouslySetInnerHTML={ policy.details->T.Text.to_str->Utils.dangerousHtml }>
         </div>
       </div>
 

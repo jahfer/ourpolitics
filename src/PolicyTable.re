@@ -36,16 +36,16 @@ let make = (~year: int) => {
 
   React.useMemo2(() => {
     let rows = Schema.TopicMap.fold((topic, policies, lst) => {
-      [<PolicyRow topic parties policies=Array.of_list(policies) key={Strings.Topic.to_str(topic, ~language=I18n.EN)} />, ...lst]
+      [<PolicyRow topic parties
+        policies=Array.of_list(policies)
+        key={Strings.Topic.to_str(topic, ~language=I18n.EN)} />, ...lst]
     }, policies, [])-> Array.of_list;
     setPolicyRows(_ => rows);
   }, (policies, parties));
 
   let language = React.useContext(LanguageContext.ctx);
 
-  module Language = { let language = language };
-  module Text = Strings.Text.WithLanguage(Language);
-  module Party = Strings.Party.WithLanguage(Language);
+  module T = Strings.I18n({ let language = language });
 
   let table_header = React.useMemo3(() => {
     if (isLoading) {
@@ -57,14 +57,14 @@ let make = (~year: int) => {
     } else {
       <>
         <div className="policyCell partyTitle backgroundColor--Empty">
-          { Text.react_string(Strings.title) }
+          { T.Text.react_string(Strings.title) }
         </div>
         {
           parties
           |> Schema.PartySet.elements
           |> List.map((party) => 
             <div className={ "policyCell partyTitle backgroundColor--" ++ Strings.Party.to_str(~language=I18n.EN, party) }>
-              { Party.react_string(party) }
+              { T.Party.react_string(party) }
             </div>
           )
           |> Array.of_list

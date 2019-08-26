@@ -46,3 +46,9 @@ module Topic = I18n.T({
     | Science => { en: "Science", fr: "?" }
     }
 });
+
+module I18n = (L : I18n.LanguageSelection) => {
+  module Text = Text.WithLanguage(L);
+  module Party = Party.WithLanguage(L);
+  module Topic = Topic.WithLanguage(L);
+}
