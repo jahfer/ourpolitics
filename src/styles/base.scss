@@ -1,6 +1,7 @@
 $ndp-color: #F37021;
 $cpc-color: #1A4782;
 $lpc-color: #D71920;
+$gpc-color: #3d9b35;
 $dark-grey: #333;
 
 @import 'layout';
@@ -30,7 +31,13 @@ $dark-grey: #333;
   &--Liberals {
     background-color: $lpc-color;
   }
+  &--Green {
+    background-color: $gpc-color;
+  }
   &--Empty {
     background-color: $dark-grey;
+  }
+  &--Skeleton {
+    background-color: #ddddd5;
   }
 }

@@ -24,3 +24,22 @@ module Translate = (M : Translatable) => {
     to_str(item, ~language=language)->React.string;
   };
 };
+
+module type LanguageSelection = {
+  let language : language;
+};
+
+module T = (M : Translatable) => {
+  include Translate(M);
+  module WithLanguage = (LS : LanguageSelection) => {
+    module T = Translate(M);
+
+    let to_str (item) = {
+      T.to_str(~language=LS.language, item)
+    }
+
+    let react_string (item: M.t) = {
+      T.to_str(item, ~language=LS.language)->React.string;
+    };
+  }
+};

@@ -2,9 +2,13 @@
 let make = (~policy: Schema.policy) => {
   let language = React.useContext(LanguageContext.ctx);
   let dispatch = React.useContext(PolicyModalDispatch.ctx);
-  let t = Strings.Text.react_string(~language);
+
+  module Lang = { let language = language };
+  module Text = Strings.Text.WithLanguage(Lang);
 
   <li className="policyPoint">
-    <a className="policyPoint--link" onClick={_ => dispatch(ModalOpen(policy))}>{ t(policy.summary) }</a>
+    <a className="policyPoint--link" onClick={_ => dispatch(ModalOpen(policy))}>
+      { Text.react_string(policy.summary) }
+    </a>
   </li>
 };

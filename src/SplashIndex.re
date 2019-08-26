@@ -1,10 +1,17 @@
 [@react.component]
 let make = () => {
+  let language = React.useContext(LanguageContext.ctx);
+
+  module Lang = { let language = language };
+  module Text = Strings.Text.WithLanguage(Lang);
+
   <>
-    <h1>"Hello world!"->React.string</h1>
     <ul>
       <li>
-        <a href="#" onClick={ _ => ReasonReactRouter.push("/policies") }>"Policies (2019)"->React.string</a>
+        <a href="#" onClick={ "/policies/2019"->Utils.Router.push(~language) }>"Policies (2019)"->React.string</a>
+      </li>
+      <li>
+        <a href="#" onClick={ "/policies/2015"->Utils.Router.push(~language) }>"Policies (2015)"->React.string</a>
       </li>
     </ul>
   </>

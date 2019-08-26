@@ -4,7 +4,7 @@ module PartyMap = Map.Make({
 });
 
 [@react.component]
-let make = (~topic, ~policies) => {
+let make = (~topic, ~parties, ~policies) => {
   let (table, _setTable) = React.useState(() => {
     Array.fold_left ((policy_map: PartyMap.t(array(Schema.policy)), policy: Schema.policy) => {
       let policy_list = try(PartyMap.find(policy.party, policy_map)) {
@@ -15,7 +15,9 @@ let make = (~topic, ~policies) => {
   });
 
   let language = React.useContext(LanguageContext.ctx);
-  let t_topic = Strings.Topic.react_string(~language);
+
+  module Language = { let language = language };
+  module Topic = Strings.Topic.WithLanguage(Language);
 
   let find_or_default = (key, map) => switch (PartyMap.find(key, map)) {
   | policies => Some(policies)
@@ -25,20 +27,20 @@ let make = (~topic, ~policies) => {
   <div className="policyRow">
     <div className="policyCells">
       <div className="policyCell policyTopic">
-        <h3 className="policyTopic--title">{ t_topic(topic) }</h3>
+        <h3 className="policyTopic--title">{ Topic.react_string(topic) }</h3>
       </div>
-      <PolicyCell
-        party=NDP
-        key={"NDP " ++ Strings.Topic.to_str(topic, ~language=I18n.EN)}
-        policies=find_or_default(NDP, table) />
-       <PolicyCell
-        party=Conservative
-        key={"Conservative " ++ Strings.Topic.to_str(topic, ~language=I18n.EN)}
-        policies=find_or_default(Conservative, table) />
-      <PolicyCell
-        party=Liberal
-        key={"Liberal " ++ Strings.Topic.to_str(topic, ~language=I18n.EN)}
-        policies=find_or_default(Liberal, table) />
+      {
+        parties
+        |> Schema.PartySet.elements
+        |> List.map(party =>
+          <PolicyCell
+            party=party
+            key={Strings.Party.to_str(party, ~language=I18n.EN) ++ " " ++ Strings.Topic.to_str(topic, ~language=I18n.EN)}
+            policies=find_or_default(party, table) />
+          )
+        |> Array.of_list
+        |> React.array
+      }
     </div>
   </div>
 };

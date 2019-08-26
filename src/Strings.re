@@ -1,12 +1,13 @@
 let title = I18n.{ en: "Topics", fr: "Sujets" };
 let no_policy_listed = I18n.{ en: "No policy", fr: "Absence de politique" };
+let hello_world = I18n.{ en: "Hello world!", fr: "?" }
 
-module Text = I18n.Translate({
+module Text = I18n.T({
   type t = I18n.text;
   let to_i18n_text = text => text;
 });
 
-module Language = I18n.Translate({
+module Language = I18n.T({
   type t = I18n.language;
 
   let to_i18n_text (lang: t) : I18n.text =
@@ -16,7 +17,7 @@ module Language = I18n.Translate({
     }
 });
 
-module Party = I18n.Translate({
+module Party = I18n.T({
   type t = Schema.party;
 
   let to_i18n_text (party: t) : I18n.text =
@@ -28,7 +29,7 @@ module Party = I18n.Translate({
     }
 });
 
-module Topic = I18n.Translate({
+module Topic = I18n.T({
   type t = Schema.topic;  
 
   let to_i18n_text (topic: t) : I18n.text =

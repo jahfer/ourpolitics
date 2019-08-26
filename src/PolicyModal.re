@@ -36,7 +36,7 @@ let getPartyHexColour = (party: Schema.party) => {
   | Schema.Liberal => "rgba(215,25,32,0.8)"
   | Schema.Conservative => "rgba(26,71,130,0.8)"
   | Schema.NDP => "rgba(243,112,33,0.8)"
-  | Schema.Green => "rgba(255,255,255,0.8)"
+  | Schema.Green => "rgba(61,155,53,0.8)"
   }
 };
 
@@ -45,12 +45,17 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
   let language = React.useContext(LanguageContext.ctx);
   let dispatch = React.useContext(PolicyModalDispatch.ctx);
 
+  module Lang = { let language = language };
+  module Text = Strings.Text.WithLanguage(Lang);
+  module Topic = Strings.Topic.WithLanguage(Lang);
+  module Party = Strings.Party.WithLanguage(Lang);
+
   /* urlForIssue() {
     let body = encodeURIComponent('## Problem\n\n\n## Suggested Change\n\n\n## References\n');
     return `https://github.com/jahfer/simple-politics/issues/new?title=[${topic} - ${Symbol.keyFor(party)}] Suggested edit for "${point.summary}"&body=${body}`;
   } */
 
-  let topic_title = Strings.Topic.to_str(policy.topic, ~language) ++ " - " ++ Strings.Party.to_str(policy.party, ~language);
+  let topic_title = Topic.to_str(policy.topic) ++ " - " ++ Party.to_str(policy.party);
 
   let style = Modal.styles(
     ~overlay = Modal.overlay_styles(
@@ -72,11 +77,11 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
         </div>
 
         <h1 className="modal--heading modal--heading__primary">
-          {Strings.Text.react_string(~language=language, policy.summary)}
+          {Text.react_string(policy.summary)}
         </h1>
 
         <div className="modal--details"
-          dangerouslySetInnerHTML={ policy.details->Strings.Text.to_str(~language=language)->Utils.dangerousHtml }>
+          dangerouslySetInnerHTML={ policy.details->Text.to_str->Utils.dangerousHtml }>
         </div>
       </div>
 
