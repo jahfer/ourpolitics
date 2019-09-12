@@ -4,7 +4,6 @@ let make = (~year: int) => {
   let (policies, setPolicies) = React.useState(() => Schema.TopicMap.empty);
   let (parties, setParties) = React.useState(() => Schema.PartySet.empty);
 
-  /* TODO store results in Context for memoization between mount/unmount? */
   React.useEffect1(() => {
     let _ = Js.Promise.(
       Fetch.fetch({j|/static/policies/$year/policies.json|j})
@@ -29,7 +28,11 @@ let make = (~year: int) => {
         data |> resolve;
       })
     );
-    None;
+    /* On unmount, clear data */
+    Some(_ => {
+      setPolicies(_ => Schema.TopicMap.empty);
+      setParties(_ => Schema.PartySet.empty);
+    });
   }, [|year|]);
 
   let (policyRows, setPolicyRows) = React.useState(() => [||])
@@ -63,7 +66,9 @@ let make = (~year: int) => {
           parties
           |> Schema.PartySet.elements
           |> List.map((party) => 
-            <div className={ "policyCell partyTitle backgroundColor--" ++ Strings.Party.to_str(~language=I18n.EN, party) }>
+            <div
+              key={ "partyTitle--" ++ Strings.Party.to_str(~language=I18n.EN, party) }
+              className={ "policyCell partyTitle backgroundColor--" ++ Strings.Party.to_str(~language=I18n.EN, party) }>
               { T.Party.react_string(party) }
             </div>
           )
@@ -80,8 +85,8 @@ let make = (~year: int) => {
         table_header
       </div>
     </div>
-    <ul>
+    <div>
       { policyRows->React.array }
-    </ul>
+    </div>
   </div>
 };

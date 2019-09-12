@@ -22,7 +22,7 @@ let make = (~topic, ~parties, ~policies) => {
   | exception Not_found => None
   };
 
-  <div className="policyRow">
+  <div className="policyRow divider-t">
     <div className="policyCells">
       <div className="policyCell policyTopic">
         <h3 className="policyTopic--title">{ T.Topic.react_string(topic) }</h3>

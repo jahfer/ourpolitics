@@ -1,5 +1,14 @@
 /* layout */
 
+.list-plain {
+  list-style-type: none;
+  margin: 0;
+
+  li {
+    padding: 0.5rem 0;
+  }
+}
+
 .policyTable {
   display: flex;
   flex-flow: column nowrap;
@@ -12,6 +21,7 @@
 
     &.tableHeader {
       display: none;
+      margin-bottom: 0;
     }
   }
 
@@ -47,6 +57,10 @@
   .partyTitle {
     align-self: center;
   }
+}
+
+.footer {
+  min-height: 200px;
 }
 
 @media screen and (min-width: 650px) {

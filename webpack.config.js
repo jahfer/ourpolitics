@@ -9,7 +9,7 @@ const ASSET_PATH = process.env.ASSET_PATH || '/';
 module.exports = {
   context: path.resolve(__dirname),
   devServer: {
-    contentBase: path.join(__dirname, 'build'),
+    contentBase: outputDir,
     compress: true,
     historyApiFallback: true,
     index: './build/index.html'
@@ -35,12 +35,6 @@ module.exports = {
       hash: true,
     })
   ],
-  // devServer: {
-  //   compress: true,
-  //   contentBase: outputDir,
-  //   port: process.env.PORT || 8000,
-  //   historyApiFallback: true
-  // },
   module: {
     rules: [
       {
@@ -67,7 +61,18 @@ module.exports = {
       },
       {
         test: /\.md$/,
-        use: ['html-loader', 'markdown-loader']
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+                name: "[contenthash].html",
+                outputPath: 'assets',
+            },
+          },
+          'extract-loader',
+          'html-loader', 
+          'markdown-loader'
+        ]
       }
     ]
   }

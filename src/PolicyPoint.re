@@ -7,7 +7,7 @@ let make = (~policy: Schema.policy) => {
 
   <li className="policyPoint">
     <a className="policyPoint--link" onClick={_ => dispatch(ModalOpen(policy))}>
-      { T.Text.react_string(policy.summary) }
+      { T.Text.react_string(policy.title) }
     </a>
   </li>
 };

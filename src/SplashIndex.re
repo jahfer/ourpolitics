@@ -1,14 +1,11 @@
 [@react.component]
 let make = () => {
   let language = React.useContext(LanguageContext.ctx);
-  <>
-    <ul>
-      <li>
-        <a href="#" onClick={ "/policies/2019"->Utils.Router.push(~language) }>"Policies (2019)"->React.string</a>
-      </li>
-      <li>
-        <a href="#" onClick={ "/policies/2015"->Utils.Router.push(~language) }>"Policies (2015)"->React.string</a>
-      </li>
-    </ul>
-  </>
+  module T = Strings.I18n({ let language = language });
+
+  <section className="section">
+    <a href="#" onClick={ "/policies/2019"->Utils.Router.push(~language) }>
+      <p>{ Strings.SplashIndex.policy_comparison_index(~year=2019)->T.Text.react_string }</p>
+    </a>
+  </section>
 }

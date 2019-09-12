@@ -47,11 +47,6 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
 
   module T = Strings.I18n({ let language = language });
 
-  /* urlForIssue() {
-    let body = encodeURIComponent('## Problem\n\n\n## Suggested Change\n\n\n## References\n');
-    return `https://github.com/jahfer/simple-politics/issues/new?title=[${topic} - ${Symbol.keyFor(party)}] Suggested edit for "${point.summary}"&body=${body}`;
-  } */
-
   let topic_title = T.Topic.to_str(policy.topic) ++ " - " ++ T.Party.to_str(policy.party);
 
   let style = Modal.styles(
@@ -59,6 +54,18 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
       ~backgroundColor = getPartyHexColour(policy.party)
     )
   );
+
+  let (content, setContent) = React.useState(() => "");
+
+  React.useEffect2(() => {
+    let contentPath = Content.pathToContent(policy.details)->T.Text.to_str;
+    let _ = Js.Promise.(
+      Fetch.fetch(contentPath)
+      |> then_(Fetch.Response.text)
+      |> then_(html => setContent(_ => html) |> resolve)
+    );
+    Some(_ => setContent(_ => ""));
+  }, (policy, language));
 
   <Modal isOpen style className="policyModal--content" onRequestClose={_ => dispatch(ModalClose)}>
     <div className="policyModal">
@@ -68,17 +75,15 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
             <div className="modal--topicBox">
               <p>{topic_title->React.string}</p>
             </div>
-
-            /* <a href={this.urlForIssue()} target="_blank">{I18n.get(SUGGEST_EDIT)}</a> */
           </div>
         </div>
 
         <h1 className="modal--heading modal--heading__primary">
-          {T.Text.react_string(policy.summary)}
+          {T.Text.react_string(policy.title)}
         </h1>
 
         <div className="modal--details"
-          dangerouslySetInnerHTML={ policy.details->T.Text.to_str->Utils.dangerousHtml }>
+          dangerouslySetInnerHTML={ content->Utils.dangerousHtml }>
         </div>
       </div>
 

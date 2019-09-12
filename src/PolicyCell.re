@@ -1,7 +1,6 @@
 [@react.component]
 let make = (~party: Schema.party, ~policies: option(array(Schema.policy))) => {
   let language = React.useContext(LanguageContext.ctx);
-
   
   module T = Strings.I18n({ let language = language });
 
