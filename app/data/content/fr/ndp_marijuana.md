@@ -1,1 +1,0 @@
-The NDP would immediately decriminalize marijuana use and would  study the health and societal effects before considering legalization. There would be no criminal offences for marijuana use, but they would provide no official means of accessing it.

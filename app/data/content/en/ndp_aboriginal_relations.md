@@ -1,1 +1,0 @@
-The NDP has vowed to pursue a national public inquiry into missing and murdered aboriginal women within 100 days of taking office. They have promised to consult with First Nations, women’s groups and others on the inquiry, beginning on their first day in office.

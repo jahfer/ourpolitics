@@ -1,3 +1,0 @@
-Dans le cadre des promesses de leur plateforme, le parti Libéral a prévu de faire l'étude d'un nouveau système de votation à temps pour les élections de **2019**. Ils planifies de consulter tous les partis, les experts et les citoyens canadiens afin de déterminer de trouver la meilleur réforme pour rendre le processus électorale plus juste.
-
-Le parti Libéral a promis de compléter la phase de consultation dans les **premier 12 mois** de leur élection, et ils ont spécifiquement mentionnés qu'ils étudieraient "un système préférentiel et/ou une forme de représentation proportionnelle, afin de mieux représenter les canadiens et de mieux servir le Canada".

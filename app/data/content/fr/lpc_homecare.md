@@ -1,1 +1,0 @@
-Les libéraux ont promis de négocier une meilleure entente à propos des soins de longues durées avec les provinces, le parti Libéral investira **3 milliards$** au courant des quatres prochaines années afin d'améliorer les soins à domiciles pour les personnes agées.

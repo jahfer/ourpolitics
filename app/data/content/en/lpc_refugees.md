@@ -1,1 +1,0 @@
-The Liberal party has planned to accept **25,000** federally-sponsored refugees by the end of the year, and would invest **$100 million** in the effort to do so. They would also provide **$100 million** to the United Nations for their refugee efforts.

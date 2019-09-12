@@ -1,0 +1,52 @@
+$ndp-color: #F37021;
+$cpc-color: #1A4782;
+$lpc-color: #D71920;
+$gpc-color: #3d9b35;
+$dark-grey: #333;
+
+@import 'layout';
+@import 'styles';
+@import 'modal';
+@import 'typography';
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.textColor{
+  &--NDP {
+    color: $ndp-color;
+  }
+  &--Conservatives {
+    color: $cpc-color;
+  }
+  &--Liberals {
+    color: $lpc-color;
+  }
+}
+
+
+.backgroundColor{
+  &--NDP {
+    background-color: $ndp-color;
+  }
+  &--Conservatives {
+    background-color: $cpc-color;
+  }
+  &--Liberals {
+    background-color: $lpc-color;
+  }
+  &--Green {
+    background-color: $gpc-color;
+  }
+  &--Empty {
+    background-color: $dark-grey;
+  }
+  &--Skeleton {
+    background-color: #ddddd5;
+  }
+}

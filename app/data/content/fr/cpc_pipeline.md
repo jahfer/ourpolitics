@@ -1,1 +1,0 @@
-Les conservateurs ont grandement fait la promotion des 3 projets majeurs de pipeline et vont continuer à le faire s'ils restent au pouvoir. Cela inclut Énergie Est (de l'Alberta jusqu'à l'est du Canada), Keystone XL (de l'Alberta au Texas), Northern Gateway (de l'Alberta à la Colombie-Britanique).

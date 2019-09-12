@@ -1,1 +1,0 @@
-The Liberals have proposed the creation of a _Chief Science Officer_, who would be responsible for providing Parliament with scientific information and expert advice on scientific issues. They would also ensure that government science is freely available to the public and that scientists are able to speak freely about their work.

@@ -1,0 +1,289 @@
+/* styling */
+$color-cream: #f9f9f1;
+
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  background-color: $color-cream;
+  color: #303030;
+  font-family: georgia, serif;
+  line-height: 1.3em;
+  margin: 0;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page {
+  position: relative;
+}
+
+.section {
+  padding-top: 20px;
+}
+
+.langSelection {
+  float: right;
+  font-size: 0.9em;
+  &, a { color: #aaa; text-decoration: none; }
+  .active { color: #666; }
+}
+
+.divider-t {
+  border-top: 1px solid #DCDCD5;
+}
+
+.bg-light-alt {
+  background-color: #e8e8df;
+  color: #4C4C42;
+  a { 
+    color: #57574C;  
+    border-bottom: 1px solid #BBBBA9;
+    padding: 2px 5px;
+
+    &:hover {  
+      background: #fff;
+    }
+  }
+}
+
+// .footerInfo {
+//   text-align: center;
+//   margin-top: 20px;
+
+//   a { 
+//     color: #666;
+//     text-decoration: none;
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
+
+.pageTitle {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 1.7em;
+  text-indent: -9999em;
+  width: 100%;
+  height: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 0;
+
+  &.lang-en { background-image: url('../img/logo-en.png'); }
+  &.lang-fr { background-image: url('../img/logo-fr.png'); }
+}
+
+.legend {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.policyRow:first-of-type {
+  border: none;
+}
+
+.policyCell--points {
+  padding: 0;
+  margin: 0;
+  list-style-type: circle;
+}
+
+.policyCell {
+  padding: 5px;
+  line-height: 1.3em;
+
+  &.partyTitle {
+    font-family: 'Merriweather', georgia, serif;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    color: #fff;
+  }
+
+  &:last-of-type {
+    border: none;
+  }
+
+  &--party {
+    font-family: 'Merriweather', georgia, serif;
+    margin: 0;
+  }
+}
+
+.policyTimeline {
+  align-self: center;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #bbb;
+  padding: 31px 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.policyTopic {
+  text-align: center;
+  border: none;
+  font-family: 'Merriweather', georgia, serif;
+}
+
+.policyTopic--title {
+  margin: 5px 0;
+}
+
+.policyRow {
+  margin-bottom: 10px 0;
+  padding: 10px 0;
+  flex-shrink: 0;
+  /*transition: max-height 1s ease-in-out;
+  overflow: hidden;*/
+
+  &.tableHeader {
+    padding: 0;
+    border-bottom: none;
+    margin-bottom: 10px;
+    // border-bottom: 2px solid #000;
+  }
+}
+
+.policyPoint {
+  margin-bottom: 5px;
+
+  &:last-of-type {
+    border: none;
+    margin-bottom: 0;
+  }
+}
+
+.policyPoint--link {
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.customBullet {
+  list-style: none;
+
+  &:before {
+    font-family: 'FontAwesome';
+    color: #ffbd00;
+    margin: 0 5px 0 -20px;
+  }
+}
+
+.customBullet--star:before {
+  content: '\f005';
+}
+
+.emptyPolicy {
+  color: #999;
+  font-style: italic;
+}
+
+.timelineRow {
+  display: flex;
+  z-index: 2;
+  position: relative;
+}
+
+.timelineTickMarks {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding: 10px 0;
+  font-size: 11px;
+  color: #777;
+  z-index: 1;
+
+  .timelineElement {
+    font-weight: bold;
+  }
+}
+
+.timelineTickMark {
+  border-right: 1px dashed #ddd;
+  &:last-of-type {
+    border: none;
+  }
+}
+
+.timelineElement {
+  display: inline-block;
+  padding: 5px;
+  width: 260px;
+  color: #333;
+  font-size: 12px;
+}
+
+.event {
+  background-color: #eee;
+  opacity: 0.8;
+  height: 18px;
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 0 5px;
+  font-weight: bold;
+  color: #fff;
+
+  display: flex;
+  font-size: 11px;
+  transition: all 0.2s ease-in-out;
+  
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+    padding: 2px 15px;
+
+    .referenceText {
+      width: 100%;
+    }
+  }
+}
+
+.referenceText {
+  display: inline-block;
+  overflow: hidden;
+  width: 0%;
+  line-height: 18px;
+}
+
+.spinner {
+  width: 100%;
+  height: 64px;
+  text-align: center;
+  background: url('../img/spinner.gif') no-repeat center center;
+}
+
+@media screen and (min-width: 650px) {
+  .pageTitle {
+    height: 120px;
+  }
+
+  .policyCell--points {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .policyCell {
+    border-bottom: none;
+  }
+
+
+.policyPoint { margin-bottom: 10px; }
+}
