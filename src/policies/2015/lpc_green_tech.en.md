@@ -1,0 +1,1 @@
+The Liberal government would invest **$200 million** into clean technology for forestry, fisheries, mining, energy, and agricultural sectors. They would also invest an additional **$100 million** in the producers of the clean technology to encourage development.

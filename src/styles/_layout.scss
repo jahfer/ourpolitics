@@ -1,5 +1,17 @@
 /* layout */
 
+
+.pt-1 { padding-top: 1rem; }
+.pt-2 { padding-top: 2rem; }
+.pt-3 { padding-top: 3rem; }
+.pt-4 { padding-top: 4rem; }
+.pt-5 { padding-top: 5rem; }
+.pb-1 { padding-bottom: 1rem; }
+.pb-2 { padding-bottom: 2rem; }
+.pb-3 { padding-bottom: 3rem; }
+.pb-4 { padding-bottom: 4rem; }
+.pb-5 { padding-bottom: 5rem; }
+
 .list-plain {
   list-style-type: none;
   margin: 0;
@@ -12,6 +24,10 @@
 .policyTable {
   display: flex;
   flex-flow: column nowrap;
+
+  a {
+    color: inherit;
+  }
 
   .policyRow {
     width: 100%;
@@ -57,10 +73,6 @@
   .partyTitle {
     align-self: center;
   }
-}
-
-.footer {
-  min-height: 200px;
 }
 
 @media screen and (min-width: 650px) {

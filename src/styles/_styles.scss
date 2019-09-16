@@ -13,6 +13,10 @@ body {
   margin: 0;
 }
 
+a, a:visited {
+  color: rgb(0, 102, 204);
+}
+
 .container {
   max-width: 1060px;
   margin: 0 auto;
@@ -28,10 +32,19 @@ body {
   padding-top: 20px;
 }
 
+.header {
+  max-height: 150px;
+}
+
 .langSelection {
   float: right;
   font-size: 0.9em;
-  &, a { color: #aaa; text-decoration: none; }
+  a {
+    color: #aaa;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+  }
   .active { color: #666; }
 }
 
@@ -44,27 +57,15 @@ body {
   color: #4C4C42;
   a { 
     color: #57574C;  
-    border-bottom: 1px solid #BBBBA9;
-    padding: 2px 5px;
-
     &:hover {  
       background: #fff;
     }
   }
 }
 
-// .footerInfo {
-//   text-align: center;
-//   margin-top: 20px;
-
-//   a { 
-//     color: #666;
-//     text-decoration: none;
-//     &:hover {
-//       text-decoration: underline;
-//     }
-//   }
-// }
+.text-block a:hover {
+  background: #fff;
+}
 
 .pageTitle {
   font-family: sans-serif;
@@ -167,6 +168,8 @@ body {
 
 .policyPoint--link {
   cursor: pointer;
+  padding: 0;
+  border: none;
 
   &:hover {
     text-decoration: underline;

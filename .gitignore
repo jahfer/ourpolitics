@@ -11,4 +11,4 @@ npm-debug.log
 *.d
 *.mlast
 build/*
-src/*.bs.js
+src/**/*.bs.js
