@@ -1,1 +1,0 @@
-The NDP plans to spend **$40 million** across four years to create and implement a national strategy to improve care for those suffering from Alzheimer’s and dementia. There are around 750,000 Canadians who currently suffer from these disorders.

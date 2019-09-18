@@ -1,1 +1,0 @@
-The Liberals intend to improve access and reduce the cost of prescription medication through bulk federal purchasing at lower-negotiated rates. By negotiating rates federally, the government would be able to secure low rates which will lower the cost of medication bought by provincial governments.

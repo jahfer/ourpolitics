@@ -1,0 +1,59 @@
+[
+  { 
+    "topic": "Government",
+    "party": "NDP",
+    "year": 2019,
+    "title": { "en": "Foo", "fr": "?" },
+    "summary": { "en": "NDP policy 1", "fr": "?" },
+    "references": [],
+    "details": "2019/test"
+  },
+  { 
+    "topic": "Government",
+    "party": "NDP",
+    "title": { "en": "Bar", "fr": "Barey" },
+    "summary": { "en": "NDP policy 2", "fr": "?" },
+    "references": [],
+    "details": "2019/test"
+  },
+  { 
+    "topic": "Government",
+    "party": "Conservative",
+    "title": { "en": "Foo", "fr": "?" },
+    "summary": { "en": "Conservative policy 1", "fr": "?" },
+    "references": [],
+    "details": "2019/test"
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": { "en": "Foo", "fr": "?" },
+    "summary": { "en": "Liberal policy 1", "fr": "?" },
+    "references": [],
+    "details": "2019/test"
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "NDP",
+    "title": { "en": "Foo", "fr": "?" },
+    "summary": { "en": "NDP policy 3", "fr": "?" },
+    "references": [],
+    "details": "2019/test"
+  },
+  { 
+    "topic": "Foreign Policy",
+    "party": "Liberal",
+    "title": { "en": "Foo", "fr": "?" },
+    "summary": { "en": "Liberal policy 2", "fr": "?" },
+    "references": [],
+    "details": "2019/test"
+  },
+  { 
+    "topic": "Foreign Policy",
+    "party": "Green",
+    "title": { "en": "Foo", "fr": "?" },
+    "summary": { "en": "Green policy 1", "fr": "?" },
+    "references": [],
+    "details": "2019/test"
+  }
+]

@@ -1,3 +1,0 @@
-The NDP work work to bring in **10,000** federally-sponsored refugees by the end of 2015, costing an estimated **$74 million**. They would also work to fast-track private sponsorship of refugees without a cap.
-
-Along with this, they plan to resettle an additional **9,000 refugees/year** within Canada from the Syrian crisis over the next four years. This additional settlement is expected to cost **$63.8 million/year**, and in total would bring **46,000** federally-sponsored refugees into the country by 2019.

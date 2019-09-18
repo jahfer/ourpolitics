@@ -1,0 +1,712 @@
+[
+  {
+    "topic": "Child Care",
+    "party": "NDP",
+    "title": {
+      "en": "National $15/day daycare",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_daycare"
+  },
+  {
+    "topic": "Child Care",
+    "party": "NDP",
+    "title": {
+      "en": "Keep Universal Child Care Benefit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_uccb"
+  },
+  {
+    "topic": "Child Care",
+    "party": "Conservative",
+    "title": {
+      "en": "Universal Child Care Benefit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_uccb"
+  },
+  {
+    "topic": "Child Care",
+    "party": "Liberal",
+    "title": {
+      "en": "Canada Child Benefit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_ccb"
+  },
+  {
+    "topic": "C-51",
+    "party": "NDP",
+    "title": {
+      "en": "Repeal",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_c51"
+  },
+  {
+    "topic": "C-51",
+    "party": "Conservative",
+    "title": {
+      "en": "Keep",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_c51"
+  },
+  {
+    "topic": "C-51",
+    "party": "Liberal",
+    "title": {
+      "en": "Amend",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_c51"
+  },
+  {
+    "topic": "Taxes",
+    "party": "NDP",
+    "title": {
+      "en": "Raise corporate taxes",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_corporate_taxes"
+  },
+  {
+    "topic": "Taxes",
+    "party": "NDP",
+    "title": {
+      "en": "Remove stock option tax-benefit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_stock_options"
+  },
+  {
+    "topic": "Taxes",
+    "party": "NDP",
+    "title": {
+      "en": "Lower small business tax",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_small_business_tax"
+  },
+  {
+    "topic": "Taxes",
+    "party": "NDP",
+    "title": {
+      "en": "Remove income splitting",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_income_splitting"
+  },
+  {
+    "topic": "Taxes",
+    "party": "NDP",
+    "title": {
+      "en": "Reduce TFSA contribution limit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_tfsa"
+  },
+  {
+    "topic": "Taxes",
+    "party": "Conservative",
+    "title": {
+      "en": "Home renovation tax credit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_home_renovation"
+  },
+  {
+    "topic": "Taxes",
+    "party": "Conservative",
+    "title": {
+      "en": "Bump RRSP withdrawal limit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_rrsp"
+  },
+  {
+    "topic": "Taxes",
+    "party": "Conservative",
+    "title": {
+      "en": "Don't change TFSA contribution limit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_tfsa"
+  },
+  {
+    "topic": "Taxes",
+    "party": "Liberal",
+    "title": {
+      "en": "Lower middle-class taxes, new tax bracket above $200k",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_middle_class_taxes"
+  },
+  {
+    "topic": "Taxes",
+    "party": "Liberal",
+    "title": {
+      "en": "Remove income splitting",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_income_splitting"
+  },
+  {
+    "topic": "Taxes",
+    "party": "Liberal",
+    "title": {
+      "en": "Reduce TFSA contribution limit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_tfsa"
+  },
+  {
+    "topic": "International Trade",
+    "party": "NDP",
+    "title": {
+      "en": "Anti-TPP",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_tpp"
+  },
+  {
+    "topic": "International Trade",
+    "party": "Conservative",
+    "title": {
+      "en": "Pro-TPP",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_tpp"
+  },
+  {
+    "topic": "International Trade",
+    "party": "Liberal",
+    "title": {
+      "en": "Pro-TPP, but concerns over dairy concessions",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_tpp"
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Lower emissions through cap-and-trade",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_cap_and_trade"
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Encourage renewable energy usage",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_green_tech"
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Mostly anti-pipeline",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_pipeline"
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Pro-pipeline",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_pipeline"
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "National carbon tax",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_carbon_tax"
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Focus on clean technology",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_green_tech"
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Pro-pipeline except Northern Gateway",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_pipeline"
+  },
+  {
+    "topic": "Senate",
+    "party": "NDP",
+    "title": {
+      "en": "Abolish",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_senate"
+  },
+  {
+    "topic": "Senate",
+    "party": "Liberal",
+    "title": {
+      "en": "Reform",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_senate"
+  },
+  {
+    "topic": "Senate",
+    "party": "Conservative",
+    "title": {
+      "en": "No new appointments",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_senate"
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "NDP",
+    "title": {
+      "en": "Inquiry into missing and murdered women within 100 days of office",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_aboriginal_relations"
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "Conservative",
+    "title": {
+      "en": "Do not support national inquiry",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_aboriginal_relations"
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "Conservative",
+    "title": {
+      "en": "Funding for training",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_aboriginal_funding"
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "Liberal",
+    "title": {
+      "en": "Inquiry into missing and murdered women",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_aboriginal_relations"
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "Liberal",
+    "title": {
+      "en": "Invest in First Nations education",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_aboriginal_education"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Negotiate better prices for prescription medication",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_healthcare"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Expand mental healthcare",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_mental_healthcare"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "National Alzheimer's and dementia strategy",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_alzheimers"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Better funding for doctors, nurses and clinics",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_healthcare_funding"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Negotiate better prices for prescription medication",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_healthcare"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Expand mental healthcare",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_mental_healthcare"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "NDP",
+    "title": {
+      "en": "Better Transit Plan",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_transit"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Conservative",
+    "title": {
+      "en": "Invest in building and renewing infrastructure",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_infrastructure"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Liberal",
+    "title": {
+      "en": "Federal infrastructure bank",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_infrastructure_bank"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Liberal",
+    "title": {
+      "en": "Double federal infrastructure investment",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_infrastructure_investment"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Liberal",
+    "title": {
+      "en": "Invest in public transit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_transit"
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "NDP",
+    "title": {
+      "en": "Withdraw from fight against ISIS",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_isis"
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "NDP",
+    "title": {
+      "en": "Accept 10,000 refugees within 2015",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_refugees"
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "NDP",
+    "title": {
+      "en": "Increase foreign aid",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_foreign_aid"
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "Conservative",
+    "title": {
+      "en": "Pursue long-term fight against ISIS",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_isis"
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "Conservative",
+    "title": {
+      "en": "Accept 10,000 refugees over three years",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_refugees"
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "Liberal",
+    "title": {
+      "en": "Train local soldiers against ISIS",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_isis"
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "Liberal",
+    "title": {
+      "en": "Accept 25,000 refugees within 2015",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_refugees"
+  },
+  {
+    "topic": "Cannabis",
+    "party": "NDP",
+    "title": {
+      "en": "Decriminalize",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_marijuana"
+  },
+  {
+    "topic": "Cannabis",
+    "party": "Conservative",
+    "title": {
+      "en": "Criminalize",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_marijuana"
+  },
+  {
+    "topic": "Cannabis",
+    "party": "Liberal",
+    "title": {
+      "en": "Legalize",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_marijuana"
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Increase funding and reduce OAS age requirement to 65",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_seniors"
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Support income splitting for seniors",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_seniors_income_splitting"
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Conservative",
+    "title": {
+      "en": "Single-seniors tax credit",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_seniors"
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase funding for homecare",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_homecare"
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase funding and reduce OAS and GIS age requirement to 65",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_seniors"
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Support income splitting for seniors",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_seniors_income_splitting"
+  },
+  {
+    "topic": "Youth",
+    "party": "NDP",
+    "title": {
+      "en": "End interest on federal student loans",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_student_loans"
+  },
+  {
+    "topic": "Youth",
+    "party": "NDP",
+    "title": {
+      "en": "Provide protections for unpaid internships",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_internships"
+  },
+  {
+    "topic": "Youth",
+    "party": "Liberal",
+    "title": {
+      "en": "Invest in youth employment and opportunity",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_youth"
+  },
+  {
+    "topic": "Electoral Reform",
+    "party": "NDP",
+    "title": {
+      "en": "Mixed Member Parliament",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_reform"
+  },
+  {
+    "topic": "Electoral Reform",
+    "party": "Conservative",
+    "title": {
+      "en": "Require referendum for any reform",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/cpc_reform"
+  },
+  {
+    "topic": "Electoral Reform",
+    "party": "Liberal",
+    "title": {
+      "en": "Committee to find best alternative",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_reform"
+  },
+  {
+    "topic": "Science",
+    "party": "NDP",
+    "title": {
+      "en": "Create Parliamentary Science Officer",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/ndp_science_officer"
+  },
+  {
+    "topic": "Science",
+    "party": "NDP",
+    "title": {
+      "en": "Create Chief Science Officer",
+      "fr": "?"
+    },
+    "references": [],
+    "details": "2015/lpc_science_officer"
+  }
+]

@@ -1,1 +1,0 @@
-Les conservateurs ont promis d'augmenter la limite de retrait du REER pour les acheteurs d'une première maison. L'augmentation ferait passer la limite de 25,000$ à **35,000$**. Débutant en 2017, cette mesure couterait au gouvernement fédéral **$30 millions/années**.

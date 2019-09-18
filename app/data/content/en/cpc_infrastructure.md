@@ -1,1 +1,0 @@
-The Conservative party has planned to spend the majority of **$5.8 billion** allocated for infrastructure over the next **three years**, to support the development of heritage, tourism, parks, waterway and highway projects, among other areas.

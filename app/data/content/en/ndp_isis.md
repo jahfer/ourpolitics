@@ -1,1 +1,0 @@
-The NDP have promised to immediately withdraw from the US-led campaign against ISIS in Iraq and Syria. They wish to pursue a path of diplomacy and aid, rather than be involved in war.
