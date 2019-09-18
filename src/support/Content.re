@@ -36,6 +36,13 @@ module Strings = {
   };
 }
 
+/*
+  I know this seems over-the-top, but explicitly writing out the Markdown
+  filepaths lets Webpack convert the files to HTML at compile-time, so we
+  don't have to parse the Markdown at runtime. It also lets us defer
+  loading the content by replacing these paths with [hash].html links. 
+*/
+
 /* 2019 */
 [@bs.module] external test_en : string = "../policies/2019/test.en.md";
 [@bs.module] external test_fr : string = "../policies/2019/test.fr.md";

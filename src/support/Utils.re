@@ -3,6 +3,7 @@ let dangerousHtml : string => Js.t('a) = html => {"__html": html};
 module Router = {
   let push_route = (~language, path) => {
     ReasonReactRouter.push(path ++ "#" ++ Strings.Language.to_str(~language, language));
+    let _ = Analytics.pageLoad(~path);
   }
 
   let push = (~language, path) => {

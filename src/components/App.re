@@ -21,7 +21,7 @@ let make = () => {
   let page_content = switch (url.path) {
   | ["policies", year, _] => <PolicyComparisonIndex year={ int_of_string(year) } />
   | ["policies", year] => <PolicyComparisonIndex year={ int_of_string(year) } />
-  | ["policies"] => <Redirect path="/policies/2019" />
+  | ["policies"] => <Redirect path="/policies/2015" />
   | ["about"] => <AboutIndex />
   | ["privacy"] => <PrivacyIndex />
   | [] => <SplashIndex />
