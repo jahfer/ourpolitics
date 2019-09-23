@@ -1,15 +1,43 @@
-let dangerousHtml : string => Js.t('a) = html => {"__html": html};
+[@bs.scope "window"] [@bs.val]
+external scrollTo: (int, int) => unit = "scrollTo";
+
+let dangerousHtml: string => Js.t('a) = html => {"__html": html};
+
+let rec partition_predicate = (~f: 'a => 'b, ~init=[], lst: list('a)) => {
+  let comparison = f(List.hd(lst));
+  let (matched, remaining_items) =
+    List.partition(a => f(a) == comparison, lst);
+  let acc = [matched, ...init];
+  switch (remaining_items) {
+  | [] => acc
+  | [_] => [remaining_items, ...acc]
+  | _ => remaining_items |> partition_predicate(~f, ~init=acc)
+  };
+};
 
 module Router = {
-  let push_route = (~language, path) => {
-    ReasonReactRouter.push(path ++ "#" ++ Strings.Language.to_str(~language, language));
-    let _ = Analytics.pageLoad(~path);
-  }
+  let restoreScrollPosition = () => {
+    scrollTo(0, 0);
+  };
 
-  let push = (~language, path) => {
-    (event) => {
-      ReactEvent.Synthetic.preventDefault(event);
-      push_route(~language, path)
-    }
-  }
-}
+  let replace_route = (~language, path) => {
+    ReasonReactRouter.replace(
+      path ++ "#" ++ Strings.Language.to_str(~language, language),
+    );
+    let _ = Analytics.pageLoad(~path);
+    restoreScrollPosition();
+  };
+
+  let push_route = (~language, path) => {
+    ReasonReactRouter.push(
+      path ++ "#" ++ Strings.Language.to_str(~language, language),
+    );
+    let _ = Analytics.pageLoad(~path);
+    restoreScrollPosition();
+  };
+
+  let push = (~language, path, event) => {
+    ReactEvent.Synthetic.preventDefault(event);
+    push_route(~language, path);
+  };
+};

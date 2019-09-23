@@ -1,1 +1,0 @@
-_The 2019 policy table is still a work in progress. Until then, feel free to read through the 2015 policy table below._

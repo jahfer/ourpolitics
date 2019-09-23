@@ -1,14 +1,13 @@
 type action =
-  | ModalOpen(Schema.policy)
-  | ModalClose
-  ;
+  | ModalOpen(string)
+  | ModalClose;
 
 type state = {
   visible: bool,
-  policy: option(Schema.policy)
+  policy: option(Schema.policy),
 };
 
-let ctx = React.createContext((_ : action) => ());
+let ctx = React.createContext((_: action) => ());
 
 let makeProps = (~dispatch, ~children, ()) => {
   "value": dispatch,

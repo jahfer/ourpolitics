@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 const outputDir = path.join(__dirname, 'build/');
 
 const devMode = process.env.NODE_ENV !== 'production';
@@ -33,7 +34,11 @@ module.exports = {
       template: 'src/index.html',
       inject: true,
       hash: true,
-    })
+    }),
+    new CopyPlugin([
+      { from: 'CNAME', to: outputDir },
+      { from: 'static/**/*', to: outputDir },
+    ]),
   ],
   module: {
     rules: [
