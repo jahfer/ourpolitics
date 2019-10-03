@@ -4,6 +4,25 @@ module Dataset =
     let compare = compare;
   });
 
+let dataset_of_policies = (parties, policies) => {
+  let init =
+    parties
+    |> List.fold_left(
+         (acc, party) => Dataset.add(party, [], acc),
+         Dataset.empty,
+       );
+
+  policies
+  |> Utils.partition_predicate(~f=(p: Schema.policy) => p.party)
+  |> List.fold_left(
+       (acc, policies: list(Schema.policy)) => {
+         let party = List.hd(policies).party;
+         Dataset.add(party, policies, acc);
+       },
+       init,
+     );
+};
+
 [@react.component]
 let make = (~topic, ~parties, ~policies: Dataset.t(list(Schema.policy))) => {
   let language = React.useContext(LanguageContext.ctx);

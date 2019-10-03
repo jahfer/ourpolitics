@@ -13,6 +13,10 @@ module Strings = {
   let ndp = {en: "NDP", fr: "NPD"};
   let greens = {en: "Green", fr: "Vert"};
 
+  let reach = {en: "Reach", fr: "?"};
+  let confidence = {en: "Confidence", fr: "?"};
+  let effort = {en: "Effort", fr: "?"};
+
   let foreign_policy = {en: "Foreign Policy", fr: {js|?|js}};
   let taxes = {en: "Taxes", fr: {js|?|js}};
   let international_trade = {en: "International Trade", fr: {js|?|js}};

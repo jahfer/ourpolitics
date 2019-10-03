@@ -10,5 +10,5 @@ All requests use <a target="_blank" href="https://support.google.com/analytics/a
 IP anonymization</a>, which happens before any storage or processing takes place. _Data Collection for Advertising Features_ and _Demographics and Interest Reports_ are disabled within Google Analytics.
 
 If you wish to opt out of tracking completely, we recommend using the
-<a href="https://tools.google.com/dlpage/gaoptout" target="_blank">Google Analyics Opt-out Browser
+<a href="https://tools.google.com/dlpage/gaoptout" target="_blank">Google Analytics Opt-out Browser
 Add-on</a>, which will block Google Analyics tracking on all websites.

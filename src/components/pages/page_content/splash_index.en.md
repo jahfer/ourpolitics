@@ -1,0 +1,1 @@
+[View the 2019 Policy Comparison <i class="fa fa-arrow-circle-right"></i>](/policies/2019#en)

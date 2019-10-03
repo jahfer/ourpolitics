@@ -2,13 +2,12 @@
   {
     "topic": "Government",
     "party": "NDP",
-    "year": 2019,
     "title": {
       "en": "Foo",
-      "fr": "?"
+      "fr": "Bar"
     },
     "summary": {
-      "en": "NDP policy 1",
+      "en": "NDP policy 2",
       "fr": "?"
     },
     "references": [],
@@ -21,86 +20,59 @@
   },
   {
     "topic": "Government",
-    "party": "NDP",
-    "title": {
-      "en": "Bar",
-      "fr": "Barey"
-    },
-    "summary": {
-      "en": "NDP policy 2",
-      "fr": "?"
-    },
-    "references": [],
-    "handle": "2019/ndp"
-  },
-  {
-    "topic": "Government",
     "party": "Conservative",
     "title": {
       "en": "Foo",
-      "fr": "?"
+      "fr": "Bar"
     },
     "summary": {
       "en": "Conservative policy 1",
       "fr": "?"
     },
     "references": [],
-    "handle": "2019/conservative"
+    "handle": "2019/conservative",
+    "rce": {
+      "reach": 1,
+      "confidence": 1,
+      "effort": 1
+    }
   },
   {
     "topic": "Government",
     "party": "Liberal",
     "title": {
       "en": "Foo",
-      "fr": "?"
+      "fr": "Bar"
     },
     "summary": {
       "en": "Liberal policy 1",
       "fr": "?"
     },
     "references": [],
-    "handle": "2019/liberal"
+    "handle": "2019/liberal",
+    "rce": {
+      "reach": 1,
+      "confidence": 1,
+      "effort": 1
+    }
   },
   {
-    "topic": "Foreign Policy",
-    "party": "NDP",
-    "title": {
-      "en": "Foo",
-      "fr": "?"
-    },
-    "summary": {
-      "en": "NDP policy 3",
-      "fr": "?"
-    },
-    "references": [],
-    "handle": "2019/ndp"
-  },
-  {
-    "topic": "Foreign Policy",
-    "party": "Liberal",
-    "title": {
-      "en": "Foo",
-      "fr": "?"
-    },
-    "summary": {
-      "en": "Liberal policy 2",
-      "fr": "?"
-    },
-    "references": [],
-    "handle": "2019/liberal"
-  },
-  {
-    "topic": "Foreign Policy",
+    "topic": "Government",
     "party": "Green",
     "title": {
       "en": "Foo",
-      "fr": "?"
+      "fr": "Bar"
     },
     "summary": {
       "en": "Green policy 1",
       "fr": "?"
     },
     "references": [],
-    "handle": "2019/green"
+    "handle": "2019/green",
+    "rce": {
+      "reach": 1,
+      "confidence": 1,
+      "effort": 1
+    }
   }
 ]

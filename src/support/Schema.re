@@ -23,7 +23,7 @@ type topic =
   | Youth;
 
 type reference = {
-  date: string,
+  date: option(string),
   publisher: string,
   title: string,
   url: string,
@@ -117,7 +117,7 @@ module Decode = {
     I18n.{en: json |> field("en", string), fr: json |> field("fr", string)};
 
   let reference = json => {
-    date: json |> field("date", string),
+    date: json |> optional(field("date", string)),
     publisher: json |> field("publisher", string),
     title: json |> field("title", string),
     url: json |> field("url", string),

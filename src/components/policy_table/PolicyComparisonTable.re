@@ -6,6 +6,22 @@ module PartySet =
     let compare = compare;
   });
 
+let party_list_of_policies = policies =>
+  policies
+  |> List.fold_left(
+       (set, policy: Schema.policy) => PartySet.add(policy.party, set),
+       PartySet.empty,
+     )
+  |> PartySet.elements;
+
+let policy_index_of_policies = policies =>
+  policies
+  |> List.fold_left(
+       (acc, policy: Schema.policy) =>
+         acc |> StringMap.add(policy.handle, policy),
+       StringMap.empty,
+     );
+
 [@react.component]
 let make = (~policy_handle=?, ~year=2019) => {
   let (isLoading, setIsLoading) = React.useState(() => true);
@@ -26,40 +42,10 @@ let make = (~policy_handle=?, ~year=2019) => {
                  json |> Json.Decode.list(Schema.Decode.policy);
 
                setTableDataset(_ =>
-                 parsed_data
-                 |> List.fold_left(
-                      (acc, policy: Schema.policy) => {
-                        let lst =
-                          PolicyTable.Dataset.mem(policy.topic, acc)
-                            ? PolicyTable.Dataset.find(policy.topic, acc) : [];
-                        acc
-                        |> PolicyTable.Dataset.add(
-                             policy.topic,
-                             [policy, ...lst],
-                           );
-                      },
-                      PolicyTable.Dataset.empty,
-                    )
+                 PolicyTable.dataset_of_policies(parsed_data)
                );
-
-               setParties(_ =>
-                 parsed_data
-                 |> List.fold_left(
-                      (set, policy: Schema.policy) =>
-                        PartySet.add(policy.party, set),
-                      PartySet.empty,
-                    )
-                 |> PartySet.elements
-               );
-
-               setPolicyIndex(_ =>
-                 parsed_data
-                 |> List.fold_left(
-                      (acc, policy: Schema.policy) =>
-                        acc |> StringMap.add(policy.handle, policy),
-                      StringMap.empty,
-                    )
-               );
+               setParties(_ => party_list_of_policies(parsed_data));
+               setPolicyIndex(_ => policy_index_of_policies(parsed_data));
                setIsLoading(_ => false) |> resolve;
              })
         );

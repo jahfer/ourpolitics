@@ -26,7 +26,7 @@ let make = (~party: Schema.party, ~policies=?) => {
     };
 
   <div className="policyCell">
-    <h4 className="policyCell--party textColor--NDP">
+    <h4 className={"policyCell--party textColor--" ++ T.Party.to_str(party)}>
       {T.Party.react_string(party)}
     </h4>
     <ul className="policyCell--points"> listItems->React.array </ul>

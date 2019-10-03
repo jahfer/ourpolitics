@@ -10,6 +10,17 @@ module Dataset =
     let compare = compare;
   });
 
+let dataset_of_policies = policy_list => {
+  let append_policy_to_dataset = (dataset, policy: Schema.policy) => {
+    let lst =
+      Dataset.mem(policy.topic, dataset)
+        ? Dataset.find(policy.topic, dataset) : [];
+    dataset |> Dataset.add(policy.topic, [policy, ...lst]);
+  };
+
+  List.fold_left(append_policy_to_dataset, Dataset.empty, policy_list);
+};
+
 [@react.component]
 let make =
     (
@@ -24,32 +35,14 @@ let make =
       let rows =
         dataset
         |> Dataset.bindings
-        |> List.map(((topic, policies)) => {
-             let initDataset =
-               parties
-               |> List.fold_left(
-                    (acc, party) => PolicyRow.Dataset.add(party, [], acc),
-                    PolicyRow.Dataset.empty,
-                  );
-
-             let row_dataset =
-               policies
-               |> Utils.partition_predicate(~f=(p: Schema.policy) => p.party)
-               |> List.fold_left(
-                    (acc, policies: list(Schema.policy)) => {
-                      let party = List.hd(policies).party;
-                      PolicyRow.Dataset.add(party, policies, acc);
-                    },
-                    initDataset,
-                  );
-
+        |> List.map(((topic, policies)) =>
              <PolicyRow
                topic
                parties
-               policies=row_dataset
+               policies={PolicyRow.dataset_of_policies(parties, policies)}
                key={Strings.Topic.to_str(topic, ~language=I18n.EN)}
-             />;
-           })
+             />
+           )
         |> Array.of_list;
       setPolicyRows(_ => rows);
     },
@@ -102,6 +95,12 @@ let make =
     <div className="policyRow tableHeader">
       <div className="policyCells"> table_header </div>
     </div>
-    <div> policyRows->React.array </div>
+    <div>
+      {if (isLoading) {
+         React.null;
+       } else {
+         policyRows->React.array;
+       }}
+    </div>
   </div>;
 };

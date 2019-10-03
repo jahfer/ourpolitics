@@ -77,13 +77,40 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
     (policy, language),
   );
 
-  let close_modal = _e => {
-    let _ = [%raw {|window.history.back()|}];
+  let back = () => [%raw {|window.history.back()|}];
+
+  let close_modal = event => {
+    ReactEvent.Synthetic.preventDefault(event);
+    let _ = back();
     ();
   };
 
-  <Modal
-    isOpen style className="policyModal--content" onRequestClose=close_modal>
+  /*let rce_text =
+    Belt.Option.mapWithDefault(
+      policy.rce, React.null, ({reach, confidence, effort}) =>
+      <ul className="list-plain">
+        <li>
+          {{T.Text.to_str(Content.Strings.reach)
+            ++ ": "
+            ++ reach->string_of_int}
+           ->React.string}
+        </li>
+        <li>
+          {{T.Text.to_str(Content.Strings.confidence)
+            ++ ": "
+            ++ confidence->string_of_int}
+           ->React.string}
+        </li>
+        <li>
+          {{T.Text.to_str(Content.Strings.effort)
+            ++ ": "
+            ++ effort->string_of_int}
+           ->React.string}
+        </li>
+      </ul>
+    );*/
+
+  <Modal isOpen style className="policyModal--content" onRequestClose=back>
     <div className="policyModal">
       <div className="modal--content">
         <div className="modal--headingContainer">
@@ -101,7 +128,7 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
           dangerouslySetInnerHTML={content->Utils.dangerousHtml}
         />
       </div>
-      <div className="modal--sidebar">
+      <aside className="modal--sidebar">
         <a href="#" className="modal--close" onClick=close_modal />
         <h2 className="modal--heading modal--heading__secondary">
           "References"->React.string
@@ -110,7 +137,7 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
           {{policy.references |> Array.map(ref => <Reference source=ref />)}
            ->React.array}
         </ul>
-      </div>
+      </aside>
     </div>
   </Modal>;
 };
