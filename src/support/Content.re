@@ -33,6 +33,9 @@ module Strings = {
   let youth = {en: "Youth", fr: {js|?|js}};
   let senate = {en: "Senate", fr: {js|?|js}};
   let electoral_reform = {en: "Electoral Reform", fr: {js|?|js}};
+  let public_safety = {en: "Public Safety", fr: {js|?|js}};
+  let education = {en: "Education", fr: {js|?|js}};
+  let housing = {en: "Housing", fr: {js|?|js}};
 
   let policy_comparison_title = (~year) => {
     en: {j|$year Policies|j},
@@ -48,16 +51,12 @@ module Strings = {
  */
 
 /* 2019 */
-[@bs.module] external green_en: string = "../policies/2019/green.en.md";
-[@bs.module] external green_fr: string = "../policies/2019/green.fr.md";
-[@bs.module] external liberal_en: string = "../policies/2019/liberal.en.md";
-[@bs.module] external liberal_fr: string = "../policies/2019/liberal.fr.md";
-[@bs.module] external ndp_en: string = "../policies/2019/ndp.en.md";
-[@bs.module] external ndp_fr: string = "../policies/2019/ndp.fr.md";
 [@bs.module]
-external conservative_en: string = "../policies/2019/conservative.en.md";
+external child_fitness_tax_credit_en: string =
+  "../policies/2019/cpc/child_fitness_tax_credit.en.md";
 [@bs.module]
-external conservative_fr: string = "../policies/2019/conservative.fr.md";
+external child_fitness_tax_credit_fr: string =
+  "../policies/2019/cpc/child_fitness_tax_credit.fr.md";
 
 /* 2015 */
 [@bs.module]
@@ -363,10 +362,10 @@ external ndp_transit_fr: string = "../policies/2015/ndp_transit.fr.md";
 
 let pathToContent =
   fun
-  | "2019/green" => {en: green_en, fr: green_fr}
-  | "2019/ndp" => {en: ndp_en, fr: ndp_fr}
-  | "2019/liberal" => {en: liberal_en, fr: liberal_fr}
-  | "2019/conservative" => {en: conservative_en, fr: conservative_fr}
+  | "2019/cpc/child_fitness_tax_credit" => {
+      en: child_fitness_tax_credit_en,
+      fr: child_fitness_tax_credit_fr,
+    }
   | "2015/cpc_aboriginal_funding" => {
       en: cpc_aboriginal_funding_en,
       fr: cpc_aboriginal_funding_fr,

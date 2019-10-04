@@ -6,7 +6,7 @@ module PartySet =
     let compare = compare;
   });
 
-let party_list_of_policies = policies =>
+let parties_of_policies = policies =>
   policies
   |> List.fold_left(
        (set, policy: Schema.policy) => PartySet.add(policy.party, set),
@@ -44,7 +44,7 @@ let make = (~policy_handle=?, ~year=2019) => {
                setTableDataset(_ =>
                  PolicyTable.dataset_of_policies(parsed_data)
                );
-               setParties(_ => party_list_of_policies(parsed_data));
+               setParties(_ => parties_of_policies(parsed_data));
                setPolicyIndex(_ => policy_index_of_policies(parsed_data));
                setIsLoading(_ => false) |> resolve;
              })
@@ -95,7 +95,18 @@ let make = (~policy_handle=?, ~year=2019) => {
      | Some(policy) => <PolicyModal policy isOpen={modalState.visible} />
      | None => React.null
      }}
-    <PolicyTable isLoading parties dataset=tableDataset />
+    <PolicyTable
+      isLoading
+      parties
+      // topics=Schema.(
+      //   List.fold_right(
+      //     TopicSet.add,
+      //     [PublicSafety, Healthcare],
+      //     TopicSet.empty,
+      //   )
+      // )
+      dataset=tableDataset
+    />
     <footer> <p className="footerInfo" /> </footer>
   </PolicyModalDispatch>;
 };

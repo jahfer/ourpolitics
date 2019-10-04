@@ -11,7 +11,8 @@ let make = (~policy: Schema.policy) => {
   let policy_click = () => {
     ModalOpen(policy.handle)->dispatch;
     let url_path = "/policies/" ++ policy.handle;
-    let _ = url_path->Utils.Router.push_route(~language);
+    let _ =
+      url_path |> Utils.Router.push_route(~language, ~scrollToTop=false);
     ();
   };
 

@@ -21,13 +21,14 @@ let make = () => {
 
   let page_content =
     switch (url.path) {
-    | ["policies", year, policy] =>
+    | ["policies", year] =>
+      <PolicyComparisonIndex year={int_of_string(year)} />
+    | ["policies", year, ...policyPath] =>
+      let policy = String.concat("/", policyPath);
       <PolicyComparisonIndex
         year={int_of_string(year)}
         policy_handle={j|$year/$policy|j}
-      />
-    | ["policies", year] =>
-      <PolicyComparisonIndex year={int_of_string(year)} />
+      />;
     | ["policies"] => <Redirect path="/policies/2015" />
     | ["about"] => <AboutIndex />
     | ["privacy"] => <PrivacyIndex />

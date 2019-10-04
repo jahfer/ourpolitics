@@ -33,15 +33,14 @@ let make = (~setLanguage) => {
   let lang_string = T.Language.react_string(language);
 
   <header className="container section header">
-    // <LanguageSelector setLanguage />
-
-      <a
-        href="#"
-        className="no-hover"
-        onClick={"/"->Utils.Router.push(~language)}>
-        <h1 className={j|pageTitle lang-$lang_string|j}>
-          "Our Politics"->React.string
-        </h1>
-      </a>
-    </header>;
+    <LanguageSelector setLanguage />
+    <a
+      href="#"
+      className="no-hover"
+      onClick={"/"->Utils.Router.push(~language)}>
+      <h1 className={j|pageTitle lang-$lang_string|j}>
+        "Our Politics"->React.string
+      </h1>
+    </a>
+  </header>;
 };

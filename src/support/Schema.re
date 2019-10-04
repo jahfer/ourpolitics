@@ -20,7 +20,10 @@ type topic =
   | SocialAssistance
   | Senate
   | ElectoralReform
-  | Youth;
+  | PublicSafety
+  | Youth
+  | Education
+  | Housing;
 
 type reference = {
   date: option(string),
@@ -66,6 +69,9 @@ module TopicMap =
       | (SocialAssistance, _)
       | (Youth, _)
       | (ElectoralReform, _)
+      | (PublicSafety, _)
+      | (Education, _)
+      | (Housing, _)
       | (Science, _) => (-1)
       };
     };
@@ -76,6 +82,43 @@ module PartySet =
     type t = party;
     let compare = compare;
   });
+
+module TopicSet =
+  Set.Make({
+    type t = topic;
+    let compare = compare;
+  });
+
+module Encode = {
+  let party =
+    fun
+    | Liberal => Content.Strings.liberals
+    | Conservative => Content.Strings.conservatives
+    | NDP => Content.Strings.ndp
+    | Green => Content.Strings.greens;
+
+  let topic =
+    fun
+    | ForeignPolicy => Content.Strings.foreign_policy
+    | Taxes => Content.Strings.taxes
+    | InternationalTrade => Content.Strings.international_trade
+    | Environment => Content.Strings.environment
+    | Government => Content.Strings.government
+    | IndigenousRelations => Content.Strings.indigenous_relations
+    | Healthcare => Content.Strings.healthcare
+    | Infrastructure => Content.Strings.infrastructure
+    | Science => Content.Strings.science
+    | ChildCare => Content.Strings.child_care
+    | C51 => Content.Strings.bill_c51
+    | Cannabis => Content.Strings.cannabis
+    | SocialAssistance => Content.Strings.social_assistance
+    | Youth => Content.Strings.youth
+    | Senate => Content.Strings.senate
+    | ElectoralReform => Content.Strings.electoral_reform
+    | PublicSafety => Content.Strings.public_safety
+    | Education => Content.Strings.education
+    | Housing => Content.Strings.housing;
+};
 
 module Decode = {
   open Json.Decode;
@@ -109,6 +152,9 @@ module Decode = {
     | "Cannabis" => Cannabis
     | "Social Assistance" => SocialAssistance
     | "Youth" => Youth
+    | "Public Safety" => PublicSafety
+    | "Education" => Education
+    | "Housing" => Housing
     | _ as unknown_topic => raise(Invalid_argument(unknown_topic));
 
   let topic = json => string(json) |> str_to_topic;

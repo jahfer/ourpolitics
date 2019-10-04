@@ -2,8 +2,14 @@ a {
   text-decoration: none;
   padding: 0.125em 0.2em;
 
+  &:hover {
+    border-bottom: 1px solid #d2d2c9;
+    border-radius: 3px;
+  }
+
   &.styled:hover, .text-block &:hover {
-    border-bottom: 2px solid rgb(0, 102, 204);
+    border-width: 2px;
+    border-color: rgb(0, 102, 204);
     background: #fff;
   }
 }

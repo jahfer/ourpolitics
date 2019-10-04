@@ -1,9 +1,3 @@
-module TopicSet =
-  Set.Make({
-    type t = Schema.topic;
-    let compare = compare;
-  });
-
 module Dataset =
   Map.Make({
     type t = Schema.topic;
@@ -27,18 +21,38 @@ let make =
       ~isLoading: bool,
       ~parties: list(Schema.party),
       ~dataset: Dataset.t(list(Schema.policy)),
+      ~topics=?,
     ) => {
   let (policyRows, setPolicyRows) = React.useState(() => [||]);
 
+  let sortedPartyList =
+    React.useMemo1(
+      () => {
+        let numParties = List.length(parties);
+        let partyRandom = numParties mod 2 == 0 ? numParties + 1 : numParties;
+        parties
+        |> List.sort((_, _) => partyRandom / 2 - Random.int(partyRandom));
+      },
+      [|parties|],
+    );
+
   React.useMemo2(
     () => {
+      let filteredDataset =
+        switch (topics) {
+        | None => dataset
+        | Some(topics) =>
+          dataset
+          |> Dataset.filter((key, _) => Schema.TopicSet.mem(key, topics))
+        };
+
       let rows =
-        dataset
+        filteredDataset
         |> Dataset.bindings
         |> List.map(((topic, policies)) =>
              <PolicyRow
                topic
-               parties
+               parties=sortedPartyList
                policies={PolicyRow.dataset_of_policies(parties, policies)}
                key={Strings.Topic.to_str(topic, ~language=I18n.EN)}
              />
@@ -46,7 +60,7 @@ let make =
         |> Array.of_list;
       setPolicyRows(_ => rows);
     },
-    (dataset, parties),
+    (dataset, sortedPartyList),
   );
 
   let language = React.useContext(LanguageContext.ctx);
@@ -70,7 +84,7 @@ let make =
             <div className="policyCell partyTitle backgroundColor--Empty">
               {T.Text.react_string(Content.Strings.title)}
             </div>
-            {parties
+            {sortedPartyList
              |> List.map(party =>
                   <div
                     key={
@@ -88,7 +102,7 @@ let make =
              |> React.array}
           </>;
         },
-      (isLoading, language, parties),
+      (isLoading, language, sortedPartyList),
     );
 
   <div className="policyTable">

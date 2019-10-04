@@ -22,7 +22,7 @@ a, a:visited {
 }
 
 .container {
-  max-width: 1060px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -170,10 +170,6 @@ a, a:visited {
   cursor: pointer;
   padding: 0;
   border: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 .customBullet {

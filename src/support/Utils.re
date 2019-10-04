@@ -28,12 +28,14 @@ module Router = {
     restoreScrollPosition();
   };
 
-  let push_route = (~language, path) => {
+  let push_route = (~scrollToTop=true, ~language, path) => {
     ReasonReactRouter.push(
       path ++ "#" ++ Strings.Language.to_str(~language, language),
     );
     let _ = Analytics.pageLoad(~path);
-    restoreScrollPosition();
+    if (scrollToTop) {
+      restoreScrollPosition();
+    };
   };
 
   let push = (~language, path, event) => {

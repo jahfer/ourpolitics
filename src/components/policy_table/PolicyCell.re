@@ -1,5 +1,5 @@
 [@react.component]
-let make = (~party: Schema.party, ~policies=?) => {
+let make = (~party: Schema.party, ~policies) => {
   let language = React.useContext(LanguageContext.ctx);
 
   module T =
@@ -9,8 +9,13 @@ let make = (~party: Schema.party, ~policies=?) => {
 
   let listItems =
     switch (policies) {
-    | Some(list) =>
-      list
+    | [] => [|
+        <li className="emptyPolicy" key="0">
+          {T.Text.react_string(Content.Strings.no_policy_listed)}
+        </li>,
+      |]
+    | _ =>
+      policies
       |> List.map(policy =>
            <PolicyPoint
              policy
@@ -18,11 +23,6 @@ let make = (~party: Schema.party, ~policies=?) => {
            />
          )
       |> Array.of_list
-    | None => [|
-        <li className="emptyPolicy" key="0">
-          {T.Text.react_string(Content.Strings.no_policy_listed)}
-        </li>,
-      |]
     };
 
   <div className="policyCell">

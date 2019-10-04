@@ -1,78 +1,252 @@
 [
   {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Coverage for dental, eye, and home care",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/ndp/healthcare"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Universal pharmacare via provincial support",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/ndp/pharmacare"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Begin process of implementing universal pharmacare",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/pharmacare"
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Plant 2 billion trees in X years",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/tree_planting"
+  },
+  {
+    "topic": "Public Safety",
+    "party": "Liberal",
+    "title": {
+      "en": "Ban on handguns",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/handguns"
+  },
+  {
+    "topic": "Youth",
+    "party": "Conservative",
+    "title": {
+      "en": "Children’s Fitness Tax Credit",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/cpc/child_fitness_tax_credit"
+  },
+  {
+    "topic": "Education",
+    "party": "Conservative",
+    "title": {
+      "en": "Children’s Arts and Learning Tax Credit",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/cpc/arts_and_learning_tax_credit"
+  },
+  {
+    "topic": "Education",
+    "party": "Green",
+    "title": {
+      "en": "Free post-secondary education",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/gpc/post_secondary_education"
+  },
+  {
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Foo",
-      "fr": "Bar"
-    },
-    "summary": {
-      "en": "NDP policy 2",
-      "fr": "?"
+      "en": "Mixed-member proportional elections without a referendum",
+      "fr": ""
     },
     "references": [],
-    "handle": "2019/ndp",
-    "rce": {
-      "reach": 1,
-      "confidence": 1,
-      "effort": 1
-    }
+    "handle": "2019/ndp/electoral_reform"
   },
   {
-    "topic": "Government",
-    "party": "Conservative",
-    "title": {
-      "en": "Foo",
-      "fr": "Bar"
-    },
-    "summary": {
-      "en": "Conservative policy 1",
-      "fr": "?"
-    },
-    "references": [],
-    "handle": "2019/conservative",
-    "rce": {
-      "reach": 1,
-      "confidence": 1,
-      "effort": 1
-    }
-  },
-  {
-    "topic": "Government",
+    "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Foo",
-      "fr": "Bar"
-    },
-    "summary": {
-      "en": "Liberal policy 1",
-      "fr": "?"
+      "en": "Support safe injection sites",
+      "fr": ""
     },
     "references": [],
-    "handle": "2019/liberal",
-    "rce": {
-      "reach": 1,
-      "confidence": 1,
-      "effort": 1
-    }
+    "handle": "2019/lpc/safe_injection_sites"
   },
   {
-    "topic": "Government",
-    "party": "Green",
+    "topic": "Healthcare",
+    "party": "Conservative",
     "title": {
-      "en": "Foo",
-      "fr": "Bar"
-    },
-    "summary": {
-      "en": "Green policy 1",
-      "fr": "?"
+      "en": "Oppose safe injection sites",
+      "fr": ""
     },
     "references": [],
-    "handle": "2019/green",
-    "rce": {
-      "reach": 1,
-      "confidence": 1,
-      "effort": 1
-    }
+    "handle": "2019/cpc/safe_injection_sites"
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Net-zero emissions by 2050",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/emissions"
+  },
+  {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "20% refundable tax credit for green renovations",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/cpc/green_housing_credit"
+  },
+  {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "Eliminate GST for home heating",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/cpc/home_heating_gst"
+  },
+  {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "Allow 30-year mortgages for first-time home buyers",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/cpc/30_year_mortgage"
+  },
+  {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "Remove \"stress test\" for mortgage renewals",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/cpc/stress_test"
+  },
+  {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "Investigate money laundering through real estate",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/cpc/real_estate_money_laundering"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Retrofit 1.5 million homes over 5 years",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/home_retrofit"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Free energy audits for homeowners and landlords",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/energy_audits"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Up to $40k interest-free loans for green renovations",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/energy_audits"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Up to $5k grant for new homes that are certified zero-emissions",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/zero_emissions_grant"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Invest $100 million to train workers in energy audits, retrofits, and net-zero home construction",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/train_green_workers"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "National flood insurance program",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/flood_insurance"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Expand first-time home buyer incentive in Toronto, Vancouver and Victoria",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/expand_first_time_home_buyer"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "1% vacancy and speculation tax for non-resident, non-Canadians",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/vacancy_speculation_tax"
   }
 ]

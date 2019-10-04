@@ -118,6 +118,10 @@ $color-cream: #f9f9f1;
 .modal--close {
   padding: 0;
   border: none;
+
+  &:hover {
+    border: none;
+  }
 }
 
 .reference {
