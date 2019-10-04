@@ -19,7 +19,7 @@ let make = () => {
   <>
     <section className="section">
       <article
-        className="text-block text-large pb-3"
+        className="text-block block-center text-center text-large pb-3"
         dangerouslySetInnerHTML={
           T.Text.to_str(page_content)->Utils.dangerousHtml
         }
