@@ -102,7 +102,7 @@ let make =
     );
 
   <div className="policyTable">
-    <div id="tableHeader" className="policyRow container">
+    <div id="tableHeader" className="policyRow container tableHeader">
       <div className="policyCells"> table_header </div>
     </div>
     <div id="tableFiller" className="policyRow container filler hidden" />

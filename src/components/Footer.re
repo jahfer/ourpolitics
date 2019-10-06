@@ -14,25 +14,27 @@ let make = () => {
       <ul className="list-plain text-large">
         <li>
           <a
-            href="#" onClick={"/policies/2019"->Utils.Router.push(~language)}>
+            href="/policies/2019"
+            onClick={"/policies/2019"->Utils.Router.push(~language)}>
             {Content.Strings.policy_comparison_title(~year=2019)
              ->T.Text.react_string}
           </a>
         </li>
         <li>
           <a
-            href="#" onClick={"/policies/2015"->Utils.Router.push(~language)}>
+            href="/policies/2015"
+            onClick={"/policies/2015"->Utils.Router.push(~language)}>
             {Content.Strings.policy_comparison_title(~year=2015)
              ->T.Text.react_string}
           </a>
         </li>
       </ul>
       <p>
-        <a href="#" onClick={"/about"->Utils.Router.push(~language)}>
+        <a href="/about" onClick={"/about"->Utils.Router.push(~language)}>
           Content.Strings.about->T.Text.react_string
         </a>
         {j|·|j}->React.string
-        <a href="#" onClick={"/privacy"->Utils.Router.push(~language)}>
+        <a href="/privacy" onClick={"/privacy"->Utils.Router.push(~language)}>
           Content.Strings.privacy_policy->T.Text.react_string
         </a>
       </p>

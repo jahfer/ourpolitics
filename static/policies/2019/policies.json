@@ -3,10 +3,17 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Coverage for dental, eye, and home care",
+      "en": "Provide dental care, eye care, hearing care, mental health care, seniors care in the Canada Health Act with support from provinces",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-06-16",
+        "title": "Singh's New Deal for People: Expanding Health Care to Cover You from Head to Toe",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/news/singhs-new-deal-people-expanding-health-care-cover-you-head-toe"
+      }
+    ],
     "handle": "2019/ndp/healthcare"
   },
   {

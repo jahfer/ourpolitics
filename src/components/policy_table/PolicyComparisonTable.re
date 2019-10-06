@@ -22,6 +22,8 @@ let policy_index_of_policies = policies =>
        StringMap.empty,
      );
 
+let elTop = ref(0);
+
 [@react.component]
 let make = (~policy_handle=?, ~year=2019) => {
   let (isLoading, setIsLoading) = React.useState(() => true);
@@ -40,13 +42,17 @@ let make = (~policy_handle=?, ~year=2019) => {
       {|document.body.getBoundingClientRect().top|}
     ];
 
-    let elTop = initialHeaderTop - initialBodyTop;
+    if (elTop^ == 0) {
+      elTop := initialHeaderTop - initialBodyTop;
+    };
+
+    Js.log(elTop^);
 
     Utils.window
     |> Utils.addScrollEventListener(_ =>
          Utils.requestAnimationFrame(() => {
            let scrollTop: int = [%raw {|document.documentElement.scrollTop|}];
-           if (scrollTop > elTop) {
+           if (scrollTop > elTop^) {
              %raw
              {|document.getElementById("tableHeader").classList.add("fixed")|};
              %raw

@@ -1,6 +1,8 @@
 /* styling */
 $color-cream: #f9f9f1;
 
+$gutter-width: 20px;
+
 * {
   box-sizing: border-box;
 }
@@ -24,8 +26,8 @@ a, a:visited {
 .container {
   max-width: 1300px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: $gutter-width;
+  padding-right: $gutter-width;
 }
 
 .page {
@@ -147,7 +149,7 @@ a, a:visited {
   padding: 10px 0;
   flex-shrink: 0;
 
-  #tableHeader, &.filler {
+  &.tableHeader, &.filler {
     padding: 0;
     border-bottom: none;
     margin-bottom: 10px;
@@ -156,9 +158,9 @@ a, a:visited {
 
   &.fixed {
     position: fixed;
-    max-width: 1260px;
     top: 0;
     padding: 0;
+    padding-right: $gutter-width * 2;
   }
 }
 
