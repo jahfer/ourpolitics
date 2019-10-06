@@ -10,6 +10,116 @@
     "handle": "2019/ndp/healthcare"
   },
   {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "End homelessness by 2030",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Tackling poverty",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/better-care"
+      }
+    ],
+    "handle": "2019/ndp/homelessness"
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Work with provinces to launch basic-income pilot project",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Tackling poverty",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/better-care"
+      }
+    ],
+    "handle": "2019/ndp/basic_income_pilot"
+  },
+  {
+    "topic": "Affordability",
+    "party": "Liberal",
+    "title": {
+      "en": "Reduce cell phone bills by 25%",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-22",
+        "title": "Trudeau promises to raise basic personal deduction to $15K, cut cellphone bills",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/trudeau-promises-to-cut-cellphone-bills-by-25-per-cent-if-re-elected-1.5293256"
+      }
+    ],
+    "handle": "2019/lpc/cell_phone_bills"
+  },
+  {
+    "topic": "Affordability",
+    "party": "Liberal",
+    "title": {
+      "en": "Raise basic personal income tax deduction to $15,000",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-22",
+        "title": "Trudeau promises to raise basic personal deduction to $15K, cut cellphone bills",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/trudeau-promises-to-cut-cellphone-bills-by-25-per-cent-if-re-elected-1.5293256"
+      }
+    ],
+    "handle": "2019/lpc/personal_income_tax_deduction"
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Cap prices of cellphone and internet services",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-22",
+        "title": "Trudeau promises to raise basic personal deduction to $15K, cut cellphone bills",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/trudeau-promises-to-cut-cellphone-bills-by-25-per-cent-if-re-elected-1.5293256"
+      },
+      {
+        "date": "2019-09-13",
+        "title": "Singh pledges to cap cell phone and internet costs",
+        "publisher": "ipolitics.ca",
+        "url": "https://ipolitics.ca/2019/09/13/singh-pledges-to-cap-cell-phone-and-internet-costs/"
+      }
+    ],
+    "handle": "2019/ndp/telecom_pricing"
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Decriminalize personal drug possession and use",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Confronting the opioid public health emergency",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/better-care"
+      },
+      {
+        "title": "Federal NDP, Liberals considering decriminalization of all drugs",
+        "publisher": "theglobeandmail.com",
+        "url": "https://www.theglobeandmail.com/news/politics/federal-ndp-liberals-considering-decriminalization-of-all-drugs/article38123859/"
+      }
+    ],
+    "handle": "2019/ndp/decriminalize_drug_use"
+  },
+  {
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
@@ -33,27 +143,41 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Plant 2 billion trees in X years",
+      "en": "Plant +2 billion trees over the next 10 years",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-27",
+        "title": "Trudeau vows to use Trans Mountain pipeline revenues to plant 2 billion trees",
+        "publisher": "globalnews.ca",
+        "url": "https://globalnews.ca/news/5960379/trudeau-plant-trees-climate-change/"
+      }
+    ],
     "handle": "2019/lpc/tree_planting"
   },
   {
     "topic": "Public Safety",
     "party": "Liberal",
     "title": {
-      "en": "Ban on handguns",
+      "en": "Empower municipalities to restrict or ban handguns",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-10-02",
+        "title": "Trudeau's municipal handgun ban promise leaves key questions unanswered",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/liberals-trudeau-handgun-ban-questions-1.5304684"
+      }
+    ],
     "handle": "2019/lpc/handguns"
   },
   {
     "topic": "Youth",
     "party": "Conservative",
     "title": {
-      "en": "Children’s Fitness Tax Credit",
+      "en": "Tax refund on fitness- or sports-related activities",
       "fr": ""
     },
     "references": [],
@@ -70,20 +194,10 @@
     "handle": "2019/cpc/arts_and_learning_tax_credit"
   },
   {
-    "topic": "Education",
-    "party": "Green",
-    "title": {
-      "en": "Free post-secondary education",
-      "fr": ""
-    },
-    "references": [],
-    "handle": "2019/gpc/post_secondary_education"
-  },
-  {
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Mixed-member proportional elections without a referendum",
+      "en": "Implement mixed-member proportional elections without a referendum",
       "fr": ""
     },
     "references": [],
@@ -96,7 +210,30 @@
       "en": "Support safe injection sites",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-24",
+        "title": "Andrew Scheer slams 'terrible' Liberal approach to safe injection sites",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/scheer-injection-sites-terrible-1.5294321?cmp=rss"
+      }
+    ],
+    "handle": "2019/lpc/safe_injection_sites"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Support safe injection sites",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Confronting the opioid public health emergency",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/better-care"
+      }
+    ],
     "handle": "2019/lpc/safe_injection_sites"
   },
   {
@@ -106,8 +243,32 @@
       "en": "Oppose safe injection sites",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-24",
+        "title": "Andrew Scheer slams 'terrible' Liberal approach to safe injection sites",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/scheer-injection-sites-terrible-1.5294321?cmp=rss"
+      }
+    ],
     "handle": "2019/cpc/safe_injection_sites"
+  },
+  {
+    "topic": "Affordability",
+    "party": "Conservative",
+    "title": {
+      "en": "Cut tax rate on lowest income bracket from 15% to 13.75%",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-16",
+        "title": "How the Tories’ ‘universal tax cut’ compares to the Liberals’ ‘middle-class tax cut’",
+        "publisher": "globalnews.ca",
+        "url": "https://globalnews.ca/news/5908060/conservative-tax-cut-liberal-tax-cut-comparison/"
+      }
+    ],
+    "handle": "2019/cpc/universal_tax_cut"
   },
   {
     "topic": "Environment",
@@ -117,16 +278,90 @@
       "fr": ""
     },
     "references": [],
+    "handle": "2019/lpc/emissions_2050"
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Reduce emissions by >30% below 2005 levels by 2030",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/emissions_2030"
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Reduce emissions by 30% below 2005 levels by 2030",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Conservatives highlight home-renovation credit as part of climate plan",
+        "publisher": "nationalpost.com",
+        "url": "https://nationalpost.com/pmn/news-pmn/canada-news-pmn/conservatives-highlight-home-renovation-credit-as-part-of-climate-plan"
+      },
+      {
+        "date": "2019-10-01",
+        "title": "Modelling of the different party promises on climate change shows none of the plans would hit targets to avoid a 1.5°C increase in global warming.",
+        "publisher": "policyoptions.irpp.org",
+        "url": "https://policyoptions.irpp.org/magazines/october-2019/no-partys-climate-plan-will-avoid-dangerous-global-warming-levels/"
+      }
+    ],
     "handle": "2019/lpc/emissions"
   },
   {
-    "topic": "Housing",
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Reduce emissions by 38% below 2005 levels by 2030",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-10-01",
+        "title": "Modelling of the different party promises on climate change shows none of the plans would hit targets to avoid a 1.5°C increase in global warming.",
+        "publisher": "policyoptions.irpp.org",
+        "url": "https://policyoptions.irpp.org/magazines/october-2019/no-partys-climate-plan-will-avoid-dangerous-global-warming-levels/"
+      }
+    ],
+    "handle": "2019/ndp/emissions"
+  },
+  {
+    "topic": "Environment",
+    "party": "Green",
+    "title": {
+      "en": "Reduce emissions by 60% below 2005 levels by 2030",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-10-01",
+        "title": "Modelling of the different party promises on climate change shows none of the plans would hit targets to avoid a 1.5°C increase in global warming.",
+        "publisher": "policyoptions.irpp.org",
+        "url": "https://policyoptions.irpp.org/magazines/october-2019/no-partys-climate-plan-will-avoid-dangerous-global-warming-levels/"
+      }
+    ],
+    "handle": "2019/green/emissions"
+  },
+  {
+    "topic": "Environment",
     "party": "Conservative",
     "title": {
       "en": "20% refundable tax credit for green renovations",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      }
+    ],
     "handle": "2019/cpc/green_housing_credit"
   },
   {
@@ -136,7 +371,14 @@
       "en": "Eliminate GST for home heating",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      }
+    ],
     "handle": "2019/cpc/home_heating_gst"
   },
   {
@@ -146,28 +388,61 @@
       "en": "Allow 30-year mortgages for first-time home buyers",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      },
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
     "handle": "2019/cpc/30_year_mortgage"
   },
   {
     "topic": "Housing",
-    "party": "Conservative",
+    "party": "NDP",
     "title": {
-      "en": "Remove \"stress test\" for mortgage renewals",
+      "en": "Allow 30-year mortgages for first-time home buyers",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/cpc/stress_test"
+    "references": [
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
+    "handle": "2019/ndp/30_year_mortgage"
   },
   {
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "Investigate money laundering through real estate",
+      "en": "Remove “stress test” for mortgage renewals",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/cpc/real_estate_money_laundering"
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      },
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
+    "handle": "2019/cpc/stress_test"
   },
   {
     "topic": "Housing",
@@ -176,27 +451,48 @@
       "en": "Retrofit 1.5 million homes over 5 years",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      }
+    ],
     "handle": "2019/lpc/home_retrofit"
   },
   {
-    "topic": "Housing",
+    "topic": "Environment",
     "party": "Liberal",
     "title": {
       "en": "Free energy audits for homeowners and landlords",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      }
+    ],
     "handle": "2019/lpc/energy_audits"
   },
   {
-    "topic": "Housing",
+    "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Up to $40k interest-free loans for green renovations",
+      "en": "Interest-free loans up to $40k for green renovations",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      }
+    ],
     "handle": "2019/lpc/energy_audits"
   },
   {
@@ -206,27 +502,48 @@
       "en": "Up to $5k grant for new homes that are certified zero-emissions",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      }
+    ],
     "handle": "2019/lpc/zero_emissions_grant"
   },
   {
-    "topic": "Housing",
+    "topic": "Environment",
     "party": "Liberal",
     "title": {
       "en": "Invest $100 million to train workers in energy audits, retrofits, and net-zero home construction",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      }
+    ],
     "handle": "2019/lpc/train_green_workers"
   },
   {
-    "topic": "Housing",
+    "topic": "Public Safety",
     "party": "Liberal",
     "title": {
       "en": "National flood insurance program",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      }
+    ],
     "handle": "2019/lpc/flood_insurance"
   },
   {
@@ -236,7 +553,20 @@
       "en": "Expand first-time home buyer incentive in Toronto, Vancouver and Victoria",
       "fr": ""
     },
-    "references": [],
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Leaders make housing appeals on day 15 of federal election campaign",
+        "publisher": "ctvnews.ca",
+        "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
+      },
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
     "handle": "2019/lpc/expand_first_time_home_buyer"
   },
   {
@@ -248,5 +578,150 @@
     },
     "references": [],
     "handle": "2019/lpc/vacancy_speculation_tax"
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "National registry to track individuals behind business entities who own/buy land",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/ndp/national_land_ownership_registry"
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "15% foreign buyers tax on sale to individuals who aren't citizens or permanent residents",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/ndp/foreign_buyers_tax"
+  },
+  {
+    "topic": "Housing",
+    "party": "Green",
+    "title": {
+      "en": "Eliminate First-Time Home Buyer Incentive program",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
+    "handle": "2019/green/first_time_home_buyer_incentive"
+  },
+  {
+    "topic": "Education",
+    "party": "Green",
+    "title": {
+      "en": "??Free post-secondary education??",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
+    "handle": "2019/green/post_secondary_education"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Provide up to $2,500 for Canadians in need of housing",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      },
+      {
+        "date": "2019-01-10",
+        "title": "New benefits are providing more support to the middle class and those working hard to join it",
+        "publisher": "canada.ca",
+        "url": "https://www.canada.ca/en/employment-social-development/news/2019/01/new-benefits-are-providing-more-support-to-the-middle-class-and-those-working-hard-to-join-it.html"
+      }
+    ],
+    "handle": "2019/liberal/chb"
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "Renter's benefit up to $5,000 for eligible households",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
+    "handle": "2019/ndp/renters_benefit"
+  },
+  {
+    "topic": "Housing",
+    "party": "Green",
+    "title": {
+      "en": "Increase federal contribution to Canada Housing Benefit",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
+    "handle": "2019/green/chb"
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "Build 50,000 affordable homes",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
+    "handle": "2019/green/chb"
+  },
+  {
+    "topic": "Housing",
+    "party": "Green",
+    "title": {
+      "en": "Build 25,000 affordable homes",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-26",
+        "title": "Housing platforms in the 2019 federal election",
+        "publisher": "policynote.ca",
+        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
+      }
+    ],
+    "handle": "2019/green/chb"
   }
 ]

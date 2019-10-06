@@ -1,8 +1,4 @@
-module Dataset =
-  Map.Make({
-    type t = Schema.topic;
-    let compare = compare;
-  });
+module Dataset = Schema.TopicMap;
 
 let dataset_of_policies = policy_list => {
   let append_policy_to_dataset = (dataset, policy: Schema.policy) => {
@@ -106,9 +102,10 @@ let make =
     );
 
   <div className="policyTable">
-    <div className="policyRow tableHeader">
+    <div id="tableHeader" className="policyRow container">
       <div className="policyCells"> table_header </div>
     </div>
+    <div id="tableFiller" className="policyRow container filler hidden" />
     <div>
       {if (isLoading) {
          React.null;

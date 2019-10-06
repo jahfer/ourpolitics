@@ -22,7 +22,7 @@ a, a:visited {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -146,14 +146,19 @@ a, a:visited {
   margin-bottom: 10px 0;
   padding: 10px 0;
   flex-shrink: 0;
-  /*transition: max-height 1s ease-in-out;
-  overflow: hidden;*/
 
-  &.tableHeader {
+  #tableHeader, &.filler {
     padding: 0;
     border-bottom: none;
     margin-bottom: 10px;
-    // border-bottom: 2px solid #000;
+    height: 50px;
+  }
+
+  &.fixed {
+    position: fixed;
+    max-width: 1260px;
+    top: 0;
+    padding: 0;
   }
 }
 

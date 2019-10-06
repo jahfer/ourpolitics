@@ -31,6 +31,37 @@ let make = (~policy_handle=?, ~year=2019) => {
   let (parties, setParties) = React.useState(() => []);
   let (deferUntil, setDeferUntil) = React.useState(() => None);
 
+  React.useEffect(() => {
+    let initialHeaderTop: int = [%raw
+      {|document.getElementById("tableHeader").getBoundingClientRect().top|}
+    ];
+
+    let initialBodyTop: int = [%raw
+      {|document.body.getBoundingClientRect().top|}
+    ];
+
+    let elTop = initialHeaderTop - initialBodyTop;
+
+    Utils.window
+    |> Utils.addScrollEventListener(_ =>
+         Utils.requestAnimationFrame(() => {
+           let scrollTop: int = [%raw {|document.documentElement.scrollTop|}];
+           if (scrollTop > elTop) {
+             %raw
+             {|document.getElementById("tableHeader").classList.add("fixed")|};
+             %raw
+             {|document.getElementById("tableFiller").classList.remove("hidden")|};
+           } else {
+             %raw
+             {|document.getElementById("tableHeader").classList.remove("fixed")|};
+             %raw
+             {|document.getElementById("tableFiller").classList.add("hidden")|};
+           };
+         })
+       );
+    None;
+  });
+
   React.useEffect1(
     () => {
       let promise =

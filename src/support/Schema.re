@@ -23,7 +23,8 @@ type topic =
   | PublicSafety
   | Youth
   | Education
-  | Housing;
+  | Housing
+  | Affordability;
 
 type reference = {
   date: option(string),
@@ -50,31 +51,31 @@ type policy = {
 module TopicMap =
   Map.Make({
     type t = topic;
-    let compare = (a, b) => {
-      switch (a, b) {
-      | (x, y) when x == y => 0
-      /* Sort order */
-      | (ChildCare, _)
-      | (C51, _)
-      | (Taxes, _)
-      | (InternationalTrade, _)
-      | (Environment, _)
-      | (Senate, _)
-      | (Government, _)
-      | (IndigenousRelations, _)
-      | (Healthcare, _)
-      | (Infrastructure, _)
-      | (ForeignPolicy, _)
-      | (Cannabis, _)
-      | (SocialAssistance, _)
-      | (Youth, _)
-      | (ElectoralReform, _)
-      | (PublicSafety, _)
-      | (Education, _)
-      | (Housing, _)
-      | (Science, _) => (-1)
-      };
-    };
+
+    let compare_topics =
+      fun
+      | ChildCare => 1
+      | C51 => 2
+      | Taxes => 3
+      | InternationalTrade => 4
+      | Environment => 5
+      | Senate => 6
+      | Government => 7
+      | Affordability => 8
+      | Healthcare => 9
+      | Infrastructure => 10
+      | ForeignPolicy => 11
+      | Cannabis => 12
+      | SocialAssistance => 13
+      | Youth => 14
+      | ElectoralReform => 15
+      | PublicSafety => 16
+      | Education => 17
+      | Housing => 18
+      | Science => 19
+      | IndigenousRelations => 20;
+
+    let compare = (a, b) => compare_topics(a) - compare_topics(b);
   });
 
 module PartySet =
@@ -117,7 +118,8 @@ module Encode = {
     | ElectoralReform => Content.Strings.electoral_reform
     | PublicSafety => Content.Strings.public_safety
     | Education => Content.Strings.education
-    | Housing => Content.Strings.housing;
+    | Housing => Content.Strings.housing
+    | Affordability => Content.Strings.affordability;
 };
 
 module Decode = {
@@ -155,6 +157,7 @@ module Decode = {
     | "Public Safety" => PublicSafety
     | "Education" => Education
     | "Housing" => Housing
+    | "Affordability" => Affordability
     | _ as unknown_topic => raise(Invalid_argument(unknown_topic));
 
   let topic = json => string(json) |> str_to_topic;

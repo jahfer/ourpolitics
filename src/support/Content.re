@@ -36,6 +36,7 @@ module Strings = {
   let public_safety = {en: "Public Safety", fr: {js|?|js}};
   let education = {en: "Education", fr: {js|?|js}};
   let housing = {en: "Housing", fr: {js|?|js}};
+  let affordability = {en: "Affordability", fr: {js|?|js}};
 
   let policy_comparison_title = (~year) => {
     en: {j|$year Policies|j},

@@ -4,7 +4,7 @@ a {
 
   &:hover {
     border-bottom: 1px solid #d2d2c9;
-    border-radius: 3px;
+    border-radius: 4px;
   }
 
   &.styled:hover, .text-block &:hover {
@@ -16,6 +16,12 @@ a {
 
 ul {
   padding-left: 0;
+}
+
+.text-em {
+  background-color: #e8e8da;
+  padding: 0 2px;
+  border-radius: 3px;
 }
 
 .text-large {

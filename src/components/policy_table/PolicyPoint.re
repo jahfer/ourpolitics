@@ -16,9 +16,21 @@ let make = (~policy: Schema.policy) => {
     ();
   };
 
+  let formattedPolicyTitle =
+    policy.title
+    |> T.Text.to_str
+    |> Js.String.replaceByRe(
+         [%bs.re
+           "/([$><+]?[0-9.]+,?[0-9-]*(%|k|( ?(years?|days?|billion|million|\/day))*))/g"
+         ],
+         {|<span class="text-em">$1</span>|},
+       );
+
   <li className="policyPoint">
-    <a className="policyPoint--link" onClick={_ => policy_click()}>
-      {T.Text.react_string(policy.title)}
-    </a>
+    <a
+      className="policyPoint--link"
+      onClick={_ => policy_click()}
+      dangerouslySetInnerHTML={formattedPolicyTitle->Utils.dangerousHtml}
+    />
   </li>;
 };
