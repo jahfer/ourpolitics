@@ -29,11 +29,17 @@
 .pb-5 {
   padding-bottom: 5rem; }
 
+.hidden {
+  display: none !important; }
+
 .list-plain {
   list-style-type: none;
   margin: 0; }
   .list-plain li {
     padding: 0.5rem 0; }
+
+.block-center {
+  margin: 0 auto; }
 
 .policyTable {
   display: flex;
@@ -106,7 +112,7 @@ a, a:visited {
   color: #707070; }
 
 .container {
-  max-width: 1060px;
+  max-width: 1300px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px; }
@@ -141,9 +147,6 @@ a, a:visited {
     color: #57574C; }
     .bg-light-alt a:hover {
       background: #fff; }
-
-.text-block a:hover {
-  background: #fff; }
 
 .pageTitle {
   font-family: sans-serif;
@@ -210,13 +213,17 @@ a, a:visited {
 .policyRow {
   margin-bottom: 10px 0;
   padding: 10px 0;
-  flex-shrink: 0;
-  /*transition: max-height 1s ease-in-out;
-  overflow: hidden;*/ }
-  .policyRow.tableHeader {
+  flex-shrink: 0; }
+  .policyRow.tableHeader, .policyRow.filler {
     padding: 0;
     border-bottom: none;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    height: 50px; }
+  .policyRow.fixed {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    padding-right: 40px; }
 
 .policyPoint {
   margin-bottom: 5px; }
@@ -228,8 +235,6 @@ a, a:visited {
   cursor: pointer;
   padding: 0;
   border: none; }
-  .policyPoint--link:hover {
-    text-decoration: underline; }
 
 .customBullet {
   list-style: none; }
@@ -401,8 +406,7 @@ a, a:visited {
   background: #303030;
   color: #fff;
   position: relative;
-  flex: 1;
-  font-family: 'Merriweather', georgia, serif; }
+  flex: 1; }
   .modal--sidebar a {
     color: #fff;
     text-decoration: none;
@@ -413,6 +417,8 @@ a, a:visited {
 .modal--close {
   padding: 0;
   border: none; }
+  .modal--close:hover {
+    border: none; }
 
 .reference {
   list-style: none;
@@ -482,11 +488,22 @@ a, a:visited {
 
 a {
   text-decoration: none;
-  border-bottom: 1px solid #BBBBA9;
   padding: 0.125em 0.2em; }
+  a:hover {
+    border-bottom: 1px solid #d2d2c9;
+    border-radius: 4px; }
+  a.styled:hover, .text-block a:hover {
+    border-width: 2px;
+    border-color: #0066cc;
+    background: #fff; }
 
 ul {
   padding-left: 0; }
+
+.text-em {
+  background-color: #e8e8da;
+  padding: 0 2px;
+  border-radius: 3px; }
 
 .text-large {
   font-size: 1.2rem;
@@ -517,6 +534,9 @@ ul {
 
 .textColor--Liberals {
   color: #D71920; }
+
+.textColor--Green {
+  color: #3d9b35; }
 
 .backgroundColor--NDP {
   background-color: #F37021; }
