@@ -577,6 +577,108 @@
     "handle": "2019/lpc/decriminalize_drugs"
   },
   {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "10% additional tax on luxury cars, boats and personal aircraft >$100,000",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-29",
+        "title": "Liberals to boost spending and extend deficits while taxing luxury goods and internet giants",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/trudeau-liberal-platform-release-election-1.5302042"
+      }
+    ],
+    "handle": "2019/lpc/luxury_tax"
+  },
+  {
+    "topic": "Youth",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase Canada Child Benefit by 15% for children <1 year old",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-29",
+        "title": "Liberals to boost spending and extend deficits while taxing luxury goods and internet giants",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/trudeau-liberal-platform-release-election-1.5302042"
+      }
+    ],
+    "handle": "2019/lpc/luxury_tax"
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "3% digital goods tax on revenue from sales of online advertising and user data on companies earning $1 billion annually and $40 million in Canada (e.g. Amazon, Netflix, Apple, Facebook)",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-29",
+        "title": "Liberals to boost spending and extend deficits while taxing luxury goods and internet giants",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/trudeau-liberal-platform-release-election-1.5302042"
+      }
+    ],
+    "handle": "2019/lpc/internet_tax"
+  },
+  {
+    "topic": "Affordability",
+    "party": "Liberal",
+    "title": {
+      "en": "Raise minimum wage to $15/hour",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-29",
+        "title": "Liberals to boost spending and extend deficits while taxing luxury goods and internet giants",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/trudeau-liberal-platform-release-election-1.5302042"
+      }
+    ],
+    "handle": "2019/lpc/internet_tax"
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Raise minimum wage to $15/hour, increasing yearly until a \"living wage\" is reached in 4 years",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-02",
+        "title": "NDP Leader Jagmeet Singh Announces Plan to Establish Living Wage for Minimum Wage Workers",
+        "publisher": "cbc.ca",
+        "url": "https://www.insauga.com/ndp-leader-jagmeet-singh-announces-plan-to-establish-living-wage-for-minimum-wage-workers"
+      }
+    ],
+    "handle": "2019/ndp/living_wage"
+  },
+  {
+    "topic": "Affordability",
+    "party": "Green",
+    "title": {
+      "en": "Raise minimum wage to $15/hour",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-02",
+        "title": "A living wage should be the cost of doing business.",
+        "publisher": "twitter.com",
+        "url": "https://twitter.com/CanadianGreens/status/1168634238566064129"
+      }
+    ],
+    "handle": "2019/gpc/living_wage"
+  },
+  {
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
