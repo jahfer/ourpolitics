@@ -13,8 +13,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/news/singhs-new-deal-people-expanding-health-care-cover-you-head-toe"
       }
-    ],
-    "handle": "2019/ndp/healthcare"
+    ]
   },
   {
     "topic": "Public Safety",
@@ -29,8 +28,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/better-care"
       }
-    ],
-    "handle": "2019/ndp/homelessness"
+    ]
   },
   {
     "topic": "Affordability",
@@ -45,8 +43,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/better-care"
       }
-    ],
-    "handle": "2019/ndp/basic_income_pilot"
+    ]
   },
   {
     "topic": "Affordability",
@@ -62,8 +59,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/politics/trudeau-promises-to-cut-cellphone-bills-by-25-per-cent-if-re-elected-1.5293256"
       }
-    ],
-    "handle": "2019/lpc/cell_phone_bills"
+    ]
   },
   {
     "topic": "Affordability",
@@ -79,8 +75,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/politics/trudeau-promises-to-cut-cellphone-bills-by-25-per-cent-if-re-elected-1.5293256"
       }
-    ],
-    "handle": "2019/lpc/personal_income_tax_deduction"
+    ]
   },
   {
     "topic": "Affordability",
@@ -102,8 +97,7 @@
         "publisher": "ipolitics.ca",
         "url": "https://ipolitics.ca/2019/09/13/singh-pledges-to-cap-cell-phone-and-internet-costs/"
       }
-    ],
-    "handle": "2019/ndp/telecom_pricing"
+    ]
   },
   {
     "topic": "Public Safety",
@@ -123,8 +117,7 @@
         "publisher": "theglobeandmail.com",
         "url": "https://www.theglobeandmail.com/news/politics/federal-ndp-liberals-considering-decriminalization-of-all-drugs/article38123859/"
       }
-    ],
-    "handle": "2019/ndp/decriminalize_drug_use"
+    ]
   },
   {
     "topic": "Healthcare",
@@ -133,8 +126,7 @@
       "en": "Universal pharmacare via provincial support",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/ndp/pharmacare"
+    "references": []
   },
   {
     "topic": "Healthcare",
@@ -143,8 +135,7 @@
       "en": "Begin process of implementing universal pharmacare",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/lpc/pharmacare"
+    "references": []
   },
   {
     "topic": "Environment",
@@ -160,8 +151,7 @@
         "publisher": "globalnews.ca",
         "url": "https://globalnews.ca/news/5960379/trudeau-plant-trees-climate-change/"
       }
-    ],
-    "handle": "2019/lpc/tree_planting"
+    ]
   },
   {
     "topic": "Environment",
@@ -177,8 +167,7 @@
         "publisher": "winnipegfreepress.com",
         "url": "https://www.winnipegfreepress.com/arts-and-life/life/greenpage/may-green-party-would-plant-10-billion-trees-to-fight-climate-change-562189182.html"
       }
-    ],
-    "handle": "2019/gpc/tree_planting"
+    ]
   },
   {
     "topic": "Public Safety",
@@ -194,8 +183,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/politics/liberals-trudeau-handgun-ban-questions-1.5304684"
       }
-    ],
-    "handle": "2019/lpc/handguns"
+    ]
   },
   {
     "topic": "Public Safety",
@@ -211,8 +199,7 @@
         "publisher": "cbc.ca",
         "url": "https://election.ctvnews.ca/with-billions-of-dollars-at-stake-all-parties-promise-to-fix-defence-purchases-1.4625529"
       }
-    ],
-    "handle": "2019/lpc/defence_procurement_canada"
+    ]
   },
   {
     "topic": "Environment",
@@ -221,8 +208,7 @@
       "en": "Support carbon pricing",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/lpc/carbon_pricing"
+    "references": []
   },
   {
     "topic": "Environment",
@@ -237,8 +223,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/climate-action"
       }
-    ],
-    "handle": "2019/ndp/carbon_pricing"
+    ]
   },
   {
     "topic": "Environment",
@@ -253,8 +238,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/climate-action"
       }
-    ],
-    "handle": "2019/ndp/retrofit_housing"
+    ]
   },
   {
     "topic": "Environment",
@@ -269,8 +253,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/climate-action"
       }
-    ],
-    "handle": "2019/ndp/net_zero_housing"
+    ]
   },
   {
     "topic": "Affordability",
@@ -285,8 +268,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/climate-action"
       }
-    ],
-    "handle": "2019/ndp/fare_free_transit"
+    ]
   },
   {
     "topic": "Infrastructure",
@@ -301,8 +283,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/climate-action"
       }
-    ],
-    "handle": "2019/ndp/zev_charging"
+    ]
   },
   {
     "topic": "Infrastructure",
@@ -317,8 +298,7 @@
         "publisher": "greenparty.ca",
         "url": "https://www.greenparty.ca/en/platform/climate-emergency"
       }
-    ],
-    "handle": "2019/gpc/zev_charging"
+    ]
   },
   {
     "topic": "Environment",
@@ -333,8 +313,7 @@
         "publisher": "greenparty.ca",
         "url": "https://www.greenparty.ca/en/platform/climate-emergency"
       }
-    ],
-    "handle": "2019/gpc/zev_gst"
+    ]
   },
   {
     "topic": "Environment",
@@ -349,8 +328,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/climate-action"
       }
-    ],
-    "handle": "2019/ndp/zev_gst"
+    ]
   },
   {
     "topic": "Environment",
@@ -365,8 +343,7 @@
         "publisher": "greenparty.ca",
         "url": "https://www.greenparty.ca/en/platform/climate-emergency"
       }
-    ],
-    "handle": "2019/ndp/zev_gst"
+    ]
   },
   {
     "topic": "Infrastructure",
@@ -381,8 +358,7 @@
         "publisher": "greenparty.ca",
         "url": "https://www.greenparty.ca/en/platform/climate-emergency"
       }
-    ],
-    "handle": "2019/gpc/tmx"
+    ]
   },
   {
     "topic": "Infrastructure",
@@ -398,8 +374,7 @@
         "publisher": "ipolitics.ca",
         "url": "https://ipolitics.ca/2019/09/27/conservatives-pitch-more-infrastructure-projects-to-lower-commute-times/"
       }
-    ],
-    "handle": "2019/cpc/commute_infrastructure"
+    ]
   },
   {
     "topic": "Infrastructure",
@@ -415,8 +390,7 @@
         "publisher": "ipolitics.ca",
         "url": "https://ipolitics.ca/2019/09/28/scheer-pitches-national-energy-corridor-in-oil-country/"
       }
-    ],
-    "handle": "2019/cpc/commute_infrastructure"
+    ]
   },
   {
     "topic": "Infrastructure",
@@ -425,8 +399,7 @@
       "en": "Continue building Trans-Mountain pipeline",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/lpc/tmx"
+    "references": []
   },
   {
     "topic": "Environment",
@@ -441,8 +414,7 @@
         "publisher": "energynow.ca",
         "url": "https://energynow.ca/2019/06/canadas-conservative-leader-unveils-climate-plan-without-carbon-pricing/"
       }
-    ],
-    "handle": "2019/cpc/carbon_pricing"
+    ]
   },
   {
     "topic": "Public Safety",
@@ -458,8 +430,7 @@
         "publisher": "cbc.ca",
         "url": "https://election.ctvnews.ca/with-billions-of-dollars-at-stake-all-parties-promise-to-fix-defence-purchases-1.4625529"
       }
-    ],
-    "handle": "2019/lpc/defence_procurement_canada"
+    ]
   },
   {
     "topic": "Youth",
@@ -468,8 +439,7 @@
       "en": "Tax refund on fitness- or sports-related activities",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/cpc/child_fitness_tax_credit"
+    "references": []
   },
   {
     "topic": "Education",
@@ -478,8 +448,7 @@
       "en": "Children’s Arts and Learning Tax Credit",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/cpc/arts_and_learning_tax_credit"
+    "references": []
   },
   {
     "topic": "Government",
@@ -488,8 +457,7 @@
       "en": "Implement mixed-member proportional elections without a referendum",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/ndp/electoral_reform"
+    "references": []
   },
   {
     "topic": "Healthcare",
@@ -505,8 +473,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/politics/scheer-injection-sites-terrible-1.5294321?cmp=rss"
       }
-    ],
-    "handle": "2019/lpc/safe_injection_sites"
+    ]
   },
   {
     "topic": "Healthcare",
@@ -522,8 +489,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/health/opioid-crisis-election-1.5309759"
       }
-    ],
-    "handle": "2019/gpc/safe_injection_sites"
+    ]
   },
   {
     "topic": "Healthcare",
@@ -539,8 +505,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/health/opioid-crisis-election-1.5309759"
       }
-    ],
-    "handle": "2019/gpc/safe_injection_sites"
+    ]
   },
   {
     "topic": "Healthcare",
@@ -556,8 +521,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/health/opioid-crisis-election-1.5309759"
       }
-    ],
-    "handle": "2019/gpc/decriminalize_drugs"
+    ]
   },
   {
     "topic": "Healthcare",
@@ -573,8 +537,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/health/opioid-crisis-election-1.5309759"
       }
-    ],
-    "handle": "2019/lpc/decriminalize_drugs"
+    ]
   },
   {
     "topic": "Government",
@@ -590,8 +553,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/politics/trudeau-liberal-platform-release-election-1.5302042"
       }
-    ],
-    "handle": "2019/lpc/luxury_tax"
+    ]
   },
   {
     "topic": "Youth",
@@ -607,8 +569,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/politics/trudeau-liberal-platform-release-election-1.5302042"
       }
-    ],
-    "handle": "2019/lpc/luxury_tax"
+    ]
   },
   {
     "topic": "Government",
@@ -624,8 +585,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/politics/trudeau-liberal-platform-release-election-1.5302042"
       }
-    ],
-    "handle": "2019/lpc/internet_tax"
+    ]
   },
   {
     "topic": "Affordability",
@@ -641,8 +601,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/politics/trudeau-liberal-platform-release-election-1.5302042"
       }
-    ],
-    "handle": "2019/lpc/internet_tax"
+    ]
   },
   {
     "topic": "Affordability",
@@ -658,8 +617,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.insauga.com/ndp-leader-jagmeet-singh-announces-plan-to-establish-living-wage-for-minimum-wage-workers"
       }
-    ],
-    "handle": "2019/ndp/living_wage"
+    ]
   },
   {
     "topic": "Affordability",
@@ -675,8 +633,7 @@
         "publisher": "twitter.com",
         "url": "https://twitter.com/CanadianGreens/status/1168634238566064129"
       }
-    ],
-    "handle": "2019/gpc/living_wage"
+    ]
   },
   {
     "topic": "Healthcare",
@@ -691,8 +648,7 @@
         "publisher": "ndp.ca",
         "url": "https://www.ndp.ca/better-care"
       }
-    ],
-    "handle": "2019/ndp/safe_injection_sites"
+    ]
   },
   {
     "topic": "Healthcare",
@@ -708,8 +664,7 @@
         "publisher": "cbc.ca",
         "url": "https://www.cbc.ca/news/politics/scheer-injection-sites-terrible-1.5294321?cmp=rss"
       }
-    ],
-    "handle": "2019/cpc/safe_injection_sites"
+    ]
   },
   {
     "topic": "Affordability",
@@ -725,8 +680,7 @@
         "publisher": "globalnews.ca",
         "url": "https://globalnews.ca/news/5908060/conservative-tax-cut-liberal-tax-cut-comparison/"
       }
-    ],
-    "handle": "2019/cpc/universal_tax_cut"
+    ]
   },
   {
     "topic": "Environment",
@@ -735,8 +689,7 @@
       "en": "Net-zero emissions by 2050",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/lpc/emissions_2050"
+    "references": []
   },
   {
     "topic": "Environment",
@@ -745,8 +698,7 @@
       "en": "Reduce emissions by >30% below 2005 levels by 2030",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/lpc/emissions_2030"
+    "references": []
   },
   {
     "topic": "Environment",
@@ -768,8 +720,7 @@
         "publisher": "policyoptions.irpp.org",
         "url": "https://policyoptions.irpp.org/magazines/october-2019/no-partys-climate-plan-will-avoid-dangerous-global-warming-levels/"
       }
-    ],
-    "handle": "2019/lpc/emissions"
+    ]
   },
   {
     "topic": "Environment",
@@ -785,8 +736,7 @@
         "publisher": "policyoptions.irpp.org",
         "url": "https://policyoptions.irpp.org/magazines/october-2019/no-partys-climate-plan-will-avoid-dangerous-global-warming-levels/"
       }
-    ],
-    "handle": "2019/ndp/emissions"
+    ]
   },
   {
     "topic": "Environment",
@@ -802,8 +752,7 @@
         "publisher": "policyoptions.irpp.org",
         "url": "https://policyoptions.irpp.org/magazines/october-2019/no-partys-climate-plan-will-avoid-dangerous-global-warming-levels/"
       }
-    ],
-    "handle": "2019/green/emissions"
+    ]
   },
   {
     "topic": "Environment",
@@ -819,8 +768,7 @@
         "publisher": "ctvnews.ca",
         "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
       }
-    ],
-    "handle": "2019/cpc/green_housing_credit"
+    ]
   },
   {
     "topic": "Housing",
@@ -836,8 +784,7 @@
         "publisher": "ctvnews.ca",
         "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
       }
-    ],
-    "handle": "2019/cpc/home_heating_gst"
+    ]
   },
   {
     "topic": "Housing",
@@ -859,8 +806,7 @@
         "publisher": "policynote.ca",
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
-    ],
-    "handle": "2019/cpc/30_year_mortgage"
+    ]
   },
   {
     "topic": "Housing",
@@ -876,8 +822,7 @@
         "publisher": "policynote.ca",
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
-    ],
-    "handle": "2019/ndp/30_year_mortgage"
+    ]
   },
   {
     "topic": "Housing",
@@ -899,8 +844,7 @@
         "publisher": "policynote.ca",
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
-    ],
-    "handle": "2019/cpc/stress_test"
+    ]
   },
   {
     "topic": "Housing",
@@ -916,8 +860,7 @@
         "publisher": "ctvnews.ca",
         "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
       }
-    ],
-    "handle": "2019/lpc/home_retrofit"
+    ]
   },
   {
     "topic": "Environment",
@@ -933,8 +876,7 @@
         "publisher": "ctvnews.ca",
         "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
       }
-    ],
-    "handle": "2019/lpc/energy_audits"
+    ]
   },
   {
     "topic": "Environment",
@@ -950,8 +892,7 @@
         "publisher": "ctvnews.ca",
         "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
       }
-    ],
-    "handle": "2019/lpc/energy_audits"
+    ]
   },
   {
     "topic": "Housing",
@@ -967,8 +908,7 @@
         "publisher": "ctvnews.ca",
         "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
       }
-    ],
-    "handle": "2019/lpc/zero_emissions_grant"
+    ]
   },
   {
     "topic": "Environment",
@@ -984,8 +924,7 @@
         "publisher": "ctvnews.ca",
         "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
       }
-    ],
-    "handle": "2019/lpc/train_green_workers"
+    ]
   },
   {
     "topic": "Public Safety",
@@ -1001,8 +940,7 @@
         "publisher": "ctvnews.ca",
         "url": "https://election.ctvnews.ca/leaders-make-housing-appeals-on-day-15-of-federal-election-campaign-1.4609560"
       }
-    ],
-    "handle": "2019/lpc/flood_insurance"
+    ]
   },
   {
     "topic": "Housing",
@@ -1024,8 +962,7 @@
         "publisher": "policynote.ca",
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
-    ],
-    "handle": "2019/lpc/expand_first_time_home_buyer"
+    ]
   },
   {
     "topic": "Housing",
@@ -1034,8 +971,7 @@
       "en": "1% vacancy and speculation tax for non-resident, non-Canadians",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/lpc/vacancy_speculation_tax"
+    "references": []
   },
   {
     "topic": "Housing",
@@ -1044,8 +980,7 @@
       "en": "National registry to track individuals behind business entities who own/buy land",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/ndp/national_land_ownership_registry"
+    "references": []
   },
   {
     "topic": "Housing",
@@ -1054,8 +989,7 @@
       "en": "15% foreign buyers tax on sale to individuals who aren't citizens or permanent residents",
       "fr": ""
     },
-    "references": [],
-    "handle": "2019/ndp/foreign_buyers_tax"
+    "references": []
   },
   {
     "topic": "Housing",
@@ -1071,8 +1005,7 @@
         "publisher": "policynote.ca",
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
-    ],
-    "handle": "2019/green/first_time_home_buyer_incentive"
+    ]
   },
   {
     "topic": "Housing",
@@ -1094,8 +1027,7 @@
         "publisher": "canada.ca",
         "url": "https://www.canada.ca/en/employment-social-development/news/2019/01/new-benefits-are-providing-more-support-to-the-middle-class-and-those-working-hard-to-join-it.html"
       }
-    ],
-    "handle": "2019/liberal/chb"
+    ]
   },
   {
     "topic": "Housing",
@@ -1111,8 +1043,7 @@
         "publisher": "policynote.ca",
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
-    ],
-    "handle": "2019/ndp/renters_benefit"
+    ]
   },
   {
     "topic": "Housing",
@@ -1128,8 +1059,7 @@
         "publisher": "policynote.ca",
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
-    ],
-    "handle": "2019/green/chb"
+    ]
   },
   {
     "topic": "Housing",
@@ -1145,8 +1075,7 @@
         "publisher": "policynote.ca",
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
-    ],
-    "handle": "2019/green/chb"
+    ]
   },
   {
     "topic": "Housing",
@@ -1162,7 +1091,6 @@
         "publisher": "policynote.ca",
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
-    ],
-    "handle": "2019/green/chb"
+    ]
   }
 ]
