@@ -17,7 +17,7 @@ let make =
       ~isLoading: bool,
       ~parties: list(Schema.party),
       ~dataset: Dataset.t(list(Schema.policy)),
-      ~topics=?,
+      ~topicFilter: option(Schema.TopicSet.t),
     ) => {
   let (policyRows, setPolicyRows) = React.useState(() => [||]);
 
@@ -35,7 +35,7 @@ let make =
   React.useMemo2(
     () => {
       let filteredDataset =
-        switch (topics) {
+        switch (topicFilter) {
         | None => dataset
         | Some(topics) =>
           dataset

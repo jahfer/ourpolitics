@@ -2,7 +2,10 @@ open I18n;
 
 module Strings = {
   let title = {en: "Topics", fr: "Sujets"};
-  let no_policy_listed = {en: "No policy", fr: "Absence de politique"};
+  let no_policy_listed = {
+    en: "No known policies",
+    fr: "Absence de politique",
+  };
   let archives = {en: "Archives", fr: {js|?|js}};
   let language = {en: "en", fr: "fr"};
   let about = {en: "About", fr: {js|?|js}};
@@ -23,7 +26,7 @@ module Strings = {
   let environment = {en: "Environment", fr: {js|?|js}};
   let government = {en: "Government", fr: {js|?|js}};
   let indigenous_relations = {en: "Indigenous Relations", fr: {js|?|js}};
-  let healthcare = {en: "Healthcare", fr: {js|?|js}};
+  let healthcare = {en: "Health Care", fr: {js|?|js}};
   let infrastructure = {en: "Infrastructure", fr: {js|?|js}};
   let science = {en: "Science", fr: {js|?|js}};
   let child_care = {en: "Child Care", fr: {js|?|js}};

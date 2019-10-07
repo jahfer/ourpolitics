@@ -150,7 +150,7 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Plant +2 billion trees over the next 10 years",
+      "en": "Plant +2 billion trees over 10 years",
       "fr": ""
     },
     "references": [
@@ -162,6 +162,23 @@
       }
     ],
     "handle": "2019/lpc/tree_planting"
+  },
+  {
+    "topic": "Environment",
+    "party": "Green",
+    "title": {
+      "en": "Plant +10 billion trees over 30 years",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-10-04",
+        "title": "May: Green party would plant 10 billion trees to fight climate change",
+        "publisher": "winnipegfreepress.com",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/greenpage/may-green-party-would-plant-10-billion-trees-to-fight-climate-change-562189182.html"
+      }
+    ],
+    "handle": "2019/gpc/tree_planting"
   },
   {
     "topic": "Public Safety",
@@ -179,6 +196,270 @@
       }
     ],
     "handle": "2019/lpc/handguns"
+  },
+  {
+    "topic": "Public Safety",
+    "party": "Liberal",
+    "title": {
+      "en": "Establish agency for military equipment purchases",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-10-05",
+        "title": "Trudeau's municipal handgun ban promise leaves key questions unanswered",
+        "publisher": "cbc.ca",
+        "url": "https://election.ctvnews.ca/with-billions-of-dollars-at-stake-all-parties-promise-to-fix-defence-purchases-1.4625529"
+      }
+    ],
+    "handle": "2019/lpc/defence_procurement_canada"
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Support carbon pricing",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/carbon_pricing"
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Support carbon pricing",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Improving where we live and work",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/climate-action"
+      }
+    ],
+    "handle": "2019/ndp/carbon_pricing"
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Retrofit all housing stock to be energy-efficient by 2050",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Improving where we live and work",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/climate-action"
+      }
+    ],
+    "handle": "2019/ndp/retrofit_housing"
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "All new buildings will be net-zero energy ready by 2030",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Improving where we live and work",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/climate-action"
+      }
+    ],
+    "handle": "2019/ndp/net_zero_housing"
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Help municipalities build towards fare-free transit",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Improving where we live and work",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/climate-action"
+      }
+    ],
+    "handle": "2019/ndp/fare_free_transit"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "NDP",
+    "title": {
+      "en": "Expand charging networks for zero-emissions vehicles across the country",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Improving where we live and work",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/climate-action"
+      }
+    ],
+    "handle": "2019/ndp/zev_charging"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Green",
+    "title": {
+      "en": "Expand charging networks for zero-emissions vehicles across the country",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Addressing the Climate Emergency",
+        "publisher": "greenparty.ca",
+        "url": "https://www.greenparty.ca/en/platform/climate-emergency"
+      }
+    ],
+    "handle": "2019/gpc/zev_charging"
+  },
+  {
+    "topic": "Environment",
+    "party": "Green",
+    "title": {
+      "en": "Exempt new and used electric and zero-emission vehicles from federal sales tax",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Addressing the Climate Emergency",
+        "publisher": "greenparty.ca",
+        "url": "https://www.greenparty.ca/en/platform/climate-emergency"
+      }
+    ],
+    "handle": "2019/gpc/zev_gst"
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Exempt new and used electric and zero-emission vehicles from federal sales tax",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Improving where we live and work",
+        "publisher": "ndp.ca",
+        "url": "https://www.ndp.ca/climate-action"
+      }
+    ],
+    "handle": "2019/ndp/zev_gst"
+  },
+  {
+    "topic": "Environment",
+    "party": "Green",
+    "title": {
+      "en": "Ban the sale of internal combustion engine passenger vehicles by 2030",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Addressing the Climate Emergency",
+        "publisher": "greenparty.ca",
+        "url": "https://www.greenparty.ca/en/platform/climate-emergency"
+      }
+    ],
+    "handle": "2019/ndp/zev_gst"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Green",
+    "title": {
+      "en": "Cancel the Trans-Mountain pipeline",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Addressing the Climate Emergency",
+        "publisher": "greenparty.ca",
+        "url": "https://www.greenparty.ca/en/platform/climate-emergency"
+      }
+    ],
+    "handle": "2019/gpc/tmx"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Conservative",
+    "title": {
+      "en": "Reduce criteria for infrastructure funding to only those that reduce commute time",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-27",
+        "title": "Conservatives pitch more infrastructure projects to lower commute times",
+        "publisher": "ipolitics.ca",
+        "url": "https://ipolitics.ca/2019/09/27/conservatives-pitch-more-infrastructure-projects-to-lower-commute-times/"
+      }
+    ],
+    "handle": "2019/cpc/commute_infrastructure"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Conservative",
+    "title": {
+      "en": "National energy corridor to transport gas, hydro, oil from coast-to-coast",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-28",
+        "title": "Scheer pitches national energy corridor in oil country",
+        "publisher": "ipolitics.ca",
+        "url": "https://ipolitics.ca/2019/09/28/scheer-pitches-national-energy-corridor-in-oil-country/"
+      }
+    ],
+    "handle": "2019/cpc/commute_infrastructure"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Liberal",
+    "title": {
+      "en": "Continue building Trans-Mountain pipeline",
+      "fr": ""
+    },
+    "references": [],
+    "handle": "2019/lpc/tmx"
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Eliminate carbon pricing",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Canada’s Conservative leader unveils climate plan without carbon pricing",
+        "publisher": "energynow.ca",
+        "url": "https://energynow.ca/2019/06/canadas-conservative-leader-unveils-climate-plan-without-carbon-pricing/"
+      }
+    ],
+    "handle": "2019/cpc/carbon_pricing"
+  },
+  {
+    "topic": "Public Safety",
+    "party": "Conservative",
+    "title": {
+      "en": "Establish military purchase oversight bodies in cabinet & Privy Council Office",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-10-05",
+        "title": "Trudeau's municipal handgun ban promise leaves key questions unanswered",
+        "publisher": "cbc.ca",
+        "url": "https://election.ctvnews.ca/with-billions-of-dollars-at-stake-all-parties-promise-to-fix-defence-purchases-1.4625529"
+      }
+    ],
+    "handle": "2019/lpc/defence_procurement_canada"
   },
   {
     "topic": "Youth",
@@ -229,6 +510,74 @@
   },
   {
     "topic": "Healthcare",
+    "party": "Green",
+    "title": {
+      "en": "Support safe injection sites",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-10-05",
+        "title": "Why the opioid crisis isn't a bigger federal election issue",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/health/opioid-crisis-election-1.5309759"
+      }
+    ],
+    "handle": "2019/gpc/safe_injection_sites"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Green",
+    "title": {
+      "en": "Expand access to safe drug supply",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-10-05",
+        "title": "Why the opioid crisis isn't a bigger federal election issue",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/health/opioid-crisis-election-1.5309759"
+      }
+    ],
+    "handle": "2019/gpc/safe_injection_sites"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Green",
+    "title": {
+      "en": "Decriminalize personal drug possession and use",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-10-05",
+        "title": "Why the opioid crisis isn't a bigger federal election issue",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/health/opioid-crisis-election-1.5309759"
+      }
+    ],
+    "handle": "2019/gpc/decriminalize_drugs"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Do not support decriminalization of personal drug possession and use",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-10-05",
+        "title": "Why the opioid crisis isn't a bigger federal election issue",
+        "publisher": "cbc.ca",
+        "url": "https://www.cbc.ca/news/health/opioid-crisis-election-1.5309759"
+      }
+    ],
+    "handle": "2019/lpc/decriminalize_drugs"
+  },
+  {
+    "topic": "Healthcare",
     "party": "NDP",
     "title": {
       "en": "Support safe injection sites",
@@ -241,7 +590,7 @@
         "url": "https://www.ndp.ca/better-care"
       }
     ],
-    "handle": "2019/lpc/safe_injection_sites"
+    "handle": "2019/ndp/safe_injection_sites"
   },
   {
     "topic": "Healthcare",
@@ -622,23 +971,6 @@
       }
     ],
     "handle": "2019/green/first_time_home_buyer_incentive"
-  },
-  {
-    "topic": "Education",
-    "party": "Green",
-    "title": {
-      "en": "??Free post-secondary education??",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2019-09-26",
-        "title": "Housing platforms in the 2019 federal election",
-        "publisher": "policynote.ca",
-        "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
-      }
-    ],
-    "handle": "2019/green/post_secondary_education"
   },
   {
     "topic": "Housing",

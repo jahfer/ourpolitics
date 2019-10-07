@@ -6,6 +6,13 @@ module PartySet =
     let compare = compare;
   });
 
+let topics_of_policies = policies =>
+  List.fold_right(
+    Schema.TopicSet.add,
+    policies |> List.map((p: Schema.policy) => p.topic),
+    Schema.TopicSet.empty,
+  );
+
 let parties_of_policies = policies =>
   policies
   |> List.fold_left(
@@ -32,6 +39,9 @@ let make = (~policy_handle=?, ~year=2019) => {
     React.useState(() => PolicyTable.Dataset.empty);
   let (parties, setParties) = React.useState(() => []);
   let (deferUntil, setDeferUntil) = React.useState(() => None);
+  let (topics, setTopics) = React.useState(() => Schema.TopicSet.empty);
+  let (topicFilter, setTopicFilter) =
+    React.useState(() => Schema.TopicSet.empty);
 
   React.useEffect(() => {
     let initialHeaderTop: int = [%raw
@@ -45,8 +55,6 @@ let make = (~policy_handle=?, ~year=2019) => {
     if (elTop^ == 0) {
       elTop := initialHeaderTop - initialBodyTop;
     };
-
-    Js.log(elTop^);
 
     Utils.window
     |> Utils.addScrollEventListener(_ =>
@@ -81,6 +89,9 @@ let make = (~policy_handle=?, ~year=2019) => {
                setTableDataset(_ =>
                  PolicyTable.dataset_of_policies(parsed_data)
                );
+               let topicSet = topics_of_policies(parsed_data);
+               setTopics(_ => topicSet);
+               setTopicFilter(_ => topicSet);
                setParties(_ => parties_of_policies(parsed_data));
                setPolicyIndex(_ => policy_index_of_policies(parsed_data));
                setIsLoading(_ => false) |> resolve;
@@ -125,6 +136,12 @@ let make = (~policy_handle=?, ~year=2019) => {
     (policy_handle, deferUntil),
   );
 
+  let language = React.useContext(LanguageContext.ctx);
+  module T =
+    Strings.Translations({
+      let language = language;
+    });
+
   PolicyModal.Modal.setAppElement("#page-root");
 
   <PolicyModalDispatch dispatch>
@@ -132,16 +149,38 @@ let make = (~policy_handle=?, ~year=2019) => {
      | Some(policy) => <PolicyModal policy isOpen={modalState.visible} />
      | None => React.null
      }}
+    // <ul className="list-plain">
+    //   {topicFilter
+    //    |> Schema.TopicSet.elements
+    //    |> List.map(t =>
+    //         <li>
+    //           <input
+    //             type_="checkbox"
+    //             defaultChecked=true
+    //             onChange={_ =>
+    //               setTopicFilter(set => Schema.TopicSet.remove(t, set))
+    //             }
+    //           />
+    //           {T.Topic.react_string(t)}
+    //         </li>
+    //       )
+    //    |> Array.of_list
+    //    |> React.array}
+    //   {Schema.TopicSet.diff(topics, topicFilter)
+    //    |> Schema.TopicSet.elements
+    //    |> List.map(t =>
+    //         <li>
+    //           <input type_="checkbox" defaultChecked=false />
+    //           {T.Topic.react_string(t)}
+    //         </li>
+    //       )
+    //    |> Array.of_list
+    //    |> React.array}
+    // </ul>
     <PolicyTable
       isLoading
       parties
-      // topics=Schema.(
-      //   List.fold_right(
-      //     TopicSet.add,
-      //     [PublicSafety, Healthcare],
-      //     TopicSet.empty,
-      //   )
-      // )
+      topicFilter={Some(topicFilter)}
       dataset=tableDataset
     />
     <footer> <p className="footerInfo" /> </footer>
