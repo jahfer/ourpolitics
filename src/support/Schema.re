@@ -44,7 +44,7 @@ type policy = {
   title: I18n.text,
   party,
   references: array(reference),
-  handle: string,
+  handle: option(string),
   rce: option(rce),
 };
 
@@ -183,7 +183,7 @@ module Decode = {
     title: json |> field("title", i18n_text),
     party: json |> field("party", party),
     references: json |> field("references", array(reference)),
-    handle: json |> field("handle", string),
+    handle: json |> optional(field("handle", string)),
     rce: json |> optional(field("rce", rce)),
   };
 };

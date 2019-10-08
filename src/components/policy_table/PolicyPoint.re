@@ -9,11 +9,15 @@ let make = (~policy: Schema.policy) => {
     });
 
   let policy_click = () => {
-    ModalOpen(policy.handle)->dispatch;
-    let url_path = "/policies/" ++ policy.handle;
-    let _ =
-      url_path |> Utils.Router.push_route(~language, ~scrollToTop=false);
-    ();
+    switch (policy.handle) {
+    | None => ()
+    | Some(path) =>
+      ModalOpen(path)->dispatch;
+      let url_path = "/policies/" ++ path;
+      let _ =
+        url_path |> Utils.Router.push_route(~language, ~scrollToTop=false);
+      ();
+    };
   };
 
   let formattedPolicyTitle =
@@ -21,16 +25,24 @@ let make = (~policy: Schema.policy) => {
     |> T.Text.to_str
     |> Js.String.replaceByRe(
          [%bs.re
-           "/([$><+]?[0-9.]+,?[0-9-]*(%|k|( ?(years?|days?|billion|million|\/day))*))/g"
+           "/([$><+]*?[0-9]+.?,?[0-9-]*\/?(%|k|( ?(years?|days?|hours?|billion|million))*))/g"
          ],
          {|<span class="text-em">$1</span>|},
        );
 
-  <li className="policyPoint">
-    <a
-      className="policyPoint--link"
-      onClick={_ => policy_click()}
+  switch (policy.handle) {
+  | None =>
+    <li
+      className="policyPoint"
       dangerouslySetInnerHTML={formattedPolicyTitle->Utils.dangerousHtml}
     />
-  </li>;
+  | Some(_) =>
+    <li className="policyPoint">
+      <a
+        className="policyPoint--link"
+        onClick={_ => policy_click()}
+        dangerouslySetInnerHTML={formattedPolicyTitle->Utils.dangerousHtml}
+      />
+    </li>
+  };
 };

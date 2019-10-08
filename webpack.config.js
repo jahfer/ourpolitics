@@ -37,6 +37,7 @@ module.exports = {
     }),
     new CopyPlugin([
       { from: 'CNAME', to: outputDir },
+      { from: 'src/404.html', to: outputDir },
       { from: 'static/**/*', to: outputDir },
     ]),
   ],
@@ -70,12 +71,12 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-                name: "[contenthash].html",
-                outputPath: 'assets',
+              name: "[contenthash].html",
+              outputPath: 'assets',
             },
           },
           'extract-loader',
-          'html-loader', 
+          'html-loader',
           'markdown-loader'
         ]
       }

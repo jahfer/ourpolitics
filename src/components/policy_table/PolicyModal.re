@@ -64,16 +64,19 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
   let (content, setContent) = React.useState(() => "");
 
   React.useEffect2(
-    () => {
-      let contentPath = Content.pathToContent(policy.handle)->T.Text.to_str;
-      let _ =
-        Js.Promise.(
-          Fetch.fetch(contentPath)
-          |> then_(Fetch.Response.text)
-          |> then_(html => setContent(_ => html) |> resolve)
-        );
-      Some(_ => setContent(_ => ""));
-    },
+    () =>
+      switch (policy.handle) {
+      | None => None
+      | Some(path) =>
+        let contentPath = Content.pathToContent(path)->T.Text.to_str;
+        let _ =
+          Js.Promise.(
+            Fetch.fetch(contentPath)
+            |> then_(Fetch.Response.text)
+            |> then_(html => setContent(_ => html) |> resolve)
+          );
+        Some(_ => setContent(_ => ""));
+      },
     (policy, language),
   );
 

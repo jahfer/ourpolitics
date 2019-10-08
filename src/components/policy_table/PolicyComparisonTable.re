@@ -25,7 +25,10 @@ let policy_index_of_policies = policies =>
   policies
   |> List.fold_left(
        (acc, policy: Schema.policy) =>
-         acc |> StringMap.add(policy.handle, policy),
+         switch (policy.handle) {
+         | None => acc
+         | Some(path) => acc |> StringMap.add(path, policy)
+         },
        StringMap.empty,
      );
 
@@ -80,7 +83,7 @@ let make = (~policy_handle=?, ~year=2019) => {
     () => {
       let promise =
         Js.Promise.(
-          Fetch.fetch({j|/static/policies/$year/policies.json|j})
+          Fetch.fetch({j|/static/policies/$year/policies.json?v=2|j})
           |> then_(Fetch.Response.json)
           |> then_(json => {
                let parsed_data =

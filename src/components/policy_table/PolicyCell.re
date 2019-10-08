@@ -1,5 +1,5 @@
 [@react.component]
-let make = (~party: Schema.party, ~policies) => {
+let make = (~party: Schema.party, ~policies: list(Schema.policy)) => {
   let language = React.useContext(LanguageContext.ctx);
 
   module T =
@@ -7,6 +7,11 @@ let make = (~party: Schema.party, ~policies) => {
       let language = language;
     });
 
+  let policies =
+    policies
+    |> List.filter((policy: Schema.policy) =>
+         T.Text.to_str(policy.title) != ""
+       );
   let listItems =
     switch (policies) {
     | [] => [|

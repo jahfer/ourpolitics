@@ -7,17 +7,25 @@ module Redirect = {
   };
 };
 
+let selectLanguage =
+  fun
+  | "fr" => I18n.FR
+  | _ => I18n.EN;
+
 [@react.component]
 let make = () => {
   let url = ReasonReactRouter.useUrl();
 
   let (language, setLanguage) =
-    React.useState(() =>
-      switch (url.hash) {
-      | "fr" => I18n.FR
-      | _ => I18n.EN
-      }
-    );
+    React.useState(() => url.hash |> selectLanguage);
+
+  React.useEffect1(
+    () => {
+      setLanguage(_ => selectLanguage(url.hash));
+      None;
+    },
+    [|url|],
+  );
 
   let page_content =
     switch (url.path) {
