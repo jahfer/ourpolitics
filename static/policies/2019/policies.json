@@ -100,7 +100,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Healthcare",
     "party": "NDP",
     "title": {
       "en": "Decriminalize personal drug possession and use",
@@ -508,7 +508,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Healthcare",
     "party": "Green",
     "title": {
       "en": "Decriminalize personal drug possession and use",
@@ -524,7 +524,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Healthcare",
     "party": "Liberal",
     "title": {
       "en": "Do not support decriminalization of personal drug possession and use",
@@ -591,7 +591,7 @@
     "topic": "Affordability",
     "party": "Liberal",
     "title": {
-      "en": "Raise minimum wage to $15/hour",
+      "en": "Raise federal minimum wage to $15/hour",
       "fr": ""
     },
     "references": [
@@ -607,7 +607,7 @@
     "topic": "Affordability",
     "party": "NDP",
     "title": {
-      "en": "Raise minimum wage to $15/hour, increasing yearly until a \"living wage\" is reached in 4 years",
+      "en": "Raise federal minimum wage to $15/hour, increasing yearly until a \"living wage\" is reached in 4 years",
       "fr": ""
     },
     "references": [
@@ -623,7 +623,7 @@
     "topic": "Affordability",
     "party": "Green",
     "title": {
-      "en": "Raise minimum wage to $15/hour",
+      "en": "Raise federal minimum wage to $15/hour",
       "fr": ""
     },
     "references": [
@@ -632,6 +632,22 @@
         "title": "A living wage should be the cost of doing business.",
         "publisher": "twitter.com",
         "url": "https://twitter.com/CanadianGreens/status/1168634238566064129"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "Green",
+    "title": {
+      "en": "Free post-secondary tuition",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2019-09-25",
+        "title": "Green Party’s free tuition plan would cost $16.4B, but PBO estimate comes with ‘high uncertainty’",
+        "publisher": "globalnews.ca",
+        "url": "https://globalnews.ca/news/5949288/green-party-tuition-plan-pbo/"
       }
     ]
   },
