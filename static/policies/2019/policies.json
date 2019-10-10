@@ -4,7 +4,7 @@
     "party": "NDP",
     "title": {
       "en": "Provide dental care, eye care, hearing care, mental health care, seniors care in the Canada Health Act with support from provinces",
-      "fr": ""
+      "fr": "Fournir des soins dentaires, des soins de la vue, des soins auditifs, des soins de santé mentale, des soins aux personnes âgées dans la Loi canadienne sur la santé avec le soutien des provinces"
     },
     "references": [
       {
@@ -21,7 +21,7 @@
     "party": "NDP",
     "title": {
       "en": "End homelessness by 2030",
-      "fr": ""
+      "fr": "Mettre fin au sans-abrisme d'ici 2030"
     },
     "references": [
       {
@@ -37,7 +37,7 @@
     "party": "NDP",
     "title": {
       "en": "Work with provinces to launch basic-income pilot project",
-      "fr": ""
+      "fr": "Travailler avec les provinces pour lancer un projet pilote de revenu de base"
     },
     "references": [
       {
@@ -53,7 +53,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reduce cell phone bills by 25%",
-      "fr": ""
+      "fr": "Réduire les factures de téléphonie mobile de 25%"
     },
     "references": [
       {
@@ -70,7 +70,7 @@
     "party": "Liberal",
     "title": {
       "en": "Raise basic personal income tax deduction to $15,000",
-      "fr": ""
+      "fr": "Augmenter la déduction de base de l'impôt sur le revenu des particuliers à 15 000 $"
     },
     "references": [
       {
@@ -87,7 +87,7 @@
     "party": "NDP",
     "title": {
       "en": "Cap prices of cellphone and internet services",
-      "fr": ""
+      "fr": "Prix plafond des services de téléphonie mobile et d'Internet"
     },
     "references": [
       {
@@ -110,7 +110,7 @@
     "party": "NDP",
     "title": {
       "en": "Decriminalize personal drug possession and use",
-      "fr": ""
+      "fr": "Décriminalise la possession et la consommation de drogue par des personnes"
     },
     "references": [
       {
@@ -131,7 +131,7 @@
     "party": "NDP",
     "title": {
       "en": "Universal pharmacare via provincial support",
-      "fr": ""
+      "fr": "Assurance-médicaments universel via un soutien provincial"
     },
     "references": [],
     "handle": "2019/ndp/pharmacare"
@@ -141,7 +141,7 @@
     "party": "Liberal",
     "title": {
       "en": "Begin process of implementing universal pharmacare",
-      "fr": ""
+      "fr": "Commencer le processus de mise en oeuvre de l'assurance-médicaments universel"
     },
     "references": [],
     "handle": "2019/lpc/pharmacare"
@@ -151,7 +151,7 @@
     "party": "Liberal",
     "title": {
       "en": "Plant +2 billion trees over 10 years",
-      "fr": ""
+      "fr": "Planter +2 milliards d'arbres sur 10 ans"
     },
     "references": [
       {
@@ -168,7 +168,7 @@
     "party": "Green",
     "title": {
       "en": "Plant +10 billion trees over 30 years",
-      "fr": ""
+      "fr": "Planter +10 milliards d'arbres sur 30 ans"
     },
     "references": [
       {
@@ -185,7 +185,7 @@
     "party": "Liberal",
     "title": {
       "en": "Empower municipalities to restrict or ban handguns",
-      "fr": ""
+      "fr": "Donner aux municipalités le pouvoir de restreindre ou d'interdire les armes de poing"
     },
     "references": [
       {
@@ -202,7 +202,7 @@
     "party": "Liberal",
     "title": {
       "en": "Establish agency for military equipment purchases",
-      "fr": ""
+      "fr": "Etablir une agence pour l'achat d'équipements militaires"
     },
     "references": [
       {
@@ -219,7 +219,7 @@
     "party": "Liberal",
     "title": {
       "en": "Support carbon pricing",
-      "fr": ""
+      "fr": "Soutenir la tarification du carbone"
     },
     "references": [],
     "handle": "2019/lpc/carbon_pricing"
@@ -229,7 +229,7 @@
     "party": "NDP",
     "title": {
       "en": "Support carbon pricing",
-      "fr": ""
+      "fr": "Soutenir la tarification du carbone"
     },
     "references": [
       {
@@ -245,7 +245,7 @@
     "party": "NDP",
     "title": {
       "en": "Retrofit all housing stock to be energy-efficient by 2050",
-      "fr": ""
+      "fr": "Rénover tous les logements pour être écoénergétique d'ici 2050"
     },
     "references": [
       {
@@ -261,7 +261,7 @@
     "party": "NDP",
     "title": {
       "en": "All new buildings will be net-zero energy ready by 2030",
-      "fr": ""
+      "fr": "Tous les nouveaux bâtiments seront prêts pour la consommation énergétique nette zéro d'ici 2030"
     },
     "references": [
       {
@@ -277,7 +277,7 @@
     "party": "NDP",
     "title": {
       "en": "Help municipalities build towards fare-free transit",
-      "fr": ""
+      "fr": "Aidez les municipalités à passer au transit sans frais"
     },
     "references": [
       {
@@ -293,7 +293,7 @@
     "party": "NDP",
     "title": {
       "en": "Expand charging networks for zero-emissions vehicles across the country",
-      "fr": ""
+      "fr": "Développer les réseaux de recharge pour les véhicules zéro émission à travers le pays"
     },
     "references": [
       {
@@ -309,7 +309,7 @@
     "party": "Green",
     "title": {
       "en": "Expand charging networks for zero-emissions vehicles across the country",
-      "fr": ""
+      "fr": "Développer les réseaux de recharge pour les véhicules zéro émission à travers le pays"
     },
     "references": [
       {
@@ -325,7 +325,7 @@
     "party": "Green",
     "title": {
       "en": "Exempt new and used electric and zero-emission vehicles from federal sales tax",
-      "fr": ""
+      "fr": "Exempter de la taxe de vente fédérale les véhicules électriques neufs et usagés, ainsi que les véhicules zéro émission"
     },
     "references": [
       {
@@ -341,7 +341,7 @@
     "party": "NDP",
     "title": {
       "en": "Exempt new and used electric and zero-emission vehicles from federal sales tax",
-      "fr": ""
+      "fr": "Exempter de la taxe de vente fédérale les véhicules électriques neufs et usagés, ainsi que les véhicules zéro émission"
     },
     "references": [
       {
@@ -357,7 +357,7 @@
     "party": "Green",
     "title": {
       "en": "Ban the sale of internal combustion engine passenger vehicles by 2030",
-      "fr": ""
+      "fr": "Interdire la vente de véhicules de tourisme à moteur à combustion interne d'ici 2030"
     },
     "references": [
       {
@@ -373,7 +373,7 @@
     "party": "Green",
     "title": {
       "en": "Cancel the Trans-Mountain pipeline",
-      "fr": ""
+      "fr": "Annuler le pipeline Trans-Mountain"
     },
     "references": [
       {
@@ -389,7 +389,7 @@
     "party": "Conservative",
     "title": {
       "en": "Reduce criteria for infrastructure funding to only those that reduce commute time",
-      "fr": ""
+      "fr": "Réduire les critères de financement des infrastructures à ceux qui réduisent les temps de déplacement"
     },
     "references": [
       {
@@ -406,7 +406,7 @@
     "party": "Conservative",
     "title": {
       "en": "National energy corridor to transport gas, hydro, oil from coast-to-coast",
-      "fr": ""
+      "fr": "Corridor énergétique national pour le transport du gaz, de l'hydroélectricité et du pétrole d'un océan à l'autre"
     },
     "references": [
       {
@@ -423,7 +423,7 @@
     "party": "Liberal",
     "title": {
       "en": "Continue building Trans-Mountain pipeline",
-      "fr": ""
+      "fr": "Continuer à construire le pipeline Trans-Mountain"
     },
     "references": [],
     "handle": "2019/lpc/tmx"
@@ -433,7 +433,7 @@
     "party": "Conservative",
     "title": {
       "en": "Eliminate carbon pricing",
-      "fr": ""
+      "fr": "Éliminer la tarification du carbone"
     },
     "references": [
       {
@@ -449,7 +449,7 @@
     "party": "Conservative",
     "title": {
       "en": "Establish military purchase oversight bodies in cabinet & Privy Council Office",
-      "fr": ""
+      "fr": "Établir des organes de surveillance des achats militaires au Cabinet et au Bureau du Conseil privé"
     },
     "references": [
       {
@@ -466,7 +466,7 @@
     "party": "Conservative",
     "title": {
       "en": "Tax refund on fitness- or sports-related activities",
-      "fr": ""
+      "fr": "Remboursement de la taxe sur les activités sportives ou de remise en forme"
     },
     "references": [],
     "handle": "2019/cpc/child_fitness_tax_credit"
@@ -476,7 +476,7 @@
     "party": "Conservative",
     "title": {
       "en": "Children’s Arts and Learning Tax Credit",
-      "fr": ""
+      "fr": "Crédit d'impôt pour les arts et l'apprentissage des enfants"
     },
     "references": [],
     "handle": "2019/cpc/arts_and_learning_tax_credit"
@@ -486,7 +486,7 @@
     "party": "NDP",
     "title": {
       "en": "Implement mixed-member proportional elections without a referendum",
-      "fr": ""
+      "fr": "Mettre en place des élections proportionnelles mixtes sans référendum"
     },
     "references": [],
     "handle": "2019/ndp/electoral_reform"
@@ -496,7 +496,7 @@
     "party": "Liberal",
     "title": {
       "en": "Support safe injection sites",
-      "fr": ""
+      "fr": "Supporte les sites d'injection sûrs"
     },
     "references": [
       {
@@ -513,7 +513,7 @@
     "party": "Green",
     "title": {
       "en": "Support safe injection sites",
-      "fr": ""
+      "fr": "Supporte les sites d'injection sûrs"
     },
     "references": [
       {
@@ -530,7 +530,7 @@
     "party": "Green",
     "title": {
       "en": "Expand access to safe drug supply",
-      "fr": ""
+      "fr": "Elargir l'accès à un approvisionnement en médicaments sûr"
     },
     "references": [
       {
@@ -547,7 +547,7 @@
     "party": "Green",
     "title": {
       "en": "Decriminalize personal drug possession and use",
-      "fr": ""
+      "fr": "Décriminalise la possession et la consommation de drogue par des personnes"
     },
     "references": [
       {
@@ -564,7 +564,7 @@
     "party": "Liberal",
     "title": {
       "en": "Do not support decriminalization of personal drug possession and use",
-      "fr": ""
+      "fr": "Ne soutenez pas la décriminalisation de la possession et de l'usage de drogues par des particuliers"
     },
     "references": [
       {
@@ -581,7 +581,7 @@
     "party": "NDP",
     "title": {
       "en": "Support safe injection sites",
-      "fr": ""
+      "fr": "Supporte les sites d'injection sûrs"
     },
     "references": [
       {
@@ -597,7 +597,7 @@
     "party": "Conservative",
     "title": {
       "en": "Oppose safe injection sites",
-      "fr": ""
+      "fr": "Oppose aux sites d'injection sûrs"
     },
     "references": [
       {
@@ -614,7 +614,7 @@
     "party": "Conservative",
     "title": {
       "en": "Cut tax rate on lowest income bracket from 15% to 13.75%",
-      "fr": ""
+      "fr": "Réduction du taux d'imposition de la tranche de revenu la plus basse de 15% à 13,75%"
     },
     "references": [
       {
@@ -631,7 +631,7 @@
     "party": "Liberal",
     "title": {
       "en": "Net-zero emissions by 2050",
-      "fr": ""
+      "fr": "Émissions nettes nettes d'ici 2050"
     },
     "references": [],
     "handle": "2019/lpc/emissions_2050"
@@ -641,7 +641,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reduce emissions by >30% below 2005 levels by 2030",
-      "fr": ""
+      "fr": "Réduire les émissions de plus de 30% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [],
     "handle": "2019/lpc/emissions_2030"
@@ -651,7 +651,7 @@
     "party": "Conservative",
     "title": {
       "en": "Reduce emissions by 30% below 2005 levels by 2030",
-      "fr": ""
+      "fr": "Réduire les émissions de 30% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -674,7 +674,7 @@
     "party": "NDP",
     "title": {
       "en": "Reduce emissions by 38% below 2005 levels by 2030",
-      "fr": ""
+      "fr": "Réduire les émissions de 38% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -691,7 +691,7 @@
     "party": "Green",
     "title": {
       "en": "Reduce emissions by 60% below 2005 levels by 2030",
-      "fr": ""
+      "fr": "Réduire les émissions de 60% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -708,7 +708,7 @@
     "party": "Conservative",
     "title": {
       "en": "20% refundable tax credit for green renovations",
-      "fr": ""
+      "fr": "Crédit d'impôt remboursable de 20% pour les rénovations vertes"
     },
     "references": [
       {
@@ -725,7 +725,7 @@
     "party": "Conservative",
     "title": {
       "en": "Eliminate GST for home heating",
-      "fr": ""
+      "fr": "Éliminer la TPS pour le chauffage domestique"
     },
     "references": [
       {
@@ -742,7 +742,7 @@
     "party": "Conservative",
     "title": {
       "en": "Allow 30-year mortgages for first-time home buyers",
-      "fr": ""
+      "fr": "Autoriser les acheteurs d'une première maison d'une hypothèque de 30 ans"
     },
     "references": [
       {
@@ -765,7 +765,7 @@
     "party": "NDP",
     "title": {
       "en": "Allow 30-year mortgages for first-time home buyers",
-      "fr": ""
+      "fr": "Autoriser les acheteurs d'une première maison d'une hypothèque de 30 ans"
     },
     "references": [
       {
@@ -782,7 +782,7 @@
     "party": "Conservative",
     "title": {
       "en": "Remove “stress test” for mortgage renewals",
-      "fr": ""
+      "fr": "Supprimer le «test de résistance» pour les renouvellements d'hypothèque"
     },
     "references": [
       {
@@ -805,7 +805,7 @@
     "party": "Liberal",
     "title": {
       "en": "Retrofit 1.5 million homes over 5 years",
-      "fr": ""
+      "fr": "Rénovation de 1,5 million de foyers sur 5 ans"
     },
     "references": [
       {
@@ -822,7 +822,7 @@
     "party": "Liberal",
     "title": {
       "en": "Free energy audits for homeowners and landlords",
-      "fr": ""
+      "fr": "Audits énergétiques gratuits pour les propriétaires et les propriétaires"
     },
     "references": [
       {
@@ -839,7 +839,7 @@
     "party": "Liberal",
     "title": {
       "en": "Interest-free loans up to $40k for green renovations",
-      "fr": ""
+      "fr": "Prêts sans intérêt jusqu'à 40 k $ pour des rénovations vertes"
     },
     "references": [
       {
@@ -856,7 +856,7 @@
     "party": "Liberal",
     "title": {
       "en": "Up to $5k grant for new homes that are certified zero-emissions",
-      "fr": ""
+      "fr": "Subvention pouvant atteindre 5 000 dollars pour les maisons neuves certifiées zéro émission"
     },
     "references": [
       {
@@ -873,7 +873,7 @@
     "party": "Liberal",
     "title": {
       "en": "Invest $100 million to train workers in energy audits, retrofits, and net-zero home construction",
-      "fr": ""
+      "fr": "Investir 100 millions de dollars pour former les travailleurs aux audits énergétiques, à la modernisation et à la construction de maisons nettes"
     },
     "references": [
       {
@@ -890,7 +890,7 @@
     "party": "Liberal",
     "title": {
       "en": "National flood insurance program",
-      "fr": ""
+      "fr": "Programme national d'assurance contre les inondations"
     },
     "references": [
       {
@@ -907,7 +907,7 @@
     "party": "Liberal",
     "title": {
       "en": "Expand first-time home buyer incentive in Toronto, Vancouver and Victoria",
-      "fr": ""
+      "fr": "Développer l'incitation à l'achat d'une première maison à Toronto, Vancouver et Victoria"
     },
     "references": [
       {
@@ -930,7 +930,7 @@
     "party": "Liberal",
     "title": {
       "en": "1% vacancy and speculation tax for non-resident, non-Canadians",
-      "fr": ""
+      "fr": "taxe de 1% sur la vacance et la spéculation pour les non-résidents et les non-Canadiens"
     },
     "references": [],
     "handle": "2019/lpc/vacancy_speculation_tax"
@@ -940,7 +940,7 @@
     "party": "NDP",
     "title": {
       "en": "National registry to track individuals behind business entities who own/buy land",
-      "fr": ""
+      "fr": "Registre national pour suivre les individus derrière les entités commerciales qui possèdent / achètent des terres"
     },
     "references": [],
     "handle": "2019/ndp/national_land_ownership_registry"
@@ -950,7 +950,7 @@
     "party": "NDP",
     "title": {
       "en": "15% foreign buyers tax on sale to individuals who aren't citizens or permanent residents",
-      "fr": ""
+      "fr": "une taxe de 15% sur les acheteurs étrangers perçue lors de la vente à des personnes qui ne sont ni citoyens ni résidents permanents"
     },
     "references": [],
     "handle": "2019/ndp/foreign_buyers_tax"
@@ -960,7 +960,7 @@
     "party": "Green",
     "title": {
       "en": "Eliminate First-Time Home Buyer Incentive program",
-      "fr": ""
+      "fr": "Éliminer le programme d'incitation à l'achat d'une première maison"
     },
     "references": [
       {
@@ -977,7 +977,7 @@
     "party": "Liberal",
     "title": {
       "en": "Provide up to $2,500 for Canadians in need of housing",
-      "fr": ""
+      "fr": "Fournir jusqu'à 2 500 dollars aux Canadiens à la recherche d'un logement"
     },
     "references": [
       {
@@ -1000,7 +1000,7 @@
     "party": "NDP",
     "title": {
       "en": "Renter's benefit up to $5,000 for eligible households",
-      "fr": ""
+      "fr": "Prestation locataire jusqu'à 5 000 $ pour les ménages éligibles"
     },
     "references": [
       {
@@ -1017,7 +1017,7 @@
     "party": "Green",
     "title": {
       "en": "Increase federal contribution to Canada Housing Benefit",
-      "fr": ""
+      "fr": "Augmenter la contribution fédérale à l'allocation canadienne de logement"
     },
     "references": [
       {
@@ -1034,7 +1034,7 @@
     "party": "NDP",
     "title": {
       "en": "Build 50,000 affordable homes",
-      "fr": ""
+      "fr": "Construire 50 000 logements abordables"
     },
     "references": [
       {
@@ -1051,7 +1051,7 @@
     "party": "Green",
     "title": {
       "en": "Build 25,000 affordable homes",
-      "fr": ""
+      "fr": "Construire 25 000 logements abordables"
     },
     "references": [
       {
