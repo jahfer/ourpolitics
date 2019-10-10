@@ -6,44 +6,43 @@ module Strings = {
     en: "No known policies",
     fr: "Absence de politique",
   };
-  let archives = {en: "Archives", fr: {js|?|js}};
+  let archives = {en: "Archives", fr: {js|Les archives|js}};
   let language = {en: "en", fr: "fr"};
-  let about = {en: "About", fr: {js|?|js}};
-  let privacy_policy = {en: "Privacy Policy", fr: {js|?|js}};
+  let about = {en: "About", fr: {js|À propos|js}};
+  let privacy_policy = {en: "Privacy Policy", fr: {js|Politique de confidentialité|js}};
 
   let liberals = {en: "Liberals", fr: {js|Libéral|js}};
   let conservatives = {en: "Conservatives", fr: "Conservateur"};
   let ndp = {en: "NDP", fr: "NPD"};
   let greens = {en: "Green", fr: "Vert"};
 
-  let reach = {en: "Reach", fr: "?"};
-  let confidence = {en: "Confidence", fr: "?"};
-  let effort = {en: "Effort", fr: "?"};
+  let reach = {en: "Reach", fr: {js|Atteindre|js}};
+  let confidence = {en: "Confidence", fr: {js|Confiance|js}};
+  let effort = {en: "Effort", fr: {js|Effort|js}};
 
-  let foreign_policy = {en: "Foreign Policy", fr: {js|?|js}};
-  let taxes = {en: "Taxes", fr: {js|?|js}};
-  let international_trade = {en: "International Trade", fr: {js|?|js}};
-  let environment = {en: "Environment", fr: {js|?|js}};
-  let government = {en: "Government", fr: {js|?|js}};
-  let indigenous_relations = {en: "Indigenous Relations", fr: {js|?|js}};
-  let healthcare = {en: "Health Care", fr: {js|?|js}};
-  let infrastructure = {en: "Infrastructure", fr: {js|?|js}};
-  let science = {en: "Science", fr: {js|?|js}};
-  let child_care = {en: "Child Care", fr: {js|?|js}};
-  let bill_c51 = {en: "Bill C-51", fr: {js|?|js}};
-  let cannabis = {en: "Cannabis", fr: {js|?|js}};
-  let social_assistance = {en: "Social Assistance", fr: {js|?|js}};
-  let youth = {en: "Youth", fr: {js|?|js}};
-  let senate = {en: "Senate", fr: {js|?|js}};
-  let electoral_reform = {en: "Electoral Reform", fr: {js|?|js}};
-  let public_safety = {en: "Public Safety", fr: {js|?|js}};
-  let education = {en: "Education", fr: {js|?|js}};
-  let housing = {en: "Housing", fr: {js|?|js}};
-  let affordability = {en: "Affordability", fr: {js|?|js}};
-
+  let foreign_policy = {en: "Foreign Policy", fr: {js|La Politique Extérieure|js}};
+  let taxes = {en: "Taxes", fr: {js|Les taxes|js}};
+  let international_trade = {en: "International Trade", fr: {js|Échange international|js}};
+  let environment = {en: "Environment", fr: {js|Environnement|js}};
+  let government = {en: "Government", fr: {js|Gouvernement|js}};
+  let indigenous_relations = {en: "Indigenous Relations", fr: {js|Relations Autochtones|js}};
+  let healthcare = {en: "Health Care", fr: {js|Soins de santé|js}};
+  let infrastructure = {en: "Infrastructure", fr: {js|Infrastructure|js}};
+  let science = {en: "Science", fr: {js|Science|js}};
+  let child_care = {en: "Child Care", fr: {js|Garde d'enfants|js}};
+  let bill_c51 = {en: "Bill C-51", fr: {js|Bill C-51|js}};
+  let cannabis = {en: "Cannabis", fr: {js|Cannabis|js}};
+  let social_assistance = {en: "Social Assistance", fr: {js|Assistance sociale|js}};
+  let youth = {en: "Youth", fr: {js|Jeunesse|js}};
+  let senate = {en: "Senate", fr: {js|Sénat|js}};
+  let electoral_reform = {en: "Electoral Reform", fr: {js|Réforme électorale|js}};
+  let public_safety = {en: "Public Safety", fr: {js|La sécurité publique|js}};
+  let education = {en: "Education", fr: {js|Éducation|js}};
+  let housing = {en: "Housing", fr: {js|Logement|js}};
+  let affordability = {en: "Affordability", fr: {js|L'abordabilité|js}};
   let policy_comparison_title = (~year) => {
     en: {j|$year Policies|j},
-    fr: {j|?|j},
+    fr: {j|$year Stratégies|j},
   };
 };
 
