@@ -1108,5 +1108,65 @@
         "url": "https://www.policynote.ca/housing-platforms-in-the-2019-federal-election/"
       }
     ]
+  },
+  {
+    "topic": "Government",
+    "party": "Green",
+    "title": {
+      "en": "Increase corporate tax rate from 15% to 21%",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Fair Taxation",
+        "publisher": "greenparty.ca",
+        "url": "https://www.greenparty.ca/en/platform/green-economy"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Green",
+    "title": {
+      "en": "Eliminate all fossil fuel subsidies",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Fair Taxation",
+        "publisher": "greenparty.ca",
+        "url": "https://www.greenparty.ca/en/platform/green-economy"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Green",
+    "title": {
+      "en": "3% digital goods tax on sale of products or services from transnational e-commerce companies (e.g. Amazon, Netflix, Apple, Facebook)",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Fair Taxation",
+        "publisher": "greenparty.ca",
+        "url": "https://www.greenparty.ca/en/platform/green-economy"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "Conservative",
+    "title": {
+      "en": "Increase RESP grant from 20% to 30% for every dollar invested, up to $2,500/year",
+      "fr": ""
+    },
+    "references": [
+      {
+        "title": "Conservatives promise boost to RESPs if elected",
+        "publisher": "ipolitics.ca",
+        "url": "https://ipolitics.ca/2019/09/17/conservatives-promise-boost-to-resps-if-elected/"
+      }
+    ]
   }
 ]
