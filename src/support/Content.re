@@ -6,7 +6,7 @@ module Strings = {
     en: "No known policies",
     fr: "Absence de politique",
   };
-  let archives = {en: "Archives", fr: {js|Les archives|js}};
+  let archives = {en: "Archives", fr: {js|Archives|js}};
   let language = {en: "en", fr: "fr"};
   let about = {en: "About", fr: {js|À propos|js}};
   let privacy_policy = {en: "Privacy Policy", fr: {js|Politique de confidentialité|js}};
@@ -20,29 +20,29 @@ module Strings = {
   let confidence = {en: "Confidence", fr: {js|Confiance|js}};
   let effort = {en: "Effort", fr: {js|Effort|js}};
 
-  let foreign_policy = {en: "Foreign Policy", fr: {js|La Politique Extérieure|js}};
-  let taxes = {en: "Taxes", fr: {js|Les taxes|js}};
-  let international_trade = {en: "International Trade", fr: {js|Échange international|js}};
+  let foreign_policy = {en: "Foreign Policy", fr: {js|Affaires étrangères|js}};
+  let taxes = {en: "Taxes", fr: {js|Taxes et impôts|js}};
+  let international_trade = {en: "International Trade", fr: {js|Commerce international|js}};
   let environment = {en: "Environment", fr: {js|Environnement|js}};
   let government = {en: "Government", fr: {js|Gouvernement|js}};
-  let indigenous_relations = {en: "Indigenous Relations", fr: {js|Relations Autochtones|js}};
+  let indigenous_relations = {en: "Indigenous Relations", fr: {js|Peuples autochtones|js}};
   let healthcare = {en: "Health Care", fr: {js|Soins de santé|js}};
-  let infrastructure = {en: "Infrastructure", fr: {js|Infrastructure|js}};
+  let infrastructure = {en: "Infrastructure", fr: {js|Infrastructures|js}};
   let science = {en: "Science", fr: {js|Science|js}};
-  let child_care = {en: "Child Care", fr: {js|Garde d'enfants|js}};
-  let bill_c51 = {en: "Bill C-51", fr: {js|Bill C-51|js}};
+  let child_care = {en: "Child Care", fr: {js|Soin des enfants|js}};
+  let bill_c51 = {en: "Bill C-51", fr: {js|Projet de loi C-51|js}};
   let cannabis = {en: "Cannabis", fr: {js|Cannabis|js}};
-  let social_assistance = {en: "Social Assistance", fr: {js|Assistance sociale|js}};
+  let social_assistance = {en: "Social Assistance", fr: {js|Aide sociale|js}};
   let youth = {en: "Youth", fr: {js|Jeunesse|js}};
   let senate = {en: "Senate", fr: {js|Sénat|js}};
   let electoral_reform = {en: "Electoral Reform", fr: {js|Réforme électorale|js}};
-  let public_safety = {en: "Public Safety", fr: {js|La sécurité publique|js}};
+  let public_safety = {en: "Public Safety", fr: {js|Sécurité publique|js}};
   let education = {en: "Education", fr: {js|Éducation|js}};
   let housing = {en: "Housing", fr: {js|Logement|js}};
-  let affordability = {en: "Affordability", fr: {js|L'abordabilité|js}};
+  let affordability = {en: "Affordability", fr: {js|Coût de la vie|js}};
   let policy_comparison_title = (~year) => {
     en: {j|$year Policies|j},
-    fr: {j|$year Stratégies|j},
+    fr: {j|Enjeux $year|j},
   };
 };
 
