@@ -50,7 +50,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reduce cell phone bills by 25%",
-      "fr": "Réduire les factures de téléphonie cellulaire de 25%"
+      "fr": "Réduire les factures de téléphonie cellulaire de 25&nbsp;%"
     },
     "references": [
       {
@@ -66,7 +66,7 @@
     "party": "Liberal",
     "title": {
       "en": "Raise basic personal income tax deduction to $15,000",
-      "fr": "Augmenter la déduction de base de l'impôt sur le revenu des particuliers à 15 000 $"
+      "fr": "Augmenter la déduction de base de l'impôt sur le revenu des particuliers à 15&nbsp;000&nbsp;$"
     },
     "references": [
       {
@@ -133,7 +133,7 @@
     "party": "Liberal",
     "title": {
       "en": "Begin process of implementing universal pharmacare",
-      "fr": "Commencer le processus de mise en oeuvre de l'assurance-médicaments universelle"
+      "fr": "Commencer le processus de mise en &oelig;uvre de l'assurance-médicaments universelle"
     },
     "references": []
   },
@@ -142,7 +142,7 @@
     "party": "Liberal",
     "title": {
       "en": "Plant +2 billion trees over 10 years",
-      "fr": "Planter plus de 2 milliards d'arbres sur 10 ans"
+      "fr": "Planter plus de 2 milliards d'arbres sur une période de 10 ans"
     },
     "references": [
       {
@@ -158,7 +158,7 @@
     "party": "Green",
     "title": {
       "en": "Plant +10 billion trees over 30 years",
-      "fr": "Planter plus de 10 milliards d'arbres sur 30 ans"
+      "fr": "Planter plus de 10 milliards d'arbres sur une période de 30 ans"
     },
     "references": [
       {
@@ -190,7 +190,7 @@
     "party": "Liberal",
     "title": {
       "en": "Establish agency for military equipment purchases",
-      "fr": "Etablir une agence pour l'achat d'équipements militaires"
+      "fr": "Établir une agence pour l'achat d'équipements militaires"
     },
     "references": [
       {
@@ -496,7 +496,7 @@
     "party": "Green",
     "title": {
       "en": "Expand access to safe drug supply",
-      "fr": "Elargir l'accès à un approvisionnement en médicaments sûr"
+      "fr": "Élargir l'accès à un approvisionnement en médicaments sûr"
     },
     "references": [
       {
@@ -687,7 +687,7 @@
     "party": "Conservative",
     "title": {
       "en": "Cut tax rate on lowest income bracket from 15% to 13.75%",
-      "fr": "Réduire le taux d'imposition de la tranche de revenu la plus basse de 15% à 13,75%"
+      "fr": "Réduire le taux d'imposition de la tranche de revenu la plus basse de 15&nbsp;% à 13,75&nbsp;%"
     },
     "references": [
       {
@@ -712,7 +712,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reduce emissions by >30% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de plus de 30% par rapport aux niveaux de 2005 d'ici 2030"
+      "fr": "Réduire les émissions de plus de 30&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": []
   },
@@ -721,7 +721,7 @@
     "party": "Conservative",
     "title": {
       "en": "Reduce emissions by 30% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 30% par rapport aux niveaux de 2005 d'ici 2030"
+      "fr": "Réduire les émissions de 30&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -743,7 +743,7 @@
     "party": "NDP",
     "title": {
       "en": "Reduce emissions by 38% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 38% par rapport aux niveaux de 2005 d'ici 2030"
+      "fr": "Réduire les émissions de 38&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -759,7 +759,7 @@
     "party": "Green",
     "title": {
       "en": "Reduce emissions by 60% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 60% par rapport aux niveaux de 2005 d'ici 2030"
+      "fr": "Réduire les émissions de 60&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -775,7 +775,7 @@
     "party": "Conservative",
     "title": {
       "en": "20% refundable tax credit for green renovations",
-      "fr": "Crédit d'impôt remboursable de 20% pour les rénovations vertes"
+      "fr": "Crédit d'impôt remboursable de 20&nbsp;% pour les rénovations vertes"
     },
     "references": [
       {
@@ -845,7 +845,7 @@
     "party": "Conservative",
     "title": {
       "en": "Remove “stress test” for mortgage renewals",
-      "fr": "Supprimer le «test de résistance» pour les renouvellements d'hypothèque"
+      "fr": "Supprimer le « test de résistance » pour les renouvellements d'hypothèque"
     },
     "references": [
       {
@@ -867,7 +867,7 @@
     "party": "Liberal",
     "title": {
       "en": "Retrofit 1.5 million homes over 5 years",
-      "fr": "Rénovation de 1,5 million de foyers sur 5 ans"
+      "fr": "Rénovation de 1,5 million de foyers sur une période de 5 ans"
     },
     "references": [
       {
@@ -899,7 +899,7 @@
     "party": "Liberal",
     "title": {
       "en": "Interest-free loans up to $40k for green renovations",
-      "fr": "Prêts sans intérêt jusqu'à 40 000 $ pour des rénovations vertes"
+      "fr": "Prêts sans intérêt jusqu'à 40&nbsp;000&nbsp;$ pour des rénovations vertes"
     },
     "references": [
       {
@@ -915,7 +915,7 @@
     "party": "Liberal",
     "title": {
       "en": "Up to $5k grant for new homes that are certified zero-emissions",
-      "fr": "Subvention pouvant atteindre 5 000 dollars pour les maisons neuves certifiées zéro émission"
+      "fr": "Subvention pouvant atteindre 5&nbsp;000 dollars pour les maisons neuves certifiées zéro émission"
     },
     "references": [
       {
@@ -931,7 +931,7 @@
     "party": "Liberal",
     "title": {
       "en": "Invest $100 million to train workers in energy audits, retrofits, and net-zero home construction",
-      "fr": "Investir 100 millions de dollars pour former les travailleurs aux audits énergétiques, à la modernisation et à la construction de maisons à émission zéro"
+      "fr": "Investir 100 millions de dollars pour former les travailleurs aux audits énergétiques, à la modernisation et à la construction de maisons nette zéro"
     },
     "references": [
       {
@@ -985,7 +985,7 @@
     "party": "Liberal",
     "title": {
       "en": "1% vacancy and speculation tax for non-resident, non-Canadians",
-      "fr": "Taxe de 1% sur l'inoccupation et la spéculation pour les non-résidents et les non-Canadiens"
+      "fr": "Taxe de 1&nbsp;% sur l'inoccupation et la spéculation pour les non-résidents et les non-Canadiens"
     },
     "references": []
   },
@@ -1003,7 +1003,7 @@
     "party": "NDP",
     "title": {
       "en": "15% foreign buyers tax on sale to individuals who aren't citizens or permanent residents",
-      "fr": "Une taxe de 15% sur les acheteurs étrangers perçue lors de la vente à des personnes qui ne sont ni citoyens ni résidents permanents"
+      "fr": "Une taxe de 15&nbsp;% sur les acheteurs étrangers perçue lors de la vente à des personnes qui ne sont ni citoyens ni résidents permanents"
     },
     "references": []
   },
@@ -1028,7 +1028,7 @@
     "party": "Liberal",
     "title": {
       "en": "Provide up to $2,500 for Canadians in need of housing",
-      "fr": "Fournir jusqu'à 2 500 dollars aux Canadiens à la recherche d'un logement"
+      "fr": "Fournir jusqu'à 2&nbsp;500&nbsp;$ aux canadiens à la recherche d'un logement"
     },
     "references": [
       {
@@ -1050,7 +1050,7 @@
     "party": "NDP",
     "title": {
       "en": "Renter's benefit up to $5,000 for eligible households",
-      "fr": "Prestation locataire jusqu'à 5 000 $ pour les ménages éligibles"
+      "fr": "Prestation locataire jusqu'à 5&nbsp;000&nbsp;$ pour les ménages éligibles"
     },
     "references": [
       {
@@ -1082,7 +1082,7 @@
     "party": "NDP",
     "title": {
       "en": "Build 50,000 affordable homes",
-      "fr": "Construire 50 000 logements abordables"
+      "fr": "Construire 50&nbsp;000 logements abordables"
     },
     "references": [
       {
@@ -1098,7 +1098,7 @@
     "party": "Green",
     "title": {
       "en": "Build 25,000 affordable homes",
-      "fr": "Construire 25 000 logements abordables"
+      "fr": "Construire 25&nbsp;000 logements abordables"
     },
     "references": [
       {
