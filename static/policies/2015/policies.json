@@ -4,7 +4,7 @@
     "party": "NDP",
     "title": {
       "en": "National $15/day daycare",
-      "fr": "?"
+      "fr": "Garderies à 15$ par jour à la grandeur du pays"
     },
     "references": [
       {
@@ -27,7 +27,7 @@
     "party": "NDP",
     "title": {
       "en": "Keep Universal Child Care Benefit",
-      "fr": "?"
+      "fr": "Préserver l'universalité du système de garde d'enfants"
     },
     "references": [
       {
@@ -55,7 +55,7 @@
     "party": "Conservative",
     "title": {
       "en": "Universal Child Care Benefit",
-      "fr": "?"
+      "fr": "Universalité du bénéfice de garde d'enfants"
     },
     "references": [
       {
@@ -77,7 +77,7 @@
     "party": "Liberal",
     "title": {
       "en": "Canada Child Benefit",
-      "fr": "?"
+      "fr": "Bénéfice pour les enfants du Canada"
     },
     "references": [
       {
@@ -100,7 +100,7 @@
     "party": "NDP",
     "title": {
       "en": "Repeal",
-      "fr": "?"
+      "fr": "Abroger"
     },
     "references": [
       {
@@ -159,7 +159,7 @@
     "party": "Conservative",
     "title": {
       "en": "Keep",
-      "fr": "?"
+      "fr": "Préserver"
     },
     "references": [
       {
@@ -200,7 +200,7 @@
     "party": "Liberal",
     "title": {
       "en": "Amend",
-      "fr": "?"
+      "fr": "Amender"
     },
     "references": [
       {
@@ -247,7 +247,7 @@
     "party": "NDP",
     "title": {
       "en": "Raise corporate taxes",
-      "fr": "?"
+      "fr": "Augmenter l'impôt des corporations"
     },
     "references": [
       {
@@ -276,7 +276,7 @@
     "party": "NDP",
     "title": {
       "en": "Remove stock option tax-benefit",
-      "fr": "?"
+      "fr": "Supprimer l'avantage fiscal sur les options d'achat d'actions"
     },
     "references": [
       {
@@ -299,7 +299,7 @@
     "party": "NDP",
     "title": {
       "en": "Lower small business tax",
-      "fr": "?"
+      "fr": "Diminuer l'impôt des petites entreprises"
     },
     "references": [
       {
@@ -328,7 +328,7 @@
     "party": "NDP",
     "title": {
       "en": "Remove income splitting",
-      "fr": "?"
+      "fr": "Supprimer le partage des revenues"
     },
     "references": [
       {
@@ -351,7 +351,7 @@
     "party": "NDP",
     "title": {
       "en": "Reduce TFSA contribution limit",
-      "fr": "?"
+      "fr": "Réduire la limite de contribution au CELI"
     },
     "references": [
       {
@@ -380,7 +380,7 @@
     "party": "Conservative",
     "title": {
       "en": "Home renovation tax credit",
-      "fr": "?"
+      "fr": "Crédit d'impôt à la rénovation"
     },
     "references": [
       {
@@ -408,7 +408,7 @@
     "party": "Conservative",
     "title": {
       "en": "Bump RRSP withdrawal limit",
-      "fr": "?"
+      "fr": "Augmenter la limite de RAP des REER"
     },
     "references": [
       {
@@ -437,7 +437,7 @@
     "party": "Conservative",
     "title": {
       "en": "Don't change TFSA contribution limit",
-      "fr": "?"
+      "fr": "Ne pas modifier la limite de contribution au CELI"
     },
     "references": [
       {
@@ -466,7 +466,7 @@
     "party": "Liberal",
     "title": {
       "en": "Lower middle-class taxes, new tax bracket above $200k",
-      "fr": "?"
+      "fr": "Diminer l'impôt de la classe moyenne, créer un nouvel échelon d'impôt pour les revenues de plus de $200k"
     },
     "references": [
       {
@@ -494,7 +494,7 @@
     "party": "Liberal",
     "title": {
       "en": "Remove income splitting",
-      "fr": "?"
+      "fr": "Supprimer le partage des revenues"
     },
     "references": [
       {
@@ -523,7 +523,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reduce TFSA contribution limit",
-      "fr": "?"
+      "fr": "Réduire la limite de contribution au CELI"
     },
     "references": [
       {
@@ -552,7 +552,7 @@
     "party": "NDP",
     "title": {
       "en": "Anti-TPP",
-      "fr": "?"
+      "fr": "Anti-PTP"
     },
     "references": [
       {
@@ -605,7 +605,7 @@
     "party": "Conservative",
     "title": {
       "en": "Pro-TPP",
-      "fr": "?"
+      "fr": "Pro-PTP"
     },
     "references": [
       {
@@ -658,7 +658,7 @@
     "party": "Liberal",
     "title": {
       "en": "Pro-TPP, but concerns over dairy concessions",
-      "fr": "?"
+      "fr": "Pro-PTP, mais inquiet des concessions dans le domaine de la production laitière"
     },
     "references": [
       {
@@ -711,7 +711,7 @@
     "party": "NDP",
     "title": {
       "en": "Lower emissions through cap-and-trade",
-      "fr": "?"
+      "fr": "Diminuer les émissions par un marché sur le carbone"
     },
     "references": [
       {
@@ -728,7 +728,7 @@
     "party": "NDP",
     "title": {
       "en": "Encourage renewable energy usage",
-      "fr": "?"
+      "fr": "Encourager la production d'énergie renouvelable"
     },
     "references": [
       {
@@ -745,7 +745,7 @@
     "party": "NDP",
     "title": {
       "en": "Mostly anti-pipeline",
-      "fr": "?"
+      "fr": "Généralement anti-pipeline"
     },
     "references": [
       {
@@ -780,7 +780,7 @@
     "party": "Conservative",
     "title": {
       "en": "Pro-pipeline",
-      "fr": "?"
+      "fr": "Pro-pipeline"
     },
     "references": [
       {
@@ -809,7 +809,7 @@
     "party": "Liberal",
     "title": {
       "en": "National carbon tax",
-      "fr": "?"
+      "fr": "Taxe nationale sur le carbone"
     },
     "references": [
       {
@@ -837,7 +837,7 @@
     "party": "Liberal",
     "title": {
       "en": "Focus on clean technology",
-      "fr": "?"
+      "fr": "Prioriser les technologies propres"
     },
     "references": [
       {
@@ -859,7 +859,7 @@
     "party": "Liberal",
     "title": {
       "en": "Pro-pipeline except Northern Gateway",
-      "fr": "?"
+      "fr": "Pro-oléoducs à l'exception du Northern Gateway"
     },
     "references": [
       {
@@ -882,7 +882,7 @@
     "party": "NDP",
     "title": {
       "en": "Abolish",
-      "fr": "?"
+      "fr": "Abolir"
     },
     "references": [
       {
@@ -905,7 +905,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reform",
-      "fr": "?"
+      "fr": "Réformer"
     },
     "references": [
       {
@@ -928,7 +928,7 @@
     "party": "Conservative",
     "title": {
       "en": "No new appointments",
-      "fr": "?"
+      "fr": "Aucun changement"
     },
     "references": [
       {
@@ -951,7 +951,7 @@
     "party": "NDP",
     "title": {
       "en": "Inquiry into missing and murdered women within 100 days of office",
-      "fr": "?"
+      "fr": "Enquête sur la disparition et l'assassinat des femmes autochtones dans les premiers 100 jours"
     },
     "references": [
       {
@@ -968,7 +968,7 @@
     "party": "Conservative",
     "title": {
       "en": "Do not support national inquiry",
-      "fr": "?"
+      "fr": "N'appuie pas d'enquête nationale"
     },
     "references": [
       {
@@ -985,7 +985,7 @@
     "party": "Conservative",
     "title": {
       "en": "Funding for training",
-      "fr": "?"
+      "fr": "Subvention pour la formation"
     },
     "references": [
       {
@@ -1002,7 +1002,7 @@
     "party": "Liberal",
     "title": {
       "en": "Inquiry into missing and murdered women",
-      "fr": "?"
+      "fr": "Enquête sur les femmes autochtones disparues et assassinées"
     },
     "references": [
       {
@@ -1018,7 +1018,7 @@
     "party": "Liberal",
     "title": {
       "en": "Invest in First Nations education",
-      "fr": "?"
+      "fr": "Investir dans l'éducation des Premières Nations"
     },
     "references": [
       {
@@ -1044,7 +1044,7 @@
     "party": "NDP",
     "title": {
       "en": "Negotiate better prices for prescription medication",
-      "fr": "?"
+      "fr": "Négocier pour des meilleurs prix sur les prescriptions médicales"
     },
     "references": [
       {
@@ -1067,7 +1067,7 @@
     "party": "NDP",
     "title": {
       "en": "Expand mental healthcare",
-      "fr": "?"
+      "fr": "Étendre la couverture médicale en santé mentale"
     },
     "references": [
       {
@@ -1090,7 +1090,7 @@
     "party": "NDP",
     "title": {
       "en": "National Alzheimer's and dementia strategy",
-      "fr": "?"
+      "fr": "Stratégie nationale sur la démence et l'Alzheimer"
     },
     "references": [
       {
@@ -1119,7 +1119,7 @@
     "party": "NDP",
     "title": {
       "en": "Better funding for doctors, nurses and clinics",
-      "fr": "?"
+      "fr": "Augmenter le financement des docteurs, des infirmières et des cliniques"
     },
     "references": [
       {
@@ -1142,7 +1142,7 @@
     "party": "Liberal",
     "title": {
       "en": "Negotiate better prices for prescription medication",
-      "fr": "?"
+      "fr": "Négocier de meilleurs prix pour les prescriptions médicales"
     },
     "references": [
       {
@@ -1163,7 +1163,7 @@
     "party": "Liberal",
     "title": {
       "en": "Expand mental healthcare",
-      "fr": "?"
+      "fr": "Étendre la couverture médicale pour la santé mentale"
     },
     "references": [
       {
@@ -1184,7 +1184,7 @@
     "party": "NDP",
     "title": {
       "en": "Better Transit Plan",
-      "fr": "?"
+      "fr": "Un meilleur plan pour le transport en commun"
     },
     "references": [
       {
@@ -1213,7 +1213,7 @@
     "party": "Conservative",
     "title": {
       "en": "Invest in building and renewing infrastructure",
-      "fr": "?"
+      "fr": "Investir dans la construction et la rénovation des infrastructure"
     },
     "references": [
       {
@@ -1230,7 +1230,7 @@
     "party": "Liberal",
     "title": {
       "en": "Federal infrastructure bank",
-      "fr": "?"
+      "fr": "Banque de l'infrastructure du Canada"
     },
     "references": [
       {
@@ -1246,7 +1246,7 @@
     "party": "Liberal",
     "title": {
       "en": "Double federal infrastructure investment",
-      "fr": "?"
+      "fr": "Doubler les investissements fédéral en investissement"
     },
     "references": [
       {
@@ -1269,7 +1269,7 @@
     "party": "Liberal",
     "title": {
       "en": "Invest in public transit",
-      "fr": "?"
+      "fr": "Investir dans le transport en commun"
     },
     "references": [
       {
@@ -1291,7 +1291,7 @@
     "party": "NDP",
     "title": {
       "en": "Withdraw from fight against ISIS",
-      "fr": "?"
+      "fr": "Se retirer de la lutte contre l'État islamique"
     },
     "references": [
       {
@@ -1314,7 +1314,7 @@
     "party": "NDP",
     "title": {
       "en": "Accept 10,000 refugees within 2015",
-      "fr": "?"
+      "fr": "Accepter 10 000 réfugiés en 2015"
     },
     "references": [
       {
@@ -1343,7 +1343,7 @@
     "party": "NDP",
     "title": {
       "en": "Increase foreign aid",
-      "fr": "?"
+      "fr": "Augmenter l'aide internationale"
     },
     "references": [
       {
@@ -1372,7 +1372,7 @@
     "party": "Conservative",
     "title": {
       "en": "Pursue long-term fight against ISIS",
-      "fr": "?"
+      "fr": "Poursuivre le combat de long terme contre l'État Islamique"
     },
     "references": [
       {
@@ -1395,7 +1395,7 @@
     "party": "Conservative",
     "title": {
       "en": "Accept 10,000 refugees over three years",
-      "fr": "?"
+      "fr": "Accepter 10 000 réfugiés d'ici 3 ans"
     },
     "references": [
       {
@@ -1424,7 +1424,7 @@
     "party": "Liberal",
     "title": {
       "en": "Train local soldiers against ISIS",
-      "fr": "?"
+      "fr": "Entraîner les troupes canadiennes pour combattre l'État Islamique"
     },
     "references": [
       {
@@ -1447,7 +1447,7 @@
     "party": "Liberal",
     "title": {
       "en": "Accept 25,000 refugees within 2015",
-      "fr": "?"
+      "fr": "Accepter 25 000 réfugiés d'ici 2015"
     },
     "references": [
       {
@@ -1476,7 +1476,7 @@
     "party": "NDP",
     "title": {
       "en": "Decriminalize",
-      "fr": "?"
+      "fr": "Décriminaliser"
     },
     "references": [
       {
@@ -1499,7 +1499,7 @@
     "party": "Conservative",
     "title": {
       "en": "Criminalize",
-      "fr": "?"
+      "fr": "Criminaliser"
     },
     "references": [
       {
@@ -1522,7 +1522,7 @@
     "party": "Liberal",
     "title": {
       "en": "Legalize",
-      "fr": "?"
+      "fr": "Légaliser"
     },
     "references": [
       {
@@ -1551,7 +1551,7 @@
     "party": "NDP",
     "title": {
       "en": "Increase funding and reduce OAS age requirement to 65",
-      "fr": "?"
+      "fr": "Augmenter le financement et abaisser l'âge de la retraite à 65 ans"
     },
     "references": [
       {
@@ -1567,7 +1567,7 @@
     "party": "NDP",
     "title": {
       "en": "Support income splitting for seniors",
-      "fr": "?"
+      "fr": "Appuie la séparation des revenues pour les personnes agées"
     },
     "references": [
       {
@@ -1583,7 +1583,7 @@
     "party": "Conservative",
     "title": {
       "en": "Single-seniors tax credit",
-      "fr": "?"
+      "fr": "Réduction d'impôt pour les personnes agées seules"
     },
     "references": [
       {
@@ -1599,7 +1599,7 @@
     "party": "Liberal",
     "title": {
       "en": "Increase funding for homecare",
-      "fr": "?"
+      "fr": "Augmenter le financement pour les soins à domicile"
     },
     "references": [
       {
@@ -1615,7 +1615,7 @@
     "party": "Liberal",
     "title": {
       "en": "Increase funding and reduce OAS and GIS age requirement to 65",
-      "fr": "?"
+      "fr": "Augmenter le financement et abaisser l'âge pour le revenu minimum garantie et la pension à 65 ans"
     },
     "references": [
       {
@@ -1631,7 +1631,7 @@
     "party": "Liberal",
     "title": {
       "en": "Support income splitting for seniors",
-      "fr": "?"
+      "fr": "Appuie le séparation des revenues pour les personnes agées"
     },
     "references": [
       {
@@ -1647,7 +1647,7 @@
     "party": "NDP",
     "title": {
       "en": "End interest on federal student loans",
-      "fr": "?"
+      "fr": "Supprimer les intérêts sur les prêts étudiant fédéraux"
     },
     "references": [
       {
@@ -1664,7 +1664,7 @@
     "party": "NDP",
     "title": {
       "en": "Provide protections for unpaid internships",
-      "fr": "?"
+      "fr": "Assurer une protection contre les stages non-rémunérés"
     },
     "references": [
       {
@@ -1687,7 +1687,7 @@
     "party": "Liberal",
     "title": {
       "en": "Invest in youth employment and opportunity",
-      "fr": "?"
+      "fr": "Investir dans l'emploi pour les jeunes"
     },
     "references": [
       {
@@ -1715,7 +1715,7 @@
     "party": "NDP",
     "title": {
       "en": "Mixed Member Parliament",
-      "fr": "?"
+      "fr": "Parlement à la proportielle mixte"
     },
     "references": [
       {
@@ -1738,7 +1738,7 @@
     "party": "Conservative",
     "title": {
       "en": "Require referendum for any reform",
-      "fr": "?"
+      "fr": "Exiger un référendum pour n'importe quelle réforme"
     },
     "references": [
       {
@@ -1755,7 +1755,7 @@
     "party": "Liberal",
     "title": {
       "en": "Committee to find best alternative",
-      "fr": "?"
+      "fr": "Mettre en place un comité pour trouver la meilleur alternative"
     },
     "references": [
       {
@@ -1782,7 +1782,7 @@
     "party": "NDP",
     "title": {
       "en": "Create Parliamentary Science Officer",
-      "fr": "?"
+      "fr": "Créer le poste d'agent scientifique parlementaire"
     },
     "references": [
       {
@@ -1811,7 +1811,7 @@
     "party": "NDP",
     "title": {
       "en": "Create Chief Science Officer",
-      "fr": "?"
+      "fr": "Créer le poste d'agent scientifique en chef"
     },
     "references": [
       {
