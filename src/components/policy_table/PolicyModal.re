@@ -46,7 +46,12 @@ module ReferenceModal = {
       T.Topic.to_str(policy.topic) ++ " - " ++ T.Party.to_str(policy.party);
 
     <div className="policyModal">
-      <div className="modal--content">
+      <div className="modal--content reference-modal--content">
+        <a
+          href="#"
+          className="reference-modal--close modal--close"
+          onClick=onModalClose
+        />
         <div className="modal--headingContainer">
           <div className="modal--headingInfo">
             <div className="modal--topicBox">
@@ -77,13 +82,6 @@ module ReferenceModal = {
           </ul>
         </div>
       </div>
-      <aside className="reference-modal--sidebar">
-        <a
-          href="#"
-          className="reference-modal--close modal--close"
-          onClick=onModalClose
-        />
-      </aside>
     </div>;
   };
 };
@@ -122,6 +120,7 @@ module FullContextModal = {
 
     <div className="policyModal">
       <div className="modal--content">
+        <a href="#" className="modal--close" onClick=onModalClose />
         <div className="modal--headingContainer">
           <div className="modal--headingInfo">
             <div className="modal--topicBox">
@@ -141,7 +140,6 @@ module FullContextModal = {
         />
       </div>
       <aside className="modal--sidebar">
-        <a href="#" className="modal--close" onClick=onModalClose />
         <h2 className="modal--heading modal--heading__secondary">
           "References"->React.string
         </h2>
