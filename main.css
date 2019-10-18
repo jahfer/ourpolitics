@@ -34,12 +34,16 @@
 
 .list-plain {
   list-style-type: none;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
   .list-plain li {
     padding: 0.5rem 0; }
 
 .block-center {
   margin: 0 auto; }
+
+.text-block ul {
+  padding-left: 40px; }
 
 .policyTable {
   display: flex;
@@ -401,6 +405,9 @@ a, a:visited {
   .modal--details h4 {
     font-style: italic; }
 
+.reference-modal--sidebar {
+  padding: 21px; }
+
 .modal--sidebar {
   padding: 21px;
   background: #303030;
@@ -423,6 +430,9 @@ a, a:visited {
 .reference {
   list-style: none;
   margin-bottom: 15px; }
+  .reference a:hover {
+    text-decoration: underline;
+    border: 0; }
 
 .reference--list {
   padding-left: 0; }
@@ -431,8 +441,6 @@ a, a:visited {
   font-size: 0.8em;
   margin: 0;
   color: #ddd; }
-  .reference--title:hover {
-    text-decoration: underline; }
 
 .reference--meta {
   font-size: 0.65em;
@@ -448,7 +456,9 @@ a, a:visited {
     max-width: 1000px;
     background: #303030;
     overflow: hidden;
-    border-radius: 4px; } }
+    border-radius: 4px; }
+  .policyReferenceModal--content {
+    max-width: 570px; } }
 
 @media screen and (min-width: 800px) {
   .ReactModal__Content {
@@ -484,18 +494,22 @@ a, a:visited {
       padding: 6px 10px;
       margin-right: -10px; }
     .modal--close:hover::before {
-      color: #ffbd00; } }
+      color: #ffbd00; }
+  .reference-modal--close::before {
+    color: #ffbd00; }
+  .reference-modal--close:hover::before {
+    color: #222; } }
 
 a {
-  text-decoration: none;
-  padding: 0.125em 0.2em; }
+  text-decoration: none; }
+  a.styled {
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 0.125em 0.2em; }
   a:hover {
-    border-bottom: 1px solid #d2d2c9;
-    border-radius: 4px; }
-  a.styled:hover, .text-block a:hover {
-    border-width: 2px;
-    border-color: #0066cc;
-    background: #fff; }
+    border-bottom: 2px solid #d2d2c9; }
+  .text-block a:hover {
+    border-color: #0066cc; }
 
 ul {
   padding-left: 0; }
