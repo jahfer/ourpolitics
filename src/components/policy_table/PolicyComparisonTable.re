@@ -83,7 +83,7 @@ let make = (~policy_handle=?, ~year=2019) => {
     () => {
       let promise =
         Js.Promise.(
-          Fetch.fetch({j|/static/policies/$year/policies.json?v=2|j})
+          Fetch.fetch({j|/static/policies/$year/policies.json?v=3|j})
           |> then_(Fetch.Response.json)
           |> then_(json => {
                let parsed_data =
