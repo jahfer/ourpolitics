@@ -1,8 +1,14 @@
 type action =
+  | ReferenceModalOpen(Schema.policy)
   | ModalOpen(string)
   | ModalClose;
 
+type modal_type =
+  | FullContextModal
+  | ReferenceModal;
+
 type state = {
+  modal_type,
   visible: bool,
   policy: option(Schema.policy),
 };

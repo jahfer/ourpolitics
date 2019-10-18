@@ -9,7 +9,10 @@ module Strings = {
   let archives = {en: "Archives", fr: {js|Archives|js}};
   let language = {en: "en", fr: "fr"};
   let about = {en: "About", fr: {js|À propos|js}};
-  let privacy_policy = {en: "Privacy Policy", fr: {js|Politique de confidentialité|js}};
+  let privacy_policy = {
+    en: "Privacy Policy",
+    fr: {js|Politique de confidentialité|js},
+  };
 
   let liberals = {en: "Liberals", fr: {js|Libéral|js}};
   let conservatives = {en: "Conservatives", fr: "Conservateur"};
@@ -20,12 +23,21 @@ module Strings = {
   let confidence = {en: "Confidence", fr: {js|Confiance|js}};
   let effort = {en: "Effort", fr: {js|Effort|js}};
 
-  let foreign_policy = {en: "Foreign Policy", fr: {js|Affaires étrangères|js}};
+  let foreign_policy = {
+    en: "Foreign Policy",
+    fr: {js|Affaires étrangères|js},
+  };
   let taxes = {en: "Taxes", fr: {js|Taxes et impôts|js}};
-  let international_trade = {en: "International Trade", fr: {js|Commerce international|js}};
+  let international_trade = {
+    en: "International Trade",
+    fr: {js|Commerce international|js},
+  };
   let environment = {en: "Environment", fr: {js|Environnement|js}};
   let government = {en: "Government", fr: {js|Gouvernement|js}};
-  let indigenous_relations = {en: "Indigenous Relations", fr: {js|Peuples autochtones|js}};
+  let indigenous_relations = {
+    en: "Indigenous Relations",
+    fr: {js|Peuples autochtones|js},
+  };
   let healthcare = {en: "Health Care", fr: {js|Soins de santé|js}};
   let infrastructure = {en: "Infrastructure", fr: {js|Infrastructures|js}};
   let science = {en: "Science", fr: {js|Science|js}};
@@ -35,7 +47,10 @@ module Strings = {
   let social_assistance = {en: "Social Assistance", fr: {js|Aide sociale|js}};
   let youth = {en: "Youth", fr: {js|Jeunesse|js}};
   let senate = {en: "Senate", fr: {js|Sénat|js}};
-  let electoral_reform = {en: "Electoral Reform", fr: {js|Réforme électorale|js}};
+  let electoral_reform = {
+    en: "Electoral Reform",
+    fr: {js|Réforme électorale|js},
+  };
   let public_safety = {en: "Public Safety", fr: {js|Sécurité publique|js}};
   let education = {en: "Education", fr: {js|Éducation|js}};
   let housing = {en: "Housing", fr: {js|Logement|js}};

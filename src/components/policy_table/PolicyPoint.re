@@ -10,7 +10,7 @@ let make = (~policy: Schema.policy) => {
 
   let policy_click = () => {
     switch (policy.handle) {
-    | None => ()
+    | None => ReferenceModalOpen(policy)->dispatch
     | Some(path) =>
       ModalOpen(path)->dispatch;
       let url_path = "/policies/" ++ path;
@@ -25,24 +25,16 @@ let make = (~policy: Schema.policy) => {
     |> T.Text.to_str
     |> Js.String.replaceByRe(
          [%bs.re
-           "/([$><+]*?[0-9]+.?,?[0-9-]*\/?(%|k|( ?(years?|days?|hours?|billion|million))*))/g"
+           "/([$><+]*?[0-9]+\.?,?[0-9-]*\/?(&nbsp;)?(%|\$|k|( ?(years?|days?|hours?|billions?|millions?|milliards))*))/g"
          ],
          {|<span class="text-em">$1</span>|},
        );
 
-  switch (policy.handle) {
-  | None =>
-    <li
-      className="policyPoint"
+  <li className="policyPoint">
+    <a
+      className="policyPoint--link"
+      onClick={_ => policy_click()}
       dangerouslySetInnerHTML={formattedPolicyTitle->Utils.dangerousHtml}
     />
-  | Some(_) =>
-    <li className="policyPoint">
-      <a
-        className="policyPoint--link"
-        onClick={_ => policy_click()}
-        dangerouslySetInnerHTML={formattedPolicyTitle->Utils.dangerousHtml}
-      />
-    </li>
-  };
+  </li>;
 };

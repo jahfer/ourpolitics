@@ -1,16 +1,18 @@
 a {
   text-decoration: none;
-  padding: 0.125em 0.2em;
 
-  &:hover {
-    border-bottom: 1px solid #d2d2c9;
+  &.styled {
     border-radius: 4px;
+    border-width: 1px;
+    padding: 0.125em 0.2em;
   }
 
-  &.styled:hover, .text-block &:hover {
-    border-width: 2px;
+  &:hover {
+    border-bottom: 2px solid #d2d2c9;
+  }
+
+  .text-block &:hover {
     border-color: rgb(0, 102, 204);
-    background: #fff;
   }
 }
 

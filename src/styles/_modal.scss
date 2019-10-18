@@ -98,6 +98,10 @@ $color-cream: #f9f9f1;
   h4 { font-style: italic; }
 }
 
+.reference-modal--sidebar {
+  padding: 21px;
+}
+
 .modal--sidebar {
   padding: 21px;
   background: #303030;
@@ -127,6 +131,11 @@ $color-cream: #f9f9f1;
 .reference {
   list-style: none;
   margin-bottom: 15px;
+
+  a:hover {
+    text-decoration: underline;
+    border: 0;
+  }
 }
 
 .reference--list {
@@ -137,10 +146,6 @@ $color-cream: #f9f9f1;
   font-size: 0.8em;
   margin: 0;
   color: #ddd;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 .reference--meta {
@@ -159,6 +164,10 @@ $color-cream: #f9f9f1;
     background: #303030;
     overflow: hidden;
     border-radius: 4px;
+  }
+
+  .policyReferenceModal--content {
+    max-width: 570px;
   }
 }
 
@@ -209,6 +218,16 @@ $color-cream: #f9f9f1;
 
     &:hover::before {
       color: #ffbd00;
+    }
+  }
+
+  .reference-modal--close {
+    &::before { 
+      color: #ffbd00;
+    }
+
+    &:hover::before {
+      color: #222;
     }
   }
 }

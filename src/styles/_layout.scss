@@ -19,6 +19,7 @@
 .list-plain {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 
   li {
     padding: 0.5rem 0;
@@ -27,6 +28,12 @@
 
 .block-center {
   margin: 0 auto;
+}
+
+.text-block {
+  ul {
+    padding-left: 40px;
+  }
 }
 
 .policyTable {

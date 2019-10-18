@@ -15,6 +15,7 @@ let make = () => {
         <li>
           <a
             href="/policies/2019"
+            className="styled"
             onClick={"/policies/2019"->Utils.Router.push(~language)}>
             {Content.Strings.policy_comparison_title(~year=2019)
              ->T.Text.react_string}
@@ -23,6 +24,7 @@ let make = () => {
         <li>
           <a
             href="/policies/2015"
+            className="styled"
             onClick={"/policies/2015"->Utils.Router.push(~language)}>
             {Content.Strings.policy_comparison_title(~year=2015)
              ->T.Text.react_string}
@@ -30,11 +32,17 @@ let make = () => {
         </li>
       </ul>
       <p>
-        <a href="/about" onClick={"/about"->Utils.Router.push(~language)}>
+        <a
+          href="/about"
+          className="styled"
+          onClick={"/about"->Utils.Router.push(~language)}>
           Content.Strings.about->T.Text.react_string
         </a>
         {j|·|j}->React.string
-        <a href="/privacy" onClick={"/privacy"->Utils.Router.push(~language)}>
+        <a
+          href="/privacy"
+          className="styled"
+          onClick={"/privacy"->Utils.Router.push(~language)}>
           Content.Strings.privacy_policy->T.Text.react_string
         </a>
       </p>

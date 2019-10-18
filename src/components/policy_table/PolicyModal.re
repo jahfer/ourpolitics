@@ -32,6 +32,129 @@ module Reference = {
     </li>;
 };
 
+module ReferenceModal = {
+  [@react.component]
+  let make = (~policy: Schema.policy, ~onModalClose) => {
+    let language = React.useContext(LanguageContext.ctx);
+
+    module T =
+      Strings.Translations({
+        let language = language;
+      });
+
+    let topic_title =
+      T.Topic.to_str(policy.topic) ++ " - " ++ T.Party.to_str(policy.party);
+
+    <div className="policyModal">
+      <div className="modal--content">
+        <div className="modal--headingContainer">
+          <div className="modal--headingInfo">
+            <div className="modal--topicBox">
+              <p> topic_title->React.string </p>
+            </div>
+          </div>
+        </div>
+        <h1
+          className="modal--heading modal--heading__primary"
+          dangerouslySetInnerHTML={
+            policy.title->T.Text.to_str->Utils.dangerousHtml
+          }
+        />
+        <div className="text-block">
+          <ul className="reference--list list-plain">
+            {{policy.references
+              |> Array.map((ref: Schema.reference) =>
+                   <li>
+                     <a target="_blank" href={ref.url}>
+                       ref.title->React.string
+                     </a>
+                     <div className="reference--meta">
+                       ref.publisher->React.string
+                     </div>
+                   </li>
+                 )}
+             ->React.array}
+          </ul>
+        </div>
+      </div>
+      <aside className="reference-modal--sidebar">
+        <a
+          href="#"
+          className="reference-modal--close modal--close"
+          onClick=onModalClose
+        />
+      </aside>
+    </div>;
+  };
+};
+
+module FullContextModal = {
+  [@react.component]
+  let make = (~policy: Schema.policy, ~onModalClose) => {
+    let language = React.useContext(LanguageContext.ctx);
+
+    module T =
+      Strings.Translations({
+        let language = language;
+      });
+
+    let topic_title =
+      T.Topic.to_str(policy.topic) ++ " - " ++ T.Party.to_str(policy.party);
+
+    let (content, setContent) = React.useState(() => "");
+
+    React.useEffect2(
+      () =>
+        switch (policy.handle) {
+        | None => None
+        | Some(path) =>
+          let contentPath = Content.pathToContent(path)->T.Text.to_str;
+          let _ =
+            Js.Promise.(
+              Fetch.fetch(contentPath)
+              |> then_(Fetch.Response.text)
+              |> then_(html => setContent(_ => html) |> resolve)
+            );
+          Some(_ => setContent(_ => ""));
+        },
+      (policy, language),
+    );
+
+    <div className="policyModal">
+      <div className="modal--content">
+        <div className="modal--headingContainer">
+          <div className="modal--headingInfo">
+            <div className="modal--topicBox">
+              <p> topic_title->React.string </p>
+            </div>
+          </div>
+        </div>
+        <h1
+          className="modal--heading modal--heading__primary"
+          dangerouslySetInnerHTML={
+            policy.title->T.Text.to_str->Utils.dangerousHtml
+          }
+        />
+        <div
+          className="modal--details"
+          dangerouslySetInnerHTML={content->Utils.dangerousHtml}
+        />
+      </div>
+      <aside className="modal--sidebar">
+        <a href="#" className="modal--close" onClick=onModalClose />
+        <h2 className="modal--heading modal--heading__secondary">
+          "References"->React.string
+        </h2>
+        <ul className="reference--list">
+          {{policy.references
+            |> Array.map(ref => <Reference key={ref.url} source=ref />)}
+           ->React.array}
+        </ul>
+      </aside>
+    </div>;
+  };
+};
+
 let getPartyHexColour = (party: Schema.party) => {
   switch (party) {
   | Schema.Liberal => "rgba(215,25,32,0.8)"
@@ -42,16 +165,19 @@ let getPartyHexColour = (party: Schema.party) => {
 };
 
 [@react.component]
-let make = (~policy: Schema.policy, ~isOpen: bool) => {
+let make =
+    (
+      ~policy: Schema.policy,
+      ~isOpen: bool,
+      ~modal_type: PolicyModalDispatch.modal_type,
+    ) => {
+  let dispatch = React.useContext(PolicyModalDispatch.ctx);
   let language = React.useContext(LanguageContext.ctx);
 
   module T =
     Strings.Translations({
       let language = language;
     });
-
-  let topic_title =
-    T.Topic.to_str(policy.topic) ++ " - " ++ T.Party.to_str(policy.party);
 
   let style =
     Modal.styles(
@@ -61,26 +187,17 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
         ),
     );
 
-  let (content, setContent) = React.useState(() => "");
-
-  React.useEffect2(
-    () =>
-      switch (policy.handle) {
-      | None => None
-      | Some(path) =>
-        let contentPath = Content.pathToContent(path)->T.Text.to_str;
-        let _ =
-          Js.Promise.(
-            Fetch.fetch(contentPath)
-            |> then_(Fetch.Response.text)
-            |> then_(html => setContent(_ => html) |> resolve)
-          );
-        Some(_ => setContent(_ => ""));
-      },
-    (policy, language),
-  );
-
-  let back = () => [%raw {|window.history.back()|}];
+  let back = () => {
+    PolicyModalDispatch.(
+      switch (modal_type) {
+      | ReferenceModal => ModalClose->dispatch
+      | FullContextModal =>
+        Js.log("Full context modal");
+        %raw
+        {|window.history.back()|};
+      }
+    );
+  };
 
   let close_modal = event => {
     ReactEvent.Synthetic.preventDefault(event);
@@ -88,59 +205,16 @@ let make = (~policy: Schema.policy, ~isOpen: bool) => {
     ();
   };
 
-  /*let rce_text =
-    Belt.Option.mapWithDefault(
-      policy.rce, React.null, ({reach, confidence, effort}) =>
-      <ul className="list-plain">
-        <li>
-          {{T.Text.to_str(Content.Strings.reach)
-            ++ ": "
-            ++ reach->string_of_int}
-           ->React.string}
-        </li>
-        <li>
-          {{T.Text.to_str(Content.Strings.confidence)
-            ++ ": "
-            ++ confidence->string_of_int}
-           ->React.string}
-        </li>
-        <li>
-          {{T.Text.to_str(Content.Strings.effort)
-            ++ ": "
-            ++ effort->string_of_int}
-           ->React.string}
-        </li>
-      </ul>
-    );*/
+  let modalClasses =
+    switch (modal_type) {
+    | FullContextModal => "policyModal--content"
+    | ReferenceModal => "policyModal--content policyReferenceModal--content"
+    };
 
-  <Modal isOpen style className="policyModal--content" onRequestClose=back>
-    <div className="policyModal">
-      <div className="modal--content">
-        <div className="modal--headingContainer">
-          <div className="modal--headingInfo">
-            <div className="modal--topicBox">
-              <p> topic_title->React.string </p>
-            </div>
-          </div>
-        </div>
-        <h1 className="modal--heading modal--heading__primary">
-          {T.Text.react_string(policy.title)}
-        </h1>
-        <div
-          className="modal--details"
-          dangerouslySetInnerHTML={content->Utils.dangerousHtml}
-        />
-      </div>
-      <aside className="modal--sidebar">
-        <a href="#" className="modal--close" onClick=close_modal />
-        <h2 className="modal--heading modal--heading__secondary">
-          "References"->React.string
-        </h2>
-        <ul className="reference--list">
-          {{policy.references |> Array.map(ref => <Reference source=ref />)}
-           ->React.array}
-        </ul>
-      </aside>
-    </div>
+  <Modal isOpen style className=modalClasses onRequestClose=back>
+    {switch (modal_type) {
+     | FullContextModal => <FullContextModal policy onModalClose=close_modal />
+     | ReferenceModal => <ReferenceModal policy onModalClose=close_modal />
+     }}
   </Modal>;
 };

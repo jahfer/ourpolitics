@@ -110,12 +110,22 @@ let make = (~policy_handle=?, ~year=2019) => {
     React.useReducer(
       (state, action) =>
         switch (action) {
+        | PolicyModalDispatch.ReferenceModalOpen(policy) =>
+          PolicyModalDispatch.{
+            modal_type: ReferenceModal,
+            visible: true,
+            policy: Some(policy),
+          }
         | PolicyModalDispatch.ModalOpen(policy_handle) =>
           let policy = policyIndex |> StringMap.find(policy_handle);
-          PolicyModalDispatch.{visible: true, policy: Some(policy)};
+          PolicyModalDispatch.{
+            modal_type: FullContextModal,
+            visible: true,
+            policy: Some(policy),
+          };
         | PolicyModalDispatch.ModalClose => {...state, visible: false}
         },
-      {visible: false, policy: None},
+      {modal_type: FullContextModal, visible: false, policy: None},
     );
 
   React.useEffect2(
@@ -149,7 +159,12 @@ let make = (~policy_handle=?, ~year=2019) => {
 
   <PolicyModalDispatch dispatch>
     {switch (modalState.policy) {
-     | Some(policy) => <PolicyModal policy isOpen={modalState.visible} />
+     | Some(policy) =>
+       <PolicyModal
+         modal_type={modalState.modal_type}
+         policy
+         isOpen={modalState.visible}
+       />
      | None => React.null
      }}
     // <ul className="list-plain">
