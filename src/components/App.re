@@ -37,7 +37,7 @@ let make = () => {
         year={int_of_string(year)}
         policy_handle={j|$year/$policy|j}
       />;
-    | ["policies"] => <Redirect path="/policies/2015" />
+    | ["policies"] => <Utils.SilentRedirect path="/policies/2019" />
     | ["about"] => <AboutIndex />
     | ["privacy"] => <PrivacyIndex />
     | [] => <SplashIndex />

@@ -56,3 +56,12 @@ module Router = {
     push_route(~language, path);
   };
 };
+
+module SilentRedirect = {
+  [@react.component]
+  let make = (~path) => {
+    let language = React.useContext(LanguageContext.ctx);
+    Router.replace_route(~language, path);
+    React.null;
+  };
+};
