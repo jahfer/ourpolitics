@@ -9,6 +9,8 @@ module Strings = {
   let archives = {en: "Archives", fr: {js|Archives|js}};
   let language = {en: "en", fr: "fr"};
   let about = {en: "About", fr: {js|À propos|js}};
+  let climate = {en: "Climate", fr: {js|?|js}}; // TODO
+  let elections = {en: "Elections", fr: {js|?|js}}; // TODO
   let privacy_policy = {
     en: "Privacy Policy",
     fr: {js|Politique de confidentialité|js},

@@ -1,12 +1,21 @@
-[@bs.module]
-external page_content_en: string =
-  "!html-loader!markdown-loader!./page_content/splash_index.en.md";
+module LinkedCardRow = {
+  [@react.component]
+  let make = (~children) => {
+    <ul className="card-row list-plain text-large">
+      children
+    </ul>
+  }
+}
 
-[@bs.module]
-external page_content_fr: string =
-  "!html-loader!markdown-loader!./page_content/splash_index.fr.md";
-
-let page_content = I18n.{en: page_content_en, fr: page_content_fr};
+module LinkedCard = {
+  [@react.component]
+  let make = (~path, ~children) => {
+  let language = React.useContext(LanguageContext.ctx);
+    <a className="card shadow-on-hover text-center no-border" href=path onClick={Utils.Router.push(~language, path)}> 
+      <li>children</li>
+    </a>
+  }
+}
 
 [@react.component]
 let make = () => {
@@ -17,13 +26,15 @@ let make = () => {
     });
 
   <>
-    <section className="section">
-      <article
-        className="text-block block-center text-center text-large pb-3"
-        dangerouslySetInnerHTML={
-          T.Text.to_str(page_content)->Utils.dangerousHtml
-        }
-      />
-    </section>
+    <nav className="section">
+      <LinkedCardRow>
+        <LinkedCard path="/policies">
+          Content.Strings.elections->T.Text.react_string
+        </LinkedCard>
+        <LinkedCard path="/climate">
+          Content.Strings.climate->T.Text.react_string
+        </LinkedCard>
+      </LinkedCardRow>
+    </nav>
   </>;
 };

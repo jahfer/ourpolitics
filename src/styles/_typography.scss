@@ -11,6 +11,10 @@ a {
     border-bottom: 2px solid #d2d2c9;
   }
 
+  &.no-border:hover {
+    border-bottom: none;
+  }
+
   .text-block &:hover {
     border-color: rgb(0, 102, 204);
   }

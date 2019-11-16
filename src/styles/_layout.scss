@@ -90,6 +90,15 @@
   }
 }
 
+.card-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  flex: 1;
+}
+
 @media screen and (min-width: 650px) {
   .policyTable {
     .policyCell {

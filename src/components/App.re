@@ -1,12 +1,3 @@
-module Redirect = {
-  [@react.component]
-  let make = (~path) => {
-    let language = React.useContext(LanguageContext.ctx);
-    Utils.Router.push_route(~language, path);
-    React.null;
-  };
-};
-
 let selectLanguage =
   fun
   | "fr" => I18n.FR
@@ -38,6 +29,7 @@ let make = () => {
         policy_handle={j|$year/$policy|j}
       />;
     | ["policies"] => <Utils.SilentRedirect path="/policies/2019" />
+    | ["climate"] => <ClimateIndex />
     | ["about"] => <AboutIndex />
     | ["privacy"] => <PrivacyIndex />
     | [] => <SplashIndex />

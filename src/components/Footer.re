@@ -6,7 +6,7 @@ let make = () => {
       let language = language;
     });
 
-  <footer className="section bg-light-alt footer pb-1">
+  <footer className="section bg-alt footer pb-1">
     <div className="container">
       <h2 className="subheading">
         {T.Text.react_string(Content.Strings.archives)}

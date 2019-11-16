@@ -1,5 +1,5 @@
 /* styling */
-$color-cream: #f9f9f1;
+$color-cream: #f2f2ee;
 
 $gutter-width: 20px;
 
@@ -58,7 +58,7 @@ a, a:visited {
   border-top: 1px solid #DCDCD5;
 }
 
-.bg-light-alt {
+.bg-alt {
   background-color: #e8e8df;
   color: #4C4C42;
   a { 
@@ -66,6 +66,28 @@ a, a:visited {
     &:hover {  
       background: #fff;
     }
+  }
+}
+
+.card-row {
+  margin-bottom: 1em;
+}
+
+.card {
+  padding: 1em;
+  margin: 1em;
+  background: #f8f8f5;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &::last-of-type {
+    margin-right: 0;
+  }
+
+  &, &::after {
+    border-radius: 5px;
   }
 }
 
@@ -273,6 +295,27 @@ a, a:visited {
   height: 64px;
   text-align: center;
   background: url('../img/spinner.gif') no-repeat center center;
+}
+
+.shadow-on-hover {
+  box-shadow: 0 1px 2px rgba(0,0,0,0);
+  position: relative;
+}
+.shadow-on-hover::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  left: 0;
+  top: 0;
+	mix-blend-mode: multiply;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: opacity 0.3s ease-in-out;
+}
+.shadow-on-hover:hover::after {
+  opacity: 1;
 }
 
 @media screen and (min-width: 650px) {
