@@ -25,7 +25,7 @@ let make = (~policy: Schema.policy) => {
     |> T.Text.to_str
     |> Js.String.replaceByRe(
          [%bs.re
-           "/([$><+]*?[0-9]+\.?,?[0-9-]*\/?(&nbsp;)?(%|\$|k|( ?(years?|days?|hours?|billions?|millions?|milliards))*))/g"
+           "/([$><+]*?[0-9]+\\.?,?[0-9-]*\\/?(&nbsp;)?(%|\\$|k|( ?(years?|days?|hours?|billions?|millions?|milliards))*))/g"
          ],
          {|<span class="text-em">$1</span>|},
        );
