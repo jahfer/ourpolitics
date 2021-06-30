@@ -42,7 +42,7 @@ let make = (~policy_handle=?, ~year=2019) => {
     React.useState(() => PolicyTable.Dataset.empty);
   let (parties, setParties) = React.useState(() => []);
   let (deferUntil, setDeferUntil) = React.useState(() => None);
-  let (topics, setTopics) = React.useState(() => Schema.TopicSet.empty);
+  let (_topics, setTopics) = React.useState(() => Schema.TopicSet.empty);
   let (topicFilter, setTopicFilter) =
     React.useState(() => Schema.TopicSet.empty);
 
@@ -83,7 +83,7 @@ let make = (~policy_handle=?, ~year=2019) => {
     () => {
       let promise =
         Js.Promise.(
-          Fetch.fetch({j|/static/policies/$year/policies.json?v=3|j})
+          Cacheable.fetch("policies-v3", {j|/static/policies/$year/policies.json?v=3|j})
           |> then_(Fetch.Response.json)
           |> then_(json => {
                let parsed_data =

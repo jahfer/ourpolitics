@@ -109,7 +109,7 @@ module FullContextModal = {
           let contentPath = Content.pathToContent(path)->T.Text.to_str;
           let _ =
             Js.Promise.(
-              Fetch.fetch(contentPath)
+              Cacheable.fetch("details-v1", contentPath)
               |> then_(Fetch.Response.text)
               |> then_(html => setContent(_ => html) |> resolve)
             );
