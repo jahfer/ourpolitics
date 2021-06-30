@@ -37,6 +37,7 @@ module.exports = {
     }),
     new CopyPlugin([
       { from: 'CNAME', to: outputDir },
+      { from: 'robots.txt', to: outputDir },
       { from: '_redirects', to: outputDir },
       { from: 'src/404.html', to: outputDir },
       { from: 'static/**/*', to: outputDir },
