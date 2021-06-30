@@ -40,7 +40,7 @@ let make = () => {
     | ["policies"] => <Utils.SilentRedirect path="/policies/2019" />
     | ["about"] => <AboutIndex />
     | ["privacy"] => <PrivacyIndex />
-    | [] => <SplashIndex />
+    | [] => <Utils.SilentRedirect path="/policies/2019" />
     | _ => <PageNotFound />
     };
 
