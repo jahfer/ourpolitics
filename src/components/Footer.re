@@ -12,24 +12,19 @@ let make = () => {
         {T.Text.react_string(Content.Strings.archives)}
       </h2>
       <ul className="list-plain text-large">
-        <li>
-          <a
-            href="/policies/2019"
-            className="styled"
-            onClick={"/policies/2019"->Utils.Router.push(~language)}>
-            {Content.Strings.policy_comparison_title(~year=2019)
-             ->T.Text.react_string}
-          </a>
-        </li>
-        <li>
-          <a
-            href="/policies/2015"
-            className="styled"
-            onClick={"/policies/2015"->Utils.Router.push(~language)}>
-            {Content.Strings.policy_comparison_title(~year=2015)
-             ->T.Text.react_string}
-          </a>
-        </li>
+        {
+          [| 2019, 2015 |] |> Array.map (fun (year) => 
+            <li>
+              <a
+                href={j|/policies/$year|j}
+                className="styled"
+                onClick={{j|/policies/$year|j}->Utils.Router.push(~language)}>
+                {Content.Strings.policy_comparison_title(~year=year)
+                ->T.Text.react_string}
+              </a>
+            </li>
+          ) |> React.array
+        }
       </ul>
       <p>
         <a

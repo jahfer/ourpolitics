@@ -86,8 +86,7 @@ let make = (~policy_handle=?, ~year=2019) => {
           Cacheable.fetch("policies-v3", {j|/static/policies/$year/policies.json?v=3|j})
           |> then_(Fetch.Response.json)
           |> then_(json => {
-               let parsed_data =
-                 json |> Json.Decode.list(Schema.Decode.policy);
+               let parsed_data = json |> Json.Decode.list(Schema.Decode.policy);
 
                setTableDataset(_ =>
                  PolicyTable.dataset_of_policies(parsed_data)
