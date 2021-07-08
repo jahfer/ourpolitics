@@ -2,7 +2,7 @@ type party =
   | Liberal
   | Conservative
   | NDP
-  | Green;
+  | Green
 
 type topic =
   | ForeignPolicy
@@ -24,82 +24,81 @@ type topic =
   | Youth
   | Education
   | Housing
-  | Affordability;
+  | Affordability
 
 type reference = {
-  date: option(string),
+  date: option<string>,
   publisher: string,
   title: string,
   url: string,
-};
+}
 
 type rce = {
   reach: int,
   confidence: int,
   effort: int,
-};
+}
 
 type policy = {
-  topic,
+  topic: topic,
   title: I18n.text,
-  party,
-  references: array(reference),
-  handle: option(string),
-  rce: option(rce),
-};
+  party: party,
+  references: array<reference>,
+  handle: option<string>,
+  rce: option<rce>,
+}
 
-module TopicMap =
-  Map.Make({
-    type t = topic;
+module TopicMap = Map.Make({
+  type t = topic
 
-    let compare_topics =
-      fun
-      | ChildCare => 1
-      | C51 => 2
-      | Taxes => 3
-      | InternationalTrade => 4
-      | Environment => 5
-      | Senate => 6
-      | Government => 7
-      | Affordability => 8
-      | Healthcare => 9
-      | Infrastructure => 10
-      | ForeignPolicy => 11
-      | Cannabis => 12
-      | SocialAssistance => 13
-      | Youth => 14
-      | ElectoralReform => 15
-      | PublicSafety => 16
-      | Education => 17
-      | Housing => 18
-      | Science => 19
-      | IndigenousRelations => 20;
+  let compare_topics = x =>
+    switch x {
+    | ChildCare => 1
+    | C51 => 2
+    | Taxes => 3
+    | InternationalTrade => 4
+    | Environment => 5
+    | Senate => 6
+    | Government => 7
+    | Affordability => 8
+    | Healthcare => 9
+    | Infrastructure => 10
+    | ForeignPolicy => 11
+    | Cannabis => 12
+    | SocialAssistance => 13
+    | Youth => 14
+    | ElectoralReform => 15
+    | PublicSafety => 16
+    | Education => 17
+    | Housing => 18
+    | Science => 19
+    | IndigenousRelations => 20
+    }
 
-    let compare = (a, b) => compare_topics(a) - compare_topics(b);
-  });
+  let compare = (a, b) => compare_topics(a) - compare_topics(b)
+})
 
-module PartySet =
-  Set.Make({
-    type t = party;
-    let compare = compare;
-  });
+module PartySet = Set.Make({
+  type t = party
+  let compare = compare
+})
 
-module TopicSet =
-  Set.Make({
-    type t = topic;
-    let compare = compare;
-  });
+module TopicSet = Set.Make({
+  type t = topic
+  let compare = compare
+})
 
 module Encode = {
-  let party =
-    fun
+  let party = x =>
+    switch x {
     | Liberal => Content.Strings.liberals
     | Conservative => Content.Strings.conservatives
     | NDP => Content.Strings.ndp
-    | Green => Content.Strings.greens;
+    | Green => Content.Strings.greens
+    }
 
-  let topic =
-    fun
+  let topic = x =>
+    switch x {
     | ForeignPolicy => Content.Strings.foreign_policy
     | Taxes => Content.Strings.taxes
     | InternationalTrade => Content.Strings.international_trade
@@ -119,25 +118,27 @@ module Encode = {
     | PublicSafety => Content.Strings.public_safety
     | Education => Content.Strings.education
     | Housing => Content.Strings.housing
-    | Affordability => Content.Strings.affordability;
-};
+    | Affordability => Content.Strings.affordability
+    }
+}
 
 module Decode = {
-  open Json.Decode;
+  open Json.Decode
 
   let party = json =>
-    string(json)
-    |> (
-      fun
-      | "Liberal" => Liberal
-      | "Conservative" => Conservative
-      | "NDP" => NDP
-      | "Green" => Green
-      | _ as unknown_party => raise(Invalid_argument(unknown_party))
-    );
+    string(json) |> (
+      x =>
+        switch x {
+        | "Liberal" => Liberal
+        | "Conservative" => Conservative
+        | "NDP" => NDP
+        | "Green" => Green
+        | _ as unknown_party => raise(Invalid_argument(unknown_party))
+        }
+    )
 
-  let str_to_topic =
-    fun
+  let str_to_topic = x =>
+    switch x {
     | "Foreign Policy" => ForeignPolicy
     | "Taxes" => Taxes
     | "International Trade" => InternationalTrade
@@ -158,25 +159,28 @@ module Decode = {
     | "Education" => Education
     | "Housing" => Housing
     | "Affordability" => Affordability
-    | _ as unknown_topic => raise(Invalid_argument(unknown_topic));
+    | _ as unknown_topic => raise(Invalid_argument(unknown_topic))
+    }
 
-  let topic = json => string(json) |> str_to_topic;
+  let topic = json => string(json) |> str_to_topic
 
-  let i18n_text = json =>
-    I18n.{en: json |> field("en", string), fr: json |> field("fr", string)};
+  let i18n_text = json => {
+    open I18n
+    {en: json |> field("en", string), fr: json |> field("fr", string)}
+  }
 
   let reference = json => {
     date: json |> optional(field("date", string)),
     publisher: json |> field("publisher", string),
     title: json |> field("title", string),
     url: json |> field("url", string),
-  };
+  }
 
   let rce = json => {
     reach: json |> field("reach", int),
     confidence: json |> field("confidence", int),
     effort: json |> field("effort", int),
-  };
+  }
 
   let policy = json => {
     topic: json |> field("topic", topic),
@@ -185,5 +189,5 @@ module Decode = {
     references: json |> field("references", array(reference)),
     handle: json |> optional(field("handle", string)),
     rce: json |> optional(field("rce", rce)),
-  };
-};
+  }
+}
