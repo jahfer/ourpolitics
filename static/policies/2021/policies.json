@@ -1,0 +1,25 @@
+[
+  {
+    "topic": "Child Care",
+    "party": "NDP",
+    "title": {
+      "en": "X",
+      "fr": "Y"
+    },
+    "references": [
+      {
+        "date": "2015-09-22",
+        "title": "X",
+        "publisher": "Z",
+        "url": "https://ourpolitics.ca"
+      },
+      {
+        "date": "2015-08-20",
+        "title": "Y",
+        "publisher": "Z",
+        "url": "https://ourpolitics.ca"
+      }
+    ],
+    "handle": "2021/NDP/X"
+  }
+]

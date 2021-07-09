@@ -9,7 +9,6 @@ let make = () => {
   })
 
   <section className="section">
-    <h1> {Content.Strings.privacy_policy->T.Text.react_string} </h1>
     <article
       className="text-block text-large pb-3"
       dangerouslySetInnerHTML={page_content->Utils.dangerousHtml}

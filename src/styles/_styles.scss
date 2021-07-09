@@ -1,5 +1,6 @@
 /* styling */
 $color-cream: #f9f9f1;
+$color-cream-light: #fffff9;
 
 $gutter-width: 20px;
 
@@ -8,9 +9,9 @@ $gutter-width: 20px;
 }
 
 body { 
-  background-color: $color-cream;
+  background-color: $color-cream-light;
   color: #303030;
-  font-family: georgia, serif;
+  font-family: 'Causten Round', sans-serif;
   line-height: 1.3em;
   margin: 0;
 }
@@ -43,8 +44,8 @@ a, a:visited {
 }
 
 .langSelection {
-  float: right;
-  font-size: 0.9em;
+  text-align: right;
+
   a {
     color: #aaa;
     text-decoration: none;
@@ -75,15 +76,22 @@ a, a:visited {
   letter-spacing: 0.4em;
   font-size: 1.7em;
   text-indent: -9999em;
-  width: 100%;
+  min-width: 240px;
   height: 90px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 0;
 
-  &.lang-en { background-image: url('../img/logo-en.png'); }
-  &.lang-fr { background-image: url('../img/logo-fr.png'); }
+  &.lang-en { background-image: url('../img/op_logo_en.svg'); }
+  &.lang-fr { background-image: url('../img/op_logo_fr.svg'); }
+}
+
+.pageSubTitle {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+  margin-top: 20px;
 }
 
 .legend {
@@ -107,11 +115,12 @@ a, a:visited {
   line-height: 1.3em;
 
   &.partyTitle {
-    font-family: 'Merriweather', georgia, serif;
     text-align: center;
     padding: 15px;
     display: block;
     color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 
   &:last-of-type {
@@ -119,7 +128,6 @@ a, a:visited {
   }
 
   &--party {
-    font-family: 'Merriweather', georgia, serif;
     margin: 0;
   }
 }
@@ -137,7 +145,6 @@ a, a:visited {
 .policyTopic {
   text-align: center;
   border: none;
-  font-family: 'Merriweather', georgia, serif;
 }
 
 .policyTopic--title {
@@ -234,6 +241,10 @@ a, a:visited {
   font-size: 12px;
 }
 
+.no-hover:hover {
+   border-bottom: 0;
+}
+
 .event {
   background-color: #eee;
   opacity: 0.8;
@@ -273,6 +284,14 @@ a, a:visited {
   height: 64px;
   text-align: center;
   background: url('../img/spinner.gif') no-repeat center center;
+}
+
+@media screen and (min-width: 608px) {
+  .pageSubTitle {
+    font-size: 5.5rem;
+    margin-top: 0;
+    padding: 20px 0;
+  }
 }
 
 @media screen and (min-width: 650px) {

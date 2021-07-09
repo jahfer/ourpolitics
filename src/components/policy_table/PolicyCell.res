@@ -6,6 +6,10 @@ let make = (~party: Schema.party, ~policies: list<Schema.policy>) => {
     let language = language
   })
 
+  module EnStr = Strings.Translations({
+    let language = I18n.EN
+  })
+
   let policies =
     policies |> List.filter((policy: Schema.policy) => T.Text.to_str(policy.title) != "")
   let listItems = switch policies {
@@ -23,7 +27,7 @@ let make = (~party: Schema.party, ~policies: list<Schema.policy>) => {
   }
 
   <div className="policyCell">
-    <h4 className={"policyCell--party textColor--" ++ T.Party.to_str(party)}>
+    <h4 className={"policyCell--party textColor--" ++ EnStr.Party.to_str(party)}>
       {T.Party.react_string(party)}
     </h4>
     <ul className="policyCell--points"> {listItems->React.array} </ul>

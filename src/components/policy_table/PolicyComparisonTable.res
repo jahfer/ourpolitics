@@ -38,6 +38,7 @@ let make = (~policy_handle=?, ~year=2019) => {
   let (topicFilter, setTopicFilter) = React.useState(() => Schema.TopicSet.empty)
 
   React.useEffect(() => {
+    // TODO Triggered immediate on scroll now
     let initialHeaderTop: int = %raw(`document.getElementById("tableHeader").getBoundingClientRect().top`)
 
     let initialBodyTop: int = %raw(`document.body.getBoundingClientRect().top`)

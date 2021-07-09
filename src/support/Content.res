@@ -22,8 +22,8 @@ module Strings = {
     fr: `À propos`,
   }
   let privacy_policy = {
-    en: "Privacy Policy",
-    fr: `Politique de confidentialité`,
+    en: "Privacy",
+    fr: `Confidentialité`,
   }
 
   let liberals = {

@@ -81,6 +81,18 @@ module.exports = {
           'html-loader',
           'markdown-loader'
         ]
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/'
+            }
+          }
+        ]
       }
     ]
   }

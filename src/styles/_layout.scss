@@ -36,6 +36,24 @@
   }
 }
 
+.flex {
+  display: flex;
+}
+
+.header {
+  display: inline;
+
+  .langSelection, .headings {
+    flex-basis: 100%;
+  }
+
+  .headings {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
 .policyTable {
   display: flex;
   flex-flow: column nowrap;
@@ -87,6 +105,15 @@
 
   .partyTitle {
     align-self: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 608px) {
+  .header {
+    .headings {
+      flex-flow: row wrap;
+    }
   }
 }
 
