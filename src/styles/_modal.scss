@@ -1,14 +1,14 @@
-$color-cream: #f9f9f1;
+$color-cream-light: #fffff9;
 
 .policyModal--content {
   position: absolute;
-  background: #fff;
+  background: $color-cream-light;
   overflow: auto;
   WebkitOverflowScrolling: touch;
   outline: none;
 
   border-radius: 0;
-  left: 10px;
+  left: 8px;
   right: 0;
   top: 0;
   bottom: 0;
@@ -26,7 +26,7 @@ $color-cream: #f9f9f1;
   display: flex;
   flex-direction: column;
   position: relative;
-  background-color: $color-cream;
+  background-color: $color-cream-light
 }
 
 .modal--content {
@@ -173,7 +173,7 @@ $color-cream: #f9f9f1;
   color: #999;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 800px) {
   .ReactModal__Content {
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
     transition: transform .2s ease-in-out; /*or cubic-bezier(.4,0,.5,1.4)*/
@@ -188,6 +188,7 @@ $color-cream: #f9f9f1;
     margin: 0 auto;
     top: 10%;
     bottom: 10%;
+    left: 0;
     max-height: 600px;
     max-width: 1000px;
     background: #303030;
@@ -198,9 +199,7 @@ $color-cream: #f9f9f1;
   .policyReferenceModal--content {
     max-width: 570px;
   }
-}
-
-@media screen and (min-width: 800px) {
+  
   .policyModal {
     height: 100%;
     display: flex;

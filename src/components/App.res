@@ -1,12 +1,3 @@
-module Redirect = {
-  @react.component
-  let make = (~path) => {
-    let language = React.useContext(LanguageContext.ctx)
-    Utils.Router.push_route(~language, path)
-    React.null
-  }
-}
-
 let selectLanguage = x =>
   switch x {
   | "fr" => I18n.FR
