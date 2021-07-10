@@ -1,6 +1,10 @@
 open I18n
 
 module Strings = {
+  let our_politics = {
+    en: "Our Politics",
+    fr: "Notre Politique"
+  }
   let title = {
     en: "Topics",
     fr: "Sujets",
@@ -148,12 +152,6 @@ module Strings = {
    don't have to parse the Markdown at runtime. It also lets us defer
    loading the content by replacing these paths with [hash].html links.
  */
-
-/* 2019 */
-@module
-external child_fitness_tax_credit_en: string = "../policies/2019/cpc/child_fitness_tax_credit.en.md"
-@module
-external child_fitness_tax_credit_fr: string = "../policies/2019/cpc/child_fitness_tax_credit.fr.md"
 
 /* 2015 */
 @module
@@ -417,10 +415,6 @@ external ndp_transit_fr: string = "../policies/2015/ndp_transit.fr.md"
 
 let pathToContent = x =>
   switch x {
-  | "2019/cpc/child_fitness_tax_credit" => {
-      en: child_fitness_tax_credit_en,
-      fr: child_fitness_tax_credit_fr,
-    }
   | "2015/cpc_aboriginal_funding" => {
       en: cpc_aboriginal_funding_en,
       fr: cpc_aboriginal_funding_fr,

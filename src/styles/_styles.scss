@@ -156,6 +156,10 @@ a, a:visited {
   padding: 10px 0;
   flex-shrink: 0;
 
+  &.filler {
+    display: none;
+  }
+
   &.tableHeader, &.filler {
     padding: 0;
     border-bottom: none;
@@ -295,20 +299,24 @@ a, a:visited {
 }
 
 @media screen and (min-width: 650px) {
-  .pageTitle {
-    height: 120px;
-  }
-
   .policyCell--points {
     padding-left: 20px;
   }
 }
 
 @media screen and (min-width: 800px) {
+  .pageTitle {
+    height: 120px;
+    margin-bottom: 0;
+  }
+
   .policyCell {
     border-bottom: none;
   }
 
+  .policyRow.filler {
+    display: flex;
+  }
 
-.policyPoint { margin-bottom: 10px; }
+  .policyPoint { margin-bottom: 10px; }
 }

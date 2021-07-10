@@ -1,1 +1,0 @@
-> Scheer says policy would allow parents to claim up to $1,000 per child for expenses related to fitness or sports- related activities, and the credit would be refundable.

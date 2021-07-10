@@ -34,7 +34,7 @@ let make = (~setLanguage, ~subheading=None) => {
       <LanguageSelector setLanguage />
       <hgroup className="headings flex">
         <a href="#" className="no-hover" onClick={"/"->Utils.Router.push(~language)}>
-          <h1 className=j`pageTitle lang-$lang_string`> {"Our Politics"->React.string} </h1>
+          <h1 className=j`pageTitle lang-$lang_string`> {Content.Strings.our_politics->T.Text.react_string} </h1>
         </a>
         {
           switch subheading {

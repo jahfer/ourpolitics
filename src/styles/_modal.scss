@@ -8,7 +8,7 @@ $color-cream: #f9f9f1;
   outline: none;
 
   border-radius: 0;
-  left: 0;
+  left: 10px;
   right: 0;
   top: 0;
   bottom: 0;
@@ -59,7 +59,7 @@ $color-cream: #f9f9f1;
 }
 
 .modal--heading {
-  line-height: 1.3em;
+  line-height: 1em;
 
   &.modal--heading__primary {
     font-size: 200%;
@@ -174,6 +174,16 @@ $color-cream: #f9f9f1;
 }
 
 @media screen and (min-width: 650px) {
+  .ReactModal__Content {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    transition: transform .2s ease-in-out; /*or cubic-bezier(.4,0,.5,1.4)*/
+    transform: scale(0.3);
+
+    &.ReactModal__Content--after-open {
+      transform: scale(1);
+    }
+  }
+
   .policyModal--content {
     margin: 0 auto;
     top: 10%;
@@ -191,16 +201,6 @@ $color-cream: #f9f9f1;
 }
 
 @media screen and (min-width: 800px) {
-  .ReactModal__Content {
-    box-shadow: 1px 2px 4px rgba(0,0,0,0.75);
-    transition: transform .2s ease-in-out; /*or cubic-bezier(.4,0,.5,1.4)*/
-    transform: scale(0.3);
-
-    &.ReactModal__Content--after-open {
-      transform: scale(1);
-    }
-  }
-
   .policyModal {
     height: 100%;
     display: flex;

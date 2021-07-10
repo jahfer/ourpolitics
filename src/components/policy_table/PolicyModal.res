@@ -52,7 +52,6 @@ module ReferenceModal = {
           className="modal--heading modal--heading__primary"
           dangerouslySetInnerHTML={policy.title->T.Text.to_str->Utils.dangerousHtml}
         />
-        <div className="text-block">
           <ul className="reference--list list-plain">
             {(policy.references |> Array.map((ref: Schema.reference) =>
               <li>
@@ -61,7 +60,6 @@ module ReferenceModal = {
               </li>
             ))->React.array}
           </ul>
-        </div>
       </div>
     </div>
   }
