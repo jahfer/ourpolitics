@@ -42,7 +42,7 @@ module ReferenceModal = {
 
     <div className="policyModal">
       <div className="modal--content reference-modal--content">
-        <a href="#" className="reference-modal--close modal--close" onClick=onModalClose />
+        <a href="#" className="reference-modal--close modal--close" alt="Close" onClick=onModalClose />
         <div className="modal--headingContainer">
           <div className="modal--headingInfo">
             <div className="modal--topicBox"> <p> {topic_title->React.string} </p> </div>
@@ -95,7 +95,7 @@ module FullContextModal = {
 
     <div className="policyModal">
       <div className="modal--content">
-        <a href="#" className="modal--close" onClick=onModalClose />
+        <a href="#" className="modal--close"  alt="Close" onClick=onModalClose />
         <div className="modal--headingContainer">
           <div className="modal--headingInfo">
             <div className="modal--topicBox"> <p> {topic_title->React.string} </p> </div>

@@ -184,6 +184,10 @@ $color-cream-light: #fffff9;
     }
   }
 
+  .modal--headingInfo {
+    margin-right: 0;
+  }
+
   .policyModal--content {
     margin: 0 auto;
     top: 10%;
@@ -193,7 +197,8 @@ $color-cream-light: #fffff9;
     max-width: 1000px;
     background: #303030;
     overflow: hidden;
-    border-radius: 4px;
+    border-radius: 8px;
+    border: 5px solid #303030;
   }
 
   .policyReferenceModal--content {
