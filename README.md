@@ -2,7 +2,7 @@
 
 [Our Politics](https://ourpolitics.ca) started in 2015 with a single aim: making election platforms easier to understand. 
 
-Plenty of people don't have time to read daily election news, but they still care about the policies. Our goal is to provide context to these announcements for those who don't follow politics.
+Elections matter, but understanding headlines and press releases takes a lot of time. Our Politics aims to offer easy-to-read summaries of party platforms.
 
 ## Development
 
@@ -10,12 +10,12 @@ Plenty of people don't have time to read daily election news, but they still car
 
 ```sh
 npm install
-npm start
+npm re:start
 # in another tab
 npm run webpack
 ```
 
-After you see the webpack compilation succeed (the `npm run webpack` step), open up `build/index.html` (**no server needed!**). Then modify whichever `.re` file in `src` and refresh the page to see the changes.
+After you see the webpack compilation succeed (the `npm run webpack` step), open up `build/index.html` (**no server needed!**). Then modify whichever `.res` file in `src` and refresh the page to see the changes.
 
 ### Run Project with Server
 
@@ -25,7 +25,7 @@ To run with the webpack development server run `npm run server` and view in the 
 
 ```sh
 npm run clean
-npm run build
+npm run re:build
 npm run webpack:production
 ```
 
