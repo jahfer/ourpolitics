@@ -184,8 +184,15 @@ $color-cream-light: #fffff9;
     }
   }
 
+
   .modal--headingInfo {
     margin-right: 0;
+  }
+
+  .reference-modal--content {
+    .modal--headingInfo {
+      margin-right: 30px;
+    }
   }
 
   .policyModal--content {
