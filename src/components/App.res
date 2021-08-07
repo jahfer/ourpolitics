@@ -23,10 +23,10 @@ let make = () => {
   | list{"policies", year, ...policyPath} =>
     let policy = String.concat("/", policyPath)
     (<PolicyComparisonIndex year={int_of_string(year)} policy_handle=j`$year/$policy` />, Some(year))
-  | list{"policies"} => (<Utils.SilentRedirect path="/policies/2019" />, None)
+  | list{"policies"} => (<Utils.SilentRedirect path="/policies/2021" />, None)
   | list{"about"} => (<AboutIndex />, Some(Content.Strings.about->T.text_to_string))
   | list{"privacy"} => (<PrivacyIndex />, Some(Content.Strings.privacy_policy->T.text_to_string))
-  | list{} => (<Utils.SilentRedirect path="/policies/2019" />, None) // <SplashIndex />
+  | list{} => (<Utils.SilentRedirect path="/policies/2021" />, None) // <SplashIndex />
   | _ => (<PageNotFound />, Some("Page Not Found"))
   }
 

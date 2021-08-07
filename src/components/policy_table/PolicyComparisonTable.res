@@ -158,6 +158,17 @@ let make = (~policy_handle=?, ~year=2019) => {
     //    |> Array.of_list
     //    |> React.array}
     // </ul>
+    <aside>
+      {
+        if year == 2021 && language == I18n.EN {
+          <Banner>
+          { Content.Strings.election_notice->T.text_react_string }
+          </Banner>
+        } else {
+          React.null
+        }
+      }
+    </aside>
     <PolicyTable isLoading parties topicFilter=Some(topicFilter) dataset=tableDataset />
     <footer> <p className="footerInfo" /> </footer>
   </PolicyModalDispatch>

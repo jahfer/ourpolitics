@@ -144,6 +144,10 @@ module Strings = {
     en: j`$year Policies`,
     fr: j`Enjeux $year`,
   }
+  let election_notice = {
+    en: "The 2021 Canadian federal election is underway! Stay tuned for policy announcements from the parties in the coming weeks.",
+    fr: ""
+  }
 }
 
 /*
@@ -153,268 +157,186 @@ module Strings = {
    loading the content by replacing these paths with [hash].html links.
  */
 
+/* 2021 */
+module Y2021 = {
+  module NDP = {
+    @module external x_en: string = "../policies/2021/ndp/x.en.md"
+    @module external x_fr: string = "../policies/2021/ndp/x.fr.md"
+  }
+  module Liberals = {
+    @module external x_en: string = "../policies/2021/liberals/x.en.md"
+    @module external x_fr: string = "../policies/2021/liberals/x.fr.md"
+  }
+  module Conservatives = {
+    @module external x_en: string = "../policies/2021/conservatives/x.en.md"
+    @module external x_fr: string = "../policies/2021/conservatives/x.fr.md"
+  }
+}
+
 /* 2015 */
-@module
-external cpc_aboriginal_funding_en: string = "../policies/2015/cpc_aboriginal_funding.en.md"
-@module
-external cpc_aboriginal_funding_fr: string = "../policies/2015/cpc_aboriginal_funding.fr.md"
-@module
-external cpc_aboriginal_relations_en: string = "../policies/2015/cpc_aboriginal_relations.en.md"
-@module
-external cpc_aboriginal_relations_fr: string = "../policies/2015/cpc_aboriginal_relations.fr.md"
+@module external cpc_aboriginal_funding_en: string = "../policies/2015/cpc_aboriginal_funding.en.md"
+@module external cpc_aboriginal_funding_fr: string = "../policies/2015/cpc_aboriginal_funding.fr.md"
+@module external cpc_aboriginal_relations_en: string = "../policies/2015/cpc_aboriginal_relations.en.md"
+@module external cpc_aboriginal_relations_fr: string = "../policies/2015/cpc_aboriginal_relations.fr.md"
 @module external cpc_c51_en: string = "../policies/2015/cpc_c51.en.md"
 @module external cpc_c51_fr: string = "../policies/2015/cpc_c51.fr.md"
-@module
-external cpc_home_renovation_en: string = "../policies/2015/cpc_home_renovation.en.md"
-@module
-external cpc_home_renovation_fr: string = "../policies/2015/cpc_home_renovation.fr.md"
-@module
-external cpc_infrastructure_en: string = "../policies/2015/cpc_infrastructure.en.md"
-@module
-external cpc_infrastructure_fr: string = "../policies/2015/cpc_infrastructure.fr.md"
+@module external cpc_home_renovation_en: string = "../policies/2015/cpc_home_renovation.en.md"
+@module external cpc_home_renovation_fr: string = "../policies/2015/cpc_home_renovation.fr.md"
+@module external cpc_infrastructure_en: string = "../policies/2015/cpc_infrastructure.en.md"
+@module external cpc_infrastructure_fr: string = "../policies/2015/cpc_infrastructure.fr.md"
 @module external cpc_isis_en: string = "../policies/2015/cpc_isis.en.md"
 @module external cpc_isis_fr: string = "../policies/2015/cpc_isis.fr.md"
-@module
-external cpc_marijuana_en: string = "../policies/2015/cpc_marijuana.en.md"
-@module
-external cpc_marijuana_fr: string = "../policies/2015/cpc_marijuana.fr.md"
-@module
-external cpc_pipeline_en: string = "../policies/2015/cpc_pipeline.en.md"
-@module
-external cpc_pipeline_fr: string = "../policies/2015/cpc_pipeline.fr.md"
-@module
-external cpc_reform_en: string = "../policies/2015/cpc_reform.en.md"
-@module
-external cpc_reform_fr: string = "../policies/2015/cpc_reform.fr.md"
-@module
-external cpc_refugees_en: string = "../policies/2015/cpc_refugees.en.md"
-@module
-external cpc_refugees_fr: string = "../policies/2015/cpc_refugees.fr.md"
+@module external cpc_marijuana_en: string = "../policies/2015/cpc_marijuana.en.md"
+@module external cpc_marijuana_fr: string = "../policies/2015/cpc_marijuana.fr.md"
+@module external cpc_pipeline_en: string = "../policies/2015/cpc_pipeline.en.md"
+@module external cpc_pipeline_fr: string = "../policies/2015/cpc_pipeline.fr.md"
+@module external cpc_reform_en: string = "../policies/2015/cpc_reform.en.md"
+@module external cpc_reform_fr: string = "../policies/2015/cpc_reform.fr.md"
+@module external cpc_refugees_en: string = "../policies/2015/cpc_refugees.en.md"
+@module external cpc_refugees_fr: string = "../policies/2015/cpc_refugees.fr.md"
 @module external cpc_rrsp_en: string = "../policies/2015/cpc_rrsp.en.md"
 @module external cpc_rrsp_fr: string = "../policies/2015/cpc_rrsp.fr.md"
-@module
-external cpc_senate_en: string = "../policies/2015/cpc_senate.en.md"
-@module
-external cpc_senate_fr: string = "../policies/2015/cpc_senate.fr.md"
-@module
-external cpc_seniors_en: string = "../policies/2015/cpc_seniors.en.md"
-@module
-external cpc_seniors_fr: string = "../policies/2015/cpc_seniors.fr.md"
+@module external cpc_senate_en: string = "../policies/2015/cpc_senate.en.md"
+@module external cpc_senate_fr: string = "../policies/2015/cpc_senate.fr.md"
+@module external cpc_seniors_en: string = "../policies/2015/cpc_seniors.en.md"
+@module external cpc_seniors_fr: string = "../policies/2015/cpc_seniors.fr.md"
 @module external cpc_tfsa_en: string = "../policies/2015/cpc_tfsa.en.md"
 @module external cpc_tfsa_fr: string = "../policies/2015/cpc_tfsa.fr.md"
 @module external cpc_tpp_en: string = "../policies/2015/cpc_tpp.en.md"
 @module external cpc_tpp_fr: string = "../policies/2015/cpc_tpp.fr.md"
 @module external cpc_uccb_en: string = "../policies/2015/cpc_uccb.en.md"
 @module external cpc_uccb_fr: string = "../policies/2015/cpc_uccb.fr.md"
-@module
-external lpc_aboriginal_education_en: string = "../policies/2015/lpc_aboriginal_education.en.md"
-@module
-external lpc_aboriginal_education_fr: string = "../policies/2015/lpc_aboriginal_education.fr.md"
-@module
-external lpc_aboriginal_relations_en: string = "../policies/2015/lpc_aboriginal_relations.en.md"
-@module
-external lpc_aboriginal_relations_fr: string = "../policies/2015/lpc_aboriginal_relations.fr.md"
+@module external lpc_aboriginal_education_en: string = "../policies/2015/lpc_aboriginal_education.en.md"
+@module external lpc_aboriginal_education_fr: string = "../policies/2015/lpc_aboriginal_education.fr.md"
+@module external lpc_aboriginal_relations_en: string = "../policies/2015/lpc_aboriginal_relations.en.md"
+@module external lpc_aboriginal_relations_fr: string = "../policies/2015/lpc_aboriginal_relations.fr.md"
 @module external lpc_c51_en: string = "../policies/2015/lpc_c51.en.md"
 @module external lpc_c51_fr: string = "../policies/2015/lpc_c51.fr.md"
-@module
-external lpc_carbon_tax_en: string = "../policies/2015/lpc_carbon_tax.en.md"
-@module
-external lpc_carbon_tax_fr: string = "../policies/2015/lpc_carbon_tax.fr.md"
+@module external lpc_carbon_tax_en: string = "../policies/2015/lpc_carbon_tax.en.md"
+@module external lpc_carbon_tax_fr: string = "../policies/2015/lpc_carbon_tax.fr.md"
 @module external lpc_ccb_en: string = "../policies/2015/lpc_ccb.en.md"
 @module external lpc_ccb_fr: string = "../policies/2015/lpc_ccb.fr.md"
-@module
-external lpc_green_tech_en: string = "../policies/2015/lpc_green_tech.en.md"
-@module
-external lpc_green_tech_fr: string = "../policies/2015/lpc_green_tech.fr.md"
-@module
-external lpc_healthcare_en: string = "../policies/2015/lpc_healthcare.en.md"
-@module
-external lpc_healthcare_fr: string = "../policies/2015/lpc_healthcare.fr.md"
-@module
-external lpc_homecare_en: string = "../policies/2015/lpc_homecare.en.md"
-@module
-external lpc_homecare_fr: string = "../policies/2015/lpc_homecare.fr.md"
-@module
-external lpc_income_splitting_en: string = "../policies/2015/lpc_income_splitting.en.md"
-@module
-external lpc_income_splitting_fr: string = "../policies/2015/lpc_income_splitting.fr.md"
-@module
-external lpc_infrastructure_bank_en: string = "../policies/2015/lpc_infrastructure_bank.en.md"
-@module
-external lpc_infrastructure_bank_fr: string = "../policies/2015/lpc_infrastructure_bank.fr.md"
-@module
-external lpc_infrastructure_investment_en: string =
+@module external lpc_green_tech_en: string = "../policies/2015/lpc_green_tech.en.md"
+@module external lpc_green_tech_fr: string = "../policies/2015/lpc_green_tech.fr.md"
+@module external lpc_healthcare_en: string = "../policies/2015/lpc_healthcare.en.md"
+@module external lpc_healthcare_fr: string = "../policies/2015/lpc_healthcare.fr.md"
+@module external lpc_homecare_en: string = "../policies/2015/lpc_homecare.en.md"
+@module external lpc_homecare_fr: string = "../policies/2015/lpc_homecare.fr.md"
+@module external lpc_income_splitting_en: string = "../policies/2015/lpc_income_splitting.en.md"
+@module external lpc_income_splitting_fr: string = "../policies/2015/lpc_income_splitting.fr.md"
+@module external lpc_infrastructure_bank_en: string = "../policies/2015/lpc_infrastructure_bank.en.md"
+@module external lpc_infrastructure_bank_fr: string = "../policies/2015/lpc_infrastructure_bank.fr.md"
+@module external lpc_infrastructure_investment_en: string =
   "../policies/2015/lpc_infrastructure_investment.en.md"
-@module
-external lpc_infrastructure_investment_fr: string =
+@module external lpc_infrastructure_investment_fr: string =
   "../policies/2015/lpc_infrastructure_investment.fr.md"
 @module external lpc_isis_en: string = "../policies/2015/lpc_isis.en.md"
 @module external lpc_isis_fr: string = "../policies/2015/lpc_isis.fr.md"
-@module
-external lpc_marijuana_en: string = "../policies/2015/lpc_marijuana.en.md"
-@module
-external lpc_marijuana_fr: string = "../policies/2015/lpc_marijuana.fr.md"
-@module
-external lpc_mental_healthcare_en: string = "../policies/2015/lpc_mental_healthcare.en.md"
-@module
-external lpc_mental_healthcare_fr: string = "../policies/2015/lpc_mental_healthcare.fr.md"
-@module
-external lpc_middle_class_taxes_en: string = "../policies/2015/lpc_middle_class_taxes.en.md"
-@module
-external lpc_middle_class_taxes_fr: string = "../policies/2015/lpc_middle_class_taxes.fr.md"
-@module
-external lpc_pipeline_en: string = "../policies/2015/lpc_pipeline.en.md"
-@module
-external lpc_pipeline_fr: string = "../policies/2015/lpc_pipeline.fr.md"
-@module
-external lpc_reform_en: string = "../policies/2015/lpc_reform.en.md"
-@module
-external lpc_reform_fr: string = "../policies/2015/lpc_reform.fr.md"
-@module
-external lpc_refugees_en: string = "../policies/2015/lpc_refugees.en.md"
-@module
-external lpc_refugees_fr: string = "../policies/2015/lpc_refugees.fr.md"
-@module
-external lpc_science_officer_en: string = "../policies/2015/lpc_science_officer.en.md"
-@module
-external lpc_science_officer_fr: string = "../policies/2015/lpc_science_officer.fr.md"
-@module
-external lpc_senate_en: string = "../policies/2015/lpc_senate.en.md"
-@module
-external lpc_senate_fr: string = "../policies/2015/lpc_senate.fr.md"
-@module
-external lpc_seniors_income_splitting_en: string =
+@module external lpc_marijuana_en: string = "../policies/2015/lpc_marijuana.en.md"
+@module external lpc_marijuana_fr: string = "../policies/2015/lpc_marijuana.fr.md"
+@module external lpc_mental_healthcare_en: string = "../policies/2015/lpc_mental_healthcare.en.md"
+@module external lpc_mental_healthcare_fr: string = "../policies/2015/lpc_mental_healthcare.fr.md"
+@module external lpc_middle_class_taxes_en: string = "../policies/2015/lpc_middle_class_taxes.en.md"
+@module external lpc_middle_class_taxes_fr: string = "../policies/2015/lpc_middle_class_taxes.fr.md"
+@module external lpc_pipeline_en: string = "../policies/2015/lpc_pipeline.en.md"
+@module external lpc_pipeline_fr: string = "../policies/2015/lpc_pipeline.fr.md"
+@module external lpc_reform_en: string = "../policies/2015/lpc_reform.en.md"
+@module external lpc_reform_fr: string = "../policies/2015/lpc_reform.fr.md"
+@module external lpc_refugees_en: string = "../policies/2015/lpc_refugees.en.md"
+@module external lpc_refugees_fr: string = "../policies/2015/lpc_refugees.fr.md"
+@module external lpc_science_officer_en: string = "../policies/2015/lpc_science_officer.en.md"
+@module external lpc_science_officer_fr: string = "../policies/2015/lpc_science_officer.fr.md"
+@module external lpc_senate_en: string = "../policies/2015/lpc_senate.en.md"
+@module external lpc_senate_fr: string = "../policies/2015/lpc_senate.fr.md"
+@module external lpc_seniors_income_splitting_en: string =
   "../policies/2015/lpc_seniors_income_splitting.en.md"
-@module
-external lpc_seniors_income_splitting_fr: string =
+@module external lpc_seniors_income_splitting_fr: string =
   "../policies/2015/lpc_seniors_income_splitting.fr.md"
-@module
-external lpc_seniors_en: string = "../policies/2015/lpc_seniors.en.md"
-@module
-external lpc_seniors_fr: string = "../policies/2015/lpc_seniors.fr.md"
+@module external lpc_seniors_en: string = "../policies/2015/lpc_seniors.en.md"
+@module external lpc_seniors_fr: string = "../policies/2015/lpc_seniors.fr.md"
 @module external lpc_tfsa_en: string = "../policies/2015/lpc_tfsa.en.md"
 @module external lpc_tfsa_fr: string = "../policies/2015/lpc_tfsa.fr.md"
 @module external lpc_tpp_en: string = "../policies/2015/lpc_tpp.en.md"
 @module external lpc_tpp_fr: string = "../policies/2015/lpc_tpp.fr.md"
-@module
-external lpc_transit_en: string = "../policies/2015/lpc_transit.en.md"
-@module
-external lpc_transit_fr: string = "../policies/2015/lpc_transit.fr.md"
-@module
-external lpc_youth_en: string = "../policies/2015/lpc_youth.en.md"
-@module
-external lpc_youth_fr: string = "../policies/2015/lpc_youth.fr.md"
-@module
-external ndp_aboriginal_relations_en: string = "../policies/2015/ndp_aboriginal_relations.en.md"
-@module
-external ndp_aboriginal_relations_fr: string = "../policies/2015/ndp_aboriginal_relations.fr.md"
-@module
-external ndp_alzheimers_en: string = "../policies/2015/ndp_alzheimers.en.md"
-@module
-external ndp_alzheimers_fr: string = "../policies/2015/ndp_alzheimers.fr.md"
+@module external lpc_transit_en: string = "../policies/2015/lpc_transit.en.md"
+@module external lpc_transit_fr: string = "../policies/2015/lpc_transit.fr.md"
+@module external lpc_youth_en: string = "../policies/2015/lpc_youth.en.md"
+@module external lpc_youth_fr: string = "../policies/2015/lpc_youth.fr.md"
+@module external ndp_aboriginal_relations_en: string = "../policies/2015/ndp_aboriginal_relations.en.md"
+@module external ndp_aboriginal_relations_fr: string = "../policies/2015/ndp_aboriginal_relations.fr.md"
+@module external ndp_alzheimers_en: string = "../policies/2015/ndp_alzheimers.en.md"
+@module external ndp_alzheimers_fr: string = "../policies/2015/ndp_alzheimers.fr.md"
 @module external ndp_c51_en: string = "../policies/2015/ndp_c51.en.md"
 @module external ndp_c51_fr: string = "../policies/2015/ndp_c51.fr.md"
-@module
-external ndp_cap_and_trade_en: string = "../policies/2015/ndp_cap_and_trade.en.md"
-@module
-external ndp_cap_and_trade_fr: string = "../policies/2015/ndp_cap_and_trade.fr.md"
-@module
-external ndp_corporate_taxes_en: string = "../policies/2015/ndp_corporate_taxes.en.md"
-@module
-external ndp_corporate_taxes_fr: string = "../policies/2015/ndp_corporate_taxes.fr.md"
-@module
-external ndp_daycare_en: string = "../policies/2015/ndp_daycare.en.md"
-@module
-external ndp_daycare_fr: string = "../policies/2015/ndp_daycare.fr.md"
-@module
-external ndp_foreign_aid_en: string = "../policies/2015/ndp_foreign_aid.en.md"
-@module
-external ndp_foreign_aid_fr: string = "../policies/2015/ndp_foreign_aid.fr.md"
-@module
-external ndp_green_tech_en: string = "../policies/2015/ndp_green_tech.en.md"
-@module
-external ndp_green_tech_fr: string = "../policies/2015/ndp_green_tech.fr.md"
-@module
-external ndp_healthcare_funding_en: string = "../policies/2015/ndp_healthcare_funding.en.md"
-@module
-external ndp_healthcare_funding_fr: string = "../policies/2015/ndp_healthcare_funding.fr.md"
-@module
-external ndp_healthcare_en: string = "../policies/2015/ndp_healthcare.en.md"
-@module
-external ndp_healthcare_fr: string = "../policies/2015/ndp_healthcare.fr.md"
-@module
-external ndp_income_splitting_en: string = "../policies/2015/ndp_income_splitting.en.md"
-@module
-external ndp_income_splitting_fr: string = "../policies/2015/ndp_income_splitting.fr.md"
-@module
-external ndp_internships_en: string = "../policies/2015/ndp_internships.en.md"
-@module
-external ndp_internships_fr: string = "../policies/2015/ndp_internships.fr.md"
+@module external ndp_cap_and_trade_en: string = "../policies/2015/ndp_cap_and_trade.en.md"
+@module external ndp_cap_and_trade_fr: string = "../policies/2015/ndp_cap_and_trade.fr.md"
+@module external ndp_corporate_taxes_en: string = "../policies/2015/ndp_corporate_taxes.en.md"
+@module external ndp_corporate_taxes_fr: string = "../policies/2015/ndp_corporate_taxes.fr.md"
+@module external ndp_daycare_en: string = "../policies/2015/ndp_daycare.en.md"
+@module external ndp_daycare_fr: string = "../policies/2015/ndp_daycare.fr.md"
+@module external ndp_foreign_aid_en: string = "../policies/2015/ndp_foreign_aid.en.md"
+@module external ndp_foreign_aid_fr: string = "../policies/2015/ndp_foreign_aid.fr.md"
+@module external ndp_green_tech_en: string = "../policies/2015/ndp_green_tech.en.md"
+@module external ndp_green_tech_fr: string = "../policies/2015/ndp_green_tech.fr.md"
+@module external ndp_healthcare_funding_en: string = "../policies/2015/ndp_healthcare_funding.en.md"
+@module external ndp_healthcare_funding_fr: string = "../policies/2015/ndp_healthcare_funding.fr.md"
+@module external ndp_healthcare_en: string = "../policies/2015/ndp_healthcare.en.md"
+@module external ndp_healthcare_fr: string = "../policies/2015/ndp_healthcare.fr.md"
+@module external ndp_income_splitting_en: string = "../policies/2015/ndp_income_splitting.en.md"
+@module external ndp_income_splitting_fr: string = "../policies/2015/ndp_income_splitting.fr.md"
+@module external ndp_internships_en: string = "../policies/2015/ndp_internships.en.md"
+@module external ndp_internships_fr: string = "../policies/2015/ndp_internships.fr.md"
 @module external ndp_isis_en: string = "../policies/2015/ndp_isis.en.md"
 @module external ndp_isis_fr: string = "../policies/2015/ndp_isis.fr.md"
-@module
-external ndp_marijuana_en: string = "../policies/2015/ndp_marijuana.en.md"
-@module
-external ndp_marijuana_fr: string = "../policies/2015/ndp_marijuana.fr.md"
-@module
-external ndp_mental_healthcare_en: string = "../policies/2015/ndp_mental_healthcare.en.md"
-@module
-external ndp_mental_healthcare_fr: string = "../policies/2015/ndp_mental_healthcare.fr.md"
-@module
-external ndp_pipeline_en: string = "../policies/2015/ndp_pipeline.en.md"
-@module
-external ndp_pipeline_fr: string = "../policies/2015/ndp_pipeline.fr.md"
-@module
-external ndp_reform_en: string = "../policies/2015/ndp_reform.en.md"
-@module
-external ndp_reform_fr: string = "../policies/2015/ndp_reform.fr.md"
-@module
-external ndp_refugees_en: string = "../policies/2015/ndp_refugees.en.md"
-@module
-external ndp_refugees_fr: string = "../policies/2015/ndp_refugees.fr.md"
-@module
-external ndp_science_officer_en: string = "../policies/2015/ndp_science_officer.en.md"
-@module
-external ndp_science_officer_fr: string = "../policies/2015/ndp_science_officer.fr.md"
-@module
-external ndp_senate_en: string = "../policies/2015/ndp_senate.en.md"
-@module
-external ndp_senate_fr: string = "../policies/2015/ndp_senate.fr.md"
-@module
-external ndp_seniors_income_splitting_en: string =
+@module external ndp_marijuana_en: string = "../policies/2015/ndp_marijuana.en.md"
+@module external ndp_marijuana_fr: string = "../policies/2015/ndp_marijuana.fr.md"
+@module external ndp_mental_healthcare_en: string = "../policies/2015/ndp_mental_healthcare.en.md"
+@module external ndp_mental_healthcare_fr: string = "../policies/2015/ndp_mental_healthcare.fr.md"
+@module external ndp_pipeline_en: string = "../policies/2015/ndp_pipeline.en.md"
+@module external ndp_pipeline_fr: string = "../policies/2015/ndp_pipeline.fr.md"
+@module external ndp_reform_en: string = "../policies/2015/ndp_reform.en.md"
+@module external ndp_reform_fr: string = "../policies/2015/ndp_reform.fr.md"
+@module external ndp_refugees_en: string = "../policies/2015/ndp_refugees.en.md"
+@module external ndp_refugees_fr: string = "../policies/2015/ndp_refugees.fr.md"
+@module external ndp_science_officer_en: string = "../policies/2015/ndp_science_officer.en.md"
+@module external ndp_science_officer_fr: string = "../policies/2015/ndp_science_officer.fr.md"
+@module external ndp_senate_en: string = "../policies/2015/ndp_senate.en.md"
+@module external ndp_senate_fr: string = "../policies/2015/ndp_senate.fr.md"
+@module external ndp_seniors_income_splitting_en: string =
   "../policies/2015/ndp_seniors_income_splitting.en.md"
-@module
-external ndp_seniors_income_splitting_fr: string =
+@module external ndp_seniors_income_splitting_fr: string =
   "../policies/2015/ndp_seniors_income_splitting.fr.md"
-@module
-external ndp_seniors_en: string = "../policies/2015/ndp_seniors.en.md"
-@module
-external ndp_seniors_fr: string = "../policies/2015/ndp_seniors.fr.md"
-@module
-external ndp_small_business_tax_en: string = "../policies/2015/ndp_small_business_tax.en.md"
-@module
-external ndp_small_business_tax_fr: string = "../policies/2015/ndp_small_business_tax.fr.md"
-@module
-external ndp_stock_options_en: string = "../policies/2015/ndp_stock_options.en.md"
-@module
-external ndp_stock_options_fr: string = "../policies/2015/ndp_stock_options.fr.md"
-@module
-external ndp_student_loans_en: string = "../policies/2015/ndp_student_loans.en.md"
-@module
-external ndp_student_loans_fr: string = "../policies/2015/ndp_student_loans.fr.md"
+@module external ndp_seniors_en: string = "../policies/2015/ndp_seniors.en.md"
+@module external ndp_seniors_fr: string = "../policies/2015/ndp_seniors.fr.md"
+@module external ndp_small_business_tax_en: string = "../policies/2015/ndp_small_business_tax.en.md"
+@module external ndp_small_business_tax_fr: string = "../policies/2015/ndp_small_business_tax.fr.md"
+@module external ndp_stock_options_en: string = "../policies/2015/ndp_stock_options.en.md"
+@module external ndp_stock_options_fr: string = "../policies/2015/ndp_stock_options.fr.md"
+@module external ndp_student_loans_en: string = "../policies/2015/ndp_student_loans.en.md"
+@module external ndp_student_loans_fr: string = "../policies/2015/ndp_student_loans.fr.md"
 @module external ndp_tfsa_en: string = "../policies/2015/ndp_tfsa.en.md"
 @module external ndp_tfsa_fr: string = "../policies/2015/ndp_tfsa.fr.md"
 @module external ndp_tpp_en: string = "../policies/2015/ndp_tpp.en.md"
 @module external ndp_tpp_fr: string = "../policies/2015/ndp_tpp.fr.md"
-@module
-external ndp_transit_en: string = "../policies/2015/ndp_transit.en.md"
-@module
-external ndp_transit_fr: string = "../policies/2015/ndp_transit.fr.md"
+@module external ndp_transit_en: string = "../policies/2015/ndp_transit.en.md"
+@module external ndp_transit_fr: string = "../policies/2015/ndp_transit.fr.md"
 @module external ndp_uccb_en: string = "../policies/2015/ndp_uccb.en.md"
 @module external ndp_uccb_fr: string = "../policies/2015/ndp_uccb.fr.md"
 
 let pathToContent = x =>
   switch x {
+  | "2021/ndp/x" => {
+      en: Y2021.NDP.x_en,
+      fr: Y2021.NDP.x_fr,
+    }
+  | "2021/liberals/x" => {
+      en: Y2021.Liberals.x_en,
+      fr: Y2021.Liberals.x_fr,
+    }
+  | "2021/conservatives/x" => {
+      en: Y2021.Conservatives.x_en,
+      fr: Y2021.Conservatives.x_fr,
+    }
   | "2015/cpc_aboriginal_funding" => {
       en: cpc_aboriginal_funding_en,
       fr: cpc_aboriginal_funding_fr,
@@ -558,5 +480,5 @@ let pathToContent = x =>
   | "2015/ndp_tpp" => {en: ndp_tpp_en, fr: ndp_tpp_fr}
   | "2015/ndp_transit" => {en: ndp_transit_en, fr: ndp_transit_fr}
   | "2015/ndp_uccb" => {en: ndp_uccb_en, fr: ndp_uccb_fr}
-  | _ => raise(Invalid_argument("Unknown content!"))
+  | x => raise(Invalid_argument(`Unknown content: ${x}`))
   }

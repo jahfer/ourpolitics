@@ -302,6 +302,28 @@ a, a:visited {
   background: url('../img/spinner.gif') no-repeat center center;
 }
 
+.banner {
+  padding: 20px;
+  background: #ecf9d6;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  border: 1px solid #acd961;
+  color: #292929;
+  font-size: 1.2rem;
+
+  &::before {
+    content: '\f05a';
+    font-family: 'FontAwesome';
+    margin-right: 5px;
+    float: left;
+    color: #292929;
+  }
+}
+
+.banner--content {
+  margin-left: 2rem;
+}
+
 @media screen and (min-width: 608px) {
   .pageSubTitle {
     font-size: 5.5rem;
