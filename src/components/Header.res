@@ -27,14 +27,14 @@ let make = (~setLanguage, ~subheading=None) => {
   module T = Strings.Translations({
     let language = language
   })
-  let lang_string = T.Language.react_string(language)
+  let lang_string = T.lang_react_string(language)
 
   <header className="container section">
     <div className="header">
       <LanguageSelector setLanguage />
       <hgroup className="headings flex">
         <a href="#" className="no-hover" onClick={"/"->Utils.Router.push(~language)}>
-          <h1 className=j`pageTitle lang-$lang_string`> {Content.Strings.our_politics->T.Text.react_string} </h1>
+          <h1 className=j`pageTitle lang-$lang_string`> {Content.Strings.our_politics->T.text_react_string} </h1>
         </a>
         {
           switch subheading {

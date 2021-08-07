@@ -38,7 +38,7 @@ module ReferenceModal = {
       let language = language
     })
 
-    let topic_title = T.Topic.to_str(policy.topic) ++ (" - " ++ T.Party.to_str(policy.party))
+    let topic_title = T.topic_to_string(policy.topic) ++ (" - " ++ T.party_to_string(policy.party))
 
     <div className="policyModal">
       <div className="modal--content reference-modal--content">
@@ -74,7 +74,7 @@ module FullContextModal = {
       let language = language
     })
 
-    let topic_title = T.Topic.to_str(policy.topic) ++ (" - " ++ T.Party.to_str(policy.party))
+    let topic_title = T.topic_to_string(policy.topic) ++ (" - " ++ T.party_to_string(policy.party))
 
     let (content, setContent) = React.useState(() => "")
 

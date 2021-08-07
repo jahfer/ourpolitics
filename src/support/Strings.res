@@ -35,4 +35,14 @@ module Translations = (L: I18n.LanguageSelection) => {
   module Party = Party.WithLanguage(L)
   module Topic = Topic.WithLanguage(L)
   module Language = Language.WithLanguage(L)
+
+  let text_to_string = (text) => Text.to_str(text)
+  let party_to_string = (party) => Party.to_str(party)
+  let topic_to_string = (topic) => Topic.to_str(topic)
+  let lang_to_string = (lang) => Language.to_str(lang)
+
+  let text_react_string = (text) => Text.react_string(text)
+  let party_react_string = (party) => Party.react_string(party)
+  let topic_react_string = (topic) => Topic.react_string(topic)
+  let lang_react_string = (lang) => Language.react_string(lang)
 }

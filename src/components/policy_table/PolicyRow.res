@@ -1,22 +1,22 @@
-module Dataset = Map.Make({
+module PolicyDataset = Map.Make({
   type t = Schema.party
   let compare = compare
 })
 
 let dataset_of_policies = (parties, policies) => {
   let init =
-    parties |> List.fold_left((acc, party) => Dataset.add(party, list{}, acc), Dataset.empty)
+    parties |> List.fold_left((acc, party) => PolicyDataset.add(party, list{}, acc), PolicyDataset.empty)
 
   policies
-  |> Utils.partition_predicate(~f=(p: Schema.policy) => p.party)
+  |> Utils.partition_predicate(~init=list{}, ~f=(p: Schema.policy) => p.party)
   |> List.fold_left((acc, policies: list<Schema.policy>) => {
     let party = List.hd(policies).party
-    Dataset.add(party, policies, acc)
+    PolicyDataset.add(party, policies, acc)
   }, init)
 }
 
 @react.component
-let make = (~topic, ~parties, ~policies: Dataset.t<list<Schema.policy>>) => {
+let make = (~topic, ~parties, ~policies: PolicyDataset.t<list<Schema.policy>>) => {
   let language = React.useContext(LanguageContext.ctx)
   module T = Strings.Translations({
     let language = language
@@ -27,7 +27,7 @@ let make = (~topic, ~parties, ~policies: Dataset.t<list<Schema.policy>>) => {
     |> List.map(party =>
       <PolicyCell
         party
-        policies={Dataset.find(party, policies)}
+        policies={PolicyDataset.find(party, policies)}
         key={Strings.Party.to_str(party, ~language=I18n.EN) ++
         (" " ++
         Strings.Topic.to_str(topic, ~language=I18n.EN))}
@@ -38,7 +38,8 @@ let make = (~topic, ~parties, ~policies: Dataset.t<list<Schema.policy>>) => {
   <div className="policyRow divider-t">
     <div className="policyCells">
       <div className="policyCell policyTopic">
-        <h3 className="policyTopic--title"> {T.Topic.react_string(topic)} </h3>
+        <h3 className="policyTopic--title"> {T.topic_react_string(topic)} </h3>
+        //<a className="policyTopic--info" href="#"> { "Learn more"->React.string }</a>
       </div>
       {policy_cells->React.array}
     </div>

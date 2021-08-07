@@ -1,19 +1,19 @@
-module Dataset = Schema.TopicMap
+module TopicDataset = Schema.TopicMap
 
 let dataset_of_policies = policy_list => {
   let append_policy_to_dataset = (dataset, policy: Schema.policy) => {
-    let lst = Dataset.mem(policy.topic, dataset) ? Dataset.find(policy.topic, dataset) : list{}
-    dataset |> Dataset.add(policy.topic, list{policy, ...lst})
+    let lst = TopicDataset.mem(policy.topic, dataset) ? TopicDataset.find(policy.topic, dataset) : list{}
+    dataset |> TopicDataset.add(policy.topic, list{policy, ...lst})
   }
 
-  List.fold_left(append_policy_to_dataset, Dataset.empty, policy_list)
+  List.fold_left(append_policy_to_dataset, TopicDataset.empty, policy_list)
 }
 
 @react.component
 let make = (
   ~isLoading: bool,
   ~parties: list<Schema.party>,
-  ~dataset: Dataset.t<list<Schema.policy>>,
+  ~dataset: TopicDataset.t<list<Schema.policy>>,
   ~topicFilter: option<Schema.TopicSet.t>,
 ) => {
   let (policyRows, setPolicyRows) = React.useState(() => [])
@@ -27,12 +27,12 @@ let make = (
   React.useMemo2(() => {
     let filteredDataset = switch topicFilter {
     | None => dataset
-    | Some(topics) => dataset |> Dataset.filter((key, _) => Schema.TopicSet.mem(key, topics))
+    | Some(topics) => dataset |> TopicDataset.filter((key, _) => Schema.TopicSet.mem(key, topics))
     }
 
     let rows =
       filteredDataset
-      |> Dataset.bindings
+      |> TopicDataset.bindings
       |> List.map(((topic, policies)) =>
         <PolicyRow
           topic
@@ -61,7 +61,7 @@ let make = (
     } else {
       <>
         <div className="policyCell partyTitle backgroundColor--Empty">
-          {T.Text.react_string(Content.Strings.title)}
+          {T.text_react_string(Content.Strings.title)}
         </div>
         {sortedPartyList
         |> List.map(party =>
@@ -69,7 +69,7 @@ let make = (
             key={"partyTitle--" ++ Strings.Party.to_str(~language=I18n.EN, party)}
             className={"policyCell partyTitle backgroundColor--" ++
             Strings.Party.to_str(~language=I18n.EN, party)}>
-            {T.Party.react_string(party)}
+            {T.party_react_string(party)}
           </div>
         )
         |> Array.of_list

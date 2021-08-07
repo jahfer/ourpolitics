@@ -12,7 +12,7 @@ external requestAnimationFrame: (unit => unit) => unit = "requestAnimationFrame"
 
 let dangerousHtml: string => 'a = html => {"__html": html}
 
-let rec partition_predicate = (~f: 'a => 'b, ~init=list{}, lst: list<'a>) => {
+let rec partition_predicate = (~f: 'a => 'b, ~init, lst: list<'a>) => {
   let comparison = f(List.hd(lst))
   let (matched, remaining_items) = List.partition(a => f(a) == comparison, lst)
   let acc = list{matched, ...init}

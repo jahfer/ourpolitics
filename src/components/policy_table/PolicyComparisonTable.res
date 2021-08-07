@@ -31,7 +31,7 @@ let elTop = ref(0)
 let make = (~policy_handle=?, ~year=2019) => {
   let (isLoading, setIsLoading) = React.useState(() => true)
   let (policyIndex, setPolicyIndex) = React.useState(() => StringMap.empty)
-  let (tableDataset, setTableDataset) = React.useState(() => PolicyTable.Dataset.empty)
+  let (tableDataset, setTableDataset) = React.useState(() => PolicyTable.TopicDataset.empty)
   let (parties, setParties) = React.useState(() => list{})
   let (deferUntil, setDeferUntil) = React.useState(() => None)
   let (_topics, setTopics) = React.useState(() => Schema.TopicSet.empty)
@@ -142,7 +142,7 @@ let make = (~policy_handle=?, ~year=2019) => {
     //               setTopicFilter(set => Schema.TopicSet.remove(t, set))
     //             }
     //           />
-    //           {T.Topic.react_string(t)}
+    //           {T.topic_react_string(t)}
     //         </li>
     //       )
     //    |> Array.of_list
@@ -152,7 +152,7 @@ let make = (~policy_handle=?, ~year=2019) => {
     //    |> List.map(t =>
     //         <li>
     //           <input type_="checkbox" defaultChecked=false />
-    //           {T.Topic.react_string(t)}
+    //           {T.topic_react_string(t)}
     //         </li>
     //       )
     //    |> Array.of_list

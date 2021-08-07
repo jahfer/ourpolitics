@@ -7,7 +7,6 @@ let selectLanguage = x =>
 @react.component
 let make = () => {
   let url = ReasonReactRouter.useUrl()
-
   let (language, setLanguage) = React.useState(() => url.hash |> selectLanguage)
   
   module T = Strings.Translations({
@@ -25,8 +24,8 @@ let make = () => {
     let policy = String.concat("/", policyPath)
     (<PolicyComparisonIndex year={int_of_string(year)} policy_handle=j`$year/$policy` />, Some(year))
   | list{"policies"} => (<Utils.SilentRedirect path="/policies/2019" />, None)
-  | list{"about"} => (<AboutIndex />, Some(Content.Strings.about->T.Text.to_str))
-  | list{"privacy"} => (<PrivacyIndex />, Some(Content.Strings.privacy_policy->T.Text.to_str))
+  | list{"about"} => (<AboutIndex />, Some(Content.Strings.about->T.text_to_string))
+  | list{"privacy"} => (<PrivacyIndex />, Some(Content.Strings.privacy_policy->T.text_to_string))
   | list{} => (<Utils.SilentRedirect path="/policies/2019" />, None) // <SplashIndex />
   | _ => (<PageNotFound />, Some("Page Not Found"))
   }

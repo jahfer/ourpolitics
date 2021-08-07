@@ -15,20 +15,20 @@ let make = (~party: Schema.party, ~policies: list<Schema.policy>) => {
   let listItems = switch policies {
   | list{} => [
       <li className="emptyPolicy" key="0">
-        {T.Text.react_string(Content.Strings.no_policy_listed)}
+        {T.text_react_string(Content.Strings.no_policy_listed)}
       </li>,
     ]
   | _ =>
     policies
     |> List.map(policy =>
-      <PolicyPoint policy key={T.Party.to_str(policy.party) ++ policy.title.en} />
+      <PolicyPoint policy key={T.party_to_string(policy.party) ++ policy.title.en} />
     )
     |> Array.of_list
   }
 
   <div className="policyCell">
     <h4 className={"policyCell--party textColor--" ++ EnStr.Party.to_str(party)}>
-      {T.Party.react_string(party)}
+      {T.party_react_string(party)}
     </h4>
     <ul className="policyCell--points"> {listItems->React.array} </ul>
   </div>

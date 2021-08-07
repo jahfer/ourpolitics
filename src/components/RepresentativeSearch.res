@@ -19,6 +19,6 @@ let make = (~year = 2019) => {
   }, [|postalCode|]);
 
   <section className="section">
-    <h1> Content.Strings.about->T.Text.react_string </h1>
+    <h1> Content.Strings.about->T.text_react_string </h1>
   </section>
 } */
