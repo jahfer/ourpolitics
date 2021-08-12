@@ -6,7 +6,9 @@ module CallToAction = {
       let language = language
     })
 
-    <a href=url onClick={url->Utils.Router.push(~language)}>{text->T.text_react_string}</a>
+    <div className="hero-cta">
+      <a href=url onClick={url->Utils.Router.push(~language)}>{text->T.text_react_string}</a>
+    </div>
   }
 }
 
@@ -18,11 +20,13 @@ module HeroText = {
       let language = language
     })
 
-    <hgroup className="hero-text-group flex flex-col flex-grow">
-      <h1 className="hero-text">{title->T.text_react_string}</h1>
-      <h2 className="hero-subheading">{subtitle->T.text_react_string}</h2>
-      <CallToAction url="/policies/2019" text=Content.Strings.hero_cta /> // TODO: Keep set language
-    </hgroup>
+    <div className="hero-text-group flex flex-col flex-grow">
+      <hgroup>
+        <h1 className="hero-text">{title->T.text_react_string}</h1>
+        <h2 className="hero-subheading">{subtitle->T.text_react_string}</h2>
+      </hgroup>
+      <CallToAction url="/policies/2019" text=Content.Strings.hero_cta />
+    </div>
   }
 }
 

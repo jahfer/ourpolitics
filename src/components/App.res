@@ -26,7 +26,7 @@ let make = () => {
   | list{"policies"} => (<Utils.SilentRedirect path="/policies/2021" />, None)
   | list{"about"} => (<AboutIndex />, Some(Content.Strings.about->T.text_to_string))
   | list{"privacy"} => (<PrivacyIndex />, Some(Content.Strings.privacy_policy->T.text_to_string))
-  | list{} => (<EmptySlate />, Some("2021"))
+  | list{} => (<EmptySlate />, Some(""))
   | _ => (<PageNotFound />, Some("Page Not Found"))
   }
 

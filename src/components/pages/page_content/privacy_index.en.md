@@ -1,4 +1,3 @@
-
 Our Politics is committed to protecting your right to privacy, and take every effort to
 protect it when visiting our website. We also promise to never sell your information to a 3rd party.
 

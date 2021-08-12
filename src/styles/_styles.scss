@@ -329,6 +329,14 @@ a, a:visited {
   margin-bottom: 20px;
 }
 
+.hero-cta::after {
+  font-family: 'FontAwesome';
+  content: '\f0a9';
+  padding-left: 6px;
+  color: #0066cc;
+  vertical-align: top;
+}
+
 @media screen and (min-width: 608px) {
   .pageSubTitle {
     font-size: 5.5rem;

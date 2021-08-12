@@ -132,7 +132,7 @@
 }
 
 .hero {
-  padding: 0 7rem 7rem;
+  padding-bottom: 5rem;
 }
 
 .hero-row {
@@ -149,6 +149,7 @@
   & > img {
     object-fit: contain;
     max-width: 400px;
+    width: 100%;
   }
 }
 
@@ -203,6 +204,7 @@
 
   .hero-text-group {
     text-align: left;
+    padding-right: 1rem;
   }
 
   .hero-text {
@@ -211,5 +213,9 @@
 
   .hero-image {
     margin-top: 2rem;
+  }
+
+  .hero {
+    padding: 0 7rem 7rem;
   }
 }

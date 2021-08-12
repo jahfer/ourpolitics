@@ -85,16 +85,24 @@ ul {
 }
 
 .hero-text {
-  font-size: 4.5rem;
+  font-size: 3rem;
+  line-height: 2.6rem;
   font-weight: 900;
   max-width: 36rem;
-  line-height: 3.6rem;
   letter-spacing: -0.05rem;
   margin-bottom: 0;
+  margin-top: 1rem;
 }
 
 .hero-subheading {
   font-weight: normal;
   color: #737373;
   font-size: 1.3rem;
+}
+
+@media screen and (min-width: 800px) {
+  .hero-text {
+    font-size: 4.5rem;
+    line-height: 3.6rem;
+  }
 }
