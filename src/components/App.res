@@ -26,13 +26,15 @@ let make = () => {
   | list{"policies"} => (<Utils.SilentRedirect path="/policies/2021" />, None)
   | list{"about"} => (<AboutIndex />, Some(Content.Strings.about->T.text_to_string))
   | list{"privacy"} => (<PrivacyIndex />, Some(Content.Strings.privacy_policy->T.text_to_string))
-  | list{} => (<Utils.SilentRedirect path="/policies/2021" />, None) // <SplashIndex />
+  | list{} => (<EmptySlate />, Some("2021"))
   | _ => (<PageNotFound />, Some("Page Not Found"))
   }
 
   <LanguageContext language>
     <div className="page">
-      <Header setLanguage subheading /> <div className="container"> page_content </div> <Footer />
+      <Header setLanguage subheading />
+      <div className="container"> page_content </div>
+      <Footer />
     </div>
   </LanguageContext>
 }

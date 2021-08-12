@@ -189,6 +189,7 @@ a, a:visited {
 
 .policyPoint {
   margin-bottom: 5px;
+  font-size: 1.1rem;
 
   &:last-of-type {
     border: none;
@@ -322,6 +323,10 @@ a, a:visited {
 
 .banner--content {
   margin-left: 2rem;
+}
+
+.archive-list {
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 608px) {

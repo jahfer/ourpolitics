@@ -1,8 +1,8 @@
 @module
-external page_content_en: string = "!html-loader!markdown-loader!./page_content/splash_index.en.md"
+external page_content_en: string = "!html-loader!markdown-loader!./page_content/empty_slate.en.md"
 
 @module
-external page_content_fr: string = "!html-loader!markdown-loader!./page_content/splash_index.fr.md"
+external page_content_fr: string = "!html-loader!markdown-loader!./page_content/empty_slate.fr.md"
 
 let page_content = {
   open I18n

@@ -145,8 +145,20 @@ module Strings = {
     fr: j`Enjeux $year`,
   }
   let election_notice = {
-    en: "The 2021 Canadian federal election is underway! Stay tuned for policy announcements from the parties in the coming weeks.",
-    fr: ""
+    en: "The 2021 Canadian federal election is underway! Stay tuned for new policies in the coming weeks.",
+    fr: `L'élection fédérale canadienne de 2021 est en cours! Restez à l'écoute des nouvelles politiques dans les semaines à venir.`
+  }
+  let hero_election_notice = {
+    en: "The election is underway!",
+    fr: `L'élection est en cours!`
+  }
+  let hero_subtitle = {
+    en: "Stay tuned for new policies in the coming weeks.",
+    fr: `Restez à l'écoute des nouvelles politiques dans les semaines à venir.`
+  }
+  let hero_cta = {
+    en: "Read the 2019 policies",
+    fr: `Lire les politiques de 2019`
   }
 }
 
