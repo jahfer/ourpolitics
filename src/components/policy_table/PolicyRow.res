@@ -16,11 +16,15 @@ let dataset_of_policies = (parties, policies) => {
 }
 
 @react.component
-let make = (~topic, ~parties, ~policies: PolicyDataset.t<list<Schema.policy>>) => {
+let make = (~topic, ~year, ~parties, ~policies: PolicyDataset.t<list<Schema.policy>>) => {
   let language = React.useContext(LanguageContext.ctx)
   module T = Strings.Translations({
     let language = language
   })
+
+  let topic_str = Strings.Topic.to_str(topic, ~language=I18n.EN)
+  |> Js.String.toLowerCase
+  |> Js.String.replaceByRe(%re("/\s/g"), "_")
 
   let policy_cells =
     parties
@@ -29,8 +33,8 @@ let make = (~topic, ~parties, ~policies: PolicyDataset.t<list<Schema.policy>>) =
         party
         policies={PolicyDataset.find(party, policies)}
         key={Strings.Party.to_str(party, ~language=I18n.EN) ++
-        (" " ++
-        Strings.Topic.to_str(topic, ~language=I18n.EN))}
+        " " ++
+        Strings.Topic.to_str(topic, ~language=I18n.EN)}
       />
     )
     |> Array.of_list
@@ -39,7 +43,7 @@ let make = (~topic, ~parties, ~policies: PolicyDataset.t<list<Schema.policy>>) =
     <div className="policyCells">
       <div className="policyCell policyTopic">
         <h3 className="policyTopic--title"> {T.topic_react_string(topic)} </h3>
-        //<a className="policyTopic--info" href="#"> { "Learn more"->React.string }</a>
+        <a className="policyTopic--info" href="#" onClick={`policies/${string_of_int(year)}/${topic_str}`->Utils.Router.push(~language)}> { "Learn more"->React.string }</a>
       </div>
       {policy_cells->React.array}
     </div>

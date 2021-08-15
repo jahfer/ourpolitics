@@ -12,6 +12,7 @@ let dataset_of_policies = policy_list => {
 @react.component
 let make = (
   ~isLoading: bool,
+  ~year: int,
   ~parties: list<Schema.party>,
   ~dataset: TopicDataset.t<list<Schema.policy>>,
   ~topicFilter: option<Schema.TopicSet.t>,
@@ -36,6 +37,7 @@ let make = (
       |> List.map(((topic, policies)) =>
         <PolicyRow
           topic
+          year
           parties=sortedPartyList
           policies={PolicyRow.dataset_of_policies(parties, policies)}
           key={Strings.Topic.to_str(topic, ~language=I18n.EN)}

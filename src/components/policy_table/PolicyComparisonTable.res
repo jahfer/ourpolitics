@@ -169,7 +169,7 @@ let make = (~policy_handle=?, ~year=2019) => {
         }
       }
     </aside>
-    <PolicyTable isLoading parties topicFilter=Some(topicFilter) dataset=tableDataset />
+    <PolicyTable isLoading year parties topicFilter=Some(topicFilter) dataset=tableDataset />
     <footer> <p className="footerInfo" /> </footer>
   </PolicyModalDispatch>
 }
