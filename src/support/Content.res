@@ -149,8 +149,8 @@ module Strings = {
     fr: `L'élection fédérale canadienne de 2021 est en cours! Restez à l'écoute des nouvelles politiques dans les semaines à venir.`
   }
   let hero_election_notice = {
-    en: "The election is (almost) underway!",
-    fr: `L'élection est (presque) en cours!`
+    en: "The election is underway!",
+    fr: `L'élection est en cours!`
   }
   let hero_subtitle = {
     en: "Stay tuned for new policies in the coming weeks.",
