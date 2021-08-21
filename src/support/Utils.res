@@ -54,3 +54,12 @@ module SilentRedirect = {
     React.null
   }
 }
+
+module Redirect = {
+  @react.component
+  let make = (~path) => {
+    let language = React.useContext(LanguageContext.ctx)
+    Router.push_route(~language, path)
+    React.null
+  }
+}

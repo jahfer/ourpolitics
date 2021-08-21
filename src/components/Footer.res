@@ -9,7 +9,7 @@ let make = () => {
     <div className="container">
       <h2 className="subheading"> {T.text_react_string(Content.Strings.archives)} </h2>
       <ul className="list-plain text-large archive-list">
-        {[2019, 2015]
+        {[2021, 2019, 2015]
         |> Array.map(year =>
           <li>
             <a

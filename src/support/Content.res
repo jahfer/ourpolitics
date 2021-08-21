@@ -10,8 +10,8 @@ module Strings = {
     fr: "Sujets",
   }
   let no_policy_listed = {
-    en: "No known policies",
-    fr: "Absence de politique",
+    en: "No major policies",
+    fr: "Pas de politiques majeures",
   }
   let archives = {
     en: "Archives",
@@ -64,6 +64,10 @@ module Strings = {
     en: "Foreign Policy",
     fr: `Affaires étrangères`,
   }
+  let economy = {
+    en: "Economy",
+    fr: `Économie`
+  }
   let taxes = {
     en: "Taxes",
     fr: `Taxes et impôts`,
@@ -85,7 +89,7 @@ module Strings = {
     fr: `Peuples autochtones`,
   }
   let healthcare = {
-    en: "Health Care",
+    en: "Healthcare",
     fr: `Soins de santé`,
   }
   let infrastructure = {
@@ -125,8 +129,8 @@ module Strings = {
     fr: `Réforme électorale`,
   }
   let public_safety = {
-    en: "Public Safety",
-    fr: `Sécurité publique`,
+    en: "Civil Rights",
+    fr: `Droits civils`,
   }
   let education = {
     en: "Education",
@@ -140,13 +144,21 @@ module Strings = {
     en: "Affordability",
     fr: `Coût de la vie`,
   }
+  let arts_and_culture = {
+    en: "Arts & Culture",
+    fr: "Arts et culture",
+  }
+  let immigration = {
+    en: "Immigration",
+    fr: "Immigration",
+  }
   let policy_comparison_title = (~year) => {
     en: j`$year Policies`,
     fr: j`Enjeux $year`,
   }
   let election_notice = {
-    en: "The 2021 Canadian federal election is underway! Stay tuned for new policies in the coming weeks.",
-    fr: `L'élection fédérale canadienne de 2021 est en cours! Restez à l'écoute des nouvelles politiques dans les semaines à venir.`
+    en: "We're working on making these policies easier to understand. Stay tuned for updates in the coming weeks.",
+    fr: `Nous travaillons à rendre ces politiques plus faciles à comprendre. Restez à l'écoute des mises à jour dans les semaines à venir.`
   }
   let hero_election_notice = {
     en: "The election is underway!",
@@ -157,8 +169,8 @@ module Strings = {
     fr: `Restez à l'écoute des nouvelles politiques dans les semaines à venir.`
   }
   let hero_cta = {
-    en: "Read the 2019 policies",
-    fr: `Lire les politiques de 2019`
+    en: "Read the 2021 policies",
+    fr: `Lire les politiques de 2021`
   }
 }
 
@@ -172,8 +184,17 @@ module Strings = {
 /* 2021 */
 module Y2021 = {
   module NDP = {
-    @module external x_en: string = "../policies/2021/ndp/x.en.md"
-    @module external x_fr: string = "../policies/2021/ndp/x.fr.md"
+    @module external wealth_tax_en: string = "../policies/2021/ndp/wealth_tax.en.md"
+    @module external wealth_tax_fr: string = "../policies/2021/ndp/wealth_tax.fr.md"
+
+    @module external corporate_tax_rate_en: string = "../policies/2021/ndp/corporate_tax_rate.en.md"
+    @module external corporate_tax_rate_fr: string = "../policies/2021/ndp/corporate_tax_rate.fr.md"
+
+    @module external income_tax_rate_en: string = "../policies/2021/ndp/income_tax_rate.en.md"
+    @module external income_tax_rate_fr: string = "../policies/2021/ndp/income_tax_rate.fr.md"
+
+    @module external capital_gains_en: string = "../policies/2021/ndp/capital_gains.en.md"
+    @module external capital_gains_fr: string = "../policies/2021/ndp/capital_gains.fr.md"
   }
   module Liberals = {
     @module external x_en: string = "../policies/2021/liberals/x.en.md"
@@ -337,18 +358,23 @@ module Y2021 = {
 
 let pathToContent = x =>
   switch x {
-  | "2021/ndp/x" => {
-      en: Y2021.NDP.x_en,
-      fr: Y2021.NDP.x_fr,
+  | "2021/ndp/wealth_tax" => {
+      en: Y2021.NDP.wealth_tax_en,
+      fr: Y2021.NDP.wealth_tax_fr,
     }
-  | "2021/liberals/x" => {
-      en: Y2021.Liberals.x_en,
-      fr: Y2021.Liberals.x_fr,
+  | "2021/ndp/corporate_tax_rate" => {
+      en: Y2021.NDP.corporate_tax_rate_en,
+      fr: Y2021.NDP.corporate_tax_rate_fr,
     }
-  | "2021/conservatives/x" => {
-      en: Y2021.Conservatives.x_en,
-      fr: Y2021.Conservatives.x_fr,
+  | "2021/ndp/income_tax_rate" => {
+      en: Y2021.NDP.income_tax_rate_en,
+      fr: Y2021.NDP.income_tax_rate_fr,
     }
+  | "2021/ndp/capital_gains" => {
+      en: Y2021.NDP.capital_gains_en,
+      fr: Y2021.NDP.capital_gains_fr,
+    }
+    
   | "2015/cpc_aboriginal_funding" => {
       en: cpc_aboriginal_funding_en,
       fr: cpc_aboriginal_funding_fr,

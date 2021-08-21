@@ -25,7 +25,7 @@ module HeroText = {
         <h1 className="hero-text">{title->T.text_react_string}</h1>
         <h2 className="hero-subheading">{subtitle->T.text_react_string}</h2>
       </hgroup>
-      <CallToAction url="/policies/2019" text=Content.Strings.hero_cta />
+      <CallToAction url="/policies/2021" text=Content.Strings.hero_cta />
     </div>
   }
 }

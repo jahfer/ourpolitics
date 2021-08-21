@@ -16,7 +16,7 @@ body {
   margin: 0;
 }
 
-a, a:visited {
+a {
   color: rgb(0, 102, 204);
 }
 
@@ -90,8 +90,7 @@ a, a:visited {
 .pageSubTitle {
   font-size: 3rem;
   font-weight: 900;
-  margin: 0;
-  margin-top: 20px;
+  margin: 20px 0 10px;
 }
 
 .legend {
@@ -210,6 +209,10 @@ a, a:visited {
     color: #ffbd00;
     margin: 0 5px 0 -20px;
   }
+}
+
+.customBullet--foo:before {
+  content: '\f075';
 }
 
 .customBullet--star:before {
@@ -339,7 +342,7 @@ a, a:visited {
 @media screen and (min-width: 608px) {
   .pageSubTitle {
     font-size: 5.5rem;
-    margin-top: 0;
+    margin: 0;
     padding: 20px 0;
   }
 }

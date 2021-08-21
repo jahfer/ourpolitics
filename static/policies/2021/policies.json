@@ -1,71 +1,3454 @@
 [
   {
-    "topic": "Child Care",
-    "party": "NDP",
-    "title": {
-      "en": "X",
-      "fr": "Y"
-    },
-    "references": [
-      {
-        "date": "2015-09-22",
-        "title": "X",
-        "publisher": "Z",
-        "url": "https://ourpolitics.ca"
-      },
-      {
-        "date": "2015-08-20",
-        "title": "Y",
-        "publisher": "Z",
-        "url": "https://ourpolitics.ca"
-      }
-    ],
-    "handle": "2021/ndp/x"
-  },
-  {
-    "topic": "Child Care",
+    "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "X",
-      "fr": "Y"
+      "en": "Allow tech companies to issue “Flow-through shares”",
+      "fr": "Permettre aux entreprises technologiques d'émettre des « actions accréditives »"
     },
     "references": [
       {
-        "date": "2015-09-22",
-        "title": "X",
-        "publisher": "Z",
-        "url": "https://ourpolitics.ca"
-      },
+        "date": "2021-08-11",
+        "title": "Conservatives unveil innovation policy ahead of potential election call, marking departure from Liberals",
+        "publisher": "National Post",
+        "url": "https://nationalpost.com/news/politics/conservatives-unveil-innovation-policy-ahead-of-potential-election-call-marking-departure-from-liberals"
+      }
+    ]
+  },
+  {
+    "topic": "Science",
+    "party": "Conservative",
+    "title": {
+      "en": "Create the Canadian Advanced Research Agency",
+      "fr": "Créer l'Agence canadienne de recherche avancée"
+    },
+    "references": [
       {
-        "date": "2015-08-20",
-        "title": "Y",
-        "publisher": "Z",
-        "url": "https://ourpolitics.ca"
+        "date": "2021-08-11",
+        "title": "Conservatives unveil innovation policy ahead of potential election call, marking departure from Liberals",
+        "publisher": "National Post",
+        "url": "https://nationalpost.com/news/politics/conservatives-unveil-innovation-policy-ahead-of-potential-election-call-marking-departure-from-liberals"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "Tax on real estate purchases by foreign buyers",
+      "fr": "Taxe sur les achats de biens immobiliers par des acheteurs étrangers"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "NDP promises to expand its ‘wealth tax’ to include thousands more Canadians",
+        "publisher": "Toronto Star",
+        "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "NDP",
+    "title": {
+      "en": "Increase taxes on capital gains",
+      "fr": "Augmenter les impôts sur les gains en capital"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "NDP promises to expand its ‘wealth tax’ to include thousands more Canadians",
+        "publisher": "Toronto Star",
+        "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "NDP",
+    "title": {
+      "en": "Increase top income tax rate",
+      "fr": "Augmenter le taux supérieur d'imposition sur le revenu"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "NDP promises to expand its ‘wealth tax’ to include thousands more Canadians",
+        "publisher": "Toronto Star",
+        "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "NDP",
+    "title": {
+      "en": "Increase corporate taxes",
+      "fr": "Augmenter l'impôt sur les sociétés"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "NDP promises to expand its ‘wealth tax’ to include thousands more Canadians",
+        "publisher": "Toronto Star",
+        "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "NDP",
+    "title": {
+      "en": "Wealth tax",
+      "fr": "Impôt sur la fortune"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "NDP promises to expand its ‘wealth tax’ to include thousands more Canadians",
+        "publisher": "Toronto Star",
+        "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
       }
     ],
-    "handle": "2021/conservatives/x"
+    "handle": "2021/ndp/wealth_tax"
+  },
+  {
+    "topic": "Economy",
+    "party": "Conservative",
+    "title": {
+      "en": "Canada Job Surge Plan",
+      "fr": "Plan de relance de l'emploi au Canada"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Conservative",
+    "title": {
+      "en": "Require federally regulated employers to include worker representation on their boards of directors",
+      "fr": "Obliger les employeurs sous réglementation fédérale à inclure une représentation des travailleurs dans leur conseil d'administration"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Science",
+    "party": "Conservative",
+    "title": {
+      "en": "Ban cosmetic testing on animals",
+      "fr": "Interdire les tests cosmétiques sur les animaux"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "Establish a residential high risk flood insurance program",
+      "fr": "Établir un programme d'assurance résidentielle contre les inondations à haut risque"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "Ban foreign investors not living in or moving to Canada from buying homes here for two years",
+      "fr": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Conservative",
+    "title": {
+      "en": "Update anti-corruption laws",
+      "fr": "Mettre à jour les lois anti-corruption"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
+      "en": "Mental Health Action Plan",
+      "fr": "Plan d'action pour la santé mentale"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Conservative",
+    "title": {
+      "en": "Increase EI benefits during provincial recessions",
+      "fr": "Augmenter les prestations d'assurance-emploi pendant les récessions provinciales"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Conservative",
+    "title": {
+      "en": "Employee Savings Account for “gig economy” employees",
+      "fr": "Compte d'épargne des employés pour les employés de la « gig economy »"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Conservative",
+    "title": {
+      "en": "Canada Seniors Care Benefit",
+      "fr": "Prestation canadienne pour soins aux aînés"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "International Trade",
+    "party": "Conservative",
+    "title": {
+      "en": "Pursue CANZUK trade agreement",
+      "fr": "Poursuivre l'accord commercial CANZUK"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Ban the export of plastic waste",
+      "fr": "Interdire l'exportation de déchets plastiques"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Personal Low Carbon Savings Accounts",
+      "fr": "Comptes personnels d'épargne à faible émission de carbone"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "30% of light duty vehicles sold to be zero emissions by 2030",
+      "fr": "30 % des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "Conservative",
+    "title": {
+      "en": "Repeal Bill C-71",
+      "fr": "Abrogation du C-71"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "Conservative",
+    "title": {
+      "en": "Recognize Jerusalem as the capital of Israel",
+      "fr": "Reconnaître Jérusalem comme capitale d'Israël"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Protect 17% of Canada's lands and water",
+      "fr": "Protéger 17 % des terres et des eaux du Canada"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Ban on single-use plastics",
+      "fr": "Interdiction des plastiques à usage unique"
+    },
+    "references": []
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase carbon tax to $170/ton by 2030, with federal backstop",
+      "fr": "Augmenter la taxe sur le carbone jusqu'à $/tonne"
+    },
+    "references": []
+  },
+  {
+    "topic": "Public Safety",
+    "party": "Liberal",
+    "title": {
+      "en": "Keep Bill C-71",
+      "fr": "Maintenir le projet de loi C-71"
+    },
+    "references": []
+  },
+  {
+    "topic": "Economy",
+    "party": "Liberal",
+    "title": {
+      "en": "Limit bonuses from public companies who accepted wage subsidy",
+      "fr": "Limiter les bonus des entreprises publiques qui ont accepté une subvention salariale"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Liberal",
+    "title": {
+      "en": "Make EI more accessible and simpler",
+      "fr": "Rendre l'IE plus accessible et plus simple"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Expand Canada Workers Benefit",
+      "fr": "Élargir la prestation des travailleurs canadiens"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Liberal",
+    "title": {
+      "en": "Improve labour protections for gig workers",
+      "fr": "Améliorer les protections du travail pour les travailleurs indépendants"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Liberal",
+    "title": {
+      "en": "Establish a Black-led Philanthropic Endowment Fund",
+      "fr": "Créer un fonds de dotation philanthropique dirigé par des Noirs"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Liberal",
+    "title": {
+      "en": "Implement Digital Services Tax",
+      "fr": "Mettre en œuvre la taxe sur les services numériques"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Conservative",
+    "title": {
+      "en": "Implement Digital Services Tax",
+      "fr": "Mettre en œuvre la taxe sur les services numériques"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Science",
+    "party": "Liberal",
+    "title": {
+      "en": "Expand Industrial Research Assistance Program",
+      "fr": "Élargir le programme d'aide à la recherche industrielle"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Science",
+    "party": "Liberal",
+    "title": {
+      "en": "Fund Strategic Innovation Fund",
+      "fr": "Fonds d'innovation stratégique"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Science",
+    "party": "Liberal",
+    "title": {
+      "en": "Create National Institute for Women’s Health Research",
+      "fr": "Créer l'Institut national de recherche sur la santé des femmes"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "Require municipalities to increase density near the funded transit",
+      "fr": "Créer l'Institut national de recherche sur la santé des femmes"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Fund construction, repair or support of 35,000 affordable housing units",
+      "fr": "Financer la construction, la réparation ou le soutien de 35 000 unités de logement abordables"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Annual 1% tax on the value of non-resident, non-Canadian owned residential real estate that is vacant or underused",
+      "fr": "Taxe annuelle de 1 % sur la valeur des biens immobiliers résidentiels appartenant à des non-résidents et à des non-Canadiens, qui sont vacants ou sous-utilisés."
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "Memorial to the Victims of Communism",
+      "fr": "Mémorial aux victimes du communisme"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "Tax on vaping products",
+      "fr": "Taxe sur les produits de vapotage"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase taxes on tobacco products",
+      "fr": "Augmenter les taxes sur les produits du tabac"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "Implement external oversight to the reporting and adjudication process of sexual misconduct within the military",
+      "fr": "Mettre en place une surveillance externe du processus de signalement et de jugement des cas d'inconduite sexuelle au sein de l'armée"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "Tax on luxury cars, aircraft, and boats for personal use",
+      "fr": "Taxe sur les voitures, avions et bateaux de luxe à usage personnel"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "$4 billion top-up to Canada Health Transfer",
+      "fr": "Complément de 4 milliards de dollars au Transfert canadien en matière de santé"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "PHAC to develop national mental health service standards",
+      "fr": "L'ASPC va élaborer des normes nationales de services de santé mentale"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Support CRTC creation of three-digit suicide prevention hotline",
+      "fr": "Soutenir la création par le CRTC d'une ligne téléphonique à trois chiffres pour la prévention du suicide"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Cover mental health costs of veterans while waiting for benefits",
+      "fr": "Couvrir les frais de santé mentale des anciens combattants en attendant les avantages"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "National universal pharmacare",
+      "fr": "Assurance-médicaments nationale et universelle"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Boost the minimum wage for support workers in long-term care facilities to at least $25/hour",
+      "fr": "Augmenter le salaire minimum des travailleurs de soutien dans les établissements de soins de longue durée à au moins 25 $/heure"
+    },
+    "references": [
+      {
+        "date": "2021-08-19",
+        "title": "Trudeau promises $9b to address long-term care 'shortfalls' during Victoria campaign stop",
+        "publisher": "BIV",
+        "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Boost the home accessibility tax credit to $20,000",
+      "fr": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20 000 $"
+    },
+    "references": [
+      {
+        "date": "2021-08-19",
+        "title": "Trudeau promises $9b to address long-term care 'shortfalls' during Victoria campaign stop",
+        "publisher": "BIV",
+        "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Train up to up to 50,000 more workers for long-term care facilities",
+      "fr": "Former jusqu'à 50 000 travailleurs supplémentaires pour les établissements de soins de longue durée"
+    },
+    "references": [
+      {
+        "date": "2021-08-19",
+        "title": "Trudeau promises $9b to address long-term care 'shortfalls' during Victoria campaign stop",
+        "publisher": "BIV",
+        "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase OAS by 10% for those 75+, indexed to inflation",
+      "fr": "Augmenter la SV de 10 % pour les personnes de plus de 75 ans, indexée à l'inflation"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase sickness benefits from 15 weeks to 26 weeks",
+      "fr": "Augmenter les prestations de maladie de 15 à 26 semaines"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "International Trade",
+    "party": "Liberal",
+    "title": {
+      "en": "Border carbon adjustments",
+      "fr": "Ajustements du carbone aux frontières"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Reduce income tax rate by 50% for manufacturers of zero-emissions technologies",
+      "fr": "Réduire de 50 % le taux d'imposition sur le revenu pour les fabricants de technologies à émissions nulles"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Green bond framework",
+      "fr": "Cadre des obligations vertes"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Tax credit for investments in carbon capture, utilization & storage projects",
+      "fr": "Crédit d'impôt pour les investissements dans des projets de capture, d'utilisation et de stockage du carbone"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Tax credit for investments in carbon capture, utilization & storage projects",
+      "fr": "Crédit d'impôt pour les investissements dans des projets de capture, d'utilisation et de stockage du carbone"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Reduce emissions by 36% below 2005 levels by 2030",
+      "fr": "Réduire les émissions de 36% par rapport aux niveaux de 2005 d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Switch Climate Action Incentive payments from refundable credit via tax return to quarterly payments",
+      "fr": "Faire passer les paiements de l'incitation à l'action climatique d'un crédit remboursable via la déclaration de revenus à des paiements trimestriels"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Return a portion of backstop Climate Action Incentive payments directly to farmers",
+      "fr": "Remettre une partie des paiements de l'incitation à l'action climatique directement aux agriculteurs"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Interest-free loans up to $40,000 for deep retrofits of homes",
+      "fr": "Prêts sans intérêt jusqu'à 40 000 dollars pour des améliorations profondes des logements."
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Protect 25% of Canada's lands and oceans by 2025",
+      "fr": "Protéger 25 % des terres et des océans du Canada d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Protect 25% of Canada’s marine and costal areas by 2025",
+      "fr": "Protéger 25 % des zones marines et côtières du Canada d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "Liberal",
+    "title": {
+      "en": "Complete flood maps for high risk areas",
+      "fr": "Cartes d'inondation complètes pour les zones à haut risque"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "Liberal",
+    "title": {
+      "en": "Eliminate chronic homelessness in Canada",
+      "fr": "Éliminer l'itinérance chronique au Canada"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "Liberal",
+    "title": {
+      "en": "$2.5 billion for Indigenous Early Learning and Child Care",
+      "fr": "2,5 milliards de dollars pour l'apprentissage et la garde des jeunes enfants autochtones"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "Liberal",
+    "title": {
+      "en": "$18 billion investment in Indigenous communities",
+      "fr": "18 milliards de dollars d'investissement dans les communautés indigènes"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
   },
   {
     "topic": "Child Care",
     "party": "Liberal",
     "title": {
-      "en": "X",
-      "fr": "Y"
+      "en": "Universal $10/day child-care",
+      "fr": "Garde d'enfants universelle à 10 $/jour"
     },
     "references": [
       {
-        "date": "2015-09-22",
-        "title": "X",
-        "publisher": "Z",
-        "url": "https://ourpolitics.ca"
-      },
-      {
-        "date": "2015-08-20",
-        "title": "Y",
-        "publisher": "Z",
-        "url": "https://ourpolitics.ca"
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ],
-    "handle": "2021/liberals/x"
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "Liberal",
+    "title": {
+      "en": "Extend waiver on interest accrual on Canada Student Loans and Canada Apprentice Loans until March 31, 2023",
+      "fr": "Prolonger la renonciation à l'accumulation d'intérêts sur les prêts canadiens aux étudiants et les prêts canadiens aux apprentis jusqu'au 31 mars 2023"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase threshold for repayment assistance on federal student loans to $40,000 for borrowers living alone",
+      "fr": "Augmenter le seuil de l'aide au remboursement des prêts étudiants fédéraux à 40 000 $ pour les emprunteurs vivant seuls"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "Liberal",
+    "title": {
+      "en": "Allow individuals to use current year income instead of previous year’s to determine eligibility for Canada Student Grants",
+      "fr": "Permettre aux particuliers d'utiliser le revenu de l'année en cours plutôt que celui de l'année précédente pour déterminer l'admissibilité aux bourses canadiennes pour étudiants"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase student wage subsidy to $7,500 per student",
+      "fr": "Augmenter la subvention salariale des étudiants à 7 500 $ par étudiant"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Liberal",
+    "title": {
+      "en": "Provide 98% of the country with high-speed broadband by 2026 and 100% by 2030",
+      "fr": "Fournir 98% du pays en haut débit d'ici 2026 et 100% d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Liberal",
+    "title": {
+      "en": "Fund public transit projects across Canada",
+      "fr": "Financer des projets de transport public à travers le Canada"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "Liberal",
+    "title": {
+      "en": "Support CBC and Radio-Canada",
+      "fr": "Soutenez CBC et Radio-Canada"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Liberal",
+    "title": {
+      "en": "Replace Global Case Management System with an enterprise-wide digital platform",
+      "fr": "Remplacer le système mondial de gestion des cas par une plateforme numérique à l'échelle de l'entreprise"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Liberal",
+    "title": {
+      "en": "Resettle 20,000 refugees from Afghanistan",
+      "fr": "Réinstaller 20 000 réfugiés d'Afghanistan"
+    },
+    "references": [
+      {
+        "date": "2021-08-13",
+        "title": "Canada expands resettlement program to bring more Afghans to safety",
+        "publisher": "Government of Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2021/08/canada-expands-resettlement-program-to-bring-more-afghans-to-safety.html"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Conservative",
+    "title": {
+      "en": "Memorial to the Victims of Communism",
+      "fr": "Mémorial aux victimes du communisme"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Conservative",
+    "title": {
+      "en": "Neither intervene in nor providing federal funding to support legal challenges to Law 21 in Quebec",
+      "fr": "Ne pas intervenir dans les contestations juridiques de la Loi 21 au Québec et ne pas fournir de financement fédéral pour les soutenir"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
+      "en": "Boost the annual growth rate of the Canada Health Transfer to at least 6%",
+      "fr": "Faire passer le taux de croissance annuel du Transfert canadien en matière de santé à au moins 6 %"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
+      "en": "Merge Canadian Armed Forces (CAF) and Veterans Affairs Canada (VAC) into one system of benefits",
+      "fr": "Fusionner les Forces armées canadiennes (FAC) et Anciens Combattants Canada (ACC) en un seul système d'avantages, de l'enrôlement à la retraite, en passant par le service"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
+      "en": "$3 billion over three years to renovate Long-Term Care Homes",
+      "fr": "3 milliards de dollars sur trois ans pour rénover les foyers de soins de longue durée"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Conservative",
+    "title": {
+      "en": "Double the residency deduction, boost the basic amount in the intermediate zone for Northern residents",
+      "fr": "Doubler la déduction pour résidence, augmenter le montant de base dans la zone intermédiaire pour les résidents du Nord"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Conservative",
+    "title": {
+      "en": "Reduce hours required to qualify for the Disability Tax Credit and the Registered Disability Savings Plan",
+      "fr": "Réduire le nombre d'heures requises pour être admissible au crédit d'impôt pour personnes handicapées et au régime enregistré d'épargne-invalidité"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Conservative",
+    "title": {
+      "en": "Double the Disability Supplement in the Canada Workers Benefit",
+      "fr": "Doubler le supplément d'invalidité de la prestation pour travailleurs canadiens"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "International Trade",
+    "party": "Conservative",
+    "title": {
+      "en": "Border carbon adjustments",
+      "fr": "Ajustements du carbone aux frontières"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "International Trade",
+    "party": "Conservative",
+    "title": {
+      "en": "End ban on Canadian oil export shipping traffic on British Columbia's coast",
+      "fr": "Mettre fin à l'interdiction du trafic maritime d'exportation de pétrole canadien sur la côte de la Colombie-Britannique"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Invest $5 billion in carbon capture technologies",
+      "fr": "Investir 5 milliards de dollars dans les technologies de capture du carbone"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "Conservative",
+    "title": {
+      "en": "Recognize the Uyghur genocide",
+      "fr": "Reconnaître le génocide ouïghour"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "Conservative",
+    "title": {
+      "en": "Boost funding for Indigenous mental health and drug treatment programs",
+      "fr": "Accroître le financement des programmes indigènes de santé mentale et de traitement de la toxicomanie"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "Conservative",
+    "title": {
+      "en": "Create Canadian Indigenous Enterprise Corporation",
+      "fr": "Créer la Canadian Indigenous Enterprise Corporation"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "Conservative",
+    "title": {
+      "en": "Review the mandate of CBC English Television, CBC News Network and CBC English online news",
+      "fr": "Revoir le mandat de CBC English Television, CBC News Network et CBC English online news"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "Conservative",
+    "title": {
+      "en": "Introduce a digital media royalty framework to ensure that Canadian media outlets are fairly compensated",
+      "fr": "Introduire un cadre de redevances pour les médias numériques afin de garantir que les médias canadiens soient rémunérés équitablement"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Conservative",
+    "title": {
+      "en": "Allow individuals to pay for expedited processing of immigration applications",
+      "fr": "Permettre aux individus de payer pour le traitement accéléré des demandes d'immigration"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Conservative",
+    "title": {
+      "en": "Expand “super visa” program",
+      "fr": "Élargir le programme de « super visa »"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Conservative",
+    "title": {
+      "en": "Allow employers to sponsor applications for permanent residency",
+      "fr": "Permettre aux employeurs de parrainer les demandes de résidence permanente"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Conservative",
+    "title": {
+      "en": "Replace public, government-assisted refugee places with more private and joint sponsorship places",
+      "fr": "Remplacer les places de réfugiés publiques, assistées par le gouvernement, par davantage de places de parrainage privé et conjoint"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Conservative",
+    "title": {
+      "en": "End illegal border crossings",
+      "fr": "Mettre fin aux franchissements illégaux des frontières"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Conservative",
+    "title": {
+      "en": "Ensure that a higher proportion of immigrants settling in Quebec speak French",
+      "fr": "S'assurer qu'une plus grande proportion des immigrants qui s'installent au Québec parlent français"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "NDP",
+    "title": {
+      "en": "Cap merchant credit card fees at 1%",
+      "fr": "Plafonner les frais de carte de crédit des commerçants à 1 %."
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "NDP",
+    "title": {
+      "en": "Raise corporate income tax rate to 18%",
+      "fr": "Augmenter le taux de l'impôt sur les sociétés à 18 %"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "500,000 affordable housing units in 10 years, 50% of those in 5 years",
+      "fr": "500 000 unités de logement abordables en 10 ans, dont 50 % en 5 ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "Convert unused and underused federal lands for housing",
+      "fr": "Convertir les terres fédérales inutilisées et sous-utilisées en logements"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "Waive the federal portion of GST/HST on construction of new affordable rental units",
+      "fr": "Renoncer à la portion fédérale de la TPS/TVH sur la construction de nouveaux logements locatifs abordables"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "Allow 30-year mortgages on entry-level homes for first time home buyers",
+      "fr": "Permettre des hypothèques de 30 ans sur les maisons d'entrée de gamme pour les acheteurs d'une première maison"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "Double the Home Buyer’s Tax Credit to $1,500",
+      "fr": "Doublement du crédit d'impôt pour l'achat d'une maison, qui passe à 1 500 $"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "20% tax on real estate purchases by foreign buyers",
+      "fr": "Taxe de 20% sur les achats de biens immobiliers par des acheteurs étrangers"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "End homelessness in Canada within a decade",
+      "fr": "Mettre fin à l'itinérance au Canada d'ici une décennie"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "Fast track the purchase, lease and conversion of hotels and motels for emergency housing relief",
+      "fr": "Accélérer l'achat, la location et la conversion d'hôtels et de motels pour l'aide au logement d'urgence"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Restore door-to-door mail delivery",
+      "fr": "Rétablir la distribution du courrier en porte-à-porte"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Reduce amount of work contracted out by the government",
+      "fr": "Réduire la quantité de travail sous-traité par le gouvernement"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Ensure judges on the Supreme Court are bilingual",
+      "fr": "Veiller à ce que les juges de la Cour suprême soient bilingues"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Tougher penalties in the Conflict of Interest Act",
+      "fr": "Des sanctions plus sévères dans la loi sur les conflits d'intérêts"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Ban government officials from accepting donations from anyone whose private interest could be benefited by their decisions",
+      "fr": "Interdire aux responsables gouvernementaux d'accepter des dons de toute personne dont les intérêts privés pourraient être favorisés par leurs décisions"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Formally prohibit corporations facing criminal charges from lobbying elected officials",
+      "fr": "Interdire formellement aux sociétés faisant l'objet d'accusations criminelles de faire du lobbying auprès des élus"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Abolish the Senate",
+      "fr": "Abolir le Sénat"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Empower the Auditor General to review taxpayer-funded government advertising to make sure that it is non-partisan",
+      "fr": "Donner le pouvoir au vérificateur général d'examiner la publicité gouvernementale financée par les contribuables pour s'assurer qu'elle est non partisane"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Abolish the Senate",
+      "fr": "Abolir le Sénat"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Universal pharmacare",
+      "fr": "Assurance-médicaments universelle"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "End private, for-profit long-term care",
+      "fr": "Mettre fin aux soins de longue durée privés et à but lucratif"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Provide mental health care for uninsured Canadians",
+      "fr": "Fournir des soins de santé mentale aux Canadiens non assurés"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Ensure all provinces make medical and surgical abortion available in all parts of the country",
+      "fr": "Veiller à ce que toutes les provinces rendent l'avortement médical et chirurgical disponible dans toutes les régions du pays."
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Ensure prescription contraceptive and reproductive health care options are easily accessible at no cost",
+      "fr": "Veiller à ce que les options de contraception sur ordonnance et de soins de santé génésique soient facilement accessibles sans frais"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Make EI more accessible",
+      "fr": "Rendre l'IE plus accessible"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Extend sickness benefits from 15 weeks to 50 weeks",
+      "fr": "Prolonger les prestations de maladie de 15 à 50 semaines"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Allow parents to take shorter parental leave at a higher replacement rate",
+      "fr": "Permettre aux parents de prendre un congé parental plus court à un taux de remplacement plus élevé"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Allow self-employed workers to opt-into parental benefits at any time before taking their leave",
+      "fr": "Permettre aux travailleurs indépendants d'opter pour les prestations parentales à tout moment avant de prendre leur congé"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Guaranteed livable income for all Canadians, starting with every senior and person living with a disability",
+      "fr": "Un revenu vital garanti pour tous les Canadiens, à commencer par toutes les personnes âgées et les personnes handicapées"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Permanent paid sick leave for all",
+      "fr": "Congé de maladie payé permanent pour tous"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Make automatic enrolment in OAS and GIS retroactive",
+      "fr": "Rendre rétroactive l'inscription automatique à la SV et au SRG"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Make the Canadian Caregiver Tax Credit refundable",
+      "fr": "Rendre le crédit d'impôt canadien pour aidants naturels remboursable"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "NDP",
+    "title": {
+      "en": "Provide 10 days of paid leave for those dealing with family and domestic violence",
+      "fr": "Prévoir 10 jours de congé payé pour les personnes confrontées à la violence familiale et domestique"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "International Trade",
+    "party": "NDP",
+    "title": {
+      "en": "Border carbon adjustment",
+      "fr": "Ajustements du carbone aux frontières"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "International Trade",
+    "party": "NDP",
+    "title": {
+      "en": "Give trade unions ability to initiate trade disputes",
+      "fr": "Donner aux syndicats la capacité d'initier des conflits commerciaux"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Make companies responsible for e-waste linked to their products",
+      "fr": "Rendre les entreprises responsables des déchets électroniques liés à leurs produits"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Reduce emissions by 50% below 2005 levels by 2030",
+      "fr": "Réduire les émissions de 50% par rapport aux niveaux de 2005 d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Eliminate fossil fuel subsidies",
+      "fr": "Éliminer les subventions aux combustibles fossiles"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Change the mandate of the Bank of Canada to focus on contributing to net zero emissions goals",
+      "fr": "Modifier le mandat de la Banque du Canada pour qu'elle se concentre sur la contribution aux objectifs d'émissions nettes nulles"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Retrofit all buildings in Canada by 2050",
+      "fr": "Rénover tous les bâtiments au Canada d'ici 2050"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Create Civilian Climate Corps",
+      "fr": "Créer un corps civil pour le climat"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Net zero electricity by 2030, 100% non-emitting electricity by 2040",
+      "fr": "Électricité nette zéro d'ici 2030, électricité 100% non émettrice d'ici 2040"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Protect 30% of our land, freshwater and oceans by 2030",
+      "fr": "Protéger 30 % de nos terres, de l'eau douce et des océans d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Create a Climate Accountability Office to provide independent oversight of federal climate progress",
+      "fr": "Créer un Bureau de responsabilité climatique pour assurer une surveillance indépendante des progrès fédéraux en matière de climat"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Support carbon tax",
+      "fr": "Soutenir la taxe carbone"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Move all federal government vehicles to electric by 2025",
+      "fr": "Faire passer tous les véhicules du gouvernement fédéral à l'électrique d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Ensure every new building built in Canada is net-zero by 2025",
+      "fr": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "100% of all new car sales to be zero-emissions by 2035",
+      "fr": "100% de toutes les ventes de voitures neuves devront être exemptes d'émissions d'ici 2035"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Wave the federal sales tax on ZEV purchases",
+      "fr": "Annuler la taxe de vente fédérale sur les achats de ZEV"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Cover the cost of installing a plug-in charger for people purchasing new or used ZEVs",
+      "fr": "Couvrir le coût de l'installation d'un chargeur enfichable pour les personnes achetant des ZEV neufs ou usagés"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Canadian Environmental Bill of Rights",
+      "fr": "Charte canadienne des droits environnementaux"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Ban on single-use plastics",
+      "fr": "Interdiction des plastiques à usage unique"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Hold companies responsible for the entire lifecycle fo their plastic products and packaging",
+      "fr": "Tenir les entreprises responsables de l'ensemble du cycle de vie de leurs produits et emballages en plastique"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Support improved standards for what products can be labelled as recyclable",
+      "fr": "Soutenir l'amélioration des normes concernant les produits pouvant être étiquetés comme recyclables"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Ban the export of plastic waste",
+      "fr": "Interdire l'exportation de déchets plastiques"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Telecom Consumers’ Bill of Rights",
+      "fr": "Charte des droits des consommateurs de télécommunications"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Compensate consumers who have been misled by financial advisors",
+      "fr": "Indemniser les consommateurs qui ont été trompés par des conseillers financiers"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Prevent credit and debit card companies from selling personal information",
+      "fr": "Empêcher les sociétés de cartes de crédit et de débit de vendre des informations personnelles"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Ban the use of replacement workers in labour disputes",
+      "fr": "Interdire l'utilisation de travailleurs de remplacement dans les conflits de travail"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Require that part-time and contract workers be compensated equally to full-time workers",
+      "fr": "Exiger que les travailleurs à temps partiel et les contractuels soient rémunérés au même titre que les travailleurs à temps plein"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Immediately ban unpaid internships outside of education programs",
+      "fr": "Interdire immédiatement les stages non rémunérés en dehors des programmes d'enseignement"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Regulate natural health products",
+      "fr": "Réglementer les produits de santé naturels"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Create a safe supply of medically regulated alternatives to toxic street drugs",
+      "fr": "Créer un approvisionnement sûr en alternatives médicalement réglementées aux drogues toxiques de la rue"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Create a mandatory, industry-financed pension insurance program",
+      "fr": "Créer un programme d'assurance retraite obligatoire et financé par l'industrie"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Require internet companies to take responsibility for what appears on their platform",
+      "fr": "Obliger les sociétés Internet à assumer la responsabilité de ce qui apparaît sur leur plateforme"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Release all use-of-force incidents by the RCMP",
+      "fr": "Publier tous les incidents de recours à la force par la GRC"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Implement a federal use-of-force standard with a zero-tolerance policy for inappropriate use-of-force",
+      "fr": "Mettre en œuvre une norme fédérale sur le recours à la force avec une politique de tolérance zéro pour le recours inapproprié à la force."
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Ensure all major cities have dedicated hate crime units within local police forces",
+      "fr": "Veiller à ce que toutes les grandes villes disposent d'unités spécialisées dans les crimes haineux au sein des forces de police locales"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Require employers to be transparent about pay",
+      "fr": "Obliger les employeurs à faire preuve de transparence en matière de rémunération"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Immediately end the blood donation ban",
+      "fr": "Mettre immédiatement fin à l'interdiction de donner du sang"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Immediately ban conversion therapy",
+      "fr": "Interdire immédiatement la thérapie de conversion"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Add sexual orientation, gender identity and expression to the Employment Equity Act",
+      "fr": "Ajouter l'orientation sexuelle, l'identité et l'expression de genre à la Loi sur l'équité en matière d'emploi"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Establish national standards for identifying and recording all hate incidents",
+      "fr": "Établir des normes nationales pour identifier et enregistrer tous les incidents haineux"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Immediately ban carding by RCMP",
+      "fr": "Interdire immédiatement le brevetage par la GRC"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Proactively expunge criminal records for Canadians convicted of minor cannabis possession",
+      "fr": "Annulation proactive des casiers judiciaires des Canadiens condamnés pour possession mineure de cannabis"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Increase federal funding for legal aid programs",
+      "fr": "Augmenter le financement fédéral des programmes d'aide juridique"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Digital bill of privacy rights",
+      "fr": "Charte numérique des droits à la vie privée"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Public Safety",
+    "party": "NDP",
+    "title": {
+      "en": "Establish independent oversight and accountability for sexual harassment and assault in the military",
+      "fr": "Établir une surveillance et une responsabilité indépendantes pour le harcèlement et les agressions sexuelles dans l'armée"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "NDP",
+    "title": {
+      "en": "Contribute 0.7% of our Gross National Income to international aid",
+      "fr": "Contribuer 0,7% de notre revenu national brut à l'aide internationale"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "NDP",
+    "title": {
+      "en": "Make sure Canadian-made weapons are not fuelling conflict and human rights abuses abroad",
+      "fr": "S'assurer que les armes fabriquées au Canada n'alimentent pas les conflits et les violations des droits de l'homme à l'étranger"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Foreign Policy",
+    "party": "NDP",
+    "title": {
+      "en": "Suspend arms sales to Israel until the end of illegal occupation",
+      "fr": "Suspendre les ventes d'armes à Israël jusqu'à la fin de l'occupation illégale"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "NDP",
+    "title": {
+      "en": "Fully implement the TRC’s 94 Calls to Action",
+      "fr": "Mettre pleinement en œuvre les 94 appels à l'action de la CVR"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "NDP",
+    "title": {
+      "en": "Establish a National Council for Reconciliation to provide oversight and accountability",
+      "fr": "Établir un Conseil national pour la réconciliation afin d'assurer la surveillance et la responsabilité"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "NDP",
+    "title": {
+      "en": "Appoint a special prosecutor to pursue those who inflicted harm on Indigenous children in Canada’s residential school system",
+      "fr": "Nommer un procureur spécial pour poursuivre ceux qui ont infligé des préjudices aux enfants autochtones dans le système des pensionnats du Canada"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "NDP",
+    "title": {
+      "en": "Fully fund Indigenous National Housing Strategy within the first 100 days",
+      "fr": "Financer entièrement la stratégie nationale de logement autochtone dans les 100 premiers jours"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "NDP",
+    "title": {
+      "en": "Support Indigenous-led water management training programs and water system operations as an immediate priority",
+      "fr": "Soutenir les programmes de formation à la gestion de l'eau dirigés par les autochtones et l'exploitation des systèmes d'eau comme une priorité immédiate"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Child Care",
+    "party": "NDP",
+    "title": {
+      "en": "Universal $10/day child-care",
+      "fr": "Garde d'enfants universelle à 10 $/jour"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "NDP",
+    "title": {
+      "en": "Work towards making post-secondary education public",
+      "fr": "Travailler à rendre l'enseignement postsecondaire public"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "NDP",
+    "title": {
+      "en": "Remove interest from federal student loans",
+      "fr": "Supprimer les intérêts des prêts étudiants fédéraux"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "NDP",
+    "title": {
+      "en": "Forgive up to $20,000 in student debt for graduates",
+      "fr": "Remettre jusqu'à 20 000 $ de dettes d'études aux diplômés"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "NDP",
+    "title": {
+      "en": "Stop issuing federal student loans, double Canada Student Grants",
+      "fr": "Cesser d'émettre des prêts étudiants fédéraux, doubler les subventions canadiennes aux étudiants."
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "NDP",
+    "title": {
+      "en": "Change EI rules to allow workers who quit their job to go to school to qualify for EI benefits",
+      "fr": "Modifier les règles de l'assurance-emploi pour permettre aux travailleurs qui quittent leur emploi pour aller à l'école d'être admissibles aux prestations d'assurance-emploi"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "NDP",
+    "title": {
+      "en": "Require large employers to spend at least 1% of payroll on training for their employees annually",
+      "fr": "Obliger les grands employeurs à consacrer chaque année au moins 1 % de la masse salariale à la formation de leurs employés"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Youth",
+    "party": "NDP",
+    "title": {
+      "en": "National school nutrition program",
+      "fr": "Programme national de nutrition scolaire"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Youth",
+    "party": "NDP",
+    "title": {
+      "en": "Lower the voting age to 16",
+      "fr": "Abaisser l'âge du droit de vote à 16 ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "NDP",
+    "title": {
+      "en": "Declare high-speed internet an essential service",
+      "fr": "Déclarer l'internet à haut débit comme un service essentiel"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "NDP",
+    "title": {
+      "en": "Create Crown corporation for delivery of telecom services",
+      "fr": "Créer une société d'État pour la prestation de services de télécommunications"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "NDP",
+    "title": {
+      "en": "Require the use of Canadian-made steel, aluminum, cement and wood products for infrastructure projects across the country",
+      "fr": "Exiger l'utilisation d'acier, d'aluminium, de ciment et de produits du bois fabriqués au Canada pour les projets d'infrastructure dans tout le pays"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "NDP",
+    "title": {
+      "en": "Develop a public inter-city bus program",
+      "fr": "Développer un programme de bus publics interurbains"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "NDP",
+    "title": {
+      "en": "Ensure every Canadian has access to affordable, reliable high-speed broadband by 2025",
+      "fr": "Veiller à ce que chaque Canadien ait accès à une large bande à haute vitesse abordable et fiable d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "NDP",
+    "title": {
+      "en": "Establish a crown corporation charged with domestic vaccine production",
+      "fr": "Créer une société d'État chargée de la production nationale de vaccins"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "NDP",
+    "title": {
+      "en": "Work with Canada Post to provide postal banking",
+      "fr": "Travailler avec Postes Canada pour fournir des services bancaires postaux"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "NDP",
+    "title": {
+      "en": "Require foreign content companies to support Canadian content in both official languages",
+      "fr": "Exiger que les entreprises de contenu étrangères soutiennent le contenu canadien dans les deux langues officielles"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "NDP",
+    "title": {
+      "en": "Increase funding for CBC and Radio-Canada",
+      "fr": "Augmenter le financement de CBC et de Radio-Canada"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "NDP",
+    "title": {
+      "en": "Allow income tax averaging for artists and cultural workers",
+      "fr": "Permettre l'étalement de l'impôt sur le revenu pour les artistes et les travailleurs culturels"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "NDP",
+    "title": {
+      "en": "Acknowledge that the French language requires particular protection and promotion as a minority official language",
+      "fr": "Reconnaître que la langue française nécessite une protection et une promotion particulières en tant que langue officielle minoritaire"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "NDP",
+    "title": {
+      "en": "End the cap on applications to sponsor parents and grandparents",
+      "fr": "Mettre fin au plafonnement des demandes de parrainage de parents et de grands-parents"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "NDP",
+    "title": {
+      "en": "Attract more French-speaking immigrants to communities across the country",
+      "fr": "Attirer davantage d'immigrants francophones dans les communautés du pays"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Price cap on cell phone and internet bills",
+      "fr": "Plafonnement des prix des factures de téléphone cellulaire et d'Internet"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Require affordable basic plans for wireless and broadband",
+      "fr": "Exiger des plans de base abordables pour les services sans fil et à large bande"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Require companies to offer affordable unlimited wireless data",
+      "fr": "Obliger les entreprises à offrir des données illimitées sans fil à un prix abordable"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Abolish data caps for broadband internet",
+      "fr": "Abolir les plafonds de données pour l'internet à haut débit"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Right to Repair",
+      "fr": "Droit à la réparation"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Affordability",
+    "party": "NDP",
+    "title": {
+      "en": "Fair Gasoline Prices Watchdog",
+      "fr": "Le chien de garde des prix équitables de l'essence"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Introduce mixed-member proportional representation with a referendum following the next election",
+      "fr": "Introduire la représentation proportionnelle mixte avec un référendum après les prochaines élections"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
   }
 ]

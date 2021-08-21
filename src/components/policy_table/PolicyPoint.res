@@ -7,29 +7,41 @@ let make = (~policy: Schema.policy) => {
     let language = language
   })
 
-  let policy_click = () =>
+  let url_path = switch policy.handle {
+  | None => "#"
+  | Some(path) => `/policies/${path}`
+  }
+
+  let policy_click = (event) => {
+    ReactEvent.Synthetic.preventDefault(event)
     switch policy.handle {
     | None => ReferenceModalOpen(policy)->dispatch
     | Some(path) =>
       ModalOpen(path)->dispatch
-      let url_path = "/policies/" ++ path
       let _ = url_path |> Utils.Router.push_route(~language, ~scrollToTop=false)
     }
+  }
 
   let formattedPolicyTitle =
     policy.title
     |> T.Text.to_str
     |> Js.String.replaceByRe(
       %re(
-        "/([$><+]*?[0-9]+\\.?,?[0-9-]*\\/?(&nbsp;)?(%|\\$|k|( ?(years?|days?|hours?|billions?|millions?|milliards))*))/g"
+        "/([$><+]*?[0-9]+\\.?,?[0-9-]*\\/?(&nbsp;)?(%|\\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?))*))/g"
       ),
       `<span class="text-em">$1</span>`,
     )
 
+  // let className = switch policy.handle {
+  //   | Some (_) => "policyPoint customBullet customBullet--foo"
+  //   | None => "policyPoint"
+  // }
+
   <li className="policyPoint">
     <a
       className="policyPoint--link"
-      onClick={_ => policy_click()}
+      href=url_path
+      onClick={event => policy_click(event)}
       dangerouslySetInnerHTML={formattedPolicyTitle->Utils.dangerousHtml}
     />
   </li>

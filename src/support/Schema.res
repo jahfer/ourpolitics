@@ -6,6 +6,7 @@ type party =
 
 type topic =
   | ForeignPolicy
+  | Economy
   | Taxes
   | InternationalTrade
   | Environment
@@ -25,6 +26,8 @@ type topic =
   | Education
   | Housing
   | Affordability
+  | ArtsCulture
+  | Immigration
 
 type reference = {
   date: option<string>,
@@ -53,10 +56,11 @@ module TopicMap = Map.Make({
 
   let compare_topics = x =>
     switch x {
+    | Economy => 0
     | ChildCare => 1
     | C51 => 2
     | Taxes => 3
-    | InternationalTrade => 4
+    | IndigenousRelations => 4
     | Environment => 5
     | Senate => 6
     | Government => 7
@@ -72,7 +76,9 @@ module TopicMap = Map.Make({
     | Education => 17
     | Housing => 18
     | Science => 19
-    | IndigenousRelations => 20
+    | InternationalTrade => 20
+    | Immigration => 21
+    | ArtsCulture => 22
     }
 
   let compare = (a, b) => compare_topics(a) - compare_topics(b)
@@ -100,6 +106,7 @@ module Encode = {
   let topic = x =>
     switch x {
     | ForeignPolicy => Content.Strings.foreign_policy
+    | Economy => Content.Strings.economy
     | Taxes => Content.Strings.taxes
     | InternationalTrade => Content.Strings.international_trade
     | Environment => Content.Strings.environment
@@ -119,6 +126,8 @@ module Encode = {
     | Education => Content.Strings.education
     | Housing => Content.Strings.housing
     | Affordability => Content.Strings.affordability
+    | ArtsCulture => Content.Strings.arts_and_culture
+    | Immigration => Content.Strings.immigration
     }
 }
 
@@ -140,6 +149,7 @@ module Decode = {
   let str_to_topic = x =>
     switch x {
     | "Foreign Policy" => ForeignPolicy
+    | "Economy" => Economy
     | "Taxes" => Taxes
     | "International Trade" => InternationalTrade
     | "Environment" => Environment
@@ -159,6 +169,8 @@ module Decode = {
     | "Education" => Education
     | "Housing" => Housing
     | "Affordability" => Affordability
+    | "Arts and Culture" => ArtsCulture
+    | "Immigration" => Immigration
     | _ as unknown_topic => raise(Invalid_argument(unknown_topic))
     }
 
