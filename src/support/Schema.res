@@ -21,7 +21,7 @@ type topic =
   | SocialAssistance
   | Senate
   | ElectoralReform
-  | PublicSafety
+  | CivilRights
   | Youth
   | Education
   | Housing
@@ -72,7 +72,7 @@ module TopicMap = Map.Make({
     | SocialAssistance => 13
     | Youth => 14
     | ElectoralReform => 15
-    | PublicSafety => 16
+    | CivilRights => 16
     | Education => 17
     | Housing => 18
     | Science => 19
@@ -122,7 +122,7 @@ module Encode = {
     | Youth => Content.Strings.youth
     | Senate => Content.Strings.senate
     | ElectoralReform => Content.Strings.electoral_reform
-    | PublicSafety => Content.Strings.public_safety
+    | CivilRights => Content.Strings.civil_rights
     | Education => Content.Strings.education
     | Housing => Content.Strings.housing
     | Affordability => Content.Strings.affordability
@@ -165,7 +165,8 @@ module Decode = {
     | "Cannabis" => Cannabis
     | "Social Assistance" => SocialAssistance
     | "Youth" => Youth
-    | "Public Safety" => PublicSafety
+    | "Public Safety" => CivilRights
+    | "Civil Rights" => CivilRights
     | "Education" => Education
     | "Housing" => Housing
     | "Affordability" => Affordability

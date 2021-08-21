@@ -10,8 +10,8 @@ module Strings = {
     fr: "Sujets",
   }
   let no_policy_listed = {
-    en: "No major policies",
-    fr: "Pas de politiques majeures",
+    en: "No major policies announced",
+    fr: "Aucune politique majeure annoncée",
   }
   let archives = {
     en: "Archives",
@@ -113,8 +113,8 @@ module Strings = {
     fr: `Cannabis`,
   }
   let social_assistance = {
-    en: "Social Assistance",
-    fr: `Aide sociale`,
+    en: "Financial Support",
+    fr: `Soutien financier`,
   }
   let youth = {
     en: "Youth",
@@ -128,7 +128,7 @@ module Strings = {
     en: "Electoral Reform",
     fr: `Réforme électorale`,
   }
-  let public_safety = {
+  let civil_rights = {
     en: "Civil Rights",
     fr: `Droits civils`,
   }

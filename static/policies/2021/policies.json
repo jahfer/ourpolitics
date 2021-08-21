@@ -129,7 +129,7 @@
     ]
   },
   {
-    "topic": "Economy",
+    "topic": "Civil Rights",
     "party": "Conservative",
     "title": {
       "en": "Require federally regulated employers to include worker representation on their boards of directors",
@@ -257,6 +257,22 @@
     ]
   },
   {
+    "topic": "Child Care",
+    "party": "Conservative",
+    "title": {
+      "en": "Refundable tax credit covering up to 75% of the cost of child care for lower income families",
+      "fr": "Crédit d'impôt remboursable couvrant jusqu'à 75 % du coût de la garde d'enfants pour les familles à faibles revenus"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
@@ -337,7 +353,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "Conservative",
     "title": {
       "en": "Repeal Bill C-71",
@@ -403,7 +419,7 @@
     "references": []
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
       "en": "Keep Bill C-71",
@@ -460,7 +476,7 @@
     ]
   },
   {
-    "topic": "Economy",
+    "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
       "en": "Improve labour protections for gig workers",
@@ -476,7 +492,7 @@
     ]
   },
   {
-    "topic": "Economy",
+    "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
       "en": "Establish a Black-led Philanthropic Endowment Fund",
@@ -639,24 +655,8 @@
     "topic": "Government",
     "party": "Liberal",
     "title": {
-      "en": "Tax on vaping products",
+      "en": "Increase costs on tobacco and vaping products",
       "fr": "Taxe sur les produits de vapotage"
-    },
-    "references": [
-      {
-        "date": "2021-04-19",
-        "title": "Budget 2021 (PDF)",
-        "publisher": "Government of Canada",
-        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
-      }
-    ]
-  },
-  {
-    "topic": "Government",
-    "party": "Liberal",
-    "title": {
-      "en": "Increase taxes on tobacco products",
-      "fr": "Augmenter les taxes sur les produits du tabac"
     },
     "references": [
       {
@@ -687,8 +687,8 @@
     "topic": "Government",
     "party": "Liberal",
     "title": {
-      "en": "Tax on luxury cars, aircraft, and boats for personal use",
-      "fr": "Taxe sur les voitures, avions et bateaux de luxe à usage personnel"
+      "en": "Tax on luxury goods",
+      "fr": "Taxe sur les produits de luxe"
     },
     "references": [
       {
@@ -696,6 +696,22 @@
         "title": "Budget 2021 (PDF)",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "NDP",
+    "title": {
+      "en": "Tax on luxury goods",
+      "fr": "Taxe sur les produits de luxe"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
     ]
   },
@@ -767,8 +783,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "National universal pharmacare",
-      "fr": "Assurance-médicaments nationale et universelle"
+      "en": "Universal pharmacare",
+      "fr": "Assurance-médicaments universelle"
     },
     "references": [
       {
@@ -1007,8 +1023,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Protect 25% of Canada's lands and oceans by 2025",
-      "fr": "Protéger 25 % des terres et des océans du Canada d'ici 2025"
+      "en": "Protect 25% of Canada's lands, oceans, marine and costal areas by 2025",
+      "fr": "Protéger 25 % des terres, des océans et des zones marines et côtières du Canada d'ici 2025"
     },
     "references": [
       {
@@ -1020,23 +1036,7 @@
     ]
   },
   {
-    "topic": "Environment",
-    "party": "Liberal",
-    "title": {
-      "en": "Protect 25% of Canada’s marine and costal areas by 2025",
-      "fr": "Protéger 25 % des zones marines et côtières du Canada d'ici 2025"
-    },
-    "references": [
-      {
-        "date": "2021-04-19",
-        "title": "Budget 2021 (PDF)",
-        "publisher": "Government of Canada",
-        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
-      }
-    ]
-  },
-  {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
       "en": "Complete flood maps for high risk areas",
@@ -1052,11 +1052,11 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Eliminate chronic homelessness in Canada",
-      "fr": "Éliminer l'itinérance chronique au Canada"
+      "en": "End chronic homelessness in Canada",
+      "fr": "Mettre fin à l'itinérance chronique au Canada"
     },
     "references": [
       {
@@ -1855,8 +1855,8 @@
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Formally prohibit corporations facing criminal charges from lobbying elected officials",
-      "fr": "Interdire formellement aux sociétés faisant l'objet d'accusations criminelles de faire du lobbying auprès des élus"
+      "en": "Prohibit corporations facing criminal charges from lobbying elected officials",
+      "fr": "Interdire aux entreprises faisant l'objet de poursuites pénales de faire du lobbying auprès des élus"
     },
     "references": [
       {
@@ -1889,22 +1889,6 @@
     "title": {
       "en": "Empower the Auditor General to review taxpayer-funded government advertising to make sure that it is non-partisan",
       "fr": "Donner le pouvoir au vérificateur général d'examiner la publicité gouvernementale financée par les contribuables pour s'assurer qu'elle est non partisane"
-    },
-    "references": [
-      {
-        "date": "2021-08-12",
-        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
-        "publisher": "New Democratic Party of Canada",
-        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Government",
-    "party": "NDP",
-    "title": {
-      "en": "Abolish the Senate",
-      "fr": "Abolir le Sénat"
     },
     "references": [
       {
@@ -2143,7 +2127,7 @@
     "topic": "International Trade",
     "party": "NDP",
     "title": {
-      "en": "Border carbon adjustment",
+      "en": "Border carbon adjustments",
       "fr": "Ajustements du carbone aux frontières"
     },
     "references": [
@@ -2287,7 +2271,7 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Protect 30% of our land, freshwater and oceans by 2030",
+      "en": "Protect 30% of Canada's lands, freshwater and oceans by 2030",
       "fr": "Protéger 30 % de nos terres, de l'eau douce et des océans d'ici 2030"
     },
     "references": [
@@ -2492,7 +2476,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Telecom Consumers’ Bill of Rights",
@@ -2508,7 +2492,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Compensate consumers who have been misled by financial advisors",
@@ -2524,7 +2508,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Prevent credit and debit card companies from selling personal information",
@@ -2540,7 +2524,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Ban the use of replacement workers in labour disputes",
@@ -2556,7 +2540,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Require that part-time and contract workers be compensated equally to full-time workers",
@@ -2572,11 +2556,11 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Immediately ban unpaid internships outside of education programs",
-      "fr": "Interdire immédiatement les stages non rémunérés en dehors des programmes d'enseignement"
+      "en": "Ban unpaid internships outside of education programs",
+      "fr": "Interdire les stages non rémunérés en dehors des programmes d'enseignement"
     },
     "references": [
       {
@@ -2588,7 +2572,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Regulate natural health products",
@@ -2604,7 +2588,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Create a safe supply of medically regulated alternatives to toxic street drugs",
@@ -2620,7 +2604,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Create a mandatory, industry-financed pension insurance program",
@@ -2636,7 +2620,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Require internet companies to take responsibility for what appears on their platform",
@@ -2652,7 +2636,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Release all use-of-force incidents by the RCMP",
@@ -2668,7 +2652,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Implement a federal use-of-force standard with a zero-tolerance policy for inappropriate use-of-force",
@@ -2684,7 +2668,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Ensure all major cities have dedicated hate crime units within local police forces",
@@ -2700,7 +2684,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Require employers to be transparent about pay",
@@ -2716,11 +2700,11 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Immediately end the blood donation ban",
-      "fr": "Mettre immédiatement fin à l'interdiction de donner du sang"
+      "en": "End the blood donation ban",
+      "fr": "Mettre fin à l'interdiction du don de sang"
     },
     "references": [
       {
@@ -2732,11 +2716,11 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Immediately ban conversion therapy",
-      "fr": "Interdire immédiatement la thérapie de conversion"
+      "en": "Ban conversion therapy",
+      "fr": "Interdire la thérapie de conversion"
     },
     "references": [
       {
@@ -2748,7 +2732,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Add sexual orientation, gender identity and expression to the Employment Equity Act",
@@ -2764,7 +2748,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Establish national standards for identifying and recording all hate incidents",
@@ -2780,11 +2764,11 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Immediately ban carding by RCMP",
-      "fr": "Interdire immédiatement le brevetage par la GRC"
+      "en": "Ban carding by RCMP",
+      "fr": "Interdiction des brevets par la GRC"
     },
     "references": [
       {
@@ -2796,7 +2780,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Proactively expunge criminal records for Canadians convicted of minor cannabis possession",
@@ -2812,7 +2796,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Increase federal funding for legal aid programs",
@@ -2828,7 +2812,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Digital bill of privacy rights",
@@ -2844,7 +2828,7 @@
     ]
   },
   {
-    "topic": "Public Safety",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Establish independent oversight and accountability for sexual harassment and assault in the military",
@@ -2895,8 +2879,8 @@
     "topic": "Foreign Policy",
     "party": "NDP",
     "title": {
-      "en": "Suspend arms sales to Israel until the end of illegal occupation",
-      "fr": "Suspendre les ventes d'armes à Israël jusqu'à la fin de l'occupation illégale"
+      "en": "Suspend arms sales to Israel until their withdrawl from the occupied territories",
+      "fr": "Suspendre les ventes d'armes à Israël jusqu'au retrait de ce pays des territoires occupés"
     },
     "references": [
       {
@@ -2975,8 +2959,8 @@
     "topic": "Indigenous Relations",
     "party": "NDP",
     "title": {
-      "en": "Support Indigenous-led water management training programs and water system operations as an immediate priority",
-      "fr": "Soutenir les programmes de formation à la gestion de l'eau dirigés par les autochtones et l'exploitation des systèmes d'eau comme une priorité immédiate"
+      "en": "Support Indigenous-led water management training programs and water system operations",
+      "fr": "Soutenir les programmes de formation à la gestion de l'eau et l'exploitation des systèmes d'approvisionnement en eau dirigés par des autochtones"
     },
     "references": [
       {
@@ -3151,8 +3135,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Create Crown corporation for delivery of telecom services",
-      "fr": "Créer une société d'État pour la prestation de services de télécommunications"
+      "en": "Create Crown corporation for telecom services",
+      "fr": "Créer une société d'État pour les services de télécommunications"
     },
     "references": [
       {
@@ -3167,8 +3151,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Require the use of Canadian-made steel, aluminum, cement and wood products for infrastructure projects across the country",
-      "fr": "Exiger l'utilisation d'acier, d'aluminium, de ciment et de produits du bois fabriqués au Canada pour les projets d'infrastructure dans tout le pays"
+      "en": "Require the use of Canadian-made steel, aluminum, cement and wood products for infrastructure projects",
+      "fr": "exiger l'utilisation d'acier, d'aluminium, de ciment et de produits du bois fabriqués au Canada pour les projets d'infrastructure"
     },
     "references": [
       {
@@ -3199,8 +3183,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Ensure every Canadian has access to affordable, reliable high-speed broadband by 2025",
-      "fr": "Veiller à ce que chaque Canadien ait accès à une large bande à haute vitesse abordable et fiable d'ici 2025"
+      "en": "Ensure every Canadian has access to affordable, reliable high-speed broadband internet by 2025",
+      "fr": "Veiller à ce que chaque Canadien ait accès à un service Internet à large bande abordable et fiable d'ici 2025"
     },
     "references": [
       {
@@ -3215,8 +3199,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Establish a crown corporation charged with domestic vaccine production",
-      "fr": "Créer une société d'État chargée de la production nationale de vaccins"
+      "en": "Establish a crown corporation responsible for domestic vaccine production",
+      "fr": "Créer une société d'État responsable de la production nationale de vaccins"
     },
     "references": [
       {
@@ -3404,7 +3388,7 @@
     ]
   },
   {
-    "topic": "Affordability",
+    "topic": "Civil Rights",
     "party": "NDP",
     "title": {
       "en": "Right to Repair",
@@ -3439,8 +3423,8 @@
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Introduce mixed-member proportional representation with a referendum following the next election",
-      "fr": "Introduire la représentation proportionnelle mixte avec un référendum après les prochaines élections"
+      "en": "Commit to electoral reform before next election",
+      "fr": "S'engager à une réforme électorale avant les prochaines élections"
     },
     "references": [
       {
