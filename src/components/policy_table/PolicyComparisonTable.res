@@ -64,7 +64,7 @@ let make = (~policy_handle=?, ~year=2019) => {
   React.useEffect1(() => {
     let promise = {
       open Js.Promise
-      Cacheable.fetch("policies", 7, j`/static/policies/$year/policies.json`)
+      Cacheable.fetch("policies", 8, j`/static/policies/$year/policies.json`)
       |> then_(Fetch.Response.json)
       |> then_(json => {
         let parsed_data = json |> Json.Decode.list(Schema.Decode.policy)

@@ -148,8 +148,8 @@
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "Establish a residential high risk flood insurance program",
-      "fr": "Établir un programme d'assurance résidentielle contre les inondations à haut risque"
+      "en": "Residential high risk flood insurance program",
+      "fr": "Programme d'assurance contre les inondations résidentielles à haut risque"
     },
     "references": [
       {
@@ -436,7 +436,7 @@
     "party": "Liberal",
     "title": {
       "en": "Make EI more accessible and simpler",
-      "fr": "Rendre l'IE plus accessible et plus simple"
+      "fr": "Rendre l'assurance-emploi plus accessible et plus simple"
     },
     "references": [
       {
@@ -656,11 +656,11 @@
     ]
   },
   {
-    "topic": "Government",
+    "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Implement external oversight to the reporting and adjudication process of sexual misconduct within the military",
-      "fr": "Mettre en place une surveillance externe du processus de signalement et de jugement des cas d'inconduite sexuelle au sein de l'armée"
+      "en": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "fr": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
     },
     "references": [
       {
@@ -668,6 +668,22 @@
         "title": "Budget 2021 (PDF)",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
+      "en": "Investigation of sexual misconduct in the military to be done by those outside the chain of command",
+      "fr": "Les enquêtes sur les inconduites sexuelles dans l'armée doivent être menées par des personnes extérieures à la chaîne de commandement"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
     ]
   },
@@ -848,7 +864,7 @@
     ]
   },
   {
-    "topic": "Social Assistance",
+    "topic": "Healthcare",
     "party": "Liberal",
     "title": {
       "en": "Increase sickness benefits from 15 weeks to 26 weeks",
@@ -992,7 +1008,7 @@
     ]
   },
   {
-    "topic": "Civil Rights",
+    "topic": "Healthcare",
     "party": "Liberal",
     "title": {
       "en": "Complete flood maps for high risk areas",
@@ -1091,8 +1107,8 @@
     "topic": "Education",
     "party": "Liberal",
     "title": {
-      "en": "Allow individuals to use current year income instead of previous year’s to determine eligibility for Canada Student Grants",
-      "fr": "Permettre aux particuliers d'utiliser le revenu de l'année en cours plutôt que celui de l'année précédente pour déterminer l'admissibilité aux bourses canadiennes pour étudiants"
+      "en": "Allow individuals to use current year’s income for Canada Student Grant eligibility",
+      "fr": "Permettre aux particuliers d'utiliser le revenu de l'année en cours pour l'admissibilité aux subventions canadiennes pour étudiants"
     },
     "references": [
       {
@@ -1349,22 +1365,6 @@
     "title": {
       "en": "End ban on Canadian oil export shipping traffic on British Columbia's coast",
       "fr": "Mettre fin à l'interdiction du trafic maritime d'exportation de pétrole canadien sur la côte de la Colombie-Britannique"
-    },
-    "references": [
-      {
-        "date": "2021-08-16",
-        "title": "Canada's Recovery Plan (PDF)",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Conservative",
-    "title": {
-      "en": "Invest $5 billion in carbon capture technologies",
-      "fr": "Investir 5 milliards de dollars dans les technologies de capture du carbone"
     },
     "references": [
       {
@@ -1828,7 +1828,7 @@
     "party": "NDP",
     "title": {
       "en": "Make EI more accessible",
-      "fr": "Rendre l'IE plus accessible"
+      "fr": "Rendre l'assurance-emploi plus accessible"
     },
     "references": [
       {
@@ -1840,7 +1840,7 @@
     ]
   },
   {
-    "topic": "Social Assistance",
+    "topic": "Healthcare",
     "party": "NDP",
     "title": {
       "en": "Extend sickness benefits from 15 weeks to 50 weeks",
@@ -1904,11 +1904,11 @@
     ]
   },
   {
-    "topic": "Social Assistance",
+    "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Permanent paid sick leave for all",
-      "fr": "Congé de maladie payé permanent pour tous"
+      "en": "Permanent paid sick leave",
+      "fr": "Congé de maladie permanent rémunéré"
     },
     "references": [
       {
@@ -1952,7 +1952,7 @@
     ]
   },
   {
-    "topic": "Social Assistance",
+    "topic": "Healthcare",
     "party": "NDP",
     "title": {
       "en": "Provide 10 days of paid leave for those dealing with family and domestic violence",
@@ -2435,8 +2435,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Establish national standards for identifying and recording all hate incidents",
-      "fr": "Établir des normes nationales pour identifier et enregistrer tous les incidents haineux"
+      "en": "National standards for identifying and recording all hate incidents",
+      "fr": "Normes nationales pour l'identification et l'enregistrement de tous les incidents de haine"
     },
     "references": [
       {
@@ -2512,11 +2512,11 @@
     ]
   },
   {
-    "topic": "Civil Rights",
+    "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Establish independent oversight and accountability for sexual harassment and assault in the military",
-      "fr": "Établir une surveillance et une responsabilité indépendantes pour le harcèlement et les agressions sexuelles dans l'armée"
+      "en": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "fr": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
     },
     "references": [
       {
@@ -2643,8 +2643,8 @@
     "topic": "Indigenous Relations",
     "party": "NDP",
     "title": {
-      "en": "Establish a National Council for Reconciliation to provide oversight and accountability",
-      "fr": "Établir un Conseil national pour la réconciliation afin d'assurer la surveillance et la responsabilité"
+      "en": "Create National Council for Reconciliation to provide oversight and accountability",
+      "fr": "Création d'un Conseil national de la réconciliation pour assurer la surveillance et la responsabilité."
     },
     "references": [
       {
@@ -2659,8 +2659,8 @@
     "topic": "Indigenous Relations",
     "party": "NDP",
     "title": {
-      "en": "Appoint a special prosecutor to pursue those who inflicted harm on Indigenous children in Canada’s residential school system",
-      "fr": "Nommer un procureur spécial pour poursuivre ceux qui ont infligé des préjudices aux enfants autochtones dans le système des pensionnats du Canada"
+      "en": "Appoint a special prosecutor to pursue those responsible for the harm caused in residential schools",
+      "fr": "Nommer un procureur spécial pour poursuivre les responsables des préjudices causés dans les pensionnats"
     },
     "references": [
       {
@@ -2931,7 +2931,7 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Establish a crown corporation responsible for domestic vaccine production",
+      "en": "Create Crown corporation responsible for domestic vaccine production",
       "fr": "Créer une société d'État responsable de la production nationale de vaccins"
     },
     "references": [
@@ -2997,22 +2997,6 @@
     "title": {
       "en": "Allow income tax averaging for artists and cultural workers",
       "fr": "Permettre l'étalement de l'impôt sur le revenu pour les artistes et les travailleurs culturels"
-    },
-    "references": [
-      {
-        "date": "2021-08-12",
-        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
-        "publisher": "New Democratic Party of Canada",
-        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Arts and Culture",
-    "party": "NDP",
-    "title": {
-      "en": "Acknowledge that the French language requires particular protection and promotion as a minority official language",
-      "fr": "Reconnaître que la langue française nécessite une protection et une promotion particulières en tant que langue officielle minoritaire"
     },
     "references": [
       {
@@ -3164,6 +3148,28 @@
         "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "NDP",
+    "title": {
+      "en": "Provide up to $5,000/year to renters",
+      "fr": "Fournir jusqu'à 5 000 $/an aux locataires"
+    },
+    "references": [
+      {
+        "date": "2021-08-21",
+        "title": "Tweet",
+        "publisher": "@theJagmeetSingh",
+        "url": "https://twitter.com/theJagmeetSingh/status/1429087832358932487?s=20"
+      },
+      {
+        "date": "2021-08-21",
+        "title": "Singh says NDP will crack down on 'renovictions', provide up to $5K in rent help",
+        "publisher": "CTV News",
+        "url": "https://www.ctvnews.ca/politics/federal-election-2021/singh-says-ndp-will-crack-down-on-renovictions-provide-up-to-5k-in-rent-help-1.5556192?utm_source=pocket_mylist"
       }
     ]
   }

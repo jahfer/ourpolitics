@@ -89,8 +89,8 @@ module Strings = {
     fr: `Peuples autochtones`,
   }
   let healthcare = {
-    en: "Healthcare",
-    fr: `Soins de santé`,
+    en: "Health & Safety",
+    fr: `Santé et sécurité`,
   }
   let infrastructure = {
     en: "Infrastructure",
