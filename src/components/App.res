@@ -33,7 +33,7 @@ let make = () => {
     /** Root site content */
     | list{"about"} => (<AboutIndex />, Some(Content.Strings.about->T.text_to_string))
     | list{"privacy"} => (<PrivacyIndex />, Some(Content.Strings.privacy_policy->T.text_to_string))
-    | list{} => (<EmptySlate />, Some(""))
+    | list{} => (<Utils.SilentRedirect path="/policies/2021" />, None)
     | _ => (<PageNotFound />, Some("Page Not Found"))
   }
 
