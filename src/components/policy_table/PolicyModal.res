@@ -127,7 +127,7 @@ let getPartyHexColour = (party: Schema.party) =>
   }
 
 @react.component
-let make = (~policy: Schema.policy, ~isOpen: bool, ~modal_type: PolicyModalDispatch.modal_type) => {
+let make = (~policy: Schema.policy, ~year: int, ~isOpen: bool, ~modal_type: PolicyModalDispatch.modal_type) => {
   let dispatch = React.useContext(PolicyModalDispatch.ctx)
   let language = React.useContext(LanguageContext.ctx)
 
@@ -144,8 +144,13 @@ let make = (~policy: Schema.policy, ~isOpen: bool, ~modal_type: PolicyModalDispa
     switch modal_type {
     | ReferenceModal => ModalClose->dispatch
     | FullContextModal =>
-      Js.log("Full context modal")
-      %raw(`window.history.back()`)
+      switch Utils.Router.back() {
+        | Some (_) => () // Redirected to path w/o modal
+        | None => {
+          ModalClose->dispatch
+          Utils.Router.push_route(~language, `/policies/${string_of_int(year)}`)
+        }
+      }
     }
   }
 

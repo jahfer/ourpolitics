@@ -358,6 +358,7 @@ module Y2021 = {
 
 let pathToContent = x =>
   switch x {
+    // NDP
   | "2021/ndp/wealth_tax" => {
       en: Y2021.NDP.wealth_tax_en,
       fr: Y2021.NDP.wealth_tax_fr,
@@ -375,6 +376,7 @@ let pathToContent = x =>
       fr: Y2021.NDP.capital_gains_fr,
     }
     
+    // 2015
   | "2015/cpc_aboriginal_funding" => {
       en: cpc_aboriginal_funding_en,
       fr: cpc_aboriginal_funding_fr,

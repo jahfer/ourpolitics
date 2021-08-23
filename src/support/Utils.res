@@ -24,6 +24,8 @@ let rec partition_predicate = (~f: 'a => 'b, ~init, lst: list<'a>) => {
 }
 
 module Router = {
+  let history : ref<list<string>> = ref(list{})
+
   let restoreScrollPosition = () => scrollTo(0, 0)
 
   let replace_route = (~language, path) => {
@@ -34,6 +36,7 @@ module Router = {
 
   let push_route = (~scrollToTop=true, ~language, path) => {
     ReasonReactRouter.push(path ++ ("#" ++ Strings.Language.to_str(~language, language)))
+    history := List.cons(path, history.contents)
     let _ = Analytics.pageLoad(~path)
     if scrollToTop {
       restoreScrollPosition()
@@ -43,6 +46,18 @@ module Router = {
   let push = (~language, path, event) => {
     ReactEvent.Synthetic.preventDefault(event)
     push_route(~language, path)
+  }
+
+  let back = () => {
+    switch history.contents {
+      | list{hd, ...tl} => {
+        history := tl
+        Js.Console.log(history.contents)
+        let () = %raw(`window.history.back()`)
+        Some(hd)
+      }
+      | list{} => None
+    }
   }
 }
 

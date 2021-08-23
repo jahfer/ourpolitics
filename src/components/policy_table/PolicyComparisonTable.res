@@ -127,37 +127,9 @@ let make = (~policy_handle=?, ~year=2019) => {
   <PolicyModalDispatch dispatch>
     {switch modalState.policy {
     | Some(policy) =>
-      <PolicyModal modal_type=modalState.modal_type policy isOpen=modalState.visible />
+      <PolicyModal modal_type=modalState.modal_type policy year isOpen=modalState.visible />
     | None => React.null
     }}
-    // <ul className="list-plain">
-    //   {topicFilter
-    //    |> Schema.TopicSet.elements
-    //    |> List.map(t =>
-    //         <li>
-    //           <input
-    //             type_="checkbox"
-    //             defaultChecked=true
-    //             onChange={_ =>
-    //               setTopicFilter(set => Schema.TopicSet.remove(t, set))
-    //             }
-    //           />
-    //           {T.topic_react_string(t)}
-    //         </li>
-    //       )
-    //    |> Array.of_list
-    //    |> React.array}
-    //   {Schema.TopicSet.diff(topics, topicFilter)
-    //    |> Schema.TopicSet.elements
-    //    |> List.map(t =>
-    //         <li>
-    //           <input type_="checkbox" defaultChecked=false />
-    //           {T.topic_react_string(t)}
-    //         </li>
-    //       )
-    //    |> Array.of_list
-    //    |> React.array}
-    // </ul>
 
     {
       if year == 2021 {
