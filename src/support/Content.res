@@ -197,12 +197,15 @@ module Y2021 = {
     @module external capital_gains_fr: string = "../policies/2021/ndp/capital_gains.fr.md"
   }
   module Liberals = {
-    @module external x_en: string = "../policies/2021/liberals/x.en.md"
-    @module external x_fr: string = "../policies/2021/liberals/x.fr.md"
+    @module external digital_services_tax_en: string = "../policies/2021/lpc/digital_services_tax.en.md"
+    @module external digital_services_tax_fr: string = "../policies/2021/lpc/digital_services_tax.fr.md"
   }
   module Conservatives = {
-    @module external x_en: string = "../policies/2021/conservatives/x.en.md"
-    @module external x_fr: string = "../policies/2021/conservatives/x.fr.md"
+    @module external stock_option_exemption_en: string = "../policies/2021/cpc/stock_option_exemption.en.md"
+    @module external stock_option_exemption_fr: string = "../policies/2021/cpc/stock_option_exemption.fr.md"
+
+    @module external digital_services_tax_en: string = "../policies/2021/cpc/digital_services_tax.en.md"
+    @module external digital_services_tax_fr: string = "../policies/2021/cpc/digital_services_tax.fr.md"
   }
 }
 
@@ -358,7 +361,9 @@ module Y2021 = {
 
 let pathToContent = x =>
   switch x {
-    // NDP
+  
+  /** 2021 Policies */
+  // NDP
   | "2021/ndp/wealth_tax" => {
       en: Y2021.NDP.wealth_tax_en,
       fr: Y2021.NDP.wealth_tax_fr,
@@ -375,8 +380,24 @@ let pathToContent = x =>
       en: Y2021.NDP.capital_gains_en,
       fr: Y2021.NDP.capital_gains_fr,
     }
+
+  // LPC
+  | "2021/lpc/digital_services_tax" => {
+    en: Y2021.Liberals.digital_services_tax_en,
+    fr: Y2021.Liberals.digital_services_tax_fr,
+  }
+
+  // CPC
+  | "2021/cpc/stock_option_exemption" => {
+    en: Y2021.Conservatives.stock_option_exemption_en,
+    fr: Y2021.Conservatives.stock_option_exemption_fr,
+  }
+  | "2021/cpc/digital_services_tax" => {
+    en: Y2021.Conservatives.digital_services_tax_en,
+    fr: Y2021.Conservatives.digital_services_tax_fr,
+  }
     
-    // 2015
+  /** 2015 Policies */
   | "2015/cpc_aboriginal_funding" => {
       en: cpc_aboriginal_funding_en,
       fr: cpc_aboriginal_funding_fr,
