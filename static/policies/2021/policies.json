@@ -100,8 +100,88 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Canada Job Surge Plan",
-      "fr": "Plan de relance de l'emploi au Canada"
+      "en": "Cover 25–50% of salary for new hires for six months following the end of Canada Emergency Wage Subsidy",
+      "fr": "Couvrir 25 à 50 % du salaire des nouveaux employés pendant les six mois suivant la fin de la subvention salariale d'urgence du Canada"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Conservative",
+    "title": {
+      "en": "5% investment tax credit for 2022 and 2023",
+      "fr": "Crédit d'impôt à l'investissement de 5 % pour 2022 et 2023"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Conservative",
+    "title": {
+      "en": "25% tax credit on personal investments up to $100,000 in a small business for 2 years",
+      "fr": "Crédit d'impôt de 25 % sur les investissements personnels jusqu'à 100 000 dollars dans une petite entreprise pendant deux ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Conservative",
+    "title": {
+      "en": "Loans up to $200,000 for small and medium businesses in hospitality, retail, and tourism",
+      "fr": "Prêts jusqu'à 200 000 dollars pour les petites et moyennes entreprises des secteurs de l'hôtellerie, de la vente au détail et du tourisme"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "Conservative",
+    "title": {
+      "en": "Low-interest loans for individuals up to $10,000 for additional training in skilled trades",
+      "fr": "Prêts à faible taux d'intérêt pour les particuliers, jusqu'à 10 000 $, pour une formation supplémentaire dans des métiers spécialisés"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "Conservative",
+    "title": {
+      "en": "Allow new parents to qualify for parental leave income when starting a home-based business",
+      "fr": "Permettre aux nouveaux parents de bénéficier du revenu du congé parental lorsqu'ils créent une entreprise à domicile"
     },
     "references": [
       {
@@ -164,7 +244,7 @@
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "Ban foreign investors not living in or moving to Canada from buying homes here for two years",
+      "en": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
       "fr": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux ans"
     },
     "references": [
@@ -228,8 +308,56 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Employee Savings Account for “gig economy” employees",
-      "fr": "Compte d'épargne des employés pour les employés de la « gig economy »"
+      "en": "Tax-free Employee Savings Account paid into by employers of “gig economy” employees",
+      "fr": "Compte d'épargne salariale exonéré d'impôt alimenté par les employeurs des salariés de la « gig economy »"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
+      "en": "Increase sickness benefits from 15 weeks to 52 weeks for those suffering from a serious illness",
+      "fr": "Augmenter les prestations de maladie de 15 à 52 semaines pour les personnes souffrant d'une maladie grave"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Civil Rights",
+    "party": "Conservative",
+    "title": {
+      "en": "Require large federally regulated employers to include workers on their boards of directors",
+      "fr": "Obliger les grands employeurs sous réglementation fédérale à inclure des travailleurs dans leur conseil d'administration"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Conservative",
+    "title": {
+      "en": "Allow foreign telecom companies to provide services",
+      "fr": "Autoriser les entreprises de télécommunications étrangères à fournir des services"
     },
     "references": [
       {
@@ -499,8 +627,8 @@
     "topic": "Economy",
     "party": "Liberal",
     "title": {
-      "en": "Implement Digital Services Tax",
-      "fr": "Mettre en œuvre la taxe sur les services numériques"
+      "en": "Implement tax on digital services",
+      "fr": "Mettre en place une taxe sur les services numériques"
     },
     "references": [
       {
@@ -515,8 +643,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Implement Digital Services Tax",
-      "fr": "Mettre en œuvre la taxe sur les services numériques"
+      "en": "Implement tax on digital services",
+      "fr": "Mettre en place une taxe sur les services numériques"
     },
     "references": [
       {
@@ -524,6 +652,76 @@
         "title": "Canada's Recovery Plan (PDF)",
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Conservative",
+    "title": {
+      "en": "Minister of Red Tape Reduction",
+      "fr": "Ministre de la réduction des formalités administratives"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Conservative",
+    "title": {
+      "en": "Shut down the Canada Infrastructure Bank",
+      "fr": "Fermer la Banque canadienne d'infrastructure"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Conservative",
+    "title": {
+      "en": "Ensure every Canadian has access to high-speed broadband internet by 2025",
+      "fr": "Veiller à ce que chaque Canadien ait accès à l'Internet à haut débit d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Conservative",
+    "title": {
+      "en": "Exempt Canadian start-ups from $200,000 cap on stock option deduction",
+      "fr": "Exempter les jeunes entreprises canadiennes du plafond de 200 000 $ pour la déduction des options d'achat d'actions"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2019-06-17",
+        "title": "Backgrounder: Proposed Changes to the Tax Treatment of Employee Stock Options",
+        "publisher": "Government of Canada",
+        "url": "https://www.canada.ca/en/department-finance/news/2019/06/backgrounder-proposed-changes-to-the-tax-treatment-of-employee-stock-options.html"
       }
     ]
   },
@@ -1331,8 +1529,8 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Double the Disability Supplement in the Canada Workers Benefit",
-      "fr": "Doubler le supplément d'invalidité de la prestation pour travailleurs canadiens"
+      "en": "Double the Canada Workers Benefit with quarterly payouts",
+      "fr": "Doubler la prestation pour travailleurs canadiens par des versements trimestriels"
     },
     "references": [
       {
@@ -1651,8 +1849,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "End homelessness in Canada within a decade",
-      "fr": "Mettre fin à l'itinérance au Canada d'ici une décennie"
+      "en": "End homelessness in Canada within 10 years",
+      "fr": "Mettre fin à l'itinérance au Canada d'ici 10 ans"
     },
     "references": [
       {
