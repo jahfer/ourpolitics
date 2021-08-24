@@ -1,0 +1,3 @@
+Les conservateurs ont proposé de permettre aux entreprises technologiques d'émettre des actions accréditives aux investisseurs. 
+
+Ces actions permettent à l'entreprise qui les émet de **engager des dépenses admissibles** jusqu'à concurrence du montant investi par l'actionnaire, qui peut ensuite **déduire ces dépenses comme étant les siennes**. Cette solution est particulièrement utile lorsque l'entreprise se trouve dans une situation non imposable - où les déductions ne sont pas significatives - et qu'elle cherche à lever des fonds. 

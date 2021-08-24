@@ -199,6 +199,9 @@ module Y2021 = {
   module Liberals = {
     @module external digital_services_tax_en: string = "../policies/2021/lpc/digital_services_tax.en.md"
     @module external digital_services_tax_fr: string = "../policies/2021/lpc/digital_services_tax.fr.md"
+
+    @module external child_care_en: string = "../policies/2021/lpc/child_care.en.md"
+    @module external child_care_fr: string = "../policies/2021/lpc/child_care.fr.md"
   }
   module Conservatives = {
     @module external stock_option_exemption_en: string = "../policies/2021/cpc/stock_option_exemption.en.md"
@@ -206,6 +209,12 @@ module Y2021 = {
 
     @module external digital_services_tax_en: string = "../policies/2021/cpc/digital_services_tax.en.md"
     @module external digital_services_tax_fr: string = "../policies/2021/cpc/digital_services_tax.fr.md"
+
+    @module external flow_through_shares_en: string = "../policies/2021/cpc/flow_through_shares.en.md"
+    @module external flow_through_shares_fr: string = "../policies/2021/cpc/flow_through_shares.fr.md"
+
+    @module external calls_to_action_en: string = "../policies/2021/cpc/calls_to_action.en.md"
+    @module external calls_to_action_fr: string = "../policies/2021/cpc/calls_to_action.fr.md"
   }
 }
 
@@ -386,6 +395,10 @@ let pathToContent = x =>
     en: Y2021.Liberals.digital_services_tax_en,
     fr: Y2021.Liberals.digital_services_tax_fr,
   }
+  | "2021/lpc/child_care" => {
+    en: Y2021.Liberals.child_care_en,
+    fr: Y2021.Liberals.child_care_fr,
+  }
 
   // CPC
   | "2021/cpc/stock_option_exemption" => {
@@ -395,6 +408,14 @@ let pathToContent = x =>
   | "2021/cpc/digital_services_tax" => {
     en: Y2021.Conservatives.digital_services_tax_en,
     fr: Y2021.Conservatives.digital_services_tax_fr,
+  }
+  | "2021/cpc/flow_through_shares" => {
+    en: Y2021.Conservatives.flow_through_shares_en,
+    fr: Y2021.Conservatives.flow_through_shares_fr,
+  }
+  | "2021/cpc/calls_to_action" => {
+    en: Y2021.Conservatives.calls_to_action_en,
+    fr: Y2021.Conservatives.calls_to_action_fr,
   }
     
   /** 2015 Policies */

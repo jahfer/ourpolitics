@@ -12,8 +12,15 @@
         "title": "Conservatives unveil innovation policy ahead of potential election call, marking departure from Liberals",
         "publisher": "National Post",
         "url": "https://nationalpost.com/news/politics/conservatives-unveil-innovation-policy-ahead-of-potential-election-call-marking-departure-from-liberals"
+      },
+      {
+        "date": "2008-04-28",
+        "title": "Flow-through shares (FTSs)",
+        "publisher": "Canada Revenue Agency",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/flow-through-shares-ftss.html"
       }
-    ]
+    ],
+    "handle": "2021/cpc/flow_through_shares"
   },
   {
     "topic": "Science",
@@ -92,7 +99,7 @@
     "party": "NDP",
     "title": {
       "en": "Wealth tax of 1% per year",
-      "fr": "Impôt sur la fortune de 1% par an"
+      "fr": "Impôt sur la fortune de 1&nbsp;% par an"
     },
     "references": [
       {
@@ -548,22 +555,6 @@
         "title": "Ottawa to hike federal carbon tax to $170 a tonne by 2030",
         "publisher": "CBC",
         "url": "https://www.cbc.ca/news/politics/carbon-tax-hike-new-climate-plan-1.5837709"
-      }
-    ]
-  },
-  {
-    "topic": "Economy",
-    "party": "Liberal",
-    "title": {
-      "en": "Limit bonuses from public companies who accepted wage subsidy",
-      "fr": "Limiter les bonus des entreprises publiques qui ont accepté une subvention salariale"
-    },
-    "references": [
-      {
-        "date": "2021-04-19",
-        "title": "Budget 2021 (PDF)",
-        "publisher": "Government of Canada",
-        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
     ]
   },
@@ -1274,11 +1265,12 @@
     "references": [
       {
         "date": "2021-04-19",
-        "title": "Budget 2021",
+        "title": "Establishing a Canada-Wide Early Learning and Child Care System (Budget 2021)",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#21"
       }
-    ]
+    ],
+    "handle": "2021/lpc/child_care"
   },
   {
     "topic": "Education",
@@ -2772,8 +2764,8 @@
     "topic": "Indigenous Relations",
     "party": "NDP",
     "title": {
-      "en": "Implement all of the Truth and Reconciliation Commission's 94 Calls to Action",
-      "fr": "Mettre en œuvre les 94 appels à l'action de la Commission de vérité et réconciliation"
+      "en": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
+      "fr": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
     },
     "references": [
       {
@@ -2788,8 +2780,8 @@
     "topic": "Indigenous Relations",
     "party": "Liberal",
     "title": {
-      "en": "Implement all of the Truth and Reconciliation Commission's 94 Calls to Action",
-      "fr": "Mettre en œuvre les 94 appels à l'action de la Commission de vérité et réconciliation"
+      "en": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
+      "fr": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
     },
     "references": [
       {
@@ -2804,17 +2796,30 @@
     "topic": "Indigenous Relations",
     "party": "Conservative",
     "title": {
-      "en": "Implement 7 of the Truth and Reconciliation Commission's Calls to Action",
-      "fr": "Mettre en œuvre 7 des appels à l'action de la Commission de vérité et réconciliation"
+      "en": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
+      "fr": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
     },
     "references": [
       {
-        "date": "2021-08-12",
-        "title": "Delivering on Truth and Reconciliation Commission Calls to Action",
-        "publisher": "Government of Canada",
-        "url": "https://www.rcaanc-cirnac.gc.ca/eng/1524494530110/1557511412801"
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2015-12-15",
+        "title": "Truth and Reconciliation Commission of Canada: Calls to Action",
+        "publisher": "Truth and Reconciliation Commission of Canada",
+        "url": "https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/indigenous-people/aboriginal-peoples-documents/calls_to_action_english2.pdf"
+      },
+      {
+        "date": "2021-08-23",
+        "title": "O’Toole promises progress on all Indigenous truth and reconciliation calls to action",
+        "publisher": "Global News",
+        "url": "https://globalnews.ca/news/8134332/otoole-plan-trc-indigenous/"
       }
-    ]
+    ],
+    "handle": "2021/cpc/calls_to_action"
   },
   {
     "topic": "Environment",

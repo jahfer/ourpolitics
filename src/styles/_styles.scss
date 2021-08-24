@@ -111,6 +111,7 @@ a {
 
 .policyCell {
   padding: 5px;
+  font-size: 1.2rem;
   line-height: 1.3em;
 
   &.partyTitle {
@@ -187,7 +188,7 @@ a {
 }
 
 .policyPoint {
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
 
   &:last-of-type {
     border: none;
@@ -361,6 +362,7 @@ a {
 
   .policyCell {
     border-bottom: none;
+    font-size: 1rem;
   }
 
   .policyRow.filler {

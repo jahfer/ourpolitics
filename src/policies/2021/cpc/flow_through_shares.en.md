@@ -1,0 +1,3 @@
+The Conservatives have proposed allowing tech companies to issue flow-through shares to investors. 
+
+These shares allow the company issuing them to **incur eligible expenses** up to the amount invested by the shareholder, who can then **write off these expenses as their own**. This is most useful when the company is in a non-taxable situation—where deductions are not meaningful—and is looking to raise funds. 
