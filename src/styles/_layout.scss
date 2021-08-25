@@ -108,8 +108,17 @@
     }
   }
 
+  .policyCell:nth-child(n+3) {
+    margin-top: 1.5rem;
+  }
+
   .policyCell--party {
     align-self: flex-start;
+    margin-bottom: 1rem;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
   }
 
   .policyCell--points {
