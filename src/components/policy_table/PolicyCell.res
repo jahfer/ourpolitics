@@ -24,6 +24,7 @@ let make = (~party: Schema.party, ~topic: Schema.topic, ~policies: list<Schema.p
       <PolicyPoint policy key={T.party_to_string(policy.party) ++ policy.title.en} />
     )
     |> Array.of_list
+    |> Js.Array2.reverseInPlace
   }
 
   let aria_labels = [

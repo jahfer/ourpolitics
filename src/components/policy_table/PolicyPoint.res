@@ -29,7 +29,7 @@ let make = (~policy: Schema.policy) => {
     |> T.Text.to_str
     |> Js.String.replaceByRe(
       %re(
-        "/([$><+]*?[0-9]+\\.?,?[0-9-–]*\\/?(&nbsp;)?(%|\\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?))*))/g"
+        "/([$><+]*?[0-9]+\\.?,?(&nbsp;)?[0-9-–]*\\/?(%|\\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heure?))*))/g"
       ),
       em_tag,
     )
