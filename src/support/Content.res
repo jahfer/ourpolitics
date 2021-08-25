@@ -11,7 +11,7 @@ module Strings = {
   }
   let no_policy_listed = {
     en: "No major policies announced",
-    fr: "Aucune politique majeure annoncée",
+    fr: `Aucune politique majeure annoncée`,
   }
   let archives = {
     en: "Archives",
@@ -172,6 +172,10 @@ module Strings = {
     en: "Read the 2021 policies",
     fr: `Lire les politiques de 2021`
   }
+  let references = {
+    en: "References",
+    fr: `Références`
+  }
 }
 
 /*
@@ -202,6 +206,9 @@ module Y2021 = {
 
     @module external child_care_en: string = "../policies/2021/lpc/child_care.en.md"
     @module external child_care_fr: string = "../policies/2021/lpc/child_care.fr.md"
+
+    @module external homebuyers_bill_of_rights_en: string = "../policies/2021/lpc/homebuyers_bill_of_rights.en.md"
+    @module external homebuyers_bill_of_rights_fr: string = "../policies/2021/lpc/homebuyers_bill_of_rights.fr.md"
   }
   module Conservatives = {
     @module external stock_option_exemption_en: string = "../policies/2021/cpc/stock_option_exemption.en.md"
@@ -398,6 +405,10 @@ let pathToContent = x =>
   | "2021/lpc/child_care" => {
     en: Y2021.Liberals.child_care_en,
     fr: Y2021.Liberals.child_care_fr,
+  }
+  | "2021/lpc/homebuyers_bill_of_rights" => {
+    en: Y2021.Liberals.homebuyers_bill_of_rights_en,
+    fr: Y2021.Liberals.homebuyers_bill_of_rights_fr,
   }
 
   // CPC

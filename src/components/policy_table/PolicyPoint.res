@@ -22,6 +22,8 @@ let make = (~policy: Schema.policy) => {
     }
   }
 
+  let em_tag = `<span class="text-em">$1</span>`
+
   let formattedPolicyTitle =
     policy.title
     |> T.Text.to_str
@@ -29,7 +31,11 @@ let make = (~policy: Schema.policy) => {
       %re(
         "/([$><+]*?[0-9]+\\.?,?[0-9-–]*\\/?(&nbsp;)?(%|\\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?))*))/g"
       ),
-      `<span class="text-em">$1</span>`,
+      em_tag,
+    )
+    |> Js.String.replaceByRe(
+      %re("/[^\w](all)[^\w]/"),
+      em_tag
     )
 
   // let className = switch policy.handle {

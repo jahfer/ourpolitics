@@ -42,7 +42,7 @@ module ReferenceModal = {
 
     <div className="policyModal">
       <div className="modal--content reference-modal--content">
-        <a href="#" className="reference-modal--close modal--close" alt="Close" onClick=onModalClose />
+        <a href="#" className="reference-modal--close modal--close" ariaLabel="Close" alt="Close" onClick=onModalClose />
         <div className="modal--headingContainer">
           <div className="modal--headingInfo">
             <div className="modal--topicBox"> <p> {topic_title->React.string} </p> </div>
@@ -95,7 +95,7 @@ module FullContextModal = {
 
     <div className="policyModal">
       <div className="modal--content">
-        <a href="#" className="modal--close"  alt="Close" onClick=onModalClose />
+        <a href="#" className="modal--close" ariaLabel="Close" alt="Close" onClick=onModalClose />
         <div className="modal--headingContainer">
           <div className="modal--headingInfo">
             <div className="modal--topicBox"> <p> {topic_title->React.string} </p> </div>
@@ -108,7 +108,7 @@ module FullContextModal = {
         <div className="modal--details" dangerouslySetInnerHTML={content->Utils.dangerousHtml} />
       </div>
       <aside className="modal--sidebar">
-        <h2 className="modal--heading modal--heading__secondary"> {"References"->React.string} </h2>
+        <h2 className="modal--heading modal--heading__secondary"> {Content.Strings.references->T.text_react_string} </h2>
         <ul className="reference--list">
           {(policy.references |> Array.map(ref => <Reference key=ref.url source=ref />))
             ->React.array}

@@ -39,6 +39,95 @@
     ]
   },
   {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "1 million homes in 3 years",
+      "fr": "Construire 1 million de logements dans les 3 prochaines années"
+    },
+    "references": [
+      {
+        "date": "2021-08-19",
+        "title": "O’Toole eyes housing crisis with million home pledge, foreign investment freeze",
+        "publisher": "Global News",
+        "url": "https://globalnews.ca/news/8125092/election-otoole-housing-conservative-canada-campaign/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Homebuyers’ Bill of Rights",
+      "fr": "Charte des droits de l'acheteur d'une maison"
+    },
+    "references": [
+      {
+        "date": "2021-08-24",
+        "title": "Trudeau promises new incentives worth billions and a tax on 'flipping' to help Canadians buy a home",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
+      },
+      {
+        "date": "2021-08-24",
+        "title": "Liberals will take aim at real-estate speculation, propose homebuyers’ ‘bill of rights’ in ambitious housing policy",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/political-opinion/2021/08/24/liberals-will-take-aim-at-real-estate-speculation-propose-homebuyers-bill-of-rights-in-ambitious-housing-policy.html"
+      }
+    ],
+    "handle": "2021/lpc/homebuyers_bill_of_rights"
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Build, preserve, or repair 1.4 million homes in four years",
+      "fr": "Construire, préserver ou réparer 1,4 million de logements en quatre ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-24",
+        "title": "Trudeau promises new incentives worth billions and a tax on 'flipping' to help Canadians buy a home",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
+      },
+      {
+        "date": "2021-08-24",
+        "title": "Tweet",
+        "publisher": "@JustinTrudeau",
+        "url": "https://mobile.twitter.com/JustinTrudeau/status/1430153185352617988"
+      },
+      {
+        "date": "2021-08-24",
+        "title": "Liberals will take aim at real-estate speculation, propose homebuyers’ ‘bill of rights’ in ambitious housing policy",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/political-opinion/2021/08/24/liberals-will-take-aim-at-real-estate-speculation-propose-homebuyers-bill-of-rights-in-ambitious-housing-policy.html"
+      },
+      {
+        "date": "2021-08-24",
+        "title": "Tweet",
+        "publisher": "@Justin_Ling",
+        "url": "https://twitter.com/Justin_Ling/status/1430164008112431113"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Conservative",
+    "title": {
+      "en": "Release 15% of federal property for housing",
+      "fr": "Libérer 15&nbsp;% des propriétés fédérales pour le logement"
+    },
+    "references": [
+      {
+        "date": "2021-08-19",
+        "title": "O’Toole eyes housing crisis with million home pledge, foreign investment freeze",
+        "publisher": "Global News",
+        "url": "https://globalnews.ca/news/8125092/election-otoole-housing-conservative-canada-campaign/"
+      }
+    ]
+  },
+  {
     "topic": "Economy",
     "party": "NDP",
     "title": {
@@ -116,7 +205,7 @@
     "party": "Conservative",
     "title": {
       "en": "Cover 25–50% of salary for new hires for six months following the end of Canada Emergency Wage Subsidy",
-      "fr": "Couvrir 25 à 50 % du salaire des nouveaux employés pendant les six mois suivant la fin de la subvention salariale d'urgence du Canada"
+      "fr": "Couvrir 25 à 50&nbsp;% du salaire des nouveaux employés pendant les six mois suivant la fin de la subvention salariale d'urgence du Canada"
     },
     "references": [
       {
@@ -132,7 +221,7 @@
     "party": "Conservative",
     "title": {
       "en": "5% investment tax credit for 2022 and 2023",
-      "fr": "Crédit d'impôt à l'investissement de 5 % pour 2022 et 2023"
+      "fr": "Crédit d'impôt à l'investissement de 5&nbsp;% pour 2022 et 2023"
     },
     "references": [
       {
@@ -148,7 +237,7 @@
     "party": "Conservative",
     "title": {
       "en": "25% tax credit on personal investments up to $100,000 in a small business for 2 years",
-      "fr": "Crédit d'impôt de 25 % sur les investissements personnels jusqu'à 100 000 dollars dans une petite entreprise pendant deux ans"
+      "fr": "Crédit d'impôt de 25&nbsp;% sur les investissements personnels jusqu'à 100&nbsp;000&nbsp;dollars dans une petite entreprise pendant deux&nbsp;ans"
     },
     "references": [
       {
@@ -164,7 +253,7 @@
     "party": "Conservative",
     "title": {
       "en": "Loans up to $200,000 for small and medium businesses in hospitality, retail, and tourism",
-      "fr": "Prêts jusqu'à 200 000 dollars pour les petites et moyennes entreprises des secteurs de l'hôtellerie, de la vente au détail et du tourisme"
+      "fr": "Prêts jusqu'à 200&nbsp;000&nbsp;dollars pour les petites et moyennes entreprises des secteurs de l'hôtellerie, de la vente au détail et du tourisme"
     },
     "references": [
       {
@@ -180,7 +269,7 @@
     "party": "Conservative",
     "title": {
       "en": "Low-interest loans for individuals up to $10,000 for additional training in skilled trades",
-      "fr": "Prêts à faible taux d'intérêt pour les particuliers, jusqu'à 10 000 $, pour une formation supplémentaire dans des métiers spécialisés"
+      "fr": "Prêts à faible taux d'intérêt pour les particuliers, jusqu'à 10&nbsp;000&nbsp;$, pour une formation supplémentaire dans des métiers spécialisés"
     },
     "references": [
       {
@@ -260,7 +349,7 @@
     "party": "Conservative",
     "title": {
       "en": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
-      "fr": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux ans"
+      "fr": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
     },
     "references": [
       {
@@ -468,7 +557,7 @@
     "party": "Conservative",
     "title": {
       "en": "30% of light duty vehicles sold to be zero emissions by 2030",
-      "fr": "30 % des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
+      "fr": "30&nbsp;% des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
     },
     "references": [
       {
@@ -522,7 +611,7 @@
     "party": "Conservative",
     "title": {
       "en": "Protect 17% of Canada's lands and water",
-      "fr": "Protéger 17 % des terres et des eaux du Canada"
+      "fr": "Protéger 17&nbsp;% des terres et des eaux du Canada"
     },
     "references": [
       {
@@ -709,7 +798,7 @@
     "party": "Conservative",
     "title": {
       "en": "Exempt Canadian start-ups from $200,000 cap on stock option deduction",
-      "fr": "Exempter les jeunes entreprises canadiennes du plafond de 200 000 $ pour la déduction des options d'achat d'actions"
+      "fr": "Exempter les jeunes entreprises canadiennes du plafond de 200&nbsp;000&nbsp;$ pour la déduction des options d'achat d'actions"
     },
     "references": [
       {
@@ -796,7 +885,7 @@
     "party": "Liberal",
     "title": {
       "en": "Fund construction, repair or support of 35,000 affordable housing units",
-      "fr": "Financer la construction, la réparation ou le soutien de 35 000 unités de logement abordables"
+      "fr": "Financer la construction, la réparation ou le soutien de 35&nbsp;000 unités de logement abordables"
     },
     "references": [
       {
@@ -812,7 +901,7 @@
     "party": "Liberal",
     "title": {
       "en": "Annual 1% tax on the value of non-resident, non-Canadian owned residential real estate that is vacant or underused",
-      "fr": "Taxe annuelle de 1 % sur la valeur des biens immobiliers résidentiels appartenant à des non-résidents et à des non-Canadiens, qui sont vacants ou sous-utilisés."
+      "fr": "Taxe annuelle de 1&nbsp;% sur la valeur des biens immobiliers résidentiels appartenant à des non-résidents et à des non-Canadiens, qui sont vacants ou sous-utilisés."
     },
     "references": [
       {
@@ -1004,7 +1093,7 @@
     "party": "Liberal",
     "title": {
       "en": "Boost the minimum wage for support workers in long-term care facilities to at least $25/hour",
-      "fr": "Augmenter le salaire minimum des travailleurs de soutien dans les établissements de soins de longue durée à au moins 25 $/heure"
+      "fr": "Augmenter le salaire minimum des travailleurs de soutien dans les établissements de soins de longue durée à au moins 25&nbsp;$/heure"
     },
     "references": [
       {
@@ -1020,7 +1109,7 @@
     "party": "Liberal",
     "title": {
       "en": "Boost the home accessibility tax credit to $20,000",
-      "fr": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20 000 $"
+      "fr": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20&nbsp;000&nbsp;$"
     },
     "references": [
       {
@@ -1036,7 +1125,7 @@
     "party": "Liberal",
     "title": {
       "en": "Train up to up to 50,000 more workers for long-term care facilities",
-      "fr": "Former jusqu'à 50 000 travailleurs supplémentaires pour les établissements de soins de longue durée"
+      "fr": "Former jusqu'à 50&nbsp;000&nbsp;travailleurs supplémentaires pour les établissements de soins de longue durée"
     },
     "references": [
       {
@@ -1052,7 +1141,7 @@
     "party": "Liberal",
     "title": {
       "en": "Increase OAS by 10% for those 75+, indexed to inflation",
-      "fr": "Augmenter la SV de 10 % pour les personnes de plus de 75 ans, indexée à l'inflation"
+      "fr": "Augmenter la SV de 10&nbsp;% pour les personnes de plus de 75&nbsp;ans, indexée à l'inflation"
     },
     "references": [
       {
@@ -1100,7 +1189,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reduce income tax rate by 50% for manufacturers of zero-emissions technologies",
-      "fr": "Réduire de 50 % le taux d'imposition sur le revenu pour les fabricants de technologies à émissions nulles"
+      "fr": "Réduire de 50&nbsp;% le taux d'imposition sur le revenu pour les fabricants de technologies à émissions nulles"
     },
     "references": [
       {
@@ -1148,7 +1237,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reduce emissions by 36% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 36% par rapport aux niveaux de 2005 d'ici 2030"
+      "fr": "Réduire les émissions de 36&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -1180,7 +1269,7 @@
     "party": "Liberal",
     "title": {
       "en": "Interest-free loans up to $40,000 for deep retrofits of homes",
-      "fr": "Prêts sans intérêt jusqu'à 40 000 dollars pour des améliorations profondes des logements."
+      "fr": "Prêts sans intérêt jusqu'à 40&nbsp;000&nbsp;dollars pour des améliorations profondes des logements."
     },
     "references": [
       {
@@ -1196,7 +1285,7 @@
     "party": "Liberal",
     "title": {
       "en": "Protect 25% of Canada's lands, oceans, marine and costal areas by 2025",
-      "fr": "Protéger 25 % des terres, des océans et des zones marines et côtières du Canada d'ici 2025"
+      "fr": "Protéger 25&nbsp;% des terres, des océans et des zones marines et côtières du Canada d'ici 2025"
     },
     "references": [
       {
@@ -1293,7 +1382,7 @@
     "party": "Liberal",
     "title": {
       "en": "Increase threshold for repayment assistance on federal student loans to $40,000 for borrowers living alone",
-      "fr": "Augmenter le seuil de l'aide au remboursement des prêts étudiants fédéraux à 40 000 $ pour les emprunteurs vivant seuls"
+      "fr": "Augmenter le seuil de l'aide au remboursement des prêts étudiants fédéraux à 40&nbsp;000&nbsp;$ pour les emprunteurs vivant seuls"
     },
     "references": [
       {
@@ -1405,7 +1494,7 @@
     "party": "Liberal",
     "title": {
       "en": "Resettle 20,000 refugees from Afghanistan",
-      "fr": "Réinstaller 20 000 réfugiés d'Afghanistan"
+      "fr": "Réinstaller 20&nbsp;000&nbsp;réfugiés d'Afghanistan"
     },
     "references": [
       {
@@ -1453,7 +1542,7 @@
     "party": "Conservative",
     "title": {
       "en": "Boost the annual growth rate of the Canada Health Transfer to at least 6%",
-      "fr": "Faire passer le taux de croissance annuel du Transfert canadien en matière de santé à au moins 6 %"
+      "fr": "Faire passer le taux de croissance annuel du Transfert canadien en matière de santé à au moins 6&nbsp;%"
     },
     "references": [
       {
@@ -1485,7 +1574,7 @@
     "party": "Conservative",
     "title": {
       "en": "$3 billion over three years to renovate Long-Term Care Homes",
-      "fr": "3 milliards de dollars sur trois ans pour rénover les foyers de soins de longue durée"
+      "fr": "3 milliards de dollars sur trois&nbsp;ans pour rénover les foyers de soins de longue durée"
     },
     "references": [
       {
@@ -1613,7 +1702,7 @@
     "party": "Conservative",
     "title": {
       "en": "Create Canadian Indigenous Enterprise Corporation",
-      "fr": "Créer la Canadian Indigenous Enterprise Corporation"
+      "fr": "Créer la Societé canadienne autochtone"
     },
     "references": [
       {
@@ -1757,7 +1846,7 @@
     "party": "NDP",
     "title": {
       "en": "Cap merchant credit card fees at 1%",
-      "fr": "Plafonner les frais de carte de crédit des commerçants à 1 %."
+      "fr": "Plafonner les frais de carte de crédit des commerçants à 1&nbsp;%."
     },
     "references": [
       {
@@ -1773,7 +1862,7 @@
     "party": "NDP",
     "title": {
       "en": "500,000 affordable housing units in 10 years, 50% of those in 5 years",
-      "fr": "500 000 unités de logement abordables en 10 ans, dont 50 % en 5 ans"
+      "fr": "500&nbsp;000&nbsp;unités de logement abordables en 10&nbsp;ans, dont 50&nbsp;% en 5&nbsp;ans"
     },
     "references": [
       {
@@ -1789,7 +1878,7 @@
     "party": "NDP",
     "title": {
       "en": "Allow 30-year mortgages on entry-level homes for first time home buyers",
-      "fr": "Permettre des hypothèques de 30 ans sur les maisons d'entrée de gamme pour les acheteurs d'une première maison"
+      "fr": "Permettre des hypothèques de 30&nbsp;ans sur les maisons d'entrée de gamme pour les acheteurs d'une première maison"
     },
     "references": [
       {
@@ -1804,8 +1893,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "Double the Home Buyer’s Tax Credit to $1,500",
-      "fr": "Doublement du crédit d'impôt pour l'achat d'une maison, qui passe à 1 500 $"
+      "en": "Double the Home Buyers’ Tax Credit",
+      "fr": "Doublez le crédit d'impôt pour l'achat d'une maison"
     },
     "references": [
       {
@@ -1834,10 +1923,42 @@
   },
   {
     "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Double the Home Buyers’ Tax Credit",
+      "fr": "Doublez le crédit d'impôt pour l'achat d'une maison"
+    },
+    "references": [
+      {
+        "date": "2021-08-24",
+        "title": "Trudeau promises new incentives worth billions and a tax on 'flipping' to help Canadians buy a home",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "First-home savings account for Canadians under 40",
+      "fr": "Compte d'épargne pour la première maison pour les Canadiens de moins de 40 ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-24",
+        "title": "Trudeau promises new incentives worth billions and a tax on 'flipping' to help Canadians buy a home",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
     "party": "NDP",
     "title": {
       "en": "End homelessness in Canada within 10 years",
-      "fr": "Mettre fin à l'itinérance au Canada d'ici 10 ans"
+      "fr": "Mettre fin à l'itinérance au Canada d'ici 10&nbsp;ans"
     },
     "references": [
       {
@@ -2189,7 +2310,7 @@
     "party": "NDP",
     "title": {
       "en": "Reduce emissions by 50% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 50% par rapport aux niveaux de 2005 d'ici 2030"
+      "fr": "Réduire les émissions de 50&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -2269,7 +2390,7 @@
     "party": "NDP",
     "title": {
       "en": "Protect 30% of Canada's lands, freshwater and oceans by 2030",
-      "fr": "Protéger 30 % de nos terres, de l'eau douce et des océans d'ici 2030"
+      "fr": "Protéger 30&nbsp;% de nos terres, de l'eau douce et des océans d'ici 2030"
     },
     "references": [
       {
@@ -2605,7 +2726,7 @@
     "party": "NDP",
     "title": {
       "en": "Add sexual orientation, gender identity and expression to the Employment Equity Act",
-      "fr": "Ajouter l'orientation sexuelle, l'identité et l'expression de genre à la Loi sur l'équité en matière d'emploi"
+      "fr": "Ajouter l'orientation sexuelle, l'identité et l'expression de genre à la <em>Loi sur l'équité en matière d'emploi</em>"
     },
     "references": [
       {
@@ -2717,7 +2838,7 @@
     "party": "NDP",
     "title": {
       "en": "Contribute 0.7% of our Gross National Income to international aid",
-      "fr": "Contribuer 0,7% de notre revenu national brut à l'aide internationale"
+      "fr": "Contribuer 0,7&nbsp;% de notre revenu national brut à l'aide internationale"
     },
     "references": [
       {
@@ -2954,7 +3075,7 @@
     "party": "NDP",
     "title": {
       "en": "Forgive up to $20,000 in student debt for graduates",
-      "fr": "Remettre jusqu'à 20 000 $ de dettes d'études aux diplômés"
+      "fr": "Remettre jusqu'à 20&nbsp;000&nbsp;$ de dettes d'études aux diplômés"
     },
     "references": [
       {
@@ -3002,7 +3123,7 @@
     "party": "NDP",
     "title": {
       "en": "Require large employers to spend at least 1% of payroll on training for their employees annually",
-      "fr": "Obliger les grands employeurs à consacrer chaque année au moins 1 % de la masse salariale à la formation de leurs employés"
+      "fr": "Obliger les grands employeurs à consacrer chaque année au moins 1&nbsp;% de la masse salariale à la formation de leurs employés"
     },
     "references": [
       {
@@ -3034,7 +3155,7 @@
     "party": "NDP",
     "title": {
       "en": "Lower the voting age to 16",
-      "fr": "Abaisser l'âge du droit de vote à 16 ans"
+      "fr": "Abaisser l'âge du droit de vote à 16&nbsp;ans"
     },
     "references": [
       {
@@ -3354,7 +3475,7 @@
     "party": "NDP",
     "title": {
       "en": "Provide up to $5,000/year to renters",
-      "fr": "Fournir jusqu'à 5 000 $/an aux locataires"
+      "fr": "Fournir jusqu'à 5&nbsp;000&nbsp;$/an aux locataires"
     },
     "references": [
       {

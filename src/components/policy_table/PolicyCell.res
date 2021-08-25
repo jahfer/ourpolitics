@@ -1,5 +1,5 @@
 @react.component
-let make = (~party: Schema.party, ~policies: list<Schema.policy>) => {
+let make = (~party: Schema.party, ~topic: Schema.topic, ~policies: list<Schema.policy>) => {
   let language = React.useContext(LanguageContext.ctx)
 
   module T = Strings.Translations({
@@ -26,7 +26,12 @@ let make = (~party: Schema.party, ~policies: list<Schema.policy>) => {
     |> Array.of_list
   }
 
-  <div className="policyCell">
+  let aria_labels = [
+    "policyTableRow--" ++ Js.String.replaceByRe(%re("/[^a-zA-Z]/g"), "", Strings.Topic.to_str(~language=I18n.EN, topic)),
+    "policyTableColumn--" ++ Strings.Party.to_str(~language=I18n.EN, party)
+  ]
+
+  <div className="policyCell" ariaLabelledby=Js.Array2.joinWith(aria_labels, " ")>
     <h4 className={"policyCell--party textColor--" ++ EnStr.Party.to_str(party)}>
       {T.party_react_string(party)}
     </h4>

@@ -1,3 +1,10 @@
+module Option = {
+  let value = (o, ~default) => switch o {
+    | Some (v) => v
+    | None => default
+  }
+}
+
 @scope("window") @val
 external scrollTo: (int, int) => unit = "scrollTo"
 

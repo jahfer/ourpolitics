@@ -27,6 +27,7 @@ let make = (~topic, ~parties, ~policies: PolicyDataset.t<list<Schema.policy>>) =
     |> List.map(party =>
       <PolicyCell
         party
+        topic
         policies={PolicyDataset.find(party, policies)}
         key={Strings.Party.to_str(party, ~language=I18n.EN) ++
         (" " ++
@@ -38,7 +39,12 @@ let make = (~topic, ~parties, ~policies: PolicyDataset.t<list<Schema.policy>>) =
   <div className="policyRow divider-t">
     <div className="policyCells">
       <div className="policyCell policyTopic">
-        <h3 className="policyTopic--title"> {T.topic_react_string(topic)} </h3>
+        <h3 
+          ariaLabelledby="policyTableColumn--topics"
+          id={"policyTableRow--" ++ Js.String.replaceByRe(%re("/[^a-zA-Z]/g"), "", Strings.Topic.to_str(~language=I18n.EN, topic))}
+          className="policyTopic--title">
+          {T.topic_react_string(topic)} 
+        </h3>
         //<a className="policyTopic--info" href="#"> { "Learn more"->React.string }</a>
       </div>
       {policy_cells->React.array}

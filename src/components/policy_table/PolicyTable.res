@@ -60,13 +60,14 @@ let make = (
       </>
     } else {
       <>
-        <div className="policyCell partyTitle backgroundColor--Empty">
+        <div id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty">
           {T.text_react_string(Content.Strings.title)}
         </div>
         {sortedPartyList
         |> List.map(party =>
           <div
             key={"partyTitle--" ++ Strings.Party.to_str(~language=I18n.EN, party)}
+            id={"policyTableColumn--" ++ Strings.Party.to_str(~language=I18n.EN, party)}
             className={"policyCell partyTitle backgroundColor--" ++
             Strings.Party.to_str(~language=I18n.EN, party)}>
             {T.party_react_string(party)}
