@@ -222,6 +222,9 @@ module Y2021 = {
 
     @module external calls_to_action_en: string = "../policies/2021/cpc/calls_to_action.en.md"
     @module external calls_to_action_fr: string = "../policies/2021/cpc/calls_to_action.fr.md"
+
+    @module external low_carbon_savings_account_en: string = "../policies/2021/cpc/low_carbon_savings_account.en.md"
+    @module external low_carbon_savings_account_fr: string = "../policies/2021/cpc/low_carbon_savings_account.fr.md"
   }
 }
 
@@ -427,6 +430,10 @@ let pathToContent = x =>
   | "2021/cpc/calls_to_action" => {
     en: Y2021.Conservatives.calls_to_action_en,
     fr: Y2021.Conservatives.calls_to_action_fr,
+  }
+  | "2021/cpc/low_carbon_savings_account" => {
+    en: Y2021.Conservatives.low_carbon_savings_account_en,
+    fr: Y2021.Conservatives.low_carbon_savings_account_fr,
   }
     
   /** 2015 Policies */

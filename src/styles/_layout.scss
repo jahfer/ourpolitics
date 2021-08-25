@@ -108,7 +108,7 @@
     }
   }
 
-  .policyCell:nth-child(n+3) {
+  .policyCell:not(.partyTitle):nth-child(n+3) {
     margin-top: 1.5rem;
   }
 
@@ -198,6 +198,10 @@
 
     .policyCell {
       flex-basis: 0%;
+    }
+
+    .policyCell:not(.partyTitle):nth-child(n+3) {
+      margin-top: 0;
     }
 
     .policyCell--party {

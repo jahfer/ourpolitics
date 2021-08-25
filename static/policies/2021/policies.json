@@ -636,8 +636,21 @@
         "title": "Low-carbon bucks: Conservatives pitch consumer carbon pricing through savings account",
         "publisher": "CTV News",
         "url": "https://www.ctvnews.ca/politics/low-carbon-bucks-conservatives-pitch-consumer-carbon-pricing-through-savings-account-1.5388541"
+      },
+      {
+        "date": "2021-03-25",
+        "title": "Case in Brief: References re Greenhouse Gas Pollution Pricing Act",
+        "publisher": "Supreme Court of Canada",
+        "url": "https://www.scc-csc.ca/case-dossier/cb/2021/38663-38781-39116-eng.aspx"
+      },
+      {
+        "date": "2021-08-21",
+        "title": "O'Toole acknowledges some Conservatives 'frustrated' over carbon pricing plan",
+        "publisher": "CTV News",
+        "url": "https://www.ctvnews.ca/mobile/politics/federal-election-2021/o-toole-acknowledges-some-conservatives-frustrated-over-carbon-pricing-plan-1.5556254"
       }
-    ]
+    ],
+    "handle": "2021/cpc/low_carbon_savings_account"
   },
   {
     "topic": "Environment",
@@ -675,24 +688,8 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "Remove federal carbon tax backstop for consumers",
-      "fr": "Supprimer le filet de sécurité de la taxe fédérale sur le carbone pour les consommateurs"
-    },
-    "references": [
-      {
-        "date": "2021-08-12",
-        "title": "Delivering on Truth and Reconciliation Commission Calls to Action",
-        "publisher": "Government of Canada",
-        "url": "https://www.rcaanc-cirnac.gc.ca/eng/1524494530110/1557511412801"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Conservative",
-    "title": {
-      "en": "Cap the carbon tax increase at $50/ton",
-      "fr": "Plafonner l'augmentation de la taxe sur le carbone à 50&nbsp;$/tonne"
+      "en": "Cap the carbon tax increase to a maximum of $50/ton for consumers",
+      "fr": "Plafonner l'augmentation de la taxe sur le carbone à un maximum de 50&nbsp;$/tonne pour les consommateurs"
     },
     "references": [
       {
