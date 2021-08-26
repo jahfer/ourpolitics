@@ -131,15 +131,15 @@ let make = (~policy_handle=?, ~year=2019) => {
     | None => React.null
     }}
 
-    {
-      if year == 2021 {
-        <Banner>
-        { Content.Strings.election_notice->T.text_react_string }
-        </Banner>
-      } else {
-        React.null
-      }
-    }
+    // {
+    //   if year == 2021 {
+    //     <Banner>
+    //     { Content.Strings.election_notice->T.text_react_string }
+    //     </Banner>
+    //   } else {
+    //     React.null
+    //   }
+    // }
 
     <PolicyTable isLoading parties topicFilter=Some(topicFilter) dataset=tableDataset />
     <footer> <p className="footerInfo" /> </footer>

@@ -253,8 +253,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "5% investment tax credit until the end of 2023",
-      "fr": "Crédit d'impôt à l'investissement de 5&nbsp;% jusqu'à la fin de 2023"
+      "en": "5% investment tax credit for two years",
+      "fr": "Crédit d'impôt à l'investissement de 5&nbsp; pendant deux ans"
     },
     "references": [
       {
@@ -269,8 +269,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "25% tax credit on personal investments up to $100,000 in a small business for 2 years",
-      "fr": "Crédit d'impôt de 25&nbsp;% sur les investissements personnels jusqu'à 100&nbsp;000&nbsp;dollars dans une petite entreprise pendant deux&nbsp;ans"
+      "en": "Tax credit on personal investments in small businesses for 2 years",
+      "fr": "Crédit d'impôt sur les investissements personnels dans les petites entreprises pendant 2 ans"
     },
     "references": [
       {
@@ -285,8 +285,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Loans up to $200,000 for small and medium businesses in hospitality, retail, and tourism",
-      "fr": "Prêts jusqu'à 200&nbsp;000&nbsp;dollars pour les petites et moyennes entreprises des secteurs de l'hôtellerie, de la vente au détail et du tourisme"
+      "en": "Loans for small and medium businesses in hospitality, retail, and tourism",
+      "fr": "Prêts pour les petites et moyennes entreprises des secteurs de l'hôtellerie, de la vente au détail et du tourisme"
     },
     "references": [
       {
@@ -1032,7 +1032,7 @@
     "party": "Liberal",
     "title": {
       "en": "Annual 1% tax on the value of non-resident, non-Canadian owned residential real estate that is vacant or underused",
-      "fr": "Taxe annuelle de 1&nbsp;% sur la valeur des biens immobiliers résidentiels appartenant à des non-résidents et à des non-Canadiens, qui sont vacants ou sous-utilisés."
+      "fr": "Taxe annuelle de 1&nbsp;% sur la valeur des biens immobiliers résidentiels appartenant à des non-résidents et à des non-Canadiens, qui sont vacants ou sous-utilisés"
     },
     "references": [
       {
@@ -1384,7 +1384,7 @@
     "party": "Liberal",
     "title": {
       "en": "Interest-free loans up to $40,000 for deep retrofits of homes",
-      "fr": "Prêts sans intérêt jusqu'à 40&nbsp;000&nbsp;dollars pour des améliorations profondes des logements."
+      "fr": "Prêts sans intérêt jusqu'à 40&nbsp;000&nbsp;dollars pour des améliorations profondes des logements"
     },
     "references": [
       {
@@ -1608,8 +1608,8 @@
     "topic": "Civil Rights",
     "party": "Conservative",
     "title": {
-      "en": "Neither intervene in nor challenge Quebec's religious symbols ban for government employees",
-      "fr": "Ne pas intervenir ni contester l'interdiction des symboles religieux pour les employés du gouvernement du Québec"
+      "en": "Apply Quebec's religious symbols ban for government employees to federally-regulated workplaces in Quebec",
+      "fr": "Appliquer l'interdiction des symboles religieux du Québec pour les employés du gouvernement aux lieux de travail sous réglementation fédérale au Québec"
     },
     "references": [
       {
@@ -1617,6 +1617,12 @@
         "title": "Canada's Recovery Plan (PDF)",
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2021-08-26",
+        "title": "Tweet",
+        "publisher": "@mikelecouteur (Global)",
+        "url": "https://twitter.com/mikelecouteur/status/1430926853473284109"
       }
     ]
   },
@@ -1926,7 +1932,7 @@
     "party": "NDP",
     "title": {
       "en": "Cap merchant credit card fees at 1%",
-      "fr": "Plafonner les frais de carte de crédit des commerçants à 1&nbsp;%."
+      "fr": "Plafonner les frais de carte de crédit des commerçants à 1&nbsp;%"
     },
     "references": [
       {
@@ -2182,7 +2188,7 @@
     "party": "NDP",
     "title": {
       "en": "Ensure all provinces make medical and surgical abortion available in all parts of the country",
-      "fr": "Veiller à ce que toutes les provinces rendent l'avortement médical et chirurgical disponible dans toutes les régions du pays."
+      "fr": "Veiller à ce que toutes les provinces rendent l'avortement médical et chirurgical disponible dans toutes les régions du pays"
     },
     "references": [
       {
@@ -2934,7 +2940,7 @@
     "party": "NDP",
     "title": {
       "en": "Create National Council for Reconciliation to provide oversight and accountability",
-      "fr": "Création d'un Conseil national de la réconciliation pour assurer la surveillance et la responsabilité."
+      "fr": "Création d'un Conseil national de la réconciliation pour assurer la surveillance et la responsabilité"
     },
     "references": [
       {
@@ -3062,7 +3068,7 @@
     "party": "NDP",
     "title": {
       "en": "Stop issuing federal student loans, double Canada Student Grants",
-      "fr": "Cesser d'émettre des prêts étudiants fédéraux, doubler les subventions canadiennes aux étudiants."
+      "fr": "Cesser d'émettre des prêts étudiants fédéraux, doubler les subventions canadiennes aux étudiants"
     },
     "references": [
       {
@@ -3446,5 +3452,79 @@
         "url": "https://www.ctvnews.ca/politics/federal-election-2021/singh-says-ndp-will-crack-down-on-renovictions-provide-up-to-5k-in-rent-help-1.5556192?utm_source=pocket_mylist"
       }
     ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Cancel Trans-Mountain Pipeline",
+      "fr": "Annuler le pipeline Trans-Mountain"
+    },
+    "references": [
+      {
+        "date": "2021-08-26",
+        "title": "Tweet",
+        "publisher": "@aballinga (The Star)",
+        "url": "https://twitter.com/aballinga/status/1430906071401394176?s=20"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Continue progress on Trans-Montain Pipeline",
+      "fr": "Poursuivre la construction du pipeline Trans-Montain"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Continue building Trans-Montain Pipeline",
+      "fr": "Poursuivre la construction du pipeline Trans-Montain"
+    },
+    "references": []
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase Guaranteed Income Supplement",
+      "fr": "Augmenter le Supplément de revenu garanti"
+    },
+    "references": [
+      {
+        "date": "2021-08-26",
+        "title": "Liberals will hike supplementary pensions for low-income seniors, Trudeau says",
+        "publisher": "CTV News",
+        "url": "https://www.ctvnews.ca/politics/federal-election-2021/liberals-will-hike-supplementary-pensions-for-low-income-seniors-trudeau-says-1.5562146"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase corporate taxes on banks and insurance companies",
+      "fr": "Augmenter les impôts sur les sociétés des banques et des compagnies d'assurance"
+    },
+    "references": [
+      {
+        "date": "2021-08-25",
+        "title": "Trudeau promises to hike taxes on Canada's big banks, insurance companies",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-hike-taxes-banks-1.6152710"
+      }
+    ],
+    "handle": "2021/lpc/corporate_tax_rate"
   }
 ]

@@ -209,6 +209,9 @@ module Y2021 = {
 
     @module external homebuyers_bill_of_rights_en: string = "../policies/2021/lpc/homebuyers_bill_of_rights.en.md"
     @module external homebuyers_bill_of_rights_fr: string = "../policies/2021/lpc/homebuyers_bill_of_rights.fr.md"
+
+    @module external corporate_tax_rate_en: string = "../policies/2021/lpc/corporate_tax_rate.en.md"
+    @module external corporate_tax_rate_fr: string = "../policies/2021/lpc/corporate_tax_rate.fr.md"
   }
   module Conservatives = {
     @module external stock_option_exemption_en: string = "../policies/2021/cpc/stock_option_exemption.en.md"
@@ -412,6 +415,10 @@ let pathToContent = x =>
   | "2021/lpc/homebuyers_bill_of_rights" => {
     en: Y2021.Liberals.homebuyers_bill_of_rights_en,
     fr: Y2021.Liberals.homebuyers_bill_of_rights_fr,
+  }
+  | "2021/lpc/corporate_tax_rate" => {
+    en: Y2021.Liberals.corporate_tax_rate_en,
+    fr: Y2021.Liberals.corporate_tax_rate_fr
   }
 
   // CPC
