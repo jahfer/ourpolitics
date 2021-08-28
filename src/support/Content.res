@@ -202,6 +202,9 @@ module Y2021 = {
 
     @module external student_loans_en: string = "../policies/2021/ndp/student_loans.en.md"
     @module external student_loans_fr: string = "../policies/2021/ndp/student_loans.fr.md"
+
+    @module external recycling_en: string = "../policies/2021/ndp/recycling.en.md"
+    @module external recycling_fr: string = "../policies/2021/ndp/recycling.fr.md"
   }
   module Liberals = {
     @module external digital_services_tax_en: string = "../policies/2021/lpc/digital_services_tax.en.md"
@@ -411,6 +414,10 @@ let pathToContent = x =>
   | "2021/ndp/student_loans" => {
     en: Y2021.NDP.student_loans_en,
     fr: Y2021.NDP.student_loans_fr,
+  }
+  | "2021/ndp/recycling" => {
+    en: Y2021.NDP.recycling_en,
+    fr: Y2021.NDP.recycling_fr,
   }
 
   // LPC

@@ -2444,8 +2444,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Improve plastic and e-waste recycling",
-      "fr": "Améliorer le recyclage des plastiques et des déchets électroniques"
+      "en": "Improve plastic recycling",
+      "fr": "Améliorer le recyclage des plastiques"
     },
     "references": [
       {
@@ -2454,7 +2454,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "handle": "2021/ndp/recycling"
   },
   {
     "topic": "Environment",
