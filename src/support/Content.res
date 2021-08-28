@@ -199,6 +199,9 @@ module Y2021 = {
 
     @module external capital_gains_en: string = "../policies/2021/ndp/capital_gains.en.md"
     @module external capital_gains_fr: string = "../policies/2021/ndp/capital_gains.fr.md"
+
+    @module external student_loans_en: string = "../policies/2021/ndp/student_loans.en.md"
+    @module external student_loans_fr: string = "../policies/2021/ndp/student_loans.fr.md"
   }
   module Liberals = {
     @module external digital_services_tax_en: string = "../policies/2021/lpc/digital_services_tax.en.md"
@@ -402,6 +405,10 @@ let pathToContent = x =>
       en: Y2021.NDP.capital_gains_en,
       fr: Y2021.NDP.capital_gains_fr,
     }
+  | "2021/ndp/student_loans" => {
+    en: Y2021.NDP.student_loans_en,
+    fr: Y2021.NDP.student_loans_fr,
+  }
 
   // LPC
   | "2021/lpc/digital_services_tax" => {

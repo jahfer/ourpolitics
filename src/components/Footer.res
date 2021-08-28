@@ -11,7 +11,7 @@ let make = () => {
       <ul className="list-plain text-large archive-list">
         {[2021, 2019, 2015]
         |> Array.map(year =>
-          <li>
+          <li key=string_of_int(year)>
             <a
               href=j`/policies/$year`
               className="styled"

@@ -1,0 +1,3 @@
+Le NPD a promis de **« s'éloigner »** de l'émission de prêts étudiants fédéraux. À la place, il **doublera le montant émis** par le biais des subventions canadiennes aux étudiants qui n'ont pas besoin d'être remboursées. Il n'est pas clair quand ils prévoient de cesser d'émettre des prêts dans le cadre du programme, mais le choix des mots suggère que ce ne sera pas immédiat.
+
+À court terme, le parti prévoit **supprimer l'intérêt sur les prêts étudiants fédéraux** et **annuler jusqu'à 20 000 $** de dette étudiante pour les diplômés.
