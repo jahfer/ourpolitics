@@ -65,8 +65,8 @@ module Strings = {
     fr: `Affaires étrangères`,
   }
   let economy = {
-    en: "Economy",
-    fr: `Économie`
+    en: "Economy & Business",
+    fr: `Économie et entreprises`
   }
   let taxes = {
     en: "Taxes",

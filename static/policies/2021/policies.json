@@ -493,8 +493,8 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Tax-free Employee Savings Account paid into by employers of “gig economy” employees",
-      "fr": "Compte d'épargne salariale exonéré d'impôt alimenté par les employeurs des salariés de la « gig economy »"
+      "en": "Tax-free Employee Savings Account paid into by employers of gig economy workers",
+      "fr": "Compte d'épargne salariale exonéré d'impôt alimenté par les employeurs des salariés de la gig economy"
     },
     "references": [
       {
@@ -3526,5 +3526,75 @@
       }
     ],
     "handle": "2021/lpc/corporate_tax_rate"
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Conservative",
+    "title": {
+      "en": "Implement open banking for secure transfer of financial information across banks and service providers",
+      "fr": "Mettre en œuvre l'open banking pour un transfert sécurisé des informations financières entre les banques et les prestataires de services"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Infrastructure",
+    "party": "Liberal",
+    "title": {
+      "en": "Implement open banking for secure transfer of financial information across banks and service providers",
+      "fr": "Mettre en œuvre l'open banking pour un transfert sécurisé des informations financières entre les banques et les prestataires de services"
+    },
+    "references": [
+      {
+        "date": "2021-08-09",
+        "title": "Canada calls screen scraping ‘unsecure,’ sets Open Banking target for 2023",
+        "publisher": "finledger",
+        "url": "https://finledger.com/2021/08/09/canada-sets-open-banking-target-for-2023/"
+      },
+      {
+        "date": "2021-08-04",
+        "title": "Government welcomes final report from Advisory Committee on Open Banking",
+        "publisher": "Government of Canada",
+        "url": "https://www.canada.ca/en/department-finance/news/2021/08/government-welcomes-final-report-from-advisory-committee-on-open-banking.html"
+      }
+    ]
+  },
+  {
+    "topic": "Civil Rights",
+    "party": "Conservative",
+    "title": {
+      "en": "Increase transparency for investment management fees",
+      "fr": "Accroître la transparence des frais de gestion des investissements"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Conservative",
+    "title": {
+      "en": "Criminal penalties and increased fines for price-fixing",
+      "fr": "Des sanctions pénales et des amendes accrues pour la fixation des prix"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
   }
 ]
