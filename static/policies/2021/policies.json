@@ -799,6 +799,23 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
+      "en": "Improve plastic recycling",
+      "fr": "Améliorer le recyclage des plastiques"
+    },
+    "references": [
+      {
+        "date": "2021-08-28",
+        "title": "Liberals move forward to end plastic pollution and reduce waste",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/liberals-move-forward-to-end-plastic-pollution-and-reduce-waste/"
+      }
+    ],
+    "handle": "2021/lpc/recycling"
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
       "en": "Increase carbon tax to $170/ton by 2030",
       "fr": "Augmenter la taxe sur le carbone à 170 $/tonne d'ici 2030"
     },
@@ -1996,7 +2013,7 @@
     "party": "NDP",
     "title": {
       "en": "20% tax on real estate purchased by foreign buyers",
-      "fr": "Taxe de 20% sur les biens immobiliers achetés par des acheteurs étrangers"
+      "fr": "Taxe de 20 % sur les biens immobiliers achetés par des acheteurs étrangers"
     },
     "references": [
       {
@@ -2427,8 +2444,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Eliminate fossil fuel subsidies",
-      "fr": "Éliminer les subventions aux combustibles fossiles"
+      "en": "Improve plastic and e-waste recycling",
+      "fr": "Améliorer le recyclage des plastiques et des déchets électroniques"
     },
     "references": [
       {
@@ -2443,8 +2460,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Retrofit all buildings in Canada by 2050",
-      "fr": "Rénover tous les bâtiments au Canada d'ici 2050"
+      "en": "Eliminate fossil fuel subsidies",
+      "fr": "Éliminer les subventions aux combustibles fossiles"
     },
     "references": [
       {
@@ -2541,22 +2558,6 @@
     "title": {
       "en": "Environmental Bill of Rights",
       "fr": "Charte des droits environnementaux"
-    },
-    "references": [
-      {
-        "date": "2021-08-12",
-        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
-        "publisher": "New Democratic Party of Canada",
-        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "NDP",
-    "title": {
-      "en": "More responsible plastic and e-waste recycling",
-      "fr": "Un recyclage plus responsable des plastiques et des déchets électroniques"
     },
     "references": [
       {
@@ -3372,7 +3373,7 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Right to Repair",
+      "en": "Right to repair",
       "fr": "Droit à la réparation"
     },
     "references": [
@@ -3381,6 +3382,22 @@
         "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Civil Rights",
+    "party": "Liberal",
+    "title": {
+      "en": "Right to repair household appliances",
+      "fr": "Droit de réparer les appareils ménagers"
+    },
+    "references": [
+      {
+        "date": "2021-08-28",
+        "title": "Liberals move forward to end plastic pollution and reduce waste",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/liberals-move-forward-to-end-plastic-pollution-and-reduce-waste/"
       }
     ]
   },
@@ -3563,6 +3580,22 @@
         "title": "Canada's Recovery Plan (PDF)",
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Retrofit all buildings in Canada by 2050",
+      "fr": "Rénover tous les bâtiments au Canada d'ici 2050"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
     ]
   }

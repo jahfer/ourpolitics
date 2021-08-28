@@ -215,6 +215,9 @@ module Y2021 = {
 
     @module external corporate_tax_rate_en: string = "../policies/2021/lpc/corporate_tax_rate.en.md"
     @module external corporate_tax_rate_fr: string = "../policies/2021/lpc/corporate_tax_rate.fr.md"
+
+    @module external recycling_en: string = "../policies/2021/lpc/recycling.en.md"
+    @module external recycling_fr: string = "../policies/2021/lpc/recycling.fr.md"
   }
   module Conservatives = {
     @module external stock_option_exemption_en: string = "../policies/2021/cpc/stock_option_exemption.en.md"
@@ -392,19 +395,19 @@ let pathToContent = x =>
   | "2021/ndp/wealth_tax" => {
       en: Y2021.NDP.wealth_tax_en,
       fr: Y2021.NDP.wealth_tax_fr,
-    }
+  }
   | "2021/ndp/corporate_tax_rate" => {
       en: Y2021.NDP.corporate_tax_rate_en,
       fr: Y2021.NDP.corporate_tax_rate_fr,
-    }
+  }
   | "2021/ndp/income_tax_rate" => {
       en: Y2021.NDP.income_tax_rate_en,
       fr: Y2021.NDP.income_tax_rate_fr,
-    }
+  }
   | "2021/ndp/capital_gains" => {
       en: Y2021.NDP.capital_gains_en,
       fr: Y2021.NDP.capital_gains_fr,
-    }
+  }
   | "2021/ndp/student_loans" => {
     en: Y2021.NDP.student_loans_en,
     fr: Y2021.NDP.student_loans_fr,
@@ -426,6 +429,10 @@ let pathToContent = x =>
   | "2021/lpc/corporate_tax_rate" => {
     en: Y2021.Liberals.corporate_tax_rate_en,
     fr: Y2021.Liberals.corporate_tax_rate_fr
+  }
+  | "2021/lpc/recycling" => {
+    en: Y2021.Liberals.recycling_en,
+    fr: Y2021.Liberals.recycling_fr,
   }
 
   // CPC
