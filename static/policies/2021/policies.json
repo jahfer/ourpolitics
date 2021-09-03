@@ -114,6 +114,12 @@
     },
     "references": [
       {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Home Buyers’ Bill of Rights",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-your-rights/"
+      },
+      {
         "date": "2021-08-24",
         "title": "Trudeau promises new incentives worth billions and a tax on 'flipping' to help Canadians buy a home",
         "publisher": "CBC",
@@ -413,22 +419,6 @@
     "topic": "Government",
     "party": "Conservative",
     "title": {
-      "en": "Memorial to the Victims of Communism",
-      "fr": "Mémorial aux victimes du communisme"
-    },
-    "references": [
-      {
-        "date": "2021-08-16",
-        "title": "Canada's Recovery Plan (PDF)",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Government",
-    "party": "Conservative",
-    "title": {
       "en": "Update anti-corruption laws",
       "fr": "Mettre à jour les lois anti-corruption"
     },
@@ -493,8 +483,8 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Tax-free Employee Savings Account paid into by employers of gig economy workers",
-      "fr": "Compte d'épargne salariale exonéré d'impôt alimenté par les employeurs des salariés de la gig economy"
+      "en": "Require employers of gig economy workers to pay into Tax-free Employee Savings Account",
+      "fr": "Obliger les employeurs des travailleurs de la gig economy à cotiser à un compte d'épargne salariale exonéré d'impôt"
     },
     "references": [
       {
@@ -758,15 +748,15 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Reduce emissions by 36% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 36&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "en": "Reduce emissions by 40–45% below 2005 levels by 2030",
+      "fr": "Réduire les émissions de 40&nbsp;–&nbsp;45&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
-        "date": "2021-04-19",
-        "title": "Budget 2021 (PDF)",
-        "publisher": "Government of Canada",
-        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Delivering on Our Climate Commitments",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/delivering-on-our-climate-commitments/"
       }
     ]
   },
@@ -848,8 +838,8 @@
     "topic": "Social Assistance",
     "party": "Liberal",
     "title": {
-      "en": "Make EI more accessible and simpler",
-      "fr": "Rendre l'assurance-emploi plus accessible et plus simple"
+      "en": "Make EI simpler, expand support to seasonal and gig workers",
+      "fr": "Simplifier l'assurance-emploi et étendre le soutien aux travailleurs saisonniers et aux travailleurs indépendants."
     },
     "references": [
       {
@@ -1073,22 +1063,6 @@
         "title": "Budget 2021",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p4-en.html#253"
-      }
-    ]
-  },
-  {
-    "topic": "Government",
-    "party": "Liberal",
-    "title": {
-      "en": "Memorial to the Victims of Communism",
-      "fr": "Mémorial aux victimes du communisme"
-    },
-    "references": [
-      {
-        "date": "2021-04-19",
-        "title": "Budget 2021 (PDF)",
-        "publisher": "Government of Canada",
-        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
     ]
   },
@@ -1377,6 +1351,12 @@
         "title": "Budget 2021",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#114"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Sure Canada is a World-Leader in Clean Technology",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-sure-canada-is-a-world-leader-in-clean-technology/"
       }
     ]
   },
@@ -1497,8 +1477,8 @@
     "topic": "Education",
     "party": "Liberal",
     "title": {
-      "en": "Pause interest on Canada Student Loans and Canada Apprentice Loans until March 31, 2023",
-      "fr": "Suspendre les intérêts sur les prêts canadiens aux étudiants et les prêts canadiens aux apprentis jusqu'au 31 mars 2023"
+      "en": "Remove interest on Canada Student Loans and Canada Apprentice Loans",
+      "fr": "Suppression des intérêts sur les prêts canadiens aux étudiants et les prêts canadiens aux apprentis"
     },
     "references": [
       {
@@ -1506,7 +1486,13 @@
         "title": "Budget 2021 (PDF)",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
-      }
+      },
+        {
+          "date": "2021-09-01",
+          "title": "Forward. For Everyone. — Permanently Eliminating Interest on Canada Student Loans",
+          "publisher": "Liberal Party of Canada",
+          "url": "https://liberal.ca/our-platform/permanently-eliminating-interest-on-canada-student-loans/"
+        }
     ]
   },
   {
@@ -1574,22 +1560,6 @@
     ]
   },
   {
-    "topic": "Arts and Culture",
-    "party": "Liberal",
-    "title": {
-      "en": "Support CBC and Radio-Canada",
-      "fr": "Soutenez CBC et Radio-Canada"
-    },
-    "references": [
-      {
-        "date": "2021-04-19",
-        "title": "Budget 2021 (PDF)",
-        "publisher": "Government of Canada",
-        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
-      }
-    ]
-  },
-  {
     "topic": "Immigration",
     "party": "Liberal",
     "title": {
@@ -1609,8 +1579,8 @@
     "topic": "Immigration",
     "party": "Liberal",
     "title": {
-      "en": "Resettle 20,000 refugees from Afghanistan",
-      "fr": "Réinstaller 20&nbsp;000&nbsp;réfugiés d'Afghanistan"
+      "en": "Resettle 40,000 refugees from Afghanistan",
+      "fr": "Réinstaller 40&nbsp;000&nbsp;réfugiés d'Afghanistan"
     },
     "references": [
       {
@@ -2541,7 +2511,7 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "100% of all new car sales to be zero-emissions by 2035",
+      "en": "100% of new car sales to be zero-emissions by 2035",
       "fr": "100&nbsp;% de toutes les ventes de voitures neuves devront être exemptes d'émissions d'ici 2035"
     },
     "references": [
@@ -3597,6 +3567,860 @@
         "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Require passengers on interprovincial trains, commercial flights, and cruise ships to be vaccinated",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Mandatory Vaccination",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/mandatory-vaccination/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "COVID-19 Proof of Vaccination Fund to cover the cost of implementing “vaccine passports” for provinces and territories",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Proof of Vaccination",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/proof-of-vaccination/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Pass legislation to make it clear businesses and organizations will be allowed to require proof of vaccination from employees and customers",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Proof of Vaccination",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/proof-of-vaccination/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Study the long-term health impacts of COVID-19",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A COVID-19 Research Fund",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-covid-19-research-fund/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Provide funding for the hiring of 7,500 new family doctors, nurses, and nurse practitioners",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Sure Every Canadian Has Access to a Family Doctor or Primary Health Team",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-sure-every-canadian-has-access-to-a-family-doctor-or-primary-health-team/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Support funding of digital infrastrucuture for virtual care",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Expanding Virtual Health Care Services",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/expanding-virtual-health-care-services/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase financial support and debt forgiveness for health and social service providers",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Increasing Rural and Underserved Communities’ Access to Health Care",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/increasing-rural-and-underserved-communities-access-to-health-care/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Enforce penalties on provinces who provide private options for publicly insured services",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Standing up for Universal Public Health Care",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/standing-up-for-universal-public-health-care/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Ensure all provinces make available public sexual and reproductive health services",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Your Sexual and Reproductive Health and Rights",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-your-sexual-and-reproductive-health-and-rights/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Remove charity status for anti-abortion organizations",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Your Sexual and Reproductive Health and Rights",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-your-sexual-and-reproductive-health-and-rights/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Canada Mental Health Transfer",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Comprehensive Plan for Mental Health Care Across Canada",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-comprehensive-plan-for-mental-health-care-across-canada/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Make Disability Tax Credit, CPP-Disability available to those with mental health challenges",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Comprehensive Plan for Mental Health Care Across Canada",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-comprehensive-plan-for-mental-health-care-across-canada/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Reduce penalties for lower-risk and first-time offenders",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Addressing Problematic Substance Use",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/addressing-problematic-substance-use/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase funding for long term care worker wages, safer conditions for seniors",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Safer Conditions in Homes",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/safer-conditions-in-homes/"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Better Working Conditions for Personal Support Workers",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/better-working-conditions-for-personal-support-workers/"
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase Eligible Educator School Supply tax credit",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Support for Teachers",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/support-for-teachers/"
+      }
+    ]
+  },
+  {
+    "topic": "Youth",
+    "party": "Liberal",
+    "title": {
+      "en": "National School Food Policy",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — School Nutrition and Healthy Eating",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/school-nutrition-and-healthy-eating/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Introduce new restrictions for marketing of food and beverages to children",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — School Nutrition and Healthy Eating",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/school-nutrition-and-healthy-eating/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Rent-to-own program",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A New Rent-to-Own Program",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-new-rent-to-own-program/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "More flexible First Time Home Buyer Incentive",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A More Flexible First Time Home Buyer Incentive",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-more-flexible-first-time-home-buyer-incentive/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Reduce mortgage insurance costs by 25%",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Reduce Your Monthly Mortgage Costs",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/reduce-your-monthly-mortgage-costs/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Convert empty office and retail space into housing, including federal and commercial property",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Convert Empty Office Space into Housing",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/convert-empty-office-space-into-housing/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": " Multigenerational Home Renovation tax credit",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone — Help Bring Different Generations Under One Roof",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/help-bring-different-generations-under-one-roof/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Anti-flipping tax for properties held for < 1 year",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Curb Speculation and House Flipping",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/curb-speculation-and-house-flipping/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Tax landlords who increase rent costs too much",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Keep Your Rent Fair",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/keep-your-rent-fair/"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "Create Canada Financial Crimes Agency",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protect the Stability and Security of the Housing Market",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protect-the-stability-and-security-of-the-housing-market/"
+      }
+    ]
+  },
+  {
+    "topic": "Child Care",
+    "party": "Liberal",
+    "title": {
+      "en": "Make Canada Caregiver Credit refundable and tax-free",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — More Support for Caregivers",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/more-support-for-caregivers/"
+      }
+    ]
+  },
+  {
+    "topic": "Affordability",
+    "party": "Liberal",
+    "title": {
+      "en": "Allow parents to pause federal student loan bills until their youngest child is 5 years old",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Giving New Parents a Break on Student Loans",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/giving-new-parents-a-break-on-student-loans/"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "1-800 number to provide seniors with access to government services and benefits",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A 1-800 number to Help Seniors Access Government Support",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-1-800-number-to-help-seniors-access-government-support/"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Up to 26 weeks of unemployment assistance for self-employed Canadians",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — An EI System that Works for Everyone",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/an-ei-system-that-works-for-everyone/"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Require employers of gig economy workers to pay towards EI and CPP like other employers",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — An EI System that Works for Everyone",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/an-ei-system-that-works-for-everyone/"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Additional support for workers laid off after 5 years of employment at a business that closes",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Career Insurance Benefit",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/career-insurance-benefit/"
+      }
+    ]
+  },
+  {
+    "topic": "Affordability",
+    "party": "Liberal",
+    "title": {
+      "en": "Expand Home Expense deduction, continue for two more years",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Extending and Expanding the Home Expense Deduction",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/extending-and-expanding-the-home-expense-deduction/"
+      }
+    ]
+  },
+  {
+    "topic": "Civil Rights",
+    "party": "Liberal",
+    "title": {
+      "en": "Make replacement workers illegal when an employer locks out union workers in a federally-regulated industry",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Workplaces Fairer, For Everyone",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-workplaces-fairer-for-everyone/"
+      }
+    ]
+  },
+  {
+    "topic": "Civil Rights",
+    "party": "Liberal",
+    "title": {
+      "en": "Right to Disconnect outside of work hours",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Workplaces Fairer, For Everyone",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-workplaces-fairer-for-everyone/"
+      }
+    ]
+  },
+  {
+    "topic": "Economy",
+    "party": "Liberal",
+    "title": {
+      "en": "Improve Canada Small Business Financing Program",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making it Easier for Small Businesses to Invest and Grow",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-it-easier-for-small-businesses-to-invest-and-grow/"
+      }
+    ]
+  },
+  {
+    "topic": "Science",
+    "party": "Liberal",
+    "title": {
+      "en": "Create the Canada Advanced Research Projects Agency",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A New Advanced Research Agency",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-new-advanced-research-agency/"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "Liberal",
+    "title": {
+      "en": "Temporarily match ticket sales for performing arts, live theatres, and other cultural venues",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Helping Artists and Cultural Industries Recover",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/helping-artists-and-cultural-industries-recover/"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "Liberal",
+    "title": {
+      "en": "Require foreign companies (e.g. Netflix) to contribute to the creation and promotion of Canadian arts",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Supporting Canadian Music, Film and Television",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/supporting-canadian-music-film-and-television/"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "Liberal",
+    "title": {
+      "en": "Require social media platforms to share revenue from news distribution with Canadian news outlets",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Levelling the Playing Field with Digital Giants",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/levelling-the-playing-field-with-digital-giants/"
+      }
+    ]
+  },
+  {
+    "topic": "Arts and Culture",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase funding for CBC/Radio-Canada, eliminate advertising on news and public affairs shows",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Modernizing CBC/Radio-Canada",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/modernizing-cbc-radio-canada/"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Liberal",
+    "title": {
+      "en": "Attract more French-speaking immigrants to communities across the country",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Securing the future of the French language in Canada",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/securing-the-future-of-the-french-language-in-canada/"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Liberal",
+    "title": {
+      "en": "Remove citizenship application fees for permanant residents",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Eliminating Citizenship Application Fees for Permanent Residents",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/eliminating-citizenship-application-fees-for-permanent-residents/"
+      }
+    ]
+  },
+  {
+    "topic": "Immigration",
+    "party": "Liberal",
+    "title": {
+      "en": "Issue visas to spouses and children abroad who are waiting for permanant residency",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Strengthening Family Reunification and Reducing Processing Times",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/strengthening-family-reunification-and-reducing-processing-times/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Ban conversion therapy",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Ban Conversion Therapy",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/ban-conversion-therapy/"
+      }
+    ]
+  },
+  {
+    "topic": "Social Assistance",
+    "party": "Liberal",
+    "title": {
+      "en": "Canada Disability Benefit",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Introduce a Disability Benefit",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/introduce-a-disability-benefit/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Require oil and gas companies to reduce methane emissions by at least 75% below 2012 levels by 2030",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Cutting Methane Emissions",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/cutting-methane-emissions/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Ban coal exports by 2030",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Eliminating Thermal Coal Exports",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/eliminating-thermal-coal-exports/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Eliminate fossil fuel subsidies by 2023",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Eliminating Subsidies and Public Financing for Fossil Fuel",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/eliminating-subsidies-and-public-financing-for-fossil-fuel/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Net zero electricity by 2035",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Our Clean Power Advantage",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/our-clean-power-advantage/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "100% of new light-duty cars and passenger trucks be zero-emissions by 2035, 50% by 2030",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Zero Emissions Vehicles",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/zero-emissions-vehicles/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Ensure every new building built in Canada is net-zero by 2025",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Retrofit Economy that Cuts Pollution and Creates Jobs",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-retrofit-economy-that-cuts-pollution-and-creates-jobs/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Green Bonds",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Sustainable Finance",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/sustainable-finance/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "National flood insurance program",
+      "fr": ""
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Our Homes and Communities from the Impacts of Climate Change",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-our-homes-and-communities-from-the-impacts-of-climate-change/"
       }
     ]
   }
