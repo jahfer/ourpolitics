@@ -20,8 +20,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Allow tech companies to issue “flow-through shares”",
-      "fr": "Permettre aux entreprises technologiques d'émettre des « actions accréditives »"
+      "en": "Allow tech companies to issue flow-through shares",
+      "fr": "Permettre aux entreprises technologiques d'émettre des actions accréditives"
     },
     "references": [
       {
@@ -102,6 +102,12 @@
         "title": "Tweet",
         "publisher": "@Justin_Ling",
         "url": "https://twitter.com/Justin_Ling/status/1430164008112431113"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Help Cities Accelerate Housing Construction",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/1-4-million-new-homes/"
       }
     ]
   },
@@ -435,6 +441,22 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
+      "en": "Increase sickness benefits from 15 weeks to 52 weeks if suffering a serious illness",
+      "fr": "Augmenter les prestations de maladie de 15 à 52 semaines pour les personnes souffrant d'une maladie grave"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
       "en": "Mental Health Action Plan",
       "fr": "Plan d'action pour la santé mentale"
     },
@@ -485,22 +507,6 @@
     "title": {
       "en": "Require employers of gig economy workers to pay into Tax-free Employee Savings Account",
       "fr": "Obliger les employeurs des travailleurs de la gig economy à cotiser à un compte d'épargne salariale exonéré d'impôt"
-    },
-    "references": [
-      {
-        "date": "2021-08-16",
-        "title": "Canada's Recovery Plan (PDF)",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Conservative",
-    "title": {
-      "en": "Increase sickness benefits from 15 weeks to 52 weeks for those suffering from a serious illness",
-      "fr": "Augmenter les prestations de maladie de 15 à 52 semaines pour les personnes souffrant d'une maladie grave"
     },
     "references": [
       {
@@ -611,6 +617,38 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
+      "en": "Reduce emissions by 30% below 2005 levels by 2030",
+      "fr": "Réduire les émissions de 30&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-08-27",
+        "title": "https://www.theglobeandmail.com/politics/article-conservative-leader-erin-otoole-rejects-canadas-new-emissions-target/",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-conservative-leader-erin-otoole-rejects-canadas-new-emissions-target/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
+      "en": "Protect 17% of Canada's lands and waters",
+      "fr": "Protéger 17&nbsp;% des terres et des eaux du Canada"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Conservative",
+    "title": {
       "en": "Personal Low Carbon Savings Accounts",
       "fr": "Comptes personnels d'épargne à faible émission de carbone"
     },
@@ -646,38 +684,6 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "Protect 17% of Canada's lands and water",
-      "fr": "Protéger 17&nbsp;% des terres et des eaux du Canada"
-    },
-    "references": [
-      {
-        "date": "2021-08-16",
-        "title": "Canada's Recovery Plan (PDF)",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Conservative",
-    "title": {
-      "en": "Ban the export of plastic waste",
-      "fr": "Interdire l'exportation de déchets plastiques"
-    },
-    "references": [
-      {
-        "date": "2021-08-16",
-        "title": "Canada's Recovery Plan (PDF)",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Conservative",
-    "title": {
       "en": "Cap the carbon tax increase to a maximum of $50/ton for consumers",
       "fr": "Plafonner l'augmentation de la taxe sur le carbone à un maximum de 50&nbsp;$/tonne pour les consommateurs"
     },
@@ -687,22 +693,6 @@
         "title": "Delivering on Truth and Reconciliation Commission Calls to Action",
         "publisher": "Government of Canada",
         "url": "https://www.rcaanc-cirnac.gc.ca/eng/1524494530110/1557511412801"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Conservative",
-    "title": {
-      "en": "30% of light duty vehicles sold to be zero emissions by 2030",
-      "fr": "30&nbsp;% des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
-    },
-    "references": [
-      {
-        "date": "2021-08-16",
-        "title": "Canada's Recovery Plan (PDF)",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
     ]
   },
@@ -764,8 +754,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Protect 25% of Canada's lands, oceans, marine and costal areas by 2025",
-      "fr": "Protéger 25&nbsp;% des terres, des océans et des zones marines et côtières du Canada d'ici 2025"
+      "en": "Protect 25% of Canada's lands and waters by 2025",
+      "fr": "Protéger 25&nbsp;% des terres et des eaux du Canada d'ici 2025"
     },
     "references": [
       {
@@ -773,6 +763,12 @@
         "title": "Budget 2021",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#127"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — More National Parks and Marine Conservation Areas",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/more-national-parks-and-marine-conservation-areas/"
       }
     ]
   },
@@ -804,6 +800,70 @@
   },
   {
     "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Reduce emissions by 50% below 2005 levels by 2030",
+      "fr": "Réduire les émissions de 50&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Eliminate fossil fuel subsidies by 2023",
+      "fr": "Éliminer les subventions aux combustibles fossiles d'ici 2023"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Eliminating Subsidies and Public Financing for Fossil Fuel",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/eliminating-subsidies-and-public-financing-for-fossil-fuel/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "100% of new light-duty cars and passenger trucks be zero-emissions by 2035",
+      "fr": "100&nbsp;% des nouvelles voitures légères et des nouveaux camions de passagers ne produiront pas d'émissions d'ici 2035"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Zero Emissions Vehicles",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/zero-emissions-vehicles/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Net zero electricity by 2035",
+      "fr": "Électricité nette zéro d'ici 2035"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Our Clean Power Advantage",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/our-clean-power-advantage/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
     "party": "Liberal",
     "title": {
       "en": "Increase carbon tax to $170/ton by 2030",
@@ -815,6 +875,22 @@
         "title": "Ottawa to hike federal carbon tax to $170 a tonne by 2030",
         "publisher": "CBC",
         "url": "https://www.cbc.ca/news/politics/carbon-tax-hike-new-climate-plan-1.5837709"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Ensure every new building built in Canada is net-zero by 2025",
+      "fr": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Retrofit Economy that Cuts Pollution and Creates Jobs",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-retrofit-economy-that-cuts-pollution-and-creates-jobs/"
       }
     ]
   },
@@ -1086,8 +1162,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Universal pharmacare",
-      "fr": "Assurance-médicaments universelle"
+      "en": "Increase sickness benefits from 15 weeks to 26 weeks",
+      "fr": "Augmenter les prestations de maladie de 15 à 26 semaines"
     },
     "references": [
       {
@@ -1102,8 +1178,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Increase sickness benefits from 15 weeks to 26 weeks",
-      "fr": "Augmenter les prestations de maladie de 15 à 26 semaines"
+      "en": "Universal pharmacare",
+      "fr": "Assurance-médicaments universelle"
     },
     "references": [
       {
@@ -1134,8 +1210,8 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "Investigation of sexual misconduct in the military to be done by those outside the chain of command",
-      "fr": "Les enquêtes sur les inconduites sexuelles dans l'armée doivent être menées par des personnes extérieures à la chaîne de commandement"
+      "en": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "fr": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
     },
     "references": [
       {
@@ -1198,7 +1274,7 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "PHAC to develop national mental health service standards",
+      "en": "Develop and fund national mental health service standards across the country",
       "fr": "L'ASPC va élaborer des normes nationales de services de santé mentale"
     },
     "references": [
@@ -1207,6 +1283,12 @@
         "title": "Budget 2021 (PDF)",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Comprehensive Plan for Mental Health Care Across Canada",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-comprehensive-plan-for-mental-health-care-across-canada/"
       }
     ]
   },
@@ -1214,15 +1296,15 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Support CRTC creation of three-digit suicide prevention hotline",
-      "fr": "Soutenir la création par le CRTC d'une ligne téléphonique à trois chiffres pour la prévention du suicide"
+      "en": "Remove charity status for anti-abortion organizations",
+      "fr": "Retirer le statut d'organisme de bienfaisance aux organisations anti-avortement"
     },
     "references": [
       {
-        "date": "2021-04-19",
-        "title": "Budget 2021 (PDF)",
-        "publisher": "Government of Canada",
-        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Your Sexual and Reproductive Health and Rights",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-your-sexual-and-reproductive-health-and-rights/"
       }
     ]
   },
@@ -1230,7 +1312,7 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Cover mental health costs of veterans while waiting for benefits",
+      "en": "Cover mental health costs of veterans waiting for benefits",
       "fr": "Couvrir les frais de santé mentale des anciens combattants en attendant les avantages"
     },
     "references": [
@@ -1246,7 +1328,7 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Boost the minimum wage for support workers in long-term care facilities to at least $25/hour",
+      "en": "Increase the minimum wage for support workers in long-term care facilities to at least $25/hour",
       "fr": "Augmenter le salaire minimum des travailleurs de soutien dans les établissements de soins de longue durée à au moins 25&nbsp;$/heure"
     },
     "references": [
@@ -1262,7 +1344,7 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Boost the home accessibility tax credit to $20,000",
+      "en": "Increase the home accessibility tax credit to $20,000",
       "fr": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20&nbsp;000&nbsp;$"
     },
     "references": [
@@ -1278,7 +1360,7 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Train up to up to 50,000 more workers for long-term care facilities",
+      "en": "Train up to 50,000 more workers for long-term care facilities",
       "fr": "Former jusqu'à 50&nbsp;000&nbsp;travailleurs supplémentaires pour les établissements de soins de longue durée"
     },
     "references": [
@@ -1326,7 +1408,7 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Reduce income tax rate by 50% for manufacturers of zero-emissions technologies",
+      "en": "Cut income taxes by 50% for manufacturers of zero-emissions technologies",
       "fr": "Réduire de 50&nbsp;% le taux d'imposition sur le revenu pour les fabricants de technologies à émissions nulles"
     },
     "references": [
@@ -1389,22 +1471,6 @@
         "title": "Budget 2021",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#117"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
-      "en": "Complete flood maps for high risk areas",
-      "fr": "Cartes d'inondation complètes pour les zones à haut risque"
-    },
-    "references": [
-      {
-        "date": "2021-04-19",
-        "title": "Budget 2021 (PDF)",
-        "publisher": "Government of Canada",
-        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
     ]
   },
@@ -1563,22 +1629,6 @@
     "topic": "Immigration",
     "party": "Liberal",
     "title": {
-      "en": "Replace Global Case Management System with an enterprise-wide digital platform",
-      "fr": "Remplacer le système mondial de gestion des cas par une plateforme numérique à l'échelle de l'entreprise"
-    },
-    "references": [
-      {
-        "date": "2021-04-19",
-        "title": "Budget 2021 (PDF)",
-        "publisher": "Government of Canada",
-        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
-      }
-    ]
-  },
-  {
-    "topic": "Immigration",
-    "party": "Liberal",
-    "title": {
       "en": "Resettle 40,000 refugees from Afghanistan",
       "fr": "Réinstaller 40&nbsp;000&nbsp;réfugiés d'Afghanistan"
     },
@@ -1617,7 +1667,7 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "Boost the annual growth rate of the Canada Health Transfer to at least 6%",
+      "en": "Increase the annual growth rate of the Canada Health Transfer to at least 6%",
       "fr": "Faire passer le taux de croissance annuel du Transfert canadien en matière de santé à au moins 6&nbsp;%"
     },
     "references": [
@@ -1665,7 +1715,7 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Double the residency deduction, boost the basic amount in the intermediate zone for Northern residents",
+      "en": "Double the residency deduction, increase the basic amount in the intermediate zone for Northern residents",
       "fr": "Doubler la déduction pour résidence, augmenter le montant de base dans la zone intermédiaire pour les résidents du Nord"
     },
     "references": [
@@ -1758,7 +1808,7 @@
     "topic": "Indigenous Relations",
     "party": "Conservative",
     "title": {
-      "en": "Boost funding for Indigenous mental health and drug treatment programs",
+      "en": "Increase funding for Indigenous mental health and drug treatment programs",
       "fr": "Accroître le financement des programmes indigènes de santé mentale et de traitement de la toxicomanie"
     },
     "references": [
@@ -2094,8 +2144,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Universal pharmacare",
-      "fr": "Assurance-médicaments universelle"
+      "en": "Increase sickness benefits from 15 weeks to 50 weeks",
+      "fr": "Faire passer les prestations de maladie de 15 à 50 semaines"
     },
     "references": [
       {
@@ -2110,8 +2160,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Increase sickness benefits from 15 weeks to 50 weeks",
-      "fr": "Faire passer les prestations de maladie de 15 à 50 semaines"
+      "en": "Universal pharmacare",
+      "fr": "Assurance-médicaments universelle"
     },
     "references": [
       {
@@ -2366,24 +2416,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Reduce emissions by 50% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 50&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
-    },
-    "references": [
-      {
-        "date": "2021-08-12",
-        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
-        "publisher": "New Democratic Party of Canada",
-        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "NDP",
-    "title": {
-      "en": "Protect 30% of Canada's lands, freshwater and oceans by 2030",
-      "fr": "Protéger 30&nbsp;% de nos terres, de l'eau douce et des océans d'ici 2030"
+      "en": "Protect 30% of Canada's lands and waters by 2030",
+      "fr": "Protéger 30&nbsp;% des terres et des eaux du Canada d'ici 2030"
     },
     "references": [
       {
@@ -2447,8 +2481,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Create Civilian Climate Corps",
-      "fr": "Créer un corps civil pour le climat"
+      "en": "100% of new car sales to be zero-emissions by 2035",
+      "fr": "100&nbsp;% de toutes les ventes de voitures neuves devront être exemptes d'émissions d'ici 2035"
     },
     "references": [
       {
@@ -2479,22 +2513,6 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Create a Climate Accountability Office to provide independent oversight of federal climate progress",
-      "fr": "Créer un Bureau de responsabilité climatique pour assurer une surveillance indépendante des progrès fédéraux en matière de climat"
-    },
-    "references": [
-      {
-        "date": "2021-08-12",
-        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
-        "publisher": "New Democratic Party of Canada",
-        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "NDP",
-    "title": {
       "en": "Ensure every new building built in Canada is net-zero by 2025",
       "fr": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
     },
@@ -2511,8 +2529,40 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "100% of new car sales to be zero-emissions by 2035",
-      "fr": "100&nbsp;% de toutes les ventes de voitures neuves devront être exemptes d'émissions d'ici 2035"
+      "en": "Ban the export of plastic waste",
+      "fr": "Interdire l'exportation de déchets plastiques"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Create Civilian Climate Corps",
+      "fr": "Créer un corps civil pour le climat"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "NDP",
+    "title": {
+      "en": "Create a Climate Accountability Office to provide independent oversight of federal climate progress",
+      "fr": "Créer un Bureau de responsabilité climatique pour assurer une surveillance indépendante des progrès fédéraux en matière de climat"
     },
     "references": [
       {
@@ -2705,22 +2755,6 @@
     "title": {
       "en": "Require employers to be transparent about pay",
       "fr": "Obliger les employeurs à faire preuve de transparence en matière de rémunération"
-    },
-    "references": [
-      {
-        "date": "2021-08-12",
-        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
-        "publisher": "New Democratic Party of Canada",
-        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "NDP",
-    "title": {
-      "en": "End the blood donation ban",
-      "fr": "Mettre fin à l'interdiction du don de sang"
     },
     "references": [
       {
@@ -3344,7 +3378,7 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Right to repair",
+      "en": "Right to Repair",
       "fr": "Droit à la réparation"
     },
     "references": [
@@ -3360,7 +3394,7 @@
     "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
-      "en": "Right to repair household appliances",
+      "en": "Right to Repair for household appliances",
       "fr": "Droit de réparer les appareils ménagers"
     },
     "references": [
@@ -3412,26 +3446,10 @@
   },
   {
     "topic": "Environment",
-    "party": "NDP",
-    "title": {
-      "en": "Cancel Trans-Mountain Pipeline",
-      "fr": "Annuler le pipeline Trans-Mountain"
-    },
-    "references": [
-      {
-        "date": "2021-08-26",
-        "title": "Tweet",
-        "publisher": "@aballinga (The Star)",
-        "url": "https://twitter.com/aballinga/status/1430906071401394176?s=20"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "Continue progress on Trans-Mountain Pipeline",
-      "fr": "Poursuivre la construction du pipeline Trans-Mountain"
+      "en": "30% of light duty vehicles sold to be zero emissions by 2030",
+      "fr": "30&nbsp;% des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
     },
     "references": [
       {
@@ -3444,12 +3462,19 @@
   },
   {
     "topic": "Environment",
-    "party": "Liberal",
+    "party": "Conservative",
     "title": {
-      "en": "Continue building Trans-Mountain Pipeline",
-      "fr": "Poursuivre la construction du pipeline Trans-Mountain"
+      "en": "Ban the export of plastic waste",
+      "fr": "Interdire l'exportation de déchets plastiques"
     },
-    "references": []
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
   },
   {
     "topic": "Social Assistance",
@@ -3574,8 +3599,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Require passengers on interprovincial trains, commercial flights, and cruise ships to be vaccinated",
-      "fr": ""
+      "en": "Ban unvaccinated passengers from interprovincial trains, commercial flights, and cruise ships",
+      "fr": "Interdire les passagers non vaccinés des trains interprovinciaux, des vols commerciaux et des navires de croisière"
     },
     "references": [
       {
@@ -3590,8 +3615,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "COVID-19 Proof of Vaccination Fund to cover the cost of implementing “vaccine passports” for provinces and territories",
-      "fr": ""
+      "en": "Cover the cost of implementing “vaccine passports” for provinces and territories",
+      "fr": "Couvrir le coût de la mise en œuvre des «&nbsp;passeports vaccinaux&nbsp;» pour les provinces et les territoires"
     },
     "references": [
       {
@@ -3606,8 +3631,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Pass legislation to make it clear businesses and organizations will be allowed to require proof of vaccination from employees and customers",
-      "fr": ""
+      "en": "Pass legislation to explicitly allow businesses to require proof of vaccination",
+      "fr": "Adopter une loi permettant explicitement aux entreprises d'exiger une preuve de vaccination"
     },
     "references": [
       {
@@ -3622,24 +3647,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Study the long-term health impacts of COVID-19",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — A COVID-19 Research Fund",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/a-covid-19-research-fund/"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
-      "en": "Provide funding for the hiring of 7,500 new family doctors, nurses, and nurse practitioners",
-      "fr": ""
+      "en": "Provide funding to hire 7,500 new family doctors, nurses, and nurse practitioners",
+      "fr": "Fournir un financement pour l'embauche de 7&nbsp;500 nouveaux médecins de famille, infirmiers et infirmières praticiennes"
     },
     "references": [
       {
@@ -3654,40 +3663,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Support funding of digital infrastrucuture for virtual care",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Expanding Virtual Health Care Services",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/expanding-virtual-health-care-services/"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
-      "en": "Increase financial support and debt forgiveness for health and social service providers",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Increasing Rural and Underserved Communities’ Access to Health Care",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/increasing-rural-and-underserved-communities-access-to-health-care/"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
       "en": "Enforce penalties on provinces who provide private options for publicly insured services",
-      "fr": ""
+      "fr": "Appliquer des pénalités aux provinces qui offrent des options privées pour les services assurés par le secteur public"
     },
     "references": [
       {
@@ -3702,56 +3679,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Ensure all provinces make available public sexual and reproductive health services",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Protecting Your Sexual and Reproductive Health and Rights",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/protecting-your-sexual-and-reproductive-health-and-rights/"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
-      "en": "Remove charity status for anti-abortion organizations",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Protecting Your Sexual and Reproductive Health and Rights",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/protecting-your-sexual-and-reproductive-health-and-rights/"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
-      "en": "Canada Mental Health Transfer",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — A Comprehensive Plan for Mental Health Care Across Canada",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/a-comprehensive-plan-for-mental-health-care-across-canada/"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
       "en": "Make Disability Tax Credit, CPP-Disability available to those with mental health challenges",
-      "fr": ""
+      "fr": "Rendre le crédit d'impôt pour personnes handicapées, le RPC-invalidité accessible aux personnes ayant des problèmes de santé mentale"
     },
     "references": [
       {
@@ -3766,24 +3695,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Reduce penalties for lower-risk and first-time offenders",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Addressing Problematic Substance Use",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/addressing-problematic-substance-use/"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
-      "en": "Increase funding for long term care worker wages, safer conditions for seniors",
-      "fr": ""
+      "en": "Increase long term care worker wages, safer conditions for seniors",
+      "fr": "Augmentation des salaires des travailleurs des soins de longue durée, conditions plus sûres pour les personnes âgées"
     },
     "references": [
       {
@@ -3805,7 +3718,7 @@
     "party": "Liberal",
     "title": {
       "en": "Increase Eligible Educator School Supply tax credit",
-      "fr": ""
+      "fr": "Augmenter le crédit d'impôt pour fournitures scolaires pour les éducateurs admissibles"
     },
     "references": [
       {
@@ -3821,7 +3734,7 @@
     "party": "Liberal",
     "title": {
       "en": "National School Food Policy",
-      "fr": ""
+      "fr": "Politique nationale en matière d'alimentation scolaire"
     },
     "references": [
       {
@@ -3837,7 +3750,7 @@
     "party": "Liberal",
     "title": {
       "en": "Introduce new restrictions for marketing of food and beverages to children",
-      "fr": ""
+      "fr": "Introduire de nouvelles restrictions pour la commercialisation des aliments et des boissons auprès des enfants"
     },
     "references": [
       {
@@ -3853,7 +3766,7 @@
     "party": "Liberal",
     "title": {
       "en": "Rent-to-own program",
-      "fr": ""
+      "fr": "Programme de location avec option d'achat"
     },
     "references": [
       {
@@ -3869,7 +3782,7 @@
     "party": "Liberal",
     "title": {
       "en": "More flexible First Time Home Buyer Incentive",
-      "fr": ""
+      "fr": "Un incitatif plus souple pour les acheteurs d'une première maison"
     },
     "references": [
       {
@@ -3885,7 +3798,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reduce mortgage insurance costs by 25%",
-      "fr": ""
+      "fr": "Réduire les frais d'assurance hypothécaire de 25&nbsp;%."
     },
     "references": [
       {
@@ -3901,7 +3814,7 @@
     "party": "Liberal",
     "title": {
       "en": "Convert empty office and retail space into housing, including federal and commercial property",
-      "fr": ""
+      "fr": "Convertir les bureaux et les espaces commerciaux vides en logements, y compris les propriétés fédérales et commerciales"
     },
     "references": [
       {
@@ -3916,8 +3829,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": " Multigenerational Home Renovation tax credit",
-      "fr": ""
+      "en": "Multigenerational Home Renovation tax credit",
+      "fr": "Crédit d'impôt pour la rénovation d'une maison multigénérationnelle"
     },
     "references": [
       {
@@ -3932,8 +3845,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Anti-flipping tax for properties held for < 1 year",
-      "fr": ""
+      "en": "Anti-flipping tax for properties held for <1&nbsp;year",
+      "fr": "Taxe anti-flipping pour les propriétés détenues depuis moins d'un an"
     },
     "references": [
       {
@@ -3949,7 +3862,7 @@
     "party": "Liberal",
     "title": {
       "en": "Tax landlords who increase rent costs too much",
-      "fr": ""
+      "fr": "Taxer les propriétaires qui augmentent trop le coût du loyer"
     },
     "references": [
       {
@@ -3965,7 +3878,7 @@
     "party": "Liberal",
     "title": {
       "en": "Create Canada Financial Crimes Agency",
-      "fr": ""
+      "fr": "Créer l'Agence canadienne des crimes financiers"
     },
     "references": [
       {
@@ -3981,7 +3894,7 @@
     "party": "Liberal",
     "title": {
       "en": "Make Canada Caregiver Credit refundable and tax-free",
-      "fr": ""
+      "fr": "Rendre le crédit canadien pour aidants naturels remboursable et non imposable"
     },
     "references": [
       {
@@ -3997,7 +3910,7 @@
     "party": "Liberal",
     "title": {
       "en": "Allow parents to pause federal student loan bills until their youngest child is 5 years old",
-      "fr": ""
+      "fr": "Permettre aux parents de mettre en pause les factures des prêts étudiants fédéraux jusqu'à ce que leur plus jeune enfant ait 5 ans"
     },
     "references": [
       {
@@ -4013,7 +3926,7 @@
     "party": "Liberal",
     "title": {
       "en": "1-800 number to provide seniors with access to government services and benefits",
-      "fr": ""
+      "fr": "Numéro 1-800 pour permettre aux personnes âgées d'accéder aux services et avantages gouvernementaux"
     },
     "references": [
       {
@@ -4029,7 +3942,7 @@
     "party": "Liberal",
     "title": {
       "en": "Up to 26 weeks of unemployment assistance for self-employed Canadians",
-      "fr": ""
+      "fr": "Jusqu'à 26 semaines d'assistance chômage pour les travailleurs indépendants canadiens"
     },
     "references": [
       {
@@ -4045,7 +3958,7 @@
     "party": "Liberal",
     "title": {
       "en": "Require employers of gig economy workers to pay towards EI and CPP like other employers",
-      "fr": ""
+      "fr": "Obliger les employeurs des travailleurs de l'économie gigogne à cotiser à l'AE et au RPC comme les autres employeurs"
     },
     "references": [
       {
@@ -4061,7 +3974,7 @@
     "party": "Liberal",
     "title": {
       "en": "Additional support for workers laid off after 5 years of employment at a business that closes",
-      "fr": ""
+      "fr": "Soutien supplémentaire pour les travailleurs licenciés après 5 ans d'emploi dans une entreprise qui ferme"
     },
     "references": [
       {
@@ -4077,7 +3990,7 @@
     "party": "Liberal",
     "title": {
       "en": "Expand Home Expense deduction, continue for two more years",
-      "fr": ""
+      "fr": "Élargir la déduction pour frais de logement, continuer pendant deux années supplémentaires"
     },
     "references": [
       {
@@ -4093,7 +4006,7 @@
     "party": "Liberal",
     "title": {
       "en": "Make replacement workers illegal when an employer locks out union workers in a federally-regulated industry",
-      "fr": ""
+      "fr": "Rendre les travailleurs de remplacement illégaux lorsqu'un employeur met en lock-out des travailleurs syndiqués dans une industrie réglementée par le gouvernement fédéral"
     },
     "references": [
       {
@@ -4109,7 +4022,7 @@
     "party": "Liberal",
     "title": {
       "en": "Right to Disconnect outside of work hours",
-      "fr": ""
+      "fr": "Droit à la déconnexion en dehors des heures de travail"
     },
     "references": [
       {
@@ -4125,7 +4038,7 @@
     "party": "Liberal",
     "title": {
       "en": "Improve Canada Small Business Financing Program",
-      "fr": ""
+      "fr": "Améliorer le programme de financement des petites entreprises du Canada"
     },
     "references": [
       {
@@ -4141,7 +4054,7 @@
     "party": "Liberal",
     "title": {
       "en": "Create the Canada Advanced Research Projects Agency",
-      "fr": ""
+      "fr": "Créer l'Agence canadienne de projets de recherche avancée"
     },
     "references": [
       {
@@ -4157,7 +4070,7 @@
     "party": "Liberal",
     "title": {
       "en": "Temporarily match ticket sales for performing arts, live theatres, and other cultural venues",
-      "fr": ""
+      "fr": "Assortir temporairement les ventes de billets pour les arts de la scène, les théâtres vivants et autres lieux culturels"
     },
     "references": [
       {
@@ -4173,7 +4086,7 @@
     "party": "Liberal",
     "title": {
       "en": "Require foreign companies (e.g. Netflix) to contribute to the creation and promotion of Canadian arts",
-      "fr": ""
+      "fr": "Exiger que les entreprises étrangères (par exemple Netflix) contribuent à la création et à la promotion des arts canadiens"
     },
     "references": [
       {
@@ -4189,7 +4102,7 @@
     "party": "Liberal",
     "title": {
       "en": "Require social media platforms to share revenue from news distribution with Canadian news outlets",
-      "fr": ""
+      "fr": "Exiger que les plateformes de médias sociaux partagent les revenus provenant de la diffusion des nouvelles avec les organes de presse canadiens"
     },
     "references": [
       {
@@ -4205,7 +4118,7 @@
     "party": "Liberal",
     "title": {
       "en": "Increase funding for CBC/Radio-Canada, eliminate advertising on news and public affairs shows",
-      "fr": ""
+      "fr": "Augmenter le financement de CBC/Radio-Canada, éliminer la publicité dans les émissions de nouvelles et d'affaires publiques"
     },
     "references": [
       {
@@ -4221,7 +4134,7 @@
     "party": "Liberal",
     "title": {
       "en": "Attract more French-speaking immigrants to communities across the country",
-      "fr": ""
+      "fr": "Attirer davantage d'immigrants francophones dans les communautés du pays"
     },
     "references": [
       {
@@ -4237,7 +4150,7 @@
     "party": "Liberal",
     "title": {
       "en": "Remove citizenship application fees for permanant residents",
-      "fr": ""
+      "fr": "Supprimer les frais de demande de citoyenneté pour les résidents permanents"
     },
     "references": [
       {
@@ -4253,7 +4166,7 @@
     "party": "Liberal",
     "title": {
       "en": "Issue visas to spouses and children abroad who are waiting for permanant residency",
-      "fr": ""
+      "fr": "Délivrer des visas aux conjoints et enfants à l'étranger qui attendent la résidence permanente"
     },
     "references": [
       {
@@ -4269,7 +4182,7 @@
     "party": "Liberal",
     "title": {
       "en": "Ban conversion therapy",
-      "fr": ""
+      "fr": "Interdire la thérapie de conversion"
     },
     "references": [
       {
@@ -4285,7 +4198,7 @@
     "party": "Liberal",
     "title": {
       "en": "Canada Disability Benefit",
-      "fr": ""
+      "fr": "Prestation d'invalidité du Canada"
     },
     "references": [
       {
@@ -4301,7 +4214,7 @@
     "party": "Liberal",
     "title": {
       "en": "Require oil and gas companies to reduce methane emissions by at least 75% below 2012 levels by 2030",
-      "fr": ""
+      "fr": "Exiger des compagnies pétrolières et gazières qu'elles réduisent leurs émissions de méthane d'au moins 75&nbsp;% par rapport aux niveaux de 2012 d'ici 2030"
     },
     "references": [
       {
@@ -4317,7 +4230,7 @@
     "party": "Liberal",
     "title": {
       "en": "Ban coal exports by 2030",
-      "fr": ""
+      "fr": "Interdire les exportations de charbon d'ici 2030"
     },
     "references": [
       {
@@ -4332,72 +4245,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Eliminate fossil fuel subsidies by 2023",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Eliminating Subsidies and Public Financing for Fossil Fuel",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/eliminating-subsidies-and-public-financing-for-fossil-fuel/"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Liberal",
-    "title": {
-      "en": "Net zero electricity by 2035",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Our Clean Power Advantage",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/our-clean-power-advantage/"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Liberal",
-    "title": {
-      "en": "100% of new light-duty cars and passenger trucks be zero-emissions by 2035, 50% by 2030",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Zero Emissions Vehicles",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/zero-emissions-vehicles/"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Liberal",
-    "title": {
-      "en": "Ensure every new building built in Canada is net-zero by 2025",
-      "fr": ""
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — A Retrofit Economy that Cuts Pollution and Creates Jobs",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/a-retrofit-economy-that-cuts-pollution-and-creates-jobs/"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Liberal",
-    "title": {
       "en": "Green Bonds",
-      "fr": ""
+      "fr": "Obligations vertes"
     },
     "references": [
       {
@@ -4413,7 +4262,7 @@
     "party": "Liberal",
     "title": {
       "en": "National flood insurance program",
-      "fr": ""
+      "fr": "Programme national d'assurance contre les inondations"
     },
     "references": [
       {
@@ -4421,6 +4270,134 @@
         "title": "Forward. For Everyone. — Protecting Our Homes and Communities from the Impacts of Climate Change",
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/protecting-our-homes-and-communities-from-the-impacts-of-climate-change/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Create 15 national urban parks by 2030",
+      "fr": "Créer 15 parcs urbains nationaux d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — More National Parks and Marine Conservation Areas",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/more-national-parks-and-marine-conservation-areas/"
+      }
+    ]
+  },
+  {
+    "topic": "Civil Rights",
+    "party": "Liberal",
+    "title": {
+      "en": "Right to a Healthy Environment",
+      "fr": "Droit à un environnement sain"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Canadians from Harmful Chemicals and Advancing Environmental Justice",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-canadians-from-harmful-chemicals-and-advancing-environmental-justice/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Liberal",
+    "title": {
+      "en": "Mandatory labelling of chemicals in consumer products that impact health or the environment",
+      "fr": "Étiquetage obligatoire des substances chimiques présentes dans les produits de consommation ayant un impact sur la santé ou l'environnement"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Canadians from Harmful Chemicals and Advancing Environmental Justice",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-canadians-from-harmful-chemicals-and-advancing-environmental-justice/"
+      }
+    ]
+  },
+  {
+    "topic": "Science",
+    "party": "Liberal",
+    "title": {
+      "en": "Ban cosmetic testing on animals by 2023",
+      "fr": "Interdire les tests cosmétiques sur les animaux d'ici 2023"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Animals",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-animals/"
+      }
+    ]
+  },
+  {
+    "topic": "Indigenous Relations",
+    "party": "Liberal",
+    "title": {
+      "en": "Require that First Nations, Inuit, and Métis businesses and entrepreneurs own at least 5% of the total value of federal procurement contracts",
+      "fr": "Exiger que les entreprises et les entrepreneurs inuits, métis et des Premières nations détiennent au moins 5&nbsp;% de la valeur totale des contrats d'approvisionnement fédéraux."
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Helping Indigenous Businesses Grow",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/helping-indigenous-businesses-grow/"
+      }
+    ]
+  },
+  {
+    "topic": "Government",
+    "party": "Liberal",
+    "title": {
+      "en": "15% minimum tax rate for individuals who reach the top tax bracket",
+      "fr": "Taux d'imposition minimum de 15&nbsp;% pour les personnes qui atteignent la tranche d'imposition supérieure"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Sure Everyone Pays Their Fair Share",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-sure-everyone-pays-their-fair-share/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Eliminate flow-through shares for oil, gas, and coal projects",
+      "fr": "Éliminer les actions accréditives pour les projets de pétrole, de gaz et de charbon"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Sure Everyone Pays Their Fair Share",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-sure-everyone-pays-their-fair-share/"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "NDP",
+    "title": {
+      "en": "Dental care coverage for those earning <$90,000",
+      "fr": "Couverture des soins dentaires pour ceux qui gagnent <90&nbsp;000&nbsp;$."
+    },
+    "references": [
+      {
+        "date": "2021-09-04",
+        "title": "Canada election: Singh pledges federal dental care program for Canadians",
+        "publisher": "Global Nes",
+        "url": "https://globalnews.ca/video/8167500/canada-election-singh-pledges-federal-dental-care-program-for-canadians"
       }
     ]
   }

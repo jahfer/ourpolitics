@@ -73,12 +73,12 @@ module TopicMap = Map.Make({
     | Youth => 14
     | ElectoralReform => 15
     | CivilRights => 16
-    | Education => 17
-    | C51 => 18
-    | Science => 19
-    | InternationalTrade => 20
-    | Immigration => 21
-    | ArtsCulture => 22
+    | ArtsCulture => 17
+    | Education => 18
+    | C51 => 19
+    | Science => 20
+    | InternationalTrade => 21
+    | Immigration => 22
     }
 
   let compare = (a, b) => compare_topics(a) - compare_topics(b)
