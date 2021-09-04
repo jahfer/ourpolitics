@@ -59,7 +59,7 @@
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "1 million homes in 3 years",
+      "en": "Build 145,000 additional homes in 3 years",
       "fr": "Construire 1 million de logements dans les 3 prochaines années"
     },
     "references": [
@@ -75,8 +75,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Build, preserve, or repair 1.4 million homes in four years",
-      "fr": "Construire, préserver ou réparer 1,4 million de logements en quatre ans"
+      "en": "Build 120,000 additional homes, repair 130,000 homes in 4 years",
+      "fr": "Construire 120&nbsp;000 logements supplémentaires, réparer 130&nbsp;000 logements en 4 ans"
     },
     "references": [
       {
@@ -915,7 +915,7 @@
     "party": "Liberal",
     "title": {
       "en": "Make EI simpler, expand support to seasonal and gig workers",
-      "fr": "Simplifier l'assurance-emploi et étendre le soutien aux travailleurs saisonniers et aux travailleurs indépendants."
+      "fr": "Simplifier l'assurance-emploi et étendre le soutien aux travailleurs saisonniers et aux travailleurs indépendants"
     },
     "references": [
       {
@@ -1984,7 +1984,7 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "500,000 affordable housing units in 10 years, 50% of those in 5 years",
+      "en": "Build 500,000 affordable housing units in 10 years, 50% of those in 5 years",
       "fr": "500&nbsp;000&nbsp;unités de logement abordables en 10&nbsp;ans, dont 50&nbsp;% en 5&nbsp;ans"
     },
     "references": [
@@ -3798,7 +3798,7 @@
     "party": "Liberal",
     "title": {
       "en": "Reduce mortgage insurance costs by 25%",
-      "fr": "Réduire les frais d'assurance hypothécaire de 25&nbsp;%."
+      "fr": "Réduire les frais d'assurance hypothécaire de 25&nbsp;%"
     },
     "references": [
       {
@@ -3829,22 +3829,6 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Multigenerational Home Renovation tax credit",
-      "fr": "Crédit d'impôt pour la rénovation d'une maison multigénérationnelle"
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone — Help Bring Different Generations Under One Roof",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/help-bring-different-generations-under-one-roof/"
-      }
-    ]
-  },
-  {
-    "topic": "Housing",
-    "party": "Liberal",
-    "title": {
       "en": "Anti-flipping tax for properties held for <1&nbsp;year",
       "fr": "Taxe anti-flipping pour les propriétés détenues depuis moins d'un an"
     },
@@ -3861,8 +3845,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Tax landlords who increase rent costs too much",
-      "fr": "Taxer les propriétaires qui augmentent trop le coût du loyer"
+      "en": "Tax landlords who increase rent too much",
+      "fr": "Taxer les propriétaires qui augmentent trop le loyer"
     },
     "references": [
       {
@@ -4342,7 +4326,7 @@
     "party": "Liberal",
     "title": {
       "en": "Require that First Nations, Inuit, and Métis businesses and entrepreneurs own at least 5% of the total value of federal procurement contracts",
-      "fr": "Exiger que les entreprises et les entrepreneurs inuits, métis et des Premières nations détiennent au moins 5&nbsp;% de la valeur totale des contrats d'approvisionnement fédéraux."
+      "fr": "Exiger que les entreprises et les entrepreneurs inuits, métis et des Premières nations détiennent au moins 5&nbsp;% de la valeur totale des contrats d'approvisionnement fédéraux"
     },
     "references": [
       {
@@ -4390,7 +4374,7 @@
     "party": "NDP",
     "title": {
       "en": "Dental care coverage for those earning <$90,000",
-      "fr": "Couverture des soins dentaires pour ceux qui gagnent <90&nbsp;000&nbsp;$."
+      "fr": "Couverture des soins dentaires pour ceux qui gagnent <90&nbsp;000&nbsp;$"
     },
     "references": [
       {
@@ -4398,6 +4382,22 @@
         "title": "Canada election: Singh pledges federal dental care program for Canadians",
         "publisher": "Global Nes",
         "url": "https://globalnews.ca/video/8167500/canada-election-singh-pledges-federal-dental-care-program-for-canadians"
+      }
+    ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
+      "en": "Create simplified gun classification system, repeal gun restrictions introduced since 2019",
+      "fr": "Créer un système simplifié de classification des armes à feu, abroger les restrictions sur les armes à feu introduites depuis 2019"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
     ]
   }
