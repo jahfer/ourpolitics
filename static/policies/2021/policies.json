@@ -59,7 +59,7 @@
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "Build 145,000 additional homes in 3 years",
+      "en": "Build 145,000 additional homes in 3&nbsp;years",
       "fr": "Construire 1 million de logements dans les 3 prochaines années"
     },
     "references": [
@@ -4075,7 +4075,7 @@
     "topic": "Immigration",
     "party": "Liberal",
     "title": {
-      "en": "Remove citizenship application fees for permanant residents",
+      "en": "Remove citizenship application fees for permanent residents",
       "fr": "Supprimer les frais de demande de citoyenneté pour les résidents permanents"
     },
     "references": [
@@ -4091,7 +4091,7 @@
     "topic": "Immigration",
     "party": "Liberal",
     "title": {
-      "en": "Issue visas to spouses and children abroad who are waiting for permanant residency",
+      "en": "Issue visas to spouses and children abroad who are waiting for permanent residency",
       "fr": "Délivrer des visas aux conjoints et enfants à l'étranger qui attendent la résidence permanente"
     },
     "references": [
