@@ -866,22 +866,6 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Increase carbon tax to $170/ton by 2030",
-      "fr": "Augmenter la taxe sur le carbone à 170 $/tonne d'ici 2030"
-    },
-    "references": [
-      {
-        "date": "2020-12-11",
-        "title": "Ottawa to hike federal carbon tax to $170 a tonne by 2030",
-        "publisher": "CBC",
-        "url": "https://www.cbc.ca/news/politics/carbon-tax-hike-new-climate-plan-1.5837709"
-      }
-    ]
-  },
-  {
-    "topic": "Environment",
-    "party": "Liberal",
-    "title": {
       "en": "Ensure every new building built in Canada is net-zero by 2025",
       "fr": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
     },
@@ -891,6 +875,22 @@
         "title": "Forward. For Everyone. — A Retrofit Economy that Cuts Pollution and Creates Jobs",
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/a-retrofit-economy-that-cuts-pollution-and-creates-jobs/"
+      }
+    ]
+  },
+  {
+    "topic": "Environment",
+    "party": "Liberal",
+    "title": {
+      "en": "Increase carbon tax to $170/ton by 2030",
+      "fr": "Augmenter la taxe sur le carbone à 170 $/tonne d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2020-12-11",
+        "title": "Ottawa to hike federal carbon tax to $170 a tonne by 2030",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/carbon-tax-hike-new-climate-plan-1.5837709"
       }
     ]
   },
@@ -1114,8 +1114,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Annual 1% tax on the value of non-resident, non-Canadian owned residential real estate that is vacant or underused",
-      "fr": "Taxe annuelle de 1&nbsp;% sur la valeur des biens immobiliers résidentiels appartenant à des non-résidents et à des non-Canadiens, qui sont vacants ou sous-utilisés"
+      "en": "1% tax on non-resident, non-Canadian owned residential real estate that is vacant or underused",
+      "fr": "Taxe de 1 % sur les biens immobiliers résidentiels vacants ou sous-utilisés appartenant à des non-résidents et à des non-Canadiens"
     },
     "references": [
       {
@@ -1328,40 +1328,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Increase the minimum wage for support workers in long-term care facilities to at least $25/hour",
-      "fr": "Augmenter le salaire minimum des travailleurs de soutien dans les établissements de soins de longue durée à au moins 25&nbsp;$/heure"
-    },
-    "references": [
-      {
-        "date": "2021-08-19",
-        "title": "Trudeau promises $9b to address long-term care 'shortfalls' during Victoria campaign stop",
-        "publisher": "BIV",
-        "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
       "en": "Increase the home accessibility tax credit to $20,000",
       "fr": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20&nbsp;000&nbsp;$"
-    },
-    "references": [
-      {
-        "date": "2021-08-19",
-        "title": "Trudeau promises $9b to address long-term care 'shortfalls' during Victoria campaign stop",
-        "publisher": "BIV",
-        "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
-      "en": "Train up to 50,000 more workers for long-term care facilities",
-      "fr": "Former jusqu'à 50&nbsp;000&nbsp;travailleurs supplémentaires pour les établissements de soins de longue durée"
     },
     "references": [
       {
@@ -3631,22 +3599,6 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Pass legislation to explicitly allow businesses to require proof of vaccination",
-      "fr": "Adopter une loi permettant explicitement aux entreprises d'exiger une preuve de vaccination"
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Proof of Vaccination",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/proof-of-vaccination/"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
       "en": "Provide funding to hire 7,500 new family doctors, nurses, and nurse practitioners",
       "fr": "Fournir un financement pour l'embauche de 7&nbsp;500 nouveaux médecins de famille, infirmiers et infirmières praticiennes"
     },
@@ -3656,22 +3608,6 @@
         "title": "Forward. For Everyone. — Making Sure Every Canadian Has Access to a Family Doctor or Primary Health Team",
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/making-sure-every-canadian-has-access-to-a-family-doctor-or-primary-health-team/"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Liberal",
-    "title": {
-      "en": "Enforce penalties on provinces who provide private options for publicly insured services",
-      "fr": "Appliquer des pénalités aux provinces qui offrent des options privées pour les services assurés par le secteur public"
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — Standing up for Universal Public Health Care",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/standing-up-for-universal-public-health-care/"
       }
     ]
   },
@@ -3710,6 +3646,12 @@
         "title": "Forward. For Everyone. — Better Working Conditions for Personal Support Workers",
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/better-working-conditions-for-personal-support-workers/"
+      },
+      {
+        "date": "2021-08-19",
+        "title": "Trudeau promises $9b to address long-term care 'shortfalls' during Victoria campaign stop",
+        "publisher": "BIV",
+        "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
       }
     ]
   },
@@ -4238,8 +4180,15 @@
         "title": "Forward. For Everyone. — Sustainable Finance",
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/sustainable-finance/"
+      },
+      {
+        "date": "2021-04-19",
+        "title": "Feds plan $5-billion green bond issue",
+        "publisher": "Advisor's Edge",
+        "url": "https://www.advisor.ca/news/industry-news/feds-plan-5-billion-green-bond-issue/"
       }
-    ]
+    ],
+    "handle": "2021/lpc/green_bonds"
   },
   {
     "topic": "Housing",

@@ -36,12 +36,12 @@ let make = (~policy: Schema.policy) => {
       ` <span class="text-em">$1</span> `
     )
 
-  // let className = switch policy.handle {
-  //   | Some (_) => "policyPoint customBullet customBullet--foo"
-  //   | None => "policyPoint"
-  // }
+  let className = switch policy.handle {
+    | Some (_) => "policyPoint iconSuffix iconSuffix--comment"
+    | None => "policyPoint"
+  }
 
-  <li className="policyPoint">
+  <li className>
     <a
       className="policyPoint--link"
       href=url_path

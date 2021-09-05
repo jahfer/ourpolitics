@@ -157,8 +157,8 @@ module Strings = {
     fr: j`Enjeux $year`,
   }
   let election_notice = {
-    en: "We're working on making these policies easier to understand. Stay tuned for updates in the coming weeks.",
-    fr: `Nous travaillons à rendre ces politiques plus faciles à comprendre. Restez à l'écoute des mises à jour dans les semaines à venir.`
+    en: "The election is on Monday, September 20. To keep up with the parties, follow us at <a target='_blank' href='https://twitter.com/OurPoliticsCA'>@OurPoliticsCA</a>.",
+    fr: `L'élection aura lieu le lundi 20 septembre. Pour suivre les partis, suivez-nous sur <a target='_blank' href='https://twitter.com/OurPoliticsCA'>@OurPoliticsCA</a>.`
   }
   let hero_election_notice = {
     en: "The election is underway!",
@@ -221,6 +221,9 @@ module Y2021 = {
 
     @module external recycling_en: string = "../policies/2021/lpc/recycling.en.md"
     @module external recycling_fr: string = "../policies/2021/lpc/recycling.fr.md"
+
+    @module external green_bonds_en: string = "../policies/2021/lpc/green_bonds.en.md"
+    @module external green_bonds_fr: string = "../policies/2021/lpc/green_bonds.fr.md"
   }
   module Conservatives = {
     @module external stock_option_exemption_en: string = "../policies/2021/cpc/stock_option_exemption.en.md"
@@ -440,6 +443,10 @@ let pathToContent = x =>
   | "2021/lpc/recycling" => {
     en: Y2021.Liberals.recycling_en,
     fr: Y2021.Liberals.recycling_fr,
+  }
+  | "2021/lpc/green_bonds" => {
+    en: Y2021.Liberals.green_bonds_en,
+    fr: Y2021.Liberals.green_bonds_fr,
   }
 
   // CPC

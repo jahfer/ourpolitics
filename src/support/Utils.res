@@ -85,3 +85,10 @@ module Redirect = {
     React.null
   }
 }
+
+module UnsafeHTML = {
+  @react.component
+  let make = (~html) => {
+    <div dangerouslySetInnerHTML={ "__html": html } />
+  }
+}
