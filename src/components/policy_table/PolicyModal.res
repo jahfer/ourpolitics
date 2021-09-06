@@ -68,6 +68,7 @@ module ReferenceModal = {
 module FullContextModal = {
   @react.component
   let make = (~policy: Schema.policy, ~onModalClose) => {
+    let dispatch = React.useContext(PolicyModalDispatch.ctx)
     let language = React.useContext(LanguageContext.ctx)
 
     module T = Strings.Translations({
@@ -113,6 +114,11 @@ module FullContextModal = {
           {(policy.references |> Array.map(ref => <Reference key=ref.url source=ref />))
             ->React.array}
         </ul>
+        <div>
+          <a className="randomize-policy iconSuffix iconSuffix--random" href="javascript:void(0)" onClick={(_) => ModalRandomSelection->dispatch}>
+            {Content.Strings.random_policy->T.text_react_string}
+          </a>
+        </div>
       </aside>
     </div>
   }

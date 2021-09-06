@@ -29,6 +29,8 @@ let elTop = ref(0)
 
 @react.component
 let make = (~policy_handle=?, ~year=2019) => {
+  let language = React.useContext(LanguageContext.ctx)
+
   let (isLoading, setIsLoading) = React.useState(() => true)
   let (policyIndex, setPolicyIndex) = React.useState(() => StringMap.empty)
   let (tableDataset, setTableDataset) = React.useState(() => PolicyTable.TopicDataset.empty)
@@ -91,7 +93,7 @@ let make = (~policy_handle=?, ~year=2019) => {
         visible: true,
         policy: Some(policy),
       }
-    | PolicyModalDispatch.ModalOpen(policy_handle) =>
+    | ModalOpen(policy_handle) =>
       let policy = policyIndex |> StringMap.find(policy_handle)
       open PolicyModalDispatch
       {
@@ -99,7 +101,18 @@ let make = (~policy_handle=?, ~year=2019) => {
         visible: true,
         policy: Some(policy),
       }
-    | PolicyModalDispatch.ModalClose => {...state, visible: false}
+    | ModalClose => {...state, visible: false}
+    | ModalRandomSelection =>
+      let n = Random.int (StringMap.cardinal(policyIndex))
+      let (_, policy) = List.nth(StringMap.bindings(policyIndex), n)
+      let path = Utils.Option.value(~default="", policy.handle)
+      Utils.Router.replace_route(~language, `/policies/${path}`)
+      open PolicyModalDispatch
+      {
+        modal_type: FullContextModal,
+        visible: true,
+        policy: Some(policy),
+      }
     }
   , {modal_type: FullContextModal, visible: false, policy: None})
 
@@ -122,6 +135,11 @@ let make = (~policy_handle=?, ~year=2019) => {
     let language = language
   })
 
+  // let disabledTopics = Schema.TopicSet.inter(topics, topicFilter)
+  // |> Schema.TopicSet.elements
+  // |> List.map(t => <li className="button--pill iconSuffix iconSuffix--close enabled">{t->T.topic_react_string}</li>) 
+  // |> Array.of_list
+
   PolicyModal.Modal.setAppElement("#page-root")
 
   <PolicyModalDispatch dispatch>
@@ -140,6 +158,10 @@ let make = (~policy_handle=?, ~year=2019) => {
         React.null
       }
     }
+
+    // <ul className="list-plain">
+    //   { disabledTopics->React.array }
+    // </ul>
 
     <PolicyTable isLoading parties topicFilter=Some(topicFilter) dataset=tableDataset />
     <footer> <p className="footerInfo" /> </footer>

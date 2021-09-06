@@ -2,6 +2,7 @@ type action =
   | ReferenceModalOpen(Schema.policy)
   | ModalOpen(string)
   | ModalClose
+  | ModalRandomSelection
 
 type modal_type =
   | FullContextModal

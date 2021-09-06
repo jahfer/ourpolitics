@@ -25,8 +25,7 @@ $color-cream-light: #fffff9;
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  position: relative;
-  background-color: $color-cream-light
+  // background-color: $color-cream-light
 }
 
 .modal--content {
@@ -164,6 +163,7 @@ $color-cream-light: #fffff9;
 
 .reference--list {
   padding-left: 0;
+  flex: 1;
 
   li {
     padding: 5px;
@@ -187,6 +187,23 @@ $color-cream-light: #fffff9;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: #999;
+}
+
+.randomize-policy {
+  display: block;
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 15px!important;
+  border: 2px solid #222 !important;
+  background: #222;
+
+  &:hover {
+    border-color: #ffbd00 !important;
+  }
+
+  &::after {
+    color: #ffbd00;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -242,10 +259,13 @@ $color-cream-light: #fffff9;
   .modal--content {
     flex: 2.5;
     overflow-y: scroll;
+    background-color: $color-cream-light;
   }
 
   .modal--sidebar {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     bottom: auto;
     position: static;
     width: auto;

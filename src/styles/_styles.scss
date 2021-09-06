@@ -223,8 +223,17 @@ a {
   content: '\f005';
 }
 
+.iconSuffix--close::after {
+  content: '\f00d';
+}
+
 .iconSuffix--comment::after {
   content: '\f0e5';
+}
+
+.iconSuffix--random::after {
+  content: '\f074';
+  vertical-align: middle;
 }
 
 .emptyPolicy {

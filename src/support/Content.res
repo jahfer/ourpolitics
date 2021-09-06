@@ -176,6 +176,10 @@ module Strings = {
     en: "References",
     fr: `Références`
   }
+  let random_policy = {
+    en: "Read another policy",
+    fr: `Lire une autre politique`
+  }
 }
 
 /*
