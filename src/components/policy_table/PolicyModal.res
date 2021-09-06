@@ -114,7 +114,7 @@ module FullContextModal = {
           {(policy.references |> Array.map(ref => <Reference key=ref.url source=ref />))
             ->React.array}
         </ul>
-        <div>
+        <div className="modal--randomize">
           <a className="randomize-policy iconSuffix iconSuffix--random" href="javascript:void(0)" onClick={(_) => ModalRandomSelection->dispatch}>
             {Content.Strings.random_policy->T.text_react_string}
           </a>

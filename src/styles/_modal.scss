@@ -68,7 +68,6 @@ $color-cream-light: #fffff9;
 
   &.modal--heading__secondary {
     font-size: 1.2em;
-    margin-bottom: 30px;
   }
 }
 
@@ -111,6 +110,8 @@ $color-cream-light: #fffff9;
   color: #fff;
   position: relative;
   flex: 1;
+  display: flex;
+  flex-direction: column;
 
   a {
     color: #fff;
@@ -189,6 +190,11 @@ $color-cream-light: #fffff9;
   color: #999;
 }
 
+.modal--randomize {
+  order: -1;
+  margin-bottom: 1.5rem;
+}
+
 .randomize-policy {
   display: block;
   text-align: center;
@@ -245,6 +251,10 @@ $color-cream-light: #fffff9;
     max-width: 570px;
   }
   
+  .modal--heading__secondary {
+    margin-bottom: 30px;
+  }
+  
   .policyModal {
     height: 100%;
     display: flex;
@@ -264,8 +274,6 @@ $color-cream-light: #fffff9;
 
   .modal--sidebar {
     flex: 1;
-    display: flex;
-    flex-direction: column;
     bottom: auto;
     position: static;
     width: auto;
@@ -294,5 +302,10 @@ $color-cream-light: #fffff9;
     &:hover::before {
       color: #222;
     }
+  }
+
+  .modal--randomize {
+    order: 100;
+    margin-bottom: 0;
   }
 }
