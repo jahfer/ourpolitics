@@ -467,7 +467,47 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
+    ],
+    "handle": "2021/cpc/mental_health_action_plan"
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
+      "en": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "fr": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
     ]
+  },
+  {
+    "topic": "Healthcare",
+    "party": "Conservative",
+    "title": {
+      "en": "Create simplified gun classification system",
+      "fr": "Créer un système simplifié de classification des armes à feu"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2021-09-05",
+        "title": "O'Toole reverses course on guns, will maintain Liberal ban during review of classifications",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/gun-control-wedge-issue-1.6165532"
+      }
+    ],
+    "handle": "2021/cpc/gun_classification"
   },
   {
     "topic": "Social Assistance",
@@ -697,7 +737,7 @@
     ]
   },
   {
-    "topic": "Civil Rights",
+    "topic": "Healthcare",
     "party": "Conservative",
     "title": {
       "en": "End long-gun registry, reintroduce expiry to firearms restrictions from violent or criminal past",
@@ -1203,22 +1243,6 @@
         "title": "Budget 2021 (PDF)",
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Conservative",
-    "title": {
-      "en": "Independent oversight and accountability for sexual harassment and assault in the military",
-      "fr": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
-    },
-    "references": [
-      {
-        "date": "2021-08-16",
-        "title": "Canada's Recovery Plan (PDF)",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
     ]
   },
@@ -4331,22 +4355,6 @@
         "title": "Canada election: Singh pledges federal dental care program for Canadians",
         "publisher": "Global Nes",
         "url": "https://globalnews.ca/video/8167500/canada-election-singh-pledges-federal-dental-care-program-for-canadians"
-      }
-    ]
-  },
-  {
-    "topic": "Healthcare",
-    "party": "Conservative",
-    "title": {
-      "en": "Create simplified gun classification system, repeal gun restrictions introduced since 2019",
-      "fr": "Créer un système simplifié de classification des armes à feu, abroger les restrictions sur les armes à feu introduites depuis 2019"
-    },
-    "references": [
-      {
-        "date": "2021-08-16",
-        "title": "Canada's Recovery Plan (PDF)",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
     ]
   }

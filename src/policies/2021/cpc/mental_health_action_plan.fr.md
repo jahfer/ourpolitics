@@ -1,0 +1,3 @@
+Les conservateurs prévoient de financer - et de suggérer aux provinces de créer - un **1 million** de places supplémentaires pour que les Canadiens puissent recevoir des traitements. Fait important, ils ont promis de ne pas contrôler la façon dont les fonds destinés aux soins de santé sont utilisés par les provinces, ce qui signifie qu'ils **n'appliqueront pas ce financement** à la santé mentale.
+
+Les conservateurs offriront également un **crédit d'impôt de 25 %** sur tout coût supplémentaire de la couverture de la santé mentale dans les régimes des employés pendant **3 ans**.

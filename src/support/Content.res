@@ -244,6 +244,12 @@ module Y2021 = {
 
     @module external low_carbon_savings_account_en: string = "../policies/2021/cpc/low_carbon_savings_account.en.md"
     @module external low_carbon_savings_account_fr: string = "../policies/2021/cpc/low_carbon_savings_account.fr.md"
+
+    @module external gun_classification_en: string = "../policies/2021/cpc/gun_classification.en.md"
+    @module external gun_classification_fr: string = "../policies/2021/cpc/gun_classification.fr.md"
+
+    @module external mental_health_action_plan_en: string = "../policies/2021/cpc/mental_health_action_plan.en.md"
+    @module external mental_health_action_plan_fr: string = "../policies/2021/cpc/mental_health_action_plan.fr.md"
   }
 }
 
@@ -473,6 +479,14 @@ let pathToContent = x =>
   | "2021/cpc/low_carbon_savings_account" => {
     en: Y2021.Conservatives.low_carbon_savings_account_en,
     fr: Y2021.Conservatives.low_carbon_savings_account_fr,
+  }
+  | "2021/cpc/gun_classification" => {
+    en: Y2021.Conservatives.gun_classification_en,
+    fr: Y2021.Conservatives.gun_classification_fr,
+  }
+  | "2021/cpc/mental_health_action_plan" => {
+    en: Y2021.Conservatives.mental_health_action_plan_en,
+    fr: Y2021.Conservatives.mental_health_action_plan_fr,
   }
     
   /** 2015 Policies */
