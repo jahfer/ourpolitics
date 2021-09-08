@@ -142,6 +142,22 @@
   },
   {
     "topic": "Housing",
+    "party": "Liberal",
+    "title": {
+      "en": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
+      "fr": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Crack Down on Foreign Ownership",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/crack-down-on-foreign-ownership/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
     "party": "Conservative",
     "title": {
       "en": "Release 15% of federal property for housing",
@@ -1144,6 +1160,22 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
+      "en": "Rent-to-own program",
+      "fr": "Programme de location avec option d'achat"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A New Rent-to-Own Program",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-new-rent-to-own-program/"
+      }
+    ]
+  },
+  {
+    "topic": "Housing",
+    "party": "Liberal",
+    "title": {
       "en": "Double the Home Buyers’ Tax Credit",
       "fr": "Doublez le crédit d'impôt pour l'achat d'une maison"
     },
@@ -2014,8 +2046,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "Double the Home Buyers’ Tax Credit",
-      "fr": "Doublez le crédit d'impôt pour l'achat d'une maison"
+      "en": "20% tax on real estate purchased by foreign buyers",
+      "fr": "Taxe de 20 % sur les biens immobiliers achetés par des acheteurs étrangers"
     },
     "references": [
       {
@@ -2030,8 +2062,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "20% tax on real estate purchased by foreign buyers",
-      "fr": "Taxe de 20 % sur les biens immobiliers achetés par des acheteurs étrangers"
+      "en": "Double the Home Buyers’ Tax Credit",
+      "fr": "Doublez le crédit d'impôt pour l'achat d'une maison"
     },
     "references": [
       {
@@ -3730,22 +3762,6 @@
         "title": "Forward. For Everyone. — School Nutrition and Healthy Eating",
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/school-nutrition-and-healthy-eating/"
-      }
-    ]
-  },
-  {
-    "topic": "Housing",
-    "party": "Liberal",
-    "title": {
-      "en": "Rent-to-own program",
-      "fr": "Programme de location avec option d'achat"
-    },
-    "references": [
-      {
-        "date": "2021-09-01",
-        "title": "Forward. For Everyone. — A New Rent-to-Own Program",
-        "publisher": "Liberal Party of Canada",
-        "url": "https://liberal.ca/our-platform/a-new-rent-to-own-program/"
       }
     ]
   },
