@@ -157,8 +157,8 @@ module Strings = {
     fr: j`Enjeux $year`,
   }
   let election_notice = {
-    en: "The election is on Monday, September 20. To keep up with the parties, follow us at <a target='_blank' href='https://twitter.com/OurPoliticsCA'>@OurPoliticsCA</a>.",
-    fr: `L'élection aura lieu le lundi 20 septembre. Pour suivre les partis, suivez-nous sur <a target='_blank' href='https://twitter.com/OurPoliticsCA'>@OurPoliticsCA</a>.`
+    en: "The election is on Monday, September 20. Make sure you have a <a target='_blank' href='https://www.elections.ca/content2.aspx?section=spr&dir=voting&document=pre&lang=e'>plan to vote</a>!",
+    fr: `L'élection a lieu le lundi 20 septembre. Assurez-vous d'avoir un <a target='_blank' href='https://www.elections.ca/content2.aspx?section=spr&dir=voting&document=pre&lang=f'>plan pour voter</a>!`
   }
   let hero_election_notice = {
     en: "The election is underway!",
