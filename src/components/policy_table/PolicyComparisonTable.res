@@ -149,15 +149,15 @@ let make = (~policy_handle=?, ~year=2019) => {
     | None => React.null
     }}
 
-    {
-      if year == 2021 {
-        <Banner>
-          <Utils.UnsafeHTML html={ Content.Strings.election_notice->T.text_to_string } />
-        </Banner>
-      } else {
-        React.null
-      }
-    }
+    // {
+    //   if year == 2021 {
+    //     <Banner>
+    //       <Utils.UnsafeHTML html={ Content.Strings.election_notice->T.text_to_string } />
+    //     </Banner>
+    //   } else {
+    //     React.null
+    //   }
+    // }
 
     // <ul className="list-plain">
     //   { disabledTopics->React.array }
