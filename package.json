@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node build.mjs"
+  },
+  "dependencies": {
+    "@types/node": "^20.7.2",
+    "@types/react": "^18.2.23",
+    "@types/react-dom": "^18.2.8",
+    "esbuild": "^0.19.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
+  }
+}
