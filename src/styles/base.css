@@ -1,0 +1,38 @@
+@import 'variables';
+@import 'layout';
+@import 'styles';
+@import 'modal';
+@import 'typography';
+
+.textColor--NDP {
+  color: var(--ndp-color);
+}
+.textColor--Conservatives {
+  color: var(--cpc-color);
+}
+.textColor--Liberals {
+  color: var(--lpc-color);
+}
+.textColor--Green {
+  color: var(--gpc-color);
+}
+
+
+.backgroundColor--NDP {
+  background-color: var(--ndp-color);
+}
+.backgroundColor--Conservatives {
+  background-color: var(--cpc-color);
+}
+.backgroundColor--Liberals {
+  background-color: var(--lpc-color);
+}
+.backgroundColor--Green {
+  background-color: var(--gpc-color);
+}
+.backgroundColor--Empty {
+  background-color: var(--dark-grey);
+}
+.backgroundColor--Skeleton {
+  background-color: #ddddd5;
+}
