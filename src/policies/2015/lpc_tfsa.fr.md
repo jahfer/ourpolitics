@@ -1,0 +1,1 @@
+Le parti Libéral annulerait les changements des conservateurs à propos du compte d'épargne libre d'impôt, qui ont augmentés la limite des contributions à 10.000$/années. Sous un gouvernement Libéral, la limite serait réduite à **5.500$/années**, ce qui procurait en impôt environs **1.1 milliard** de revenues au courant des 5 prochaines années.

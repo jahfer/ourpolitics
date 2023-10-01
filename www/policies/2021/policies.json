@@ -3,8 +3,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Implement tax on digital services",
-      "fr": "Mettre en place une taxe sur les services numériques"
+      "EN": "Implement tax on digital services",
+      "FR": "Mettre en place une taxe sur les services numériques"
     },
     "references": [
       {
@@ -20,8 +20,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Allow tech companies to issue flow-through shares",
-      "fr": "Permettre aux entreprises technologiques d'émettre des actions accréditives"
+      "EN": "Allow tech companies to issue flow-through shares",
+      "FR": "Permettre aux entreprises technologiques d'émettre des actions accréditives"
     },
     "references": [
       {
@@ -43,8 +43,8 @@
     "topic": "Science",
     "party": "Conservative",
     "title": {
-      "en": "Create the Canadian Advanced Research Agency",
-      "fr": "Créer l'Agence canadienne de recherche avancée"
+      "EN": "Create the Canadian Advanced Research Agency",
+      "FR": "Créer l'Agence canadienne de recherche avancée"
     },
     "references": [
       {
@@ -59,8 +59,8 @@
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "Build 145,000 additional homes in 3&nbsp;years",
-      "fr": "Construire 1 million de logements dans les 3 prochaines années"
+      "EN": "Build 145,000 additional homes in 3&nbsp;years",
+      "FR": "Construire 1 million de logements dans les 3 prochaines années"
     },
     "references": [
       {
@@ -75,8 +75,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Build 120,000 additional homes, repair 130,000 homes in 4 years",
-      "fr": "Construire 120&nbsp;000 logements supplémentaires, réparer 130&nbsp;000 logements en 4 ans"
+      "EN": "Build 120,000 additional homes, repair 130,000 homes in 4 years",
+      "FR": "Construire 120&nbsp;000 logements supplémentaires, réparer 130&nbsp;000 logements en 4 ans"
     },
     "references": [
       {
@@ -115,8 +115,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Home Buyers’ Bill of Rights",
-      "fr": "Charte des droits de l'acheteur d'une maison"
+      "EN": "Home Buyers’ Bill of Rights",
+      "FR": "Charte des droits de l'acheteur d'une maison"
     },
     "references": [
       {
@@ -144,8 +144,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
-      "fr": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
+      "EN": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
+      "FR": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
     },
     "references": [
       {
@@ -160,8 +160,8 @@
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "Release 15% of federal property for housing",
-      "fr": "Libérer 15&nbsp;% des propriétés fédérales pour le logement"
+      "EN": "Release 15% of federal property for housing",
+      "FR": "Libérer 15&nbsp;% des propriétés fédérales pour le logement"
     },
     "references": [
       {
@@ -176,8 +176,8 @@
     "topic": "Economy",
     "party": "NDP",
     "title": {
-      "en": "Increase taxes on capital gains",
-      "fr": "Augmenter les impôts sur les gains en capital"
+      "EN": "Increase taxes on capital gains",
+      "FR": "Augmenter les impôts sur les gains en capital"
     },
     "references": [
       {
@@ -192,8 +192,8 @@
     "topic": "Economy",
     "party": "NDP",
     "title": {
-      "en": "Tax on luxury goods",
-      "fr": "Taxe sur les produits de luxe"
+      "EN": "Tax on luxury goods",
+      "FR": "Taxe sur les produits de luxe"
     },
     "references": [
       {
@@ -208,8 +208,8 @@
     "topic": "Economy",
     "party": "NDP",
     "title": {
-      "en": "Increase top income tax rate",
-      "fr": "Augmenter le taux supérieur d'imposition sur le revenu"
+      "EN": "Increase top income tax rate",
+      "FR": "Augmenter le taux supérieur d'imposition sur le revenu"
     },
     "references": [
       {
@@ -225,8 +225,8 @@
     "topic": "Economy",
     "party": "NDP",
     "title": {
-      "en": "Increase corporate taxes",
-      "fr": "Augmenter l'impôt sur les sociétés"
+      "EN": "Increase corporate taxes",
+      "FR": "Augmenter l'impôt sur les sociétés"
     },
     "references": [
       {
@@ -248,8 +248,8 @@
     "topic": "Economy",
     "party": "NDP",
     "title": {
-      "en": "Wealth tax of 1% per year",
-      "fr": "Impôt sur la fortune de 1&nbsp;% par an"
+      "EN": "Wealth tax of 1% per year",
+      "FR": "Impôt sur la fortune de 1&nbsp;% par an"
     },
     "references": [
       {
@@ -265,8 +265,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Partially cover salaries of new hires after the end of Canada Emergency Wage Subsidy for six months",
-      "fr": "Couvrir partiellement les salaires des nouveaux employés après la fin de la subvention salariale d'urgence du Canada pendant six mois"
+      "EN": "Partially cover salaries of new hires after the end of Canada Emergency Wage Subsidy for six months",
+      "FR": "Couvrir partiellement les salaires des nouveaux employés après la fin de la subvention salariale d'urgence du Canada pendant six mois"
     },
     "references": [
       {
@@ -281,8 +281,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "5% investment tax credit for two years",
-      "fr": "Crédit d'impôt à l'investissement de 5&nbsp; pendant deux ans"
+      "EN": "5% investment tax credit for two years",
+      "FR": "Crédit d'impôt à l'investissement de 5&nbsp; pendant deux ans"
     },
     "references": [
       {
@@ -297,8 +297,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Tax credit on personal investments in small businesses for 2 years",
-      "fr": "Crédit d'impôt sur les investissements personnels dans les petites entreprises pendant 2 ans"
+      "EN": "Tax credit on personal investments in small businesses for 2 years",
+      "FR": "Crédit d'impôt sur les investissements personnels dans les petites entreprises pendant 2 ans"
     },
     "references": [
       {
@@ -313,8 +313,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Loans for small and medium businesses in hospitality, retail, and tourism",
-      "fr": "Prêts pour les petites et moyennes entreprises des secteurs de l'hôtellerie, de la vente au détail et du tourisme"
+      "EN": "Loans for small and medium businesses in hospitality, retail, and tourism",
+      "FR": "Prêts pour les petites et moyennes entreprises des secteurs de l'hôtellerie, de la vente au détail et du tourisme"
     },
     "references": [
       {
@@ -329,8 +329,8 @@
     "topic": "Education",
     "party": "Conservative",
     "title": {
-      "en": "Low-interest loans for individuals up to $10,000 for additional training in skilled trades",
-      "fr": "Prêts à faible taux d'intérêt pour les particuliers, jusqu'à 10&nbsp;000&nbsp;$, pour une formation supplémentaire dans des métiers spécialisés"
+      "EN": "Low-interest loans for individuals up to $10,000 for additional training in skilled trades",
+      "FR": "Prêts à faible taux d'intérêt pour les particuliers, jusqu'à 10&nbsp;000&nbsp;$, pour une formation supplémentaire dans des métiers spécialisés"
     },
     "references": [
       {
@@ -345,8 +345,8 @@
     "topic": "Education",
     "party": "Conservative",
     "title": {
-      "en": "Allow new parents to qualify for parental leave income when starting a home-based business",
-      "fr": "Permettre aux nouveaux parents de bénéficier du revenu du congé parental lorsqu'ils créent une entreprise à domicile"
+      "EN": "Allow new parents to qualify for parental leave income when starting a home-based business",
+      "FR": "Permettre aux nouveaux parents de bénéficier du revenu du congé parental lorsqu'ils créent une entreprise à domicile"
     },
     "references": [
       {
@@ -361,8 +361,8 @@
     "topic": "Civil Rights",
     "party": "Conservative",
     "title": {
-      "en": "Require federally regulated employers to include worker representation on their boards of directors",
-      "fr": "Obliger les employeurs sous réglementation fédérale à inclure une représentation des travailleurs dans leur conseil d'administration"
+      "EN": "Require federally regulated employers to include worker representation on their boards of directors",
+      "FR": "Obliger les employeurs sous réglementation fédérale à inclure une représentation des travailleurs dans leur conseil d'administration"
     },
     "references": [
       {
@@ -377,8 +377,8 @@
     "topic": "Science",
     "party": "Conservative",
     "title": {
-      "en": "Ban cosmetic testing on animals",
-      "fr": "Interdire les tests cosmétiques sur les animaux"
+      "EN": "Ban cosmetic testing on animals",
+      "FR": "Interdire les tests cosmétiques sur les animaux"
     },
     "references": [
       {
@@ -393,8 +393,8 @@
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
-      "fr": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
+      "EN": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
+      "FR": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
     },
     "references": [
       {
@@ -409,8 +409,8 @@
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "Residential high risk flood insurance program",
-      "fr": "Programme d'assurance contre les inondations résidentielles à haut risque"
+      "EN": "Residential high risk flood insurance program",
+      "FR": "Programme d'assurance contre les inondations résidentielles à haut risque"
     },
     "references": [
       {
@@ -425,8 +425,8 @@
     "topic": "Government",
     "party": "Conservative",
     "title": {
-      "en": "Minister of Red Tape Reduction",
-      "fr": "Ministre de la réduction des formalités administratives"
+      "EN": "Minister of Red Tape Reduction",
+      "FR": "Ministre de la réduction des formalités administratives"
     },
     "references": [
       {
@@ -441,8 +441,8 @@
     "topic": "Government",
     "party": "Conservative",
     "title": {
-      "en": "Update anti-corruption laws",
-      "fr": "Mettre à jour les lois anti-corruption"
+      "EN": "Update anti-corruption laws",
+      "FR": "Mettre à jour les lois anti-corruption"
     },
     "references": [
       {
@@ -457,8 +457,8 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "Increase sickness benefits from 15 weeks to 52 weeks if suffering a serious illness",
-      "fr": "Augmenter les prestations de maladie de 15 à 52 semaines pour les personnes souffrant d'une maladie grave"
+      "EN": "Increase sickness benefits from 15 weeks to 52 weeks if suffering a serious illness",
+      "FR": "Augmenter les prestations de maladie de 15 à 52 semaines pour les personnes souffrant d'une maladie grave"
     },
     "references": [
       {
@@ -473,8 +473,8 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "Mental Health Action Plan",
-      "fr": "Plan d'action pour la santé mentale"
+      "EN": "Mental Health Action Plan",
+      "FR": "Plan d'action pour la santé mentale"
     },
     "references": [
       {
@@ -496,8 +496,8 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "Independent oversight and accountability for sexual harassment and assault in the military",
-      "fr": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
+      "EN": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "FR": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
     },
     "references": [
       {
@@ -512,8 +512,8 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "Create simplified gun classification system",
-      "fr": "Créer un système simplifié de classification des armes à feu"
+      "EN": "Create simplified gun classification system",
+      "FR": "Créer un système simplifié de classification des armes à feu"
     },
     "references": [
       {
@@ -535,8 +535,8 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Increase EI benefits during provincial recessions",
-      "fr": "Augmenter les prestations d'assurance-emploi pendant les récessions provinciales"
+      "EN": "Increase EI benefits during provincial recessions",
+      "FR": "Augmenter les prestations d'assurance-emploi pendant les récessions provinciales"
     },
     "references": [
       {
@@ -551,8 +551,8 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Double the Canada Workers Benefit with quarterly payouts",
-      "fr": "Doubler la prestation pour travailleurs canadiens par des versements trimestriels"
+      "EN": "Double the Canada Workers Benefit with quarterly payouts",
+      "FR": "Doubler la prestation pour travailleurs canadiens par des versements trimestriels"
     },
     "references": [
       {
@@ -567,8 +567,8 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Require employers of gig economy workers to pay into Tax-free Employee Savings Account",
-      "fr": "Obliger les employeurs des travailleurs de la gig economy à cotiser à un compte d'épargne salariale exonéré d'impôt"
+      "EN": "Require employers of gig economy workers to pay into Tax-free Employee Savings Account",
+      "FR": "Obliger les employeurs des travailleurs de la gig economy à cotiser à un compte d'épargne salariale exonéré d'impôt"
     },
     "references": [
       {
@@ -583,8 +583,8 @@
     "topic": "Infrastructure",
     "party": "Conservative",
     "title": {
-      "en": "Ensure every Canadian has access to high-speed broadband internet by 2025",
-      "fr": "Veiller à ce que chaque Canadien ait accès à l'Internet à haut débit d'ici 2025"
+      "EN": "Ensure every Canadian has access to high-speed broadband internet by 2025",
+      "FR": "Veiller à ce que chaque Canadien ait accès à l'Internet à haut débit d'ici 2025"
     },
     "references": [
       {
@@ -599,8 +599,8 @@
     "topic": "Infrastructure",
     "party": "Conservative",
     "title": {
-      "en": "Allow foreign telecom companies to provide services",
-      "fr": "Autoriser les entreprises de télécommunications étrangères à fournir des services"
+      "EN": "Allow foreign telecom companies to provide services",
+      "FR": "Autoriser les entreprises de télécommunications étrangères à fournir des services"
     },
     "references": [
       {
@@ -615,8 +615,8 @@
     "topic": "Child Care",
     "party": "Conservative",
     "title": {
-      "en": "Refundable tax credit for child-care",
-      "fr": "Crédit d'impôt remboursable pour la garde d'enfants"
+      "EN": "Refundable tax credit for child-care",
+      "FR": "Crédit d'impôt remboursable pour la garde d'enfants"
     },
     "references": [
       {
@@ -631,8 +631,8 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Canada Seniors Care Benefit",
-      "fr": "Prestation canadienne pour soins aux aînés"
+      "EN": "Canada Seniors Care Benefit",
+      "FR": "Prestation canadienne pour soins aux aînés"
     },
     "references": [
       {
@@ -647,8 +647,8 @@
     "topic": "International Trade",
     "party": "Conservative",
     "title": {
-      "en": "Border carbon adjustments",
-      "fr": "Ajustements du carbone aux frontières"
+      "EN": "Border carbon adjustments",
+      "FR": "Ajustements du carbone aux frontières"
     },
     "references": [
       {
@@ -663,8 +663,8 @@
     "topic": "International Trade",
     "party": "Conservative",
     "title": {
-      "en": "Pursue CANZUK trade agreement",
-      "fr": "Poursuivre l'accord commercial CANZUK"
+      "EN": "Pursue CANZUK trade agreement",
+      "FR": "Poursuivre l'accord commercial CANZUK"
     },
     "references": [
       {
@@ -679,8 +679,8 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "Reduce emissions by 30% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 30&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "EN": "Reduce emissions by 30% below 2005 levels by 2030",
+      "FR": "Réduire les émissions de 30&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -695,8 +695,8 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "Protect 17% of Canada's lands and waters",
-      "fr": "Protéger 17&nbsp;% des terres et des eaux du Canada"
+      "EN": "Protect 17% of Canada's lands and waters",
+      "FR": "Protéger 17&nbsp;% des terres et des eaux du Canada"
     },
     "references": [
       {
@@ -711,8 +711,8 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "Personal Low Carbon Savings Accounts",
-      "fr": "Comptes personnels d'épargne à faible émission de carbone"
+      "EN": "Personal Low Carbon Savings Accounts",
+      "FR": "Comptes personnels d'épargne à faible émission de carbone"
     },
     "references": [
       {
@@ -746,8 +746,8 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "Cap the carbon tax increase to a maximum of $50/ton for consumers",
-      "fr": "Plafonner l'augmentation de la taxe sur le carbone à un maximum de 50&nbsp;$/tonne pour les consommateurs"
+      "EN": "Cap the carbon tax increase to a maximum of $50/ton for consumers",
+      "FR": "Plafonner l'augmentation de la taxe sur le carbone à un maximum de 50&nbsp;$/tonne pour les consommateurs"
     },
     "references": [
       {
@@ -762,8 +762,8 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "End long-gun registry, reintroduce expiry to firearms restrictions from violent or criminal past",
-      "fr": "Mettre fin au registre des armes d'épaule, réintroduire l'expiration des restrictions sur les armes à feu en cas de passé violent ou criminel"
+      "EN": "End long-gun registry, reintroduce expiry to firearms restrictions from violent or criminal past",
+      "FR": "Mettre fin au registre des armes d'épaule, réintroduire l'expiration des restrictions sur les armes à feu en cas de passé violent ou criminel"
     },
     "references": [
       {
@@ -784,8 +784,8 @@
     "topic": "Foreign Policy",
     "party": "Conservative",
     "title": {
-      "en": "Recognize Jerusalem as the capital of Israel",
-      "fr": "Reconnaître Jérusalem comme capitale d'Israël"
+      "EN": "Recognize Jerusalem as the capital of Israel",
+      "FR": "Reconnaître Jérusalem comme capitale d'Israël"
     },
     "references": [
       {
@@ -800,8 +800,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Reduce emissions by 40–45% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 40&nbsp;–&nbsp;45&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "EN": "Reduce emissions by 40–45% below 2005 levels by 2030",
+      "FR": "Réduire les émissions de 40&nbsp;–&nbsp;45&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -816,8 +816,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Protect 25% of Canada's lands and waters by 2025",
-      "fr": "Protéger 25&nbsp;% des terres et des eaux du Canada d'ici 2025"
+      "EN": "Protect 25% of Canada's lands and waters by 2025",
+      "FR": "Protéger 25&nbsp;% des terres et des eaux du Canada d'ici 2025"
     },
     "references": [
       {
@@ -838,8 +838,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Ban on single-use plastics",
-      "fr": "Interdiction des plastiques à usage unique"
+      "EN": "Ban on single-use plastics",
+      "FR": "Interdiction des plastiques à usage unique"
     },
     "references": []
   },
@@ -847,8 +847,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Improve plastic recycling",
-      "fr": "Améliorer le recyclage des plastiques"
+      "EN": "Improve plastic recycling",
+      "FR": "Améliorer le recyclage des plastiques"
     },
     "references": [
       {
@@ -864,8 +864,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Reduce emissions by 50% below 2005 levels by 2030",
-      "fr": "Réduire les émissions de 50&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "EN": "Reduce emissions by 50% below 2005 levels by 2030",
+      "FR": "Réduire les émissions de 50&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -880,8 +880,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Eliminate fossil fuel subsidies by 2023",
-      "fr": "Éliminer les subventions aux combustibles fossiles d'ici 2023"
+      "EN": "Eliminate fossil fuel subsidies by 2023",
+      "FR": "Éliminer les subventions aux combustibles fossiles d'ici 2023"
     },
     "references": [
       {
@@ -896,8 +896,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "100% of new light-duty cars and passenger trucks be zero-emissions by 2035",
-      "fr": "100&nbsp;% des nouvelles voitures légères et des nouveaux camions de passagers ne produiront pas d'émissions d'ici 2035"
+      "EN": "100% of new light-duty cars and passenger trucks be zero-emissions by 2035",
+      "FR": "100&nbsp;% des nouvelles voitures légères et des nouveaux camions de passagers ne produiront pas d'émissions d'ici 2035"
     },
     "references": [
       {
@@ -912,8 +912,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Net zero electricity by 2035",
-      "fr": "Électricité nette zéro d'ici 2035"
+      "EN": "Net zero electricity by 2035",
+      "FR": "Électricité nette zéro d'ici 2035"
     },
     "references": [
       {
@@ -928,8 +928,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Ensure every new building built in Canada is net-zero by 2025",
-      "fr": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
+      "EN": "Ensure every new building built in Canada is net-zero by 2025",
+      "FR": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
     },
     "references": [
       {
@@ -944,8 +944,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Increase carbon tax to $170/ton by 2030",
-      "fr": "Augmenter la taxe sur le carbone à 170 $/tonne d'ici 2030"
+      "EN": "Increase carbon tax to $170/ton by 2030",
+      "FR": "Augmenter la taxe sur le carbone à 170 $/tonne d'ici 2030"
     },
     "references": [
       {
@@ -960,8 +960,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Quarterly carbon tax payments back to individuals",
-      "fr": "Faire passer les paiements de l'incitation à l'action climatique d'un crédit remboursable via la déclaration de revenus à des paiements trimestriels"
+      "EN": "Quarterly carbon tax payments back to individuals",
+      "FR": "Faire passer les paiements de l'incitation à l'action climatique d'un crédit remboursable via la déclaration de revenus à des paiements trimestriels"
     },
     "references": [
       {
@@ -976,8 +976,8 @@
     "topic": "Social Assistance",
     "party": "Liberal",
     "title": {
-      "en": "Make EI simpler, expand support to seasonal and gig workers",
-      "fr": "Simplifier l'assurance-emploi et étendre le soutien aux travailleurs saisonniers et aux travailleurs indépendants"
+      "EN": "Make EI simpler, expand support to seasonal and gig workers",
+      "FR": "Simplifier l'assurance-emploi et étendre le soutien aux travailleurs saisonniers et aux travailleurs indépendants"
     },
     "references": [
       {
@@ -992,8 +992,8 @@
     "topic": "Social Assistance",
     "party": "Liberal",
     "title": {
-      "en": "Expand Canada Workers Benefit",
-      "fr": "Élargir la prestation des travailleurs canadiens"
+      "EN": "Expand Canada Workers Benefit",
+      "FR": "Élargir la prestation des travailleurs canadiens"
     },
     "references": [
       {
@@ -1008,8 +1008,8 @@
     "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
-      "en": "Improve labour protections for gig workers",
-      "fr": "Améliorer les protections du travail pour les travailleurs indépendants"
+      "EN": "Improve labour protections for gig workers",
+      "FR": "Améliorer les protections du travail pour les travailleurs indépendants"
     },
     "references": [
       {
@@ -1024,8 +1024,8 @@
     "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
-      "en": "Establish a Black-led Philanthropic Endowment Fund",
-      "fr": "Créer un fonds de dotation philanthropique dirigé par des Noirs"
+      "EN": "Establish a Black-led Philanthropic Endowment Fund",
+      "FR": "Créer un fonds de dotation philanthropique dirigé par des Noirs"
     },
     "references": [
       {
@@ -1040,8 +1040,8 @@
     "topic": "Economy",
     "party": "Liberal",
     "title": {
-      "en": "Implement tax on digital services",
-      "fr": "Mettre en place une taxe sur les services numériques"
+      "EN": "Implement tax on digital services",
+      "FR": "Mettre en place une taxe sur les services numériques"
     },
     "references": [
       {
@@ -1057,8 +1057,8 @@
     "topic": "Infrastructure",
     "party": "Conservative",
     "title": {
-      "en": "Shut down the Canada Infrastructure Bank",
-      "fr": "Fermer la Banque canadienne d'infrastructure"
+      "EN": "Shut down the Canada Infrastructure Bank",
+      "FR": "Fermer la Banque canadienne d'infrastructure"
     },
     "references": [
       {
@@ -1073,8 +1073,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Exempt Canadian companies from stock option deduction cap",
-      "fr": "Exempter les entreprises canadiennes du plafond de déduction des options d'achat d'actions"
+      "EN": "Exempt Canadian companies from stock option deduction cap",
+      "FR": "Exempter les entreprises canadiennes du plafond de déduction des options d'achat d'actions"
     },
     "references": [
       {
@@ -1096,8 +1096,8 @@
     "topic": "Science",
     "party": "Liberal",
     "title": {
-      "en": "Expand Industrial Research Assistance Program",
-      "fr": "Élargir le programme d'aide à la recherche industrielle"
+      "EN": "Expand Industrial Research Assistance Program",
+      "FR": "Élargir le programme d'aide à la recherche industrielle"
     },
     "references": [
       {
@@ -1112,8 +1112,8 @@
     "topic": "Science",
     "party": "Liberal",
     "title": {
-      "en": "Fund Strategic Innovation Fund",
-      "fr": "Fonds d'innovation stratégique"
+      "EN": "Fund Strategic Innovation Fund",
+      "FR": "Fonds d'innovation stratégique"
     },
     "references": [
       {
@@ -1128,8 +1128,8 @@
     "topic": "Science",
     "party": "Liberal",
     "title": {
-      "en": "Create National Institute for Women’s Health Research",
-      "fr": "Créer l'Institut national de recherche sur la santé des femmes"
+      "EN": "Create National Institute for Women’s Health Research",
+      "FR": "Créer l'Institut national de recherche sur la santé des femmes"
     },
     "references": [
       {
@@ -1144,8 +1144,8 @@
     "topic": "Housing",
     "party": "Conservative",
     "title": {
-      "en": "Require municipalities to increase density near the funded transit",
-      "fr": "Créer l'Institut national de recherche sur la santé des femmes"
+      "EN": "Require municipalities to increase density near the funded transit",
+      "FR": "Créer l'Institut national de recherche sur la santé des femmes"
     },
     "references": [
       {
@@ -1160,8 +1160,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Rent-to-own program",
-      "fr": "Programme de location avec option d'achat"
+      "EN": "Rent-to-own program",
+      "FR": "Programme de location avec option d'achat"
     },
     "references": [
       {
@@ -1176,8 +1176,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Double the Home Buyers’ Tax Credit",
-      "fr": "Doublez le crédit d'impôt pour l'achat d'une maison"
+      "EN": "Double the Home Buyers’ Tax Credit",
+      "FR": "Doublez le crédit d'impôt pour l'achat d'une maison"
     },
     "references": [
       {
@@ -1192,8 +1192,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "1% tax on non-resident, non-Canadian owned residential real estate that is vacant or underused",
-      "fr": "Taxe de 1 % sur les biens immobiliers résidentiels vacants ou sous-utilisés appartenant à des non-résidents et à des non-Canadiens"
+      "EN": "1% tax on non-resident, non-Canadian owned residential real estate that is vacant or underused",
+      "FR": "Taxe de 1 % sur les biens immobiliers résidentiels vacants ou sous-utilisés appartenant à des non-résidents et à des non-Canadiens"
     },
     "references": [
       {
@@ -1208,8 +1208,8 @@
     "topic": "Economy",
     "party": "Liberal",
     "title": {
-      "en": "Tax on luxury goods",
-      "fr": "Taxe sur les produits de luxe"
+      "EN": "Tax on luxury goods",
+      "FR": "Taxe sur les produits de luxe"
     },
     "references": [
       {
@@ -1224,8 +1224,8 @@
     "topic": "Government",
     "party": "Liberal",
     "title": {
-      "en": "Increase cost of tobacco and vaping products",
-      "fr": "Augmenter le coût des produits du tabac et du vapotage"
+      "EN": "Increase cost of tobacco and vaping products",
+      "FR": "Augmenter le coût des produits du tabac et du vapotage"
     },
     "references": [
       {
@@ -1240,8 +1240,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Increase sickness benefits from 15 weeks to 26 weeks",
-      "fr": "Augmenter les prestations de maladie de 15 à 26 semaines"
+      "EN": "Increase sickness benefits from 15 weeks to 26 weeks",
+      "FR": "Augmenter les prestations de maladie de 15 à 26 semaines"
     },
     "references": [
       {
@@ -1256,8 +1256,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Universal pharmacare",
-      "fr": "Assurance-médicaments universelle"
+      "EN": "Universal pharmacare",
+      "FR": "Assurance-médicaments universelle"
     },
     "references": [
       {
@@ -1272,8 +1272,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Independent oversight and accountability for sexual harassment and assault in the military",
-      "fr": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
+      "EN": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "FR": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
     },
     "references": [
       {
@@ -1288,8 +1288,8 @@
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Electoral reform before next election",
-      "fr": "Réforme électorale avant les prochaines élections"
+      "EN": "Electoral reform before next election",
+      "FR": "Réforme électorale avant les prochaines élections"
     },
     "references": [
       {
@@ -1304,8 +1304,8 @@
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Update anti-corruption laws",
-      "fr": "Mettre à jour les lois anti-corruption"
+      "EN": "Update anti-corruption laws",
+      "FR": "Mettre à jour les lois anti-corruption"
     },
     "references": [
       {
@@ -1320,8 +1320,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "$4 billion top-up to Canada Health Transfer",
-      "fr": "Complément de 4 milliards de dollars au Transfert canadien en matière de santé"
+      "EN": "$4 billion top-up to Canada Health Transfer",
+      "FR": "Complément de 4 milliards de dollars au Transfert canadien en matière de santé"
     },
     "references": [
       {
@@ -1336,8 +1336,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Develop and fund national mental health service standards across the country",
-      "fr": "L'ASPC va élaborer des normes nationales de services de santé mentale"
+      "EN": "Develop and fund national mental health service standards across the country",
+      "FR": "L'ASPC va élaborer des normes nationales de services de santé mentale"
     },
     "references": [
       {
@@ -1358,8 +1358,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Remove charity status for anti-abortion organizations",
-      "fr": "Retirer le statut d'organisme de bienfaisance aux organisations anti-avortement"
+      "EN": "Remove charity status for anti-abortion organizations",
+      "FR": "Retirer le statut d'organisme de bienfaisance aux organisations anti-avortement"
     },
     "references": [
       {
@@ -1374,8 +1374,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Cover mental health costs of veterans waiting for benefits",
-      "fr": "Couvrir les frais de santé mentale des anciens combattants en attendant les avantages"
+      "EN": "Cover mental health costs of veterans waiting for benefits",
+      "FR": "Couvrir les frais de santé mentale des anciens combattants en attendant les avantages"
     },
     "references": [
       {
@@ -1390,8 +1390,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Increase the home accessibility tax credit to $20,000",
-      "fr": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20&nbsp;000&nbsp;$"
+      "EN": "Increase the home accessibility tax credit to $20,000",
+      "FR": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20&nbsp;000&nbsp;$"
     },
     "references": [
       {
@@ -1406,8 +1406,8 @@
     "topic": "Social Assistance",
     "party": "Liberal",
     "title": {
-      "en": "Increase OAS by 10% for those 75+, indexed to inflation",
-      "fr": "Augmenter la SV de 10&nbsp;% pour les personnes de plus de 75&nbsp;ans, indexée à l'inflation"
+      "EN": "Increase OAS by 10% for those 75+, indexed to inflation",
+      "FR": "Augmenter la SV de 10&nbsp;% pour les personnes de plus de 75&nbsp;ans, indexée à l'inflation"
     },
     "references": [
       {
@@ -1422,8 +1422,8 @@
     "topic": "International Trade",
     "party": "Liberal",
     "title": {
-      "en": "Border carbon adjustments",
-      "fr": "Ajustements du carbone aux frontières"
+      "EN": "Border carbon adjustments",
+      "FR": "Ajustements du carbone aux frontières"
     },
     "references": [
       {
@@ -1438,8 +1438,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Cut income taxes by 50% for manufacturers of zero-emissions technologies",
-      "fr": "Réduire de 50&nbsp;% le taux d'imposition sur le revenu pour les fabricants de technologies à émissions nulles"
+      "EN": "Cut income taxes by 50% for manufacturers of zero-emissions technologies",
+      "FR": "Réduire de 50&nbsp;% le taux d'imposition sur le revenu pour les fabricants de technologies à émissions nulles"
     },
     "references": [
       {
@@ -1454,8 +1454,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Tax credit for investments in carbon capture, utilization & storage projects",
-      "fr": "Crédit d'impôt pour les investissements dans des projets de capture, d'utilisation et de stockage du carbone"
+      "EN": "Tax credit for investments in carbon capture, utilization & storage projects",
+      "FR": "Crédit d'impôt pour les investissements dans des projets de capture, d'utilisation et de stockage du carbone"
     },
     "references": [
       {
@@ -1476,8 +1476,8 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "Tax credit for investments in carbon capture, utilization & storage projects",
-      "fr": "Crédit d'impôt pour les investissements dans des projets de capture, d'utilisation et de stockage du carbone"
+      "EN": "Tax credit for investments in carbon capture, utilization & storage projects",
+      "FR": "Crédit d'impôt pour les investissements dans des projets de capture, d'utilisation et de stockage du carbone"
     },
     "references": [
       {
@@ -1492,8 +1492,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Interest-free loans up to $40,000 for deep retrofits of homes",
-      "fr": "Prêts sans intérêt jusqu'à 40&nbsp;000&nbsp;dollars pour des améliorations profondes des logements"
+      "EN": "Interest-free loans up to $40,000 for deep retrofits of homes",
+      "FR": "Prêts sans intérêt jusqu'à 40&nbsp;000&nbsp;dollars pour des améliorations profondes des logements"
     },
     "references": [
       {
@@ -1508,8 +1508,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "End chronic homelessness in Canada",
-      "fr": "Mettre fin à l'itinérance chronique au Canada"
+      "EN": "End chronic homelessness in Canada",
+      "FR": "Mettre fin à l'itinérance chronique au Canada"
     },
     "references": [
       {
@@ -1524,8 +1524,8 @@
     "topic": "Indigenous Relations",
     "party": "Liberal",
     "title": {
-      "en": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
-      "fr": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
+      "EN": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
+      "FR": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
     },
     "references": [
       {
@@ -1540,8 +1540,8 @@
     "topic": "Indigenous Relations",
     "party": "Liberal",
     "title": {
-      "en": "$18 billion investment in Indigenous communities",
-      "fr": "18 milliards de dollars d'investissement dans les communautés indigènes"
+      "EN": "$18 billion investment in Indigenous communities",
+      "FR": "18 milliards de dollars d'investissement dans les communautés indigènes"
     },
     "references": [
       {
@@ -1556,8 +1556,8 @@
     "topic": "Child Care",
     "party": "Liberal",
     "title": {
-      "en": "Universal $10/day child-care",
-      "fr": "Garde d'enfants universelle à 10 $/jour"
+      "EN": "Universal $10/day child-care",
+      "FR": "Garde d'enfants universelle à 10 $/jour"
     },
     "references": [
       {
@@ -1573,8 +1573,8 @@
     "topic": "Education",
     "party": "Liberal",
     "title": {
-      "en": "Remove interest on Canada Student Loans and Canada Apprentice Loans",
-      "fr": "Suppression des intérêts sur les prêts canadiens aux étudiants et les prêts canadiens aux apprentis"
+      "EN": "Remove interest on Canada Student Loans and Canada Apprentice Loans",
+      "FR": "Suppression des intérêts sur les prêts canadiens aux étudiants et les prêts canadiens aux apprentis"
     },
     "references": [
       {
@@ -1595,8 +1595,8 @@
     "topic": "Education",
     "party": "Liberal",
     "title": {
-      "en": "Increase threshold for repayment assistance on federal student loans to $40,000 for borrowers living alone",
-      "fr": "Augmenter le seuil de l'aide au remboursement des prêts étudiants fédéraux à 40&nbsp;000&nbsp;$ pour les emprunteurs vivant seuls"
+      "EN": "Increase threshold for repayment assistance on federal student loans to $40,000 for borrowers living alone",
+      "FR": "Augmenter le seuil de l'aide au remboursement des prêts étudiants fédéraux à 40&nbsp;000&nbsp;$ pour les emprunteurs vivant seuls"
     },
     "references": [
       {
@@ -1611,8 +1611,8 @@
     "topic": "Education",
     "party": "Liberal",
     "title": {
-      "en": "Allow individuals to use current year’s income for Canada Student Grant eligibility",
-      "fr": "Permettre aux particuliers d'utiliser le revenu de l'année en cours pour l'admissibilité aux subventions canadiennes pour étudiants"
+      "EN": "Allow individuals to use current year’s income for Canada Student Grant eligibility",
+      "FR": "Permettre aux particuliers d'utiliser le revenu de l'année en cours pour l'admissibilité aux subventions canadiennes pour étudiants"
     },
     "references": [
       {
@@ -1627,8 +1627,8 @@
     "topic": "Education",
     "party": "Liberal",
     "title": {
-      "en": "Increase student wage subsidy to $7,500 per student",
-      "fr": "Augmenter la subvention salariale des étudiants à 7 500 $ par étudiant"
+      "EN": "Increase student wage subsidy to $7,500 per student",
+      "FR": "Augmenter la subvention salariale des étudiants à 7 500 $ par étudiant"
     },
     "references": [
       {
@@ -1643,8 +1643,8 @@
     "topic": "Infrastructure",
     "party": "Liberal",
     "title": {
-      "en": "Provide 98% of the country with high-speed broadband by 2026 and 100% by 2030",
-      "fr": "Fournir 98&nbsp;% du pays en haut débit d'ici 2026 et 100&nbsp;% d'ici 2030"
+      "EN": "Provide 98% of the country with high-speed broadband by 2026 and 100% by 2030",
+      "FR": "Fournir 98&nbsp;% du pays en haut débit d'ici 2026 et 100&nbsp;% d'ici 2030"
     },
     "references": [
       {
@@ -1659,8 +1659,8 @@
     "topic": "Immigration",
     "party": "Liberal",
     "title": {
-      "en": "Resettle 40,000 refugees from Afghanistan",
-      "fr": "Réinstaller 40&nbsp;000&nbsp;réfugiés d'Afghanistan"
+      "EN": "Resettle 40,000 refugees from Afghanistan",
+      "FR": "Réinstaller 40&nbsp;000&nbsp;réfugiés d'Afghanistan"
     },
     "references": [
       {
@@ -1675,8 +1675,8 @@
     "topic": "Civil Rights",
     "party": "Conservative",
     "title": {
-      "en": "Apply Quebec's religious symbols ban for government employees to federally-regulated workplaces in Quebec",
-      "fr": "Appliquer l'interdiction des symboles religieux du Québec pour les employés du gouvernement aux lieux de travail sous réglementation fédérale au Québec"
+      "EN": "Apply Quebec's religious symbols ban for government employees to federally-regulated workplaces in Quebec",
+      "FR": "Appliquer l'interdiction des symboles religieux du Québec pour les employés du gouvernement aux lieux de travail sous réglementation fédérale au Québec"
     },
     "references": [
       {
@@ -1697,8 +1697,8 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "Increase the annual growth rate of the Canada Health Transfer to at least 6%",
-      "fr": "Faire passer le taux de croissance annuel du Transfert canadien en matière de santé à au moins 6&nbsp;%"
+      "EN": "Increase the annual growth rate of the Canada Health Transfer to at least 6%",
+      "FR": "Faire passer le taux de croissance annuel du Transfert canadien en matière de santé à au moins 6&nbsp;%"
     },
     "references": [
       {
@@ -1713,8 +1713,8 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "Merge Canadian Armed Forces (CAF) and Veterans Affairs Canada (VAC) into one system of benefits",
-      "fr": "Fusionner les Forces armées canadiennes (FAC) et Anciens Combattants Canada (ACC) en un seul système d'avantages, de l'enrôlement à la retraite, en passant par le service"
+      "EN": "Merge Canadian Armed Forces (CAF) and Veterans Affairs Canada (VAC) into one system of benefits",
+      "FR": "Fusionner les Forces armées canadiennes (FAC) et Anciens Combattants Canada (ACC) en un seul système d'avantages, de l'enrôlement à la retraite, en passant par le service"
     },
     "references": [
       {
@@ -1729,8 +1729,8 @@
     "topic": "Healthcare",
     "party": "Conservative",
     "title": {
-      "en": "$3 billion over three years to renovate Long-Term Care Homes",
-      "fr": "3 milliards de dollars sur trois&nbsp;ans pour rénover les foyers de soins de longue durée"
+      "EN": "$3 billion over three years to renovate Long-Term Care Homes",
+      "FR": "3 milliards de dollars sur trois&nbsp;ans pour rénover les foyers de soins de longue durée"
     },
     "references": [
       {
@@ -1745,8 +1745,8 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Double the residency deduction, increase the basic amount in the intermediate zone for Northern residents",
-      "fr": "Doubler la déduction pour résidence, augmenter le montant de base dans la zone intermédiaire pour les résidents du Nord"
+      "EN": "Double the residency deduction, increase the basic amount in the intermediate zone for Northern residents",
+      "FR": "Doubler la déduction pour résidence, augmenter le montant de base dans la zone intermédiaire pour les résidents du Nord"
     },
     "references": [
       {
@@ -1761,8 +1761,8 @@
     "topic": "Social Assistance",
     "party": "Conservative",
     "title": {
-      "en": "Reduce hours required to qualify for the Disability Tax Credit and the Registered Disability Savings Plan",
-      "fr": "Réduire le nombre d'heures requises pour être admissible au crédit d'impôt pour personnes handicapées et au régime enregistré d'épargne-invalidité"
+      "EN": "Reduce hours required to qualify for the Disability Tax Credit and the Registered Disability Savings Plan",
+      "FR": "Réduire le nombre d'heures requises pour être admissible au crédit d'impôt pour personnes handicapées et au régime enregistré d'épargne-invalidité"
     },
     "references": [
       {
@@ -1777,8 +1777,8 @@
     "topic": "International Trade",
     "party": "Conservative",
     "title": {
-      "en": "End ban on Canadian oil export shipping traffic on British Columbia's coast",
-      "fr": "Mettre fin à l'interdiction du trafic maritime d'exportation de pétrole canadien sur la côte de la Colombie-Britannique"
+      "EN": "End ban on Canadian oil export shipping traffic on British Columbia's coast",
+      "FR": "Mettre fin à l'interdiction du trafic maritime d'exportation de pétrole canadien sur la côte de la Colombie-Britannique"
     },
     "references": [
       {
@@ -1793,8 +1793,8 @@
     "topic": "Foreign Policy",
     "party": "Conservative",
     "title": {
-      "en": "Recognize the Uyghur genocide",
-      "fr": "Reconnaître le génocide ouïghour"
+      "EN": "Recognize the Uyghur genocide",
+      "FR": "Reconnaître le génocide ouïghour"
     },
     "references": [
       {
@@ -1809,8 +1809,8 @@
     "topic": "Indigenous Relations",
     "party": "Conservative",
     "title": {
-      "en": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
-      "fr": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
+      "EN": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
+      "FR": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
     },
     "references": [
       {
@@ -1838,8 +1838,8 @@
     "topic": "Indigenous Relations",
     "party": "Conservative",
     "title": {
-      "en": "Increase funding for Indigenous mental health and drug treatment programs",
-      "fr": "Accroître le financement des programmes indigènes de santé mentale et de traitement de la toxicomanie"
+      "EN": "Increase funding for Indigenous mental health and drug treatment programs",
+      "FR": "Accroître le financement des programmes indigènes de santé mentale et de traitement de la toxicomanie"
     },
     "references": [
       {
@@ -1854,8 +1854,8 @@
     "topic": "Indigenous Relations",
     "party": "Conservative",
     "title": {
-      "en": "Create Canadian Indigenous Enterprise Corporation",
-      "fr": "Créer la Societé canadienne autochtone"
+      "EN": "Create Canadian Indigenous Enterprise Corporation",
+      "FR": "Créer la Societé canadienne autochtone"
     },
     "references": [
       {
@@ -1870,8 +1870,8 @@
     "topic": "Arts and Culture",
     "party": "Conservative",
     "title": {
-      "en": "Review the mandate of CBC English Television, CBC News Network and CBC English online news",
-      "fr": "Revoir le mandat de CBC English Television, CBC News Network et CBC English online news"
+      "EN": "Review the mandate of CBC English Television, CBC News Network and CBC English online news",
+      "FR": "Revoir le mandat de CBC English Television, CBC News Network et CBC English online news"
     },
     "references": [
       {
@@ -1886,8 +1886,8 @@
     "topic": "Arts and Culture",
     "party": "Conservative",
     "title": {
-      "en": "Introduce a digital media royalty framework",
-      "fr": "Introduire un cadre de redevances pour les médias numériques"
+      "EN": "Introduce a digital media royalty framework",
+      "FR": "Introduire un cadre de redevances pour les médias numériques"
     },
     "references": [
       {
@@ -1902,8 +1902,8 @@
     "topic": "Immigration",
     "party": "Conservative",
     "title": {
-      "en": "Allow individuals to pay for expedited processing of immigration applications",
-      "fr": "Permettre aux individus de payer pour le traitement accéléré des demandes d'immigration"
+      "EN": "Allow individuals to pay for expedited processing of immigration applications",
+      "FR": "Permettre aux individus de payer pour le traitement accéléré des demandes d'immigration"
     },
     "references": [
       {
@@ -1918,8 +1918,8 @@
     "topic": "Immigration",
     "party": "Conservative",
     "title": {
-      "en": "Expand super visa program",
-      "fr": "Élargir le programme de super visa"
+      "EN": "Expand super visa program",
+      "FR": "Élargir le programme de super visa"
     },
     "references": [
       {
@@ -1934,8 +1934,8 @@
     "topic": "Immigration",
     "party": "Conservative",
     "title": {
-      "en": "Allow employers to sponsor applications for permanent residency",
-      "fr": "Permettre aux employeurs de parrainer les demandes de résidence permanente"
+      "EN": "Allow employers to sponsor applications for permanent residency",
+      "FR": "Permettre aux employeurs de parrainer les demandes de résidence permanente"
     },
     "references": [
       {
@@ -1950,8 +1950,8 @@
     "topic": "Immigration",
     "party": "Conservative",
     "title": {
-      "en": "Replace all public, government-assisted refugee places with private and joint sponsorship places",
-      "fr": "Remplacer toutes les places de réfugiés publiques, assistées par le gouvernement, par des places de parrainage privé et conjoint"
+      "EN": "Replace all public, government-assisted refugee places with private and joint sponsorship places",
+      "FR": "Remplacer toutes les places de réfugiés publiques, assistées par le gouvernement, par des places de parrainage privé et conjoint"
     },
     "references": [
       {
@@ -1966,8 +1966,8 @@
     "topic": "Immigration",
     "party": "Conservative",
     "title": {
-      "en": "End illegal border crossings",
-      "fr": "Mettre fin aux franchissements illégaux des frontières"
+      "EN": "End illegal border crossings",
+      "FR": "Mettre fin aux franchissements illégaux des frontières"
     },
     "references": [
       {
@@ -1982,8 +1982,8 @@
     "topic": "Immigration",
     "party": "Conservative",
     "title": {
-      "en": "Ensure that a higher proportion of immigrants settling in Quebec speak French",
-      "fr": "S'assurer qu'une plus grande proportion des immigrants qui s'installent au Québec parlent français"
+      "EN": "Ensure that a higher proportion of immigrants settling in Quebec speak French",
+      "FR": "S'assurer qu'une plus grande proportion des immigrants qui s'installent au Québec parlent français"
     },
     "references": [
       {
@@ -1998,8 +1998,8 @@
     "topic": "Economy",
     "party": "NDP",
     "title": {
-      "en": "Cap merchant credit card fees at 1%",
-      "fr": "Plafonner les frais de carte de crédit des commerçants à 1&nbsp;%"
+      "EN": "Cap merchant credit card fees at 1%",
+      "FR": "Plafonner les frais de carte de crédit des commerçants à 1&nbsp;%"
     },
     "references": [
       {
@@ -2014,8 +2014,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "Build 500,000 affordable housing units in 10 years, 50% of those in 5 years",
-      "fr": "500&nbsp;000&nbsp;unités de logement abordables en 10&nbsp;ans, dont 50&nbsp;% en 5&nbsp;ans"
+      "EN": "Build 500,000 affordable housing units in 10 years, 50% of those in 5 years",
+      "FR": "500&nbsp;000&nbsp;unités de logement abordables en 10&nbsp;ans, dont 50&nbsp;% en 5&nbsp;ans"
     },
     "references": [
       {
@@ -2030,8 +2030,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "Allow 30-year mortgages on entry-level homes for first time home buyers",
-      "fr": "Permettre des hypothèques de 30&nbsp;ans sur les maisons d'entrée de gamme pour les acheteurs d'une première maison"
+      "EN": "Allow 30-year mortgages on entry-level homes for first time home buyers",
+      "FR": "Permettre des hypothèques de 30&nbsp;ans sur les maisons d'entrée de gamme pour les acheteurs d'une première maison"
     },
     "references": [
       {
@@ -2046,8 +2046,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "20% tax on real estate purchased by foreign buyers",
-      "fr": "Taxe de 20 % sur les biens immobiliers achetés par des acheteurs étrangers"
+      "EN": "20% tax on real estate purchased by foreign buyers",
+      "FR": "Taxe de 20 % sur les biens immobiliers achetés par des acheteurs étrangers"
     },
     "references": [
       {
@@ -2062,8 +2062,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "Double the Home Buyers’ Tax Credit",
-      "fr": "Doublez le crédit d'impôt pour l'achat d'une maison"
+      "EN": "Double the Home Buyers’ Tax Credit",
+      "FR": "Doublez le crédit d'impôt pour l'achat d'une maison"
     },
     "references": [
       {
@@ -2078,8 +2078,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "First-home savings account for Canadians under 40",
-      "fr": "Compte d'épargne pour la première maison pour les Canadiens de moins de 40 ans"
+      "EN": "First-home savings account for Canadians under 40",
+      "FR": "Compte d'épargne pour la première maison pour les Canadiens de moins de 40 ans"
     },
     "references": [
       {
@@ -2094,8 +2094,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "End homelessness in Canada within 10 years",
-      "fr": "Mettre fin à l'itinérance au Canada d'ici 10&nbsp;ans"
+      "EN": "End homelessness in Canada within 10 years",
+      "FR": "Mettre fin à l'itinérance au Canada d'ici 10&nbsp;ans"
     },
     "references": [
       {
@@ -2110,8 +2110,8 @@
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Restore door-to-door mail delivery",
-      "fr": "Rétablir la distribution du courrier en porte-à-porte"
+      "EN": "Restore door-to-door mail delivery",
+      "FR": "Rétablir la distribution du courrier en porte-à-porte"
     },
     "references": [
       {
@@ -2126,8 +2126,8 @@
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Ensure Supreme Court justices are bilingual",
-      "fr": "Veiller à ce que les juges de la Cour suprême soient bilingues"
+      "EN": "Ensure Supreme Court justices are bilingual",
+      "FR": "Veiller à ce que les juges de la Cour suprême soient bilingues"
     },
     "references": [
       {
@@ -2142,8 +2142,8 @@
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Abolish the Senate",
-      "fr": "Abolir le Sénat"
+      "EN": "Abolish the Senate",
+      "FR": "Abolir le Sénat"
     },
     "references": [
       {
@@ -2158,8 +2158,8 @@
     "topic": "Government",
     "party": "NDP",
     "title": {
-      "en": "Ensure taxpayer-funded government advertising is non-partisan",
-      "fr": "Veiller à ce que la publicité gouvernementale financée par les contribuables soit non partisane"
+      "EN": "Ensure taxpayer-funded government advertising is non-partisan",
+      "FR": "Veiller à ce que la publicité gouvernementale financée par les contribuables soit non partisane"
     },
     "references": [
       {
@@ -2174,8 +2174,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Increase sickness benefits from 15 weeks to 50 weeks",
-      "fr": "Faire passer les prestations de maladie de 15 à 50 semaines"
+      "EN": "Increase sickness benefits from 15 weeks to 50 weeks",
+      "FR": "Faire passer les prestations de maladie de 15 à 50 semaines"
     },
     "references": [
       {
@@ -2190,8 +2190,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Universal pharmacare",
-      "fr": "Assurance-médicaments universelle"
+      "EN": "Universal pharmacare",
+      "FR": "Assurance-médicaments universelle"
     },
     "references": [
       {
@@ -2206,8 +2206,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Independent oversight and accountability for sexual harassment and assault in the military",
-      "fr": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
+      "EN": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "FR": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
     },
     "references": [
       {
@@ -2222,8 +2222,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "End private, for-profit long-term care",
-      "fr": "Mettre fin aux soins de longue durée privés et à but lucratif"
+      "EN": "End private, for-profit long-term care",
+      "FR": "Mettre fin aux soins de longue durée privés et à but lucratif"
     },
     "references": [
       {
@@ -2238,8 +2238,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Provide mental health care for uninsured Canadians",
-      "fr": "Fournir des soins de santé mentale aux Canadiens non assurés"
+      "EN": "Provide mental health care for uninsured Canadians",
+      "FR": "Fournir des soins de santé mentale aux Canadiens non assurés"
     },
     "references": [
       {
@@ -2254,8 +2254,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Ensure all provinces make medical and surgical abortion available in all parts of the country",
-      "fr": "Veiller à ce que toutes les provinces rendent l'avortement médical et chirurgical disponible dans toutes les régions du pays"
+      "EN": "Ensure all provinces make medical and surgical abortion available in all parts of the country",
+      "FR": "Veiller à ce que toutes les provinces rendent l'avortement médical et chirurgical disponible dans toutes les régions du pays"
     },
     "references": [
       {
@@ -2270,8 +2270,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Ensure prescription contraceptive and reproductive health care options are easily accessible at no cost",
-      "fr": "Veiller à ce que les options de contraception sur ordonnance et de soins de santé génésique soient facilement accessibles sans frais"
+      "EN": "Ensure prescription contraceptive and reproductive health care options are easily accessible at no cost",
+      "FR": "Veiller à ce que les options de contraception sur ordonnance et de soins de santé génésique soient facilement accessibles sans frais"
     },
     "references": [
       {
@@ -2286,8 +2286,8 @@
     "topic": "Social Assistance",
     "party": "NDP",
     "title": {
-      "en": "Make EI more accessible",
-      "fr": "Rendre l'assurance-emploi plus accessible"
+      "EN": "Make EI more accessible",
+      "FR": "Rendre l'assurance-emploi plus accessible"
     },
     "references": [
       {
@@ -2302,8 +2302,8 @@
     "topic": "Social Assistance",
     "party": "NDP",
     "title": {
-      "en": "Allow parents to take shorter parental leave at a higher replacement rate",
-      "fr": "Permettre aux parents de prendre un congé parental plus court à un taux de remplacement plus élevé"
+      "EN": "Allow parents to take shorter parental leave at a higher replacement rate",
+      "FR": "Permettre aux parents de prendre un congé parental plus court à un taux de remplacement plus élevé"
     },
     "references": [
       {
@@ -2318,8 +2318,8 @@
     "topic": "Social Assistance",
     "party": "NDP",
     "title": {
-      "en": "Allow self-employed workers to opt-into parental benefits at any time before taking their leave",
-      "fr": "Permettre aux travailleurs indépendants d'opter pour les prestations parentales à tout moment avant de prendre leur congé"
+      "EN": "Allow self-employed workers to opt-into parental benefits at any time before taking their leave",
+      "FR": "Permettre aux travailleurs indépendants d'opter pour les prestations parentales à tout moment avant de prendre leur congé"
     },
     "references": [
       {
@@ -2334,8 +2334,8 @@
     "topic": "Social Assistance",
     "party": "NDP",
     "title": {
-      "en": "Guaranteed livable income for all Canadians, starting with every senior and person living with a disability",
-      "fr": "Un revenu vital garanti pour tous les Canadiens, à commencer par toutes les personnes âgées et les personnes handicapées"
+      "EN": "Guaranteed livable income for all Canadians, starting with every senior and person living with a disability",
+      "FR": "Un revenu vital garanti pour tous les Canadiens, à commencer par toutes les personnes âgées et les personnes handicapées"
     },
     "references": [
       {
@@ -2350,8 +2350,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Permanent paid sick leave",
-      "fr": "Congé de maladie permanent rémunéré"
+      "EN": "Permanent paid sick leave",
+      "FR": "Congé de maladie permanent rémunéré"
     },
     "references": [
       {
@@ -2366,8 +2366,8 @@
     "topic": "Social Assistance",
     "party": "NDP",
     "title": {
-      "en": "Make automatic enrolment in OAS and GIS retroactive",
-      "fr": "Rendre rétroactive l'inscription automatique à la SV et au SRG"
+      "EN": "Make automatic enrolment in OAS and GIS retroactive",
+      "FR": "Rendre rétroactive l'inscription automatique à la SV et au SRG"
     },
     "references": [
       {
@@ -2382,8 +2382,8 @@
     "topic": "Social Assistance",
     "party": "NDP",
     "title": {
-      "en": "Make the Canadian Caregiver Tax Credit refundable",
-      "fr": "Rendre le crédit d'impôt canadien pour aidants naturels remboursable"
+      "EN": "Make the Canadian Caregiver Tax Credit refundable",
+      "FR": "Rendre le crédit d'impôt canadien pour aidants naturels remboursable"
     },
     "references": [
       {
@@ -2398,8 +2398,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Provide 10 days of paid leave for those dealing with family and domestic violence",
-      "fr": "Prévoir 10 jours de congé payé pour les personnes confrontées à la violence familiale et domestique"
+      "EN": "Provide 10 days of paid leave for those dealing with family and domestic violence",
+      "FR": "Prévoir 10 jours de congé payé pour les personnes confrontées à la violence familiale et domestique"
     },
     "references": [
       {
@@ -2414,8 +2414,8 @@
     "topic": "International Trade",
     "party": "NDP",
     "title": {
-      "en": "Border carbon adjustments",
-      "fr": "Ajustements du carbone aux frontières"
+      "EN": "Border carbon adjustments",
+      "FR": "Ajustements du carbone aux frontières"
     },
     "references": [
       {
@@ -2430,8 +2430,8 @@
     "topic": "International Trade",
     "party": "NDP",
     "title": {
-      "en": "Give trade unions ability to initiate trade disputes",
-      "fr": "Donner aux syndicats la capacité d'initier des conflits commerciaux"
+      "EN": "Give trade unions ability to initiate trade disputes",
+      "FR": "Donner aux syndicats la capacité d'initier des conflits commerciaux"
     },
     "references": [
       {
@@ -2446,8 +2446,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Protect 30% of Canada's lands and waters by 2030",
-      "fr": "Protéger 30&nbsp;% des terres et des eaux du Canada d'ici 2030"
+      "EN": "Protect 30% of Canada's lands and waters by 2030",
+      "FR": "Protéger 30&nbsp;% des terres et des eaux du Canada d'ici 2030"
     },
     "references": [
       {
@@ -2462,8 +2462,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Ban on single-use plastics",
-      "fr": "Interdiction des plastiques à usage unique"
+      "EN": "Ban on single-use plastics",
+      "FR": "Interdiction des plastiques à usage unique"
     },
     "references": [
       {
@@ -2478,8 +2478,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Improve plastic recycling",
-      "fr": "Améliorer le recyclage des plastiques"
+      "EN": "Improve plastic recycling",
+      "FR": "Améliorer le recyclage des plastiques"
     },
     "references": [
       {
@@ -2495,8 +2495,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Eliminate fossil fuel subsidies",
-      "fr": "Éliminer les subventions aux combustibles fossiles"
+      "EN": "Eliminate fossil fuel subsidies",
+      "FR": "Éliminer les subventions aux combustibles fossiles"
     },
     "references": [
       {
@@ -2511,8 +2511,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "100% of new car sales to be zero-emissions by 2035",
-      "fr": "100&nbsp;% de toutes les ventes de voitures neuves devront être exemptes d'émissions d'ici 2035"
+      "EN": "100% of new car sales to be zero-emissions by 2035",
+      "FR": "100&nbsp;% de toutes les ventes de voitures neuves devront être exemptes d'émissions d'ici 2035"
     },
     "references": [
       {
@@ -2527,8 +2527,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Net zero electricity by 2030, 100% non-emitting electricity by 2040",
-      "fr": "Électricité nette zéro d'ici 2030, électricité 100&nbsp;% non émettrice d'ici 2040"
+      "EN": "Net zero electricity by 2030, 100% non-emitting electricity by 2040",
+      "FR": "Électricité nette zéro d'ici 2030, électricité 100&nbsp;% non émettrice d'ici 2040"
     },
     "references": [
       {
@@ -2543,8 +2543,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Ensure every new building built in Canada is net-zero by 2025",
-      "fr": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
+      "EN": "Ensure every new building built in Canada is net-zero by 2025",
+      "FR": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
     },
     "references": [
       {
@@ -2559,8 +2559,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Ban the export of plastic waste",
-      "fr": "Interdire l'exportation de déchets plastiques"
+      "EN": "Ban the export of plastic waste",
+      "FR": "Interdire l'exportation de déchets plastiques"
     },
     "references": [
       {
@@ -2575,8 +2575,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Create Civilian Climate Corps",
-      "fr": "Créer un corps civil pour le climat"
+      "EN": "Create Civilian Climate Corps",
+      "FR": "Créer un corps civil pour le climat"
     },
     "references": [
       {
@@ -2591,8 +2591,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Create a Climate Accountability Office to provide independent oversight of federal climate progress",
-      "fr": "Créer un Bureau de responsabilité climatique pour assurer une surveillance indépendante des progrès fédéraux en matière de climat"
+      "EN": "Create a Climate Accountability Office to provide independent oversight of federal climate progress",
+      "FR": "Créer un Bureau de responsabilité climatique pour assurer une surveillance indépendante des progrès fédéraux en matière de climat"
     },
     "references": [
       {
@@ -2607,8 +2607,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Environmental Bill of Rights",
-      "fr": "Charte des droits environnementaux"
+      "EN": "Environmental Bill of Rights",
+      "FR": "Charte des droits environnementaux"
     },
     "references": [
       {
@@ -2623,8 +2623,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Telecom Consumers’ Bill of Rights",
-      "fr": "Charte des droits des consommateurs de télécommunications"
+      "EN": "Telecom Consumers’ Bill of Rights",
+      "FR": "Charte des droits des consommateurs de télécommunications"
     },
     "references": [
       {
@@ -2639,8 +2639,8 @@
     "topic": "Social Assistance",
     "party": "NDP",
     "title": {
-      "en": "Compensate consumers who have been misled by financial advisors",
-      "fr": "Indemniser les consommateurs qui ont été trompés par des conseillers financiers"
+      "EN": "Compensate consumers who have been misled by financial advisors",
+      "FR": "Indemniser les consommateurs qui ont été trompés par des conseillers financiers"
     },
     "references": [
       {
@@ -2655,8 +2655,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Prevent credit and debit card companies from selling personal information",
-      "fr": "Empêcher les sociétés de cartes de crédit et de débit de vendre des informations personnelles"
+      "EN": "Prevent credit and debit card companies from selling personal information",
+      "FR": "Empêcher les sociétés de cartes de crédit et de débit de vendre des informations personnelles"
     },
     "references": [
       {
@@ -2671,8 +2671,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Protect vulnerable contract, internship, and union workers",
-      "fr": "Interdire l'utilisation de travailleurs de remplacement dans les conflits de travail"
+      "EN": "Protect vulnerable contract, internship, and union workers",
+      "FR": "Interdire l'utilisation de travailleurs de remplacement dans les conflits de travail"
     },
     "references": [
       {
@@ -2687,8 +2687,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Regulate natural health products",
-      "fr": "Réglementer les produits de santé naturels"
+      "EN": "Regulate natural health products",
+      "FR": "Réglementer les produits de santé naturels"
     },
     "references": [
       {
@@ -2703,8 +2703,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Create a safe supply of medically regulated alternatives to toxic street drugs",
-      "fr": "Créer un approvisionnement sûr en alternatives médicalement réglementées aux drogues toxiques de la rue"
+      "EN": "Create a safe supply of medically regulated alternatives to toxic street drugs",
+      "FR": "Créer un approvisionnement sûr en alternatives médicalement réglementées aux drogues toxiques de la rue"
     },
     "references": [
       {
@@ -2719,8 +2719,8 @@
     "topic": "Social Assistance",
     "party": "NDP",
     "title": {
-      "en": "Create a mandatory, industry-financed pension insurance program",
-      "fr": "Créer un programme d'assurance retraite obligatoire et financé par l'industrie"
+      "EN": "Create a mandatory, industry-financed pension insurance program",
+      "FR": "Créer un programme d'assurance retraite obligatoire et financé par l'industrie"
     },
     "references": [
       {
@@ -2735,8 +2735,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Require internet companies to take responsibility for what appears on their platform",
-      "fr": "Obliger les sociétés Internet à assumer la responsabilité de ce qui apparaît sur leur plateforme"
+      "EN": "Require internet companies to take responsibility for what appears on their platform",
+      "FR": "Obliger les sociétés Internet à assumer la responsabilité de ce qui apparaît sur leur plateforme"
     },
     "references": [
       {
@@ -2751,8 +2751,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Better enforcement and reporting on use-of-force incidents by police",
-      "fr": "Amélioration de l'application et du signalement des incidents de recours à la force par la police"
+      "EN": "Better enforcement and reporting on use-of-force incidents by police",
+      "FR": "Amélioration de l'application et du signalement des incidents de recours à la force par la police"
     },
     "references": [
       {
@@ -2767,8 +2767,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Ensure all major cities have dedicated hate crime units within local police forces",
-      "fr": "Veiller à ce que toutes les grandes villes disposent d'unités spécialisées dans les crimes haineux au sein des forces de police locales"
+      "EN": "Ensure all major cities have dedicated hate crime units within local police forces",
+      "FR": "Veiller à ce que toutes les grandes villes disposent d'unités spécialisées dans les crimes haineux au sein des forces de police locales"
     },
     "references": [
       {
@@ -2783,8 +2783,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Require employers to be transparent about pay",
-      "fr": "Obliger les employeurs à faire preuve de transparence en matière de rémunération"
+      "EN": "Require employers to be transparent about pay",
+      "FR": "Obliger les employeurs à faire preuve de transparence en matière de rémunération"
     },
     "references": [
       {
@@ -2799,8 +2799,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Ban conversion therapy",
-      "fr": "Interdire la thérapie de conversion"
+      "EN": "Ban conversion therapy",
+      "FR": "Interdire la thérapie de conversion"
     },
     "references": [
       {
@@ -2815,8 +2815,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Add sexual orientation, gender identity and expression to the Employment Equity Act",
-      "fr": "Ajouter l'orientation sexuelle, l'identité et l'expression de genre à la <em>Loi sur l'équité en matière d'emploi</em>"
+      "EN": "Add sexual orientation, gender identity and expression to the Employment Equity Act",
+      "FR": "Ajouter l'orientation sexuelle, l'identité et l'expression de genre à la <em>Loi sur l'équité en matière d'emploi</em>"
     },
     "references": [
       {
@@ -2831,8 +2831,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "National standards for identifying and recording all hate incidents",
-      "fr": "Normes nationales pour l'identification et l'enregistrement de tous les incidents de haine"
+      "EN": "National standards for identifying and recording all hate incidents",
+      "FR": "Normes nationales pour l'identification et l'enregistrement de tous les incidents de haine"
     },
     "references": [
       {
@@ -2847,8 +2847,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Ban carding by RCMP",
-      "fr": "Interdiction des brevets par la GRC"
+      "EN": "Ban carding by RCMP",
+      "FR": "Interdiction des brevets par la GRC"
     },
     "references": [
       {
@@ -2863,8 +2863,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Proactively expunge criminal records for Canadians convicted of minor cannabis possession",
-      "fr": "Annulation proactive des casiers judiciaires des Canadiens condamnés pour possession mineure de cannabis"
+      "EN": "Proactively expunge criminal records for Canadians convicted of minor cannabis possession",
+      "FR": "Annulation proactive des casiers judiciaires des Canadiens condamnés pour possession mineure de cannabis"
     },
     "references": [
       {
@@ -2879,8 +2879,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Increase federal funding for legal aid programs",
-      "fr": "Augmenter le financement fédéral des programmes d'aide juridique"
+      "EN": "Increase federal funding for legal aid programs",
+      "FR": "Augmenter le financement fédéral des programmes d'aide juridique"
     },
     "references": [
       {
@@ -2895,8 +2895,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Digital bill of privacy rights",
-      "fr": "Charte numérique des droits à la vie privée"
+      "EN": "Digital bill of privacy rights",
+      "FR": "Charte numérique des droits à la vie privée"
     },
     "references": [
       {
@@ -2911,8 +2911,8 @@
     "topic": "Foreign Policy",
     "party": "NDP",
     "title": {
-      "en": "Contribute 0.7% of our Gross National Income to international aid",
-      "fr": "Contribuer 0,7&nbsp;% de notre revenu national brut à l'aide internationale"
+      "EN": "Contribute 0.7% of our Gross National Income to international aid",
+      "FR": "Contribuer 0,7&nbsp;% de notre revenu national brut à l'aide internationale"
     },
     "references": [
       {
@@ -2927,8 +2927,8 @@
     "topic": "Foreign Policy",
     "party": "NDP",
     "title": {
-      "en": "Make sure Canadian-made weapons are not fuelling conflict and human rights abuses abroad",
-      "fr": "S'assurer que les armes fabriquées au Canada n'alimentent pas les conflits et les violations des droits de l'homme à l'étranger"
+      "EN": "Make sure Canadian-made weapons are not fuelling conflict and human rights abuses abroad",
+      "FR": "S'assurer que les armes fabriquées au Canada n'alimentent pas les conflits et les violations des droits de l'homme à l'étranger"
     },
     "references": [
       {
@@ -2943,8 +2943,8 @@
     "topic": "Foreign Policy",
     "party": "NDP",
     "title": {
-      "en": "Suspend arms sales to Israel until their withdrawal from the occupied territories",
-      "fr": "Suspendre les ventes d'armes à Israël jusqu'au retrait de ce pays des territoires occupés"
+      "EN": "Suspend arms sales to Israel until their withdrawal from the occupied territories",
+      "FR": "Suspendre les ventes d'armes à Israël jusqu'au retrait de ce pays des territoires occupés"
     },
     "references": [
       {
@@ -2959,8 +2959,8 @@
     "topic": "Indigenous Relations",
     "party": "NDP",
     "title": {
-      "en": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
-      "fr": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
+      "EN": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
+      "FR": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
     },
     "references": [
       {
@@ -2975,8 +2975,8 @@
     "topic": "Indigenous Relations",
     "party": "NDP",
     "title": {
-      "en": "Create National Council for Reconciliation to provide oversight and accountability",
-      "fr": "Création d'un Conseil national de la réconciliation pour assurer la surveillance et la responsabilité"
+      "EN": "Create National Council for Reconciliation to provide oversight and accountability",
+      "FR": "Création d'un Conseil national de la réconciliation pour assurer la surveillance et la responsabilité"
     },
     "references": [
       {
@@ -2991,8 +2991,8 @@
     "topic": "Indigenous Relations",
     "party": "NDP",
     "title": {
-      "en": "Appoint a special prosecutor to pursue those responsible for the harm caused in residential schools",
-      "fr": "Nommer un procureur spécial pour poursuivre les responsables des préjudices causés dans les pensionnats"
+      "EN": "Appoint a special prosecutor to pursue those responsible for the harm caused in residential schools",
+      "FR": "Nommer un procureur spécial pour poursuivre les responsables des préjudices causés dans les pensionnats"
     },
     "references": [
       {
@@ -3007,8 +3007,8 @@
     "topic": "Indigenous Relations",
     "party": "NDP",
     "title": {
-      "en": "Fully fund Indigenous National Housing Strategy within the first 100 days",
-      "fr": "Financer entièrement la stratégie nationale de logement autochtone dans les 100 premiers jours"
+      "EN": "Fully fund Indigenous National Housing Strategy within the first 100 days",
+      "FR": "Financer entièrement la stratégie nationale de logement autochtone dans les 100 premiers jours"
     },
     "references": [
       {
@@ -3023,8 +3023,8 @@
     "topic": "Indigenous Relations",
     "party": "NDP",
     "title": {
-      "en": "Support Indigenous-led water management training programs and water system operations",
-      "fr": "Soutenir les programmes de formation à la gestion de l'eau et l'exploitation des systèmes d'approvisionnement en eau dirigés par des autochtones"
+      "EN": "Support Indigenous-led water management training programs and water system operations",
+      "FR": "Soutenir les programmes de formation à la gestion de l'eau et l'exploitation des systèmes d'approvisionnement en eau dirigés par des autochtones"
     },
     "references": [
       {
@@ -3039,8 +3039,8 @@
     "topic": "Child Care",
     "party": "NDP",
     "title": {
-      "en": "Universal $10/day child-care",
-      "fr": "Garde d'enfants universelle à 10 $/jour"
+      "EN": "Universal $10/day child-care",
+      "FR": "Garde d'enfants universelle à 10 $/jour"
     },
     "references": [
       {
@@ -3055,8 +3055,8 @@
     "topic": "Education",
     "party": "NDP",
     "title": {
-      "en": "Work towards making post-secondary education public",
-      "fr": "Travailler à rendre l'enseignement postsecondaire public"
+      "EN": "Work towards making post-secondary education public",
+      "FR": "Travailler à rendre l'enseignement postsecondaire public"
     },
     "references": [
       {
@@ -3071,8 +3071,8 @@
     "topic": "Education",
     "party": "NDP",
     "title": {
-      "en": "Stop issuing federal student loans, double Canada Student Grants",
-      "fr": "Cesser d'émettre des prêts étudiants fédéraux, doubler les subventions canadiennes aux étudiants"
+      "EN": "Stop issuing federal student loans, double Canada Student Grants",
+      "FR": "Cesser d'émettre des prêts étudiants fédéraux, doubler les subventions canadiennes aux étudiants"
     },
     "references": [
       {
@@ -3088,8 +3088,8 @@
     "topic": "Education",
     "party": "NDP",
     "title": {
-      "en": "Change EI rules to allow workers who quit their job to go to school to qualify for EI benefits",
-      "fr": "Modifier les règles de l'assurance-emploi pour permettre aux travailleurs qui quittent leur emploi pour aller à l'école d'être admissibles aux prestations d'assurance-emploi"
+      "EN": "Change EI rules to allow workers who quit their job to go to school to qualify for EI benefits",
+      "FR": "Modifier les règles de l'assurance-emploi pour permettre aux travailleurs qui quittent leur emploi pour aller à l'école d'être admissibles aux prestations d'assurance-emploi"
     },
     "references": [
       {
@@ -3104,8 +3104,8 @@
     "topic": "Education",
     "party": "NDP",
     "title": {
-      "en": "Require large employers to spend at least 1% of payroll on training for their employees annually",
-      "fr": "Obliger les grands employeurs à consacrer chaque année au moins 1&nbsp;% de la masse salariale à la formation de leurs employés"
+      "EN": "Require large employers to spend at least 1% of payroll on training for their employees annually",
+      "FR": "Obliger les grands employeurs à consacrer chaque année au moins 1&nbsp;% de la masse salariale à la formation de leurs employés"
     },
     "references": [
       {
@@ -3120,8 +3120,8 @@
     "topic": "Youth",
     "party": "NDP",
     "title": {
-      "en": "National school nutrition program",
-      "fr": "Programme national de nutrition scolaire"
+      "EN": "National school nutrition program",
+      "FR": "Programme national de nutrition scolaire"
     },
     "references": [
       {
@@ -3136,8 +3136,8 @@
     "topic": "Youth",
     "party": "NDP",
     "title": {
-      "en": "Lower the voting age to 16",
-      "fr": "Abaisser l'âge du droit de vote à 16&nbsp;ans"
+      "EN": "Lower the voting age to 16",
+      "FR": "Abaisser l'âge du droit de vote à 16&nbsp;ans"
     },
     "references": [
       {
@@ -3152,8 +3152,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Ensure every Canadian has access to affordable, reliable high-speed broadband internet by 2025",
-      "fr": "Veiller à ce que chaque Canadien ait accès à un service Internet à large bande abordable et fiable d'ici 2025"
+      "EN": "Ensure every Canadian has access to affordable, reliable high-speed broadband internet by 2025",
+      "FR": "Veiller à ce que chaque Canadien ait accès à un service Internet à large bande abordable et fiable d'ici 2025"
     },
     "references": [
       {
@@ -3168,8 +3168,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Declare high-speed internet an essential service",
-      "fr": "Déclarer l'internet à haut débit comme un service essentiel"
+      "EN": "Declare high-speed internet an essential service",
+      "FR": "Déclarer l'internet à haut débit comme un service essentiel"
     },
     "references": [
       {
@@ -3184,8 +3184,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Create Crown corporation for telecom services",
-      "fr": "Créer une société d'État pour les services de télécommunications"
+      "EN": "Create Crown corporation for telecom services",
+      "FR": "Créer une société d'État pour les services de télécommunications"
     },
     "references": [
       {
@@ -3200,8 +3200,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Require the use of Canadian-made steel, aluminum, cement and wood products for infrastructure projects",
-      "fr": "exiger l'utilisation d'acier, d'aluminium, de ciment et de produits du bois fabriqués au Canada pour les projets d'infrastructure"
+      "EN": "Require the use of Canadian-made steel, aluminum, cement and wood products for infrastructure projects",
+      "FR": "exiger l'utilisation d'acier, d'aluminium, de ciment et de produits du bois fabriqués au Canada pour les projets d'infrastructure"
     },
     "references": [
       {
@@ -3216,8 +3216,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Develop a public inter-city bus program",
-      "fr": "Développer un programme de bus publics interurbains"
+      "EN": "Develop a public inter-city bus program",
+      "FR": "Développer un programme de bus publics interurbains"
     },
     "references": [
       {
@@ -3232,8 +3232,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Create Crown corporation responsible for domestic vaccine production",
-      "fr": "Créer une société d'État responsable de la production nationale de vaccins"
+      "EN": "Create Crown corporation responsible for domestic vaccine production",
+      "FR": "Créer une société d'État responsable de la production nationale de vaccins"
     },
     "references": [
       {
@@ -3248,8 +3248,8 @@
     "topic": "Infrastructure",
     "party": "NDP",
     "title": {
-      "en": "Work with Canada Post to provide postal banking",
-      "fr": "Travailler avec Postes Canada pour fournir des services bancaires postaux"
+      "EN": "Work with Canada Post to provide postal banking",
+      "FR": "Travailler avec Postes Canada pour fournir des services bancaires postaux"
     },
     "references": [
       {
@@ -3264,8 +3264,8 @@
     "topic": "Arts and Culture",
     "party": "NDP",
     "title": {
-      "en": "Increase funding for CBC and Radio-Canada",
-      "fr": "Augmenter le financement de CBC et de Radio-Canada"
+      "EN": "Increase funding for CBC and Radio-Canada",
+      "FR": "Augmenter le financement de CBC et de Radio-Canada"
     },
     "references": [
       {
@@ -3280,8 +3280,8 @@
     "topic": "Arts and Culture",
     "party": "NDP",
     "title": {
-      "en": "Require foreign content companies to support Canadian content in both official languages",
-      "fr": "Exiger que les entreprises de contenu étrangères soutiennent le contenu canadien dans les deux langues officielles"
+      "EN": "Require foreign content companies to support Canadian content in both official languages",
+      "FR": "Exiger que les entreprises de contenu étrangères soutiennent le contenu canadien dans les deux langues officielles"
     },
     "references": [
       {
@@ -3296,8 +3296,8 @@
     "topic": "Arts and Culture",
     "party": "NDP",
     "title": {
-      "en": "Allow income tax averaging for artists and cultural workers",
-      "fr": "Permettre l'étalement de l'impôt sur le revenu pour les artistes et les travailleurs culturels"
+      "EN": "Allow income tax averaging for artists and cultural workers",
+      "FR": "Permettre l'étalement de l'impôt sur le revenu pour les artistes et les travailleurs culturels"
     },
     "references": [
       {
@@ -3312,8 +3312,8 @@
     "topic": "Immigration",
     "party": "NDP",
     "title": {
-      "en": "End the cap on applications to sponsor parents and grandparents",
-      "fr": "Mettre fin au plafonnement des demandes de parrainage de parents et de grands-parents"
+      "EN": "End the cap on applications to sponsor parents and grandparents",
+      "FR": "Mettre fin au plafonnement des demandes de parrainage de parents et de grands-parents"
     },
     "references": [
       {
@@ -3328,8 +3328,8 @@
     "topic": "Immigration",
     "party": "NDP",
     "title": {
-      "en": "Attract more French-speaking immigrants to communities across the country",
-      "fr": "Attirer davantage d'immigrants francophones dans les communautés du pays"
+      "EN": "Attract more French-speaking immigrants to communities across the country",
+      "FR": "Attirer davantage d'immigrants francophones dans les communautés du pays"
     },
     "references": [
       {
@@ -3344,8 +3344,8 @@
     "topic": "Affordability",
     "party": "NDP",
     "title": {
-      "en": "Price cap on cell phone and internet bills",
-      "fr": "Plafonnement des prix des factures de téléphone cellulaire et d'Internet"
+      "EN": "Price cap on cell phone and internet bills",
+      "FR": "Plafonnement des prix des factures de téléphone cellulaire et d'Internet"
     },
     "references": [
       {
@@ -3360,8 +3360,8 @@
     "topic": "Affordability",
     "party": "NDP",
     "title": {
-      "en": "Require affordable basic plans for wireless and broadband",
-      "fr": "Exiger des plans de base abordables pour les services sans fil et à large bande"
+      "EN": "Require affordable basic plans for wireless and broadband",
+      "FR": "Exiger des plans de base abordables pour les services sans fil et à large bande"
     },
     "references": [
       {
@@ -3376,8 +3376,8 @@
     "topic": "Affordability",
     "party": "NDP",
     "title": {
-      "en": "Require companies to offer affordable unlimited wireless data",
-      "fr": "Obliger les entreprises à offrir des données illimitées sans fil à un prix abordable"
+      "EN": "Require companies to offer affordable unlimited wireless data",
+      "FR": "Obliger les entreprises à offrir des données illimitées sans fil à un prix abordable"
     },
     "references": [
       {
@@ -3392,8 +3392,8 @@
     "topic": "Affordability",
     "party": "NDP",
     "title": {
-      "en": "Abolish data caps for broadband internet",
-      "fr": "Abolir les plafonds de données pour l'internet à haut débit"
+      "EN": "Abolish data caps for broadband internet",
+      "FR": "Abolir les plafonds de données pour l'internet à haut débit"
     },
     "references": [
       {
@@ -3408,8 +3408,8 @@
     "topic": "Civil Rights",
     "party": "NDP",
     "title": {
-      "en": "Right to Repair",
-      "fr": "Droit à la réparation"
+      "EN": "Right to Repair",
+      "FR": "Droit à la réparation"
     },
     "references": [
       {
@@ -3424,8 +3424,8 @@
     "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
-      "en": "Right to Repair for household appliances",
-      "fr": "Droit de réparer les appareils ménagers"
+      "EN": "Right to Repair for household appliances",
+      "FR": "Droit de réparer les appareils ménagers"
     },
     "references": [
       {
@@ -3440,8 +3440,8 @@
     "topic": "Affordability",
     "party": "NDP",
     "title": {
-      "en": "Fair Gasoline Prices Watchdog",
-      "fr": "Le chien de garde des prix équitables de l'essence"
+      "EN": "Fair Gasoline Prices Watchdog",
+      "FR": "Le chien de garde des prix équitables de l'essence"
     },
     "references": [
       {
@@ -3456,8 +3456,8 @@
     "topic": "Housing",
     "party": "NDP",
     "title": {
-      "en": "Provide up to $5,000/year to renters",
-      "fr": "Fournir jusqu'à 5&nbsp;000&nbsp;$/an aux locataires"
+      "EN": "Provide up to $5,000/year to renters",
+      "FR": "Fournir jusqu'à 5&nbsp;000&nbsp;$/an aux locataires"
     },
     "references": [
       {
@@ -3478,8 +3478,8 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "30% of light duty vehicles sold to be zero emissions by 2030",
-      "fr": "30&nbsp;% des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
+      "EN": "30% of light duty vehicles sold to be zero emissions by 2030",
+      "FR": "30&nbsp;% des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
     },
     "references": [
       {
@@ -3494,8 +3494,8 @@
     "topic": "Environment",
     "party": "Conservative",
     "title": {
-      "en": "Ban the export of plastic waste",
-      "fr": "Interdire l'exportation de déchets plastiques"
+      "EN": "Ban the export of plastic waste",
+      "FR": "Interdire l'exportation de déchets plastiques"
     },
     "references": [
       {
@@ -3510,8 +3510,8 @@
     "topic": "Social Assistance",
     "party": "Liberal",
     "title": {
-      "en": "Increase Guaranteed Income Supplement",
-      "fr": "Augmenter le Supplément de revenu garanti"
+      "EN": "Increase Guaranteed Income Supplement",
+      "FR": "Augmenter le Supplément de revenu garanti"
     },
     "references": [
       {
@@ -3526,8 +3526,8 @@
     "topic": "Economy",
     "party": "Liberal",
     "title": {
-      "en": "Increase corporate taxes on banks and insurance companies",
-      "fr": "Augmenter les impôts sur les sociétés des banques et des compagnies d'assurance"
+      "EN": "Increase corporate taxes on banks and insurance companies",
+      "FR": "Augmenter les impôts sur les sociétés des banques et des compagnies d'assurance"
     },
     "references": [
       {
@@ -3543,8 +3543,8 @@
     "topic": "Infrastructure",
     "party": "Conservative",
     "title": {
-      "en": "Implement open banking for secure transfer of financial information across banks and service providers",
-      "fr": "Mettre en œuvre l'open banking pour un transfert sécurisé des informations financières entre les banques et les prestataires de services"
+      "EN": "Implement open banking for secure transfer of financial information across banks and service providers",
+      "FR": "Mettre en œuvre l'open banking pour un transfert sécurisé des informations financières entre les banques et les prestataires de services"
     },
     "references": [
       {
@@ -3559,8 +3559,8 @@
     "topic": "Infrastructure",
     "party": "Liberal",
     "title": {
-      "en": "Implement open banking for secure transfer of financial information across banks and service providers",
-      "fr": "Mettre en œuvre l'open banking pour un transfert sécurisé des informations financières entre les banques et les prestataires de services"
+      "EN": "Implement open banking for secure transfer of financial information across banks and service providers",
+      "FR": "Mettre en œuvre l'open banking pour un transfert sécurisé des informations financières entre les banques et les prestataires de services"
     },
     "references": [
       {
@@ -3581,8 +3581,8 @@
     "topic": "Civil Rights",
     "party": "Conservative",
     "title": {
-      "en": "Increase transparency for investment management fees",
-      "fr": "Accroître la transparence des frais de gestion des investissements"
+      "EN": "Increase transparency for investment management fees",
+      "FR": "Accroître la transparence des frais de gestion des investissements"
     },
     "references": [
       {
@@ -3597,8 +3597,8 @@
     "topic": "Economy",
     "party": "Conservative",
     "title": {
-      "en": "Criminal penalties and increased fines for price-fixing",
-      "fr": "Des sanctions pénales et des amendes accrues pour la fixation des prix"
+      "EN": "Criminal penalties and increased fines for price-fixing",
+      "FR": "Des sanctions pénales et des amendes accrues pour la fixation des prix"
     },
     "references": [
       {
@@ -3613,8 +3613,8 @@
     "topic": "Environment",
     "party": "NDP",
     "title": {
-      "en": "Retrofit all buildings in Canada by 2050",
-      "fr": "Rénover tous les bâtiments au Canada d'ici 2050"
+      "EN": "Retrofit all buildings in Canada by 2050",
+      "FR": "Rénover tous les bâtiments au Canada d'ici 2050"
     },
     "references": [
       {
@@ -3629,8 +3629,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Ban unvaccinated passengers from interprovincial trains, commercial flights, and cruise ships",
-      "fr": "Interdire les passagers non vaccinés des trains interprovinciaux, des vols commerciaux et des navires de croisière"
+      "EN": "Ban unvaccinated passengers from interprovincial trains, commercial flights, and cruise ships",
+      "FR": "Interdire les passagers non vaccinés des trains interprovinciaux, des vols commerciaux et des navires de croisière"
     },
     "references": [
       {
@@ -3645,8 +3645,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Cover the cost of implementing “vaccine passports” for provinces and territories",
-      "fr": "Couvrir le coût de la mise en œuvre des «&nbsp;passeports vaccinaux&nbsp;» pour les provinces et les territoires"
+      "EN": "Cover the cost of implementing “vaccine passports” for provinces and territories",
+      "FR": "Couvrir le coût de la mise en œuvre des «&nbsp;passeports vaccinaux&nbsp;» pour les provinces et les territoires"
     },
     "references": [
       {
@@ -3661,8 +3661,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Provide funding to hire 7,500 new family doctors, nurses, and nurse practitioners",
-      "fr": "Fournir un financement pour l'embauche de 7&nbsp;500 nouveaux médecins de famille, infirmiers et infirmières praticiennes"
+      "EN": "Provide funding to hire 7,500 new family doctors, nurses, and nurse practitioners",
+      "FR": "Fournir un financement pour l'embauche de 7&nbsp;500 nouveaux médecins de famille, infirmiers et infirmières praticiennes"
     },
     "references": [
       {
@@ -3677,8 +3677,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Make Disability Tax Credit, CPP-Disability available to those with mental health challenges",
-      "fr": "Rendre le crédit d'impôt pour personnes handicapées, le RPC-invalidité accessible aux personnes ayant des problèmes de santé mentale"
+      "EN": "Make Disability Tax Credit, CPP-Disability available to those with mental health challenges",
+      "FR": "Rendre le crédit d'impôt pour personnes handicapées, le RPC-invalidité accessible aux personnes ayant des problèmes de santé mentale"
     },
     "references": [
       {
@@ -3693,8 +3693,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Increase long term care worker wages, safer conditions for seniors",
-      "fr": "Augmentation des salaires des travailleurs des soins de longue durée, conditions plus sûres pour les personnes âgées"
+      "EN": "Increase long term care worker wages, safer conditions for seniors",
+      "FR": "Augmentation des salaires des travailleurs des soins de longue durée, conditions plus sûres pour les personnes âgées"
     },
     "references": [
       {
@@ -3721,8 +3721,8 @@
     "topic": "Education",
     "party": "Liberal",
     "title": {
-      "en": "Increase Eligible Educator School Supply tax credit",
-      "fr": "Augmenter le crédit d'impôt pour fournitures scolaires pour les éducateurs admissibles"
+      "EN": "Increase Eligible Educator School Supply tax credit",
+      "FR": "Augmenter le crédit d'impôt pour fournitures scolaires pour les éducateurs admissibles"
     },
     "references": [
       {
@@ -3737,8 +3737,8 @@
     "topic": "Youth",
     "party": "Liberal",
     "title": {
-      "en": "National School Food Policy",
-      "fr": "Politique nationale en matière d'alimentation scolaire"
+      "EN": "National School Food Policy",
+      "FR": "Politique nationale en matière d'alimentation scolaire"
     },
     "references": [
       {
@@ -3753,8 +3753,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Introduce new restrictions for marketing of food and beverages to children",
-      "fr": "Introduire de nouvelles restrictions pour la commercialisation des aliments et des boissons auprès des enfants"
+      "EN": "Introduce new restrictions for marketing of food and beverages to children",
+      "FR": "Introduire de nouvelles restrictions pour la commercialisation des aliments et des boissons auprès des enfants"
     },
     "references": [
       {
@@ -3769,8 +3769,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "More flexible First Time Home Buyer Incentive",
-      "fr": "Un incitatif plus souple pour les acheteurs d'une première maison"
+      "EN": "More flexible First Time Home Buyer Incentive",
+      "FR": "Un incitatif plus souple pour les acheteurs d'une première maison"
     },
     "references": [
       {
@@ -3785,8 +3785,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Reduce mortgage insurance costs by 25%",
-      "fr": "Réduire les frais d'assurance hypothécaire de 25&nbsp;%"
+      "EN": "Reduce mortgage insurance costs by 25%",
+      "FR": "Réduire les frais d'assurance hypothécaire de 25&nbsp;%"
     },
     "references": [
       {
@@ -3801,8 +3801,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Convert empty office and retail space into housing, including federal and commercial property",
-      "fr": "Convertir les bureaux et les espaces commerciaux vides en logements, y compris les propriétés fédérales et commerciales"
+      "EN": "Convert empty office and retail space into housing, including federal and commercial property",
+      "FR": "Convertir les bureaux et les espaces commerciaux vides en logements, y compris les propriétés fédérales et commerciales"
     },
     "references": [
       {
@@ -3817,8 +3817,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Anti-flipping tax for properties held for <1&nbsp;year",
-      "fr": "Taxe anti-flipping pour les propriétés détenues depuis moins d'un an"
+      "EN": "Anti-flipping tax for properties held for <1&nbsp;year",
+      "FR": "Taxe anti-flipping pour les propriétés détenues depuis moins d'un an"
     },
     "references": [
       {
@@ -3833,8 +3833,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "Tax landlords who increase rent too much",
-      "fr": "Taxer les propriétaires qui augmentent trop le loyer"
+      "EN": "Tax landlords who increase rent too much",
+      "FR": "Taxer les propriétaires qui augmentent trop le loyer"
     },
     "references": [
       {
@@ -3849,8 +3849,8 @@
     "topic": "Government",
     "party": "Liberal",
     "title": {
-      "en": "Create Canada Financial Crimes Agency",
-      "fr": "Créer l'Agence canadienne des crimes financiers"
+      "EN": "Create Canada Financial Crimes Agency",
+      "FR": "Créer l'Agence canadienne des crimes financiers"
     },
     "references": [
       {
@@ -3865,8 +3865,8 @@
     "topic": "Child Care",
     "party": "Liberal",
     "title": {
-      "en": "Make Canada Caregiver Credit refundable and tax-free",
-      "fr": "Rendre le crédit canadien pour aidants naturels remboursable et non imposable"
+      "EN": "Make Canada Caregiver Credit refundable and tax-free",
+      "FR": "Rendre le crédit canadien pour aidants naturels remboursable et non imposable"
     },
     "references": [
       {
@@ -3881,8 +3881,8 @@
     "topic": "Affordability",
     "party": "Liberal",
     "title": {
-      "en": "Allow parents to pause federal student loan bills until their youngest child is 5 years old",
-      "fr": "Permettre aux parents de mettre en pause les factures des prêts étudiants fédéraux jusqu'à ce que leur plus jeune enfant ait 5 ans"
+      "EN": "Allow parents to pause federal student loan bills until their youngest child is 5 years old",
+      "FR": "Permettre aux parents de mettre en pause les factures des prêts étudiants fédéraux jusqu'à ce que leur plus jeune enfant ait 5 ans"
     },
     "references": [
       {
@@ -3897,8 +3897,8 @@
     "topic": "Government",
     "party": "Liberal",
     "title": {
-      "en": "1-800 number to provide seniors with access to government services and benefits",
-      "fr": "Numéro 1-800 pour permettre aux personnes âgées d'accéder aux services et avantages gouvernementaux"
+      "EN": "1-800 number to provide seniors with access to government services and benefits",
+      "FR": "Numéro 1-800 pour permettre aux personnes âgées d'accéder aux services et avantages gouvernementaux"
     },
     "references": [
       {
@@ -3913,8 +3913,8 @@
     "topic": "Social Assistance",
     "party": "Liberal",
     "title": {
-      "en": "Up to 26 weeks of unemployment assistance for self-employed Canadians",
-      "fr": "Jusqu'à 26 semaines d'assistance chômage pour les travailleurs indépendants canadiens"
+      "EN": "Up to 26 weeks of unemployment assistance for self-employed Canadians",
+      "FR": "Jusqu'à 26 semaines d'assistance chômage pour les travailleurs indépendants canadiens"
     },
     "references": [
       {
@@ -3929,8 +3929,8 @@
     "topic": "Social Assistance",
     "party": "Liberal",
     "title": {
-      "en": "Require employers of gig economy workers to pay towards EI and CPP like other employers",
-      "fr": "Obliger les employeurs des travailleurs de l'économie gigogne à cotiser à l'AE et au RPC comme les autres employeurs"
+      "EN": "Require employers of gig economy workers to pay towards EI and CPP like other employers",
+      "FR": "Obliger les employeurs des travailleurs de l'économie gigogne à cotiser à l'AE et au RPC comme les autres employeurs"
     },
     "references": [
       {
@@ -3945,8 +3945,8 @@
     "topic": "Social Assistance",
     "party": "Liberal",
     "title": {
-      "en": "Additional support for workers laid off after 5 years of employment at a business that closes",
-      "fr": "Soutien supplémentaire pour les travailleurs licenciés après 5 ans d'emploi dans une entreprise qui ferme"
+      "EN": "Additional support for workers laid off after 5 years of employment at a business that closes",
+      "FR": "Soutien supplémentaire pour les travailleurs licenciés après 5 ans d'emploi dans une entreprise qui ferme"
     },
     "references": [
       {
@@ -3961,8 +3961,8 @@
     "topic": "Affordability",
     "party": "Liberal",
     "title": {
-      "en": "Expand Home Expense deduction, continue for two more years",
-      "fr": "Élargir la déduction pour frais de logement, continuer pendant deux années supplémentaires"
+      "EN": "Expand Home Expense deduction, continue for two more years",
+      "FR": "Élargir la déduction pour frais de logement, continuer pendant deux années supplémentaires"
     },
     "references": [
       {
@@ -3977,8 +3977,8 @@
     "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
-      "en": "Make replacement workers illegal when an employer locks out union workers in a federally-regulated industry",
-      "fr": "Rendre les travailleurs de remplacement illégaux lorsqu'un employeur met en lock-out des travailleurs syndiqués dans une industrie réglementée par le gouvernement fédéral"
+      "EN": "Make replacement workers illegal when an employer locks out union workers in a federally-regulated industry",
+      "FR": "Rendre les travailleurs de remplacement illégaux lorsqu'un employeur met en lock-out des travailleurs syndiqués dans une industrie réglementée par le gouvernement fédéral"
     },
     "references": [
       {
@@ -3993,8 +3993,8 @@
     "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
-      "en": "Right to Disconnect outside of work hours",
-      "fr": "Droit à la déconnexion en dehors des heures de travail"
+      "EN": "Right to Disconnect outside of work hours",
+      "FR": "Droit à la déconnexion en dehors des heures de travail"
     },
     "references": [
       {
@@ -4009,8 +4009,8 @@
     "topic": "Economy",
     "party": "Liberal",
     "title": {
-      "en": "Improve Canada Small Business Financing Program",
-      "fr": "Améliorer le programme de financement des petites entreprises du Canada"
+      "EN": "Improve Canada Small Business Financing Program",
+      "FR": "Améliorer le programme de financement des petites entreprises du Canada"
     },
     "references": [
       {
@@ -4025,8 +4025,8 @@
     "topic": "Science",
     "party": "Liberal",
     "title": {
-      "en": "Create the Canada Advanced Research Projects Agency",
-      "fr": "Créer l'Agence canadienne de projets de recherche avancée"
+      "EN": "Create the Canada Advanced Research Projects Agency",
+      "FR": "Créer l'Agence canadienne de projets de recherche avancée"
     },
     "references": [
       {
@@ -4041,8 +4041,8 @@
     "topic": "Arts and Culture",
     "party": "Liberal",
     "title": {
-      "en": "Temporarily match ticket sales for performing arts, live theatres, and other cultural venues",
-      "fr": "Assortir temporairement les ventes de billets pour les arts de la scène, les théâtres vivants et autres lieux culturels"
+      "EN": "Temporarily match ticket sales for performing arts, live theatres, and other cultural venues",
+      "FR": "Assortir temporairement les ventes de billets pour les arts de la scène, les théâtres vivants et autres lieux culturels"
     },
     "references": [
       {
@@ -4057,8 +4057,8 @@
     "topic": "Arts and Culture",
     "party": "Liberal",
     "title": {
-      "en": "Require foreign companies (e.g. Netflix) to contribute to the creation and promotion of Canadian arts",
-      "fr": "Exiger que les entreprises étrangères (par exemple Netflix) contribuent à la création et à la promotion des arts canadiens"
+      "EN": "Require foreign companies (e.g. Netflix) to contribute to the creation and promotion of Canadian arts",
+      "FR": "Exiger que les entreprises étrangères (par exemple Netflix) contribuent à la création et à la promotion des arts canadiens"
     },
     "references": [
       {
@@ -4073,8 +4073,8 @@
     "topic": "Arts and Culture",
     "party": "Liberal",
     "title": {
-      "en": "Require social media platforms to share revenue from news distribution with Canadian news outlets",
-      "fr": "Exiger que les plateformes de médias sociaux partagent les revenus provenant de la diffusion des nouvelles avec les organes de presse canadiens"
+      "EN": "Require social media platforms to share revenue from news distribution with Canadian news outlets",
+      "FR": "Exiger que les plateformes de médias sociaux partagent les revenus provenant de la diffusion des nouvelles avec les organes de presse canadiens"
     },
     "references": [
       {
@@ -4089,8 +4089,8 @@
     "topic": "Arts and Culture",
     "party": "Liberal",
     "title": {
-      "en": "Increase funding for CBC/Radio-Canada, eliminate advertising on news and public affairs shows",
-      "fr": "Augmenter le financement de CBC/Radio-Canada, éliminer la publicité dans les émissions de nouvelles et d'affaires publiques"
+      "EN": "Increase funding for CBC/Radio-Canada, eliminate advertising on news and public affairs shows",
+      "FR": "Augmenter le financement de CBC/Radio-Canada, éliminer la publicité dans les émissions de nouvelles et d'affaires publiques"
     },
     "references": [
       {
@@ -4105,8 +4105,8 @@
     "topic": "Immigration",
     "party": "Liberal",
     "title": {
-      "en": "Attract more French-speaking immigrants to communities across the country",
-      "fr": "Attirer davantage d'immigrants francophones dans les communautés du pays"
+      "EN": "Attract more French-speaking immigrants to communities across the country",
+      "FR": "Attirer davantage d'immigrants francophones dans les communautés du pays"
     },
     "references": [
       {
@@ -4121,8 +4121,8 @@
     "topic": "Immigration",
     "party": "Liberal",
     "title": {
-      "en": "Remove citizenship application fees for permanent residents",
-      "fr": "Supprimer les frais de demande de citoyenneté pour les résidents permanents"
+      "EN": "Remove citizenship application fees for permanent residents",
+      "FR": "Supprimer les frais de demande de citoyenneté pour les résidents permanents"
     },
     "references": [
       {
@@ -4137,8 +4137,8 @@
     "topic": "Immigration",
     "party": "Liberal",
     "title": {
-      "en": "Issue visas to spouses and children abroad who are waiting for permanent residency",
-      "fr": "Délivrer des visas aux conjoints et enfants à l'étranger qui attendent la résidence permanente"
+      "EN": "Issue visas to spouses and children abroad who are waiting for permanent residency",
+      "FR": "Délivrer des visas aux conjoints et enfants à l'étranger qui attendent la résidence permanente"
     },
     "references": [
       {
@@ -4153,8 +4153,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Ban conversion therapy",
-      "fr": "Interdire la thérapie de conversion"
+      "EN": "Ban conversion therapy",
+      "FR": "Interdire la thérapie de conversion"
     },
     "references": [
       {
@@ -4169,8 +4169,8 @@
     "topic": "Social Assistance",
     "party": "Liberal",
     "title": {
-      "en": "Canada Disability Benefit",
-      "fr": "Prestation d'invalidité du Canada"
+      "EN": "Canada Disability Benefit",
+      "FR": "Prestation d'invalidité du Canada"
     },
     "references": [
       {
@@ -4185,8 +4185,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Require oil and gas companies to reduce methane emissions by at least 75% below 2012 levels by 2030",
-      "fr": "Exiger des compagnies pétrolières et gazières qu'elles réduisent leurs émissions de méthane d'au moins 75&nbsp;% par rapport aux niveaux de 2012 d'ici 2030"
+      "EN": "Require oil and gas companies to reduce methane emissions by at least 75% below 2012 levels by 2030",
+      "FR": "Exiger des compagnies pétrolières et gazières qu'elles réduisent leurs émissions de méthane d'au moins 75&nbsp;% par rapport aux niveaux de 2012 d'ici 2030"
     },
     "references": [
       {
@@ -4201,8 +4201,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Ban coal exports by 2030",
-      "fr": "Interdire les exportations de charbon d'ici 2030"
+      "EN": "Ban coal exports by 2030",
+      "FR": "Interdire les exportations de charbon d'ici 2030"
     },
     "references": [
       {
@@ -4217,8 +4217,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Green Bonds",
-      "fr": "Obligations vertes"
+      "EN": "Green Bonds",
+      "FR": "Obligations vertes"
     },
     "references": [
       {
@@ -4240,8 +4240,8 @@
     "topic": "Housing",
     "party": "Liberal",
     "title": {
-      "en": "National flood insurance program",
-      "fr": "Programme national d'assurance contre les inondations"
+      "EN": "National flood insurance program",
+      "FR": "Programme national d'assurance contre les inondations"
     },
     "references": [
       {
@@ -4256,8 +4256,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Create 15 national urban parks by 2030",
-      "fr": "Créer 15 parcs urbains nationaux d'ici 2030"
+      "EN": "Create 15 national urban parks by 2030",
+      "FR": "Créer 15 parcs urbains nationaux d'ici 2030"
     },
     "references": [
       {
@@ -4272,8 +4272,8 @@
     "topic": "Civil Rights",
     "party": "Liberal",
     "title": {
-      "en": "Right to a Healthy Environment",
-      "fr": "Droit à un environnement sain"
+      "EN": "Right to a Healthy Environment",
+      "FR": "Droit à un environnement sain"
     },
     "references": [
       {
@@ -4288,8 +4288,8 @@
     "topic": "Healthcare",
     "party": "Liberal",
     "title": {
-      "en": "Mandatory labelling of chemicals in consumer products that impact health or the environment",
-      "fr": "Étiquetage obligatoire des substances chimiques présentes dans les produits de consommation ayant un impact sur la santé ou l'environnement"
+      "EN": "Mandatory labelling of chemicals in consumer products that impact health or the environment",
+      "FR": "Étiquetage obligatoire des substances chimiques présentes dans les produits de consommation ayant un impact sur la santé ou l'environnement"
     },
     "references": [
       {
@@ -4304,8 +4304,8 @@
     "topic": "Science",
     "party": "Liberal",
     "title": {
-      "en": "Ban cosmetic testing on animals by 2023",
-      "fr": "Interdire les tests cosmétiques sur les animaux d'ici 2023"
+      "EN": "Ban cosmetic testing on animals by 2023",
+      "FR": "Interdire les tests cosmétiques sur les animaux d'ici 2023"
     },
     "references": [
       {
@@ -4320,8 +4320,8 @@
     "topic": "Indigenous Relations",
     "party": "Liberal",
     "title": {
-      "en": "Require that First Nations, Inuit, and Métis businesses and entrepreneurs own at least 5% of the total value of federal procurement contracts",
-      "fr": "Exiger que les entreprises et les entrepreneurs inuits, métis et des Premières nations détiennent au moins 5&nbsp;% de la valeur totale des contrats d'approvisionnement fédéraux"
+      "EN": "Require that First Nations, Inuit, and Métis businesses and entrepreneurs own at least 5% of the total value of federal procurement contracts",
+      "FR": "Exiger que les entreprises et les entrepreneurs inuits, métis et des Premières nations détiennent au moins 5&nbsp;% de la valeur totale des contrats d'approvisionnement fédéraux"
     },
     "references": [
       {
@@ -4336,8 +4336,8 @@
     "topic": "Government",
     "party": "Liberal",
     "title": {
-      "en": "15% minimum tax rate for individuals who reach the top tax bracket",
-      "fr": "Taux d'imposition minimum de 15&nbsp;% pour les personnes qui atteignent la tranche d'imposition supérieure"
+      "EN": "15% minimum tax rate for individuals who reach the top tax bracket",
+      "FR": "Taux d'imposition minimum de 15&nbsp;% pour les personnes qui atteignent la tranche d'imposition supérieure"
     },
     "references": [
       {
@@ -4352,8 +4352,8 @@
     "topic": "Environment",
     "party": "Liberal",
     "title": {
-      "en": "Eliminate flow-through shares for oil, gas, and coal projects",
-      "fr": "Éliminer les actions accréditives pour les projets de pétrole, de gaz et de charbon"
+      "EN": "Eliminate flow-through shares for oil, gas, and coal projects",
+      "FR": "Éliminer les actions accréditives pour les projets de pétrole, de gaz et de charbon"
     },
     "references": [
       {
@@ -4368,8 +4368,8 @@
     "topic": "Healthcare",
     "party": "NDP",
     "title": {
-      "en": "Dental care coverage for those earning <$90,000",
-      "fr": "Couverture des soins dentaires pour ceux qui gagnent <90&nbsp;000&nbsp;$"
+      "EN": "Dental care coverage for those earning <$90,000",
+      "FR": "Couverture des soins dentaires pour ceux qui gagnent <90&nbsp;000&nbsp;$"
     },
     "references": [
       {

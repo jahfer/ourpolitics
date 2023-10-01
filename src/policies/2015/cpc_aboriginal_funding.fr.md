@@ -1,0 +1,1 @@
+Un gouvernement Conservateur a promis **$215 millions** pour les premières nations pour la formation et le développement sur 5 ans. Ils ont aussi alloué **$200 millions** dans d'améliorer les premières nations.

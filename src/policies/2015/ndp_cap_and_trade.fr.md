@@ -1,0 +1,4 @@
+The NDP would look to reduce greenhouse gas emissions by heavy polluters, by instituting a national standard for controlling emissions. The party will let provinces opt-out of the plan if they have already developed their own which is either equivalent or more effective than the national standard.
+
+##### What is Cap-and-Trade?
+Cap-and-trade is a system where the government sets a ceiling for emissions, and turns that allocation into a commodity that can be bought by heavy polluters or sold by those that have reduced emissions. It aims to reward those who pollute less, while punishing those who pollute more

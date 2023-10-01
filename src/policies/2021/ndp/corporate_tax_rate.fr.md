@@ -1,0 +1,1 @@
+Le NPD prévoit d'augmenter le taux d'imposition fédéral des sociétés **de 15 % à 18 %**. Le taux d'imposition fédéral des sociétés avait été de 22 % en 2006 avant qu'une série de réductions ne le ramène à 15 % en 2012.

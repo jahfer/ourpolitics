@@ -928,10 +928,10 @@ ul {
 .textColor--NDP {
   color: var(--ndp-color);
 }
-.textColor--Conservatives {
+.textColor--Conservative {
   color: var(--cpc-color);
 }
-.textColor--Liberals {
+.textColor--Liberal {
   color: var(--lpc-color);
 }
 .textColor--Green {
@@ -940,10 +940,10 @@ ul {
 .backgroundColor--NDP {
   background-color: var(--ndp-color);
 }
-.backgroundColor--Conservatives {
+.backgroundColor--Conservative {
   background-color: var(--cpc-color);
 }
-.backgroundColor--Liberals {
+.backgroundColor--Liberal {
   background-color: var(--lpc-color);
 }
 .backgroundColor--Green {

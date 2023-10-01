@@ -28,6 +28,9 @@ let ctx = await esbuild.context({
   sourcemap: true,
   outfile: 'www/js/bundle.js',
   target: browserTargets,
+  loader: {
+    ".md": "text",
+  },
   define: {
     'window.IS_PRODUCTION': 'false',
   },

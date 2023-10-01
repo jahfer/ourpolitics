@@ -11,7 +11,7 @@ export default function PolicyComparisonIndex () {
   const { year = "2019", policyHandle } = useParams<PolicyComparisonIndexParams>();
 
   return (
-    <section>
+    <section className="section">
       { policyHandle ? (
         <PolicyComparisonTable policyHandle={policyHandle} year={year} />
       ) : (

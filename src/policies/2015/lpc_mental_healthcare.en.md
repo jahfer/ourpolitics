@@ -1,0 +1,1 @@
+The Liberals have pledged to contribute an unspecified amount towards improving mental health services for Canadians.

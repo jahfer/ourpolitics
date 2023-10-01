@@ -1,0 +1,1 @@
+Le parti libéral lancerait immédiatement une enquète publique nationale sur les disparition et le meurtre de femmes autochtones au Canada. Le but de cette enquète est de produire des recommandations de changements, d'établir de nouvelles façons d'appliquer la loi et d'identifier de nouvelles façons de prévenir ce type de crimes.

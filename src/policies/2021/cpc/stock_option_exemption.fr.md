@@ -1,0 +1,5 @@
+Cette exemption ne s'appliquerait qu'aux sociétés privées sous contrôle canadien qui ont leur **siège social au Canada**, et dont au moins **2/3 de leurs employés** sont situés au Canada.
+
+En 2019, le gouvernement a [proposé des changements](https://www.canada.ca/fr/ministere-finances/nouvelles/2019/06/document-dinformation-modifications-proposees-au-traitement-fiscal-des-options-dachat-dactions-des-employes.html) à la déduction pour option d'achat d'actions après avoir identifié qu'elle profitait de façon disproportionnée aux Canadiens les plus riches :
+
+> Pour les options d'achat d'actions accordées aux employés par les employeurs assujettis aux nouvelles règles, il y aura un plafond de 200 000 $ sur le montant des options d'achat d'actions des employés pouvant être acquises par un employé au cours d'une année et qui pourront continuer d'être admissibles à la déduction d'option d'achat d'actions. 
