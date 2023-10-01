@@ -1,0 +1,1 @@
+The Conservative government will institute a home-renovation tax credit aimed at increasing the value of existing homes. The plan will cost an estimated **$1.5 billion/year**, and individuals would be able to deduct between **$1,000–$6,600** from their taxes on home renovations.

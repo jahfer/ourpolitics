@@ -1,0 +1,3 @@
+The Conservative government is committed to working with the US-led coalition against ISIS until they are successful. The government has contributed around **600** soldiers in the current campaign which is expected to continue until the beginning of 2016. The campaign is anticipated to cost **$528 million**.
+
+The Conservatives have also promised to introduce a travel ban on areas directly under the control of ISIS, making it a criminal offence to visit these locations.

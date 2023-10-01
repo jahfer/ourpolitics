@@ -1,0 +1,1 @@
+Le NPD prévoit d'augmenter le taux d'imposition marginal supérieur pour ceux qui gagnent **plus de 210 000 $** de 33 % à **35 %**. Cette tranche d'imposition supérieure a été [introduite](https://ourpolitics.ca/policies/2015/lpc_middle_class_taxes#fr) après les élections de 2015.

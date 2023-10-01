@@ -1,0 +1,1 @@
+The NDP plan to increase the federal corporate income tax rate **from 15% to 18%**. The federal corporate rate had been 22% in 2006 before a series of cuts brought it to 15% in 2012.

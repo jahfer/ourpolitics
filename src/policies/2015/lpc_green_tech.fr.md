@@ -1,0 +1,1 @@
+Un gouvernement libéral investirait **200 millions$** dans les technologies vertes des secteurs de la foresterie, pêcherie, mines, énergie et agriculture. De plus, les libéraux investiraient **100 millions$** addionnels pour encourager les technologies de productions vertes.

@@ -1,0 +1,3 @@
+The NDP have promised to **“move away”** from issuing federal student loans. Instead, they will **double the amount issued** through Canada Student Grants which do not need to be repaid. It's unclear when they plan to stop issuing loans from the program, but the choice of words suggests it will not be immediate.
+
+In the short term, the party plans to **remove interest on federal student loans** and **forgive up to $20,000** in student debt for graduates.

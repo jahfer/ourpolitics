@@ -1,0 +1,1 @@
+Les libéraux se sont engagés à doubler les investissements actuel en infrastructure à  **125 milliards$**  au courant des 10 prochaines années. Les investissement seront concentrés les transports publiques, les infrastructures sociales et les projets "verts".

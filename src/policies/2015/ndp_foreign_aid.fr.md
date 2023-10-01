@@ -1,0 +1,1 @@
+The NDP would increase federal spending on foreign aid to **0.7%** of federal GDP, a level suggested for Canada by the UN Secretary General. The Canadian government currently spends **0.27%** of Canada’s GDP on foreign aid.

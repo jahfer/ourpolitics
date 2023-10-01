@@ -1,0 +1,3 @@
+As part of their platform commitments, The Liberal party has planned to investigate a new voting system in time for national elections in **2019**. They plan on consulting with all parties, experts and Canadian citizens to determine the best reform in order to produce fairer election results. 
+
+The Liberal party has promised to complete the consultation phase within the **first 12 months** of being elected, and have specifically mentioned investigating “a preferential ballot and/or a form of proportional representation, to represent Canadians more fairly and serve Canada better.”

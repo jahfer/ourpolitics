@@ -1,0 +1,1 @@
+The Conservatives intend to implement a **3% tax** on gross revenue earned by foreign companies providing digital services in Canada. This tax would only apply to companies who don’t already pay corporate income tax in Canada.

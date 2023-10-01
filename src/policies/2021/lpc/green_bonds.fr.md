@@ -1,0 +1,1 @@
+Les libéraux prévoient d'émettre au moins **5 milliards de dollars par an** d'obligations vertes auprès du public. L'argent collecté sera affecté à des projets d'infrastructures vertes, d'énergies renouvelables et de conservation de la nature.
