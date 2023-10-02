@@ -1,7 +1,9 @@
-export const Language = {
+export const LanguageOption = {
   EN: "EN",
   FR: "FR",
 } as const;
+
+export type Language = typeof LanguageOption[keyof typeof LanguageOption];
 
 export enum Party {
   Liberal = "Liberal",
@@ -17,7 +19,7 @@ export type Reference = {
   url: string,
 }
 
-export type TString = Record<keyof typeof Language, string>;
+export type TString = Record<keyof typeof LanguageOption, string>;
 
 export type Policy = {
   topic: string,

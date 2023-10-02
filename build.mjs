@@ -8,7 +8,7 @@ const browserTargets = [
   'safari11',
 ];
 
-await esbuild.build({
+let cssCtx = await esbuild.context({
   entryPoints: ['src/app.css'],
   bundle: true,
   outfile: 'www/css/style.css',
@@ -21,7 +21,7 @@ await esbuild.build({
   target: browserTargets,
 })
 
-let ctx = await esbuild.context({
+let jsCtx = await esbuild.context({
   entryPoints: ['src/root.tsx'],
   bundle: true,
   minify: true,
@@ -36,10 +36,11 @@ let ctx = await esbuild.context({
   },
 })
 
-let { host, port } = await ctx.serve({
+let { host, port } = await jsCtx.serve({
   servedir: 'www',
   fallback: 'www/index.html'
 })
 
-await ctx.watch()
+await jsCtx.watch()
+await cssCtx.watch()
 console.log('Watching...')
