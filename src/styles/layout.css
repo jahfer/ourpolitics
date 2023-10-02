@@ -227,6 +227,24 @@
       flex-basis: 0%;
     }
 
+    .policyCell:first-child {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+
+    .policyRow.fixed .policyCell:first-child {
+      border-top-left-radius: 0;
+    }
+
+    .policyCell:last-child {
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+
+    .policyRow.fixed .policyCell:last-child {
+      border-top-right-radius: 0;
+    }
+
     .policyCell:not(.partyTitle):nth-child(n+3) {
       margin-top: 0;
     }
