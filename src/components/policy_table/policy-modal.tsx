@@ -1,10 +1,9 @@
 import * as React from 'react'
-import { useRemark } from 'react-remark'
 import { useId, useEffect, useState } from 'react'
 import { usePolicyModal, usePolicyModalVisiblity } from '../context/policy-modal-context'
 import { useLanguage } from '../context/language-context';
 
-import AboutContentEN from '../pages/content/about_index.en.md'
+import { html as AboutEN } from '../pages/content/about_index.en.md'
 
 export default function PolicyModal () {
   const modalId = useId();
@@ -12,7 +11,7 @@ export default function PolicyModal () {
   const { policyModalVisible, setPolicyModalVisibility } = usePolicyModalVisiblity();
   const language = useLanguage();
   const [dialogElement, setDialogElement] = useState<HTMLDialogElement | undefined>(undefined);
-  const [reactContent, setMarkdownSource] = useRemark();
+  const [content, setContent] = React.useState<string>("");
 
   // TODO
   // Use specific modal state bool, since clicking same
@@ -41,52 +40,55 @@ export default function PolicyModal () {
     }
   }, [dialogElement]);
 
-  const contentForPolicy = {};
-
   useEffect(() => {
     if (modalPolicy) {
-      const text = AboutContentEN;
-      setMarkdownSource(text);
+      const text = AboutEN;
+      setContent(text);
     }
   }, [modalPolicy]);
 
-  if (modalPolicy) {
+  if (!modalPolicy) {
     return (
-      <dialog
-        id={modalId}
-        className={`policyModal--content policyModal--${modalPolicy.party}`}
-        aria-labelledby="policyDialog__label"
-        aria-describedby="policyDialog__description">
-        <div className="policyModal">
-          <div className="modal--content">
-            <a href="#" className="modal--close" aria-label="Close" onClick={(e) => setPolicyModalVisibility(false) } />
-            <div className="modal--headingContainer">
-              <div className="modal--headingInfo">
-                <div className="modal--topicBox"> <p> {modalPolicy.topic} </p> </div>
-              </div>
-            </div>
-            <h1
-              className="modal--heading modal--heading__primary"
-              dangerouslySetInnerHTML={{ __html: modalPolicy.title[language] }}
-              id="policyDialog__label"
-            />
-            <div id="policyDialog__description" className="modal--details">
-              {reactContent}
+      <dialog id={modalId} className="policyModal--content">
+      </dialog>
+    );
+  }
+
+  return (
+    <dialog
+      id={modalId}
+      className={`policyModal--content policyModal--${modalPolicy.party} ${policyModalVisible ? "policyModal--visible" : ""}`}
+      aria-labelledby="policyDialog__label"
+      aria-describedby="policyDialog__description">
+      <div className="policyModal">
+        <div className="modal--content">
+          <a href="#" className="modal--close" aria-label="Close" onClick={(e) => setPolicyModalVisibility(false) } />
+          <div className="modal--headingContainer">
+            <div className="modal--headingInfo">
+              <div className="modal--topicBox"> <p> {modalPolicy.topic} </p> </div>
             </div>
           </div>
-          <aside className="modal--sidebar">
-            <h2 className="modal--heading modal--heading__secondary"> References </h2>
-            <ul className="reference--list">
-              {/* {(modalPolicy.references.map(ref => <Reference key={ref.url} source={ref} />)) } */}
-            </ul>
-            <div className="modal--randomize">
-              <a className="randomize-policy iconSuffix iconSuffix--random" href="javascript:void(0)">
-                Random policy
-              </a>
-            </div>
-          </aside>
+          <h1
+            className="modal--heading modal--heading__primary"
+            dangerouslySetInnerHTML={{ __html: modalPolicy.title[language] }}
+            id="policyDialog__label"
+          />
+          <div id="policyDialog__description" className="modal--details">
+            <div dangerouslySetInnerHTML={{ __html: content }} />
+          </div>
         </div>
-      </dialog>
-    )
-  }
+        <aside className="modal--sidebar">
+          <h2 className="modal--heading modal--heading__secondary"> References </h2>
+          <ul className="reference--list">
+            {/* {(modalPolicy.references.map(ref => <Reference key={ref.url} source={ref} />)) } */}
+          </ul>
+          <div className="modal--randomize">
+            <a className="randomize-policy iconSuffix iconSuffix--random" href="javascript:void(0)">
+              Random policy
+            </a>
+          </div>
+        </aside>
+      </div>
+    </dialog>
+  )
 }

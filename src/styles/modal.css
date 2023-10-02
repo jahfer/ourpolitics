@@ -214,16 +214,6 @@ dialog {
 }
 
 @media screen and (min-width: 800px) {
-  .ReactModal__Content {
-    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
-    transition: transform .2s ease-in-out; /*or cubic-bezier(.4,0,.5,1.4)*/
-    transform: scale(0.3);
-
-    &.ReactModal__Content--after-open {
-      transform: scale(1);
-    }
-  }
-
   .modal--headingInfo {
     margin-right: 0;
   }
@@ -242,6 +232,16 @@ dialog {
     border-radius: 8px;
     border: 5px solid #303030;
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    transition: transform .2s cubic-bezier(.59,.06,.61,1.3); /*or cubic-bezier(.4,0,.5,1.4)*/
+    display: block;
+    transform: scale(0.8);
+    visibility: hidden;
+    position: fixed;
+
+    &.policyModal--visible {
+      transform: scale(1);
+      visibility: visible;
+    }
   }
 
   .policyModal--Liberal::backdrop {
@@ -257,7 +257,7 @@ dialog {
   }
 
   .policyModal--Green::backdrop {
-    background-color: rgba(61, 155, 53, 0.9);;
+    background-color: rgba(61, 155, 53, 0.9);
   }
 
   .policyReferenceModal--content {
@@ -269,7 +269,6 @@ dialog {
   }
 
   .policyModal {
-    height: 100%;
     display: flex;
     flex-direction: row;
     display: flex;

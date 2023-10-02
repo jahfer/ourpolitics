@@ -1,4 +1,5 @@
 import * as esbuild from 'esbuild'
+import UnpluginMarkdown2Html from 'unplugin-markdown-2-html/esbuild'
 
 const browserTargets = [
   'es2018',
@@ -28,9 +29,9 @@ let jsCtx = await esbuild.context({
   sourcemap: true,
   outfile: 'www/js/bundle.js',
   target: browserTargets,
-  loader: {
-    ".md": "text",
-  },
+  plugins: [
+    UnpluginMarkdown2Html()
+  ],
   define: {
     'window.IS_PRODUCTION': 'false',
   },

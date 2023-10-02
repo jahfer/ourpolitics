@@ -1,22 +1,21 @@
 import * as React from 'react'
-import { useRemark } from 'react-remark'
 import { LanguageOption } from '../../types/schema'
 import { useLanguage } from '../context/language-context'
 
 import Page from '../page'
 
-import PrivacyPolicyContentEN from './content/privacy_index.en.md'
-import PrivacyPolicyContentFR from './content/privacy_index.fr.md'
+import { html as PrivacyEN } from './content/privacy_index.en.md'
+import { html as PrivacyFR } from './content/privacy_index.fr.md'
 
 export default function PrivacyPolicyIndex () {
   const language = useLanguage();
-  const [reactContent, setMarkdownSource] = useRemark();
+  const [content, setContent] = React.useState<string>("");
 
   React.useEffect(() => {
     if (language === LanguageOption.EN) {
-      setMarkdownSource(PrivacyPolicyContentEN);
+      setContent(PrivacyEN);
     } else {
-      setMarkdownSource(PrivacyPolicyContentFR);
+      setContent(PrivacyFR);
     }
   }, [language]);
 
@@ -24,7 +23,7 @@ export default function PrivacyPolicyIndex () {
     <Page title="Privacy">
       <section className="section">
         <article className="text-block text-large pb-3">
-          {reactContent}
+          <div dangerouslySetInnerHTML={{ __html: content }} />
         </article>
       </section>
     </Page>
