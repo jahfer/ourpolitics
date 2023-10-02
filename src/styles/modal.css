@@ -1,3 +1,7 @@
+dialog {
+  padding: 0;
+}
+
 .policyModal--content {
   position: absolute;
   background: var(--color-cream-light);
@@ -220,7 +224,6 @@
     }
   }
 
-
   .modal--headingInfo {
     margin-right: 0;
   }
@@ -232,16 +235,29 @@
   }
 
   .policyModal--content {
-    margin: 0 auto;
-    top: 10%;
-    bottom: 10%;
-    left: 0;
     max-height: 600px;
     max-width: 1000px;
     background: #303030;
     overflow: hidden;
     border-radius: 8px;
     border: 5px solid #303030;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .policyModal--Liberal::backdrop {
+    background-color: rgba(215, 25, 32, 0.9);
+  }
+
+  .policyModal--Conservative::backdrop {
+    background-color: rgba(26, 71, 130, 0.9);
+  }
+
+  .policyModal--NDP::backdrop {
+    background-color: rgba(243, 112, 33, 0.9);
+  }
+
+  .policyModal--Green::backdrop {
+    background-color: rgba(61, 155, 53, 0.9);;
   }
 
   .policyReferenceModal--content {

@@ -3,71 +3,24 @@ import { useLanguage } from '../context/language-context'
 import PolicyModal from './policy-modal'
 import PolicyTable from './policy-table'
 import { table } from 'console'
+import { Party, Policy } from '../../types/schema'
 
-enum Party {
-  Liberal = "Liberal",
-  Conservative = "Conservative",
-  NDP = "NDP",
-  Green = "Green",
-}
-
-type Reference = {
-  date?: string,
-  publisher: string,
-  title: string,
-  url: string,
-}
-
-type Policy = {
-  topic: string,
-  party: Party,
-  title: {
-    en: string,
-    fr: string
-  },
-  references: Array<Reference>,
-  handle?: string
-}
+import { PolicyModalProvider } from '../context/policy-modal-context'
+import Banner from '../banner'
 
 interface PolicyComparisonIndexProps {
   year: string,
   policyHandle?: string,
 }
 
-let elTop = 0;
-
 export default function PolicyComparisonIndex ({ year, policyHandle }: PolicyComparisonIndexProps) {
   const language = useLanguage();
   const [isLoading, setIsLoading] = React.useState(true);
   const [policyIndex, setPolicyIndex] = React.useState({});
-  const [tableDataset, setTableDataset] = React.useState(new Map());
-  const [parties, setParties] = React.useState([]);
+  const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy>>>();
+  const [parties, setParties] = React.useState<Set<Party>>();
   const [deferUntil, setDeferUntil] = React.useState(null);
   const [topicFilter, setTopicFilter] = React.useState([]);
-
-  React.useEffect(() => {
-    const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
-    const $tableFiller = document.getElementById("tableFiller") as HTMLElement;
-    let initialHeaderTop: number = $tableHeader.getBoundingClientRect().top;
-    let initialBodyTop: number = document.body.getBoundingClientRect().top;
-
-    if (elTop == 0) {
-      elTop = initialHeaderTop - initialBodyTop;
-    }
-
-    window.addEventListener("scroll", () => {
-      window.requestAnimationFrame(() => {
-        let scrollTop: number = document.documentElement.scrollTop;
-        if (scrollTop > elTop) {
-          $tableHeader.classList.add("fixed");
-          $tableFiller.classList.remove("hidden");
-        } else {
-          $tableHeader.classList.remove("fixed");
-          $tableFiller.classList.add("hidden");
-        }
-      });
-    });
-  });
 
   React.useEffect(() => {
     let ignore = false
@@ -87,6 +40,7 @@ export default function PolicyComparisonIndex ({ year, policyHandle }: PolicyCom
           }
         });
         setTableDataset(dataset);
+        setParties(parties);
         setIsLoading(false);
         // setTopicFilter(Array.from(dataset.keys()));
       }
@@ -97,12 +51,21 @@ export default function PolicyComparisonIndex ({ year, policyHandle }: PolicyCom
   }, [year]);
 
   return (
-    <>
-      <PolicyModal></PolicyModal>
-      <PolicyTable isLoading={isLoading} dataset={tableDataset} />
+    <PolicyModalProvider visible={false}>
+      {/* <Banner>
+        <div dangerouslySetInnerHTML={{ __html: "The election is today! Be sure to check your local <a target='_blank' href='https://www.elections.ca/content2.aspx?section=faq&dir=votinghours&document=index&lang=e'>voting&nbsp;hours&nbsp;&rarr;</a>" }} />
+      </Banner> */}
+      {
+        (isLoading || !tableDataset || !parties) ?
+        (
+          <div className="policyCell partyTitle backgroundColor--Skeleton">
+            ...
+          </div>
+        ) : <PolicyTable dataset={tableDataset} parties={parties} />
+      }
       <footer>
         <p className="footerInfo" />
       </footer>
-    </>
+    </PolicyModalProvider>
   )
 }
