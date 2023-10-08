@@ -79,8 +79,8 @@ a {
   background-size: contain;
   margin-top: 0;
 
-  &.lang-en { background-image: url('../img/op_logo_en.svg'); }
-  &.lang-fr { background-image: url('../img/op_logo_fr.svg'); }
+  &.lang-EN { background-image: url('../img/op_logo_en.svg'); }
+  &.lang-FR { background-image: url('../img/op_logo_fr.svg'); }
 }
 
 .pageSubTitle {

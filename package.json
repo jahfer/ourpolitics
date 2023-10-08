@@ -13,5 +13,8 @@
     "react-remark": "^2.1.0",
     "react-router-dom": "^6.16.0",
     "unplugin-markdown-2-html": "^0.3.4"
+  },
+  "devDependencies": {
+    "fast-glob": "^3.3.1"
   }
 }

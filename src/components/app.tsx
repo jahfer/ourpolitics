@@ -10,6 +10,8 @@ import ErrorIndex from './pages/error-index'
 import PolicyComparisonIndex from './pages/policy-comparison-index'
 import PrivacyPolicyIndex from './pages/privacy-policy-index'
 import AboutIndex from './pages/about-index'
+import { LanguageProvider } from './context/language-context'
+import { LanguageOption } from '../types/schema'
 
 const router = createBrowserRouter([
   {
@@ -34,7 +36,9 @@ const router = createBrowserRouter([
 export default function App () {
   return (
     <React.StrictMode>
-      <RouterProvider router={router} />
+      <LanguageProvider defaultLanguage={LanguageOption.EN}>
+        <RouterProvider router={router} />
+      </LanguageProvider>
     </React.StrictMode>
   )
 }
