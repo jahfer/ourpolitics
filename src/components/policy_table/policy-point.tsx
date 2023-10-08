@@ -8,11 +8,11 @@ interface PolicyPointProps {
 }
 
 export default function PolicyPoint ({ policy }: PolicyPointProps) {
-  const language = useLanguage();
-  const { modalPolicy, setModalPolicy } = usePolicyModal();
+  const { language } = useLanguage();
+  const { setModalPolicy } = usePolicyModal();
   const { setPolicyModalVisibility } = usePolicyModalVisiblity();
-  let formattedPolicyTitle = policy.title[LanguageOption.EN].replace(
-    /([$><+]*?[0-9]+\.?,?(&nbsp;)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heure?))*))/g,
+  let formattedPolicyTitle = policy.title[language].replace(
+    /([$><+]*?[0-9]+\.?,?(&nbsp;)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
     "<span class='text-em'>$1</span>"
   );
 

@@ -4,7 +4,9 @@ import { useLanguage } from '../context/language-context'
 
 import Page from '../page'
 
+// @ts-ignore
 import { html as PrivacyEN } from './content/privacy_index.en.md'
+// @ts-ignore
 import { html as PrivacyFR } from './content/privacy_index.fr.md'
 
 export default function PrivacyPolicyIndex () {

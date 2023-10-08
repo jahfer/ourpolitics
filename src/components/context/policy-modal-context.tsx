@@ -40,7 +40,7 @@ export function PolicyModalProvider({ children, visible = false }: PolicyModalPr
   const [modalPolicy, setModalPolicy] = useState<Policy>();
   const policyModalValue = { modalPolicy, setModalPolicy };
 
-  const [policyModalVisible, setPolicyModalVisibility] = useState(false);
+  const [policyModalVisible, setPolicyModalVisibility] = useState(visible);
   const policyModalVisibilityValue = { policyModalVisible, setPolicyModalVisibility };
 
   return (

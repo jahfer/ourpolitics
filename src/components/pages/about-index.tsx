@@ -3,11 +3,13 @@ import { LanguageOption } from '../../types/schema'
 import { useLanguage } from '../context/language-context'
 
 import Page from '../page'
+// @ts-ignore
 import { html as AboutEN } from './content/about_index.en.md'
+// @ts-ignore
 import { html as AboutFR } from './content/about_index.fr.md'
 
 export default function AboutIndex () {
-  const language = useLanguage();
+  const { language } = useLanguage();
   const [content, setContent] = React.useState<string>("");
 
   React.useEffect(() => {

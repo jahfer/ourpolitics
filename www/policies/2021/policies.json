@@ -14,7 +14,7 @@
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
     ],
-    "handle": "2021/cpc/digital_services_tax"
+    "handle": "digital_services_tax"
   },
   {
     "topic": "Economy",
@@ -37,7 +37,7 @@
         "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/flow-through-shares-ftss.html"
       }
     ],
-    "handle": "2021/cpc/flow_through_shares"
+    "handle": "flow_through_shares"
   },
   {
     "topic": "Science",
@@ -138,7 +138,7 @@
         "url": "https://www.thestar.com/politics/political-opinion/2021/08/24/liberals-will-take-aim-at-real-estate-speculation-propose-homebuyers-bill-of-rights-in-ambitious-housing-policy.html"
       }
     ],
-    "handle": "2021/lpc/homebuyers_bill_of_rights"
+    "handle": "homebuyers_bill_of_rights"
   },
   {
     "topic": "Housing",
@@ -219,7 +219,7 @@
         "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
       }
     ],
-    "handle": "2021/ndp/income_tax_rate"
+    "handle": "income_tax_rate"
   },
   {
     "topic": "Economy",
@@ -242,7 +242,7 @@
         "url": "https://taxfoundation.org/canada-cuts-corporate-tax-rate-15-lowest-overall-rate-g-7/"
       }
     ],
-    "handle": "2021/ndp/corporate_tax_rate"
+    "handle": "corporate_tax_rate"
   },
   {
     "topic": "Economy",
@@ -259,7 +259,7 @@
         "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
       }
     ],
-    "handle": "2021/ndp/wealth_tax"
+    "handle": "wealth_tax"
   },
   {
     "topic": "Economy",
@@ -490,7 +490,7 @@
         "url": "https://www.ctvnews.ca/politics/federal-election-2021/o-toole-pledges-mental-health-support-attaches-no-strings-for-provinces-territories-1.5560625"
       }
     ],
-    "handle": "2021/cpc/mental_health_action_plan"
+    "handle": "mental_health_action_plan"
   },
   {
     "topic": "Healthcare",
@@ -529,7 +529,7 @@
         "url": "https://www.cbc.ca/news/politics/gun-control-wedge-issue-1.6165532"
       }
     ],
-    "handle": "2021/cpc/gun_classification"
+    "handle": "gun_classification"
   },
   {
     "topic": "Social Assistance",
@@ -740,7 +740,7 @@
         "url": "https://www.ctvnews.ca/mobile/politics/federal-election-2021/o-toole-acknowledges-some-conservatives-frustrated-over-carbon-pricing-plan-1.5556254"
       }
     ],
-    "handle": "2021/cpc/low_carbon_savings_account"
+    "handle": "low_carbon_savings_account"
   },
   {
     "topic": "Environment",
@@ -858,7 +858,7 @@
         "url": "https://liberal.ca/liberals-move-forward-to-end-plastic-pollution-and-reduce-waste/"
       }
     ],
-    "handle": "2021/lpc/recycling"
+    "handle": "recycling"
   },
   {
     "topic": "Environment",
@@ -1051,7 +1051,7 @@
         "url": "https://www.budget.gc.ca/2021/report-rapport/p4-en.html#252"
       }
     ],
-    "handle": "2021/lpc/digital_services_tax"
+    "handle": "digital_services_tax"
   },
   {
     "topic": "Infrastructure",
@@ -1090,7 +1090,7 @@
         "url": "https://www.canada.ca/en/department-finance/news/2019/06/backgrounder-proposed-changes-to-the-tax-treatment-of-employee-stock-options.html"
       }
     ],
-    "handle": "2021/cpc/stock_option_exemption"
+    "handle": "stock_option_exemption"
   },
   {
     "topic": "Science",
@@ -1567,7 +1567,7 @@
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#21"
       }
     ],
-    "handle": "2021/lpc/child_care"
+    "handle": "child_care"
   },
   {
     "topic": "Education",
@@ -1832,7 +1832,7 @@
         "url": "https://globalnews.ca/news/8134332/otoole-plan-trc-indigenous/"
       }
     ],
-    "handle": "2021/cpc/calls_to_action"
+    "handle": "calls_to_action"
   },
   {
     "topic": "Indigenous Relations",
@@ -2489,7 +2489,7 @@
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
     ],
-    "handle": "2021/ndp/recycling"
+    "handle": "recycling"
   },
   {
     "topic": "Environment",
@@ -3082,7 +3082,7 @@
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
     ],
-    "handle": "2021/ndp/student_loans"
+    "handle": "student_loans"
   },
   {
     "topic": "Education",
@@ -3537,7 +3537,7 @@
         "url": "https://www.cbc.ca/news/politics/trudeau-hike-taxes-banks-1.6152710"
       }
     ],
-    "handle": "2021/lpc/corporate_tax_rate"
+    "handle": "corporate_tax_rate"
   },
   {
     "topic": "Infrastructure",
@@ -4234,7 +4234,7 @@
         "url": "https://www.advisor.ca/news/industry-news/feds-plan-5-billion-green-bond-issue/"
       }
     ],
-    "handle": "2021/lpc/green_bonds"
+    "handle": "green_bonds"
   },
   {
     "topic": "Housing",

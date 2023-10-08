@@ -1,20 +1,31 @@
-import { createContext, useContext } from 'react';
+import { createContext, useContext, useState } from 'react';
+import * as React from 'react';
 import { LanguageOption, Language } from '../../types/schema';
 
 interface LanguageProviderProps {
-  language: Language;
+  defaultLanguage: Language;
   children: React.ReactNode;
 }
 
-export const LanguageContext = createContext<Language>(LanguageOption.EN);
+type LanguageContextType = {
+  language: Language,
+  setLanguage: (language: Language) => void
+}
+
+export const LanguageContext = createContext<LanguageContextType>({
+  language: LanguageOption.EN,
+  setLanguage: () => {}
+});
 
 export function useLanguage() {
   return useContext(LanguageContext);
 }
 
-export function LanguageProvider({ language, children }: LanguageProviderProps) {
+export function LanguageProvider({ defaultLanguage, children }: LanguageProviderProps) {
+  const [language, setLanguage] = useState<Language>(defaultLanguage);
+  const value = { language, setLanguage };
   return (
-    <LanguageContext.Provider value={language}>
+    <LanguageContext.Provider value={value}>
       {children}
     </LanguageContext.Provider>
   );
