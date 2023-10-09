@@ -1,6 +1,7 @@
 import * as React from 'react'
 import PolicyCell from './policy-cell'
 import { Party, Policy } from '../../types/schema'
+import { useTranslation } from '../context/language-context'
 
 interface PolicyRowProps {
   topic: string
@@ -9,6 +10,7 @@ interface PolicyRowProps {
 }
 
 export default function PolicyRow ({ topic, parties, policies }: PolicyRowProps) {
+  const { t } = useTranslation();
   const policyCells = parties.map((party) => {
     const partyPolicies = policies.filter((policy) => policy.party === party)
     return <PolicyCell party={party} topic={topic} policies={partyPolicies} key={`${party}/${topic}`} />
@@ -22,7 +24,7 @@ export default function PolicyRow ({ topic, parties, policies }: PolicyRowProps)
           aria-labelledby="policyTableColumn--topics"
           id={`policyTableRow--${topic.replace(/[^a-zA-Z]/g, "")}`}
           className="policyTopic--title">
-          {topic}
+          {t(topic)}
         </h3>
         {/* <a className="policyTopic--info" href="#">Learn more</a> */}
       </div>

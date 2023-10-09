@@ -1,8 +1,6 @@
 import * as React from 'react'
-import { useLanguage } from '../context/language-context'
-import PolicyModal from './policy-modal'
+import { useTranslation } from '../context/language-context'
 import PolicyTable from './policy-table'
-import { table } from 'console'
 import { Party, Policy } from '../../types/schema'
 
 import { PolicyModalProvider } from '../context/policy-modal-context'
@@ -14,13 +12,10 @@ interface PolicyComparisonIndexProps {
 }
 
 export default function PolicyComparisonIndex ({ year, policyHandle }: PolicyComparisonIndexProps) {
-  const language = useLanguage();
   const [isLoading, setIsLoading] = React.useState(true);
-  const [policyIndex, setPolicyIndex] = React.useState({});
   const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy>>>();
   const [parties, setParties] = React.useState<Set<Party>>();
-  const [deferUntil, setDeferUntil] = React.useState(null);
-  const [topicFilter, setTopicFilter] = React.useState([]);
+  const { t } = useTranslation();
 
   React.useEffect(() => {
     let ignore = false
@@ -42,7 +37,6 @@ export default function PolicyComparisonIndex ({ year, policyHandle }: PolicyCom
         setTableDataset(dataset);
         setParties(parties);
         setIsLoading(false);
-        // setTopicFilter(Array.from(dataset.keys()));
       }
     }
 
@@ -53,7 +47,7 @@ export default function PolicyComparisonIndex ({ year, policyHandle }: PolicyCom
   return (
     <PolicyModalProvider visible={false}>
       {/* <Banner>
-        <div dangerouslySetInnerHTML={{ __html: "The election is today! Be sure to check your local <a target='_blank' href='https://www.elections.ca/content2.aspx?section=faq&dir=votinghours&document=index&lang=e'>voting&nbsp;hours&nbsp;&rarr;</a>" }} />
+        <div dangerouslySetInnerHTML={{ __html: t("election_notice") }} />
       </Banner> */}
       {
         (isLoading || !tableDataset || !parties) ?

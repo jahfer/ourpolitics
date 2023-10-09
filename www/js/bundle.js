@@ -4256,11 +4256,11 @@
             }
           };
           var reusableSVGContainer;
-          var setInnerHTML = createMicrosoftUnsafeLocalFunction(function(node, html46) {
+          var setInnerHTML = createMicrosoftUnsafeLocalFunction(function(node, html191) {
             if (node.namespaceURI === SVG_NAMESPACE) {
               if (!("innerHTML" in node)) {
                 reusableSVGContainer = reusableSVGContainer || document.createElement("div");
-                reusableSVGContainer.innerHTML = "<svg>" + html46.valueOf().toString() + "</svg>";
+                reusableSVGContainer.innerHTML = "<svg>" + html191.valueOf().toString() + "</svg>";
                 var svgNode = reusableSVGContainer.firstChild;
                 while (node.firstChild) {
                   node.removeChild(node.firstChild);
@@ -4271,7 +4271,7 @@
                 return;
               }
             }
-            node.innerHTML = html46;
+            node.innerHTML = html191;
           });
           var ELEMENT_NODE = 1;
           var TEXT_NODE = 3;
@@ -9288,9 +9288,9 @@
                 error("Expected `%s` listener to be a function, instead got a value of `%s` type.", registrationName, typeof listener);
               }
             };
-            normalizeHTML = function(parent, html46) {
+            normalizeHTML = function(parent, html191) {
               var testElement = parent.namespaceURI === HTML_NAMESPACE ? parent.ownerDocument.createElement(parent.tagName) : parent.ownerDocument.createElementNS(parent.namespaceURI, parent.tagName);
-              testElement.innerHTML = html46;
+              testElement.innerHTML = html191;
               return testElement.innerHTML;
             };
           }
@@ -27434,11 +27434,176 @@
   var import_react = __toESM(require_react());
   var React4 = __toESM(require_react());
 
-  // src/types/schema.tsx
+  // src/types/schema.ts
   var LanguageOption = {
     EN: "EN",
     FR: "FR"
   };
+
+  // src/support/translations.ts
+  var translations = {
+    "our_politics": {
+      EN: "Our Politics",
+      FR: "Notre politique"
+    },
+    "topics": {
+      EN: "Topics",
+      FR: "Sujets"
+    },
+    "no_policy_listed": {
+      EN: "No major policies announced",
+      FR: "Aucune politique majeure annonc\xE9e"
+    },
+    "archives": {
+      EN: "Archives",
+      FR: "Archives"
+    },
+    "about": {
+      EN: "About",
+      FR: "\xC0 propos"
+    },
+    "privacy_policy": {
+      EN: "Privacy",
+      FR: "Confidentialit\xE9"
+    },
+    "liberal": {
+      EN: "Liberals",
+      FR: "Lib\xE9ral"
+    },
+    "conservative": {
+      EN: "Conservatives",
+      FR: "Conservateur"
+    },
+    "ndp": {
+      EN: "NDP",
+      FR: "NPD"
+    },
+    "green": {
+      EN: "Green",
+      FR: "Vert"
+    },
+    "topic.foreign_policy": {
+      EN: "Foreign Policy",
+      FR: "Affaires \xE9trang\xE8res"
+    },
+    "topic.economy": {
+      EN: "Economy & Business",
+      FR: "\xC9conomie et entreprises"
+    },
+    "topic.taxes": {
+      EN: "Taxes",
+      FR: "Taxes et imp\xF4ts"
+    },
+    "topic.international_trade": {
+      EN: "International Trade",
+      FR: "Commerce international"
+    },
+    "topic.environment": {
+      EN: "Environment",
+      FR: "Environnement"
+    },
+    "topic.government": {
+      EN: "Government",
+      FR: "Gouvernement"
+    },
+    "topic.indigenous_relations": {
+      EN: "Indigenous Relations",
+      FR: "Peuples autochtones"
+    },
+    "topic.healthcare": {
+      EN: "Health & Safety",
+      FR: "Sant\xE9 et s\xE9curit\xE9"
+    },
+    "topic.infrastructure": {
+      EN: "Infrastructure",
+      FR: "Infrastructures"
+    },
+    "topic.science": {
+      EN: "Science",
+      FR: "Science"
+    },
+    "topic.child_care": {
+      EN: "Child Care",
+      FR: "Soin des enfants"
+    },
+    "topic.bill_c51": {
+      EN: "Bill C-51",
+      FR: "Projet de loi C-51"
+    },
+    "topic.cannabis": {
+      EN: "Cannabis",
+      FR: "Cannabis"
+    },
+    "topic.social_assistance": {
+      EN: "Financial Support",
+      FR: "Soutien financier"
+    },
+    "topic.youth": {
+      EN: "Youth",
+      FR: "Jeunesse"
+    },
+    "topic.senate": {
+      EN: "Senate",
+      FR: "S\xE9nat"
+    },
+    "topic.electoral_reform": {
+      EN: "Electoral Reform",
+      FR: "R\xE9forme \xE9lectorale"
+    },
+    "topic.civil_rights": {
+      EN: "Civil Rights",
+      FR: "Droits civils"
+    },
+    "topic.education": {
+      EN: "Education",
+      FR: "\xC9ducation"
+    },
+    "topic.housing": {
+      EN: "Housing",
+      FR: "Logement"
+    },
+    "topic.affordability": {
+      EN: "Affordability",
+      FR: "Co\xFBt de la vie"
+    },
+    "topic.arts_and_culture": {
+      EN: "Arts & Culture",
+      FR: "Arts et culture"
+    },
+    "topic.immigration": {
+      EN: "Immigration",
+      FR: "Immigration"
+    },
+    "policy_comparison_title": (year) => ({
+      EN: "".concat(year, " Policies"),
+      FR: "Enjeux ".concat(year)
+    }),
+    "election_notice": {
+      EN: "The election is today! Be sure to check your local <a target='_blank' href='https://www.elections.ca/content2.aspx?section=faq&dir=votinghours&document=index&lang=e'>voting&nbsp;hours&nbsp;&rarr;</a>",
+      FR: "Les \xE9lections ont lieu aujourd'hui&nbsp;! V\xE9rifiez les <a target='_blank' href='https://www.elections.ca/content2.aspx?section=faq&dir=votinghours&document=index&lang=f'>heures de vote de votre localit\xE9&nbsp;&rarr;</a>"
+    },
+    // "hero.election_notice": {
+    //   EN: "The election is underway!",
+    //   FR: `L'élection est en cours!`
+    // },
+    // "hero.subtitle": {
+    //   EN: "Stay tuned for new policies in the coming weeks.",
+    //   FR: `Restez à l'écoute des nouvelles politiques dans les semaines à venir.`
+    // },
+    // "hero.cta": {
+    //   EN: "Read the 2021 policies",
+    //   FR: `Lire les politiques de 2021`
+    // },
+    "modal.references": {
+      EN: "References",
+      FR: "R\xE9f\xE9rences"
+    },
+    "modal.random_policy": {
+      EN: "Read another policy",
+      FR: "Lire une autre politique"
+    }
+  };
+  var translations_default = translations;
 
   // src/components/context/language-context.tsx
   var LanguageContext = (0, import_react.createContext)({
@@ -27449,10 +27614,24 @@
   function useLanguage() {
     return (0, import_react.useContext)(LanguageContext);
   }
+  var TranslationContext = (0, import_react.createContext)({
+    t: (key) => key
+  });
+  function useTranslation() {
+    return (0, import_react.useContext)(TranslationContext);
+  }
   function LanguageProvider({ defaultLanguage, children }) {
     const [language, setLanguage] = (0, import_react.useState)(defaultLanguage);
     const value = { language, setLanguage };
-    return /* @__PURE__ */ React4.createElement(LanguageContext.Provider, { value }, children);
+    const t = (key, ...args) => {
+      const translation = translations_default[key];
+      if (typeof translation === "function") {
+        return translation(...args)[language];
+      } else {
+        return (translation == null ? void 0 : translation[language]) || '?("'.concat(key, '")');
+      }
+    };
+    return /* @__PURE__ */ React4.createElement(LanguageContext.Provider, { value }, /* @__PURE__ */ React4.createElement(TranslationContext.Provider, { value: { t } }, children));
   }
 
   // src/components/policy_table/policy-table.tsx
@@ -27639,7 +27818,612 @@
     stock_option_exemption_FR: html40
   };
 
+  // src/policies/2015/lpc_aboriginal_education.en.md
+  var html42 = "<p>The Liberal party intends to invest <strong>$515 million/year</strong> in primary education for First Nations individuals (kindergarten to grade 12), with an eventual annual investment of <strong>$750 million/year</strong>.</p>\n<p>For Indigenous students in post-secondary education, the Liberal party intends to invest <strong>$50 million/year</strong> in financial assistance.</p>\n<p>Alongside this spending, the Liberals will add <strong>$500 million</strong> over three years for First Nations education infrastructure.</p>\n";
+
+  // src/policies/2015/lpc_aboriginal_education.fr.md
+  var html43 = "<p>Le parti lib\xE9ral entend investir <strong>515 millions$/ann\xE9es</strong> en \xE9ducation primaire pour les premi\xE8res nations (de la garderie \xE0 la fin du secondaire), avec un investissement \xE9ventuel de <strong>750 millions$/ann\xE9es</strong>.</p>\n<p>Pour les \xE9tudiants post-secondaire des premi\xE8res nations, le parti lib\xE9ral entend investir <strong>50 millions/ann\xE9es</strong> en aide financi\xE8re.</p>\n<p>De plus, les lib\xE9raux ajouterait <strong>500 millions</strong> sur 3 ans pour les infrastructure en \xE9ducation des premi\xE8res nations.</p>\n";
+
+  // src/policies/2015/lpc_aboriginal_relations.en.md
+  var html44 = "<p>The Liberal party would immediately launch a national public inquiry into missing and murdered aboriginal women in Canada. From the inquiry, they intend to produce recommendations for changes within governments, law enforcement and other areas to help prevent further crime.</p>\n";
+
+  // src/policies/2015/lpc_aboriginal_relations.fr.md
+  var html45 = "<p>Le parti lib\xE9ral lancerait imm\xE9diatement une enqu\xE8te publique nationale sur les disparition et le meurtre de femmes autochtones au Canada. Le but de cette enqu\xE8te est de produire des recommandations de changements, d'\xE9tablir de nouvelles fa\xE7ons d'appliquer la loi et d'identifier de nouvelles fa\xE7ons de pr\xE9venir ce type de crimes.</p>\n";
+
+  // src/policies/2015/lpc_c51.en.md
+  var html46 = '<p>The Liberals have promised to amend certain aspects of C-51 that they feel go too far. Mr. Trudeau is supportive of the newly-granted powers to police and spy agencies, but would support more oversight and parliamentary review.</p>\n<h5 id="what-is-bill-c-51%3F" tabindex="-1"><a class="header-anchor" href="#what-is-bill-c-51%3F">#</a> What is Bill C-51?</h5>\n<ul>\n<li>Enables information sharing across 17 federal agencies without judicial barriers</li>\n<li>Allows police to detain terrorism suspects for 7 days without charge</li>\n<li>Lets the Minister of Public Safety add individuals to the no-fly list</li>\n<li>Enables CSIS to disrupt terror plots, protests, and websites interfering with the safety or economic stability of Canada</li>\n<li>Prohibits speech that promotes or glorifies terrorism</li>\n</ul>\n';
+
+  // src/policies/2015/lpc_c51.fr.md
+  var html47 = "<p>Les lib\xE9raux ont promis d'amender certains aspects de C-51 plus extr\xEAmes selon eux. M. Trudeau supporte les nouveaux pouvoirs des corps policiers et des agences d'espionage mais supporterait plus de surveillance et un examen du parlement.</p>\n<h5 id=\"qu'est-ce-que-le-bill-c-51-%3F\" tabindex=\"-1\"><a class=\"header-anchor\" href=\"#qu'est-ce-que-le-bill-c-51-%3F\">#</a> Qu'est-ce que le Bill C-51 ?</h5>\n<ul>\n<li>Rend possible le partage d'informations entre 17 agences f\xE9d\xE9rales sans aucune barri\xE8res judici\xE8res</li>\n<li>Permet aux corps policiers de d\xE9tenir les suspects de terrorismes 7 jours sans devoir porter des accusations</li>\n<li>Autorise le minist\xE8re de la s\xE9curit\xE9 publique \xE0 ajouter des individus sur la liste d'interdiction de vol</li>\n<li>Accorde au SCRS le pouvoir d'intervenir \xE0 l'encontre d'actes terroristes, de manifestations et de site Internets\nqui pourrait interf\xE9rer avec la s\xE9curit\xE9 et la stabilit\xE9 \xE9conomique du Canada</li>\n<li>Interdit le discours de promotion et de glorification du terrorisme</li>\n</ul>\n";
+
+  // src/policies/2015/lpc_carbon_tax.en.md
+  var html48 = "<p>The Liberal party would work with the provinces to set a national standard for carbon pricing. They have not laid out a clear plan, but are waiting until meeting with the provinces to determine the most effective method of reducing carbon emissions.</p>\n<blockquote>\n<p>\u201CMake no mistake, the Liberal Party will be putting a price on carbon,\u201D - Justin Trudeau</p>\n</blockquote>\n";
+
+  // src/policies/2015/lpc_carbon_tax.fr.md
+  var html49 = "<p>Le parti lib\xE9ral travaillerait avec les provinces afin d'\xE9tablir un standard autour du prix du carbone. Ils n'ont pas encore \xE9tablit de plan, mais attendent de rencontrer les provinces afin de d\xE9terminer la m\xE9thode la plus efficace de r\xE9duire les \xE9missions de carbone.</p>\n<blockquote>\n<p>\u201CMake no mistake, the Liberal Party will be putting a price on carbon,\u201D - Justin Trudeau</p>\n</blockquote>\n";
+
+  // src/policies/2015/lpc_ccb.en.md
+  var html50 = "<p>The Liberals would replace the Universal Child Care Benefit with the <em>Canada Child Benefit</em>:</p>\n<ul>\n<li>Up to <strong>$533/month</strong> for families with children under the age of six</li>\n<li>Up to <strong>$450/month</strong> to families with children under the age of 18</li>\n</ul>\n<p>Unlike the UCCB, the Canada Child Benefit would not be taxable, is matched with inflation, and would be weighted based on the income of the household. Families earning above $160,000 would not receive anything under the Canada Child Benefit.</p>\n";
+
+  // src/policies/2015/lpc_ccb.fr.md
+  var html51 = "<p>Les Lib\xE9raux remplaceraient La prestation universelle pour la garde d'enfants par une <em>Prestation les enfants canadiens</em>:</p>\n<ul>\n<li>Jusqu'\xE0 <strong>533$/mois</strong> pour les familles avec des enfants de moins de 6 ans</li>\n<li>Jusqu'\xE0 <strong>450$/mois</strong> aux familles avec des enfants de moins de 18 ans</li>\n</ul>\n<p>Au contraire du PUGE, la prestation pour les enfants canadiens ne serait pas imposable, augmenterait avec l'inflation et serait ajust\xE9e au revenu des m\xE9nages. Les familles ayant un revenu sup\xE9rieur \xE0 160 000$ ne seraient pas \xE9ligibles.</p>\n";
+
+  // src/policies/2015/lpc_green_tech.en.md
+  var html52 = "<p>The Liberal government would invest <strong>$200 million</strong> into clean technology for forestry, fisheries, mining, energy, and agricultural sectors. They would also invest an additional <strong>$100 million</strong> in the producers of the clean technology to encourage development.</p>\n";
+
+  // src/policies/2015/lpc_green_tech.fr.md
+  var html53 = "<p>Un gouvernement lib\xE9ral investirait <strong>200 millions$</strong> dans les technologies vertes des secteurs de la foresterie, p\xEAcherie, mines, \xE9nergie et agriculture. De plus, les lib\xE9raux investiraient <strong>100 millions$</strong> addionnels pour encourager les technologies de productions vertes.</p>\n";
+
+  // src/policies/2015/lpc_healthcare.en.md
+  var html54 = "<p>The Liberals intend to improve access and reduce the cost of prescription medication through bulk federal purchasing at lower-negotiated rates. By negotiating rates federally, the government would be able to secure low rates which will lower the cost of medication bought by provincial governments.</p>\n";
+
+  // src/policies/2015/lpc_healthcare.fr.md
+  var html55 = "<p>Les lib\xE9raux ont l'intention d'am\xE9liorer l'acc\xE8es et r\xE9duire le co\xFBt des m\xE9dicaments en prescription par l'achat group\xE9 par le gouvernement f\xE9d\xE9ral \xE0 un meilleur taux. En n\xE9gociant le taux au f\xE9d\xE9ral, le gouvernement sera en mesure de n\xE9gocier un meilleur taux qui diminuera le co\xFBt de l'achat des m\xE9dicaments par les gouvernements provinciaux.</p>\n";
+
+  // src/policies/2015/lpc_homecare.en.md
+  var html56 = "<p>The Liberals have promised to negotiate a better long-term healthcare plan with the provinces. Upon a successful agreement, the Liberal party will invest <strong>$3 billion</strong> over the next four years into improving home care for seniors.</p>\n";
+
+  // src/policies/2015/lpc_homecare.fr.md
+  var html57 = "<p>Les lib\xE9raux ont promis de n\xE9gocier une meilleure entente \xE0 propos des soins de longues dur\xE9es avec les provinces, le parti Lib\xE9ral investira <strong>3 milliards$</strong> au courant des quatres prochaines ann\xE9es afin d'am\xE9liorer les soins \xE0 domiciles pour les personnes ag\xE9es.</p>\n";
+
+  // src/policies/2015/lpc_income_splitting.en.md
+  var html58 = "<p>The Liberal party would remove the ability for families with children under 18 to split income between themselves and their spouse as a method of paying lower taxes. This plan would raise <strong>$2.2 billion</strong> in tax revenue.</p>\n<p>The Liberals would still allow pension-splitting for seniors.</p>\n";
+
+  // src/policies/2015/lpc_income_splitting.fr.md
+  var html59 = "<p>Le parti lib\xE9ral annulerait la politique de fragmentation des revenues qui permet actuellement \xE0 des familles de payer moins de taxes si elles comptes un enfant de moins de 18 ans. Cela permettrait au gouvernement d'augmenter ses revenues de <strong>2.2 milliards$</strong>.</p>\n<p>Le parti lib\xE9ral maintiendrait toutefois la fragmentation de revenues pour les personnes ag\xE9es.</p>\n";
+
+  // src/policies/2015/lpc_infrastructure_bank.en.md
+  var html60 = "<p>The Liberal party would use Canada\u2019s strong lending and negotiating power to reduce the cost of infrastructure for provinces and municipalities. By having the federal government manage the infrastructure centrally, they are able to secure lower costs for projects, as well as pool capital from multiple investors to aid projects.</p>\n";
+
+  // src/policies/2015/lpc_infrastructure_bank.fr.md
+  var html61 = "<p>Le parti lib\xE9ral du Canada utiliserait sa position de force pour n\xE9gocier une r\xE9dufction du prix des infrastructure pour les provinces et les municipalit\xE9s. En faisant en sorte que le gouvernement f\xE9d\xE9ral g\xE8re de fa\xE7on centralis\xE9e ses infrastructures, cela permettrait de s'assurer de diminuer ses co\xFBts et en regroupant le capital diff\xE9rents d\xE9partements plusieurs projets.</p>\n";
+
+  // src/policies/2015/lpc_infrastructure_investment.en.md
+  var html62 = "<p>The Liberals have committed to doubling the current federal infrastructure investment to <strong>$125 billion</strong> over the next 10 years.  The investment would be focused on public transit, social infrastructure and &quot;green&quot; projects.</p>\n";
+
+  // src/policies/2015/lpc_infrastructure_investment.fr.md
+  var html63 = "<p>Les lib\xE9raux se sont engag\xE9s \xE0 doubler les investissements actuel en infrastructure \xE0  <strong>125 milliards$</strong>  au courant des 10 prochaines ann\xE9es. Les investissement seront concentr\xE9s les transports publiques, les infrastructures sociales et les projets &quot;verts&quot;.</p>\n";
+
+  // src/policies/2015/lpc_isis.en.md
+  var html64 = "<p>The Liberal party would end Canada\u2019s bombing contribution in the US-led campaign against ISIS in Iraq and Syria. Instead, they would participate by increasing the number of soldiers training local troops on the ground in an attempt to fight the terror group.</p>\n";
+
+  // src/policies/2015/lpc_isis.fr.md
+  var html65 = "<p>Le parti lib\xE9ral arr\xEAterait la contribution du Canada dans les bombardements de la coalition contre l'EI en Irak et en Syrie. \xC0 la place, ils enverraient un plus grand nombre de formateur pour entra\xEEner les troupes locales sur le terrain afin de combattre les groupes terroristes.</p>\n";
+
+  // src/policies/2015/lpc_marijuana.en.md
+  var html66 = "<p>The Liberal party intends to legalize and regulate the marijuana industry as soon as possible if elected. According to Mr. Trudeau, they have suggested a timeline anywhere between a month and two years, but intend to make it a top priority for the government.</p>\n";
+
+  // src/policies/2015/lpc_marijuana.fr.md
+  var html67 = "<p>Le parti Lib\xE9ral \xE0 l'intention de l\xE9galis\xE9 et de r\xE9guler l'industrie du cannabis le plus t\xF4t possible s'ils est \xE9lu. Selon M. Trudeau, ils ont sugg\xE9r\xE9s un \xE9ch\xE9ancier qui varie de 1 mois \xE0 2 ans, c'est l'intention d'en faire l'une des grandes priorit\xE9s du gouvernement.</p>\n";
+
+  // src/policies/2015/lpc_mental_healthcare.en.md
+  var html68 = "<p>The Liberals have pledged to contribute an unspecified amount towards improving mental health services for Canadians.</p>\n";
+
+  // src/policies/2015/lpc_mental_healthcare.fr.md
+  var html69 = "<p>Les lib\xE9raux se sont engag\xE9s \xE0 augmenter les contributions afin d'am\xE9liorer les services en sant\xE9 mentale des canadiens.</p>\n";
+
+  // src/policies/2015/lpc_middle_class_taxes.en.md
+  var html70 = "<p>The Liberal party intends to lower the marginal tax rate for individuals earning between <strong>$44,701\u2013$89,401</strong> by 7%, from 22% to <strong>20.5%</strong>. For incomes within this bracket, individuals would be able to save around <strong>$670/year</strong>.</p>\n<p>For individuals earning over $200,000/year, a new top tax bracket will be introduced at <strong>33%</strong>. This is expected to raise  nearly <strong>$3 billion</strong> in revenue for the federal government.</p>\n";
+
+  // src/policies/2015/lpc_middle_class_taxes.fr.md
+  var html71 = "<p>Le parti Lib\xE9ral entend diminiuer le taux marginal d'imposition de 7% pour les individus dont le revenu est compris entre <strong>44.701$ \u2013 89.401$</strong>. Pour ceux dont le revenu se retrouve dans cet \xE9chelon, cela se traduirait par des \xE9conomies d'environs <strong>670$/ann\xE9es</strong>.</p>\n<p>Pour ceux dont le revenu est de plus de 200.000$/ann\xE9es, un nouvel \xE9chelon serait cr\xE9\xE9 et imposerait un taux de <strong>33%</strong>. Cela pourrait rapporter jusqu'\xE0 <strong>3 milliards$</strong> en revenues pour le gouvernement f\xE9d\xE9ral.</p>\n";
+
+  // src/policies/2015/lpc_pipeline.en.md
+  var html72 = "<p>The Liberals would reject the Northern Gateway pipeline (Alberta to British Columbia), but would support the development of Keystone XL (Alberta to Texas). They would consider pursuing development of Energy East (Alberta to eastern Canada), but would base it on feedback from the community and provide more oversight and regulation.</p>\n";
+
+  // src/policies/2015/lpc_pipeline.fr.md
+  var html73 = "<p>Les lib\xE9raux rejeterais le projet de pipeline Northern Gateway (de l'Alberta \xE0 la Colombie-Britanique), mais ils supporteraient Keystore XL (de l'Alberta au Texas). Ils consid\xE9raient la poursuite du d\xE9veloppement de \xC9nergie Est (de l'Alberta \xE0 l'est du Canada), mais cela d\xE9pendra du support de la communaut\xE9 et de la mise en place de m\xE9chanismes de surveillance et de r\xE9gulation.</p>\n";
+
+  // src/policies/2015/lpc_reform.en.md
+  var html74 = "<p>As part of their platform commitments, The Liberal party has planned to investigate a new voting system in time for national elections in <strong>2019</strong>. They plan on consulting with all parties, experts and Canadian citizens to determine the best reform in order to produce fairer election results.</p>\n<p>The Liberal party has promised to complete the consultation phase within the <strong>first 12 months</strong> of being elected, and have specifically mentioned investigating \u201Ca preferential ballot and/or a form of proportional representation, to represent Canadians more fairly and serve Canada better.\u201D</p>\n";
+
+  // src/policies/2015/lpc_reform.fr.md
+  var html75 = "<p>Dans le cadre des promesses de leur plateforme, le parti Lib\xE9ral a pr\xE9vu de faire l'\xE9tude d'un nouveau syst\xE8me de votation \xE0 temps pour les \xE9lections de <strong>2019</strong>. Ils planifies de consulter tous les partis, les experts et les citoyens canadiens afin de d\xE9terminer de trouver la meilleur r\xE9forme pour rendre le processus \xE9lectorale plus juste.</p>\n<p>Le parti Lib\xE9ral a promis de compl\xE9ter la phase de consultation dans les <strong>premier 12 mois</strong> de leur \xE9lection, et ils ont sp\xE9cifiquement mentionn\xE9s qu'ils \xE9tudieraient &quot;un syst\xE8me pr\xE9f\xE9rentiel et/ou une forme de repr\xE9sentation proportionnelle, afin de mieux repr\xE9senter les canadiens et de mieux servir le Canada&quot;.</p>\n";
+
+  // src/policies/2015/lpc_refugees.en.md
+  var html76 = "<p>The Liberal party has planned to accept <strong>25,000</strong> federally-sponsored refugees by the end of the year, and would invest <strong>$100 million</strong> in the effort to do so. They would also provide <strong>$100 million</strong> to the United Nations for their refugee efforts.</p>\n";
+
+  // src/policies/2015/lpc_refugees.fr.md
+  var html77 = "<p>Le parti Lib\xE9ral a planifi\xE9 d'accepter <strong>25.000</strong> r\xE9fugi\xE9s parainn\xE9s d'ici \xE0 la fin de l'ann\xE9e, et ils investiraient <strong>100 millions$</strong> afin de supporter cet effort. Ils founiraient aussi <strong>100 millions$</strong> aux Nations Unis pour leur efforts aupr\xE8s des r\xE9fugi\xE9s.</p>\n";
+
+  // src/policies/2015/lpc_science_officer.en.md
+  var html78 = "<p>The Liberals have proposed the creation of a <em>Chief Science Officer</em>, who would be responsible for providing Parliament with scientific information and expert advice on scientific issues. They would also ensure that government science is freely available to the public and that scientists are able to speak freely about their work.</p>\n";
+
+  // src/policies/2015/lpc_science_officer.fr.md
+  var html79 = "<p>Les lib\xE9raux ont propos\xE9s de nommer un <em>Conseiller scientifique en chef</em>, qui serait responsable de fournir au parlement de l'information scientifique et de fournir des avis d'experts sur des enjeux scientifiques. Ils s'assuraient aussi que l'information scientifique du gouvernement soit disponible librement et que les scientifique soient en mesure de parler librement de leur travail.</p>\n";
+
+  // src/policies/2015/lpc_senate.en.md
+  var html80 = "<p>The Liberals intend to reform the selection process for new Senators, \u201Cthrough an open, transparent and public process,\u201D but have been unclear so far on how they intend to do so.</p>\n<p>In April, the Supreme Court ruled that <strong>any change</strong> in the selection of Senators would require a constitutional amendment, and therefore support from a majority of the provinces\u2014the same effort required to abolish the Senate.</p>\n";
+
+  // src/policies/2015/lpc_senate.fr.md
+  var html81 = "<p>Les lib\xE9raux ont l'intention de r\xE9former le processus de s\xE9lection des nouveaux s\xE9nateurs, &quot;un processus publique ouvert et transparent&quot;, mais ils n'ont pas encore r\xE9v\xE9ler quels sont leurs intentions exactes.</p>\n<p>En avril, la court supr\xE8me a statu\xE9 que <strong>tout changement</strong> dans la s\xE9lection des s\xE9nateurs demanderait un amendement constitutionnel et donc exigerait le support d'une majorit\xE9 de province, le m\xEAme effort que l'abolition du s\xE9nat.</p>\n";
+
+  // src/policies/2015/lpc_seniors.en.md
+  var html82 = "<p>The Liberal party intends to reduce the age limit for receiving the <em>Old Age Security</em> and <em>Guaranteed Income Supplement</em> to <strong>age 65</strong>, down from the current 67.</p>\n<p>The Liberal party will also increase the <em>Guaranteed Income Supplement</em> by <strong>10%</strong> for single, low-income seniors.</p>\n";
+
+  // src/policies/2015/lpc_seniors.fr.md
+  var html83 = "<p>Le parti Lib\xE9ral entend diminuer l'\xE0ge minimum de 67 ans \xE0 <strong>65 ans</strong> pour avoir droit \xE0 la <em>pension de la S\xE9curit\xE9 de la vieillesse</em> et le <em>suppl\xE9ment de revenu garanti</em>.</p>\n<p>Le parti Lib\xE9ral augmentera aussi le <em>suppl\xE9ment de revenu garanti</em> de <strong>10%</strong> pour les retrait\xE9s seul et ayant peu un revenus peu \xE9lev\xE9.</p>\n";
+
+  // src/policies/2015/lpc_seniors_income_splitting.en.md
+  var html84 = '<p>The Liberals have promised to continue pension-splitting for seniors.</p>\n<h5 id="what-is-pension-splitting%3F" tabindex="-1"><a class="header-anchor" href="#what-is-pension-splitting%3F">#</a> What is pension-splitting?</h5>\n<p>Pension-splitting allows individuals to have a smaller tax burden by splitting their pension income between their spouse and themselves. If one individual is earning much less than the other (through a pension or other means), their tax rate will be much more preferential than for the individual in the higher tax bracket.</p>\n';
+
+  // src/policies/2015/lpc_seniors_income_splitting.fr.md
+  var html85 = '<p>Les lib\xE9raux ont promis de maintenir la fragmentation de revenues pour les personnes ag\xE9es.</p>\n<h5 id="qu\'est-ce-que-la-fragmentation-de-revenues-%3F" tabindex="-1"><a class="header-anchor" href="#qu\'est-ce-que-la-fragmentation-de-revenues-%3F">#</a> Qu\'est-ce que la fragmentation de revenues ?</h5>\n<p>La fragmentation de la pension permet aux individus de payer moins d\'imp\xF4t en s\xE9parant les revenus de leur pension avec leur conjoint(e). Si quelqu\'un a un revenu grandement inf\xE9rieur en comparaison de celui de son partenair (part sa pension mais aussi par d\'autres sources de revenus), leur niveau d\'imposition combin\xE9 sera grandement inf\xE9rieur que si chacun d\xE9clarait s\xE9par\xE9ment.</p>\n';
+
+  // src/policies/2015/lpc_tfsa.en.md
+  var html86 = "<p>The Liberal party would roll back the changes made by the Conservative government to the Tax Free Savings Account, which had raised the contribution limit to $10,000/year. Under the Liberals, that limit would be reduced to <strong>$5,500/year</strong>, which could bring in an additional <strong>$1.1 billion</strong> of tax revenue over five years.</p>\n";
+
+  // src/policies/2015/lpc_tfsa.fr.md
+  var html87 = "<p>Le parti Lib\xE9ral annulerait les changements des conservateurs \xE0 propos du compte d'\xE9pargne libre d'imp\xF4t, qui ont augment\xE9s la limite des contributions \xE0 10.000$/ann\xE9es. Sous un gouvernement Lib\xE9ral, la limite serait r\xE9duite \xE0 <strong>5.500$/ann\xE9es</strong>, ce qui procurait en imp\xF4t environs <strong>1.1 milliard</strong> de revenues au courant des 5 prochaines ann\xE9es.</p>\n";
+
+  // src/policies/2015/lpc_tpp.en.md
+  var html88 = '<p>The Liberals would support the Trans-Pacific Partnership but have concerns about the dairy concessions required.</p>\n<h5 id="what-is-the-trans-pacific-partnership%3F" tabindex="-1"><a class="header-anchor" href="#what-is-the-trans-pacific-partnership%3F">#</a> What is the Trans-Pacific Partnership?</h5>\n<p>The TPP is a cross-pacific trade agreement including Canada, USA, Japan, Chile, New Zealand, Vietnam, Malaysia, among others.</p>\n<ul>\n<li>Looser requirements for tariff-free cars and trucks, allowing cars to be manufactured outside of North America</li>\n<li>Copyright protections will become much stricter, enforcing criminal charges when violating copyright law, and restricting free use</li>\n<li>Would open small part of dairy, poultry and egg markets (1.5% to 3.25% of production) to foreign imports</li>\n</ul>\n';
+
+  // src/policies/2015/lpc_tpp.fr.md
+  var html89 = '<p>The Liberals would support the Trans-Pacific Partnership but have concerns about the dairy concessions required.</p>\n<h5 id="what-is-the-trans-pacific-partnership%3F" tabindex="-1"><a class="header-anchor" href="#what-is-the-trans-pacific-partnership%3F">#</a> What is the Trans-Pacific Partnership?</h5>\n<p>The TPP is a cross-pacific trade agreement including Canada, USA, Japan, Chile, New Zealand, Vietnam, Malaysia, among others.</p>\n<ul>\n<li>Looser requirements for tariff-free cars and trucks, allowing cars to be manufactured outside of North America</li>\n<li>Copyright protections will become much stricter, enforcing criminal charges when violating copyright law, and restricting free use</li>\n<li>Would open small part of dairy, poultry and egg markets (1.5% to 3.25% of production) to foreign imports</li>\n</ul>\n';
+
+  // src/policies/2015/lpc_transit.en.md
+  var html90 = "<p>The Liberals plan to triple federal investment in public transit over the next four years, and intend to quadruple it over ten years. This amounts to an effective investment of <strong>$1.5 billion/year</strong> for the first four years, with an increase to an average of <strong>$2 billion/year</strong> over ten years.</p>\n";
+
+  // src/policies/2015/lpc_transit.fr.md
+  var html91 = "<p>The Liberals plan to triple federal investment in public transit over the next four years, and intend to quadruple it over ten years. This amounts to an effective investment of <strong>$1.5 billion/year</strong> for the first four years, with an increase to an average of <strong>$2 billion/year</strong> over ten years.</p>\n";
+
+  // src/policies/2015/lpc_youth.en.md
+  var html92 = "<p>The Liberals plan to invest <strong>$1.3 billion</strong> over three years on youth employment and opportunity.</p>\n<p>From this money, they intend to spend <strong>$300 million/year</strong> to help create 40,000 new youth jobs per year. After three years, the Liberals will increase funding for the Youth Employment Strategy by <strong>$50 million/year</strong>.</p>\n<p><strong>$40 million/year</strong> will go towards increased co-op positions for work in science, technology, engineering, mathematics, and business.</p>\n";
+
+  // src/policies/2015/lpc_youth.fr.md
+  var html93 = "<p>The Liberals plan to invest <strong>$1.3 billion</strong> over three years on youth employment and opportunity.</p>\n<p>From this money, they intend to spend <strong>$300 million/year</strong> to help create 40,000 new youth jobs per year. After three years, the Liberals will increase funding for the Youth Employment Strategy by <strong>$50 million/year</strong>.</p>\n<p><strong>$40 million/year</strong> will go towards increased co-op positions for work in science, technology, engineering, mathematics, and business.</p>\n";
+
+  // md-dir-import-ns:../../policies/2015/lpc_*.md
+  var html94 = {
+    lpc_aboriginal_education_EN: html42,
+    lpc_aboriginal_education_FR: html43,
+    lpc_aboriginal_relations_EN: html44,
+    lpc_aboriginal_relations_FR: html45,
+    lpc_c51_EN: html46,
+    lpc_c51_FR: html47,
+    lpc_carbon_tax_EN: html48,
+    lpc_carbon_tax_FR: html49,
+    lpc_ccb_EN: html50,
+    lpc_ccb_FR: html51,
+    lpc_green_tech_EN: html52,
+    lpc_green_tech_FR: html53,
+    lpc_healthcare_EN: html54,
+    lpc_healthcare_FR: html55,
+    lpc_homecare_EN: html56,
+    lpc_homecare_FR: html57,
+    lpc_income_splitting_EN: html58,
+    lpc_income_splitting_FR: html59,
+    lpc_infrastructure_bank_EN: html60,
+    lpc_infrastructure_bank_FR: html61,
+    lpc_infrastructure_investment_EN: html62,
+    lpc_infrastructure_investment_FR: html63,
+    lpc_isis_EN: html64,
+    lpc_isis_FR: html65,
+    lpc_marijuana_EN: html66,
+    lpc_marijuana_FR: html67,
+    lpc_mental_healthcare_EN: html68,
+    lpc_mental_healthcare_FR: html69,
+    lpc_middle_class_taxes_EN: html70,
+    lpc_middle_class_taxes_FR: html71,
+    lpc_pipeline_EN: html72,
+    lpc_pipeline_FR: html73,
+    lpc_reform_EN: html74,
+    lpc_reform_FR: html75,
+    lpc_refugees_EN: html76,
+    lpc_refugees_FR: html77,
+    lpc_science_officer_EN: html78,
+    lpc_science_officer_FR: html79,
+    lpc_senate_EN: html80,
+    lpc_senate_FR: html81,
+    lpc_seniors_EN: html82,
+    lpc_seniors_FR: html83,
+    lpc_seniors_income_splitting_EN: html84,
+    lpc_seniors_income_splitting_FR: html85,
+    lpc_tfsa_EN: html86,
+    lpc_tfsa_FR: html87,
+    lpc_tpp_EN: html88,
+    lpc_tpp_FR: html89,
+    lpc_transit_EN: html90,
+    lpc_transit_FR: html91,
+    lpc_youth_EN: html92,
+    lpc_youth_FR: html93
+  };
+
+  // src/policies/2015/ndp_aboriginal_relations.en.md
+  var html95 = "<p>The NDP has vowed to pursue a national public inquiry into missing and murdered aboriginal women within 100 days of taking office. They have promised to consult with First Nations, women\u2019s groups and others on the inquiry, beginning on their first day in office.</p>\n";
+
+  // src/policies/2015/ndp_aboriginal_relations.fr.md
+  var html96 = "<p>The NDP has vowed to pursue a national public inquiry into missing and murdered aboriginal women within 100 days of taking office. They have promised to consult with First Nations, women\u2019s groups and others on the inquiry, beginning on their first day in office.</p>\n";
+
+  // src/policies/2015/ndp_alzheimers.en.md
+  var html97 = "<p>The NDP plans to spend <strong>$40 million</strong> across four years to create and implement a national strategy to improve care for those suffering from Alzheimer\u2019s and dementia. There are around 750,000 Canadians who currently suffer from these disorders.</p>\n";
+
+  // src/policies/2015/ndp_alzheimers.fr.md
+  var html98 = "<p>The NDP plans to spend <strong>$40 million</strong> across four years to create and implement a national strategy to improve care for those suffering from Alzheimer\u2019s and dementia. There are around 750,000 Canadians who currently suffer from these disorders.</p>\n";
+
+  // src/policies/2015/ndp_c51.en.md
+  var html99 = '<p>The NDP have committed to repealing Bill C-51\u2014the Conservative party\u2019s anti-terror legislation\u2014in its entirety. The NDP has raised concerns about the lack of parliamentary oversight in the bill and loose definition of \u201Cthreats to national security\u201D.</p>\n<h5 id="what-is-bill-c-51%3F" tabindex="-1"><a class="header-anchor" href="#what-is-bill-c-51%3F">#</a> What is Bill C-51?</h5>\n<ul>\n<li>Enables information sharing across 17 federal agencies without judicial barriers</li>\n<li>Allows police to detain terrorism suspects for 7 days without charge</li>\n<li>Lets the Minister of Public Safety add individuals to the no-fly list</li>\n<li>Enables CSIS to disrupt terror plots, protests, and websites interfering with the safety or economic stability of Canada</li>\n<li>Prohibits speech that promotes or glorifies terrorism</li>\n</ul>\n';
+
+  // src/policies/2015/ndp_c51.fr.md
+  var html100 = '<p>The NDP have committed to repealing Bill C-51\u2014the Conservative party\u2019s anti-terror legislation\u2014in its entirety. The NDP has raised concerns about the lack of parliamentary oversight in the bill and loose definition of \u201Cthreats to national security\u201D.</p>\n<h5 id="what-is-bill-c-51%3F" tabindex="-1"><a class="header-anchor" href="#what-is-bill-c-51%3F">#</a> What is Bill C-51?</h5>\n<ul>\n<li>Enables information sharing across 17 federal agencies without judicial barriers</li>\n<li>Allows police to detain terrorism suspects for 7 days without charge</li>\n<li>Lets the Minister of Public Safety add individuals to the no-fly list</li>\n<li>Enables CSIS to disrupt terror plots, protests, and websites interfering with the safety or economic stability of Canada</li>\n<li>Prohibits speech that promotes or glorifies terrorism</li>\n</ul>\n';
+
+  // src/policies/2015/ndp_cap_and_trade.en.md
+  var html101 = '<p>The NDP would look to reduce greenhouse gas emissions by heavy polluters, by instituting a national standard for controlling emissions. The party will let provinces opt-out of the plan if they have already developed their own which is either equivalent or more effective than the national standard.</p>\n<h5 id="what-is-cap-and-trade%3F" tabindex="-1"><a class="header-anchor" href="#what-is-cap-and-trade%3F">#</a> What is Cap-and-Trade?</h5>\n<p>Cap-and-trade is a system where the government sets a ceiling for emissions, and turns that allocation into a commodity that can be bought by heavy polluters or sold by those that have reduced emissions. It aims to reward those who pollute less, while punishing those who pollute more</p>\n';
+
+  // src/policies/2015/ndp_cap_and_trade.fr.md
+  var html102 = '<p>The NDP would look to reduce greenhouse gas emissions by heavy polluters, by instituting a national standard for controlling emissions. The party will let provinces opt-out of the plan if they have already developed their own which is either equivalent or more effective than the national standard.</p>\n<h5 id="what-is-cap-and-trade%3F" tabindex="-1"><a class="header-anchor" href="#what-is-cap-and-trade%3F">#</a> What is Cap-and-Trade?</h5>\n<p>Cap-and-trade is a system where the government sets a ceiling for emissions, and turns that allocation into a commodity that can be bought by heavy polluters or sold by those that have reduced emissions. It aims to reward those who pollute less, while punishing those who pollute more</p>\n';
+
+  // src/policies/2015/ndp_corporate_taxes.en.md
+  var html103 = "<p>The NDP have pledged to increase the corporate tax rate to <strong>17%</strong>, up from the existing 15%. Estimates state that the rate increase could bring in an additional <strong>$5 billion/year</strong> to the federal government.</p>\n";
+
+  // src/policies/2015/ndp_corporate_taxes.fr.md
+  var html104 = "<p>The NDP have pledged to increase the corporate tax rate to <strong>17%</strong>, up from the existing 15%. Estimates state that the rate increase could bring in an additional <strong>$5 billion/year</strong> to the federal government.</p>\n";
+
+  // src/policies/2015/ndp_daycare.en.md
+  var html105 = "<p>The NDP plans to roll out a nation-wide childcare system, which will create <strong>one million</strong> spots for children, at a maximum cost of <strong>$15/day</strong>. All parents would be eligible to participate in the system.</p>\n<p>The biggest obstacles are the cost, time and buy-in from the provinces.</p>\n<ul>\n<li>The estimated cost is around <strong>$5 billion</strong> annually, at peak</li>\n<li>While they\u2019ll begin opening childcare positions in 2015\u201316, they  won\u2019t reach their goal of 1 million spots until <strong>2023</strong></li>\n<li>Since the provinces are officially responsible for childcare, the NDP would need to work with provincial governments to get their plan off the ground</li>\n</ul>\n";
+
+  // src/policies/2015/ndp_daycare.fr.md
+  var html106 = "<p>The NDP plans to roll out a nation-wide childcare system, which will create <strong>one million</strong> spots for children, at a maximum cost of <strong>$15/day</strong>. All parents would be eligible to participate in the system.</p>\n<p>The biggest obstacles are the cost, time and buy-in from the provinces.</p>\n<ul>\n<li>The estimated cost is around <strong>$5 billion</strong> annually, at peak</li>\n<li>While they\u2019ll begin opening childcare positions in 2015\u201316, they  won\u2019t reach their goal of 1 million spots until <strong>2023</strong></li>\n<li>Since the provinces are officially responsible for childcare, the NDP would need to work with provincial governments to get their plan off the ground</li>\n</ul>\n";
+
+  // src/policies/2015/ndp_foreign_aid.en.md
+  var html107 = "<p>The NDP would increase federal spending on foreign aid to <strong>0.7%</strong> of federal GDP, a level suggested for Canada by the UN Secretary General. The Canadian government currently spends <strong>0.27%</strong> of Canada\u2019s GDP on foreign aid.</p>\n";
+
+  // src/policies/2015/ndp_foreign_aid.fr.md
+  var html108 = "<p>The NDP would increase federal spending on foreign aid to <strong>0.7%</strong> of federal GDP, a level suggested for Canada by the UN Secretary General. The Canadian government currently spends <strong>0.27%</strong> of Canada\u2019s GDP on foreign aid.</p>\n";
+
+  // src/policies/2015/ndp_green_tech.en.md
+  var html109 = "<p>The NDP would invest <strong>$200 million</strong> across four years towards upgrading 50,000 homes and 15,000 apartments for energy efficiency. They have also promised <strong>$150 million</strong> over four years towards a \u201Cgreen municipal fund\u201D. The fund would aid local governments in funding projects that promote sustainable living and transit.</p>\n<p>The NDP would also look to purchase electric vehicles for the federal government and add 150 charging stations for electric-cars on federal land.</p>\n";
+
+  // src/policies/2015/ndp_green_tech.fr.md
+  var html110 = "<p>The NDP would invest <strong>$200 million</strong> across four years towards upgrading 50,000 homes and 15,000 apartments for energy efficiency. They have also promised <strong>$150 million</strong> over four years towards a \u201Cgreen municipal fund\u201D. The fund would aid local governments in funding projects that promote sustainable living and transit.</p>\n<p>The NDP would also look to purchase electric vehicles for the federal government and add 150 charging stations for electric-cars on federal land.</p>\n";
+
+  // src/policies/2015/ndp_healthcare.en.md
+  var html111 = "<p>The NDP intend to improve access and reduce the cost of prescription medication through bulk federal purchasing at lower-negotiated rates. By negotiating rates federally, the government would be able to secure low rates which will lower the cost of medication bought by provincial governments.</p>\n<p>The NDP plan to invest <strong>$2.6 billion</strong> over four years to lower the cost of prescription drugs purchased by the provinces, and <strong>$80 million</strong> over four years towards the bulk-purchase plan itself. The plan is estimated to save provinces $3 billion/year.</p>\n";
+
+  // src/policies/2015/ndp_healthcare.fr.md
+  var html112 = "<p>The NDP intend to improve access and reduce the cost of prescription medication through bulk federal purchasing at lower-negotiated rates. By negotiating rates federally, the government would be able to secure low rates which will lower the cost of medication bought by provincial governments.</p>\n<p>The NDP plan to invest <strong>$2.6 billion</strong> over four years to lower the cost of prescription drugs purchased by the provinces, and <strong>$80 million</strong> over four years towards the bulk-purchase plan itself. The plan is estimated to save provinces $3 billion/year.</p>\n";
+
+  // src/policies/2015/ndp_healthcare_funding.en.md
+  var html113 = "<p>The NDP will commit <strong>$500 million</strong> to increase the number of clinics around the country by 200, along with hiring <strong>7,000</strong> new doctors and nurses. Areas with a shortage of healthcare workers will be first priority under the plan.</p>\n";
+
+  // src/policies/2015/ndp_healthcare_funding.fr.md
+  var html114 = "<p>The NDP will commit <strong>$500 million</strong> to increase the number of clinics around the country by 200, along with hiring <strong>7,000</strong> new doctors and nurses. Areas with a shortage of healthcare workers will be first priority under the plan.</p>\n";
+
+  // src/policies/2015/ndp_income_splitting.en.md
+  var html115 = "<p>The NDP would remove the ability for families with children under 18 to split income between themselves and their spouse as a method of paying lower taxes. This plan would raise <strong>$2.2 billion</strong> in tax revenue.</p>\n<p>The NDP would still allow pension-splitting for seniors.</p>\n";
+
+  // src/policies/2015/ndp_income_splitting.fr.md
+  var html116 = "<p>The NDP would remove the ability for families with children under 18 to split income between themselves and their spouse as a method of paying lower taxes. This plan would raise <strong>$2.2 billion</strong> in tax revenue.</p>\n<p>The NDP would still allow pension-splitting for seniors.</p>\n";
+
+  // src/policies/2015/ndp_internships.en.md
+  var html117 = "<p>The NDP would \u201Ccrack down\u201D on unpaid internships within Canada.</p>\n<p>The party intends to provide basic protections to interns in federally regulated industries, including limits on excessive hours worked, protection against sexual harassment and the right to refuse dangerous work\u2014similar protections to those granted under the existing Canada Labour Code.</p>\n";
+
+  // src/policies/2015/ndp_internships.fr.md
+  var html118 = "<p>The NDP would \u201Ccrack down\u201D on unpaid internships within Canada.</p>\n<p>The party intends to provide basic protections to interns in federally regulated industries, including limits on excessive hours worked, protection against sexual harassment and the right to refuse dangerous work\u2014similar protections to those granted under the existing Canada Labour Code.</p>\n";
+
+  // src/policies/2015/ndp_isis.en.md
+  var html119 = "<p>The NDP have promised to immediately withdraw from the US-led campaign against ISIS in Iraq and Syria. They wish to pursue a path of diplomacy and aid, rather than be involved in war.</p>\n";
+
+  // src/policies/2015/ndp_isis.fr.md
+  var html120 = "<p>The NDP have promised to immediately withdraw from the US-led campaign against ISIS in Iraq and Syria. They wish to pursue a path of diplomacy and aid, rather than be involved in war.</p>\n";
+
+  // src/policies/2015/ndp_marijuana.en.md
+  var html121 = "<p>The NDP would immediately decriminalize marijuana use and would  study the health and societal effects before considering legalization. There would be no criminal offences for marijuana use, but they would provide no official means of accessing it.</p>\n";
+
+  // src/policies/2015/ndp_marijuana.fr.md
+  var html122 = "<p>The NDP would immediately decriminalize marijuana use and would  study the health and societal effects before considering legalization. There would be no criminal offences for marijuana use, but they would provide no official means of accessing it.</p>\n";
+
+  // src/policies/2015/ndp_mental_healthcare.en.md
+  var html123 = "<p>The NDP plans to commit <strong>$100 million</strong> intended to improve mental-health services for young people. Of that money, <strong>$15 million/year</strong> over four years would be used to increase the efficiency of the current system as well as research and invest in best practices.</p>\n<blockquote>\n<p>The [Mental Health Commission of Canada] has found that addressing childhood mental-health issues can lead to lifetime health-care savings of up to $140,000. - CBC</p>\n</blockquote>\n";
+
+  // src/policies/2015/ndp_mental_healthcare.fr.md
+  var html124 = "<p>The NDP plans to commit <strong>$100 million</strong> intended to improve mental-health services for young people. Of that money, <strong>$15 million/year</strong> over four years would be used to increase the efficiency of the current system as well as research and invest in best practices.</p>\n<blockquote>\n<p>The [Mental Health Commission of Canada] has found that addressing childhood mental-health issues can lead to lifetime health-care savings of up to $140,000. - CBC</p>\n</blockquote>\n";
+
+  // src/policies/2015/ndp_pipeline.en.md
+  var html125 = "<p>The NDP would reject the Northern Gateway pipeline (Alberta to British Columbia), as well as Keystone XL (Alberta to Texas). The party has stated an interest in Energy East (Alberta to eastern Canada) so long as it meets strict environmental criteria.</p>\n";
+
+  // src/policies/2015/ndp_pipeline.fr.md
+  var html126 = "<p>The NDP would reject the Northern Gateway pipeline (Alberta to British Columbia), as well as Keystone XL (Alberta to Texas). The party has stated an interest in Energy East (Alberta to eastern Canada) so long as it meets strict environmental criteria.</p>\n";
+
+  // src/policies/2015/ndp_reform.en.md
+  var html127 = "<p>The NDP intends to implement a <em>mixed-member parliament</em> (MMP) election format, whereby citizens are given <strong>two votes</strong>\u2014one for their local candidate, and another for the party of their choice. After the local candidates are elected, the \u201Cparty vote\u201D determines how many extra seats that party is awarded nationally in the House of Commons, based on its share of popular vote.</p>\n<p>This system is presently used in countries such as Germany, New Zealand and Scotland.</p>\n";
+
+  // src/policies/2015/ndp_reform.fr.md
+  var html128 = "<p>The NDP intends to implement a <em>mixed-member parliament</em> (MMP) election format, whereby citizens are given <strong>two votes</strong>\u2014one for their local candidate, and another for the party of their choice. After the local candidates are elected, the \u201Cparty vote\u201D determines how many extra seats that party is awarded nationally in the House of Commons, based on its share of popular vote.</p>\n<p>This system is presently used in countries such as Germany, New Zealand and Scotland.</p>\n";
+
+  // src/policies/2015/ndp_refugees.en.md
+  var html129 = "<p>The NDP work work to bring in <strong>10,000</strong> federally-sponsored refugees by the end of 2015, costing an estimated <strong>$74 million</strong>. They would also work to fast-track private sponsorship of refugees without a cap.</p>\n<p>Along with this, they plan to resettle an additional <strong>9,000 refugees/year</strong> within Canada from the Syrian crisis over the next four years. This additional settlement is expected to cost <strong>$63.8 million/year</strong>, and in total would bring <strong>46,000</strong> federally-sponsored refugees into the country by 2019.</p>\n";
+
+  // src/policies/2015/ndp_refugees.fr.md
+  var html130 = "<p>The NDP work work to bring in <strong>10,000</strong> federally-sponsored refugees by the end of 2015, costing an estimated <strong>$74 million</strong>. They would also work to fast-track private sponsorship of refugees without a cap.</p>\n<p>Along with this, they plan to resettle an additional <strong>9,000 refugees/year</strong> within Canada from the Syrian crisis over the next four years. This additional settlement is expected to cost <strong>$63.8 million/year</strong>, and in total would bring <strong>46,000</strong> federally-sponsored refugees into the country by 2019.</p>\n";
+
+  // src/policies/2015/ndp_science_officer.en.md
+  var html131 = "<p>The NDP has proposed the creation of a <em>Parliamentary Science Officer</em>, who would be responsible for providing Parliament with scientific information and expert advice on scientific issues.</p>\n<p>The difference between this plan and the Liberals\u2019 <em>Chief Science Officer</em> is that the NDP proposal places the Officer under the power of Parliament, and cannot be appointed or removed by the Prime Minister.</p>\n<p>The last news of this policy was at the end of 2014, and Mr. Mulcair has not spoken of the idea himself.</p>\n";
+
+  // src/policies/2015/ndp_science_officer.fr.md
+  var html132 = "<p>The NDP has proposed the creation of a <em>Parliamentary Science Officer</em>, who would be responsible for providing Parliament with scientific information and expert advice on scientific issues.</p>\n<p>The difference between this plan and the Liberals\u2019 <em>Chief Science Officer</em> is that the NDP proposal places the Officer under the power of Parliament, and cannot be appointed or removed by the Prime Minister.</p>\n<p>The last news of this policy was at the end of 2014, and Mr. Mulcair has not spoken of the idea himself.</p>\n";
+
+  // src/policies/2015/ndp_senate.en.md
+  var html133 = "<p>The NDP intend to abolish the Senate entirely. They argue that they are an expensive (<strong>$100 million/year</strong>) and unelected body, with the power to block legislation passed by legitimately-elected members of Parliament. The Senate has also been plagued by numerous scandals in the recent past, involving corruption and bribery.</p>\n<p>The major difficulty in getting rid of the Senate is that it requires unanimous approval from all 10 provinces, as well as support from the House of Commons and Senate itself. If unable to abolish the Senate, Tom Mulcair has the presumed support of up to 30 senators who would be willing to work with an NDP government to pass legislation.</p>\n";
+
+  // src/policies/2015/ndp_senate.fr.md
+  var html134 = "<p>The NDP intend to abolish the Senate entirely. They argue that they are an expensive (<strong>$100 million/year</strong>) and unelected body, with the power to block legislation passed by legitimately-elected members of Parliament. The Senate has also been plagued by numerous scandals in the recent past, involving corruption and bribery.</p>\n<p>The major difficulty in getting rid of the Senate is that it requires unanimous approval from all 10 provinces, as well as support from the House of Commons and Senate itself. If unable to abolish the Senate, Tom Mulcair has the presumed support of up to 30 senators who would be willing to work with an NDP government to pass legislation.</p>\n";
+
+  // src/policies/2015/ndp_seniors.en.md
+  var html135 = "<p>The NDP has planned reduce the age limit for receiving <em>Old Age Security</em> to <strong>age 65</strong>, a reduction from the current 67. Also, the NDP will increase the <em>Guaranteed Income Supplement</em> for low-income seniors, but have not stated by how much.</p>\n";
+
+  // src/policies/2015/ndp_seniors.fr.md
+  var html136 = "<p>The NDP has planned reduce the age limit for receiving <em>Old Age Security</em> to <strong>age 65</strong>, a reduction from the current 67. Also, the NDP will increase the <em>Guaranteed Income Supplement</em> for low-income seniors, but have not stated by how much.</p>\n";
+
+  // src/policies/2015/ndp_seniors_income_splitting.en.md
+  var html137 = '<p>The NDP has promised to continue pension-splitting and RRIF enhancements for seniors.</p>\n<h5 id="what-is-pension-splitting%3F" tabindex="-1"><a class="header-anchor" href="#what-is-pension-splitting%3F">#</a> What is pension-splitting?</h5>\n<p>Pension-splitting allows individuals to have a smaller tax burden by splitting their pension income between their spouse and themselves. If one individual is earning much less than the other (through a pension or other means), their tax rate will be much more preferential than for the individual in the higher tax bracket.</p>\n';
+
+  // src/policies/2015/ndp_seniors_income_splitting.fr.md
+  var html138 = '<p>The NDP has promised to continue pension-splitting and RRIF enhancements for seniors.</p>\n<h5 id="what-is-pension-splitting%3F" tabindex="-1"><a class="header-anchor" href="#what-is-pension-splitting%3F">#</a> What is pension-splitting?</h5>\n<p>Pension-splitting allows individuals to have a smaller tax burden by splitting their pension income between their spouse and themselves. If one individual is earning much less than the other (through a pension or other means), their tax rate will be much more preferential than for the individual in the higher tax bracket.</p>\n';
+
+  // src/policies/2015/ndp_small_business_tax.en.md
+  var html139 = "<p>The NDP plan to cut the small business tax rate to <strong>9%</strong>, down from the current <strong>11%</strong>. This is estimated to provide small businesses a savings of <strong>$600 million/year</strong>, and is aimed at helping small businesses grow and create jobs.</p>\n";
+
+  // src/policies/2015/ndp_small_business_tax.fr.md
+  var html140 = "<p>The NDP plan to cut the small business tax rate to <strong>9%</strong>, down from the current <strong>11%</strong>. This is estimated to provide small businesses a savings of <strong>$600 million/year</strong>, and is aimed at helping small businesses grow and create jobs.</p>\n";
+
+  // src/policies/2015/ndp_stock_options.en.md
+  var html141 = '<p>The NDP plan on raising <strong>$500 million</strong> by removing the employee stock option tax benefit. They have stated they would keep the benefit in-tact for options granted by \u201Cearly-stage companies\u201D, but have not identified criteria for the term.</p>\n<h5 id="what-is-the-stock-option-tax-benefit%3F" tabindex="-1"><a class="header-anchor" href="#what-is-the-stock-option-tax-benefit%3F">#</a> What is the Stock Option Tax Benefit?</h5>\n<p>Companies typically reward employees and high-level executives with stock options as an alternative to higher salary or a bonus. Presently, only 50% of the profit from a stock option sale is taxable, which is identical to how capital gains are treated. Under the NDP plan, 100% of the profit would be taxable, which some see as unfair since capital gains would be given preferential tax treatment.</p>\n';
+
+  // src/policies/2015/ndp_stock_options.fr.md
+  var html142 = '<p>The NDP plan on raising <strong>$500 million</strong> by removing the employee stock option tax benefit. They have stated they would keep the benefit in-tact for options granted by \u201Cearly-stage companies\u201D, but have not identified criteria for the term.</p>\n<h5 id="what-is-the-stock-option-tax-benefit%3F" tabindex="-1"><a class="header-anchor" href="#what-is-the-stock-option-tax-benefit%3F">#</a> What is the Stock Option Tax Benefit?</h5>\n<p>Companies typically reward employees and high-level executives with stock options as an alternative to higher salary or a bonus. Presently, only 50% of the profit from a stock option sale is taxable, which is identical to how capital gains are treated. Under the NDP plan, 100% of the profit would be taxable, which some see as unfair since capital gains would be given preferential tax treatment.</p>\n';
+
+  // src/policies/2015/ndp_student_loans.en.md
+  var html143 = "<p>The NDP would phase out the use of interest on federal student loans provided for post-secondary education. According to estimates, the average student would save <strong>$4,000</strong> over the course of the loan.</p>\n<p>The NDP would also expand the federal loan program by investing <strong>$250 million</strong> over four years to create 74,000 new grants for students.</p>\n";
+
+  // src/policies/2015/ndp_student_loans.fr.md
+  var html144 = "<p>The NDP would phase out the use of interest on federal student loans provided for post-secondary education. According to estimates, the average student would save <strong>$4,000</strong> over the course of the loan.</p>\n<p>The NDP would also expand the federal loan program by investing <strong>$250 million</strong> over four years to create 74,000 new grants for students.</p>\n";
+
+  // src/policies/2015/ndp_tfsa.en.md
+  var html145 = "<p>The NDP would roll back the changes made by the Conservative government to the Tax Free Savings Account, which had raised the contribution limit to $10,000/year. Under the NDP, that limit would be reduced to <strong>$5,500/year</strong>, which could bring in an additional <strong>$1.1 billion</strong> of tax revenue over five years.</p>\n";
+
+  // src/policies/2015/ndp_tfsa.fr.md
+  var html146 = "<p>The NDP would roll back the changes made by the Conservative government to the Tax Free Savings Account, which had raised the contribution limit to $10,000/year. Under the NDP, that limit would be reduced to <strong>$5,500/year</strong>, which could bring in an additional <strong>$1.1 billion</strong> of tax revenue over five years.</p>\n";
+
+  // src/policies/2015/ndp_tpp.en.md
+  var html147 = '<p>The NDP would <strong>not</strong> support the Trans-Pacific Partnership trade agreement, due to concerns over the dairy and auto sector.</p>\n<h5 id="what-is-the-trans-pacific-partnership%3F" tabindex="-1"><a class="header-anchor" href="#what-is-the-trans-pacific-partnership%3F">#</a> What is the Trans-Pacific Partnership?</h5>\n<p>The TPP is a cross-pacific trade agreement including Canada, USA, Japan, Chile, New Zealand, Vietnam, Malaysia, among others.</p>\n<ul>\n<li>Looser requirements for tariff-free cars and trucks, allowing cars to be manufactured outside of North America</li>\n<li>Copyright protections will become much stricter, enforcing criminal charges when violating copyright law, and restricting free use</li>\n<li>Would open small part of dairy, poultry and egg markets (1.5% to 3.25% of production) to foreign imports</li>\n</ul>\n';
+
+  // src/policies/2015/ndp_tpp.fr.md
+  var html148 = '<p>The NDP would <strong>not</strong> support the Trans-Pacific Partnership trade agreement, due to concerns over the dairy and auto sector.</p>\n<h5 id="what-is-the-trans-pacific-partnership%3F" tabindex="-1"><a class="header-anchor" href="#what-is-the-trans-pacific-partnership%3F">#</a> What is the Trans-Pacific Partnership?</h5>\n<p>The TPP is a cross-pacific trade agreement including Canada, USA, Japan, Chile, New Zealand, Vietnam, Malaysia, among others.</p>\n<ul>\n<li>Looser requirements for tariff-free cars and trucks, allowing cars to be manufactured outside of North America</li>\n<li>Copyright protections will become much stricter, enforcing criminal charges when violating copyright law, and restricting free use</li>\n<li>Would open small part of dairy, poultry and egg markets (1.5% to 3.25% of production) to foreign imports</li>\n</ul>\n';
+
+  // src/policies/2015/ndp_transit.en.md
+  var html149 = "<p>The NDP plans to enact their <em>Better Transit Plan</em>, which invests <strong>$1.3 billion/year</strong> to support jobs in construction, manufacturing and transit over the next 20 years.</p>\n<p>Alongside this plan, the NDP have committed to transferring an additional cent of federal gas-tax funds to municipal transit infrastructure, which amounts to <strong>$1.5 billion/year</strong>.</p>\n";
+
+  // src/policies/2015/ndp_transit.fr.md
+  var html150 = "<p>The NDP plans to enact their <em>Better Transit Plan</em>, which invests <strong>$1.3 billion/year</strong> to support jobs in construction, manufacturing and transit over the next 20 years.</p>\n<p>Alongside this plan, the NDP have committed to transferring an additional cent of federal gas-tax funds to municipal transit infrastructure, which amounts to <strong>$1.5 billion/year</strong>.</p>\n";
+
+  // src/policies/2015/ndp_uccb.en.md
+  var html151 = "<p>The <em>Universal Child Care Benefit</em> expands the amount paid by the Federal government for families with children under the age of six (<strong>$160/month</strong>), as well as provide support to families with children under the age of 18 (<strong>$60/month</strong>).</p>\n<blockquote>\n<p>\u201CLet there be no doubt, we\u2019ll keep the recent additions to the child care benefit,\u201D - Thomas Mulcair</p>\n</blockquote>\n<p>The UCCB costs an estimated <strong>$3 billion/year</strong>. The catch is that this money is taxable by both the provincial and federal governments. <strong>Two-thirds</strong> or more of the payouts are effectively paid back to the government in the form of taxes.</p>\n";
+
+  // src/policies/2015/ndp_uccb.fr.md
+  var html152 = "<p>The <em>Universal Child Care Benefit</em> expands the amount paid by the Federal government for families with children under the age of six (<strong>$160/month</strong>), as well as provide support to families with children under the age of 18 (<strong>$60/month</strong>).</p>\n<blockquote>\n<p>\u201CLet there be no doubt, we\u2019ll keep the recent additions to the child care benefit,\u201D - Thomas Mulcair</p>\n</blockquote>\n<p>The UCCB costs an estimated <strong>$3 billion/year</strong>. The catch is that this money is taxable by both the provincial and federal governments. <strong>Two-thirds</strong> or more of the payouts are effectively paid back to the government in the form of taxes.</p>\n";
+
+  // md-dir-import-ns:../../policies/2015/ndp_*.md
+  var html153 = {
+    ndp_aboriginal_relations_EN: html95,
+    ndp_aboriginal_relations_FR: html96,
+    ndp_alzheimers_EN: html97,
+    ndp_alzheimers_FR: html98,
+    ndp_c51_EN: html99,
+    ndp_c51_FR: html100,
+    ndp_cap_and_trade_EN: html101,
+    ndp_cap_and_trade_FR: html102,
+    ndp_corporate_taxes_EN: html103,
+    ndp_corporate_taxes_FR: html104,
+    ndp_daycare_EN: html105,
+    ndp_daycare_FR: html106,
+    ndp_foreign_aid_EN: html107,
+    ndp_foreign_aid_FR: html108,
+    ndp_green_tech_EN: html109,
+    ndp_green_tech_FR: html110,
+    ndp_healthcare_EN: html111,
+    ndp_healthcare_FR: html112,
+    ndp_healthcare_funding_EN: html113,
+    ndp_healthcare_funding_FR: html114,
+    ndp_income_splitting_EN: html115,
+    ndp_income_splitting_FR: html116,
+    ndp_internships_EN: html117,
+    ndp_internships_FR: html118,
+    ndp_isis_EN: html119,
+    ndp_isis_FR: html120,
+    ndp_marijuana_EN: html121,
+    ndp_marijuana_FR: html122,
+    ndp_mental_healthcare_EN: html123,
+    ndp_mental_healthcare_FR: html124,
+    ndp_pipeline_EN: html125,
+    ndp_pipeline_FR: html126,
+    ndp_reform_EN: html127,
+    ndp_reform_FR: html128,
+    ndp_refugees_EN: html129,
+    ndp_refugees_FR: html130,
+    ndp_science_officer_EN: html131,
+    ndp_science_officer_FR: html132,
+    ndp_senate_EN: html133,
+    ndp_senate_FR: html134,
+    ndp_seniors_EN: html135,
+    ndp_seniors_FR: html136,
+    ndp_seniors_income_splitting_EN: html137,
+    ndp_seniors_income_splitting_FR: html138,
+    ndp_small_business_tax_EN: html139,
+    ndp_small_business_tax_FR: html140,
+    ndp_stock_options_EN: html141,
+    ndp_stock_options_FR: html142,
+    ndp_student_loans_EN: html143,
+    ndp_student_loans_FR: html144,
+    ndp_tfsa_EN: html145,
+    ndp_tfsa_FR: html146,
+    ndp_tpp_EN: html147,
+    ndp_tpp_FR: html148,
+    ndp_transit_EN: html149,
+    ndp_transit_FR: html150,
+    ndp_uccb_EN: html151,
+    ndp_uccb_FR: html152
+  };
+
+  // src/policies/2015/cpc_aboriginal_funding.en.md
+  var html154 = "<p>The Conservative government have committed <strong>$215 million</strong> toward training First Nations individuals in skills and development over five years. They have also allotted <strong>$200 million</strong> toward improving First Nations.</p>\n";
+
+  // src/policies/2015/cpc_aboriginal_funding.fr.md
+  var html155 = "<p>Un gouvernement Conservateur a promis <strong>$215 millions</strong> pour les premi\xE8res nations pour la formation et le d\xE9veloppement sur 5 ans. Ils ont aussi allou\xE9 <strong>$200 millions</strong> dans d'am\xE9liorer les premi\xE8res nations.</p>\n";
+
+  // src/policies/2015/cpc_aboriginal_relations.en.md
+  var html156 = "<p>The Conservative government does not intend to pursue a national inquiry into missing and murdered aboriginal women within Canada.</p>\n<blockquote>\n<p>Harper said the issue of 1,200 missing and murdered aboriginal women is not a &quot;sociological phenomenon.&quot; - CBC</p>\n</blockquote>\n";
+
+  // src/policies/2015/cpc_aboriginal_relations.fr.md
+  var html157 = "<p>Un gouvernment Conservateur n'a pas l'intention de lancer une enqu\xE8te sur le meurtre et les disparitions de femmes am\xE9rindiennes au Canada.</p>\n<blockquote>\n<p>Harper said the issue of 1,200 missing and murdered aboriginal women is not a &quot;sociological phenomenon.&quot; - CBC</p>\n</blockquote>\n";
+
+  // src/policies/2015/cpc_c51.en.md
+  var html158 = '<p>The Conservatives introduced and enacted Bill C-51 in June with the intent to preemptively thwart terrorism within Canada.</p>\n<h5 id="what-is-bill-c-51%3F" tabindex="-1"><a class="header-anchor" href="#what-is-bill-c-51%3F">#</a> What is Bill C-51?</h5>\n<ul>\n<li>Enables information sharing across 17 federal agencies without judicial barriers</li>\n<li>Allows police to detain terrorism suspects for 7 days without charge</li>\n<li>Lets the Minister of Public Safety add individuals to the no-fly list</li>\n<li>Enables CSIS to disrupt terror plots, protests, and websites interfering with the safety or economic stability of Canada</li>\n<li>Prohibits speech that promotes or glorifies terrorism</li>\n</ul>\n';
+
+  // src/policies/2015/cpc_c51.fr.md
+  var html159 = "<p>Les Conservateurs ont introduit et mis en application le Bill C-51 en juin avec l'intention de combattre de fa\xE7on pr\xE9ventive le terrorisme au Canada.</p>\n<h5 id=\"qu'est-ce-que-le-bill-c-51-%3F\" tabindex=\"-1\"><a class=\"header-anchor\" href=\"#qu'est-ce-que-le-bill-c-51-%3F\">#</a> Qu'est-ce que le Bill C-51 ?</h5>\n<ul>\n<li>Rend possible le partage d'informations entre 17 agences f\xE9d\xE9rales sans aucune barri\xE8res judici\xE8res</li>\n<li>Permet aux corps policiers de d\xE9tenir les suspects de terrorismes 7 jours sans devoir porter des accusations</li>\n<li>Autorise le minist\xE8re de la s\xE9curit\xE9 publique \xE0 ajouter des individus sur la liste d'interdiction de vol</li>\n<li>Accorde au SCRS le pouvoir d'intervenir \xE0 l'encontre d'actes terroristes, de manifestations et de site Internets\nqui pourrait interf\xE9rer avec la s\xE9curit\xE9 et la stabilit\xE9 \xE9conomique du Canada</li>\n<li>Interdit le discours de promotion et de glorification du terrorisme</li>\n</ul>\n";
+
+  // src/policies/2015/cpc_home_renovation.en.md
+  var html160 = "<p>The Conservative government will institute a home-renovation tax credit aimed at increasing the value of existing homes. The plan will cost an estimated <strong>$1.5 billion/year</strong>, and individuals would be able to deduct between <strong>$1,000\u2013$6,600</strong> from their taxes on home renovations.</p>\n";
+
+  // src/policies/2015/cpc_home_renovation.fr.md
+  var html161 = "<p>Le gouvernment Conservateur veut instituer un cr\xE9dit d'imp\xF4t \xE0 la r\xE9novation afin d'augmenter la valeur des maisons existantes. On estime que ce plan couterait <strong>$1.5 milliard/ann\xE9es</strong>, et les d\xE9duction pourrait atteindre de <strong>$1000-$6000</strong> sur leur imp\xF4t pour des r\xE9novations sur leur maison.</p>\n";
+
+  // src/policies/2015/cpc_infrastructure.en.md
+  var html162 = "<p>The Conservative party has planned to spend the majority of <strong>$5.8 billion</strong> allocated for infrastructure over the next <strong>three years</strong>, to support the development of heritage, tourism, parks, waterway and highway projects, among other areas.</p>\n";
+
+  // src/policies/2015/cpc_infrastructure.fr.md
+  var html163 = "<p>Le parti Conservateur planifie d'investir la majorit\xE9 des <strong>$5.8 milliard</strong> allou\xE9s aux infrastructures au courant des <strong>trois prochaines ann\xE9es</strong> afin de supporter en priorit\xE9 le d\xE9veloppement du patrimoine, du tourisme, des parcs, des cours d'eau et des projets d'autoroutes.</p>\n";
+
+  // src/policies/2015/cpc_isis.en.md
+  var html164 = "<p>The Conservative government is committed to working with the US-led coalition against ISIS until they are successful. The government has contributed around <strong>600</strong> soldiers in the current campaign which is expected to continue until the beginning of 2016. The campaign is anticipated to cost <strong>$528 million</strong>.</p>\n<p>The Conservatives have also promised to introduce a travel ban on areas directly under the control of ISIS, making it a criminal offence to visit these locations.</p>\n";
+
+  // src/policies/2015/cpc_isis.fr.md
+  var html165 = "<p>Un gouvernement Conservateur s'est engag\xE9 \xE0 travailler avec la coalition men\xE9e par les \xC9tats-Unis contre l'\xC9tat islamique jusqu'\xE0 sa conclusion. Le gouvernement a envoy\xE9 environs <strong>600</strong> soldats au courant de l'actuel mission et il est pr\xE9vu que cela continu jusqu'au d\xE9but 2016. La co\xFBt de la mission est estim\xE9 \xE0 <strong>$528 millions</strong>.</p>\n<p>Les Conservateurs ont aussi promis d'introduire une interdiction de vol pour les territoires directement contr\xF4l\xE9s par l'\xC9tat Islamique, en punissant d'une offense criminelle toute visite de ces lieux.</p>\n";
+
+  // src/policies/2015/cpc_marijuana.en.md
+  var html166 = "<p>The Conservative government would not support decriminalization or legalization of marijuana. They have already adjusted the existing medical marijuana system to prevent individuals from growing their own or asking Health Canada for supplies. Through the Conservative legislation, individuals must order supplies from a licensed commercial producer.</p>\n";
+
+  // src/policies/2015/cpc_marijuana.fr.md
+  var html167 = "<p>Un gouvernement conservateur ne supporterait pas la d\xE9crimilisation ou la l\xE9galisation du cannabis. Le syst\xE8me r\xE9gulant le cannabis m\xE9dical a d\xE9j\xE0 \xE9t\xE9 ajust\xE9 afin d'interdire \xE0 des individus de produire eux m\xEAme ou m\xEAme de demander \xE0 Sant\xE9 Canada d'en fournir. Suite \xE0 une nouvelle l\xE9gislation des conservateurs, un individu doit s'approvisionner d'un producteur commercial autoris\xE9.</p>\n";
+
+  // src/policies/2015/cpc_pipeline.en.md
+  var html168 = "<p>The Conservatives have strongly promoted all three major pipeline projects while in government, and will continue to pursue them if they remain in power. This includes Energy East (Alberta to eastern Canada), Keystone XL (Alberta to Texas), and Northern Gateway (Alberta to British Columbia).</p>\n";
+
+  // src/policies/2015/cpc_pipeline.fr.md
+  var html169 = "<p>Les conservateurs ont grandement fait la promotion des 3 projets majeurs de pipeline et vont continuer \xE0 le faire s'ils restent au pouvoir. Cela inclut \xC9nergie Est (de l'Alberta jusqu'\xE0 l'est du Canada), Keystone XL (de l'Alberta au Texas), Northern Gateway (de l'Alberta \xE0 la Colombie-Britanique).</p>\n";
+
+  // src/policies/2015/cpc_reform.en.md
+  var html170 = "<p>The Conservative party is in favour of keeping the current first-past-the-post electoral system. They have committed to passing legislation that would require a national referendum in order to change the format of voting for the country.</p>\n<blockquote>\n<p>\u201COur platform would commit to legislation that would ban any government from changing our voting system without holding a referendum to secure the approval of Canadians first,\u201D -Minister Pierre Poilievre</p>\n</blockquote>\n";
+
+  // src/policies/2015/cpc_reform.fr.md
+  var html171 = "<p>Le parti conservateur est en faveur de garder le syst\xE8me \xE9lectoral actuel. Ils se sont engag\xE9s \xE0 mettre en place une l\xE9gislation qui imposerait un r\xE9f\xE9rendum national pour tout changement au syst\xE8me de scrutin au pays.</p>\n<blockquote>\n<p>\u201COur platform would commit to legislation that would ban any government from changing our voting system without holding a referendum to secure the approval of Canadians first,\u201D -Minister Pierre Poilievre</p>\n</blockquote>\n";
+
+  // src/policies/2015/cpc_refugees.en.md
+  var html172 = "<p>The Conservative government has promised to bring in <strong>10,000</strong> refugees from Syria over the next <strong>three years</strong>.</p>\n";
+
+  // src/policies/2015/cpc_refugees.fr.md
+  var html173 = "<p>Le gouvernement conservateur a promis d'accueillir <strong>10 000</strong> r\xE9fugi\xE9s de la Syrie au courant des <strong>3 prochaines ann\xE9es</strong>.</p>\n";
+
+  // src/policies/2015/cpc_rrsp.en.md
+  var html174 = "<p>The Conservatives have promised to increase the withdrawal limit  from RRSPs for first-time home-buyers. The increase would raise the current limit of $25,000 up to <strong>$35,000</strong>. Scheduled to start in 2017, the plan is expected to cost the federal government <strong>$30 million/year</strong>.</p>\n";
+
+  // src/policies/2015/cpc_rrsp.fr.md
+  var html175 = "<p>Les conservateurs ont promis d'augmenter la limite de retrait du REER pour les acheteurs d'une premi\xE8re maison. L'augmentation ferait passer la limite de 25,000$ \xE0 <strong>35,000$</strong>. D\xE9butant en 2017, cette mesure couterait au gouvernement f\xE9d\xE9ral <strong>$30 millions/ann\xE9es</strong>.</p>\n";
+
+  // src/policies/2015/cpc_senate.en.md
+  var html176 = "<p>Stephen Harper has promised to not appoint any new Senators while he remains Prime Minister. The intention of his plan is to force the provinces into action through either reform or abolition of the Senate.</p>\n<blockquote>\n<p>\u201CLet me be kind of blunt about this: The number of vacancies in the Senate will continue to rise, and other than some voices in the Senate, and some people who want to be appointed to the Senate, no one\u2019s going to complain,\u201D - Stephen Harper</p>\n</blockquote>\n";
+
+  // src/policies/2015/cpc_senate.fr.md
+  var html177 = "<p>Stephen Harper a promis de ne plus nomm\xE9 aucun s\xE9nateur tant qu'il resterait en poste comme premier ministre. Son intention est de forcer les provinces \xE0 agir en r\xE9formant le s\xE9nat ou en l'abolissant.</p>\n<blockquote>\n<p>\u201CLet me be kind of blunt about this: The number of vacancies in the Senate will continue to rise, and other than some voices in the Senate, and some people who want to be appointed to the Senate, no one\u2019s going to complain,\u201D - Stephen Harper</p>\n</blockquote>\n";
+
+  // src/policies/2015/cpc_seniors.en.md
+  var html178 = "<p>As part of their platform, the Conservatives will introduce a <strong>$2,000</strong> tax credit, aimed at helping single and widowed seniors. This will extend to almost 1.6 million seniors across Canada with pension income. Combined with the Pension Income tax credit already available, seniors are eligible to deduct up to <strong>$600</strong>/year in taxes.</p>\n";
+
+  // src/policies/2015/cpc_seniors.fr.md
+  var html179 = "<p>Le parti conservateur veut introduire un cr\xE9dit d'imp\xF4ts de <strong>2000$</strong> pour aider les aidants et les personnes ag\xE9es seules. Cette nouvelle mesure s'\xE9tendrait \xE0 1.6 million de personnes au Canada ayant droit \xE0 le pension. En combinant avec le cr\xE9dit d'imp\xF4t pour les revenues de pension d\xE9j\xE0 en vigeur, les personnes ag\xE9es sont \xE9ligibles \xE0 une d\xE9duction allant jusqu'\xE0 <strong>600$/ann\xE9es</strong> sur keurs imp\xF4ts.</p>\n";
+
+  // src/policies/2015/cpc_tfsa.en.md
+  var html180 = "<p>The Conservative government raised the TFSA contribution limit from $5,500/year to <strong>$10,000/year</strong> in the 2015 budget. The intention of the policy is to encourage Canadians to save more money for long-term security. This policy is estimated to cost <strong>$1.1 billion</strong> over five years.</p>\n";
+
+  // src/policies/2015/cpc_tfsa.fr.md
+  var html181 = "<p>Le gouvernement conservateur a agument\xE9 le contribution au CELI de 5.000$/ann\xE9es \xE0 <strong>10.000$/ann\xE9es</strong> dans le budget 2015. L'intention de cette mesure est d'encourager les canadiens \xE0 \xE9pargner plus d'argent pour leur s\xE9curit\xE9 \xE0 long-terme. On estime que cette mesure coutera <strong>1.1 milliard$</strong> sur 5 ans.</p>\n";
+
+  // src/policies/2015/cpc_tpp.en.md
+  var html182 = '<p>The Conservatives would support the Trans-Pacific Partnership trade agreement.</p>\n<h5 id="what-is-the-trans-pacific-partnership%3F" tabindex="-1"><a class="header-anchor" href="#what-is-the-trans-pacific-partnership%3F">#</a> What is the Trans-Pacific Partnership?</h5>\n<p>The TPP is a cross-pacific trade agreement including Canada, USA, Japan, Chile, New Zealand, Vietnam, Malaysia, among others.</p>\n<ul>\n<li>Looser requirements for tariff-free cars and trucks, allowing cars to be manufactured outside of North America</li>\n<li>Copyright protections will become much stricter, enforcing criminal charges when violating copyright law, and restricting free use</li>\n<li>Would open small part of dairy, poultry and egg markets (1.5% to 3.25% of production) to foreign imports</li>\n</ul>\n';
+
+  // src/policies/2015/cpc_tpp.fr.md
+  var html183 = "<p>Les Conservateurs supporterait un accord sur la partenariat Trans-Pacifique.</p>\n<h5 id=\"qu'est-ce-que-le-partenariat-trans-pacifique-%3F\" tabindex=\"-1\"><a class=\"header-anchor\" href=\"#qu'est-ce-que-le-partenariat-trans-pacifique-%3F\">#</a> Qu'est-ce que le partenariat Trans-Pacifique ?</h5>\n<p>Le PTP est un accord commercial multipartites incluant entre autre le Canada, les \xC9tats-Unis, le Japon, la Nouvelle-Z\xE9lande, le Vietnam, la Malaisie.</p>\n<ul>\n<li>Diminuer les r\xE8gles encadrant les tarifs sur les voitures et les camions, autorisant la production de voitures \xE0 l'ext\xE9rieur de l'am\xE9rique du Nord</li>\n<li>La protection des droits d'auteur deviendra plus stricte, rendant criminel la violation des lois de copyright et restreignant l'utilisation gratuite</li>\n<li>Ouvrira une certaine portion du march\xE9 du lait, de la volaille et des oeufs (1.5% \xE0 3.25% de la production) \xE0 l'importation \xE9trang\xE8re</li>\n</ul>\n";
+
+  // src/policies/2015/cpc_uccb.en.md
+  var html184 = "<p>The <em>Universal Child Care Benefit</em> expands the amount paid by the Federal government for families with children under the age of six (<strong>$160/month</strong>), as well as provide support to families with children under the age of 18 (<strong>$60/month</strong>).</p>\n<p>The UCCB costs an estimated <strong>$3 billion/year</strong>. The catch is that this money is taxable by both the provincial and federal governments. <strong>Two-thirds</strong> or more of the payouts are effectively paid back to the government in the form of taxes.</p>\n";
+
+  // src/policies/2015/cpc_uccb.fr.md
+  var html185 = "<p>Le <em>Prestation Canadienne pour enfant</em> est vers\xE9 directement par le gouvernement f\xE9d\xE9ral aux familles avec enfants de moins de six ans (<strong>160$/mois</strong>), ainsi qu'un support directe aux familles avec enfants de moins de 18 ans (<strong>60$/mois)</strong>).</p>\n<p>Le co\xFBt de ces mesures est estim\xE9 \xE0 <strong>3 milliards$/ann\xE9es</strong>. Toutefois, ce montant est imposable au provincial et au f\xE9d\xE9ral. *<strong>Les deux tiers</strong> ou plus sera donc rembours\xE9s au gouvernement sous forme d'imp\xF4t.</p>\n";
+
+  // md-dir-import-ns:../../policies/2015/cpc_*.md
+  var html186 = {
+    cpc_aboriginal_funding_EN: html154,
+    cpc_aboriginal_funding_FR: html155,
+    cpc_aboriginal_relations_EN: html156,
+    cpc_aboriginal_relations_FR: html157,
+    cpc_c51_EN: html158,
+    cpc_c51_FR: html159,
+    cpc_home_renovation_EN: html160,
+    cpc_home_renovation_FR: html161,
+    cpc_infrastructure_EN: html162,
+    cpc_infrastructure_FR: html163,
+    cpc_isis_EN: html164,
+    cpc_isis_FR: html165,
+    cpc_marijuana_EN: html166,
+    cpc_marijuana_FR: html167,
+    cpc_pipeline_EN: html168,
+    cpc_pipeline_FR: html169,
+    cpc_reform_EN: html170,
+    cpc_reform_FR: html171,
+    cpc_refugees_EN: html172,
+    cpc_refugees_FR: html173,
+    cpc_rrsp_EN: html174,
+    cpc_rrsp_FR: html175,
+    cpc_senate_EN: html176,
+    cpc_senate_FR: html177,
+    cpc_seniors_EN: html178,
+    cpc_seniors_FR: html179,
+    cpc_tfsa_EN: html180,
+    cpc_tfsa_FR: html181,
+    cpc_tpp_EN: html182,
+    cpc_tpp_FR: html183,
+    cpc_uccb_EN: html184,
+    cpc_uccb_FR: html185
+  };
+
   // src/components/policy_table/policy-modal.tsx
+  var policies = (year) => {
+    switch (year) {
+      case 2015:
+        return {
+          "Liberal": html94,
+          "NDP": html153,
+          "Conservative": html186,
+          "Green": {}
+        };
+      case 2021:
+        return {
+          "Liberal": html13,
+          "NDP": html26,
+          "Conservative": html41,
+          "Green": {}
+        };
+      default:
+        return {
+          "Liberal": {},
+          "NDP": {},
+          "Conservative": {},
+          "Green": {}
+        };
+    }
+  };
   function Reference({ source }) {
     return /* @__PURE__ */ React5.createElement("li", { className: "reference" }, /* @__PURE__ */ React5.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React5.createElement("h2", { className: "reference--title" }, " ", source.title, " ")), /* @__PURE__ */ React5.createElement("div", { className: "reference--meta" }, " ", source.publisher, " "));
   }
@@ -27648,6 +28432,7 @@
     const { modalPolicy } = usePolicyModal();
     const { policyModalVisible, setPolicyModalVisibility } = usePolicyModalVisiblity();
     const { language } = useLanguage();
+    const { t } = useTranslation();
     const [dialogElement, setDialogElement] = (0, import_react2.useState)(void 0);
     const [content, setContent] = React5.useState("");
     (0, import_react2.useEffect)(() => {
@@ -27674,26 +28459,13 @@
       }
     }, [dialogElement]);
     (0, import_react2.useLayoutEffect)(() => {
-      console.log(language);
-      let html46 = null;
+      let html191 = null;
       if (modalPolicy == null ? void 0 : modalPolicy.handle) {
         const handle = "".concat(modalPolicy.handle, "_").concat(language);
-        switch (modalPolicy.party) {
-          case "Liberal" /* Liberal */:
-            html46 = html13[handle];
-            break;
-          case "Conservative" /* Conservative */:
-            html46 = html41[handle];
-            break;
-          case "NDP" /* NDP */:
-            html46 = html26[handle];
-            break;
-          case "Green" /* Green */:
-            html46 = "";
-            break;
-        }
+        console.log(policies(modalPolicy.year)[modalPolicy.party], modalPolicy.year, handle);
+        html191 = policies(modalPolicy.year)[modalPolicy.party][handle];
       }
-      setContent(html46);
+      setContent(html191 || "");
     }, [modalPolicy, language]);
     if (!modalPolicy) {
       return /* @__PURE__ */ React5.createElement("dialog", { id: modalId, className: "policyModal--content" });
@@ -27707,14 +28479,14 @@
         "aria-labelledby": "policyDialog__label",
         "aria-describedby": "policyDialog__description"
       },
-      /* @__PURE__ */ React5.createElement("div", { className: "policyModal" }, /* @__PURE__ */ React5.createElement("div", { className: "modal--content" }, /* @__PURE__ */ React5.createElement("a", { href: "#", className: "modal--close", "aria-label": "Close", onClick: closeModalHandler }), /* @__PURE__ */ React5.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React5.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React5.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React5.createElement("p", null, " ", modalPolicy.topic, " "), " "))), /* @__PURE__ */ React5.createElement(
+      /* @__PURE__ */ React5.createElement("div", { className: "policyModal" }, /* @__PURE__ */ React5.createElement("div", { className: "modal--content" }, /* @__PURE__ */ React5.createElement("a", { href: "#", className: "modal--close", "aria-label": "Close", onClick: closeModalHandler }), /* @__PURE__ */ React5.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React5.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React5.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React5.createElement("p", null, " ", t(modalPolicy.topic), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React5.createElement(
         "h1",
         {
           className: "modal--heading modal--heading__primary",
           dangerouslySetInnerHTML: { __html: modalPolicy.title[language] },
           id: "policyDialog__label"
         }
-      ), /* @__PURE__ */ React5.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React5.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React5.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React5.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " References "), /* @__PURE__ */ React5.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React5.createElement(Reference, { key: ref.url, source: ref }))), /* @__PURE__ */ React5.createElement("div", { className: "modal--randomize" }, /* @__PURE__ */ React5.createElement("a", { className: "randomize-policy iconSuffix iconSuffix--random", onClick: (e) => e.preventDefault() }, "Random policy"))))
+      ), /* @__PURE__ */ React5.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React5.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React5.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React5.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React5.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React5.createElement(Reference, { key: ref.url, source: ref }))), /* @__PURE__ */ React5.createElement("div", { className: "modal--randomize" }, /* @__PURE__ */ React5.createElement("a", { className: "randomize-policy iconSuffix iconSuffix--random", onClick: (e) => e.preventDefault() }, t("modal.random_policy")))))
     );
   }
 
@@ -27769,21 +28541,24 @@
   }
 
   // src/components/policy_table/policy-cell.tsx
-  function PolicyCell({ party, topic, policies }) {
-    let listItems = policies.map((policy) => {
+  function PolicyCell({ party, topic, policies: policies2 }) {
+    let { language } = useLanguage();
+    let { t } = useTranslation();
+    let listItems = policies2.map((policy) => {
       return /* @__PURE__ */ React8.createElement(PolicyPoint, { policy, key: "".concat(party, "/").concat(policy.title.EN) });
     });
     let ariaLabels = [
       "policyTableRow--".concat(topic.replace(/[^a-zA-Z]/g, "")),
       "policyTableColumn--".concat(party)
     ];
-    return /* @__PURE__ */ React8.createElement("div", { className: "policyCell", "aria-labelledby": ariaLabels.join(" ") }, /* @__PURE__ */ React8.createElement("h4", { className: "policyCell--party textColor--".concat(party) }, party), /* @__PURE__ */ React8.createElement("ul", { className: "policyCell--points" }, " ", listItems, " "));
+    return /* @__PURE__ */ React8.createElement("div", { className: "policyCell", "aria-labelledby": ariaLabels.join(" ") }, /* @__PURE__ */ React8.createElement("h4", { className: "policyCell--party textColor--".concat(party) }, party), /* @__PURE__ */ React8.createElement("ul", { className: "policyCell--points" }, listItems.length > 0 ? listItems : /* @__PURE__ */ React8.createElement("li", { className: "emptyPolicy", key: "0" }, t("no_policy_listed"))));
   }
 
   // src/components/policy_table/policy-row.tsx
-  function PolicyRow({ topic, parties, policies }) {
+  function PolicyRow({ topic, parties, policies: policies2 }) {
+    const { t } = useTranslation();
     const policyCells = parties.map((party) => {
-      const partyPolicies = policies.filter((policy) => policy.party === party);
+      const partyPolicies = policies2.filter((policy) => policy.party === party);
       return /* @__PURE__ */ React9.createElement(PolicyCell, { party, topic, policies: partyPolicies, key: "".concat(party, "/").concat(topic) });
     });
     return /* @__PURE__ */ React9.createElement("div", { className: "policyRow divider-t" }, /* @__PURE__ */ React9.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React9.createElement("div", { className: "policyCell policyTopic" }, /* @__PURE__ */ React9.createElement(
@@ -27793,7 +28568,7 @@
         id: "policyTableRow--".concat(topic.replace(/[^a-zA-Z]/g, "")),
         className: "policyTopic--title"
       },
-      topic
+      t(topic)
     )), policyCells));
   }
 
@@ -27813,6 +28588,7 @@
   function PolicyTable({ dataset, parties }) {
     const [policyRows, setPolicyRows] = React10.useState();
     const language = useLanguage();
+    const { t } = useTranslation();
     const sortedParties = React10.useMemo(() => shuffle(Array.from(parties)), [parties]);
     React10.useEffect(() => {
       let elTop = 0;
@@ -27837,7 +28613,7 @@
       });
     });
     const tableHeader = React10.useMemo(() => {
-      return /* @__PURE__ */ React10.createElement(React10.Fragment, null, /* @__PURE__ */ React10.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty" }, "Topics"), sortedParties.map((party) => {
+      return /* @__PURE__ */ React10.createElement(React10.Fragment, null, /* @__PURE__ */ React10.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty" }, t("topics")), sortedParties.map((party) => {
         return /* @__PURE__ */ React10.createElement(
           "div",
           {
@@ -27845,18 +28621,18 @@
             id: "policyTableColumn--".concat(party),
             className: "policyCell partyTitle backgroundColor--".concat(party)
           },
-          party
+          t(party.toLowerCase())
         );
       }));
     }, [language, sortedParties]);
     React10.useMemo(() => {
-      let rows = Array.from(dataset, ([topic, policies]) => {
+      let rows = Array.from(dataset, ([topic, policies2]) => {
         return /* @__PURE__ */ React10.createElement(
           PolicyRow,
           {
             topic,
             parties: sortedParties,
-            policies,
+            policies: policies2,
             key: topic
           }
         );
@@ -27868,22 +28644,19 @@
 
   // src/components/policy_table/policy-comparison-table.tsx
   function PolicyComparisonIndex({ year, policyHandle }) {
-    const language = useLanguage();
     const [isLoading, setIsLoading] = React11.useState(true);
-    const [policyIndex, setPolicyIndex] = React11.useState({});
     const [tableDataset, setTableDataset] = React11.useState();
     const [parties, setParties] = React11.useState();
-    const [deferUntil, setDeferUntil] = React11.useState(null);
-    const [topicFilter, setTopicFilter] = React11.useState([]);
+    const { t } = useTranslation();
     React11.useEffect(() => {
       let ignore = false;
       async function fetchPolicies() {
         const response = await fetch("/policies/".concat(year, "/policies.json"));
-        const policies = await response.json();
+        const policies2 = await response.json();
         if (!ignore) {
           let dataset = /* @__PURE__ */ new Map();
           let parties2 = /* @__PURE__ */ new Set();
-          policies.forEach((policy) => {
+          policies2.forEach((policy) => {
             var _a;
             parties2.add(policy.party);
             if (dataset.has(policy.topic)) {
@@ -27932,15 +28705,17 @@
   }
   function Header({ subheading }) {
     const { language } = useLanguage();
-    return /* @__PURE__ */ React12.createElement("header", { className: "container section" }, /* @__PURE__ */ React12.createElement("div", { className: "header" }, /* @__PURE__ */ React12.createElement(LanguageSelector, null), /* @__PURE__ */ React12.createElement("hgroup", { className: "headings flex" }, /* @__PURE__ */ React12.createElement("a", { href: "/", className: "no-hover" }, /* @__PURE__ */ React12.createElement("h1", { className: "pageTitle lang-".concat(language) }, " Our Politics ")), subheading ? /* @__PURE__ */ React12.createElement("h2", { className: "pageSubTitle" }, subheading) : null)));
+    const { t } = useTranslation();
+    return /* @__PURE__ */ React12.createElement("header", { className: "container section" }, /* @__PURE__ */ React12.createElement("div", { className: "header" }, /* @__PURE__ */ React12.createElement(LanguageSelector, null), /* @__PURE__ */ React12.createElement("hgroup", { className: "headings flex" }, /* @__PURE__ */ React12.createElement("a", { href: "/", className: "no-hover" }, /* @__PURE__ */ React12.createElement("h1", { className: "pageTitle lang-".concat(language) }, " ", t("our_politics"), " ")), subheading ? /* @__PURE__ */ React12.createElement("h2", { className: "pageSubTitle" }, subheading) : null)));
   }
 
   // src/components/footer.tsx
   var React13 = __toESM(require_react());
   function Footer() {
-    return /* @__PURE__ */ React13.createElement("footer", { className: "section bg-light-alt footer pb-1" }, /* @__PURE__ */ React13.createElement("div", { className: "container" }, /* @__PURE__ */ React13.createElement("h2", { className: "subheading" }, " Archives "), /* @__PURE__ */ React13.createElement("ul", { className: "list-plain text-large archive-list" }, [2021, 2019, 2015].map((year) => {
-      return /* @__PURE__ */ React13.createElement("li", { key: year }, /* @__PURE__ */ React13.createElement("a", { href: "/policies/".concat(year), className: "styled" }, year));
-    })), /* @__PURE__ */ React13.createElement("p", null, /* @__PURE__ */ React13.createElement("a", { href: "/about", className: "styled" }, "About"), "\xB7", /* @__PURE__ */ React13.createElement("a", { href: "/privacy", className: "styled" }, "Privacy Policy"))));
+    const { t } = useTranslation();
+    return /* @__PURE__ */ React13.createElement("footer", { className: "section bg-light-alt footer pb-1" }, /* @__PURE__ */ React13.createElement("div", { className: "container" }, /* @__PURE__ */ React13.createElement("h2", { className: "subheading" }, " ", t("archives"), " "), /* @__PURE__ */ React13.createElement("ul", { className: "list-plain text-large archive-list" }, [2021, 2019, 2015].map((year) => {
+      return /* @__PURE__ */ React13.createElement("li", { key: year }, /* @__PURE__ */ React13.createElement("a", { href: "/policies/".concat(year), className: "styled" }, t("policy_comparison_title", year)));
+    })), /* @__PURE__ */ React13.createElement("p", null, /* @__PURE__ */ React13.createElement("a", { href: "/about", className: "styled" }, t("about")), "\xB7", /* @__PURE__ */ React13.createElement("a", { href: "/privacy", className: "styled" }, t("privacy_policy")))));
   }
 
   // src/components/page.tsx
@@ -27958,46 +28733,48 @@
   var React16 = __toESM(require_react());
 
   // src/components/pages/content/privacy_index.en.md
-  var html42 = '<p>Our Politics is committed to protecting your right to privacy, and take every effort to\nprotect it when visiting our website. We also promise to never sell your information to a 3rd party.</p>\n<p>We use Google Analytics to track visits and engagement on the website. This information is\nused to determine what parts of the website are most useful to our visitors, and what areas\ncan be improved in the future.</p>\n<p>All requests use <a href="https://support.google.com/analytics/answer/2763052?hl=en">IP anonymization</a>, which happens before any storage or processing takes place. <em>Data Collection for Advertising Features</em> and <em>Demographics and Interest Reports</em> are disabled within Google Analytics.</p>\n<p>If you wish to opt out of tracking completely, we recommend using the\n<a href="https://tools.google.com/dlpage/gaoptout">Google Analytics Opt-out Browser Add-on</a>, which will block Google Analyics tracking on all websites.</p>\n';
+  var html187 = '<p>Our Politics is committed to protecting your right to privacy, and take every effort to\nprotect it when visiting our website. We also promise to never sell your information to a 3rd party.</p>\n<p>We use Google Analytics to track visits and engagement on the website. This information is\nused to determine what parts of the website are most useful to our visitors, and what areas\ncan be improved in the future.</p>\n<p>All requests use <a href="https://support.google.com/analytics/answer/2763052?hl=en">IP anonymization</a>, which happens before any storage or processing takes place. <em>Data Collection for Advertising Features</em> and <em>Demographics and Interest Reports</em> are disabled within Google Analytics.</p>\n<p>If you wish to opt out of tracking completely, we recommend using the\n<a href="https://tools.google.com/dlpage/gaoptout">Google Analytics Opt-out Browser Add-on</a>, which will block Google Analyics tracking on all websites.</p>\n';
 
   // src/components/pages/content/privacy_index.fr.md
-  var html43 = "<p>Notre politique s'engage \xE0 prot\xE9ger votre droit \xE0 la vie priv\xE9e, et fait tout son possible pour le prot\xE9ger lorsque vous visitez notre site web. Nous promettons \xE9galement de ne jamais vendre vos informations \xE0 une tierce partie.</p>\n<p>Nous utilisons Google Analytics pour suivre les visites et l'engagement sur le site Web. Ces informations sont utilis\xE9es pour d\xE9terminer quelles parties du site sont les plus utiles \xE0 nos visiteurs et quelles sont celles qui peuvent \xEAtre am\xE9lior\xE9es \xE0 l'avenir.</p>\n<p>Toutes les requ\xEAtes utilisent <a href=\"https://support.google.com/analytics/answer/2763052?hl=en\">l'anonymisation de l'IP</a>, qui intervient avant tout stockage ou traitement. La collecte de donn\xE9es pour les fonctions publicitaires et les rapports d\xE9mographiques et d'int\xE9r\xEAt est d\xE9sactiv\xE9e dans Google Analytics.</p>\n<p>Si vous souhaitez d\xE9sactiver compl\xE8tement le suivi, nous vous recommandons d'utiliser le module compl\xE9mentaire de navigateur <a href=\"https://tools.google.com/dlpage/gaoptout\">Opt-out de Google Analytics</a>, qui bloquera le suivi Google Analytics sur tous les sites Web.</p>\n";
+  var html188 = "<p>Notre politique s'engage \xE0 prot\xE9ger votre droit \xE0 la vie priv\xE9e, et fait tout son possible pour le prot\xE9ger lorsque vous visitez notre site web. Nous promettons \xE9galement de ne jamais vendre vos informations \xE0 une tierce partie.</p>\n<p>Nous utilisons Google Analytics pour suivre les visites et l'engagement sur le site Web. Ces informations sont utilis\xE9es pour d\xE9terminer quelles parties du site sont les plus utiles \xE0 nos visiteurs et quelles sont celles qui peuvent \xEAtre am\xE9lior\xE9es \xE0 l'avenir.</p>\n<p>Toutes les requ\xEAtes utilisent <a href=\"https://support.google.com/analytics/answer/2763052?hl=en\">l'anonymisation de l'IP</a>, qui intervient avant tout stockage ou traitement. La collecte de donn\xE9es pour les fonctions publicitaires et les rapports d\xE9mographiques et d'int\xE9r\xEAt est d\xE9sactiv\xE9e dans Google Analytics.</p>\n<p>Si vous souhaitez d\xE9sactiver compl\xE8tement le suivi, nous vous recommandons d'utiliser le module compl\xE9mentaire de navigateur <a href=\"https://tools.google.com/dlpage/gaoptout\">Opt-out de Google Analytics</a>, qui bloquera le suivi Google Analytics sur tous les sites Web.</p>\n";
 
   // src/components/pages/privacy-policy-index.tsx
   function PrivacyPolicyIndex() {
-    const language = useLanguage();
+    const { language } = useLanguage();
+    const { t } = useTranslation();
     const [content, setContent] = React16.useState("");
     React16.useEffect(() => {
       if (language === LanguageOption.EN) {
-        setContent(html42);
+        setContent(html187);
       } else {
-        setContent(html43);
+        setContent(html188);
       }
     }, [language]);
-    return /* @__PURE__ */ React16.createElement(Page, { title: "Privacy" }, /* @__PURE__ */ React16.createElement("section", { className: "section" }, /* @__PURE__ */ React16.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React16.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
+    return /* @__PURE__ */ React16.createElement(Page, { title: t("privacy_policy") }, /* @__PURE__ */ React16.createElement("section", { className: "section" }, /* @__PURE__ */ React16.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React16.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
   }
 
   // src/components/pages/about-index.tsx
   var React17 = __toESM(require_react());
 
   // src/components/pages/content/about_index.en.md
-  var html44 = "<p>Our Politics started in 2015 with a single aim: making election platforms easier to understand.</p>\n<p>Plenty of people don't have time to read daily election news, but they still care about the policies. Our goal is to provide context to these announcements for those who don't follow politics.</p>\n<p>Our Politics is a voluntary contribution by <a href=\"https://mastodon.social/@jahfer\">@jahfer</a>, an Ottawa-based software developer.</p>\n";
+  var html189 = "<p>Our Politics started in 2015 with a single aim: making election platforms easier to understand.</p>\n<p>Plenty of people don't have time to read daily election news, but they still care about the policies. Our goal is to provide context to these announcements for those who don't follow politics.</p>\n<p>Our Politics is a voluntary contribution by <a href=\"https://mastodon.social/@jahfer\">@jahfer</a>, an Ottawa-based software developer.</p>\n";
 
   // src/components/pages/content/about_index.fr.md
-  var html45 = "<p>Notre politique a d\xE9but\xE9 en 2015 avec un seul objectif : rendre les plateformes \xE9lectorales plus faciles \xE0 comprendre.</p>\n<p>Beaucoup de gens n'ont pas le temps de lire les actualit\xE9s \xE9lectorales quotidiennes, mais ils s'int\xE9ressent quand m\xEAme aux politiques. Notre objectif est de fournir un contexte \xE0 ces annonces pour ceux qui ne suivent pas la politique.</p>\n<p>Notre politique est une contribution volontaire de <a href=\"https://mastodon.social/@jahfer\">@jahfer</a>, un d\xE9veloppeur de logiciels bas\xE9 \xE0 Ottawa.</p>\n";
+  var html190 = "<p>Notre politique a d\xE9but\xE9 en 2015 avec un seul objectif : rendre les plateformes \xE9lectorales plus faciles \xE0 comprendre.</p>\n<p>Beaucoup de gens n'ont pas le temps de lire les actualit\xE9s \xE9lectorales quotidiennes, mais ils s'int\xE9ressent quand m\xEAme aux politiques. Notre objectif est de fournir un contexte \xE0 ces annonces pour ceux qui ne suivent pas la politique.</p>\n<p>Notre politique est une contribution volontaire de <a href=\"https://mastodon.social/@jahfer\">@jahfer</a>, un d\xE9veloppeur de logiciels bas\xE9 \xE0 Ottawa.</p>\n";
 
   // src/components/pages/about-index.tsx
   function AboutIndex() {
     const { language } = useLanguage();
+    const { t } = useTranslation();
     const [content, setContent] = React17.useState("");
     React17.useEffect(() => {
       if (language === LanguageOption.EN) {
-        setContent(html44);
+        setContent(html189);
       } else {
-        setContent(html45);
+        setContent(html190);
       }
     }, [language]);
-    return /* @__PURE__ */ React17.createElement(Page, { title: "About" }, /* @__PURE__ */ React17.createElement("section", { className: "section" }, /* @__PURE__ */ React17.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React17.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
+    return /* @__PURE__ */ React17.createElement(Page, { title: t("about") }, /* @__PURE__ */ React17.createElement("section", { className: "section" }, /* @__PURE__ */ React17.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React17.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
   }
 
   // src/components/app.tsx

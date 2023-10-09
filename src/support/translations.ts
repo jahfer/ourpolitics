@@ -1,6 +1,6 @@
 import { TranslationString } from '../types/schema';
 
-const translations: Record<string, TranslationString> = {
+const translations: Record<string, TranslationString | ((...args: any[]) => TranslationString)> = {
   "our_politics": {
     EN: "Our Politics",
     FR: "Notre politique"
@@ -132,6 +132,34 @@ const translations: Record<string, TranslationString> = {
   "topic.immigration": {
     EN: "Immigration",
     FR: "Immigration",
+  },
+  "policy_comparison_title": (year: number) => ({
+    EN: `${year} Policies`,
+    FR: `Enjeux ${year}`,
+  }),
+  "election_notice": {
+    EN: "The election is today! Be sure to check your local <a target='_blank' href='https://www.elections.ca/content2.aspx?section=faq&dir=votinghours&document=index&lang=e'>voting&nbsp;hours&nbsp;&rarr;</a>",
+    FR: `Les élections ont lieu aujourd'hui&nbsp;! Vérifiez les <a target='_blank' href='https://www.elections.ca/content2.aspx?section=faq&dir=votinghours&document=index&lang=f'>heures de vote de votre localité&nbsp;&rarr;</a>`
+  },
+  // "hero.election_notice": {
+  //   EN: "The election is underway!",
+  //   FR: `L'élection est en cours!`
+  // },
+  // "hero.subtitle": {
+  //   EN: "Stay tuned for new policies in the coming weeks.",
+  //   FR: `Restez à l'écoute des nouvelles politiques dans les semaines à venir.`
+  // },
+  // "hero.cta": {
+  //   EN: "Read the 2021 policies",
+  //   FR: `Lire les politiques de 2021`
+  // },
+  "modal.references": {
+    EN: "References",
+    FR: `Références`
+  },
+  "modal.random_policy": {
+    EN: "Read another policy",
+    FR: "Lire une autre politique"
   }
 };
 

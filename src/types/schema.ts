@@ -23,6 +23,7 @@ export type TranslationString = Record<keyof typeof LanguageOption, string>;
 
 export type Policy = {
   topic: string,
+  year: number,
   party: Party,
   title: TranslationString,
   references: Array<Reference>,

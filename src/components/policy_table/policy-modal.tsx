@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { useId, useEffect, useState, useLayoutEffect } from 'react'
 import { usePolicyModal, usePolicyModalVisiblity } from '../context/policy-modal-context'
-import { useLanguage } from '../context/language-context';
-import { Party, Reference } from '../../types/schema';
+import { useLanguage, useTranslation } from '../context/language-context';
+import { Party, Reference, TranslationString } from '../../types/schema';
 
 //@ts-ignore
 import { html as liberalPolicies2021 } from '../../policies/2021/lpc/*.md'
@@ -10,6 +10,31 @@ import { html as liberalPolicies2021 } from '../../policies/2021/lpc/*.md'
 import { html as ndpPolicies2021 } from '../../policies/2021/ndp/*.md'
 //@ts-ignore
 import { html as conservativePolicies2021 } from '../../policies/2021/cpc/*.md'
+
+const policies: ((year: number) => Record<keyof typeof Party, Record<string, string>>) = (year) => {
+  switch (year) {
+    case 2015: return {
+      "Liberal": liberalPolicies2015,
+      "NDP": ndpPolicies2015,
+      "Conservative": conservativePolicies2015,
+      "Green": {},
+    }
+
+    case 2021: return {
+      "Liberal": liberalPolicies2021,
+      "NDP": ndpPolicies2021,
+      "Conservative": conservativePolicies2021,
+      "Green": {},
+    }
+
+    default: return {
+      "Liberal": {},
+      "NDP": {},
+      "Conservative": {},
+      "Green": {},
+    }
+  }
+}
 
 //@ts-ignore
 import { html as liberalPolicies2015 } from '../../policies/2015/lpc_*.md'
@@ -38,6 +63,7 @@ export default function PolicyModal () {
   const { modalPolicy } = usePolicyModal();
   const { policyModalVisible, setPolicyModalVisibility } = usePolicyModalVisiblity();
   const { language } = useLanguage();
+  const { t } = useTranslation();
   const [dialogElement, setDialogElement] = useState<HTMLDialogElement | undefined>(undefined);
   const [content, setContent] = React.useState<string>("");
 
@@ -72,26 +98,13 @@ export default function PolicyModal () {
   }, [dialogElement]);
 
   useLayoutEffect(() => {
-    console.log(language);
     let html = null;
     if (modalPolicy?.handle) {
       const handle = `${modalPolicy.handle}_${language}`;
-      switch (modalPolicy.party) {
-        case Party.Liberal:
-          html = liberalPolicies2021[handle];
-          break;
-        case Party.Conservative:
-          html = conservativePolicies2021[handle];
-          break;
-        case Party.NDP:
-          html = ndpPolicies2021[handle];
-          break;
-        case Party.Green:
-          html = "";
-          break;
-      }
+      console.log(policies(modalPolicy.year)[modalPolicy.party], modalPolicy.year, handle)
+      html = policies(modalPolicy.year)[modalPolicy.party][handle];
     }
-    setContent(html)
+    setContent(html || "")
   }, [modalPolicy, language]);
 
   if (!modalPolicy) {
@@ -112,7 +125,7 @@ export default function PolicyModal () {
           <a href="#" className="modal--close" aria-label="Close" onClick={closeModalHandler} />
           <div className="modal--headingContainer">
             <div className="modal--headingInfo">
-              <div className="modal--topicBox"> <p> {modalPolicy.topic} </p> </div>
+              <div className="modal--topicBox"> <p> {t(modalPolicy.topic)} — {t(modalPolicy.party.toLowerCase())} </p> </div>
             </div>
           </div>
           <h1
@@ -125,13 +138,13 @@ export default function PolicyModal () {
           </div>
         </div>
         <aside className="modal--sidebar">
-          <h2 className="modal--heading modal--heading__secondary"> References </h2>
+          <h2 className="modal--heading modal--heading__secondary"> {t("modal.references")} </h2>
           <ul className="reference--list">
             {(modalPolicy.references.map(ref => <Reference key={ref.url} source={ref} />)) }
           </ul>
           <div className="modal--randomize">
             <a className="randomize-policy iconSuffix iconSuffix--random" onClick={e => e.preventDefault() }>
-              Random policy
+              {t("modal.random_policy")}
             </a>
           </div>
         </aside>
