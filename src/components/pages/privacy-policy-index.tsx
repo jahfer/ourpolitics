@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { LanguageOption } from '../../types/schema'
-import { useLanguage } from '../context/language-context'
+import { useLanguage, useTranslation } from '../context/language-context'
 
 import Page from '../page'
 
@@ -10,7 +10,8 @@ import { html as PrivacyEN } from './content/privacy_index.en.md'
 import { html as PrivacyFR } from './content/privacy_index.fr.md'
 
 export default function PrivacyPolicyIndex () {
-  const language = useLanguage();
+  const { language } = useLanguage();
+  const { t } = useTranslation();
   const [content, setContent] = React.useState<string>("");
 
   React.useEffect(() => {
@@ -22,7 +23,7 @@ export default function PrivacyPolicyIndex () {
   }, [language]);
 
   return (
-    <Page title="Privacy">
+    <Page title={t("privacy_policy")}>
       <section className="section">
         <article className="text-block text-large pb-3">
           <div dangerouslySetInnerHTML={{ __html: content }} />

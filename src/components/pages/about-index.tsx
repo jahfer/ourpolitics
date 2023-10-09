@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { LanguageOption } from '../../types/schema'
-import { useLanguage } from '../context/language-context'
+import { useLanguage, useTranslation } from '../context/language-context'
 
 import Page from '../page'
 // @ts-ignore
@@ -10,6 +10,7 @@ import { html as AboutFR } from './content/about_index.fr.md'
 
 export default function AboutIndex () {
   const { language } = useLanguage();
+  const { t } = useTranslation();
   const [content, setContent] = React.useState<string>("");
 
   React.useEffect(() => {
@@ -21,7 +22,7 @@ export default function AboutIndex () {
   }, [language]);
 
   return (
-    <Page title="About">
+    <Page title={t("about")}>
       <section className="section">
         <article className="text-block text-large pb-3">
           <div dangerouslySetInnerHTML={{ __html: content }} />

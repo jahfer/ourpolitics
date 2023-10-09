@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useLanguage } from '../context/language-context'
+import { useLanguage, useTranslation } from '../context/language-context'
 import PolicyRow from './policy-row'
 import { Party, Policy } from '../../types/schema'
 
@@ -26,6 +26,7 @@ interface PolicyTableProps {
 export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>();
   const language = useLanguage();
+  const { t } = useTranslation();
 
   const sortedParties = React.useMemo(() => shuffle(Array.from(parties)), [parties]);
 
@@ -59,7 +60,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
     return (
       <>
         <div id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty">
-          Topics
+          {t("topics")}
         </div>
         {
           sortedParties.map((party) => {
@@ -68,7 +69,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
                 key={`partyTitle--${party}`}
                 id={`policyTableColumn--${party}`}
                 className={`policyCell partyTitle backgroundColor--${party}`}>
-                {party}
+                {t(party.toLowerCase())}
               </div>
             )
           })

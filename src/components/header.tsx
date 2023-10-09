@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useLanguage } from './context/language-context'
+import { useLanguage, useTranslation } from './context/language-context'
 import { LanguageOption } from '../types/schema';
 
 function LanguageSelector () {
@@ -30,6 +30,7 @@ interface HeaderProps {
 
 export default function Header ({ subheading }: HeaderProps) {
   const { language } = useLanguage();
+  const { t } = useTranslation();
 
   return (
     <header className="container section">
@@ -37,7 +38,7 @@ export default function Header ({ subheading }: HeaderProps) {
         <LanguageSelector />
         <hgroup className="headings flex">
           <a href="/" className="no-hover">
-            <h1 className={`pageTitle lang-${language}`}> Our Politics </h1>
+            <h1 className={`pageTitle lang-${language}`}> {t("our_politics")} </h1>
           </a>
           {
             subheading ?
