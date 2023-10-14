@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { LanguageOption } from '../../types/schema'
-import { useLanguage, useTranslation } from '../context/language-context'
+import { LanguageOption } from 'types/schema'
+import { useLanguage, useTranslation } from 'contexts/language-context'
 
-import Page from '../page'
+import Page from 'components/page'
 
 // @ts-ignore
 import { html as PrivacyEN } from './content/privacy_index.en.md'

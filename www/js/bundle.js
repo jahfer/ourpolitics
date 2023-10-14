@@ -27430,7 +27430,7 @@
   // src/components/policy_table/policy-comparison-table.tsx
   var React11 = __toESM(require_react());
 
-  // src/components/context/language-context.tsx
+  // src/contexts/language-context.tsx
   var import_react = __toESM(require_react());
   var React4 = __toESM(require_react());
 
@@ -27605,7 +27605,7 @@
   };
   var translations_default = translations;
 
-  // src/components/context/language-context.tsx
+  // src/contexts/language-context.tsx
   var LanguageContext = (0, import_react.createContext)({
     language: LanguageOption.EN,
     setLanguage: () => {
@@ -27646,7 +27646,7 @@
   // src/components/policy_table/policy-point.tsx
   var React7 = __toESM(require_react());
 
-  // src/components/context/policy-modal-context.tsx
+  // src/contexts/policy-modal-context.tsx
   var React6 = __toESM(require_react());
   var import_react3 = __toESM(require_react());
 
@@ -28425,7 +28425,7 @@
     }
   };
   function Reference({ source }) {
-    return /* @__PURE__ */ React5.createElement("li", { className: "reference" }, /* @__PURE__ */ React5.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React5.createElement("h2", { className: "reference--title" }, " ", source.title, " ")), /* @__PURE__ */ React5.createElement("div", { className: "reference--meta" }, " ", source.publisher, " "));
+    return /* @__PURE__ */ React5.createElement("li", { className: "reference" }, /* @__PURE__ */ React5.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React5.createElement("h2", { className: "reference--title" }, " ", source.title, " "), /* @__PURE__ */ React5.createElement("div", { className: "reference--meta" }, " ", source.publisher, " ")));
   }
   function PolicyModal() {
     const modalId = (0, import_react2.useId)();
@@ -28490,7 +28490,7 @@
     );
   }
 
-  // src/components/context/policy-modal-context.tsx
+  // src/contexts/policy-modal-context.tsx
   var PolicyModalContext = (0, import_react3.createContext)({
     setModalPolicy: () => {
     }

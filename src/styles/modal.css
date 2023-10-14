@@ -174,10 +174,16 @@ dialog {
 .reference {
   list-style: none;
   margin-bottom: 15px;
+  border: 2px solid transparent;
+  border-radius: 5px;
 
   a:hover {
-    text-decoration: underline;
     border: 0;
+  }
+
+  &:hover, &:active {
+    border-color: #ffbd00;
+    background-color: #404040;
   }
 }
 
@@ -200,6 +206,7 @@ dialog {
   font-size: 1rem;
   margin: 0;
   color: #ddd;
+  text-wrap: balance;
 }
 
 .reference--meta {
@@ -234,12 +241,6 @@ dialog {
 @media screen and (min-width: 800px) {
   .modal--headingInfo {
     margin-right: 0;
-  }
-
-  .reference-modal--content {
-    .modal--headingInfo {
-      margin-right: 30px;
-    }
   }
 
   .policyModal--content {

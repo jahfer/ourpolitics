@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { createContext, useContext, useState } from 'react';
-import { Policy } from '../../types/schema';
-import PolicyModal from '../policy_table/policy-modal';
+import { Policy } from 'types/schema';
+import PolicyModal from 'components/policy_table/policy-modal';
 
 interface PolicyModalProviderProps {
   policy?: Policy,

@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { useParams } from 'react-router-dom'
-import PolicyComparisonTable from '../policy_table/policy-comparison-table'
+import PolicyComparisonTable from 'components/policy_table/policy-comparison-table'
 
-import Page from '../page'
+import Page from 'components/page'
 
 type PolicyComparisonIndexParams = {
   year?: string,

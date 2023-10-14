@@ -12,7 +12,7 @@ export enum Party {
   Green = "Green",
 }
 
-export type Reference = {
+export type ReferenceType = {
   date?: string,
   publisher: string,
   title: string,
@@ -26,6 +26,6 @@ export type Policy = {
   year: number,
   party: Party,
   title: TranslationString,
-  references: Array<Reference>,
+  references: Array<ReferenceType>,
   handle?: string
 }

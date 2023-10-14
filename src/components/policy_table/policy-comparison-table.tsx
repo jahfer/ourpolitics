@@ -1,9 +1,9 @@
 import * as React from 'react'
-import { useTranslation } from '../context/language-context'
+import { useTranslation } from 'contexts/language-context'
 import PolicyTable from './policy-table'
-import { Party, Policy } from '../../types/schema'
+import { Party, Policy } from 'types/schema'
 
-import { PolicyModalProvider } from '../context/policy-modal-context'
+import { PolicyModalProvider } from 'contexts/policy-modal-context'
 import Banner from '../banner'
 
 interface PolicyComparisonIndexProps {

@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { useLanguage } from '../context/language-context'
-import { usePolicyModal, usePolicyModalVisiblity } from '../context/policy-modal-context'
-import { LanguageOption, Policy } from '../../types/schema'
+import { useLanguage } from 'contexts/language-context'
+import { usePolicyModal, usePolicyModalVisiblity } from 'contexts/policy-modal-context'
+import { Policy } from 'types/schema'
 
 interface PolicyPointProps {
   policy: Policy
