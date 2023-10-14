@@ -1,7 +1,7 @@
 import * as React from 'react'
 import PolicyPoint from './policy-point'
-import { Party, Policy } from '../../types/schema'
-import { useLanguage, useTranslation } from '../context/language-context'
+import { Party, Policy } from 'types/schema'
+import { useLanguage, useTranslation } from 'contexts/language-context'
 
 interface PolicyCellProps {
   party: Party,

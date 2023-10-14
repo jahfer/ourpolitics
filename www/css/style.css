@@ -742,10 +742,16 @@ dialog {
 .reference {
   list-style: none;
   margin-bottom: 15px;
+  border: 2px solid transparent;
+  border-radius: 5px;
 }
 .reference a:hover {
-  text-decoration: underline;
   border: 0;
+}
+.reference:hover,
+.reference:active {
+  border-color: #ffbd00;
+  background-color: #404040;
 }
 .reference--list {
   padding-left: 0;
@@ -763,6 +769,7 @@ dialog {
   font-size: 1rem;
   margin: 0;
   color: #ddd;
+  text-wrap: balance;
 }
 .reference--meta {
   font-size: 0.75em;
@@ -791,9 +798,6 @@ dialog {
 @media screen and (min-width: 800px) {
   .modal--headingInfo {
     margin-right: 0;
-  }
-  .reference-modal--content .modal--headingInfo {
-    margin-right: 30px;
   }
   .policyModal--content {
     margin: 0 auto;

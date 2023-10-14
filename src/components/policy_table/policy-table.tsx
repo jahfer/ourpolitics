@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { useLanguage, useTranslation } from '../context/language-context'
+import { useLanguage, useTranslation } from 'contexts/language-context'
 import PolicyRow from './policy-row'
-import { Party, Policy } from '../../types/schema'
+import { Party, Policy } from 'types/schema'
 
 // https://stackoverflow.com/a/2450976
 function shuffle<T>(array: Array<T>): Array<T> {

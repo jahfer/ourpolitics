@@ -2,16 +2,15 @@ import * as React from 'react'
 import {
   createBrowserRouter,
   RouterProvider,
-  redirect,
-  useLoaderData
+  redirect
 } from 'react-router-dom'
 
-import ErrorIndex from './pages/error-index'
-import PolicyComparisonIndex from './pages/policy-comparison-index'
-import PrivacyPolicyIndex from './pages/privacy-policy-index'
-import AboutIndex from './pages/about-index'
-import { LanguageProvider } from './context/language-context'
-import { LanguageOption } from '../types/schema'
+import ErrorIndex from 'components/pages/error-index'
+import PolicyComparisonIndex from 'components/pages/policy-comparison-index'
+import PrivacyPolicyIndex from 'components/pages/privacy-policy-index'
+import AboutIndex from 'components/pages/about-index'
+import { LanguageProvider } from 'contexts/language-context'
+import { LanguageOption } from 'types/schema'
 
 const router = createBrowserRouter([
   {

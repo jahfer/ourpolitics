@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { useId, useEffect, useState, useLayoutEffect } from 'react'
-import { usePolicyModal, usePolicyModalVisiblity } from '../context/policy-modal-context'
-import { useLanguage, useTranslation } from '../context/language-context';
-import { Party, Reference, TranslationString } from '../../types/schema';
+import { usePolicyModal, usePolicyModalVisiblity } from 'contexts/policy-modal-context'
+import { useLanguage, useTranslation } from 'contexts/language-context';
+import { Party, ReferenceType, TranslationString } from 'types/schema';
 
 //@ts-ignore
 import { html as liberalPolicies2021 } from '../../policies/2021/lpc/*.md'
@@ -10,6 +10,12 @@ import { html as liberalPolicies2021 } from '../../policies/2021/lpc/*.md'
 import { html as ndpPolicies2021 } from '../../policies/2021/ndp/*.md'
 //@ts-ignore
 import { html as conservativePolicies2021 } from '../../policies/2021/cpc/*.md'
+//@ts-ignore
+import { html as liberalPolicies2015 } from '../../policies/2015/lpc_*.md'
+//@ts-ignore
+import { html as ndpPolicies2015 } from '../../policies/2015/ndp_*.md'
+//@ts-ignore
+import { html as conservativePolicies2015 } from '../../policies/2015/cpc_*.md'
 
 const policies: ((year: number) => Record<keyof typeof Party, Record<string, string>>) = (year) => {
   switch (year) {
@@ -36,15 +42,8 @@ const policies: ((year: number) => Record<keyof typeof Party, Record<string, str
   }
 }
 
-//@ts-ignore
-import { html as liberalPolicies2015 } from '../../policies/2015/lpc_*.md'
-//@ts-ignore
-import { html as ndpPolicies2015 } from '../../policies/2015/ndp_*.md'
-//@ts-ignore
-import { html as conservativePolicies2015 } from '../../policies/2015/cpc_*.md'
-
 interface ReferenceProps {
-  source: Reference,
+  source: ReferenceType,
 }
 
 function Reference ({ source }: ReferenceProps) {
@@ -52,8 +51,8 @@ function Reference ({ source }: ReferenceProps) {
     <li className="reference">
       <a target="_blank" href={source.url}>
         <h2 className="reference--title"> {source.title} </h2>
+        <div className="reference--meta"> {source.publisher} </div>
       </a>
-      <div className="reference--meta"> {source.publisher} </div>
     </li>
   )
 }

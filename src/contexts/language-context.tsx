@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from 'react';
 import * as React from 'react';
-import { LanguageOption, Language } from '../../types/schema';
-import translations from '../../support/translations';
+import { LanguageOption, Language } from 'types/schema';
+import translations from 'support/translations';
 
 interface LanguageProviderProps {
   defaultLanguage: Language;

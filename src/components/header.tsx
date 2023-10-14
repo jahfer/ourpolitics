@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { useLanguage, useTranslation } from './context/language-context'
-import { LanguageOption } from '../types/schema';
+import { useLanguage, useTranslation } from 'contexts/language-context'
+import { LanguageOption } from 'types/schema';
 
 function LanguageSelector () {
   const { language, setLanguage } = useLanguage();
