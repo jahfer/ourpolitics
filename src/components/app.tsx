@@ -9,7 +9,10 @@ import ErrorIndex from 'components/pages/error-index'
 import PolicyComparisonIndex from 'components/pages/policy-comparison-index'
 import PrivacyPolicyIndex from 'components/pages/privacy-policy-index'
 import AboutIndex from 'components/pages/about-index'
+
 import { LanguageProvider } from 'contexts/language-context'
+import { URLProvider } from 'contexts/url-context'
+
 import { LanguageOption } from 'types/schema'
 
 const router = createBrowserRouter([
@@ -20,6 +23,10 @@ const router = createBrowserRouter([
   },
   {
     path: "policies/:year",
+    element: <PolicyComparisonIndex />,
+  },
+  {
+    path: "policies/:year/:party/:policyHandle",
     element: <PolicyComparisonIndex />,
   },
   {
@@ -36,7 +43,9 @@ export default function App () {
   return (
     <React.StrictMode>
       <LanguageProvider defaultLanguage={LanguageOption.EN}>
-        <RouterProvider router={router} />
+        <URLProvider>
+          <RouterProvider router={router} />
+        </URLProvider>
       </LanguageProvider>
     </React.StrictMode>
   )

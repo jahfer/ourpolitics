@@ -1,16 +1,37 @@
 import * as React from 'react'
 import { useLanguage } from 'contexts/language-context'
 import { usePolicyModal, usePolicyModalVisiblity } from 'contexts/policy-modal-context'
-import { Policy } from 'types/schema'
+import { useURL } from 'contexts/url-context'
+import { Party, Policy } from 'types/schema'
 
 interface PolicyPointProps {
   policy: Policy
 }
 
+function partyToAcronym(party: Party) {
+  switch (party) {
+    case Party.Conservative:
+      return "CPC";
+    case Party.Green:
+      return "GPC";
+    case Party.Liberal:
+      return "LPC";
+    case Party.NDP:
+      return "NDP";
+    default:
+      const _exhaustiveCheck: never = party;
+      return _exhaustiveCheck;
+  }
+}
+
+const policyURL = (policy: Policy) => `/policies/${policy.year}/${partyToAcronym(policy.party)}/${policy.handle}`;
+
 export default function PolicyPoint ({ policy }: PolicyPointProps) {
   const { language } = useLanguage();
   const { setModalPolicy } = usePolicyModal();
   const { setPolicyModalVisibility } = usePolicyModalVisiblity();
+  const { setURL, historyState } = useURL();
+
   let formattedPolicyTitle = policy.title[language].replace(
     /([$><+]*?[0-9]+\.?,?(&nbsp;)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
     "<span class='text-em'>$1</span>"
@@ -19,6 +40,13 @@ export default function PolicyPoint ({ policy }: PolicyPointProps) {
   function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
     setModalPolicy(policy);
     setPolicyModalVisibility(true);
+
+    if (policy.handle) {
+      setURL({ policy }, policyURL(policy));
+    } else {
+      setURL({ policy });
+    }
+
     event.preventDefault();
     return false;
   }

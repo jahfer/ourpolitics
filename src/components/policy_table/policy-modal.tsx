@@ -2,6 +2,7 @@ import * as React from 'react'
 import { useId, useEffect, useState, useLayoutEffect } from 'react'
 import { usePolicyModal, usePolicyModalVisiblity } from 'contexts/policy-modal-context'
 import { useLanguage, useTranslation } from 'contexts/language-context';
+import { useURL } from 'contexts/url-context';
 import { Party, ReferenceType, TranslationString } from 'types/schema';
 
 //@ts-ignore
@@ -60,6 +61,7 @@ function Reference ({ source }: ReferenceProps) {
 export default function PolicyModal () {
   const modalId = useId();
   const { modalPolicy } = usePolicyModal();
+  const { setURLToPrevious } = useURL();
   const { policyModalVisible, setPolicyModalVisibility } = usePolicyModalVisiblity();
   const { language } = useLanguage();
   const { t } = useTranslation();
@@ -85,14 +87,19 @@ export default function PolicyModal () {
   }, [modalId, modalPolicy, policyModalVisible]);
 
   const closeModalHandler = (event: any) => {
-    setPolicyModalVisibility(false);
+    if (policyModalVisible) {
+      setURLToPrevious();
+    }
     event.preventDefault();
-    return false
+    return false;
   }
 
   useEffect(() => {
     if (dialogElement) {
-      dialogElement.addEventListener("close", closeModalHandler);
+      dialogElement.addEventListener("close", (event) => {
+        // setURLToPrevious();
+        closeModalHandler(event);
+      });
     }
   }, [dialogElement]);
 
@@ -100,7 +107,6 @@ export default function PolicyModal () {
     let html = null;
     if (modalPolicy?.handle) {
       const handle = `${modalPolicy.handle}_${language}`;
-      console.log(policies(modalPolicy.year)[modalPolicy.party], modalPolicy.year, handle)
       html = policies(modalPolicy.year)[modalPolicy.party][handle];
     }
     setContent(html || "")

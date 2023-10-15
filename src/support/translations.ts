@@ -6,8 +6,8 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     FR: "Notre politique"
   },
   "topics": {
-    EN: "Topics",
-    FR: "Sujets"
+    EN: "Topic",
+    FR: "Thème"
   },
   "no_policy_listed": {
     EN: "No major policies announced",
@@ -160,6 +160,14 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
   "modal.random_policy": {
     EN: "Read another policy",
     FR: "Lire une autre politique"
+  },
+  "select_all": {
+    EN: "Select all",
+    FR: `Tout sélectionner`
+  },
+  "select_none": {
+    EN: "Select none",
+    FR: "Sélectionner aucun"
   }
 };
 

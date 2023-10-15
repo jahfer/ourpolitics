@@ -62,6 +62,9 @@ let cssCtx = await esbuild.context({
     ".svg": "dataurl",
   },
   target: browserTargets,
+  define: {
+    'window.IS_PRODUCTION': 'false',
+  },
 })
 
 let jsCtx = await esbuild.context({
