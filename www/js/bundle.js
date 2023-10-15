@@ -511,7 +511,7 @@
             }
             return element;
           };
-          function createElement20(type, config, children) {
+          function createElement21(type, config, children) {
             var propName;
             var props = {};
             var key = null;
@@ -785,7 +785,7 @@
             }
             return children;
           }
-          function createContext4(defaultValue) {
+          function createContext5(defaultValue) {
             var context = {
               $$typeof: REACT_CONTEXT_TYPE,
               // As a workaround to support multiple concurrent renderers, we categorize
@@ -1071,7 +1071,7 @@
             }
             return dispatcher;
           }
-          function useContext5(Context) {
+          function useContext6(Context) {
             var dispatcher = resolveDispatcher();
             {
               if (Context._context !== void 0) {
@@ -1085,7 +1085,7 @@
             }
             return dispatcher.useContext(Context);
           }
-          function useState11(initialState) {
+          function useState13(initialState) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useState(initialState);
           }
@@ -1097,7 +1097,7 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useRef(initialValue);
           }
-          function useEffect8(create, deps) {
+          function useEffect9(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useEffect(create, deps);
           }
@@ -1610,7 +1610,7 @@
                 error("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
               }
             }
-            var element = createElement20.apply(this, arguments);
+            var element = createElement21.apply(this, arguments);
             if (element == null) {
               return element;
             }
@@ -1865,7 +1865,7 @@
           exports.Suspense = REACT_SUSPENSE_TYPE;
           exports.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = ReactSharedInternals;
           exports.cloneElement = cloneElement$1;
-          exports.createContext = createContext4;
+          exports.createContext = createContext5;
           exports.createElement = createElement$1;
           exports.createFactory = createFactory;
           exports.createRef = createRef;
@@ -1876,10 +1876,10 @@
           exports.startTransition = startTransition;
           exports.unstable_act = act;
           exports.useCallback = useCallback3;
-          exports.useContext = useContext5;
+          exports.useContext = useContext6;
           exports.useDebugValue = useDebugValue;
           exports.useDeferredValue = useDeferredValue;
-          exports.useEffect = useEffect8;
+          exports.useEffect = useEffect9;
           exports.useId = useId2;
           exports.useImperativeHandle = useImperativeHandle;
           exports.useInsertionEffect = useInsertionEffect;
@@ -1887,7 +1887,7 @@
           exports.useMemo = useMemo4;
           exports.useReducer = useReducer;
           exports.useRef = useRef3;
-          exports.useState = useState11;
+          exports.useState = useState13;
           exports.useSyncExternalStore = useSyncExternalStore;
           exports.useTransition = useTransition;
           exports.version = ReactVersion;
@@ -2383,9 +2383,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React20 = require_react();
+          var React21 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React20.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React21.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -3990,7 +3990,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React20.Children.forEach(props.children, function(child) {
+                  React21.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -9389,7 +9389,7 @@
               }
             }
           }
-          function createElement20(type, props, rootContainerElement, parentNamespace) {
+          function createElement21(type, props, rootContainerElement, parentNamespace) {
             var isCustomComponentTag;
             var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
             var domElement;
@@ -10250,7 +10250,7 @@
               }
               parentNamespace = hostContextDev.namespace;
             }
-            var domElement = createElement20(type, props, rootContainerInstance, parentNamespace);
+            var domElement = createElement21(type, props, rootContainerInstance, parentNamespace);
             precacheFiberNode(internalInstanceHandle, domElement);
             updateFiberProps(domElement, props);
             return domElement;
@@ -12437,7 +12437,7 @@
             }
           }
           var fakeInternalInstance = {};
-          var emptyRefsObject = new React20.Component().refs;
+          var emptyRefsObject = new React21.Component().refs;
           var didWarnAboutStateAssignmentForComponent;
           var didWarnAboutUninitializedState;
           var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -23509,11 +23509,11 @@
   });
 
   // src/root.tsx
-  var React19 = __toESM(require_react());
+  var React20 = __toESM(require_react());
   var import_client = __toESM(require_client());
 
   // src/components/app.tsx
-  var React18 = __toESM(require_react());
+  var React19 = __toESM(require_react());
 
   // node_modules/react-router-dom/dist/index.js
   var React2 = __toESM(require_react());
@@ -23676,19 +23676,19 @@
       if (listener) {
         listener({
           action,
-          location: history.location,
+          location: history2.location,
           delta
         });
       }
     }
     function push(to, state) {
       action = Action.Push;
-      let location2 = createLocation(history.location, to, state);
+      let location2 = createLocation(history2.location, to, state);
       if (validateLocation)
         validateLocation(location2, to);
       index = getIndex() + 1;
       let historyState = getHistoryState(location2, index);
-      let url = history.createHref(location2);
+      let url = history2.createHref(location2);
       try {
         globalHistory.pushState(historyState, "", url);
       } catch (error) {
@@ -23700,24 +23700,24 @@
       if (v5Compat && listener) {
         listener({
           action,
-          location: history.location,
+          location: history2.location,
           delta: 1
         });
       }
     }
     function replace(to, state) {
       action = Action.Replace;
-      let location2 = createLocation(history.location, to, state);
+      let location2 = createLocation(history2.location, to, state);
       if (validateLocation)
         validateLocation(location2, to);
       index = getIndex();
       let historyState = getHistoryState(location2, index);
-      let url = history.createHref(location2);
+      let url = history2.createHref(location2);
       globalHistory.replaceState(historyState, "", url);
       if (v5Compat && listener) {
         listener({
           action,
-          location: history.location,
+          location: history2.location,
           delta: 0
         });
       }
@@ -23728,7 +23728,7 @@
       invariant(base, "No window.location.(origin|href) available to create URL for href: " + href);
       return new URL(href, base);
     }
-    let history = {
+    let history2 = {
       get action() {
         return action;
       },
@@ -23764,7 +23764,7 @@
         return globalHistory.go(n);
       }
     };
-    return history;
+    return history2;
   }
   var ResultType;
   (function(ResultType2) {
@@ -25442,10 +25442,10 @@
     }
     return boundaryMatches;
   }
-  function getMatchesToLoad(history, state, matches, submission, location2, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError) {
+  function getMatchesToLoad(history2, state, matches, submission, location2, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError) {
     let actionResult = pendingError ? Object.values(pendingError)[0] : pendingActionData ? Object.values(pendingActionData)[0] : void 0;
-    let currentUrl = history.createURL(state.location);
-    let nextUrl = history.createURL(location2);
+    let currentUrl = history2.createURL(state.location);
+    let nextUrl = history2.createURL(location2);
     let boundaryId = pendingError ? Object.keys(pendingError)[0] : void 0;
     let boundaryMatches = getLoaderMatchesUntilBoundary(matches, boundaryId);
     let navigationMatches = boundaryMatches.filter((match, index) => {
@@ -25727,8 +25727,8 @@
       data: result
     };
   }
-  function createClientSideRequest(history, location2, signal, submission) {
-    let url = history.createURL(stripHashFromPath(location2)).toString();
+  function createClientSideRequest(history2, location2, signal, submission) {
+    let url = history2.createURL(stripHashFromPath(location2)).toString();
     let init = {
       signal
     };
@@ -26998,11 +26998,11 @@
       basename,
       children,
       future,
-      history
+      history: history2
     } = _ref3;
     let [state, setStateImpl] = React2.useState({
-      action: history.action,
-      location: history.location
+      action: history2.action,
+      location: history2.location
     });
     let {
       v7_startTransition
@@ -27010,13 +27010,13 @@
     let setState = React2.useCallback((newState) => {
       v7_startTransition && startTransitionImpl2 ? startTransitionImpl2(() => setStateImpl(newState)) : setStateImpl(newState);
     }, [setStateImpl, v7_startTransition]);
-    React2.useLayoutEffect(() => history.listen(setState), [history, setState]);
+    React2.useLayoutEffect(() => history2.listen(setState), [history2, setState]);
     return /* @__PURE__ */ React2.createElement(Router, {
       basename,
       children,
       location: state.location,
       navigationType: state.action,
-      navigator: history
+      navigator: history2
     });
   }
   if (true) {
@@ -27425,10 +27425,10 @@
   }
 
   // src/components/pages/policy-comparison-index.tsx
-  var React15 = __toESM(require_react());
+  var React16 = __toESM(require_react());
 
   // src/components/policy_table/policy-comparison-table.tsx
-  var React11 = __toESM(require_react());
+  var React12 = __toESM(require_react());
 
   // src/contexts/language-context.tsx
   var import_react = __toESM(require_react());
@@ -27447,8 +27447,8 @@
       FR: "Notre politique"
     },
     "topics": {
-      EN: "Topics",
-      FR: "Sujets"
+      EN: "Topic",
+      FR: "Th\xE8me"
     },
     "no_policy_listed": {
       EN: "No major policies announced",
@@ -27601,6 +27601,14 @@
     "modal.random_policy": {
       EN: "Read another policy",
       FR: "Lire une autre politique"
+    },
+    "select_all": {
+      EN: "Select all",
+      FR: "Tout s\xE9lectionner"
+    },
+    "select_none": {
+      EN: "Select none",
+      FR: "S\xE9lectionner aucun"
     }
   };
   var translations_default = translations;
@@ -27635,24 +27643,51 @@
   }
 
   // src/components/policy_table/policy-table.tsx
-  var React10 = __toESM(require_react());
+  var React11 = __toESM(require_react());
+  var import_react5 = __toESM(require_react());
 
   // src/components/policy_table/policy-row.tsx
-  var React9 = __toESM(require_react());
+  var React10 = __toESM(require_react());
 
   // src/components/policy_table/policy-cell.tsx
-  var React8 = __toESM(require_react());
+  var React9 = __toESM(require_react());
 
   // src/components/policy_table/policy-point.tsx
-  var React7 = __toESM(require_react());
+  var React8 = __toESM(require_react());
 
   // src/contexts/policy-modal-context.tsx
+  var React7 = __toESM(require_react());
+  var import_react4 = __toESM(require_react());
+
+  // src/components/policy_table/policy-modal.tsx
   var React6 = __toESM(require_react());
   var import_react3 = __toESM(require_react());
 
-  // src/components/policy_table/policy-modal.tsx
-  var React5 = __toESM(require_react());
+  // src/contexts/url-context.tsx
   var import_react2 = __toESM(require_react());
+  var React5 = __toESM(require_react());
+  var URLContext = (0, import_react2.createContext)({
+    historyState: {},
+    setURL: () => {
+    },
+    setURLToPrevious: () => {
+    }
+  });
+  function useURL() {
+    return (0, import_react2.useContext)(URLContext);
+  }
+  function URLProvider({ children }) {
+    const [historyState, setHistoryState] = (0, import_react2.useState)(window.history.state || {});
+    const setURLToPrevious = () => window.history.back();
+    const setURL = (state, url) => {
+      history.pushState(state, "", url);
+    };
+    const value = { setURL, historyState, setURLToPrevious };
+    window.addEventListener("popstate", (event) => {
+      setHistoryState(event.state || {});
+    });
+    return /* @__PURE__ */ React5.createElement(URLContext.Provider, { value }, children);
+  }
 
   // src/policies/2021/lpc/child_care.en.md
   var html = "<p>The Liberals have begun signing contracts with the provinces and territories to offer child-care at an average price of <strong>$10/day</strong> within the next <strong>5 years</strong>. By the end of 2022, they expect to reduce the average cost of child-care by <strong>50%</strong>.</p>\n<p>The following provinces* and territories have <strong>not</strong> yet signed deals with the government:</p>\n<ul>\n<li>Ontario</li>\n<li>Alberta</li>\n<li>New Brunswick</li>\n<li>Northwest Territories</li>\n<li>Nunavut</li>\n</ul>\n<p><em>* Quebec already operates an &quot;affordable&quot; child-care system and will continue their program separate from the federal government</em></p>\n";
@@ -28425,17 +28460,18 @@
     }
   };
   function Reference({ source }) {
-    return /* @__PURE__ */ React5.createElement("li", { className: "reference" }, /* @__PURE__ */ React5.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React5.createElement("h2", { className: "reference--title" }, " ", source.title, " "), /* @__PURE__ */ React5.createElement("div", { className: "reference--meta" }, " ", source.publisher, " ")));
+    return /* @__PURE__ */ React6.createElement("li", { className: "reference" }, /* @__PURE__ */ React6.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React6.createElement("h2", { className: "reference--title" }, " ", source.title, " "), /* @__PURE__ */ React6.createElement("div", { className: "reference--meta" }, " ", source.publisher, " ")));
   }
   function PolicyModal() {
-    const modalId = (0, import_react2.useId)();
+    const modalId = (0, import_react3.useId)();
     const { modalPolicy } = usePolicyModal();
+    const { setURLToPrevious } = useURL();
     const { policyModalVisible, setPolicyModalVisibility } = usePolicyModalVisiblity();
     const { language } = useLanguage();
     const { t } = useTranslation();
-    const [dialogElement, setDialogElement] = (0, import_react2.useState)(void 0);
-    const [content, setContent] = React5.useState("");
-    (0, import_react2.useEffect)(() => {
+    const [dialogElement, setDialogElement] = (0, import_react3.useState)(void 0);
+    const [content, setContent] = React6.useState("");
+    (0, import_react3.useEffect)(() => {
       const dialog = document.getElementById(modalId);
       if (dialog) {
         if (modalPolicy && policyModalVisible) {
@@ -28449,28 +28485,31 @@
       }
     }, [modalId, modalPolicy, policyModalVisible]);
     const closeModalHandler = (event) => {
-      setPolicyModalVisibility(false);
+      if (policyModalVisible) {
+        setURLToPrevious();
+      }
       event.preventDefault();
       return false;
     };
-    (0, import_react2.useEffect)(() => {
+    (0, import_react3.useEffect)(() => {
       if (dialogElement) {
-        dialogElement.addEventListener("close", closeModalHandler);
+        dialogElement.addEventListener("close", (event) => {
+          closeModalHandler(event);
+        });
       }
     }, [dialogElement]);
-    (0, import_react2.useLayoutEffect)(() => {
+    (0, import_react3.useLayoutEffect)(() => {
       let html191 = null;
       if (modalPolicy == null ? void 0 : modalPolicy.handle) {
         const handle = "".concat(modalPolicy.handle, "_").concat(language);
-        console.log(policies(modalPolicy.year)[modalPolicy.party], modalPolicy.year, handle);
         html191 = policies(modalPolicy.year)[modalPolicy.party][handle];
       }
       setContent(html191 || "");
     }, [modalPolicy, language]);
     if (!modalPolicy) {
-      return /* @__PURE__ */ React5.createElement("dialog", { id: modalId, className: "policyModal--content" });
+      return /* @__PURE__ */ React6.createElement("dialog", { id: modalId, className: "policyModal--content" });
     }
-    return /* @__PURE__ */ React5.createElement(
+    return /* @__PURE__ */ React6.createElement(
       "dialog",
       {
         autoFocus: true,
@@ -28479,46 +28518,72 @@
         "aria-labelledby": "policyDialog__label",
         "aria-describedby": "policyDialog__description"
       },
-      /* @__PURE__ */ React5.createElement("div", { className: "policyModal" }, /* @__PURE__ */ React5.createElement("div", { className: "modal--content" }, /* @__PURE__ */ React5.createElement("a", { href: "#", className: "modal--close", "aria-label": "Close", onClick: closeModalHandler }), /* @__PURE__ */ React5.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React5.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React5.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React5.createElement("p", null, " ", t(modalPolicy.topic), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React5.createElement(
+      /* @__PURE__ */ React6.createElement("div", { className: "policyModal" }, /* @__PURE__ */ React6.createElement("div", { className: "modal--content" }, /* @__PURE__ */ React6.createElement("a", { href: "#", className: "modal--close", "aria-label": "Close", onClick: closeModalHandler }), /* @__PURE__ */ React6.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React6.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React6.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React6.createElement("p", null, " ", t(modalPolicy.topic), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React6.createElement(
         "h1",
         {
           className: "modal--heading modal--heading__primary",
           dangerouslySetInnerHTML: { __html: modalPolicy.title[language] },
           id: "policyDialog__label"
         }
-      ), /* @__PURE__ */ React5.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React5.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React5.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React5.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React5.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React5.createElement(Reference, { key: ref.url, source: ref }))), /* @__PURE__ */ React5.createElement("div", { className: "modal--randomize" }, /* @__PURE__ */ React5.createElement("a", { className: "randomize-policy iconSuffix iconSuffix--random", onClick: (e) => e.preventDefault() }, t("modal.random_policy")))))
+      ), /* @__PURE__ */ React6.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React6.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React6.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React6.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React6.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React6.createElement(Reference, { key: ref.url, source: ref }))), /* @__PURE__ */ React6.createElement("div", { className: "modal--randomize" }, /* @__PURE__ */ React6.createElement("a", { className: "randomize-policy iconSuffix iconSuffix--random", onClick: (e) => e.preventDefault() }, t("modal.random_policy")))))
     );
   }
 
   // src/contexts/policy-modal-context.tsx
-  var PolicyModalContext = (0, import_react3.createContext)({
+  var PolicyModalContext = (0, import_react4.createContext)({
     setModalPolicy: () => {
     }
   });
   function usePolicyModal() {
-    return (0, import_react3.useContext)(PolicyModalContext);
+    return (0, import_react4.useContext)(PolicyModalContext);
   }
-  var PolicyModalVisibilityContext = (0, import_react3.createContext)({
+  var PolicyModalVisibilityContext = (0, import_react4.createContext)({
     policyModalVisible: false,
     setPolicyModalVisibility: () => {
     }
   });
   function usePolicyModalVisiblity() {
-    return (0, import_react3.useContext)(PolicyModalVisibilityContext);
+    return (0, import_react4.useContext)(PolicyModalVisibilityContext);
   }
-  function PolicyModalProvider({ children, visible = false }) {
-    const [modalPolicy, setModalPolicy] = (0, import_react3.useState)();
+  function PolicyModalProvider({ children }) {
+    const { historyState } = useURL();
+    const [modalPolicy, setModalPolicy] = (0, import_react4.useState)();
     const policyModalValue = { modalPolicy, setModalPolicy };
-    const [policyModalVisible, setPolicyModalVisibility] = (0, import_react3.useState)(visible);
+    const [policyModalVisible, setPolicyModalVisibility] = (0, import_react4.useState)("policy" in historyState && historyState.policy);
     const policyModalVisibilityValue = { policyModalVisible, setPolicyModalVisibility };
-    return /* @__PURE__ */ React6.createElement(PolicyModalContext.Provider, { value: policyModalValue }, /* @__PURE__ */ React6.createElement(PolicyModalVisibilityContext.Provider, { value: policyModalVisibilityValue }, /* @__PURE__ */ React6.createElement(PolicyModal, null), children));
+    React7.useEffect(() => {
+      if ("policy" in historyState && historyState.policy) {
+        setModalPolicy(historyState.policy);
+        setPolicyModalVisibility(true);
+      } else {
+        setPolicyModalVisibility(false);
+      }
+    }, [historyState]);
+    return /* @__PURE__ */ React7.createElement(PolicyModalContext.Provider, { value: policyModalValue }, /* @__PURE__ */ React7.createElement(PolicyModalVisibilityContext.Provider, { value: policyModalVisibilityValue }, /* @__PURE__ */ React7.createElement(PolicyModal, null), children));
   }
 
   // src/components/policy_table/policy-point.tsx
+  function partyToAcronym(party) {
+    switch (party) {
+      case "Conservative" /* Conservative */:
+        return "CPC";
+      case "Green" /* Green */:
+        return "GPC";
+      case "Liberal" /* Liberal */:
+        return "LPC";
+      case "NDP" /* NDP */:
+        return "NDP";
+      default:
+        const _exhaustiveCheck = party;
+        return _exhaustiveCheck;
+    }
+  }
+  var policyURL = (policy) => "/policies/".concat(policy.year, "/").concat(partyToAcronym(policy.party), "/").concat(policy.handle);
   function PolicyPoint({ policy }) {
     const { language } = useLanguage();
     const { setModalPolicy } = usePolicyModal();
     const { setPolicyModalVisibility } = usePolicyModalVisiblity();
+    const { setURL, historyState } = useURL();
     let formattedPolicyTitle = policy.title[language].replace(
       /([$><+]*?[0-9]+\.?,?(&nbsp;)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
       "<span class='text-em'>$1</span>"
@@ -28526,10 +28591,15 @@
     function handleClick(event) {
       setModalPolicy(policy);
       setPolicyModalVisibility(true);
+      if (policy.handle) {
+        setURL({ policy }, policyURL(policy));
+      } else {
+        setURL({ policy });
+      }
       event.preventDefault();
       return false;
     }
-    return /* @__PURE__ */ React7.createElement("li", { className: policy.handle ? "policyPoint iconSuffix iconSuffix--comment" : "policyPoint" }, /* @__PURE__ */ React7.createElement(
+    return /* @__PURE__ */ React8.createElement("li", { className: policy.handle ? "policyPoint iconSuffix iconSuffix--comment" : "policyPoint" }, /* @__PURE__ */ React8.createElement(
       "a",
       {
         className: "policyPoint--link",
@@ -28545,13 +28615,13 @@
     let { language } = useLanguage();
     let { t } = useTranslation();
     let listItems = policies2.map((policy) => {
-      return /* @__PURE__ */ React8.createElement(PolicyPoint, { policy, key: "".concat(party, "/").concat(policy.title.EN) });
+      return /* @__PURE__ */ React9.createElement(PolicyPoint, { policy, key: "".concat(party, "/").concat(policy.title.EN) });
     });
     let ariaLabels = [
       "policyTableRow--".concat(topic.replace(/[^a-zA-Z]/g, "")),
       "policyTableColumn--".concat(party)
     ];
-    return /* @__PURE__ */ React8.createElement("div", { className: "policyCell", "aria-labelledby": ariaLabels.join(" ") }, /* @__PURE__ */ React8.createElement("h4", { className: "policyCell--party textColor--".concat(party) }, party), /* @__PURE__ */ React8.createElement("ul", { className: "policyCell--points" }, listItems.length > 0 ? listItems : /* @__PURE__ */ React8.createElement("li", { className: "emptyPolicy", key: "0" }, t("no_policy_listed"))));
+    return /* @__PURE__ */ React9.createElement("div", { className: "policyCell", "aria-labelledby": ariaLabels.join(" ") }, /* @__PURE__ */ React9.createElement("h4", { className: "policyCell--party textColor--".concat(party) }, party), /* @__PURE__ */ React9.createElement("ul", { className: "policyCell--points" }, listItems.length > 0 ? listItems : /* @__PURE__ */ React9.createElement("li", { className: "emptyPolicy", key: "0" }, t("no_policy_listed"))));
   }
 
   // src/components/policy_table/policy-row.tsx
@@ -28559,9 +28629,9 @@
     const { t } = useTranslation();
     const policyCells = parties.map((party) => {
       const partyPolicies = policies2.filter((policy) => policy.party === party);
-      return /* @__PURE__ */ React9.createElement(PolicyCell, { party, topic, policies: partyPolicies, key: "".concat(party, "/").concat(topic) });
+      return /* @__PURE__ */ React10.createElement(PolicyCell, { party, topic, policies: partyPolicies, key: "".concat(party, "/").concat(topic) });
     });
-    return /* @__PURE__ */ React9.createElement("div", { className: "policyRow divider-t" }, /* @__PURE__ */ React9.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React9.createElement("div", { className: "policyCell policyTopic" }, /* @__PURE__ */ React9.createElement(
+    return /* @__PURE__ */ React10.createElement("div", { className: "policyRow divider-t" }, /* @__PURE__ */ React10.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React10.createElement("div", { className: "policyCell policyTopic" }, /* @__PURE__ */ React10.createElement(
       "h3",
       {
         "aria-labelledby": "policyTableColumn--topics",
@@ -28586,69 +28656,91 @@
     return array;
   }
   function PolicyTable({ dataset, parties }) {
-    const [policyRows, setPolicyRows] = React10.useState();
     const language = useLanguage();
     const { t } = useTranslation();
-    const sortedParties = React10.useMemo(() => shuffle(Array.from(parties)), [parties]);
-    React10.useEffect(() => {
-      let elTop = 0;
-      const $tableHeader = document.getElementById("tableHeader");
-      const $tableFiller = document.getElementById("tableFiller");
+    const [policyRows, setPolicyRows] = React11.useState();
+    const [topicFilterState, setTopicFilterState] = (0, import_react5.useState)(() => false);
+    const sortedParties = React11.useMemo(() => shuffle(Array.from(parties)), [parties]);
+    const topics = React11.useMemo(() => Array.from(dataset.keys()), [dataset]);
+    const [topicSelections, setTopicSelections] = React11.useState(() => {
+      return new Map(topics.map((topic) => [topic, true]));
+    });
+    const $tableHeader = document.getElementById("tableHeader");
+    const elTop = React11.useMemo(() => {
+      if (!$tableHeader)
+        return 0;
       let initialHeaderTop = $tableHeader.getBoundingClientRect().top;
       let initialBodyTop = document.body.getBoundingClientRect().top;
-      if (elTop == 0) {
-        elTop = initialHeaderTop - initialBodyTop;
-      }
+      return initialHeaderTop - initialBodyTop;
+    }, [$tableHeader]);
+    React11.useEffect(() => {
+      if (!$tableHeader)
+        return;
       window.addEventListener("scroll", () => {
+        const $tableFiller = document.getElementById("tableFiller");
         window.requestAnimationFrame(() => {
           let scrollTop = document.documentElement.scrollTop;
           if (scrollTop > elTop) {
+            console.log("making header fixed");
             $tableHeader.classList.add("fixed");
             $tableFiller.classList.remove("hidden");
           } else {
+            console.log("making header unfixed");
             $tableHeader.classList.remove("fixed");
             $tableFiller.classList.add("hidden");
           }
         });
       });
-    });
-    const tableHeader = React10.useMemo(() => {
-      return /* @__PURE__ */ React10.createElement(React10.Fragment, null, /* @__PURE__ */ React10.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty" }, t("topics")), sortedParties.map((party) => {
-        return /* @__PURE__ */ React10.createElement(
-          "div",
-          {
-            key: "partyTitle--".concat(party),
-            id: "policyTableColumn--".concat(party),
-            className: "policyCell partyTitle backgroundColor--".concat(party)
-          },
-          t(party.toLowerCase())
-        );
-      }));
-    }, [language, sortedParties]);
-    React10.useMemo(() => {
+    }, [elTop]);
+    React11.useMemo(() => {
       let rows = Array.from(dataset, ([topic, policies2]) => {
-        return /* @__PURE__ */ React10.createElement(
-          PolicyRow,
-          {
-            topic,
-            parties: sortedParties,
-            policies: policies2,
-            key: topic
-          }
-        );
+        if (!topicSelections.get(topic)) {
+          return /* @__PURE__ */ React11.createElement(React11.Fragment, null);
+        } else {
+          return /* @__PURE__ */ React11.createElement(
+            PolicyRow,
+            {
+              topic,
+              parties: sortedParties,
+              policies: policies2,
+              key: topic
+            }
+          );
+        }
       });
       setPolicyRows(rows);
-    }, [sortedParties, dataset]);
-    return /* @__PURE__ */ React10.createElement("div", { className: "policyTable" }, /* @__PURE__ */ React10.createElement("div", { id: "tableHeader", className: "policyRow container tableHeader" }, /* @__PURE__ */ React10.createElement("div", { className: "policyCells" }, " ", tableHeader, " ")), /* @__PURE__ */ React10.createElement("div", { id: "tableFiller", className: "policyRow container tableFiller hidden" }), /* @__PURE__ */ React10.createElement("div", null, policyRows));
+    }, [sortedParties, dataset, topicSelections]);
+    return /* @__PURE__ */ React11.createElement("div", { className: "policyTable" }, /* @__PURE__ */ React11.createElement("div", { id: "tableHeader", className: "policyRow container tableHeader" }, /* @__PURE__ */ React11.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React11.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty", onClick: () => {
+      setTopicFilterState(!topicFilterState);
+    } }, t("topics"), /* @__PURE__ */ React11.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React11.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React11.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([topic, checked]) => checked) ? null : /* @__PURE__ */ React11.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React11.createElement("a", { href: "#", onClick: (e) => {
+      e.preventDefault();
+      setTopicSelections(new Map(topics.map((topic) => [topic, true])));
+    } }, t("select_all"))), [...topicSelections.entries()].every(([topic, checked]) => !checked) ? null : /* @__PURE__ */ React11.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React11.createElement("a", { href: "#", onClick: (e) => {
+      e.preventDefault();
+      setTopicSelections(new Map(topics.map((topic) => [topic, false])));
+    } }, t("select_none")))), [...topicSelections.entries()].map(([topic, checked]) => {
+      return /* @__PURE__ */ React11.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onClick: (e) => setTopicSelections(new Map(topicSelections.set(topic, !checked))) }, t(topic.toLowerCase()), /* @__PURE__ */ React11.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
+    }))), sortedParties.map((party) => {
+      return /* @__PURE__ */ React11.createElement(
+        "div",
+        {
+          key: "partyTitle--".concat(party),
+          id: "policyTableColumn--".concat(party),
+          className: "policyCell partyTitle backgroundColor--".concat(party)
+        },
+        t(party.toLowerCase())
+      );
+    }))), /* @__PURE__ */ React11.createElement("div", { id: "tableFiller", className: "policyRow container tableFiller hidden" }), /* @__PURE__ */ React11.createElement("div", null, policyRows));
   }
 
   // src/components/policy_table/policy-comparison-table.tsx
-  function PolicyComparisonIndex({ year, policyHandle }) {
-    const [isLoading, setIsLoading] = React11.useState(true);
-    const [tableDataset, setTableDataset] = React11.useState();
-    const [parties, setParties] = React11.useState();
+  function PolicyComparisonTable({ year }) {
+    console.log("PolicyComparisonTable");
+    const [isLoading, setIsLoading] = React12.useState(true);
+    const [tableDataset, setTableDataset] = React12.useState();
+    const [parties, setParties] = React12.useState();
     const { t } = useTranslation();
-    React11.useEffect(() => {
+    React12.useEffect(() => {
       let ignore = false;
       async function fetchPolicies() {
         const response = await fetch("/policies/".concat(year, "/policies.json"));
@@ -28675,17 +28767,17 @@
         ignore = true;
       };
     }, [year]);
-    return /* @__PURE__ */ React11.createElement(PolicyModalProvider, { visible: false }, isLoading || !tableDataset || !parties ? /* @__PURE__ */ React11.createElement("div", { className: "policyCell partyTitle backgroundColor--Skeleton" }, "...") : /* @__PURE__ */ React11.createElement(PolicyTable, { dataset: tableDataset, parties }), /* @__PURE__ */ React11.createElement("footer", null, /* @__PURE__ */ React11.createElement("p", { className: "footerInfo" })));
+    return /* @__PURE__ */ React12.createElement(PolicyModalProvider, null, isLoading || !tableDataset || !parties ? /* @__PURE__ */ React12.createElement("div", { className: "policyCell partyTitle backgroundColor--Skeleton" }, "...") : /* @__PURE__ */ React12.createElement(PolicyTable, { dataset: tableDataset, parties }), /* @__PURE__ */ React12.createElement("footer", null, /* @__PURE__ */ React12.createElement("p", { className: "footerInfo" })));
   }
 
   // src/components/page.tsx
-  var React14 = __toESM(require_react());
+  var React15 = __toESM(require_react());
 
   // src/components/header.tsx
-  var React12 = __toESM(require_react());
+  var React13 = __toESM(require_react());
   function LanguageSelector() {
     const { language, setLanguage } = useLanguage();
-    return /* @__PURE__ */ React12.createElement("div", { className: "langSelection" }, /* @__PURE__ */ React12.createElement(
+    return /* @__PURE__ */ React13.createElement("div", { className: "langSelection" }, /* @__PURE__ */ React13.createElement(
       "a",
       {
         href: "#en",
@@ -28693,7 +28785,7 @@
         className: language == LanguageOption.EN ? "active" : ""
       },
       "EN"
-    ), /* @__PURE__ */ React12.createElement("span", null, " | "), /* @__PURE__ */ React12.createElement(
+    ), /* @__PURE__ */ React13.createElement("span", null, " | "), /* @__PURE__ */ React13.createElement(
       "a",
       {
         href: "#fr",
@@ -28706,31 +28798,32 @@
   function Header({ subheading }) {
     const { language } = useLanguage();
     const { t } = useTranslation();
-    return /* @__PURE__ */ React12.createElement("header", { className: "container section" }, /* @__PURE__ */ React12.createElement("div", { className: "header" }, /* @__PURE__ */ React12.createElement(LanguageSelector, null), /* @__PURE__ */ React12.createElement("hgroup", { className: "headings flex" }, /* @__PURE__ */ React12.createElement("a", { href: "/", className: "no-hover" }, /* @__PURE__ */ React12.createElement("h1", { className: "pageTitle lang-".concat(language) }, " ", t("our_politics"), " ")), subheading ? /* @__PURE__ */ React12.createElement("h2", { className: "pageSubTitle" }, subheading) : null)));
+    return /* @__PURE__ */ React13.createElement("header", { className: "container section" }, /* @__PURE__ */ React13.createElement("div", { className: "header" }, /* @__PURE__ */ React13.createElement(LanguageSelector, null), /* @__PURE__ */ React13.createElement("hgroup", { className: "headings flex" }, /* @__PURE__ */ React13.createElement("a", { href: "/", className: "no-hover" }, /* @__PURE__ */ React13.createElement("h1", { className: "pageTitle lang-".concat(language) }, " ", t("our_politics"), " ")), subheading ? /* @__PURE__ */ React13.createElement("h2", { className: "pageSubTitle" }, subheading) : null)));
   }
 
   // src/components/footer.tsx
-  var React13 = __toESM(require_react());
+  var React14 = __toESM(require_react());
   function Footer() {
     const { t } = useTranslation();
-    return /* @__PURE__ */ React13.createElement("footer", { className: "section bg-light-alt footer pb-1" }, /* @__PURE__ */ React13.createElement("div", { className: "container" }, /* @__PURE__ */ React13.createElement("h2", { className: "subheading" }, " ", t("archives"), " "), /* @__PURE__ */ React13.createElement("ul", { className: "list-plain text-large archive-list" }, [2021, 2019, 2015].map((year) => {
-      return /* @__PURE__ */ React13.createElement("li", { key: year }, /* @__PURE__ */ React13.createElement("a", { href: "/policies/".concat(year), className: "styled" }, t("policy_comparison_title", year)));
-    })), /* @__PURE__ */ React13.createElement("p", null, /* @__PURE__ */ React13.createElement("a", { href: "/about", className: "styled" }, t("about")), "\xB7", /* @__PURE__ */ React13.createElement("a", { href: "/privacy", className: "styled" }, t("privacy_policy")))));
+    return /* @__PURE__ */ React14.createElement("footer", { className: "section bg-light-alt footer pb-1" }, /* @__PURE__ */ React14.createElement("div", { className: "container" }, /* @__PURE__ */ React14.createElement("h2", { className: "subheading" }, " ", t("archives"), " "), /* @__PURE__ */ React14.createElement("ul", { className: "list-plain text-large archive-list" }, [2021, 2019, 2015].map((year) => {
+      return /* @__PURE__ */ React14.createElement("li", { key: year }, /* @__PURE__ */ React14.createElement("a", { href: "/policies/".concat(year), className: "styled" }, t("policy_comparison_title", year)));
+    })), /* @__PURE__ */ React14.createElement("p", null, /* @__PURE__ */ React14.createElement("a", { href: "/about", className: "styled" }, t("about")), "\xB7", /* @__PURE__ */ React14.createElement("a", { href: "/privacy", className: "styled" }, t("privacy_policy")))));
   }
 
   // src/components/page.tsx
   function Page({ title, children }) {
-    return /* @__PURE__ */ React14.createElement("div", { className: "page" }, /* @__PURE__ */ React14.createElement(Header, { subheading: title }), /* @__PURE__ */ React14.createElement("div", { className: "container" }, children), /* @__PURE__ */ React14.createElement(Footer, null));
+    return /* @__PURE__ */ React15.createElement("div", { className: "page" }, /* @__PURE__ */ React15.createElement(Header, { subheading: title }), /* @__PURE__ */ React15.createElement("div", { className: "container" }, children), /* @__PURE__ */ React15.createElement(Footer, null));
   }
 
   // src/components/pages/policy-comparison-index.tsx
-  function PolicyComparisonIndex2() {
-    const { year = "2019", policyHandle } = useParams();
-    return /* @__PURE__ */ React15.createElement(Page, { title: year }, /* @__PURE__ */ React15.createElement("section", { className: "section" }, policyHandle ? /* @__PURE__ */ React15.createElement(PolicyComparisonIndex, { policyHandle, year }) : /* @__PURE__ */ React15.createElement(PolicyComparisonIndex, { year })));
+  function PolicyComparisonIndex() {
+    console.log("PolicyComparisonIndex");
+    const { year = "2019" } = useParams();
+    return /* @__PURE__ */ React16.createElement(Page, { title: year }, /* @__PURE__ */ React16.createElement("section", { className: "section" }, /* @__PURE__ */ React16.createElement(PolicyComparisonTable, { year })));
   }
 
   // src/components/pages/privacy-policy-index.tsx
-  var React16 = __toESM(require_react());
+  var React17 = __toESM(require_react());
 
   // src/components/pages/content/privacy_index.en.md
   var html187 = '<p>Our Politics is committed to protecting your right to privacy, and take every effort to\nprotect it when visiting our website. We also promise to never sell your information to a 3rd party.</p>\n<p>We use Google Analytics to track visits and engagement on the website. This information is\nused to determine what parts of the website are most useful to our visitors, and what areas\ncan be improved in the future.</p>\n<p>All requests use <a href="https://support.google.com/analytics/answer/2763052?hl=en">IP anonymization</a>, which happens before any storage or processing takes place. <em>Data Collection for Advertising Features</em> and <em>Demographics and Interest Reports</em> are disabled within Google Analytics.</p>\n<p>If you wish to opt out of tracking completely, we recommend using the\n<a href="https://tools.google.com/dlpage/gaoptout">Google Analytics Opt-out Browser Add-on</a>, which will block Google Analyics tracking on all websites.</p>\n';
@@ -28742,19 +28835,19 @@
   function PrivacyPolicyIndex() {
     const { language } = useLanguage();
     const { t } = useTranslation();
-    const [content, setContent] = React16.useState("");
-    React16.useEffect(() => {
+    const [content, setContent] = React17.useState("");
+    React17.useEffect(() => {
       if (language === LanguageOption.EN) {
         setContent(html187);
       } else {
         setContent(html188);
       }
     }, [language]);
-    return /* @__PURE__ */ React16.createElement(Page, { title: t("privacy_policy") }, /* @__PURE__ */ React16.createElement("section", { className: "section" }, /* @__PURE__ */ React16.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React16.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
+    return /* @__PURE__ */ React17.createElement(Page, { title: t("privacy_policy") }, /* @__PURE__ */ React17.createElement("section", { className: "section" }, /* @__PURE__ */ React17.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React17.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
   }
 
   // src/components/pages/about-index.tsx
-  var React17 = __toESM(require_react());
+  var React18 = __toESM(require_react());
 
   // src/components/pages/content/about_index.en.md
   var html189 = "<p>Our Politics started in 2015 with a single aim: making election platforms easier to understand.</p>\n<p>Plenty of people don't have time to read daily election news, but they still care about the policies. Our goal is to provide context to these announcements for those who don't follow politics.</p>\n<p>Our Politics is a voluntary contribution by <a href=\"https://mastodon.social/@jahfer\">@jahfer</a>, an Ottawa-based software developer.</p>\n";
@@ -28766,15 +28859,15 @@
   function AboutIndex() {
     const { language } = useLanguage();
     const { t } = useTranslation();
-    const [content, setContent] = React17.useState("");
-    React17.useEffect(() => {
+    const [content, setContent] = React18.useState("");
+    React18.useEffect(() => {
       if (language === LanguageOption.EN) {
         setContent(html189);
       } else {
         setContent(html190);
       }
     }, [language]);
-    return /* @__PURE__ */ React17.createElement(Page, { title: t("about") }, /* @__PURE__ */ React17.createElement("section", { className: "section" }, /* @__PURE__ */ React17.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React17.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
+    return /* @__PURE__ */ React18.createElement(Page, { title: t("about") }, /* @__PURE__ */ React18.createElement("section", { className: "section" }, /* @__PURE__ */ React18.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React18.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
   }
 
   // src/components/app.tsx
@@ -28782,23 +28875,27 @@
     {
       path: "/",
       loader: (_) => redirect("/policies/2021"),
-      errorElement: /* @__PURE__ */ React18.createElement(ErrorPage, null)
+      errorElement: /* @__PURE__ */ React19.createElement(ErrorPage, null)
     },
     {
       path: "policies/:year",
-      element: /* @__PURE__ */ React18.createElement(PolicyComparisonIndex2, null)
+      element: /* @__PURE__ */ React19.createElement(PolicyComparisonIndex, null)
+    },
+    {
+      path: "policies/:year/:party/:policyHandle",
+      element: /* @__PURE__ */ React19.createElement(PolicyComparisonIndex, null)
     },
     {
       path: "about",
-      element: /* @__PURE__ */ React18.createElement(AboutIndex, null)
+      element: /* @__PURE__ */ React19.createElement(AboutIndex, null)
     },
     {
       path: "privacy",
-      element: /* @__PURE__ */ React18.createElement(PrivacyPolicyIndex, null)
+      element: /* @__PURE__ */ React19.createElement(PrivacyPolicyIndex, null)
     }
   ]);
   function App() {
-    return /* @__PURE__ */ React18.createElement(React18.StrictMode, null, /* @__PURE__ */ React18.createElement(LanguageProvider, { defaultLanguage: LanguageOption.EN }, /* @__PURE__ */ React18.createElement(RouterProvider, { router })));
+    return /* @__PURE__ */ React19.createElement(React19.StrictMode, null, /* @__PURE__ */ React19.createElement(LanguageProvider, { defaultLanguage: LanguageOption.EN }, /* @__PURE__ */ React19.createElement(URLProvider, null, /* @__PURE__ */ React19.createElement(RouterProvider, { router }))));
   }
 
   // src/root.tsx
@@ -28807,7 +28904,7 @@
   }
   var $pageRoot = document.getElementById("page-root");
   var root = (0, import_client.createRoot)($pageRoot);
-  root.render(/* @__PURE__ */ React19.createElement(App, null));
+  root.render(/* @__PURE__ */ React20.createElement(App, null));
 })();
 /*! Bundled license information:
 

@@ -6,12 +6,12 @@ import { Party, Policy } from 'types/schema'
 import { PolicyModalProvider } from 'contexts/policy-modal-context'
 import Banner from '../banner'
 
-interface PolicyComparisonIndexProps {
+interface PolicyComparisonTableProps {
   year: string,
-  policyHandle?: string,
 }
 
-export default function PolicyComparisonIndex ({ year, policyHandle }: PolicyComparisonIndexProps) {
+export default function PolicyComparisonTable ({ year }: PolicyComparisonTableProps) {
+  console.log("PolicyComparisonTable")
   const [isLoading, setIsLoading] = React.useState(true);
   const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy>>>();
   const [parties, setParties] = React.useState<Set<Party>>();
@@ -45,7 +45,7 @@ export default function PolicyComparisonIndex ({ year, policyHandle }: PolicyCom
   }, [year]);
 
   return (
-    <PolicyModalProvider visible={false}>
+    <PolicyModalProvider>
       {/* <Banner>
         <div dangerouslySetInnerHTML={{ __html: t("election_notice") }} />
       </Banner> */}

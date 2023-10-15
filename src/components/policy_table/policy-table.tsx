@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { useState } from 'react'
 import { useLanguage, useTranslation } from 'contexts/language-context'
 import PolicyRow from './policy-row'
 import { Party, Policy } from 'types/schema'
@@ -24,78 +25,112 @@ interface PolicyTableProps {
 }
 
 export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
-  const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>();
   const language = useLanguage();
   const { t } = useTranslation();
+  const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>();
+  const [topicFilterState, setTopicFilterState] = useState(() => false);
 
   const sortedParties = React.useMemo(() => shuffle(Array.from(parties)), [parties]);
+  const topics = React.useMemo(() => Array.from(dataset.keys()), [dataset]);
+  const [topicSelections, setTopicSelections] = React.useState(() => {
+    return new Map(topics.map((topic) => [topic, true]))
+  });
+
+  const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
+
+  const elTop = React.useMemo(() => {
+    if (!$tableHeader) return 0;
+    let initialHeaderTop = $tableHeader.getBoundingClientRect().top;
+    let initialBodyTop = document.body.getBoundingClientRect().top;
+    return initialHeaderTop - initialBodyTop;
+  }, [$tableHeader]);
 
   React.useEffect(() => {
-    let elTop = 0;
-
-    const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
-    const $tableFiller = document.getElementById("tableFiller") as HTMLElement;
-    let initialHeaderTop: number = $tableHeader.getBoundingClientRect().top;
-    let initialBodyTop: number = document.body.getBoundingClientRect().top;
-
-    if (elTop == 0) {
-      elTop = initialHeaderTop - initialBodyTop;
-    }
+    if (!$tableHeader) return;
 
     window.addEventListener("scroll", () => {
+      const $tableFiller = document.getElementById("tableFiller") as HTMLElement;
       window.requestAnimationFrame(() => {
         let scrollTop: number = document.documentElement.scrollTop;
         if (scrollTop > elTop) {
+          console.log("making header fixed");
           $tableHeader.classList.add("fixed");
           $tableFiller.classList.remove("hidden");
         } else {
+          console.log("making header unfixed");
           $tableHeader.classList.remove("fixed");
           $tableFiller.classList.add("hidden");
         }
       });
     });
-  });
-
-  const tableHeader = React.useMemo(() => {
-    return (
-      <>
-        <div id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty">
-          {t("topics")}
-        </div>
-        {
-          sortedParties.map((party) => {
-            return (
-              <div
-                key={`partyTitle--${party}`}
-                id={`policyTableColumn--${party}`}
-                className={`policyCell partyTitle backgroundColor--${party}`}>
-                {t(party.toLowerCase())}
-              </div>
-            )
-          })
-        }
-      </>
-    )
-  }, [language, sortedParties]);
+  }, [elTop]);
 
   React.useMemo(() => {
     let rows = Array.from(dataset, ([topic, policies]) => {
-      return (
-        <PolicyRow
-          topic={topic}
-          parties={sortedParties}
-          policies={policies}
-          key={topic} />
-      )
+      if (!topicSelections.get(topic)) {
+        return <></>;
+      } else {
+        return (
+          <PolicyRow
+            topic={topic}
+            parties={sortedParties}
+            policies={policies}
+            key={topic} />
+        )
+      }
     });
 
     setPolicyRows(rows);
-  }, [sortedParties, dataset]);
+  }, [sortedParties, dataset, topicSelections]);
 
   return (
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
-        <div className="policyCells"> {tableHeader} </div>
+        <div className="policyCells">
+          <div id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty" onClick={() => { setTopicFilterState(!topicFilterState) }}>
+            {t("topics")}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
+            <ul className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
+              <li className="policyTable--filterBar--item policyTable--filterBar--toggleAll">
+                {
+                  [...topicSelections.entries()].every(([topic, checked]) => checked) ? null : (
+                    <div className="policyTable--filterBar--toggle">
+                      <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, true]))) }}>{t("select_all")}</a>
+                    </div>
+                  )
+                }
+                {
+                  [...topicSelections.entries()].every(([topic, checked]) => !checked) ? null : (
+                    <div className="policyTable--filterBar--toggle">
+                      <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, false]))) }}>{t("select_none")}</a>
+                    </div>
+                  )
+                }
+              </li>
+              {
+                [...topicSelections.entries()].map(([topic, checked]) => {
+                  return (
+                    <li key={`filterBar--${topic}`} className="policyTable--filterBar--item policyTable--filterBar--topic" onClick={(e) => setTopicSelections(new Map(topicSelections.set(topic, !checked)))}>
+                      {t(topic.toLowerCase())}
+                      <input checked={checked} readOnly className="policyTable--filterBar--item--checkbox" type="checkbox" />
+                    </li>
+                  )
+                })
+              }
+            </ul>
+          </div>
+          {
+            sortedParties.map((party) => {
+              return (
+                <div
+                  key={`partyTitle--${party}`}
+                  id={`policyTableColumn--${party}`}
+                  className={`policyCell partyTitle backgroundColor--${party}`}>
+                  {t(party.toLowerCase())}
+                </div>
+              )
+            })
+          }
+        </div>
       </div>
       <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
       <div>
