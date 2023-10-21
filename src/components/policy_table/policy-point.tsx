@@ -28,9 +28,7 @@ const policyURL = (policy: Policy) => `/policies/${policy.year}/${partyToAcronym
 
 export default function PolicyPoint ({ policy }: PolicyPointProps) {
   const { language } = useLanguage();
-  const { setModalPolicy } = usePolicyModal();
-  const { setPolicyModalVisibility } = usePolicyModalVisiblity();
-  const { setURL, historyState } = useURL();
+  const { setURL } = useURL();
 
   let formattedPolicyTitle = policy.title[language].replace(
     /([$><+]*?[0-9]+\.?,?(&nbsp;)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
@@ -38,9 +36,6 @@ export default function PolicyPoint ({ policy }: PolicyPointProps) {
   );
 
   function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
-    setModalPolicy(policy);
-    setPolicyModalVisibility(true);
-
     if (policy.handle) {
       setURL({ policy }, policyURL(policy));
     } else {

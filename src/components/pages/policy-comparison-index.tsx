@@ -5,17 +5,18 @@ import PolicyComparisonTable from 'components/policy_table/policy-comparison-tab
 import Page from 'components/page'
 
 type PolicyComparisonIndexParams = {
-  year?: string
+  year?: string,
+  party?: string,
+  policyHandle?: string,
 }
 
 export default function PolicyComparisonIndex () {
-  console.log("PolicyComparisonIndex");
-  const { year = "2019" } = useParams<PolicyComparisonIndexParams>();
+  const { year = "2019", party, policyHandle } = useParams<PolicyComparisonIndexParams>();
 
   return (
     <Page title={year}>
       <section className="section">
-        <PolicyComparisonTable year={year} />
+        <PolicyComparisonTable year={year} selectedHandle={`${party}/${policyHandle}`} />
       </section>
     </Page>
   )

@@ -1097,7 +1097,7 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useRef(initialValue);
           }
-          function useEffect9(create, deps) {
+          function useEffect10(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useEffect(create, deps);
           }
@@ -1879,7 +1879,7 @@
           exports.useContext = useContext6;
           exports.useDebugValue = useDebugValue;
           exports.useDeferredValue = useDeferredValue;
-          exports.useEffect = useEffect9;
+          exports.useEffect = useEffect10;
           exports.useId = useId2;
           exports.useImperativeHandle = useImperativeHandle;
           exports.useInsertionEffect = useInsertionEffect;
@@ -2434,7 +2434,7 @@
           var HostPortal = 4;
           var HostComponent = 5;
           var HostText = 6;
-          var Fragment3 = 7;
+          var Fragment2 = 7;
           var Mode = 8;
           var ContextConsumer = 9;
           var ContextProvider = 10;
@@ -3590,7 +3590,7 @@
                 return "DehydratedFragment";
               case ForwardRef:
                 return getWrappedName$1(type, type.render, "ForwardRef");
-              case Fragment3:
+              case Fragment2:
                 return "Fragment";
               case HostComponent:
                 return type;
@@ -13261,7 +13261,7 @@
               }
             }
             function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-              if (current2 === null || current2.tag !== Fragment3) {
+              if (current2 === null || current2.tag !== Fragment2) {
                 var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
                 created.return = returnFiber;
                 return created;
@@ -13664,7 +13664,7 @@
                 if (child.key === key) {
                   var elementType = element.type;
                   if (elementType === REACT_FRAGMENT_TYPE) {
-                    if (child.tag === Fragment3) {
+                    if (child.tag === Fragment2) {
                       deleteRemainingChildren(returnFiber, child.sibling);
                       var existing = useFiber(child, element.props.children);
                       existing.return = returnFiber;
@@ -17839,7 +17839,7 @@
                 var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
                 return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
               }
-              case Fragment3:
+              case Fragment2:
                 return updateFragment(current2, workInProgress2, renderLanes2);
               case Mode:
                 return updateMode(current2, workInProgress2, renderLanes2);
@@ -18112,7 +18112,7 @@
               case SimpleMemoComponent:
               case FunctionComponent:
               case ForwardRef:
-              case Fragment3:
+              case Fragment2:
               case Mode:
               case Profiler:
               case ContextConsumer:
@@ -22371,7 +22371,7 @@
             return fiber;
           }
           function createFiberFromFragment(elements, mode, lanes, key) {
-            var fiber = createFiber(Fragment3, elements, key, mode);
+            var fiber = createFiber(Fragment2, elements, key, mode);
             fiber.lanes = lanes;
             return fiber;
           }
@@ -27430,6 +27430,10 @@
   // src/components/policy_table/policy-comparison-table.tsx
   var React12 = __toESM(require_react());
 
+  // src/components/policy_table/policy-table.tsx
+  var React9 = __toESM(require_react());
+  var import_react3 = __toESM(require_react());
+
   // src/contexts/language-context.tsx
   var import_react = __toESM(require_react());
   var React4 = __toESM(require_react());
@@ -27447,8 +27451,8 @@
       FR: "Notre politique"
     },
     "topics": {
-      EN: "Topic",
-      FR: "Th\xE8me"
+      EN: "Topics",
+      FR: "Sujets"
     },
     "no_policy_listed": {
       EN: "No major policies announced",
@@ -27609,6 +27613,10 @@
     "select_none": {
       EN: "Select none",
       FR: "S\xE9lectionner aucun"
+    },
+    "no_topics_selected": {
+      EN: 'No topics selected. Try selecting a few by clicking on "Topics" above.',
+      FR: "Aucun sujet n'a \xE9t\xE9 s\xE9lectionn\xE9. Essayez d'en s\xE9lectionner quelques-uns en cliquant sur \"Sujets\" ci-dessus."
     }
   };
   var translations_default = translations;
@@ -27642,26 +27650,14 @@
     return /* @__PURE__ */ React4.createElement(LanguageContext.Provider, { value }, /* @__PURE__ */ React4.createElement(TranslationContext.Provider, { value: { t } }, children));
   }
 
-  // src/components/policy_table/policy-table.tsx
-  var React11 = __toESM(require_react());
-  var import_react5 = __toESM(require_react());
-
   // src/components/policy_table/policy-row.tsx
-  var React10 = __toESM(require_react());
-
-  // src/components/policy_table/policy-cell.tsx
-  var React9 = __toESM(require_react());
-
-  // src/components/policy_table/policy-point.tsx
   var React8 = __toESM(require_react());
 
-  // src/contexts/policy-modal-context.tsx
+  // src/components/policy_table/policy-cell.tsx
   var React7 = __toESM(require_react());
-  var import_react4 = __toESM(require_react());
 
-  // src/components/policy_table/policy-modal.tsx
+  // src/components/policy_table/policy-point.tsx
   var React6 = __toESM(require_react());
-  var import_react3 = __toESM(require_react());
 
   // src/contexts/url-context.tsx
   var import_react2 = __toESM(require_react());
@@ -27671,23 +27667,212 @@
     setURL: () => {
     },
     setURLToPrevious: () => {
+    },
+    updateURLState: () => {
     }
   });
   function useURL() {
     return (0, import_react2.useContext)(URLContext);
   }
   function URLProvider({ children }) {
-    const [historyState, setHistoryState] = (0, import_react2.useState)(window.history.state || {});
-    const setURLToPrevious = () => window.history.back();
+    const [historyState, setHistoryState] = (0, import_react2.useState)(() => history.state || {});
+    const setURLToPrevious = () => history.back();
     const setURL = (state, url) => {
       history.pushState(state, "", url);
+      console.log("setting history state");
+      setHistoryState(state);
     };
-    const value = { setURL, historyState, setURLToPrevious };
-    window.addEventListener("popstate", (event) => {
-      setHistoryState(event.state || {});
-    });
+    const updateURLState = (state) => {
+      history.replaceState(state, "");
+      console.log("replacing history state");
+      setHistoryState(state);
+    };
+    const value = { setURL, historyState, setURLToPrevious, updateURLState };
+    React5.useEffect(() => {
+      const handler = (event) => {
+        setHistoryState(event.state || {});
+      };
+      addEventListener("popstate", handler);
+      return () => removeEventListener("popstate", handler);
+    }, []);
     return /* @__PURE__ */ React5.createElement(URLContext.Provider, { value }, children);
   }
+
+  // src/components/policy_table/policy-point.tsx
+  function partyToAcronym(party) {
+    switch (party) {
+      case "Conservative" /* Conservative */:
+        return "CPC";
+      case "Green" /* Green */:
+        return "GPC";
+      case "Liberal" /* Liberal */:
+        return "LPC";
+      case "NDP" /* NDP */:
+        return "NDP";
+      default:
+        const _exhaustiveCheck = party;
+        return _exhaustiveCheck;
+    }
+  }
+  var policyURL = (policy) => "/policies/".concat(policy.year, "/").concat(partyToAcronym(policy.party), "/").concat(policy.handle);
+  function PolicyPoint({ policy }) {
+    const { language } = useLanguage();
+    const { setURL } = useURL();
+    let formattedPolicyTitle = policy.title[language].replace(
+      /([$><+]*?[0-9]+\.?,?(&nbsp;)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
+      "<span class='text-em'>$1</span>"
+    );
+    function handleClick(event) {
+      if (policy.handle) {
+        setURL({ policy }, policyURL(policy));
+      } else {
+        setURL({ policy });
+      }
+      event.preventDefault();
+      return false;
+    }
+    return /* @__PURE__ */ React6.createElement("li", { className: policy.handle ? "policyPoint iconSuffix iconSuffix--comment" : "policyPoint" }, /* @__PURE__ */ React6.createElement(
+      "a",
+      {
+        className: "policyPoint--link",
+        href: "#",
+        onClick: handleClick,
+        dangerouslySetInnerHTML: { __html: formattedPolicyTitle }
+      }
+    ));
+  }
+
+  // src/components/policy_table/policy-cell.tsx
+  function PolicyCell({ party, topic, policies: policies2 }) {
+    let { language } = useLanguage();
+    let { t } = useTranslation();
+    let listItems = policies2.map((policy) => {
+      return /* @__PURE__ */ React7.createElement(PolicyPoint, { policy, key: "".concat(party, "/").concat(policy.title.EN) });
+    });
+    let ariaLabels = [
+      "policyTableRow--".concat(topic.replace(/[^a-zA-Z]/g, "")),
+      "policyTableColumn--".concat(party)
+    ];
+    return /* @__PURE__ */ React7.createElement("div", { className: "policyCell", "aria-labelledby": ariaLabels.join(" ") }, /* @__PURE__ */ React7.createElement("h4", { className: "policyCell--party textColor--".concat(party) }, party), /* @__PURE__ */ React7.createElement("ul", { className: "policyCell--points" }, listItems.length > 0 ? listItems : /* @__PURE__ */ React7.createElement("li", { className: "emptyPolicy", key: "0" }, t("no_policy_listed"))));
+  }
+
+  // src/components/policy_table/policy-row.tsx
+  function PolicyRow({ topic, parties, policies: policies2 }) {
+    const { t } = useTranslation();
+    const policyCells = parties.map((party) => {
+      const partyPolicies = policies2.filter((policy) => policy.party === party);
+      return /* @__PURE__ */ React8.createElement(PolicyCell, { party, topic, policies: partyPolicies, key: "".concat(party, "/").concat(topic) });
+    });
+    return /* @__PURE__ */ React8.createElement("div", { className: "policyRow divider-t" }, /* @__PURE__ */ React8.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React8.createElement("div", { className: "policyCell policyTopic" }, /* @__PURE__ */ React8.createElement(
+      "h3",
+      {
+        "aria-labelledby": "policyTableColumn--topics",
+        id: "policyTableRow--".concat(topic.replace(/[^a-zA-Z]/g, "")),
+        className: "policyTopic--title"
+      },
+      t(topic)
+    )), policyCells));
+  }
+
+  // src/components/policy_table/policy-table.tsx
+  function shuffle(array) {
+    let currentIndex = array.length, randomIndex;
+    while (currentIndex > 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex],
+        array[currentIndex]
+      ];
+    }
+    return array;
+  }
+  function PolicyTable({ dataset, parties }) {
+    const { t } = useTranslation();
+    const [policyRows, setPolicyRows] = React9.useState([]);
+    const [topicFilterState, setTopicFilterState] = (0, import_react3.useState)(() => false);
+    const sortedParties = React9.useMemo(() => shuffle(Array.from(parties)), [parties]);
+    const topics = React9.useMemo(() => Array.from(dataset.keys()), [dataset]);
+    const [topicSelections, setTopicSelections] = React9.useState(() => {
+      return new Map(topics.map((topic) => [topic, true]));
+    });
+    let elTop = 0;
+    React9.useEffect(() => {
+      const $tableHeader = document.getElementById("tableHeader");
+      let initialHeaderTop = $tableHeader.getBoundingClientRect().top;
+      let initialBodyTop = document.body.getBoundingClientRect().top;
+      elTop = initialHeaderTop - initialBodyTop;
+    }, []);
+    React9.useEffect(() => {
+      const handler = () => setTopicFilterState(false);
+      document.body.addEventListener("click", handler);
+      return () => document.body.removeEventListener("click", handler);
+    }, []);
+    React9.useEffect(() => {
+      const $tableHeader = document.getElementById("tableHeader");
+      window.addEventListener("scroll", () => {
+        const $tableFiller = document.getElementById("tableFiller");
+        window.requestAnimationFrame(() => {
+          let scrollTop = document.documentElement.scrollTop;
+          if (scrollTop > elTop) {
+            $tableHeader.classList.add("fixed");
+            $tableFiller.classList.remove("hidden");
+          } else {
+            $tableHeader.classList.remove("fixed");
+            $tableFiller.classList.add("hidden");
+          }
+        });
+      });
+    }, [elTop]);
+    React9.useMemo(() => {
+      let rows = Array.from(dataset, ([topic, policies2]) => {
+        if (!topicSelections.get(topic)) {
+          return null;
+        } else {
+          return /* @__PURE__ */ React9.createElement(
+            PolicyRow,
+            {
+              topic,
+              parties: sortedParties,
+              policies: policies2,
+              key: topic
+            }
+          );
+        }
+      });
+      setPolicyRows(rows.filter((x) => x));
+    }, [sortedParties, dataset, topicSelections]);
+    return /* @__PURE__ */ React9.createElement("div", { className: "policyTable" }, /* @__PURE__ */ React9.createElement("div", { id: "tableHeader", className: "policyRow container tableHeader" }, /* @__PURE__ */ React9.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React9.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty", onClick: (e) => {
+      e.stopPropagation();
+      setTopicFilterState(!topicFilterState);
+    } }, t("topics"), /* @__PURE__ */ React9.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React9.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React9.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([topic, checked]) => !checked) ? null : /* @__PURE__ */ React9.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React9.createElement("a", { href: "#", onClick: (e) => {
+      e.preventDefault();
+      setTopicSelections(new Map(topics.map((topic) => [topic, false])));
+    } }, t("select_none"))), [...topicSelections.entries()].every(([topic, checked]) => checked) ? null : /* @__PURE__ */ React9.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React9.createElement("a", { href: "#", onClick: (e) => {
+      e.preventDefault();
+      setTopicSelections(new Map(topics.map((topic) => [topic, true])));
+    } }, t("select_all")))), [...topicSelections.entries()].map(([topic, checked]) => {
+      return /* @__PURE__ */ React9.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onClick: (e) => setTopicSelections(new Map(topicSelections.set(topic, !checked))) }, t(topic.toLowerCase()), /* @__PURE__ */ React9.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
+    }))), sortedParties.map((party) => {
+      return /* @__PURE__ */ React9.createElement(
+        "div",
+        {
+          key: "partyTitle--".concat(party),
+          id: "policyTableColumn--".concat(party),
+          className: "policyCell partyTitle backgroundColor--".concat(party)
+        },
+        t(party.toLowerCase())
+      );
+    }))), /* @__PURE__ */ React9.createElement("div", { id: "tableFiller", className: "policyRow container tableFiller hidden" }), /* @__PURE__ */ React9.createElement("div", null, policyRows.length == 0 ? /* @__PURE__ */ React9.createElement("div", { className: "policyTable--empty" }, t("no_topics_selected")) : policyRows));
+  }
+
+  // src/contexts/policy-modal-context.tsx
+  var React11 = __toESM(require_react());
+  var import_react5 = __toESM(require_react());
+
+  // src/components/policy_table/policy-modal.tsx
+  var React10 = __toESM(require_react());
+  var import_react4 = __toESM(require_react());
 
   // src/policies/2021/lpc/child_care.en.md
   var html = "<p>The Liberals have begun signing contracts with the provinces and territories to offer child-care at an average price of <strong>$10/day</strong> within the next <strong>5 years</strong>. By the end of 2022, they expect to reduce the average cost of child-care by <strong>50%</strong>.</p>\n<p>The following provinces* and territories have <strong>not</strong> yet signed deals with the government:</p>\n<ul>\n<li>Ontario</li>\n<li>Alberta</li>\n<li>New Brunswick</li>\n<li>Northwest Territories</li>\n<li>Nunavut</li>\n</ul>\n<p><em>* Quebec already operates an &quot;affordable&quot; child-care system and will continue their program separate from the federal government</em></p>\n";
@@ -28460,45 +28645,47 @@
     }
   };
   function Reference({ source }) {
-    return /* @__PURE__ */ React6.createElement("li", { className: "reference" }, /* @__PURE__ */ React6.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React6.createElement("h2", { className: "reference--title" }, " ", source.title, " "), /* @__PURE__ */ React6.createElement("div", { className: "reference--meta" }, " ", source.publisher, " ")));
+    return /* @__PURE__ */ React10.createElement("li", { className: "reference" }, /* @__PURE__ */ React10.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React10.createElement("h2", { className: "reference--title" }, " ", source.title, " "), /* @__PURE__ */ React10.createElement("div", { className: "reference--meta" }, " ", source.publisher, " ")));
   }
   function PolicyModal() {
-    const modalId = (0, import_react3.useId)();
+    const modalId = (0, import_react4.useId)();
     const { modalPolicy } = usePolicyModal();
     const { setURLToPrevious } = useURL();
     const { policyModalVisible, setPolicyModalVisibility } = usePolicyModalVisiblity();
     const { language } = useLanguage();
     const { t } = useTranslation();
-    const [dialogElement, setDialogElement] = (0, import_react3.useState)(void 0);
-    const [content, setContent] = React6.useState("");
-    (0, import_react3.useEffect)(() => {
+    const [dialogElement, setDialogElement] = (0, import_react4.useState)(void 0);
+    const [content, setContent] = React10.useState("");
+    const closeModal = () => {
+      console.log("Reverting URL to previous state");
+      setURLToPrevious();
+    };
+    (0, import_react4.useEffect)(() => {
       const dialog = document.getElementById(modalId);
-      if (dialog) {
-        if (modalPolicy && policyModalVisible) {
-          dialog.showModal();
+      setDialogElement(dialog);
+    }, [modalId]);
+    (0, import_react4.useEffect)(() => {
+      if (dialogElement) {
+        if (modalPolicy) {
+          console.log("Showing modal!");
+          dialogElement.showModal();
+          setPolicyModalVisibility(true);
           document.body.classList.add("policyModal--open");
         } else {
-          dialog.close();
+          dialogElement.close();
+          setPolicyModalVisibility(false);
           document.body.classList.remove("policyModal--open");
         }
-        setDialogElement(dialog);
       }
-    }, [modalId, modalPolicy, policyModalVisible]);
-    const closeModalHandler = (event) => {
-      if (policyModalVisible) {
-        setURLToPrevious();
-      }
-      event.preventDefault();
-      return false;
-    };
-    (0, import_react3.useEffect)(() => {
+    }, [dialogElement, modalPolicy]);
+    (0, import_react4.useEffect)(() => {
+      const handler = (_event) => closeModal();
       if (dialogElement) {
-        dialogElement.addEventListener("close", (event) => {
-          closeModalHandler(event);
-        });
+        dialogElement == null ? void 0 : dialogElement.addEventListener("cancel", handler);
+        return () => dialogElement == null ? void 0 : dialogElement.removeEventListener("cancel", handler);
       }
     }, [dialogElement]);
-    (0, import_react3.useLayoutEffect)(() => {
+    (0, import_react4.useLayoutEffect)(() => {
       let html191 = null;
       if (modalPolicy == null ? void 0 : modalPolicy.handle) {
         const handle = "".concat(modalPolicy.handle, "_").concat(language);
@@ -28507,9 +28694,9 @@
       setContent(html191 || "");
     }, [modalPolicy, language]);
     if (!modalPolicy) {
-      return /* @__PURE__ */ React6.createElement("dialog", { id: modalId, className: "policyModal--content" });
+      return /* @__PURE__ */ React10.createElement("dialog", { id: modalId, className: "policyModal--content" });
     }
-    return /* @__PURE__ */ React6.createElement(
+    return /* @__PURE__ */ React10.createElement(
       "dialog",
       {
         autoFocus: true,
@@ -28518,52 +28705,56 @@
         "aria-labelledby": "policyDialog__label",
         "aria-describedby": "policyDialog__description"
       },
-      /* @__PURE__ */ React6.createElement("div", { className: "policyModal" }, /* @__PURE__ */ React6.createElement("div", { className: "modal--content" }, /* @__PURE__ */ React6.createElement("a", { href: "#", className: "modal--close", "aria-label": "Close", onClick: closeModalHandler }), /* @__PURE__ */ React6.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React6.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React6.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React6.createElement("p", null, " ", t(modalPolicy.topic), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React6.createElement(
+      /* @__PURE__ */ React10.createElement("div", { className: "policyModal" }, /* @__PURE__ */ React10.createElement("div", { className: "modal--content" }, /* @__PURE__ */ React10.createElement("a", { href: "#", className: "modal--close", "aria-label": "Close", onClick: (e) => {
+        e.preventDefault();
+        closeModal();
+        return false;
+      } }), /* @__PURE__ */ React10.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React10.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React10.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React10.createElement("p", null, " ", t(modalPolicy.topic), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React10.createElement(
         "h1",
         {
           className: "modal--heading modal--heading__primary",
           dangerouslySetInnerHTML: { __html: modalPolicy.title[language] },
           id: "policyDialog__label"
         }
-      ), /* @__PURE__ */ React6.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React6.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React6.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React6.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React6.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React6.createElement(Reference, { key: ref.url, source: ref }))), /* @__PURE__ */ React6.createElement("div", { className: "modal--randomize" }, /* @__PURE__ */ React6.createElement("a", { className: "randomize-policy iconSuffix iconSuffix--random", onClick: (e) => e.preventDefault() }, t("modal.random_policy")))))
+      ), /* @__PURE__ */ React10.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React10.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React10.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React10.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React10.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React10.createElement(Reference, { key: ref.url, source: ref }))), /* @__PURE__ */ React10.createElement("div", { className: "modal--randomize" }, /* @__PURE__ */ React10.createElement("a", { className: "randomize-policy iconSuffix iconSuffix--random", onClick: (e) => e.preventDefault() }, t("modal.random_policy")))))
     );
   }
 
   // src/contexts/policy-modal-context.tsx
-  var PolicyModalContext = (0, import_react4.createContext)({
-    setModalPolicy: () => {
-    }
+  var PolicyModalContext = (0, import_react5.createContext)({
+    modalPolicy: null
   });
   function usePolicyModal() {
-    return (0, import_react4.useContext)(PolicyModalContext);
+    return (0, import_react5.useContext)(PolicyModalContext);
   }
-  var PolicyModalVisibilityContext = (0, import_react4.createContext)({
+  var PolicyModalVisibilityContext = (0, import_react5.createContext)({
     policyModalVisible: false,
     setPolicyModalVisibility: () => {
     }
   });
   function usePolicyModalVisiblity() {
-    return (0, import_react4.useContext)(PolicyModalVisibilityContext);
+    return (0, import_react5.useContext)(PolicyModalVisibilityContext);
   }
   function PolicyModalProvider({ children }) {
     const { historyState } = useURL();
-    const [modalPolicy, setModalPolicy] = (0, import_react4.useState)();
-    const policyModalValue = { modalPolicy, setModalPolicy };
-    const [policyModalVisible, setPolicyModalVisibility] = (0, import_react4.useState)("policy" in historyState && historyState.policy);
+    const [modalPolicy, setModalPolicy] = (0, import_react5.useState)(() => null);
+    const policyModalValue = { modalPolicy };
+    const [policyModalVisible, setPolicyModalVisibility] = (0, import_react5.useState)(!!modalPolicy);
     const policyModalVisibilityValue = { policyModalVisible, setPolicyModalVisibility };
-    React7.useEffect(() => {
+    React11.useEffect(() => {
       if ("policy" in historyState && historyState.policy) {
+        console.log("Setting modal policy from history state", historyState.policy);
         setModalPolicy(historyState.policy);
-        setPolicyModalVisibility(true);
       } else {
-        setPolicyModalVisibility(false);
+        console.log("Clearing modal policy since it does not exist in history state");
+        setModalPolicy(null);
       }
     }, [historyState]);
-    return /* @__PURE__ */ React7.createElement(PolicyModalContext.Provider, { value: policyModalValue }, /* @__PURE__ */ React7.createElement(PolicyModalVisibilityContext.Provider, { value: policyModalVisibilityValue }, /* @__PURE__ */ React7.createElement(PolicyModal, null), children));
+    return /* @__PURE__ */ React11.createElement(PolicyModalContext.Provider, { value: policyModalValue }, /* @__PURE__ */ React11.createElement(PolicyModalVisibilityContext.Provider, { value: policyModalVisibilityValue }, /* @__PURE__ */ React11.createElement(PolicyModal, null), children));
   }
 
-  // src/components/policy_table/policy-point.tsx
-  function partyToAcronym(party) {
+  // src/components/policy_table/policy-comparison-table.tsx
+  function partyToAcronym2(party) {
     switch (party) {
       case "Conservative" /* Conservative */:
         return "CPC";
@@ -28578,168 +28769,21 @@
         return _exhaustiveCheck;
     }
   }
-  var policyURL = (policy) => "/policies/".concat(policy.year, "/").concat(partyToAcronym(policy.party), "/").concat(policy.handle);
-  function PolicyPoint({ policy }) {
-    const { language } = useLanguage();
-    const { setModalPolicy } = usePolicyModal();
-    const { setPolicyModalVisibility } = usePolicyModalVisiblity();
-    const { setURL, historyState } = useURL();
-    let formattedPolicyTitle = policy.title[language].replace(
-      /([$><+]*?[0-9]+\.?,?(&nbsp;)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
-      "<span class='text-em'>$1</span>"
-    );
-    function handleClick(event) {
-      setModalPolicy(policy);
-      setPolicyModalVisibility(true);
-      if (policy.handle) {
-        setURL({ policy }, policyURL(policy));
-      } else {
-        setURL({ policy });
-      }
-      event.preventDefault();
-      return false;
-    }
-    return /* @__PURE__ */ React8.createElement("li", { className: policy.handle ? "policyPoint iconSuffix iconSuffix--comment" : "policyPoint" }, /* @__PURE__ */ React8.createElement(
-      "a",
-      {
-        className: "policyPoint--link",
-        href: "#",
-        onClick: handleClick,
-        dangerouslySetInnerHTML: { __html: formattedPolicyTitle }
-      }
-    ));
-  }
-
-  // src/components/policy_table/policy-cell.tsx
-  function PolicyCell({ party, topic, policies: policies2 }) {
-    let { language } = useLanguage();
-    let { t } = useTranslation();
-    let listItems = policies2.map((policy) => {
-      return /* @__PURE__ */ React9.createElement(PolicyPoint, { policy, key: "".concat(party, "/").concat(policy.title.EN) });
-    });
-    let ariaLabels = [
-      "policyTableRow--".concat(topic.replace(/[^a-zA-Z]/g, "")),
-      "policyTableColumn--".concat(party)
-    ];
-    return /* @__PURE__ */ React9.createElement("div", { className: "policyCell", "aria-labelledby": ariaLabels.join(" ") }, /* @__PURE__ */ React9.createElement("h4", { className: "policyCell--party textColor--".concat(party) }, party), /* @__PURE__ */ React9.createElement("ul", { className: "policyCell--points" }, listItems.length > 0 ? listItems : /* @__PURE__ */ React9.createElement("li", { className: "emptyPolicy", key: "0" }, t("no_policy_listed"))));
-  }
-
-  // src/components/policy_table/policy-row.tsx
-  function PolicyRow({ topic, parties, policies: policies2 }) {
-    const { t } = useTranslation();
-    const policyCells = parties.map((party) => {
-      const partyPolicies = policies2.filter((policy) => policy.party === party);
-      return /* @__PURE__ */ React10.createElement(PolicyCell, { party, topic, policies: partyPolicies, key: "".concat(party, "/").concat(topic) });
-    });
-    return /* @__PURE__ */ React10.createElement("div", { className: "policyRow divider-t" }, /* @__PURE__ */ React10.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React10.createElement("div", { className: "policyCell policyTopic" }, /* @__PURE__ */ React10.createElement(
-      "h3",
-      {
-        "aria-labelledby": "policyTableColumn--topics",
-        id: "policyTableRow--".concat(topic.replace(/[^a-zA-Z]/g, "")),
-        className: "policyTopic--title"
-      },
-      t(topic)
-    )), policyCells));
-  }
-
-  // src/components/policy_table/policy-table.tsx
-  function shuffle(array) {
-    let currentIndex = array.length, randomIndex;
-    while (currentIndex > 0) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex],
-        array[currentIndex]
-      ];
-    }
-    return array;
-  }
-  function PolicyTable({ dataset, parties }) {
-    const language = useLanguage();
-    const { t } = useTranslation();
-    const [policyRows, setPolicyRows] = React11.useState();
-    const [topicFilterState, setTopicFilterState] = (0, import_react5.useState)(() => false);
-    const sortedParties = React11.useMemo(() => shuffle(Array.from(parties)), [parties]);
-    const topics = React11.useMemo(() => Array.from(dataset.keys()), [dataset]);
-    const [topicSelections, setTopicSelections] = React11.useState(() => {
-      return new Map(topics.map((topic) => [topic, true]));
-    });
-    const $tableHeader = document.getElementById("tableHeader");
-    const elTop = React11.useMemo(() => {
-      if (!$tableHeader)
-        return 0;
-      let initialHeaderTop = $tableHeader.getBoundingClientRect().top;
-      let initialBodyTop = document.body.getBoundingClientRect().top;
-      return initialHeaderTop - initialBodyTop;
-    }, [$tableHeader]);
-    React11.useEffect(() => {
-      if (!$tableHeader)
-        return;
-      window.addEventListener("scroll", () => {
-        const $tableFiller = document.getElementById("tableFiller");
-        window.requestAnimationFrame(() => {
-          let scrollTop = document.documentElement.scrollTop;
-          if (scrollTop > elTop) {
-            console.log("making header fixed");
-            $tableHeader.classList.add("fixed");
-            $tableFiller.classList.remove("hidden");
-          } else {
-            console.log("making header unfixed");
-            $tableHeader.classList.remove("fixed");
-            $tableFiller.classList.add("hidden");
-          }
-        });
-      });
-    }, [elTop]);
-    React11.useMemo(() => {
-      let rows = Array.from(dataset, ([topic, policies2]) => {
-        if (!topicSelections.get(topic)) {
-          return /* @__PURE__ */ React11.createElement(React11.Fragment, null);
-        } else {
-          return /* @__PURE__ */ React11.createElement(
-            PolicyRow,
-            {
-              topic,
-              parties: sortedParties,
-              policies: policies2,
-              key: topic
-            }
-          );
-        }
-      });
-      setPolicyRows(rows);
-    }, [sortedParties, dataset, topicSelections]);
-    return /* @__PURE__ */ React11.createElement("div", { className: "policyTable" }, /* @__PURE__ */ React11.createElement("div", { id: "tableHeader", className: "policyRow container tableHeader" }, /* @__PURE__ */ React11.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React11.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty", onClick: () => {
-      setTopicFilterState(!topicFilterState);
-    } }, t("topics"), /* @__PURE__ */ React11.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React11.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React11.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([topic, checked]) => checked) ? null : /* @__PURE__ */ React11.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React11.createElement("a", { href: "#", onClick: (e) => {
-      e.preventDefault();
-      setTopicSelections(new Map(topics.map((topic) => [topic, true])));
-    } }, t("select_all"))), [...topicSelections.entries()].every(([topic, checked]) => !checked) ? null : /* @__PURE__ */ React11.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React11.createElement("a", { href: "#", onClick: (e) => {
-      e.preventDefault();
-      setTopicSelections(new Map(topics.map((topic) => [topic, false])));
-    } }, t("select_none")))), [...topicSelections.entries()].map(([topic, checked]) => {
-      return /* @__PURE__ */ React11.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onClick: (e) => setTopicSelections(new Map(topicSelections.set(topic, !checked))) }, t(topic.toLowerCase()), /* @__PURE__ */ React11.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
-    }))), sortedParties.map((party) => {
-      return /* @__PURE__ */ React11.createElement(
-        "div",
-        {
-          key: "partyTitle--".concat(party),
-          id: "policyTableColumn--".concat(party),
-          className: "policyCell partyTitle backgroundColor--".concat(party)
-        },
-        t(party.toLowerCase())
-      );
-    }))), /* @__PURE__ */ React11.createElement("div", { id: "tableFiller", className: "policyRow container tableFiller hidden" }), /* @__PURE__ */ React11.createElement("div", null, policyRows));
-  }
-
-  // src/components/policy_table/policy-comparison-table.tsx
-  function PolicyComparisonTable({ year }) {
-    console.log("PolicyComparisonTable");
+  function PolicyComparisonTable({ year, selectedHandle }) {
     const [isLoading, setIsLoading] = React12.useState(true);
     const [tableDataset, setTableDataset] = React12.useState();
     const [parties, setParties] = React12.useState();
-    const { t } = useTranslation();
+    const [policiesByHandle, setPoliciesByHandle] = React12.useState();
+    const { updateURLState } = useURL();
+    React12.useEffect(() => {
+      if (selectedHandle && policiesByHandle) {
+        const policy = policiesByHandle.get(selectedHandle);
+        if (policy) {
+          console.log("Setting URL state from selected handle", policy);
+          updateURLState({ policy });
+        }
+      }
+    }, [selectedHandle, policiesByHandle]);
     React12.useEffect(() => {
       let ignore = false;
       async function fetchPolicies() {
@@ -28748,8 +28792,12 @@
         if (!ignore) {
           let dataset = /* @__PURE__ */ new Map();
           let parties2 = /* @__PURE__ */ new Set();
+          let policiesByHandle2 = /* @__PURE__ */ new Map();
           policies2.forEach((policy) => {
             var _a;
+            if (policy.handle) {
+              policiesByHandle2.set("".concat(partyToAcronym2(policy.party), "/").concat(policy.handle), policy);
+            }
             parties2.add(policy.party);
             if (dataset.has(policy.topic)) {
               (_a = dataset.get(policy.topic)) == null ? void 0 : _a.push(policy);
@@ -28759,6 +28807,7 @@
           });
           setTableDataset(dataset);
           setParties(parties2);
+          setPoliciesByHandle(policiesByHandle2);
           setIsLoading(false);
         }
       }
@@ -28812,14 +28861,13 @@
 
   // src/components/page.tsx
   function Page({ title, children }) {
-    return /* @__PURE__ */ React15.createElement("div", { className: "page" }, /* @__PURE__ */ React15.createElement(Header, { subheading: title }), /* @__PURE__ */ React15.createElement("div", { className: "container" }, children), /* @__PURE__ */ React15.createElement(Footer, null));
+    return /* @__PURE__ */ React15.createElement("div", { className: "page" }, /* @__PURE__ */ React15.createElement(Header, { subheading: title }), /* @__PURE__ */ React15.createElement("div", { className: "container content" }, children), /* @__PURE__ */ React15.createElement(Footer, null));
   }
 
   // src/components/pages/policy-comparison-index.tsx
   function PolicyComparisonIndex() {
-    console.log("PolicyComparisonIndex");
-    const { year = "2019" } = useParams();
-    return /* @__PURE__ */ React16.createElement(Page, { title: year }, /* @__PURE__ */ React16.createElement("section", { className: "section" }, /* @__PURE__ */ React16.createElement(PolicyComparisonTable, { year })));
+    const { year = "2019", party, policyHandle } = useParams();
+    return /* @__PURE__ */ React16.createElement(Page, { title: year }, /* @__PURE__ */ React16.createElement("section", { className: "section" }, /* @__PURE__ */ React16.createElement(PolicyComparisonTable, { year, selectedHandle: "".concat(party, "/").concat(policyHandle) })));
   }
 
   // src/components/pages/privacy-policy-index.tsx
