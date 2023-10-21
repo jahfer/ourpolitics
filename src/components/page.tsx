@@ -11,7 +11,7 @@ export default function Page ({title, children}: PageProps) {
   return (
     <div className="page">
       <Header subheading={title} />
-      <div className="container">
+      <div className="container content">
         { children }
       </div>
       <Footer />

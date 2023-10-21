@@ -6,8 +6,8 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     FR: "Notre politique"
   },
   "topics": {
-    EN: "Topic",
-    FR: "Thème"
+    EN: "Topics",
+    FR: "Sujets"
   },
   "no_policy_listed": {
     EN: "No major policies announced",
@@ -168,7 +168,11 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
   "select_none": {
     EN: "Select none",
     FR: "Sélectionner aucun"
-  }
+  },
+  "no_topics_selected": {
+    EN: `No topics selected. Try selecting a few by clicking on "Topics" above.`,
+    FR: `Aucun sujet n'a été sélectionné. Essayez d'en sélectionner quelques-uns en cliquant sur "Sujets" ci-dessus.`
+  },
 };
 
 export default translations;

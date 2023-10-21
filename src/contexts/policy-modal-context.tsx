@@ -9,12 +9,11 @@ interface PolicyModalProviderProps {
 }
 
 type PolicyModalContextType = {
-  modalPolicy?: Policy
-  setModalPolicy: (policy: Policy) => void
+  modalPolicy: Policy | null
 }
 
 export const PolicyModalContext = createContext<PolicyModalContextType>({
-  setModalPolicy: () => {}
+  modalPolicy: null
 });
 
 export function usePolicyModal() {
@@ -38,18 +37,19 @@ export function usePolicyModalVisiblity() {
 export function PolicyModalProvider({ children }: PolicyModalProviderProps) {
   const { historyState } = useURL();
 
-  const [modalPolicy, setModalPolicy] = useState<Policy>();
-  const policyModalValue = { modalPolicy, setModalPolicy };
+  const [modalPolicy, setModalPolicy] = useState<Policy | null>(() => null);
+  const policyModalValue = { modalPolicy };
 
-  const [policyModalVisible, setPolicyModalVisibility] = useState("policy" in historyState && historyState.policy);
+  const [policyModalVisible, setPolicyModalVisibility] = useState(!!modalPolicy);
   const policyModalVisibilityValue = { policyModalVisible, setPolicyModalVisibility };
 
   React.useEffect(() => {
     if ("policy" in historyState && historyState.policy) {
+      console.log("Setting modal policy from history state", historyState.policy);
       setModalPolicy(historyState.policy as Policy);
-      setPolicyModalVisibility(true);
     } else {
-      setPolicyModalVisibility(false);
+      console.log("Clearing modal policy since it does not exist in history state");
+      setModalPolicy(null);
     }
   }, [historyState]);
 

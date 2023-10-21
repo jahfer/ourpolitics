@@ -82,6 +82,13 @@
   align-items: center;
 }
 
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .header {
   display: inline;
 
@@ -114,6 +121,13 @@
       display: none;
       margin-bottom: 0;
     }
+  }
+
+  .policyTable--empty {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3rem;
+    color: #88887b;
   }
 
   .policyCells {
@@ -175,7 +189,7 @@
 .policyTable--filterBar {
   visibility: hidden;
   overscroll-behavior: none;
-  max-height: 300px;
+  max-height: 50vh;
   overflow-y: scroll;
   list-style-type: none;
   display: flex;
@@ -217,6 +231,7 @@
   top: 0;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
   cursor: auto;
+  flex-direction: row-reverse;
 }
 
 .policyTable--filterBar--toggle {

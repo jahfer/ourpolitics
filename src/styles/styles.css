@@ -21,6 +21,7 @@ a {
 }
 
 .container {
+  width: 100%;
   max-width: 1400px;
   margin: 0 auto;
   padding-left: var(--gutter-width);
@@ -33,6 +34,10 @@ a {
 
 .section {
   padding-top: 20px;
+}
+
+.content {
+  margin-bottom: auto;
 }
 
 .header {

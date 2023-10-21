@@ -68,38 +68,36 @@ export default function PolicyModal () {
   const [dialogElement, setDialogElement] = useState<HTMLDialogElement | undefined>(undefined);
   const [content, setContent] = React.useState<string>("");
 
-  useEffect(() => {
-    const dialog = document.getElementById(modalId);
-
-    if (dialog) {
-      if (modalPolicy && policyModalVisible) {
-        (dialog as HTMLDialogElement).showModal();
-        document.body.classList.add('policyModal--open');
-      } else {
-        // Best practice states that when a modal dialog is closed,
-        // focus should go back the element that opened it.
-        (dialog as HTMLDialogElement).close();
-        document.body.classList.remove('policyModal--open');
-      }
-
-      setDialogElement(dialog as HTMLDialogElement);
-    }
-  }, [modalId, modalPolicy, policyModalVisible]);
-
-  const closeModalHandler = (event: any) => {
-    if (policyModalVisible) {
-      setURLToPrevious();
-    }
-    event.preventDefault();
-    return false;
+  const closeModal = () => {
+    console.log("Reverting URL to previous state");
+    setURLToPrevious();
   }
 
   useEffect(() => {
+    const dialog = document.getElementById(modalId);
+    setDialogElement(dialog as HTMLDialogElement);
+  }, [modalId]);
+
+  useEffect(() => {
     if (dialogElement) {
-      dialogElement.addEventListener("close", (event) => {
-        // setURLToPrevious();
-        closeModalHandler(event);
-      });
+      if (modalPolicy) {
+        console.log("Showing modal!")
+        dialogElement.showModal();
+        setPolicyModalVisibility(true);
+        document.body.classList.add('policyModal--open');
+      } else {
+        dialogElement.close();
+        setPolicyModalVisibility(false);
+        document.body.classList.remove('policyModal--open');
+      }
+    }
+  }, [dialogElement, modalPolicy])
+
+  useEffect(() => {
+    const handler = (_event: Event) => closeModal();
+    if (dialogElement) {
+      dialogElement?.addEventListener("cancel", handler);
+      return (() => dialogElement?.removeEventListener("cancel", handler));
     }
   }, [dialogElement]);
 
@@ -127,7 +125,7 @@ export default function PolicyModal () {
       aria-describedby="policyDialog__description">
       <div className="policyModal">
         <div className="modal--content">
-          <a href="#" className="modal--close" aria-label="Close" onClick={closeModalHandler} />
+          <a href="#" className="modal--close" aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
           <div className="modal--headingContainer">
             <div className="modal--headingInfo">
               <div className="modal--topicBox"> <p> {t(modalPolicy.topic)} — {t(modalPolicy.party.toLowerCase())} </p> </div>

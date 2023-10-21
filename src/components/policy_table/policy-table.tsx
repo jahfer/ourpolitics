@@ -25,9 +25,8 @@ interface PolicyTableProps {
 }
 
 export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
-  const language = useLanguage();
   const { t } = useTranslation();
-  const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>();
+  const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
   const [topicFilterState, setTopicFilterState] = useState(() => false);
 
   const sortedParties = React.useMemo(() => shuffle(Array.from(parties)), [parties]);
@@ -36,28 +35,31 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
     return new Map(topics.map((topic) => [topic, true]))
   });
 
-  const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
-
-  const elTop = React.useMemo(() => {
-    if (!$tableHeader) return 0;
-    let initialHeaderTop = $tableHeader.getBoundingClientRect().top;
-    let initialBodyTop = document.body.getBoundingClientRect().top;
-    return initialHeaderTop - initialBodyTop;
-  }, [$tableHeader]);
+  let elTop = 0;
 
   React.useEffect(() => {
-    if (!$tableHeader) return;
+    const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
+    let initialHeaderTop = $tableHeader.getBoundingClientRect().top;
+    let initialBodyTop = document.body.getBoundingClientRect().top;
+    elTop = initialHeaderTop - initialBodyTop;
+  }, []);
 
+  React.useEffect(() => {
+    const handler = () => setTopicFilterState(false);
+    document.body.addEventListener('click', handler);
+    return () => document.body.removeEventListener('click', handler);
+  }, []);
+
+  React.useEffect(() => {
+    const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
     window.addEventListener("scroll", () => {
       const $tableFiller = document.getElementById("tableFiller") as HTMLElement;
       window.requestAnimationFrame(() => {
         let scrollTop: number = document.documentElement.scrollTop;
         if (scrollTop > elTop) {
-          console.log("making header fixed");
           $tableHeader.classList.add("fixed");
           $tableFiller.classList.remove("hidden");
         } else {
-          console.log("making header unfixed");
           $tableHeader.classList.remove("fixed");
           $tableFiller.classList.add("hidden");
         }
@@ -68,7 +70,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
   React.useMemo(() => {
     let rows = Array.from(dataset, ([topic, policies]) => {
       if (!topicSelections.get(topic)) {
-        return <></>;
+        return null;
       } else {
         return (
           <PolicyRow
@@ -80,28 +82,28 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
       }
     });
 
-    setPolicyRows(rows);
+    setPolicyRows(rows.filter(x => x) as Array<React.JSX.Element>);
   }, [sortedParties, dataset, topicSelections]);
 
   return (
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
         <div className="policyCells">
-          <div id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty" onClick={() => { setTopicFilterState(!topicFilterState) }}>
+          <div id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty" onClick={(e) => { e.stopPropagation(); setTopicFilterState(!topicFilterState) }}>
             {t("topics")}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
             <ul className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
               <li className="policyTable--filterBar--item policyTable--filterBar--toggleAll">
                 {
-                  [...topicSelections.entries()].every(([topic, checked]) => checked) ? null : (
+                  [...topicSelections.entries()].every(([topic, checked]) => !checked) ? null : (
                     <div className="policyTable--filterBar--toggle">
-                      <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, true]))) }}>{t("select_all")}</a>
+                      <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, false]))) }}>{t("select_none")}</a>
                     </div>
                   )
                 }
                 {
-                  [...topicSelections.entries()].every(([topic, checked]) => !checked) ? null : (
+                  [...topicSelections.entries()].every(([topic, checked]) => checked) ? null : (
                     <div className="policyTable--filterBar--toggle">
-                      <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, false]))) }}>{t("select_none")}</a>
+                      <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, true]))) }}>{t("select_all")}</a>
                     </div>
                   )
                 }
@@ -134,7 +136,11 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
       </div>
       <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
       <div>
-        { policyRows }
+        {
+          (policyRows.length == 0)
+          ? <div className="policyTable--empty">{t("no_topics_selected")}</div>
+          : policyRows
+        }
       </div>
     </div>
   )
