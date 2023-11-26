@@ -1,6 +1,6 @@
 [
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -18,7 +18,7 @@
     "handle": "digital_services_tax"
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -42,7 +42,7 @@
     "handle": "flow_through_shares"
   },
   {
-    "topic": "topic.science",
+    "topic": "science",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -147,7 +147,7 @@
     "handle": "homebuyers_bill_of_rights"
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -164,7 +164,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -233,7 +233,7 @@
     "handle": "income_tax_rate"
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -257,7 +257,7 @@
     "handle": "corporate_tax_rate"
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -275,7 +275,7 @@
     "handle": "wealth_tax"
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -292,7 +292,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -309,7 +309,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -326,7 +326,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -343,7 +343,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -377,7 +377,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -394,7 +394,7 @@
     ]
   },
   {
-    "topic": "topic.science",
+    "topic": "science",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -411,7 +411,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -428,7 +428,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -445,7 +445,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -462,7 +462,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -479,7 +479,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -496,7 +496,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -520,7 +520,7 @@
     "handle": "mental_health_action_plan"
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -537,7 +537,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -561,7 +561,7 @@
     "handle": "gun_classification"
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -578,7 +578,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -595,7 +595,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -612,7 +612,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -629,7 +629,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -646,7 +646,7 @@
     ]
   },
   {
-    "topic": "topic.child_care",
+    "topic": "child-care",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -663,7 +663,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -680,7 +680,7 @@
     ]
   },
   {
-    "topic": "topic.international_trade",
+    "topic": "international-trade",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -697,7 +697,7 @@
     ]
   },
   {
-    "topic": "topic.international_trade",
+    "topic": "international-trade",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -714,7 +714,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -731,7 +731,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -748,7 +748,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -784,7 +784,7 @@
     "handle": "low_carbon_savings_account"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -801,7 +801,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -824,7 +824,7 @@
     ]
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -841,7 +841,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -858,7 +858,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -881,7 +881,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -891,7 +891,7 @@
     "references": []
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -909,7 +909,7 @@
     "handle": "recycling"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -926,7 +926,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -943,7 +943,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -960,7 +960,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -977,7 +977,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -994,7 +994,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1011,7 +1011,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1028,7 +1028,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1045,7 +1045,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1062,7 +1062,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1079,7 +1079,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1096,7 +1096,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1114,7 +1114,7 @@
     "handle": "digital_services_tax"
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1131,7 +1131,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1155,7 +1155,7 @@
     "handle": "stock_option_exemption"
   },
   {
-    "topic": "topic.science",
+    "topic": "science",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1172,7 +1172,7 @@
     ]
   },
   {
-    "topic": "topic.science",
+    "topic": "science",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1189,7 +1189,7 @@
     ]
   },
   {
-    "topic": "topic.science",
+    "topic": "science",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1206,7 +1206,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1223,7 +1223,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1240,7 +1240,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1257,7 +1257,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1274,7 +1274,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1291,7 +1291,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1308,7 +1308,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1325,7 +1325,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1342,7 +1342,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1359,7 +1359,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -1376,7 +1376,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -1393,7 +1393,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1410,7 +1410,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1433,7 +1433,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1450,7 +1450,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1467,7 +1467,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1484,7 +1484,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1501,7 +1501,7 @@
     ]
   },
   {
-    "topic": "topic.international_trade",
+    "topic": "international-trade",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1518,7 +1518,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1535,7 +1535,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1558,7 +1558,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1575,7 +1575,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1592,7 +1592,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1609,7 +1609,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1626,7 +1626,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1643,7 +1643,7 @@
     ]
   },
   {
-    "topic": "topic.child_care",
+    "topic": "child-care",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1658,10 +1658,10 @@
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#21"
       }
     ],
-    "handle": "child_care"
+    "handle": "child-care"
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1684,7 +1684,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1701,7 +1701,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1718,7 +1718,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1735,7 +1735,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1752,7 +1752,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -1769,7 +1769,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1792,7 +1792,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1809,7 +1809,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1826,7 +1826,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1843,7 +1843,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1860,7 +1860,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1877,7 +1877,7 @@
     ]
   },
   {
-    "topic": "topic.international_trade",
+    "topic": "international-trade",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1894,7 +1894,7 @@
     ]
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1911,7 +1911,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1941,7 +1941,7 @@
     "handle": "calls_to_action"
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1958,7 +1958,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1975,7 +1975,7 @@
     ]
   },
   {
-    "topic": "topic.arts_and_culture",
+    "topic": "arts-and-culture",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1992,7 +1992,7 @@
     ]
   },
   {
-    "topic": "topic.arts_and_culture",
+    "topic": "arts-and-culture",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -2009,7 +2009,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -2026,7 +2026,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -2043,7 +2043,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -2060,7 +2060,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -2077,7 +2077,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -2094,7 +2094,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -2111,7 +2111,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2128,7 +2128,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2145,7 +2145,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2162,7 +2162,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2179,7 +2179,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2196,7 +2196,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -2213,7 +2213,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2230,7 +2230,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2247,7 +2247,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2264,7 +2264,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2281,7 +2281,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2298,7 +2298,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2315,7 +2315,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2332,7 +2332,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2349,7 +2349,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2366,7 +2366,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2383,7 +2383,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2400,7 +2400,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2417,7 +2417,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2434,7 +2434,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2451,7 +2451,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2468,7 +2468,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2485,7 +2485,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2502,7 +2502,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2519,7 +2519,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2536,7 +2536,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2553,7 +2553,7 @@
     ]
   },
   {
-    "topic": "topic.international_trade",
+    "topic": "international-trade",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2570,7 +2570,7 @@
     ]
   },
   {
-    "topic": "topic.international_trade",
+    "topic": "international-trade",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2587,7 +2587,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2604,7 +2604,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2621,7 +2621,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2639,7 +2639,7 @@
     "handle": "recycling"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2656,7 +2656,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2673,7 +2673,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2690,7 +2690,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2707,7 +2707,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2724,7 +2724,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2741,7 +2741,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2758,7 +2758,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2775,7 +2775,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2792,7 +2792,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2809,7 +2809,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2826,7 +2826,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2843,7 +2843,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2860,7 +2860,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2877,7 +2877,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2894,7 +2894,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2911,7 +2911,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2928,7 +2928,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2945,7 +2945,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2962,7 +2962,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2979,7 +2979,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -2996,7 +2996,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3013,7 +3013,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3030,7 +3030,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3047,7 +3047,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3064,7 +3064,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3081,7 +3081,7 @@
     ]
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3098,7 +3098,7 @@
     ]
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3115,7 +3115,7 @@
     ]
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3132,7 +3132,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3149,7 +3149,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3166,7 +3166,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3183,7 +3183,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3200,7 +3200,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3217,7 +3217,7 @@
     ]
   },
   {
-    "topic": "topic.child_care",
+    "topic": "child-care",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3234,7 +3234,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3251,7 +3251,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3269,7 +3269,7 @@
     "handle": "student_loans"
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3286,7 +3286,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3303,7 +3303,7 @@
     ]
   },
   {
-    "topic": "topic.youth",
+    "topic": "youth",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3320,7 +3320,7 @@
     ]
   },
   {
-    "topic": "topic.youth",
+    "topic": "youth",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3337,7 +3337,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3354,7 +3354,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3371,7 +3371,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3388,7 +3388,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3405,7 +3405,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3422,7 +3422,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3439,7 +3439,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3456,7 +3456,7 @@
     ]
   },
   {
-    "topic": "topic.arts_and_culture",
+    "topic": "arts-and-culture",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3473,7 +3473,7 @@
     ]
   },
   {
-    "topic": "topic.arts_and_culture",
+    "topic": "arts-and-culture",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3490,7 +3490,7 @@
     ]
   },
   {
-    "topic": "topic.arts_and_culture",
+    "topic": "arts-and-culture",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3507,7 +3507,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3524,7 +3524,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3541,7 +3541,7 @@
     ]
   },
   {
-    "topic": "topic.affordability",
+    "topic": "affordability",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3558,7 +3558,7 @@
     ]
   },
   {
-    "topic": "topic.affordability",
+    "topic": "affordability",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3575,7 +3575,7 @@
     ]
   },
   {
-    "topic": "topic.affordability",
+    "topic": "affordability",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3592,7 +3592,7 @@
     ]
   },
   {
-    "topic": "topic.affordability",
+    "topic": "affordability",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3609,7 +3609,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3626,7 +3626,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3643,7 +3643,7 @@
     ]
   },
   {
-    "topic": "topic.affordability",
+    "topic": "affordability",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3660,7 +3660,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3683,7 +3683,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -3700,7 +3700,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -3717,7 +3717,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3734,7 +3734,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3752,7 +3752,7 @@
     "handle": "corporate_tax_rate"
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -3769,7 +3769,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3792,7 +3792,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -3809,7 +3809,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -3826,7 +3826,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3843,7 +3843,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3860,7 +3860,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3877,7 +3877,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3894,7 +3894,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3911,7 +3911,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3940,7 +3940,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3957,7 +3957,7 @@
     ]
   },
   {
-    "topic": "topic.youth",
+    "topic": "youth",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3974,7 +3974,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3991,7 +3991,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4008,7 +4008,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4025,7 +4025,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4042,7 +4042,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4059,7 +4059,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4076,7 +4076,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4093,7 +4093,7 @@
     ]
   },
   {
-    "topic": "topic.child_care",
+    "topic": "child-care",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4110,7 +4110,7 @@
     ]
   },
   {
-    "topic": "topic.affordability",
+    "topic": "affordability",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4127,7 +4127,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4144,7 +4144,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4161,7 +4161,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4178,7 +4178,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4195,7 +4195,7 @@
     ]
   },
   {
-    "topic": "topic.affordability",
+    "topic": "affordability",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4212,7 +4212,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4229,7 +4229,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4246,7 +4246,7 @@
     ]
   },
   {
-    "topic": "topic.economy",
+    "topic": "economy",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4263,7 +4263,7 @@
     ]
   },
   {
-    "topic": "topic.science",
+    "topic": "science",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4280,7 +4280,7 @@
     ]
   },
   {
-    "topic": "topic.arts_and_culture",
+    "topic": "arts-and-culture",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4297,7 +4297,7 @@
     ]
   },
   {
-    "topic": "topic.arts_and_culture",
+    "topic": "arts-and-culture",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4314,7 +4314,7 @@
     ]
   },
   {
-    "topic": "topic.arts_and_culture",
+    "topic": "arts-and-culture",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4331,7 +4331,7 @@
     ]
   },
   {
-    "topic": "topic.arts_and_culture",
+    "topic": "arts-and-culture",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4348,7 +4348,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4365,7 +4365,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4382,7 +4382,7 @@
     ]
   },
   {
-    "topic": "topic.immigration",
+    "topic": "immigration",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4399,7 +4399,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4416,7 +4416,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4433,7 +4433,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4450,7 +4450,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4467,7 +4467,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4491,7 +4491,7 @@
     "handle": "green_bonds"
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4508,7 +4508,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4525,7 +4525,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4542,7 +4542,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4559,7 +4559,7 @@
     ]
   },
   {
-    "topic": "topic.science",
+    "topic": "science",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4576,7 +4576,7 @@
     ]
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4593,7 +4593,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4610,7 +4610,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4627,7 +4627,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2021,
     "party": "NDP",
     "title": {

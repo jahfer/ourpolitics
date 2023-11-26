@@ -2,6 +2,7 @@ import * as React from 'react'
 import PolicyCell from './policy-cell'
 import { Party, Policy } from 'types/schema'
 import { useTranslation } from 'contexts/language-context'
+import { useURL } from 'contexts/router-context'
 
 interface PolicyRowProps {
   topic: string
@@ -9,24 +10,37 @@ interface PolicyRowProps {
   policies: Array<Policy>
 }
 
+function topicURL(topic: string) {
+  return `/topics/${topic}`;
+}
+
 export default function PolicyRow ({ topic, parties, policies }: PolicyRowProps) {
   const { t } = useTranslation();
+  const { setURL } = useURL();
+
   const policyCells = parties.map((party) => {
     const partyPolicies = policies.filter((policy) => policy.party === party)
     return <PolicyCell party={party} topic={topic} policies={partyPolicies} key={`${party}/${topic}`} />
   });
 
+  function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
+    setURL({}, topicURL(topic));
+    event.preventDefault();
+    return false;
+  }
+
   return (
     <div className="policyRow divider-t">
     <div className="policyCells">
       <div className="policyCell policyTopic">
-        <h3
-          aria-labelledby="policyTableColumn--topics"
-          id={`policyTableRow--${topic.replace(/[^a-zA-Z]/g, "")}`}
-          className="policyTopic--title">
-          {t(topic)}
-        </h3>
-        {/* <a className="policyTopic--info" href="#">Learn more</a> */}
+        <a href="#" className="no-underline" onClick={handleClick}>
+          <h3
+            aria-labelledby="policyTableColumn--topics"
+            id={`policyTableRow--${topic}`}
+            className="policyTopic--title">
+            <span className="policyTopic--info"><i className="fa fa-info-circle"></i> {t(`topic.${topic}`)}</span>
+          </h3>
+        </a>
       </div>
       {policyCells}
     </div>

@@ -1,0 +1,121 @@
+import { createContext, useContext, useState } from 'react';
+import * as React from 'react';
+import { useLanguage } from './language-context';
+
+type RouteHandler<T extends string> =
+  T extends `/${infer Namespace}/:${infer Param}/:${infer Param}/:${infer Param}`
+  ? (a: string, b: string, c: string) => React.ReactElement
+
+  : T extends `/${infer Namespace}/:${infer Param}/:${infer Param}`
+  ? (a: string, b: string) => React.ReactElement
+
+  : T extends `/${infer Namespace}/:${infer Param}`
+  ? (a: string) => React.ReactElement
+
+  : () => React.ReactElement;
+
+export function route<T extends string>(
+  path: T,
+  handler: RouteHandler<T>
+) {
+  // Your implementation here
+  // For now, let's just log the parameters
+  const params = path.split('/').filter(part => part.startsWith(':'));
+  const args = params.map(param => param.slice(1));
+  handler(...(args as []));
+}
+
+type HistoryEntry = {
+  __op_id: number,
+  uri: string,
+  state: object
+}
+
+type RouterContextType = {
+  history: Array<HistoryEntry>,
+  setURL: (state: object, url?: string) => void,
+  setURLToPrevious: (onEmptyHistory: (() => void)) => void,
+  updateURLState: (state: object) => void
+}
+
+export const RouterContext = createContext<RouterContextType>({
+  history: [],
+  setURL: () => {},
+  setURLToPrevious: () => {},
+  updateURLState: () => {},
+});
+
+export function useURL() {
+  return useContext(RouterContext);
+}
+
+interface RouterProviderProps {
+  children: React.ReactNode;
+}
+
+let next_id = 0;
+
+export function URLProvider({ children }: RouterProviderProps) {
+  const [navHistory, setNavHistory] = useState<Array<HistoryEntry>>(() => {
+    if ("__op_id" in history.state) {
+      return [{...history.state}];
+    } else {
+      const entry = { __op_id: next_id++, uri: location.pathname, state: history.state };
+      history.replaceState(entry, "");
+      return [entry];
+    }
+  });
+
+  const setURLToPrevious = (onEmptyHistory: (() => void)) => {
+    const [_, ...tl] = navHistory;
+    if (tl.length > 0) {
+      setNavHistory([...tl]);
+      history.back();
+    } else {
+      onEmptyHistory();
+    }
+  }
+
+  const setURL = (state: object, url?: string) => {
+    const entry = { __op_id: next_id++, uri: url || "", state };
+    history.pushState(entry, "", url);
+    setNavHistory([entry, ...navHistory]);
+  }
+
+  const updateURLState = (state: object) => {
+    const [hd, ...tl] = navHistory;
+    const entry = { ...hd, state };
+    history.replaceState(entry, "");
+    setNavHistory([entry, ...tl]);
+  }
+
+  React.useEffect(() => {
+    const handler = (event: PopStateEvent) => {
+      const state = event.state as HistoryEntry;
+
+      const [hd, prev, ...rest] = navHistory;
+      if (state.__op_id === hd.__op_id) {
+        return;
+      } else if (prev && state.__op_id === prev.__op_id) {
+        setNavHistory([prev, ...rest]);
+      } else {
+        if ("id" in state) {
+          setNavHistory([state, ...navHistory]);
+        } else {
+          setNavHistory([{ __op_id: next_id++, uri: location.pathname, state }, ...navHistory]);
+        }
+      }
+    }
+
+    addEventListener("popstate", handler);
+    return (() => removeEventListener("popstate", handler))
+  }, [navHistory]);
+
+  const value = { setURL, setURLToPrevious, updateURLState, history: navHistory };
+
+  return (
+    <RouterContext.Provider value={value}>
+      {children}
+    </RouterContext.Provider>
+  );
+}

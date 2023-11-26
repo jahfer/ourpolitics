@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { useId, useEffect, useState, useLayoutEffect } from 'react'
-import { usePolicyModal, usePolicyModalVisiblity } from 'contexts/policy-modal-context'
+import { usePolicyModal } from 'contexts/policy-modal-context'
 import { useLanguage, useTranslation } from 'contexts/language-context';
-import { useURL } from 'contexts/url-context';
-import { Party, ReferenceType, TranslationString } from 'types/schema';
+import { useURL } from 'contexts/router-context';
+import { Party, ReferenceType } from 'types/schema';
 
 //@ts-ignore
 import { html as liberalPolicies2021 } from '../../policies/2021/lpc/*.md'
@@ -60,9 +60,8 @@ function Reference ({ source }: ReferenceProps) {
 
 export default function PolicyModal () {
   const modalId = useId();
-  const { modalPolicy } = usePolicyModal();
-  const { setURLToPrevious } = useURL();
-  const { policyModalVisible, setPolicyModalVisibility } = usePolicyModalVisiblity();
+  const { modalPolicy, policyModalVisible } = usePolicyModal();
+  const { setURL, setURLToPrevious } = useURL();
   const { language } = useLanguage();
   const { t } = useTranslation();
   const [dialogElement, setDialogElement] = useState<HTMLDialogElement | undefined>(undefined);
@@ -70,7 +69,9 @@ export default function PolicyModal () {
 
   const closeModal = () => {
     console.log("Reverting URL to previous state");
-    setURLToPrevious();
+    setURLToPrevious(() => {
+      setURL({}, `/policies/${modalPolicy?.year}`)
+    });
   }
 
   useEffect(() => {
@@ -81,13 +82,10 @@ export default function PolicyModal () {
   useEffect(() => {
     if (dialogElement) {
       if (modalPolicy) {
-        console.log("Showing modal!")
         dialogElement.showModal();
-        setPolicyModalVisibility(true);
         document.body.classList.add('policyModal--open');
       } else {
         dialogElement.close();
-        setPolicyModalVisibility(false);
         document.body.classList.remove('policyModal--open');
       }
     }
@@ -105,6 +103,7 @@ export default function PolicyModal () {
     let html = null;
     if (modalPolicy?.handle) {
       const handle = `${modalPolicy.handle}_${language}`;
+      console.log(policies(modalPolicy.year)[modalPolicy.party])
       html = policies(modalPolicy.year)[modalPolicy.party][handle];
     }
     setContent(html || "")
@@ -128,7 +127,7 @@ export default function PolicyModal () {
           <a href="#" className="modal--close" aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
           <div className="modal--headingContainer">
             <div className="modal--headingInfo">
-              <div className="modal--topicBox"> <p> {t(modalPolicy.topic)} — {t(modalPolicy.party.toLowerCase())} </p> </div>
+              <div className="modal--topicBox"> <p> {t(`topic.${modalPolicy.topic}`)} — {t(modalPolicy.party.toLowerCase())} </p> </div>
             </div>
           </div>
           <h1
@@ -146,7 +145,7 @@ export default function PolicyModal () {
             {(modalPolicy.references.map(ref => <Reference key={ref.url} source={ref} />)) }
           </ul>
           <div className="modal--randomize">
-            <a className="randomize-policy iconSuffix iconSuffix--random" onClick={e => e.preventDefault() }>
+            <a href="#" className="randomize-policy iconSuffix iconSuffix--random" onClick={e => e.preventDefault() }>
               {t("modal.random_policy")}
             </a>
           </div>

@@ -1,6 +1,96 @@
 [
   {
-    "topic": "topic.child_care",
+    "topic": "economy",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Don't change TFSA contribution limit",
+      "FR": "Ne pas modifier la limite de contribution au CELI"
+    },
+    "references": [
+      {
+        "date": "2015-09-11",
+        "title": "Trudeau, Mulcair pledge to pull back TFSA contribution limit ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/"
+      },
+      {
+        "date": "2015-04-21",
+        "title": "TFSA limit hiked to $10,000 as election budget delivers few goodies",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/business/budget-2015-tfsa-limit-hiked-to-10-000-as-election-budget-delivers-few-goodies-1.3040853"
+      },
+      {
+        "date": "2015-04-22",
+        "title": "Federal Budget 2015: Ottawa boosts TFSA account limits by 82% to $10,000 a year",
+        "publisher": "Financial Post",
+        "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
+      }
+    ],
+    "handle": "cpc_tfsa"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Reduce TFSA contribution limit",
+      "FR": "Réduire la limite de contribution au CELI"
+    },
+    "references": [
+      {
+        "date": "2015-09-11",
+        "title": "Trudeau, Mulcair pledge to pull back TFSA contribution limit ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/"
+      },
+      {
+        "date": "2015-04-21",
+        "title": "TFSA limit hiked to $10,000 as election budget delivers few goodies",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/business/budget-2015-tfsa-limit-hiked-to-10-000-as-election-budget-delivers-few-goodies-1.3040853"
+      },
+      {
+        "date": "2015-04-22",
+        "title": "Federal Budget 2015: Ottawa boosts TFSA account limits by 82% to $10,000 a year",
+        "publisher": "Financial Post",
+        "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
+      }
+    ],
+    "handle": "lpc_tfsa"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Reduce TFSA contribution limit",
+      "FR": "Réduire la limite de contribution au CELI"
+    },
+    "references": [
+      {
+        "date": "2015-09-11",
+        "title": "Trudeau, Mulcair pledge to pull back TFSA contribution limit ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/"
+      },
+      {
+        "date": "2015-04-21",
+        "title": "TFSA limit hiked to $10,000 as election budget delivers few goodies",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/business/budget-2015-tfsa-limit-hiked-to-10-000-as-election-budget-delivers-few-goodies-1.3040853"
+      },
+      {
+        "date": "2015-04-22",
+        "title": "Federal Budget 2015: Ottawa boosts TFSA account limits by 82% to $10,000 a year",
+        "publisher": "Financial Post",
+        "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
+      }
+    ],
+    "handle": "ndp_tfsa"
+  },
+  {
+    "topic": "child-care",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -24,7 +114,7 @@
     "handle": "ndp_daycare"
   },
   {
-    "topic": "topic.child_care",
+    "topic": "child-care",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -53,7 +143,7 @@
     "handle": "ndp_uccb"
   },
   {
-    "topic": "topic.child_care",
+    "topic": "child-care",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -76,7 +166,7 @@
     "handle": "cpc_uccb"
   },
   {
-    "topic": "topic.child_care",
+    "topic": "child-care",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -100,12 +190,12 @@
     "handle": "lpc_ccb"
   },
   {
-    "topic": "topic.bill_c51",
+    "topic": "health-and-safety",
     "year": 2015,
     "party": "NDP",
     "title": {
-      "EN": "Repeal",
-      "FR": "Abroger"
+      "EN": "Repeal Bill C-51",
+      "FR": "Abroger le projet de loi C-51"
     },
     "references": [
       {
@@ -160,12 +250,12 @@
     "handle": "ndp_c51"
   },
   {
-    "topic": "topic.bill_c51",
+    "topic": "health-and-safety",
     "year": 2015,
     "party": "Conservative",
     "title": {
-      "EN": "Keep",
-      "FR": "Préserver"
+      "EN": "Keep Bill C-51",
+      "FR": "Maintien du projet de loi C-51"
     },
     "references": [
       {
@@ -202,12 +292,12 @@
     "handle": "cpc_c51"
   },
   {
-    "topic": "topic.bill_c51",
+    "topic": "health-and-safety",
     "year": 2015,
     "party": "Liberal",
     "title": {
-      "EN": "Amend",
-      "FR": "Amender"
+      "EN": "Amend Bill C-51",
+      "FR": "Amender le projet de loi C-51"
     },
     "references": [
       {
@@ -250,7 +340,85 @@
     "handle": "lpc_c51"
   },
   {
-    "topic": "topic.taxes",
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Decriminalize cannabis",
+      "FR": "Décriminaliser le cannabis"
+    },
+    "references": [
+      {
+        "date": "2015-08-21",
+        "title": "Mulcair pledges NDP will decriminalize pot 'the minute we form government'",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/ndp-mulcair-marijuana-decriminalization-1.3199532"
+      },
+      {
+        "date": "2014-10-20",
+        "title": "Decriminalize, study and go from there: NDP's pot policy",
+        "publisher": "Toronto Sun",
+        "url": "http://www.torontosun.com/2014/10/20/decriminalize-study-and-go-from-there-ndps-pot-policy"
+      }
+    ],
+    "handle": "ndp_marijuana"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Keep cannabis illegal",
+      "FR": "Maintien de l'illégalité du cannabis"
+    },
+    "references": [
+      {
+        "date": "2015-08-21",
+        "title": "Mulcair pledges NDP will decriminalize pot 'the minute we form government'",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/ndp-mulcair-marijuana-decriminalization-1.3199532"
+      },
+      {
+        "date": "2014-10-09",
+        "title": "Conservative government’s opposition to pot legalization unshaken",
+        "publisher": "Global News",
+        "url": "http://globalnews.ca/news/1607817/conservative-governments-opposition-to-pot-legalization-unshaken/"
+      }
+    ],
+    "handle": "cpc_marijuana"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Legalize cannabis",
+      "FR": "Légaliser le cannabis"
+    },
+    "references": [
+      {
+        "date": "2015-09-30",
+        "title": "Liberals 'committed' to legalizing marijuana: Trudeau",
+        "publisher": "CTV News",
+        "url": "http://www.ctvnews.ca/politics/election/liberals-committed-to-legalizing-marijuana-trudeau-1.2588260"
+      },
+      {
+        "date": "2014-10-16",
+        "title": "Team Trudeau on the Issues: Marijuana",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/mp-adam-vaughan-on-why-prohibition-has-failed/"
+      },
+      {
+        "date": "2015-10-01",
+        "title": "http://www.cbc.ca/news/politics/trudeau-pot-marijuana-legalization-timeline-1.3252088",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/trudeau-pot-marijuana-legalization-timeline-1.3252088"
+      }
+    ],
+    "handle": "lpc_marijuana"
+  },
+  {
+    "topic": "economy",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -280,7 +448,7 @@
     "handle": "ndp_corporate_taxes"
   },
   {
-    "topic": "topic.taxes",
+    "topic": "economy",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -304,7 +472,7 @@
     "handle": "ndp_stock_options"
   },
   {
-    "topic": "topic.taxes",
+    "topic": "economy",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -334,7 +502,7 @@
     "handle": "ndp_small_business_tax"
   },
   {
-    "topic": "topic.taxes",
+    "topic": "economy",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -358,37 +526,7 @@
     "handle": "ndp_income_splitting"
   },
   {
-    "topic": "topic.taxes",
-    "year": 2015,
-    "party": "NDP",
-    "title": {
-      "EN": "Reduce TFSA contribution limit",
-      "FR": "Réduire la limite de contribution au CELI"
-    },
-    "references": [
-      {
-        "date": "2015-09-11",
-        "title": "Trudeau, Mulcair pledge to pull back TFSA contribution limit ",
-        "publisher": "The Globe and Mail",
-        "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/"
-      },
-      {
-        "date": "2015-04-21",
-        "title": "TFSA limit hiked to $10,000 as election budget delivers few goodies",
-        "publisher": "CBC",
-        "url": "http://www.cbc.ca/news/business/budget-2015-tfsa-limit-hiked-to-10-000-as-election-budget-delivers-few-goodies-1.3040853"
-      },
-      {
-        "date": "2015-04-22",
-        "title": "Federal Budget 2015: Ottawa boosts TFSA account limits by 82% to $10,000 a year",
-        "publisher": "Financial Post",
-        "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
-      }
-    ],
-    "handle": "ndp_tfsa"
-  },
-  {
-    "topic": "topic.taxes",
+    "topic": "housing",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -417,7 +555,7 @@
     "handle": "cpc_home_renovation"
   },
   {
-    "topic": "topic.taxes",
+    "topic": "economy",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -447,37 +585,7 @@
     "handle": "cpc_rrsp"
   },
   {
-    "topic": "topic.taxes",
-    "year": 2015,
-    "party": "Conservative",
-    "title": {
-      "EN": "Don't change TFSA contribution limit",
-      "FR": "Ne pas modifier la limite de contribution au CELI"
-    },
-    "references": [
-      {
-        "date": "2015-09-11",
-        "title": "Trudeau, Mulcair pledge to pull back TFSA contribution limit ",
-        "publisher": "The Globe and Mail",
-        "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/"
-      },
-      {
-        "date": "2015-04-21",
-        "title": "TFSA limit hiked to $10,000 as election budget delivers few goodies",
-        "publisher": "CBC",
-        "url": "http://www.cbc.ca/news/business/budget-2015-tfsa-limit-hiked-to-10-000-as-election-budget-delivers-few-goodies-1.3040853"
-      },
-      {
-        "date": "2015-04-22",
-        "title": "Federal Budget 2015: Ottawa boosts TFSA account limits by 82% to $10,000 a year",
-        "publisher": "Financial Post",
-        "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
-      }
-    ],
-    "handle": "cpc_tfsa"
-  },
-  {
-    "topic": "topic.taxes",
+    "topic": "economy",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -506,7 +614,7 @@
     "handle": "lpc_middle_class_taxes"
   },
   {
-    "topic": "topic.taxes",
+    "topic": "economy",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -536,37 +644,7 @@
     "handle": "lpc_income_splitting"
   },
   {
-    "topic": "topic.taxes",
-    "year": 2015,
-    "party": "Liberal",
-    "title": {
-      "EN": "Reduce TFSA contribution limit",
-      "FR": "Réduire la limite de contribution au CELI"
-    },
-    "references": [
-      {
-        "date": "2015-09-11",
-        "title": "Trudeau, Mulcair pledge to pull back TFSA contribution limit ",
-        "publisher": "The Globe and Mail",
-        "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/"
-      },
-      {
-        "date": "2015-04-21",
-        "title": "TFSA limit hiked to $10,000 as election budget delivers few goodies",
-        "publisher": "CBC",
-        "url": "http://www.cbc.ca/news/business/budget-2015-tfsa-limit-hiked-to-10-000-as-election-budget-delivers-few-goodies-1.3040853"
-      },
-      {
-        "date": "2015-04-22",
-        "title": "Federal Budget 2015: Ottawa boosts TFSA account limits by 82% to $10,000 a year",
-        "publisher": "Financial Post",
-        "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
-      }
-    ],
-    "handle": "lpc_tfsa"
-  },
-  {
-    "topic": "topic.international_trade",
+    "topic": "international-trade",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -620,7 +698,7 @@
     "handle": "ndp_tpp"
   },
   {
-    "topic": "topic.international_trade",
+    "topic": "international-trade",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -674,7 +752,7 @@
     "handle": "cpc_tpp"
   },
   {
-    "topic": "topic.international_trade",
+    "topic": "international-trade",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -728,7 +806,7 @@
     "handle": "lpc_tpp"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -746,7 +824,7 @@
     "handle": "ndp_cap_and_trade"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -764,7 +842,7 @@
     "handle": "ndp_green_tech"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -800,7 +878,7 @@
     "handle": "ndp_pipeline"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -830,7 +908,7 @@
     "handle": "cpc_pipeline"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -859,7 +937,7 @@
     "handle": "lpc_carbon_tax"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -882,7 +960,7 @@
     "handle": "lpc_green_tech"
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -906,12 +984,12 @@
     "handle": "lpc_pipeline"
   },
   {
-    "topic": "topic.senate",
+    "topic": "government",
     "year": 2015,
     "party": "NDP",
     "title": {
-      "EN": "Abolish",
-      "FR": "Abolir"
+      "EN": "Abolish Senate",
+      "FR": "Abolir le Sénat"
     },
     "references": [
       {
@@ -930,12 +1008,12 @@
     "handle": "ndp_senate"
   },
   {
-    "topic": "topic.senate",
+    "topic": "government",
     "year": 2015,
     "party": "Liberal",
     "title": {
-      "EN": "Reform",
-      "FR": "Réformer"
+      "EN": "Reform Senate",
+      "FR": "Réforme du Sénat"
     },
     "references": [
       {
@@ -954,12 +1032,12 @@
     "handle": "lpc_senate"
   },
   {
-    "topic": "topic.senate",
+    "topic": "government",
     "year": 2015,
     "party": "Conservative",
     "title": {
-      "EN": "No new appointments",
-      "FR": "Aucun changement"
+      "EN": "No new appointments of senators",
+      "FR": "Pas de nouvelles nominations de sénateurs"
     },
     "references": [
       {
@@ -978,7 +1056,7 @@
     "handle": "cpc_senate"
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -996,7 +1074,7 @@
     "handle": "ndp_aboriginal_relations"
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -1014,7 +1092,7 @@
     "handle": "cpc_aboriginal_relations"
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -1032,7 +1110,7 @@
     "handle": "cpc_aboriginal_funding"
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1049,7 +1127,7 @@
     "handle": "lpc_aboriginal_relations"
   },
   {
-    "topic": "topic.indigenous_relations",
+    "topic": "indigenous-relations",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1076,7 +1154,7 @@
     "handle": "lpc_aboriginal_education"
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1100,7 +1178,7 @@
     "handle": "ndp_healthcare"
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1124,7 +1202,7 @@
     "handle": "ndp_mental_healthcare"
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1154,7 +1232,7 @@
     "handle": "ndp_alzheimers"
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1178,7 +1256,7 @@
     "handle": "ndp_healthcare_funding"
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1200,7 +1278,7 @@
     "handle": "lpc_healthcare"
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1222,7 +1300,7 @@
     "handle": "lpc_mental_healthcare"
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1252,7 +1330,7 @@
     "handle": "ndp_transit"
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -1270,7 +1348,7 @@
     "handle": "cpc_infrastructure"
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1287,7 +1365,7 @@
     "handle": "lpc_infrastructure_bank"
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1311,7 +1389,7 @@
     "handle": "lpc_infrastructure_investment"
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1334,7 +1412,7 @@
     "handle": "lpc_transit"
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1358,7 +1436,7 @@
     "handle": "ndp_isis"
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1388,7 +1466,7 @@
     "handle": "ndp_refugees"
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1418,7 +1496,7 @@
     "handle": "ndp_foreign_aid"
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -1442,7 +1520,7 @@
     "handle": "cpc_isis"
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -1472,7 +1550,7 @@
     "handle": "cpc_refugees"
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1496,7 +1574,7 @@
     "handle": "lpc_isis"
   },
   {
-    "topic": "topic.foreign_policy",
+    "topic": "foreign-policy",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1526,85 +1604,7 @@
     "handle": "lpc_refugees"
   },
   {
-    "topic": "topic.cannabis",
-    "year": 2015,
-    "party": "NDP",
-    "title": {
-      "EN": "Decriminalize",
-      "FR": "Décriminaliser"
-    },
-    "references": [
-      {
-        "date": "2015-08-21",
-        "title": "Mulcair pledges NDP will decriminalize pot 'the minute we form government'",
-        "publisher": "CBC",
-        "url": "http://www.cbc.ca/news/politics/ndp-mulcair-marijuana-decriminalization-1.3199532"
-      },
-      {
-        "date": "2014-10-20",
-        "title": "Decriminalize, study and go from there: NDP's pot policy",
-        "publisher": "Toronto Sun",
-        "url": "http://www.torontosun.com/2014/10/20/decriminalize-study-and-go-from-there-ndps-pot-policy"
-      }
-    ],
-    "handle": "ndp_marijuana"
-  },
-  {
-    "topic": "topic.cannabis",
-    "year": 2015,
-    "party": "Conservative",
-    "title": {
-      "EN": "Criminalize",
-      "FR": "Criminaliser"
-    },
-    "references": [
-      {
-        "date": "2015-08-21",
-        "title": "Mulcair pledges NDP will decriminalize pot 'the minute we form government'",
-        "publisher": "CBC",
-        "url": "http://www.cbc.ca/news/politics/ndp-mulcair-marijuana-decriminalization-1.3199532"
-      },
-      {
-        "date": "2014-10-09",
-        "title": "Conservative government’s opposition to pot legalization unshaken",
-        "publisher": "Global News",
-        "url": "http://globalnews.ca/news/1607817/conservative-governments-opposition-to-pot-legalization-unshaken/"
-      }
-    ],
-    "handle": "cpc_marijuana"
-  },
-  {
-    "topic": "topic.cannabis",
-    "year": 2015,
-    "party": "Liberal",
-    "title": {
-      "EN": "Legalize",
-      "FR": "Légaliser"
-    },
-    "references": [
-      {
-        "date": "2015-09-30",
-        "title": "Liberals 'committed' to legalizing marijuana: Trudeau",
-        "publisher": "CTV News",
-        "url": "http://www.ctvnews.ca/politics/election/liberals-committed-to-legalizing-marijuana-trudeau-1.2588260"
-      },
-      {
-        "date": "2014-10-16",
-        "title": "Team Trudeau on the Issues: Marijuana",
-        "publisher": "Liberal.ca",
-        "url": "https://www.liberal.ca/mp-adam-vaughan-on-why-prohibition-has-failed/"
-      },
-      {
-        "date": "2015-10-01",
-        "title": "http://www.cbc.ca/news/politics/trudeau-pot-marijuana-legalization-timeline-1.3252088",
-        "publisher": "CBC",
-        "url": "http://www.cbc.ca/news/politics/trudeau-pot-marijuana-legalization-timeline-1.3252088"
-      }
-    ],
-    "handle": "lpc_marijuana"
-  },
-  {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1621,7 +1621,7 @@
     "handle": "ndp_seniors"
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1638,7 +1638,7 @@
     "handle": "ndp_seniors_income_splitting"
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -1655,7 +1655,7 @@
     "handle": "cpc_seniors"
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1672,7 +1672,7 @@
     "handle": "lpc_homecare"
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1689,7 +1689,7 @@
     "handle": "lpc_seniors"
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1706,7 +1706,7 @@
     "handle": "lpc_seniors_income_splitting"
   },
   {
-    "topic": "topic.youth",
+    "topic": "youth",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1724,7 +1724,7 @@
     "handle": "ndp_student_loans"
   },
   {
-    "topic": "topic.youth",
+    "topic": "youth",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1748,7 +1748,7 @@
     "handle": "ndp_internships"
   },
   {
-    "topic": "topic.youth",
+    "topic": "youth",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1777,12 +1777,12 @@
     "handle": "lpc_youth"
   },
   {
-    "topic": "topic.electoral_reform",
+    "topic": "government",
     "year": 2015,
     "party": "NDP",
     "title": {
-      "EN": "Mixed Member Parliament",
-      "FR": "Parlement à la proportielle mixte"
+      "EN": "Use a “Mixed Member Parliament” electoral system",
+      "FR": "Utiliser un système électoral de type “Parlement mixte”"
     },
     "references": [
       {
@@ -1801,12 +1801,12 @@
     "handle": "ndp_reform"
   },
   {
-    "topic": "topic.electoral_reform",
+    "topic": "government",
     "year": 2015,
     "party": "Conservative",
     "title": {
-      "EN": "Require referendum for any reform",
-      "FR": "Exiger un référendum pour n'importe quelle réforme"
+      "EN": "Require referendum for any electoral reform",
+      "FR": "Exiger un référendum pour toute réforme électorale"
     },
     "references": [
       {
@@ -1819,12 +1819,12 @@
     "handle": "cpc_reform"
   },
   {
-    "topic": "topic.electoral_reform",
+    "topic": "government",
     "year": 2015,
     "party": "Liberal",
     "title": {
-      "EN": "Committee to find best alternative",
-      "FR": "Mettre en place un comité pour trouver la meilleur alternative"
+      "EN": "Form committee to find best alternative electoral system",
+      "FR": "Création d'une commission chargée de trouver le meilleur système électoral alternatif"
     },
     "references": [
       {
@@ -1847,7 +1847,7 @@
     "handle": "lpc_reform"
   },
   {
-    "topic": "topic.science",
+    "topic": "science",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1877,7 +1877,7 @@
     "handle": "ndp_science_officer"
   },
   {
-    "topic": "topic.science",
+    "topic": "science",
     "year": 2015,
     "party": "NDP",
     "title": {

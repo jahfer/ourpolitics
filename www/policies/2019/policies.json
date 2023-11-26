@@ -1,6 +1,6 @@
 [
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -83,7 +83,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -106,7 +106,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -127,7 +127,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -137,7 +137,7 @@
     "references": []
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -147,7 +147,7 @@
     "references": []
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -164,7 +164,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -225,7 +225,7 @@
     "references": []
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -241,7 +241,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -257,7 +257,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -273,7 +273,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -289,7 +289,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -305,7 +305,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -321,7 +321,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -337,7 +337,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -353,7 +353,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -369,7 +369,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -385,7 +385,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -402,7 +402,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -419,7 +419,7 @@
     ]
   },
   {
-    "topic": "topic.infrastructure",
+    "topic": "infrastructure",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -429,7 +429,7 @@
     "references": []
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -445,7 +445,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -462,7 +462,7 @@
     ]
   },
   {
-    "topic": "topic.youth",
+    "topic": "youth",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -472,7 +472,7 @@
     "references": []
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -482,7 +482,7 @@
     "references": []
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -492,7 +492,7 @@
     "references": []
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -509,7 +509,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -526,7 +526,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -543,7 +543,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -560,7 +560,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -577,7 +577,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -594,7 +594,7 @@
     ]
   },
   {
-    "topic": "topic.youth",
+    "topic": "youth",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -611,7 +611,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -628,7 +628,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -645,7 +645,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -662,7 +662,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -679,7 +679,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -696,7 +696,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -712,7 +712,7 @@
     ]
   },
   {
-    "topic": "topic.healthcare",
+    "topic": "health-and-safety",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -729,7 +729,7 @@
     ]
   },
   {
-    "topic": "topic.social_assistance",
+    "topic": "social-assistance",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -746,7 +746,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -756,7 +756,7 @@
     "references": []
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -766,7 +766,7 @@
     "references": []
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -789,7 +789,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -806,7 +806,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -823,7 +823,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -840,7 +840,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -857,7 +857,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -880,7 +880,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -897,7 +897,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Conservative",
     "title": {
@@ -920,7 +920,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -937,7 +937,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -954,7 +954,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -971,7 +971,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -988,7 +988,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -1005,7 +1005,7 @@
     ]
   },
   {
-    "topic": "topic.civil_rights",
+    "topic": "civil-rights",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -1022,7 +1022,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -1045,7 +1045,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -1055,7 +1055,7 @@
     "references": []
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -1065,7 +1065,7 @@
     "references": []
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -1075,7 +1075,7 @@
     "references": []
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -1092,7 +1092,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Liberal",
     "title": {
@@ -1115,7 +1115,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -1132,7 +1132,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -1149,7 +1149,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "NDP",
     "title": {
@@ -1166,7 +1166,7 @@
     ]
   },
   {
-    "topic": "topic.housing",
+    "topic": "housing",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -1183,7 +1183,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -1199,7 +1199,7 @@
     ]
   },
   {
-    "topic": "topic.environment",
+    "topic": "environment",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -1215,7 +1215,7 @@
     ]
   },
   {
-    "topic": "topic.government",
+    "topic": "government",
     "year": 2019,
     "party": "Green",
     "title": {
@@ -1231,7 +1231,7 @@
     ]
   },
   {
-    "topic": "topic.education",
+    "topic": "education",
     "year": 2019,
     "party": "Conservative",
     "title": {
