@@ -237,6 +237,7 @@
 .policyTable--filterBar--toggle {
   text-transform: uppercase;
   font-size: 0.8rem;
+  line-height: 1rem;
 
   &:hover {
     cursor: pointer;

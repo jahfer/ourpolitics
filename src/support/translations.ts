@@ -41,7 +41,7 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Green",
     FR: "Vert",
   },
-  "topic.foreign_policy": {
+  "topic.foreign-policy": {
     EN: "Foreign Policy",
     FR: `Affaires étrangères`,
   },
@@ -53,7 +53,7 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Taxes",
     FR: `Taxes et impôts`,
   },
-  "topic.international_trade": {
+  "topic.international-trade": {
     EN: "International Trade",
     FR: `Commerce international`,
   },
@@ -65,11 +65,11 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Government",
     FR: `Gouvernement`,
   },
-  "topic.indigenous_relations": {
+  "topic.indigenous-relations": {
     EN: "Indigenous Relations",
     FR: `Peuples autochtones`,
   },
-  "topic.healthcare": {
+  "topic.health-and-safety": {
     EN: "Health & Safety",
     FR: `Santé et sécurité`,
   },
@@ -81,19 +81,11 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Science",
     FR: `Science`,
   },
-  "topic.child_care": {
+  "topic.child-care": {
     EN: "Child Care",
     FR: `Soin des enfants`,
   },
-  "topic.bill_c51": {
-    EN: "Bill C-51",
-    FR: `Projet de loi C-51`,
-  },
-  "topic.cannabis": {
-    EN: "Cannabis",
-    FR: `Cannabis`,
-  },
-  "topic.social_assistance": {
+  "topic.social-assistance": {
     EN: "Financial Support",
     FR: `Soutien financier`,
   },
@@ -105,11 +97,7 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Senate",
     FR: `Sénat`,
   },
-  "topic.electoral_reform": {
-    EN: "Electoral Reform",
-    FR: `Réforme électorale`,
-  },
-  "topic.civil_rights": {
+  "topic.civil-rights": {
     EN: "Civil Rights",
     FR: `Droits civils`,
   },
@@ -125,7 +113,7 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Affordability",
     FR: `Coût de la vie`,
   },
-  "topic.arts_and_culture": {
+  "topic.arts-and-culture": {
     EN: "Arts & Culture",
     FR: "Arts et culture",
   },

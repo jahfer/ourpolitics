@@ -3,7 +3,7 @@ import { useTranslation } from 'contexts/language-context'
 import PolicyTable from './policy-table'
 import { Party, Policy } from 'types/schema'
 import { usePolicyModal } from 'contexts/policy-modal-context'
-import { useURL } from 'contexts/url-context'
+import { useURL } from 'contexts/router-context'
 
 import { PolicyModalProvider } from 'contexts/policy-modal-context'
 import Banner from '../banner'
@@ -34,7 +34,7 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
   const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy>>>();
   const [parties, setParties] = React.useState<Set<Party>>();
   const [policiesByHandle, setPoliciesByHandle] = React.useState<Map<string, Policy>>();
-  const { updateURLState } = useURL();
+  const { updateURLState, history } = useURL();
 
   React.useEffect(() => {
     if (selectedHandle && policiesByHandle) {

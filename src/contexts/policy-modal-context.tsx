@@ -2,63 +2,50 @@ import * as React from 'react';
 import { createContext, useContext, useState } from 'react';
 import { Policy } from 'types/schema';
 import PolicyModal from 'components/policy_table/policy-modal';
-import { useURL } from 'contexts/url-context';
+import { useURL } from 'contexts/router-context';
 
 interface PolicyModalProviderProps {
   children: React.ReactNode;
 }
 
 type PolicyModalContextType = {
-  modalPolicy: Policy | null
+  modalPolicy: Policy | null,
+  policyModalVisible: boolean,
 }
 
 export const PolicyModalContext = createContext<PolicyModalContextType>({
-  modalPolicy: null
+  modalPolicy: null,
+  policyModalVisible: false,
 });
 
 export function usePolicyModal() {
   return useContext(PolicyModalContext);
 }
 
-type PolicyModalVisibilityContextType = {
-  policyModalVisible: boolean,
-  setPolicyModalVisibility: (visible: boolean) => void
-}
-
-export const PolicyModalVisibilityContext = createContext<PolicyModalVisibilityContextType>({
-  policyModalVisible: false,
-  setPolicyModalVisibility: () => {}
-});
-
-export function usePolicyModalVisiblity() {
-  return useContext(PolicyModalVisibilityContext);
-}
-
 export function PolicyModalProvider({ children }: PolicyModalProviderProps) {
-  const { historyState } = useURL();
+  const { history } = useURL();
 
   const [modalPolicy, setModalPolicy] = useState<Policy | null>(() => null);
-  const policyModalValue = { modalPolicy };
-
   const [policyModalVisible, setPolicyModalVisibility] = useState(!!modalPolicy);
-  const policyModalVisibilityValue = { policyModalVisible, setPolicyModalVisibility };
+  const policyModalValue = { modalPolicy, policyModalVisible };
 
   React.useEffect(() => {
-    if ("policy" in historyState && historyState.policy) {
-      console.log("Setting modal policy from history state", historyState.policy);
-      setModalPolicy(historyState.policy as Policy);
+    const currentState = history[0]?.state;
+    if (currentState && "policy" in currentState && currentState.policy) {
+      console.log("Setting modal policy from history state", currentState.policy);
+      setModalPolicy(currentState.policy as Policy);
+      setPolicyModalVisibility(true);
     } else {
-      console.log("Clearing modal policy since it does not exist in history state");
+      console.log("Policy not set in history state, clearing modal policy");
       setModalPolicy(null);
+      setPolicyModalVisibility(false);
     }
-  }, [historyState]);
+  }, [history]);
 
   return (
     <PolicyModalContext.Provider value={policyModalValue}>
-      <PolicyModalVisibilityContext.Provider value={policyModalVisibilityValue}>
-        <PolicyModal />
-        {children}
-      </PolicyModalVisibilityContext.Provider>
+      <PolicyModal />
+      {children}
     </PolicyModalContext.Provider>
   );
 }

@@ -8,15 +8,15 @@ function LanguageSelector () {
   return (
     <div className="langSelection">
       <a
-        href="#en"
-        onClick={_ => setLanguage(LanguageOption.EN)}
+        href="#"
+        onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}
         className={language == LanguageOption.EN ? "active" : ""}>
         EN
       </a>
       <span> | </span>
       <a
-        href="#fr"
-        onClick={_ => setLanguage(LanguageOption.FR)}
+        href="#"
+        onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}
         className={language == LanguageOption.FR ? "active" : ""}>
         FR
       </a>

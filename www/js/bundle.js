@@ -2,10 +2,27 @@
 (() => {
   var __create = Object.create;
   var __defProp = Object.defineProperty;
+  var __defProps = Object.defineProperties;
   var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+  var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
   var __getOwnPropNames = Object.getOwnPropertyNames;
+  var __getOwnPropSymbols = Object.getOwnPropertySymbols;
   var __getProtoOf = Object.getPrototypeOf;
   var __hasOwnProp = Object.prototype.hasOwnProperty;
+  var __propIsEnum = Object.prototype.propertyIsEnumerable;
+  var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+  var __spreadValues = (a, b) => {
+    for (var prop in b || (b = {}))
+      if (__hasOwnProp.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    if (__getOwnPropSymbols)
+      for (var prop of __getOwnPropSymbols(b)) {
+        if (__propIsEnum.call(b, prop))
+          __defNormalProp(a, prop, b[prop]);
+      }
+    return a;
+  };
+  var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
   var __commonJS = (cb, mod) => function __require() {
     return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
   };
@@ -511,7 +528,7 @@
             }
             return element;
           };
-          function createElement21(type, config, children) {
+          function createElement22(type, config, children) {
             var propName;
             var props = {};
             var key = null;
@@ -1097,7 +1114,7 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useRef(initialValue);
           }
-          function useEffect10(create, deps) {
+          function useEffect11(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useEffect(create, deps);
           }
@@ -1610,7 +1627,7 @@
                 error("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
               }
             }
-            var element = createElement21.apply(this, arguments);
+            var element = createElement22.apply(this, arguments);
             if (element == null) {
               return element;
             }
@@ -1879,7 +1896,7 @@
           exports.useContext = useContext6;
           exports.useDebugValue = useDebugValue;
           exports.useDeferredValue = useDeferredValue;
-          exports.useEffect = useEffect10;
+          exports.useEffect = useEffect11;
           exports.useId = useId2;
           exports.useImperativeHandle = useImperativeHandle;
           exports.useInsertionEffect = useInsertionEffect;
@@ -2383,9 +2400,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React21 = require_react();
+          var React23 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React21.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React23.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -3990,7 +4007,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React21.Children.forEach(props.children, function(child) {
+                  React23.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -9389,7 +9406,7 @@
               }
             }
           }
-          function createElement21(type, props, rootContainerElement, parentNamespace) {
+          function createElement22(type, props, rootContainerElement, parentNamespace) {
             var isCustomComponentTag;
             var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
             var domElement;
@@ -10250,7 +10267,7 @@
               }
               parentNamespace = hostContextDev.namespace;
             }
-            var domElement = createElement21(type, props, rootContainerInstance, parentNamespace);
+            var domElement = createElement22(type, props, rootContainerInstance, parentNamespace);
             precacheFiberNode(internalInstanceHandle, domElement);
             updateFiberProps(domElement, props);
             return domElement;
@@ -12437,7 +12454,7 @@
             }
           }
           var fakeInternalInstance = {};
-          var emptyRefsObject = new React21.Component().refs;
+          var emptyRefsObject = new React23.Component().refs;
           var didWarnAboutStateAssignmentForComponent;
           var didWarnAboutUninitializedState;
           var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -23509,11 +23526,11 @@
   });
 
   // src/root.tsx
-  var React20 = __toESM(require_react());
+  var React22 = __toESM(require_react());
   var import_client = __toESM(require_client());
 
   // src/components/app.tsx
-  var React19 = __toESM(require_react());
+  var React21 = __toESM(require_react());
 
   // node_modules/react-router-dom/dist/index.js
   var React2 = __toESM(require_react());
@@ -23774,41 +23791,41 @@
     ResultType2["error"] = "error";
   })(ResultType || (ResultType = {}));
   var immutableRouteKeys = /* @__PURE__ */ new Set(["lazy", "caseSensitive", "path", "id", "index", "children"]);
-  function isIndexRoute(route) {
-    return route.index === true;
+  function isIndexRoute(route2) {
+    return route2.index === true;
   }
-  function convertRoutesToDataRoutes(routes, mapRouteProperties2, parentPath, manifest) {
+  function convertRoutesToDataRoutes(routes2, mapRouteProperties2, parentPath, manifest) {
     if (parentPath === void 0) {
       parentPath = [];
     }
     if (manifest === void 0) {
       manifest = {};
     }
-    return routes.map((route, index) => {
+    return routes2.map((route2, index) => {
       let treePath = [...parentPath, index];
-      let id = typeof route.id === "string" ? route.id : treePath.join("-");
-      invariant(route.index !== true || !route.children, "Cannot specify children on an index route");
+      let id = typeof route2.id === "string" ? route2.id : treePath.join("-");
+      invariant(route2.index !== true || !route2.children, "Cannot specify children on an index route");
       invariant(!manifest[id], 'Found a route id collision on id "' + id + "\".  Route id's must be globally unique within Data Router usages");
-      if (isIndexRoute(route)) {
-        let indexRoute = _extends({}, route, mapRouteProperties2(route), {
+      if (isIndexRoute(route2)) {
+        let indexRoute = _extends({}, route2, mapRouteProperties2(route2), {
           id
         });
         manifest[id] = indexRoute;
         return indexRoute;
       } else {
-        let pathOrLayoutRoute = _extends({}, route, mapRouteProperties2(route), {
+        let pathOrLayoutRoute = _extends({}, route2, mapRouteProperties2(route2), {
           id,
           children: void 0
         });
         manifest[id] = pathOrLayoutRoute;
-        if (route.children) {
-          pathOrLayoutRoute.children = convertRoutesToDataRoutes(route.children, mapRouteProperties2, treePath, manifest);
+        if (route2.children) {
+          pathOrLayoutRoute.children = convertRoutesToDataRoutes(route2.children, mapRouteProperties2, treePath, manifest);
         }
         return pathOrLayoutRoute;
       }
     });
   }
-  function matchRoutes(routes, locationArg, basename) {
+  function matchRoutes(routes2, locationArg, basename) {
     if (basename === void 0) {
       basename = "/";
     }
@@ -23817,7 +23834,7 @@
     if (pathname == null) {
       return null;
     }
-    let branches = flattenRoutes(routes);
+    let branches = flattenRoutes(routes2);
     rankRouteBranches(branches);
     let matches = null;
     for (let i = 0; matches == null && i < branches.length; ++i) {
@@ -23836,19 +23853,19 @@
   }
   function convertRouteMatchToUiMatch(match, loaderData) {
     let {
-      route,
+      route: route2,
       pathname,
       params
     } = match;
     return {
-      id: route.id,
+      id: route2.id,
       pathname,
       params,
-      data: loaderData[route.id],
-      handle: route.handle
+      data: loaderData[route2.id],
+      handle: route2.handle
     };
   }
-  function flattenRoutes(routes, branches, parentsMeta, parentPath) {
+  function flattenRoutes(routes2, branches, parentsMeta, parentPath) {
     if (branches === void 0) {
       branches = [];
     }
@@ -23858,12 +23875,12 @@
     if (parentPath === void 0) {
       parentPath = "";
     }
-    let flattenRoute = (route, index, relativePath) => {
+    let flattenRoute = (route2, index, relativePath) => {
       let meta = {
-        relativePath: relativePath === void 0 ? route.path || "" : relativePath,
-        caseSensitive: route.caseSensitive === true,
+        relativePath: relativePath === void 0 ? route2.path || "" : relativePath,
+        caseSensitive: route2.caseSensitive === true,
         childrenIndex: index,
-        route
+        route: route2
       };
       if (meta.relativePath.startsWith("/")) {
         invariant(meta.relativePath.startsWith(parentPath), 'Absolute route path "' + meta.relativePath + '" nested under path ' + ('"' + parentPath + '" is not valid. An absolute child route path ') + "must start with the combined path of all its parent routes.");
@@ -23871,31 +23888,31 @@
       }
       let path = joinPaths([parentPath, meta.relativePath]);
       let routesMeta = parentsMeta.concat(meta);
-      if (route.children && route.children.length > 0) {
+      if (route2.children && route2.children.length > 0) {
         invariant(
           // Our types know better, but runtime JS may not!
           // @ts-expect-error
-          route.index !== true,
+          route2.index !== true,
           "Index routes must not have child routes. Please remove " + ('all child routes from route path "' + path + '".')
         );
-        flattenRoutes(route.children, branches, routesMeta, path);
+        flattenRoutes(route2.children, branches, routesMeta, path);
       }
-      if (route.path == null && !route.index) {
+      if (route2.path == null && !route2.index) {
         return;
       }
       branches.push({
         path,
-        score: computeScore(path, route.index),
+        score: computeScore(path, route2.index),
         routesMeta
       });
     };
-    routes.forEach((route, index) => {
+    routes2.forEach((route2, index) => {
       var _route$path;
-      if (route.path === "" || !((_route$path = route.path) != null && _route$path.includes("?"))) {
-        flattenRoute(route, index);
+      if (route2.path === "" || !((_route$path = route2.path) != null && _route$path.includes("?"))) {
+        flattenRoute(route2, index);
       } else {
-        for (let exploded of explodeOptionalSegments(route.path)) {
-          flattenRoute(route, index, exploded);
+        for (let exploded of explodeOptionalSegments(route2.path)) {
+          flattenRoute(route2, index, exploded);
         }
       }
     });
@@ -23973,13 +23990,13 @@
       if (!match)
         return null;
       Object.assign(matchedParams, match.params);
-      let route = meta.route;
+      let route2 = meta.route;
       matches.push({
         // TODO: Can this as be avoided?
         params: matchedParams,
         pathname: joinPaths([matchedPathname, match.pathname]),
         pathnameBase: normalizePathname(joinPaths([matchedPathname, match.pathnameBase])),
-        route
+        route: route2
       });
       if (match.pathnameBase !== "/") {
         matchedPathname = joinPaths([matchedPathname, match.pathnameBase]);
@@ -24218,8 +24235,8 @@
     location: void 0
   };
   var ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
-  var defaultMapRouteProperties = (route) => ({
-    hasErrorBoundary: Boolean(route.hasErrorBoundary)
+  var defaultMapRouteProperties = (route2) => ({
+    hasErrorBoundary: Boolean(route2.hasErrorBoundary)
   });
   function createRouter(init) {
     const routerWindow = init.window ? init.window : typeof window !== "undefined" ? window : void 0;
@@ -24231,8 +24248,8 @@
       mapRouteProperties2 = init.mapRouteProperties;
     } else if (init.detectErrorBoundary) {
       let detectErrorBoundary = init.detectErrorBoundary;
-      mapRouteProperties2 = (route) => ({
-        hasErrorBoundary: detectErrorBoundary(route)
+      mapRouteProperties2 = (route2) => ({
+        hasErrorBoundary: detectErrorBoundary(route2)
       });
     } else {
       mapRouteProperties2 = defaultMapRouteProperties;
@@ -24259,11 +24276,11 @@
       });
       let {
         matches,
-        route
+        route: route2
       } = getShortCircuitMatches(dataRoutes);
       initialMatches = matches;
       initialErrors = {
-        [route.id]: error
+        [route2.id]: error
       };
     }
     let initialized = (
@@ -24520,14 +24537,14 @@
         });
         let {
           matches: notFoundMatches,
-          route
+          route: route2
         } = getShortCircuitMatches(routesToUse);
         cancelActiveDeferreds();
         completeNavigation(location2, {
           matches: notFoundMatches,
           loaderData: {},
           errors: {
-            [route.id]: error
+            [route2.id]: error
           }
         });
         return;
@@ -25552,15 +25569,15 @@
     }
     return arg.defaultShouldRevalidate;
   }
-  async function loadLazyRouteModule(route, mapRouteProperties2, manifest) {
-    if (!route.lazy) {
+  async function loadLazyRouteModule(route2, mapRouteProperties2, manifest) {
+    if (!route2.lazy) {
       return;
     }
-    let lazyRoute = await route.lazy();
-    if (!route.lazy) {
+    let lazyRoute = await route2.lazy();
+    if (!route2.lazy) {
       return;
     }
-    let routeToUpdate = manifest[route.id];
+    let routeToUpdate = manifest[route2.id];
     invariant(routeToUpdate, "No route found in manifest");
     let routeUpdates = {};
     for (let lazyRouteProperty in lazyRoute) {
@@ -25879,8 +25896,8 @@
     let eligibleMatches = routeId ? matches.slice(0, matches.findIndex((m) => m.route.id === routeId) + 1) : [...matches];
     return eligibleMatches.reverse().find((m) => m.route.hasErrorBoundary === true) || matches[0];
   }
-  function getShortCircuitMatches(routes) {
-    let route = routes.find((r) => r.index || !r.path || r.path === "/") || {
+  function getShortCircuitMatches(routes2) {
+    let route2 = routes2.find((r) => r.index || !r.path || r.path === "/") || {
       id: "__shim-error-route__"
     };
     return {
@@ -25888,9 +25905,9 @@
         params: {},
         pathname: "",
         pathnameBase: "",
-        route
+        route: route2
       }],
-      route
+      route: route2
     };
   }
   function getInternalRouterError(status, _temp4) {
@@ -26336,7 +26353,7 @@
     let routePathnamesJson = JSON.stringify(getPathContributingMatches(matches).map((match) => match.pathnameBase));
     return React.useMemo(() => resolveTo(to, JSON.parse(routePathnamesJson), locationPathname, relative === "path"), [to, routePathnamesJson, locationPathname, relative]);
   }
-  function useRoutesImpl(routes, locationArg, dataRouterState) {
+  function useRoutesImpl(routes2, locationArg, dataRouterState) {
     !useInRouterContext() ? true ? invariant(
       false,
       // TODO: This error is probably because they somehow have 2 versions of the
@@ -26370,7 +26387,7 @@
     }
     let pathname = location2.pathname || "/";
     let remainingPathname = parentPathnameBase === "/" ? pathname : pathname.slice(parentPathnameBase.length) || "/";
-    let matches = matchRoutes(routes, {
+    let matches = matchRoutes(routes2, {
       pathname: remainingPathname
     });
     if (true) {
@@ -26589,13 +26606,13 @@
     return state;
   }
   function useRouteContext(hookName) {
-    let route = React.useContext(RouteContext);
-    !route ? true ? invariant(false, getDataRouterConsoleError(hookName)) : invariant(false) : void 0;
-    return route;
+    let route2 = React.useContext(RouteContext);
+    !route2 ? true ? invariant(false, getDataRouterConsoleError(hookName)) : invariant(false) : void 0;
+    return route2;
   }
   function useCurrentRouteId(hookName) {
-    let route = useRouteContext(hookName);
-    let thisRoute = route.matches[route.matches.length - 1];
+    let route2 = useRouteContext(hookName);
+    let thisRoute = route2.matches[route2.matches.length - 1];
     !thisRoute.route.id ? true ? invariant(false, hookName + ' can only be used on routes that contain a unique "id"') : invariant(false) : void 0;
     return thisRoute.route.id;
   }
@@ -26711,10 +26728,10 @@
   }
   function DataRoutes(_ref2) {
     let {
-      routes,
+      routes: routes2,
       state
     } = _ref2;
-    return useRoutesImpl(routes, void 0, state);
+    return useRoutesImpl(routes2, void 0, state);
   }
   function Router(_ref5) {
     let {
@@ -26771,31 +26788,31 @@
   }
   var neverSettledPromise = new Promise(() => {
   });
-  function mapRouteProperties(route) {
+  function mapRouteProperties(route2) {
     let updates = {
       // Note: this check also occurs in createRoutesFromChildren so update
       // there if you change this -- please and thank you!
-      hasErrorBoundary: route.ErrorBoundary != null || route.errorElement != null
+      hasErrorBoundary: route2.ErrorBoundary != null || route2.errorElement != null
     };
-    if (route.Component) {
+    if (route2.Component) {
       if (true) {
-        if (route.element) {
+        if (route2.element) {
           true ? warning(false, "You should not include both `Component` and `element` on your route - `Component` will be used.") : void 0;
         }
       }
       Object.assign(updates, {
-        element: /* @__PURE__ */ React.createElement(route.Component),
+        element: /* @__PURE__ */ React.createElement(route2.Component),
         Component: void 0
       });
     }
-    if (route.ErrorBoundary) {
+    if (route2.ErrorBoundary) {
       if (true) {
-        if (route.errorElement) {
+        if (route2.errorElement) {
           true ? warning(false, "You should not include both `ErrorBoundary` and `errorElement` on your route - `ErrorBoundary` will be used.") : void 0;
         }
       }
       Object.assign(updates, {
-        errorElement: /* @__PURE__ */ React.createElement(route.ErrorBoundary),
+        errorElement: /* @__PURE__ */ React.createElement(route2.ErrorBoundary),
         ErrorBoundary: void 0
       });
     }
@@ -26936,7 +26953,7 @@
   var _excluded = ["onClick", "relative", "reloadDocument", "replace", "state", "target", "to", "preventScrollReset"];
   var _excluded2 = ["aria-current", "caseSensitive", "className", "end", "style", "to", "children"];
   var _excluded3 = ["reloadDocument", "replace", "state", "method", "action", "onSubmit", "submit", "relative", "preventScrollReset"];
-  function createBrowserRouter(routes, opts) {
+  function createBrowserRouter(routes2, opts) {
     return createRouter({
       basename: opts == null ? void 0 : opts.basename,
       future: _extends3({}, opts == null ? void 0 : opts.future, {
@@ -26946,7 +26963,7 @@
         window: opts == null ? void 0 : opts.window
       }),
       hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
-      routes,
+      routes: routes2,
       mapRouteProperties
     }).initialize();
   }
@@ -27486,7 +27503,7 @@
       EN: "Green",
       FR: "Vert"
     },
-    "topic.foreign_policy": {
+    "topic.foreign-policy": {
       EN: "Foreign Policy",
       FR: "Affaires \xE9trang\xE8res"
     },
@@ -27498,7 +27515,7 @@
       EN: "Taxes",
       FR: "Taxes et imp\xF4ts"
     },
-    "topic.international_trade": {
+    "topic.international-trade": {
       EN: "International Trade",
       FR: "Commerce international"
     },
@@ -27510,11 +27527,11 @@
       EN: "Government",
       FR: "Gouvernement"
     },
-    "topic.indigenous_relations": {
+    "topic.indigenous-relations": {
       EN: "Indigenous Relations",
       FR: "Peuples autochtones"
     },
-    "topic.healthcare": {
+    "topic.health-and-safety": {
       EN: "Health & Safety",
       FR: "Sant\xE9 et s\xE9curit\xE9"
     },
@@ -27526,19 +27543,11 @@
       EN: "Science",
       FR: "Science"
     },
-    "topic.child_care": {
+    "topic.child-care": {
       EN: "Child Care",
       FR: "Soin des enfants"
     },
-    "topic.bill_c51": {
-      EN: "Bill C-51",
-      FR: "Projet de loi C-51"
-    },
-    "topic.cannabis": {
-      EN: "Cannabis",
-      FR: "Cannabis"
-    },
-    "topic.social_assistance": {
+    "topic.social-assistance": {
       EN: "Financial Support",
       FR: "Soutien financier"
     },
@@ -27550,11 +27559,7 @@
       EN: "Senate",
       FR: "S\xE9nat"
     },
-    "topic.electoral_reform": {
-      EN: "Electoral Reform",
-      FR: "R\xE9forme \xE9lectorale"
-    },
-    "topic.civil_rights": {
+    "topic.civil-rights": {
       EN: "Civil Rights",
       FR: "Droits civils"
     },
@@ -27570,7 +27575,7 @@
       EN: "Affordability",
       FR: "Co\xFBt de la vie"
     },
-    "topic.arts_and_culture": {
+    "topic.arts-and-culture": {
       EN: "Arts & Culture",
       FR: "Arts et culture"
     },
@@ -27622,6 +27627,7 @@
   var translations_default = translations;
 
   // src/contexts/language-context.tsx
+  var LANGAUGE_STORAGE_KEY = "language";
   var LanguageContext = (0, import_react.createContext)({
     language: LanguageOption.EN,
     setLanguage: () => {
@@ -27636,9 +27642,17 @@
   function useTranslation() {
     return (0, import_react.useContext)(TranslationContext);
   }
-  function LanguageProvider({ defaultLanguage, children }) {
-    const [language, setLanguage] = (0, import_react.useState)(defaultLanguage);
-    const value = { language, setLanguage };
+  function LanguageProvider({ children }) {
+    let initialLanguage = localStorage.getItem(LANGAUGE_STORAGE_KEY);
+    if (initialLanguage === null) {
+      initialLanguage = LanguageOption.EN;
+      localStorage.setItem(LANGAUGE_STORAGE_KEY, initialLanguage);
+    }
+    const [language, setLanguage] = (0, import_react.useState)(initialLanguage);
+    const value = { language, setLanguage: (language2) => {
+      localStorage.setItem(LANGAUGE_STORAGE_KEY, language2);
+      setLanguage(language2);
+    } };
     const t = (key, ...args) => {
       const translation = translations_default[key];
       if (typeof translation === "function") {
@@ -27659,11 +27673,16 @@
   // src/components/policy_table/policy-point.tsx
   var React6 = __toESM(require_react());
 
-  // src/contexts/url-context.tsx
+  // src/contexts/router-context.tsx
   var import_react2 = __toESM(require_react());
   var React5 = __toESM(require_react());
-  var URLContext = (0, import_react2.createContext)({
-    historyState: {},
+  function route(path, handler) {
+    const params = path.split("/").filter((part) => part.startsWith(":"));
+    const args = params.map((param) => param.slice(1));
+    handler(...args);
+  }
+  var RouterContext = (0, import_react2.createContext)({
+    history: [],
     setURL: () => {
     },
     setURLToPrevious: () => {
@@ -27672,30 +27691,60 @@
     }
   });
   function useURL() {
-    return (0, import_react2.useContext)(URLContext);
+    return (0, import_react2.useContext)(RouterContext);
   }
+  var next_id = 0;
   function URLProvider({ children }) {
-    const [historyState, setHistoryState] = (0, import_react2.useState)(() => history.state || {});
-    const setURLToPrevious = () => history.back();
+    const [navHistory, setNavHistory] = (0, import_react2.useState)(() => {
+      if ("__op_id" in history.state) {
+        return [__spreadValues({}, history.state)];
+      } else {
+        const entry = { __op_id: next_id++, uri: location.pathname, state: history.state };
+        history.replaceState(entry, "");
+        return [entry];
+      }
+    });
+    const setURLToPrevious = (onEmptyHistory) => {
+      const [_, ...tl] = navHistory;
+      if (tl.length > 0) {
+        setNavHistory([...tl]);
+        history.back();
+      } else {
+        onEmptyHistory();
+      }
+    };
     const setURL = (state, url) => {
-      history.pushState(state, "", url);
-      console.log("setting history state");
-      setHistoryState(state);
+      const entry = { __op_id: next_id++, uri: url || "", state };
+      history.pushState(entry, "", url);
+      setNavHistory([entry, ...navHistory]);
     };
     const updateURLState = (state) => {
-      history.replaceState(state, "");
-      console.log("replacing history state");
-      setHistoryState(state);
+      const [hd, ...tl] = navHistory;
+      const entry = __spreadProps(__spreadValues({}, hd), { state });
+      history.replaceState(entry, "");
+      setNavHistory([entry, ...tl]);
     };
-    const value = { setURL, historyState, setURLToPrevious, updateURLState };
     React5.useEffect(() => {
       const handler = (event) => {
-        setHistoryState(event.state || {});
+        const state = event.state;
+        const [hd, prev, ...rest] = navHistory;
+        if (state.__op_id === hd.__op_id) {
+          return;
+        } else if (prev && state.__op_id === prev.__op_id) {
+          setNavHistory([prev, ...rest]);
+        } else {
+          if ("id" in state) {
+            setNavHistory([state, ...navHistory]);
+          } else {
+            setNavHistory([{ __op_id: next_id++, uri: location.pathname, state }, ...navHistory]);
+          }
+        }
       };
       addEventListener("popstate", handler);
       return () => removeEventListener("popstate", handler);
-    }, []);
-    return /* @__PURE__ */ React5.createElement(URLContext.Provider, { value }, children);
+    }, [navHistory]);
+    const value = { setURL, setURLToPrevious, updateURLState, history: navHistory };
+    return /* @__PURE__ */ React5.createElement(RouterContext.Provider, { value }, children);
   }
 
   // src/components/policy_table/policy-point.tsx
@@ -27744,7 +27793,6 @@
 
   // src/components/policy_table/policy-cell.tsx
   function PolicyCell({ party, topic, policies: policies2 }) {
-    let { language } = useLanguage();
     let { t } = useTranslation();
     let listItems = policies2.map((policy) => {
       return /* @__PURE__ */ React7.createElement(PolicyPoint, { policy, key: "".concat(party, "/").concat(policy.title.EN) });
@@ -27757,21 +27805,30 @@
   }
 
   // src/components/policy_table/policy-row.tsx
+  function topicURL(topic) {
+    return "/topics/".concat(topic);
+  }
   function PolicyRow({ topic, parties, policies: policies2 }) {
     const { t } = useTranslation();
+    const { setURL } = useURL();
     const policyCells = parties.map((party) => {
       const partyPolicies = policies2.filter((policy) => policy.party === party);
       return /* @__PURE__ */ React8.createElement(PolicyCell, { party, topic, policies: partyPolicies, key: "".concat(party, "/").concat(topic) });
     });
-    return /* @__PURE__ */ React8.createElement("div", { className: "policyRow divider-t" }, /* @__PURE__ */ React8.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React8.createElement("div", { className: "policyCell policyTopic" }, /* @__PURE__ */ React8.createElement(
+    function handleClick(event) {
+      setURL({}, topicURL(topic));
+      event.preventDefault();
+      return false;
+    }
+    return /* @__PURE__ */ React8.createElement("div", { className: "policyRow divider-t" }, /* @__PURE__ */ React8.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React8.createElement("div", { className: "policyCell policyTopic" }, /* @__PURE__ */ React8.createElement("a", { href: "#", className: "no-underline", onClick: handleClick }, /* @__PURE__ */ React8.createElement(
       "h3",
       {
         "aria-labelledby": "policyTableColumn--topics",
-        id: "policyTableRow--".concat(topic.replace(/[^a-zA-Z]/g, "")),
+        id: "policyTableRow--".concat(topic),
         className: "policyTopic--title"
       },
-      t(topic)
-    )), policyCells));
+      /* @__PURE__ */ React8.createElement("span", { className: "policyTopic--info" }, /* @__PURE__ */ React8.createElement("i", { className: "fa fa-info-circle" }), " ", t("topic.".concat(topic)))
+    ))), policyCells));
   }
 
   // src/components/policy_table/policy-table.tsx
@@ -27845,14 +27902,14 @@
     return /* @__PURE__ */ React9.createElement("div", { className: "policyTable" }, /* @__PURE__ */ React9.createElement("div", { id: "tableHeader", className: "policyRow container tableHeader" }, /* @__PURE__ */ React9.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React9.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty", onClick: (e) => {
       e.stopPropagation();
       setTopicFilterState(!topicFilterState);
-    } }, t("topics"), /* @__PURE__ */ React9.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React9.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React9.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([topic, checked]) => !checked) ? null : /* @__PURE__ */ React9.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React9.createElement("a", { href: "#", onClick: (e) => {
+    } }, t("topics"), /* @__PURE__ */ React9.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React9.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React9.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : /* @__PURE__ */ React9.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React9.createElement("a", { href: "#", onClick: (e) => {
       e.preventDefault();
       setTopicSelections(new Map(topics.map((topic) => [topic, false])));
-    } }, t("select_none"))), [...topicSelections.entries()].every(([topic, checked]) => checked) ? null : /* @__PURE__ */ React9.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React9.createElement("a", { href: "#", onClick: (e) => {
+    } }, t("select_none"))), [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : /* @__PURE__ */ React9.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React9.createElement("a", { href: "#", onClick: (e) => {
       e.preventDefault();
       setTopicSelections(new Map(topics.map((topic) => [topic, true])));
     } }, t("select_all")))), [...topicSelections.entries()].map(([topic, checked]) => {
-      return /* @__PURE__ */ React9.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onClick: (e) => setTopicSelections(new Map(topicSelections.set(topic, !checked))) }, t(topic.toLowerCase()), /* @__PURE__ */ React9.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
+      return /* @__PURE__ */ React9.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onClick: (e) => setTopicSelections(new Map(topicSelections.set(topic, !checked))) }, t("topic.".concat(topic)), /* @__PURE__ */ React9.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
     }))), sortedParties.map((party) => {
       return /* @__PURE__ */ React9.createElement(
         "div",
@@ -28649,16 +28706,17 @@
   }
   function PolicyModal() {
     const modalId = (0, import_react4.useId)();
-    const { modalPolicy } = usePolicyModal();
-    const { setURLToPrevious } = useURL();
-    const { policyModalVisible, setPolicyModalVisibility } = usePolicyModalVisiblity();
+    const { modalPolicy, policyModalVisible } = usePolicyModal();
+    const { setURL, setURLToPrevious } = useURL();
     const { language } = useLanguage();
     const { t } = useTranslation();
     const [dialogElement, setDialogElement] = (0, import_react4.useState)(void 0);
     const [content, setContent] = React10.useState("");
     const closeModal = () => {
       console.log("Reverting URL to previous state");
-      setURLToPrevious();
+      setURLToPrevious(() => {
+        setURL({}, "/policies/".concat(modalPolicy == null ? void 0 : modalPolicy.year));
+      });
     };
     (0, import_react4.useEffect)(() => {
       const dialog = document.getElementById(modalId);
@@ -28667,13 +28725,10 @@
     (0, import_react4.useEffect)(() => {
       if (dialogElement) {
         if (modalPolicy) {
-          console.log("Showing modal!");
           dialogElement.showModal();
-          setPolicyModalVisibility(true);
           document.body.classList.add("policyModal--open");
         } else {
           dialogElement.close();
-          setPolicyModalVisibility(false);
           document.body.classList.remove("policyModal--open");
         }
       }
@@ -28689,6 +28744,7 @@
       let html191 = null;
       if (modalPolicy == null ? void 0 : modalPolicy.handle) {
         const handle = "".concat(modalPolicy.handle, "_").concat(language);
+        console.log(policies(modalPolicy.year)[modalPolicy.party]);
         html191 = policies(modalPolicy.year)[modalPolicy.party][handle];
       }
       setContent(html191 || "");
@@ -28709,48 +28765,44 @@
         e.preventDefault();
         closeModal();
         return false;
-      } }), /* @__PURE__ */ React10.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React10.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React10.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React10.createElement("p", null, " ", t(modalPolicy.topic), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React10.createElement(
+      } }), /* @__PURE__ */ React10.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React10.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React10.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React10.createElement("p", null, " ", t("topic.".concat(modalPolicy.topic)), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React10.createElement(
         "h1",
         {
           className: "modal--heading modal--heading__primary",
           dangerouslySetInnerHTML: { __html: modalPolicy.title[language] },
           id: "policyDialog__label"
         }
-      ), /* @__PURE__ */ React10.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React10.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React10.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React10.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React10.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React10.createElement(Reference, { key: ref.url, source: ref }))), /* @__PURE__ */ React10.createElement("div", { className: "modal--randomize" }, /* @__PURE__ */ React10.createElement("a", { className: "randomize-policy iconSuffix iconSuffix--random", onClick: (e) => e.preventDefault() }, t("modal.random_policy")))))
+      ), /* @__PURE__ */ React10.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React10.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React10.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React10.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React10.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React10.createElement(Reference, { key: ref.url, source: ref }))), /* @__PURE__ */ React10.createElement("div", { className: "modal--randomize" }, /* @__PURE__ */ React10.createElement("a", { href: "#", className: "randomize-policy iconSuffix iconSuffix--random", onClick: (e) => e.preventDefault() }, t("modal.random_policy")))))
     );
   }
 
   // src/contexts/policy-modal-context.tsx
   var PolicyModalContext = (0, import_react5.createContext)({
-    modalPolicy: null
+    modalPolicy: null,
+    policyModalVisible: false
   });
   function usePolicyModal() {
     return (0, import_react5.useContext)(PolicyModalContext);
   }
-  var PolicyModalVisibilityContext = (0, import_react5.createContext)({
-    policyModalVisible: false,
-    setPolicyModalVisibility: () => {
-    }
-  });
-  function usePolicyModalVisiblity() {
-    return (0, import_react5.useContext)(PolicyModalVisibilityContext);
-  }
   function PolicyModalProvider({ children }) {
-    const { historyState } = useURL();
+    const { history: history2 } = useURL();
     const [modalPolicy, setModalPolicy] = (0, import_react5.useState)(() => null);
-    const policyModalValue = { modalPolicy };
     const [policyModalVisible, setPolicyModalVisibility] = (0, import_react5.useState)(!!modalPolicy);
-    const policyModalVisibilityValue = { policyModalVisible, setPolicyModalVisibility };
+    const policyModalValue = { modalPolicy, policyModalVisible };
     React11.useEffect(() => {
-      if ("policy" in historyState && historyState.policy) {
-        console.log("Setting modal policy from history state", historyState.policy);
-        setModalPolicy(historyState.policy);
+      var _a;
+      const currentState = (_a = history2[0]) == null ? void 0 : _a.state;
+      if (currentState && "policy" in currentState && currentState.policy) {
+        console.log("Setting modal policy from history state", currentState.policy);
+        setModalPolicy(currentState.policy);
+        setPolicyModalVisibility(true);
       } else {
-        console.log("Clearing modal policy since it does not exist in history state");
+        console.log("Policy not set in history state, clearing modal policy");
         setModalPolicy(null);
+        setPolicyModalVisibility(false);
       }
-    }, [historyState]);
-    return /* @__PURE__ */ React11.createElement(PolicyModalContext.Provider, { value: policyModalValue }, /* @__PURE__ */ React11.createElement(PolicyModalVisibilityContext.Provider, { value: policyModalVisibilityValue }, /* @__PURE__ */ React11.createElement(PolicyModal, null), children));
+    }, [history2]);
+    return /* @__PURE__ */ React11.createElement(PolicyModalContext.Provider, { value: policyModalValue }, /* @__PURE__ */ React11.createElement(PolicyModal, null), children);
   }
 
   // src/components/policy_table/policy-comparison-table.tsx
@@ -28774,7 +28826,7 @@
     const [tableDataset, setTableDataset] = React12.useState();
     const [parties, setParties] = React12.useState();
     const [policiesByHandle, setPoliciesByHandle] = React12.useState();
-    const { updateURLState } = useURL();
+    const { updateURLState, history: history2 } = useURL();
     React12.useEffect(() => {
       if (selectedHandle && policiesByHandle) {
         const policy = policiesByHandle.get(selectedHandle);
@@ -28829,16 +28881,22 @@
     return /* @__PURE__ */ React13.createElement("div", { className: "langSelection" }, /* @__PURE__ */ React13.createElement(
       "a",
       {
-        href: "#en",
-        onClick: (_) => setLanguage(LanguageOption.EN),
+        href: "#",
+        onClick: (e) => {
+          e.preventDefault();
+          setLanguage(LanguageOption.EN);
+        },
         className: language == LanguageOption.EN ? "active" : ""
       },
       "EN"
     ), /* @__PURE__ */ React13.createElement("span", null, " | "), /* @__PURE__ */ React13.createElement(
       "a",
       {
-        href: "#fr",
-        onClick: (_) => setLanguage(LanguageOption.FR),
+        href: "#",
+        onClick: (e) => {
+          e.preventDefault();
+          setLanguage(LanguageOption.FR);
+        },
         className: language == LanguageOption.FR ? "active" : ""
       },
       "FR"
@@ -28918,32 +28976,65 @@
     return /* @__PURE__ */ React18.createElement(Page, { title: t("about") }, /* @__PURE__ */ React18.createElement("section", { className: "section" }, /* @__PURE__ */ React18.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React18.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
   }
 
+  // src/components/pages/topic-details.tsx
+  var React19 = __toESM(require_react());
+  function TopicDetails() {
+    const { topic } = useParams();
+    const { t } = useTranslation();
+    return /* @__PURE__ */ React19.createElement(Page, { title: t("topic.".concat(topic)) }, /* @__PURE__ */ React19.createElement("section", { className: "section" }, /* @__PURE__ */ React19.createElement("article", { className: "text-block text-large pb-3" })));
+  }
+
+  // src/components/redirect.tsx
+  var React20 = __toESM(require_react());
+  function Redirect({ to }) {
+    const { setURL } = useURL();
+    const navigate = useNavigate();
+    React20.useEffect(() => {
+      setURL({}, to);
+      navigate(to, { replace: true });
+    }, []);
+    return null;
+  }
+
   // src/components/app.tsx
+  var routes = [
+    route("/", () => /* @__PURE__ */ React21.createElement(Redirect, { to: "/policies/2021" })),
+    route("/policies/:year", (year) => /* @__PURE__ */ React21.createElement(PolicyComparisonIndex, null)),
+    route("/policies/:year/:party", (year, party, policyHandle) => /* @__PURE__ */ React21.createElement(PolicyComparisonIndex, null)),
+    route("/topics/:topic", (topic) => /* @__PURE__ */ React21.createElement(TopicDetails, null)),
+    route("/about", () => /* @__PURE__ */ React21.createElement(AboutIndex, null)),
+    route("/privacy", () => /* @__PURE__ */ React21.createElement(PrivacyPolicyIndex, null))
+  ];
   var router = createBrowserRouter([
     {
       path: "/",
+      // element: <Redirect to="/policies/2021" />,
       loader: (_) => redirect("/policies/2021"),
-      errorElement: /* @__PURE__ */ React19.createElement(ErrorPage, null)
+      errorElement: /* @__PURE__ */ React21.createElement(ErrorPage, null)
     },
     {
       path: "policies/:year",
-      element: /* @__PURE__ */ React19.createElement(PolicyComparisonIndex, null)
+      element: /* @__PURE__ */ React21.createElement(PolicyComparisonIndex, null)
     },
     {
       path: "policies/:year/:party/:policyHandle",
-      element: /* @__PURE__ */ React19.createElement(PolicyComparisonIndex, null)
+      element: /* @__PURE__ */ React21.createElement(PolicyComparisonIndex, null)
+    },
+    {
+      path: "topics/:topic",
+      element: /* @__PURE__ */ React21.createElement(TopicDetails, null)
     },
     {
       path: "about",
-      element: /* @__PURE__ */ React19.createElement(AboutIndex, null)
+      element: /* @__PURE__ */ React21.createElement(AboutIndex, null)
     },
     {
       path: "privacy",
-      element: /* @__PURE__ */ React19.createElement(PrivacyPolicyIndex, null)
+      element: /* @__PURE__ */ React21.createElement(PrivacyPolicyIndex, null)
     }
   ]);
   function App() {
-    return /* @__PURE__ */ React19.createElement(React19.StrictMode, null, /* @__PURE__ */ React19.createElement(LanguageProvider, { defaultLanguage: LanguageOption.EN }, /* @__PURE__ */ React19.createElement(URLProvider, null, /* @__PURE__ */ React19.createElement(RouterProvider, { router }))));
+    return /* @__PURE__ */ React21.createElement(React21.StrictMode, null, /* @__PURE__ */ React21.createElement(LanguageProvider, { defaultLanguage: LanguageOption.EN }, /* @__PURE__ */ React21.createElement(URLProvider, null, /* @__PURE__ */ React21.createElement(RouterProvider, { router }))));
   }
 
   // src/root.tsx
@@ -28952,7 +29043,7 @@
   }
   var $pageRoot = document.getElementById("page-root");
   var root = (0, import_client.createRoot)($pageRoot);
-  root.render(/* @__PURE__ */ React20.createElement(App, null));
+  root.render(/* @__PURE__ */ React22.createElement(App, null));
 })();
 /*! Bundled license information:
 

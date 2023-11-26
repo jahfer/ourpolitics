@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { useLanguage } from 'contexts/language-context'
-import { usePolicyModal, usePolicyModalVisiblity } from 'contexts/policy-modal-context'
-import { useURL } from 'contexts/url-context'
+import { useURL } from 'contexts/router-context'
 import { Party, Policy } from 'types/schema'
 
 interface PolicyPointProps {

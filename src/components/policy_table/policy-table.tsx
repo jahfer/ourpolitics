@@ -94,14 +94,14 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
             <ul className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
               <li className="policyTable--filterBar--item policyTable--filterBar--toggleAll">
                 {
-                  [...topicSelections.entries()].every(([topic, checked]) => !checked) ? null : (
+                  [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : (
                     <div className="policyTable--filterBar--toggle">
                       <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, false]))) }}>{t("select_none")}</a>
                     </div>
                   )
                 }
                 {
-                  [...topicSelections.entries()].every(([topic, checked]) => checked) ? null : (
+                  [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : (
                     <div className="policyTable--filterBar--toggle">
                       <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, true]))) }}>{t("select_all")}</a>
                     </div>
@@ -112,7 +112,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
                 [...topicSelections.entries()].map(([topic, checked]) => {
                   return (
                     <li key={`filterBar--${topic}`} className="policyTable--filterBar--item policyTable--filterBar--topic" onClick={(e) => setTopicSelections(new Map(topicSelections.set(topic, !checked)))}>
-                      {t(topic.toLowerCase())}
+                      {t(`topic.${topic}`)}
                       <input checked={checked} readOnly className="policyTable--filterBar--item--checkbox" type="checkbox" />
                     </li>
                   )

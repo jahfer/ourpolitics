@@ -3,6 +3,8 @@ import * as React from 'react';
 import { LanguageOption, Language } from 'types/schema';
 import translations from 'support/translations';
 
+const LANGAUGE_STORAGE_KEY: string = "language";
+
 interface LanguageProviderProps {
   defaultLanguage: Language;
   children: React.ReactNode;
@@ -34,9 +36,19 @@ export function useTranslation() {
   return useContext(TranslationContext);
 }
 
-export function LanguageProvider({ defaultLanguage, children }: LanguageProviderProps) {
-  const [language, setLanguage] = useState<Language>(defaultLanguage);
-  const value = { language, setLanguage };
+export function LanguageProvider({ children }: LanguageProviderProps) {
+  let initialLanguage = localStorage.getItem(LANGAUGE_STORAGE_KEY) as Language;
+
+  if (initialLanguage === null) {
+    initialLanguage = LanguageOption.EN;
+    localStorage.setItem(LANGAUGE_STORAGE_KEY, initialLanguage);
+  }
+
+  const [language, setLanguage] = useState<Language>(initialLanguage);
+  const value = { language, setLanguage: (language: Language) => {
+    localStorage.setItem(LANGAUGE_STORAGE_KEY, language);
+    setLanguage(language);
+  } };
 
   const t = (key: string, ...args: any[]) => {
     const translation = translations[key];

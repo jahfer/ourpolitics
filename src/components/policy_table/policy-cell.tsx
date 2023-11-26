@@ -10,7 +10,6 @@ interface PolicyCellProps {
 }
 
 export default function PolicyCell ({ party, topic, policies }: PolicyCellProps) {
-  let { language } = useLanguage();
   let { t } = useTranslation();
 
   let listItems = policies.map((policy) => {

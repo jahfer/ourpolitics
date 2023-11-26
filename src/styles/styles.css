@@ -90,6 +90,9 @@ a {
 
 .pageSubTitle {
   font-size: 3rem;
+  line-height: 2.5rem;
+  text-align: center;
+  flex: 0 1 auto;
   font-weight: 900;
   margin: 20px 0 10px;
 }
@@ -145,23 +148,32 @@ a {
 
 .policyTopic {
   text-align: center;
-  border: none;
+
+  &:hover {
+    .policyTopic--info {
+      border: 2px solid var(--color-light-grey);
+    }
+
+    .policyTopic--info > i {
+      visibility: visible;
+    }
+  }
+}
+
+.policyTopic--info {
+  background-color: var(--color-cream-light);
+  border-radius: 6px;
+  padding: 5px 8px 4px;
+  margin-left: calc(-1rem - 8px - 2px);
+
+  & > i {
+    padding-right: 3px;
+    visibility: hidden;
+  }
 }
 
 .policyTopic--title {
   margin: 5px 0;
-}
-
-.policyTopic--info {
-  border-bottom: 2px solid transparent;
-  font-size: 0.9rem;
-
-  &::before {
-    content: '\f05a';
-    font-family: 'FontAwesome';
-    margin-right: 5px;
-    vertical-align: bottom;
-  }
 }
 
 .policyRow {
@@ -367,14 +379,6 @@ a {
   vertical-align: top;
 }
 
-@media screen and (min-width: 608px) {
-  .pageSubTitle {
-    font-size: 5.5rem;
-    margin: 0;
-    padding: 20px 0;
-  }
-}
-
 @media screen and (min-width: 650px) {
   .policyCell--points {
     padding-left: 20px;
@@ -385,6 +389,12 @@ a {
   .pageTitle {
     height: 120px;
     margin-bottom: 0;
+  }
+
+  .pageSubTitle {
+    font-size: 5.5rem;
+    margin: 0;
+    padding: 20px 0;
   }
 
   .policyCell {
