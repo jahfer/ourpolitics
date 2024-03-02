@@ -1,9 +1,10 @@
 import * as React from 'react'
-import { useId, useEffect, useState, useLayoutEffect } from 'react'
+import { useId, useEffect, useState, useLayoutEffect, useCallback } from 'react'
 import { usePolicyModal } from 'contexts/policy-modal-context'
 import { useLanguage, useTranslation } from 'contexts/language-context';
 import { useURL } from 'contexts/router-context';
-import { Party, ReferenceType } from 'types/schema';
+import * as Policy from 'data/policy';
+import { Party } from 'types/schema';
 
 //@ts-ignore
 import { html as liberalPolicies2021 } from '../../policies/2021/lpc/*.md'
@@ -44,7 +45,7 @@ const policies: ((year: number) => Record<keyof typeof Party, Record<string, str
 }
 
 interface ReferenceProps {
-  source: ReferenceType,
+  source: Policy.ReferenceType,
 }
 
 function Reference ({ source }: ReferenceProps) {
@@ -67,12 +68,21 @@ export default function PolicyModal () {
   const [dialogElement, setDialogElement] = useState<HTMLDialogElement | undefined>(undefined);
   const [content, setContent] = React.useState<string>("");
 
-  const closeModal = () => {
-    console.log("Reverting URL to previous state");
+  const closeModal = useCallback(() => {
     setURLToPrevious(() => {
-      setURL({}, `/policies/${modalPolicy?.year}`)
+      // TODO:
+      // On a fresh tab that links to a written policy,
+      // hitting escape should close the modal and go back to
+      // the previous page. In this scenario, modalPolicy is
+      // undefined.
+      // http://127.0.0.1:8000/policies/2021/CPC/flow_through_shares
+      if (modalPolicy) {
+        setURL({}, `/policies/${modalPolicy?.year}`)
+      } else {
+        console.error("No policy to close");
+      }
     });
-  }
+  }, [modalPolicy]);
 
   useEffect(() => {
     const dialog = document.getElementById(modalId);
@@ -103,7 +113,6 @@ export default function PolicyModal () {
     let html = null;
     if (modalPolicy?.handle) {
       const handle = `${modalPolicy.handle}_${language}`;
-      console.log(policies(modalPolicy.year)[modalPolicy.party])
       html = policies(modalPolicy.year)[modalPolicy.party][handle];
     }
     setContent(html || "")
@@ -115,6 +124,38 @@ export default function PolicyModal () {
     );
   }
 
+  if (content === "") {
+    return (
+      <dialog
+      autoFocus={true}
+      id={modalId}
+      className={`policyModal--content policyReferenceModal--content policyModal--${modalPolicy.party} ${policyModalVisible ? "policyModal--visible" : ""}`}
+      aria-labelledby="policyDialog__label"
+      aria-describedby="policyDialog__description">
+        <div className="policyModal policyModal--reference">
+          <div className="modal--content reference-modal--content">
+            <a href="#" className="modal--close reference-modal--close" aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
+            <div className="modal--headingContainer">
+              <div className="modal--headingInfo">
+                <div className="modal--topicBox"> <p> {t(`topic.${modalPolicy.topic}`)} — {t(modalPolicy.party.toLowerCase())} </p> </div>
+              </div>
+            </div>
+            <h1
+              className="modal--heading modal--heading__primary"
+              dangerouslySetInnerHTML={{ __html: modalPolicy.title[language] }}
+            />
+          </div>
+
+          <aside className="modal--sidebar">
+            <ul className="reference--list list-plain">
+              {(modalPolicy.references.map(ref => <Reference key={ref.url} source={ref} />)) }
+            </ul>
+          </aside>
+        </div>
+      </dialog>
+    )
+  }
+
   return (
     <dialog
       autoFocus={true}
@@ -123,6 +164,7 @@ export default function PolicyModal () {
       aria-labelledby="policyDialog__label"
       aria-describedby="policyDialog__description">
       <div className="policyModal">
+
         <div className="modal--content">
           <a href="#" className="modal--close" aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
           <div className="modal--headingContainer">
@@ -139,16 +181,17 @@ export default function PolicyModal () {
             <div dangerouslySetInnerHTML={{ __html: content }} />
           </div>
         </div>
+
         <aside className="modal--sidebar">
           <h2 className="modal--heading modal--heading__secondary"> {t("modal.references")} </h2>
           <ul className="reference--list">
             {(modalPolicy.references.map(ref => <Reference key={ref.url} source={ref} />)) }
           </ul>
-          <div className="modal--randomize">
+          {/* <div className="modal--randomize">
             <a href="#" className="randomize-policy iconSuffix iconSuffix--random" onClick={e => e.preventDefault() }>
               {t("modal.random_policy")}
             </a>
-          </div>
+          </div> */}
         </aside>
       </div>
     </dialog>
