@@ -647,6 +647,9 @@ a {
   color: #0066cc;
   vertical-align: top;
 }
+#policyTableColumn--topics:hover .policyTableColumn--icon {
+  color: #fff;
+}
 @media screen and (min-width: 650px) {
   .policyCell--points {
     padding-left: 20px;
@@ -853,7 +856,7 @@ dialog {
   padding: 5px;
   margin-left: -5px;
 }
-.reference--list.list-plain li:nth-child(even) {
+.policyModal:not(.policyModal--reference) .reference--list.list-plain li:nth-child(even) {
   background-color: #f0f0ec;
   border-radius: 5px;
 }
@@ -865,7 +868,7 @@ dialog {
 }
 .reference--meta {
   font-size: 0.75em;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   text-transform: uppercase;
   color: #999;
 }
@@ -914,6 +917,10 @@ dialog {
   }
   .policyReferenceModal--content {
     max-width: 570px;
+    min-height: 50%;
+    min-width: 40%;
+    top: 15%;
+    bottom: auto;
   }
   .modal--heading__secondary {
     margin-bottom: 30px;
@@ -923,6 +930,10 @@ dialog {
     display: flex;
     flex-direction: row;
     display: flex;
+  }
+  .policyModal--reference {
+    flex-direction: column;
+    height: auto;
   }
   .modal--details {
     font-size: 1.1rem;
@@ -947,6 +958,9 @@ dialog {
   }
   .modal--close:hover::before {
     color: #ffbd00;
+  }
+  .reference-modal--content .modal--headingInfo {
+    margin-right: 30px;
   }
   .reference-modal--close {
     top: 39px;

@@ -1,12 +1,13 @@
 import * as React from 'react'
 import PolicyPoint from './policy-point'
-import { Party, Policy } from 'types/schema'
+import { Party } from 'types/schema'
 import { useLanguage, useTranslation } from 'contexts/language-context'
+import * as Policy from 'data/policy'
 
 interface PolicyCellProps {
   party: Party,
   topic: string,
-  policies: Array<Policy>,
+  policies: Array<Policy.T>,
 }
 
 export default function PolicyCell ({ party, topic, policies }: PolicyCellProps) {
@@ -24,7 +25,7 @@ export default function PolicyCell ({ party, topic, policies }: PolicyCellProps)
   return (
     <div className="policyCell" aria-labelledby={ariaLabels.join(" ")}>
       <h4 className={`policyCell--party textColor--${party}`}>
-        {party}
+        {t(party.toLowerCase())}
       </h4>
       <ul className="policyCell--points">
       {

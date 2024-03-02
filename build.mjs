@@ -77,7 +77,7 @@ let jsCtx = await esbuild.context({
   target: browserTargets,
   plugins: [
     mdDirectoryImportPlugin,
-    UnpluginMarkdown2Html(),
+    UnpluginMarkdown2Html({ anchor: { level: 6 }}),
   ],
   define: {
     'window.IS_PRODUCTION': 'false',

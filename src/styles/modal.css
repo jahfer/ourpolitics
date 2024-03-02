@@ -64,7 +64,8 @@ dialog {
 }
 
 .modal--heading {
-  line-height: 1em;
+    line-height: 1em;
+    /* text-wrap: balance; */
 
   &.modal--heading__primary {
     font-size: 200%;
@@ -195,11 +196,11 @@ dialog {
     padding: 5px;
     margin-left: -5px
   }
+}
 
-  &.list-plain li:nth-child(even) {
-    background-color: #f0f0ec;
-    border-radius: 5px;
-  }
+.policyModal:not(.policyModal--reference) .reference--list.list-plain li:nth-child(even) {
+  background-color: #f0f0ec;
+  border-radius: 5px;
 }
 
 .reference--title {
@@ -211,7 +212,7 @@ dialog {
 
 .reference--meta {
   font-size: 0.75em;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   text-transform: uppercase;
   color: #999;
 }
@@ -268,6 +269,10 @@ dialog {
 
   .policyReferenceModal--content {
     max-width: 570px;
+    min-height: 50%;
+    min-width: 40%;
+    top: 15%;
+    bottom: auto;
   }
 
   .modal--heading__secondary {
@@ -279,6 +284,11 @@ dialog {
     display: flex;
     flex-direction: row;
     display: flex;
+  }
+
+  .policyModal--reference {
+    flex-direction: column;
+    height: auto;
   }
 
   .modal--details {
@@ -308,6 +318,12 @@ dialog {
 
     &:hover::before {
       color: #ffbd00;
+    }
+  }
+
+  .reference-modal--content {
+    .modal--headingInfo {
+      margin-right: 30px;
     }
   }
 

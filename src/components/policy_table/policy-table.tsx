@@ -2,22 +2,9 @@ import * as React from 'react'
 import { useState } from 'react'
 import { useLanguage, useTranslation } from 'contexts/language-context'
 import PolicyRow from './policy-row'
-import { Party, Policy } from 'types/schema'
-
-// https://stackoverflow.com/a/2450976
-function shuffle<T>(array: Array<T>): Array<T> {
-  let currentIndex = array.length,  randomIndex;
-  // While there remain elements to shuffle.
-  while (currentIndex > 0) {
-    // Pick a remaining element.
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-  return array;
-}
+import { Party } from 'types/schema'
+import { T as Policy } from 'data/policy'
+import * as Util from 'support/util'
 
 interface PolicyTableProps {
   dataset: Map<string, Array<Policy>>;
@@ -29,7 +16,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
   const [topicFilterState, setTopicFilterState] = useState(() => false);
 
-  const sortedParties = React.useMemo(() => shuffle(Array.from(parties)), [parties]);
+  const sortedParties = React.useMemo(() => Util.shuffle(Array.from(parties)), [parties]);
   const topics = React.useMemo(() => Array.from(dataset.keys()), [dataset]);
   const [topicSelections, setTopicSelections] = React.useState(() => {
     return new Map(topics.map((topic) => [topic, true]))
@@ -51,8 +38,10 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
   }, []);
 
   React.useEffect(() => {
+    let ignore = false;
     const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
-    window.addEventListener("scroll", () => {
+    const handler = () => {
+      if (ignore) return;
       const $tableFiller = document.getElementById("tableFiller") as HTMLElement;
       window.requestAnimationFrame(() => {
         let scrollTop: number = document.documentElement.scrollTop;
@@ -64,7 +53,13 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
           $tableFiller.classList.add("hidden");
         }
       });
-    });
+    };
+
+    window.addEventListener('scroll', handler);
+    return () => {
+      ignore = true;
+      document.body.removeEventListener('scroll', handler);
+    }
   }, [elTop]);
 
   React.useMemo(() => {

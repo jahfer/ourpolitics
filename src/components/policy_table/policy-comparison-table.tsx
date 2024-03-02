@@ -1,9 +1,8 @@
 import * as React from 'react'
-import { useTranslation } from 'contexts/language-context'
 import PolicyTable from './policy-table'
-import { Party, Policy } from 'types/schema'
-import { usePolicyModal } from 'contexts/policy-modal-context'
+import { Party } from 'types/schema'
 import { useURL } from 'contexts/router-context'
+import * as Policy from 'data/policy'
 
 import { PolicyModalProvider } from 'contexts/policy-modal-context'
 import Banner from '../banner'
@@ -31,16 +30,15 @@ function partyToAcronym(party: Party) {
 
 export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyComparisonTableProps) {
   const [isLoading, setIsLoading] = React.useState(true);
-  const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy>>>();
+  const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy.T>>>();
   const [parties, setParties] = React.useState<Set<Party>>();
-  const [policiesByHandle, setPoliciesByHandle] = React.useState<Map<string, Policy>>();
+  const [policiesByHandle, setPoliciesByHandle] = React.useState<Map<string, Policy.T>>();
   const { updateURLState, history } = useURL();
 
   React.useEffect(() => {
     if (selectedHandle && policiesByHandle) {
       const policy = policiesByHandle.get(selectedHandle);
       if (policy) {
-        console.log("Setting URL state from selected handle", policy);
         updateURLState({ policy });
       }
     }
@@ -51,12 +49,12 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
 
     async function fetchPolicies() {
       const response = await fetch(`/policies/${year}/policies.json`);
-      const policies: Array<Policy> = await response.json();
+      const policies: Array<Policy.T> = await response.json();
 
       if (!ignore) {
-        let dataset = new Map<string, Array<Policy>>();
+        let dataset = new Map<string, Array<Policy.T>>();
         let parties = new Set<Party>();
-        let policiesByHandle = new Map<string, Policy>();
+        let policiesByHandle = new Map<string, Policy.T>();
 
         policies.forEach((policy) => {
           if (policy.handle) {

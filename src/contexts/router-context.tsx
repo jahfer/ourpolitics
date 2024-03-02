@@ -20,12 +20,8 @@ export function route<T extends string>(
   path: T,
   handler: RouteHandler<T>
 ) : Route {
-  // Your implementation here
   const pathComponents = path.split('/').filter(part => part.length > 0);
   return { pathComponents, handler };
-  // For now, let's just log the parameters
-  // const params = path.split('/').filter(part => part.startsWith(':'));
-  // const args = params.map(param => param.slice(1));
 }
 
 type HistoryEntry = {
@@ -56,13 +52,11 @@ interface RouterProviderProps {
   routes: Route[];
 }
 
-let next_id = 0;
-
-function matchPath(path: string, route: Route): boolean {
-  const pathComponents = path.split('/').filter(part => part.length > 0);
+function matchPath(pathComponents: string[], route: Route): boolean {
   if (pathComponents.length !== route.pathComponents.length) {
     return false;
   }
+
   for (let i = 0; i < pathComponents.length; i++) {
     const pathComponent = pathComponents[i];
     const routeComponent = route.pathComponents[i];
@@ -73,11 +67,11 @@ function matchPath(path: string, route: Route): boolean {
       return false;
     }
   }
+
   return true;
 }
 
-function makeMount(path: string, route: Route): () => React.ReactElement {
-  const pathComponents = path.split('/').filter(part => part.length > 0);
+function makeMount(pathComponents: string[], route: Route): () => React.ReactElement {
   const args: string[] = [];
   for (let i = 0; i < pathComponents.length; i++) {
     const pathComponent = pathComponents[i];
@@ -88,18 +82,26 @@ function makeMount(path: string, route: Route): () => React.ReactElement {
     }
   }
 
-  console.log(args);
-
   return () => route.handler(...(args as []));
 }
 
-export function RouterProvider({ routes }: RouterProviderProps) {
-  const route = routes.find(route => matchPath(location.pathname, route));
+function mountRoute(path: string, routes: Route[]): React.ReactElement {
+  const pathComponents = path.split('/').filter(part => part.length > 0);
+  const route = routes.find(route => matchPath(pathComponents, route));
+
   if (!route) {
-    throw new Error(`No route found for ${location.pathname}`);
+    throw new Error(`No route found for ${path}`);
   }
 
-  const mount = makeMount(location.pathname, route);
+  const mount = makeMount(pathComponents, route);
+  return mount();
+}
+
+let next_id = 0;
+
+export function RouterProvider({ routes }: RouterProviderProps) {
+  const path = location.pathname;
+  const mount = React.useMemo(() => mountRoute(location.pathname, routes), [routes, path]);
 
   const [navHistory, setNavHistory] = useState<Array<HistoryEntry>>(() => {
     if (history.state && "__op_id" in history.state) {
@@ -160,7 +162,7 @@ export function RouterProvider({ routes }: RouterProviderProps) {
 
   return (
     <RouterContext.Provider value={value}>
-      { mount() }
+      { mount }
     </RouterContext.Provider>
   );
 }

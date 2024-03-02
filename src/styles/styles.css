@@ -379,6 +379,10 @@ a {
   vertical-align: top;
 }
 
+#policyTableColumn--topics:hover .policyTableColumn--icon {
+  color: #fff;
+}
+
 @media screen and (min-width: 650px) {
   .policyCell--points {
     padding-left: 20px;

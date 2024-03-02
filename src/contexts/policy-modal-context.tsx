@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createContext, useContext, useState } from 'react';
-import { Policy } from 'types/schema';
+import * as Policy from 'data/policy';
 import PolicyModal from 'components/policy_table/policy-modal';
 import { useURL } from 'contexts/router-context';
 
@@ -9,7 +9,7 @@ interface PolicyModalProviderProps {
 }
 
 type PolicyModalContextType = {
-  modalPolicy: Policy | null,
+  modalPolicy: Policy.T | null,
   policyModalVisible: boolean,
 }
 
@@ -25,18 +25,16 @@ export function usePolicyModal() {
 export function PolicyModalProvider({ children }: PolicyModalProviderProps) {
   const { history } = useURL();
 
-  const [modalPolicy, setModalPolicy] = useState<Policy | null>(() => null);
+  const [modalPolicy, setModalPolicy] = useState<Policy.T | null>(() => null);
   const [policyModalVisible, setPolicyModalVisibility] = useState(!!modalPolicy);
   const policyModalValue = { modalPolicy, policyModalVisible };
 
   React.useEffect(() => {
     const currentState = history[0]?.state;
     if (currentState && "policy" in currentState && currentState.policy) {
-      console.log("Setting modal policy from history state", currentState.policy);
-      setModalPolicy(currentState.policy as Policy);
+      setModalPolicy(currentState.policy as Policy.T);
       setPolicyModalVisibility(true);
     } else {
-      console.log("Policy not set in history state, clearing modal policy");
       setModalPolicy(null);
       setPolicyModalVisibility(false);
     }
