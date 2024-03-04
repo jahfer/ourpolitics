@@ -710,9 +710,12 @@ dialog {
 }
 .modal--content {
   flex-direction: column;
-  padding: 35px;
+  padding: 35px 35px 0;
   display: flex;
   flex: 2;
+}
+.modal--content.reference-modal--content {
+  flex: 0;
 }
 .modal--headingInfo {
   display: flex;
@@ -746,6 +749,10 @@ dialog {
 }
 .modal--heading.modal--heading__secondary {
   font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.modal--heading__primary:last-child {
+  margin-bottom: 25px;
 }
 .policyModal--Liberal::backdrop {
   background-color: rgba(215, 25, 32, 0.9);
@@ -793,19 +800,18 @@ dialog {
   font-style: italic;
 }
 .reference-modal--sidebar {
-  padding: 21px;
+  padding: 35px;
 }
 .modal--sidebar {
-  padding: 21px;
-  background: #303030;
-  color: #fff;
+  padding: 10px 35px 35px;
+  background: var(--color-cream-light);
+  border-top: 1px solid #ccc;
   position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 .modal--sidebar a {
-  color: #fff;
   text-decoration: none;
   display: inherit;
   padding: 0;
@@ -843,11 +849,6 @@ dialog {
 .reference a:hover {
   border: 0;
 }
-.reference:hover,
-.reference:active {
-  border-color: #ffbd00;
-  background-color: #404040;
-}
 .reference--list {
   padding-left: 0;
   flex: 1;
@@ -856,6 +857,9 @@ dialog {
   padding: 5px;
   margin-left: -5px;
 }
+.reference--list .reference:last-child {
+  margin-bottom: 0;
+}
 .policyModal:not(.policyModal--reference) .reference--list.list-plain li:nth-child(even) {
   background-color: #f0f0ec;
   border-radius: 5px;
@@ -863,7 +867,7 @@ dialog {
 .reference--title {
   font-size: 1rem;
   margin: 0;
-  color: #ddd;
+  color: #3a70f0;
   text-wrap: balance;
 }
 .reference--meta {
@@ -894,6 +898,9 @@ dialog {
   .modal--headingInfo {
     margin-right: 0;
   }
+  .modal--heading__primary:last-child {
+    margin-bottom: 0;
+  }
   .policyModal--content {
     margin: 0 auto;
     top: 10%;
@@ -917,7 +924,6 @@ dialog {
   }
   .policyReferenceModal--content {
     max-width: 570px;
-    min-height: 50%;
     min-width: 40%;
     top: 15%;
     bottom: auto;
@@ -942,13 +948,32 @@ dialog {
     flex: 2.5;
     overflow-y: scroll;
     background-color: var(--color-cream-light);
+    padding-bottom: 35px;
+  }
+  .modal--content.reference-modal--content {
+    flex: 0;
   }
   .modal--sidebar {
     flex: 1;
+    padding: 21px;
     bottom: auto;
     position: static;
     width: auto;
     overflow-y: scroll;
+    background: #303030;
+    color: #fff;
+    border-top: none;
+  }
+  .modal--sidebar a {
+    color: #fff;
+  }
+  .reference:hover,
+  .reference:active {
+    border-color: #ffbd00;
+    background-color: #404040;
+  }
+  .reference--title {
+    color: #ddd;
   }
   .modal--close {
     top: 21px;

@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "node build.mjs",
-    "serve": "node build.mjs"
+    "serve": "node serve.mjs"
   },
   "dependencies": {
     "@types/node": "^20.7.2",
