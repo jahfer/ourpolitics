@@ -70,12 +70,6 @@ export default function PolicyModal () {
 
   const closeModal = useCallback(() => {
     setURLToPrevious(() => {
-      // TODO:
-      // On a fresh tab that links to a written policy,
-      // hitting escape should close the modal and go back to
-      // the previous page. In this scenario, modalPolicy is
-      // undefined.
-      // http://127.0.0.1:8000/policies/2021/CPC/flow_through_shares
       if (modalPolicy) {
         setURL({}, `/policies/${modalPolicy?.year}`)
       } else {
@@ -102,12 +96,14 @@ export default function PolicyModal () {
   }, [dialogElement, modalPolicy])
 
   useEffect(() => {
-    const handler = (_event: Event) => closeModal();
+    const handler = (event: Event) => {
+      closeModal();
+    }
     if (dialogElement) {
       dialogElement?.addEventListener("cancel", handler);
       return (() => dialogElement?.removeEventListener("cancel", handler));
     }
-  }, [dialogElement]);
+  }, [dialogElement, closeModal]);
 
   useLayoutEffect(() => {
     let html = null;
@@ -147,6 +143,7 @@ export default function PolicyModal () {
           </div>
 
           <aside className="modal--sidebar">
+            <h2 className="modal--heading modal--heading__secondary"> {t("modal.references")} </h2>
             <ul className="reference--list list-plain">
               {(modalPolicy.references.map(ref => <Reference key={ref.url} source={ref} />)) }
             </ul>

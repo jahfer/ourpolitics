@@ -17,7 +17,7 @@ export type T = {
 }
 
 export async function byYear(year: number) {
-  const response = await fetch(`/policies/${year}/policies.json`);
+  const response = await fetch(`/data/policies/${year}/policies.json`);
   const policies: Array<T> = await response.json();
   return policies;
 }

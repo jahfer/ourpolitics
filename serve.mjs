@@ -50,7 +50,7 @@ const browserTargets = [
   'safari11',
 ];
 
-let cssCtx = await esbuild.build({
+let cssCtx = await esbuild.context({
   entryPoints: ['src/app.css'],
   bundle: true,
   outfile: 'www/css/style.css',
@@ -63,11 +63,11 @@ let cssCtx = await esbuild.build({
   },
   target: browserTargets,
   define: {
-    'window.IS_PRODUCTION': 'true',
+    'window.IS_PRODUCTION': 'false',
   },
 })
 
-let jsCtx = await esbuild.build({
+let jsCtx = await esbuild.context({
   entryPoints: ['src/root.tsx'],
   bundle: true,
   minify: false,
@@ -80,6 +80,15 @@ let jsCtx = await esbuild.build({
     UnpluginMarkdown2Html({ anchor: { level: 6 }}),
   ],
   define: {
-    'window.IS_PRODUCTION': 'true',
+    'window.IS_PRODUCTION': 'false',
   },
 })
+
+let { host, port } = await jsCtx.serve({
+  servedir: 'www',
+  fallback: 'www/index.html'
+})
+
+await jsCtx.watch()
+await cssCtx.watch()
+console.log('Watching...')
