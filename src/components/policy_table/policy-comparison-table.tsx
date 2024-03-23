@@ -48,7 +48,7 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
     let ignore = false;
 
     async function fetchPolicies() {
-      const response = await fetch(`/policies/${year}/policies.json`);
+      const response = await fetch(`/data/policies/${year}/policies.json`);
       const policies: Array<Policy.T> = await response.json();
 
       if (!ignore) {
