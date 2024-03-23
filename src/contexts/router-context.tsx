@@ -1,6 +1,5 @@
 import { createContext, useContext, useState } from 'react';
 import * as React from 'react';
-import { useLanguage } from './language-context';
 
 type RouteHandler<T extends string> =
   T extends `/${infer Namespace}/:${infer Param}/:${infer Param}/:${infer Param}`

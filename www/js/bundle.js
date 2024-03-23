@@ -25002,7 +25002,7 @@
     React9.useEffect(() => {
       let ignore = false;
       async function fetchPolicies() {
-        const response = await fetch("/policies/".concat(year, "/policies.json"));
+        const response = await fetch("/data/policies/".concat(year, "/policies.json"));
         const policies2 = await response.json();
         if (!ignore) {
           let dataset = /* @__PURE__ */ new Map();
@@ -25204,7 +25204,7 @@
   }
 
   // src/root.tsx
-  if (false) {
+  if (true) {
     new EventSource("/esbuild").addEventListener("change", () => location.reload());
   }
   var $pageRoot = document.getElementById("page-root");

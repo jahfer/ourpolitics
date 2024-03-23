@@ -685,7 +685,7 @@ dialog {
 .policyModal--content {
   margin: 0;
   height: 100%;
-  position: absolute;
+  position: fixed;
   background: var(--color-cream-light);
   overflow: auto;
   WebkitOverflowScrolling: touch;
