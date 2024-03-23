@@ -70,7 +70,7 @@ let cssCtx = await esbuild.build({
 let jsCtx = await esbuild.build({
   entryPoints: ['src/root.tsx'],
   bundle: true,
-  minify: false,
+  minify: true,
   sourcemap: false,
   outfile: 'www/js/bundle.js',
   logLevel: 'debug',
