@@ -691,9 +691,10 @@ dialog {
   WebkitOverflowScrolling: touch;
   outline: none;
   border-radius: 0;
+  border-top-left-radius: 10px;
   left: 8px;
   right: 0;
-  top: 0;
+  top: 3px;
   bottom: 0;
   max-height: none;
   overflow: auto;
@@ -755,16 +756,16 @@ dialog {
   margin-bottom: 25px;
 }
 .policyModal--Liberal::backdrop {
-  background-color: rgba(215, 25, 32, 0.9);
+  background-color: rgba(215, 25, 32, 1);
 }
 .policyModal--Conservative::backdrop {
-  background-color: rgba(26, 71, 130, 0.9);
+  background-color: rgba(26, 71, 130, 1);
 }
 .policyModal--NDP::backdrop {
-  background-color: rgba(243, 112, 33, 0.9);
+  background-color: rgba(243, 112, 33, 1);
 }
 .policyModal--Green::backdrop {
-  background-color: rgba(61, 155, 53, 0.9);
+  background-color: rgba(61, 155, 53, 1);
 }
 .modal--details {
   font-size: 1.2rem;
@@ -999,6 +1000,18 @@ dialog {
   .modal--randomize {
     order: 100;
     margin-bottom: 0;
+  }
+  .policyModal--Liberal::backdrop {
+    background-color: rgba(215, 25, 32, 0.9);
+  }
+  .policyModal--Conservative::backdrop {
+    background-color: rgba(26, 71, 130, 0.9);
+  }
+  .policyModal--NDP::backdrop {
+    background-color: rgba(243, 112, 33, 0.9);
+  }
+  .policyModal--Green::backdrop {
+    background-color: rgba(61, 155, 53, 0.9);
   }
 }
 @media screen and (min-width: 1000px) {

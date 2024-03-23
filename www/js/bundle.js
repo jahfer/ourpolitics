@@ -24950,6 +24950,22 @@
   function usePolicyModal() {
     return (0, import_react5.useContext)(PolicyModalContext);
   }
+  function partyHexColour(party) {
+    switch (party) {
+      case "Liberal" /* Liberal */:
+        return "#D71920";
+      case "NDP" /* NDP */:
+        return "#F37021";
+      case "Conservative" /* Conservative */:
+        return "#1A4782";
+      case "Green" /* Green */:
+        return "#3d9b35";
+    }
+  }
+  function setMobileHeadingTheme(colour) {
+    var _a;
+    (_a = document.getElementById("meta--theme-color")) == null ? void 0 : _a.setAttribute("content", colour);
+  }
   function PolicyModalProvider({ children }) {
     const { history: history2 } = useURL();
     const [modalPolicy, setModalPolicy] = (0, import_react5.useState)(() => null);
@@ -24959,9 +24975,12 @@
       var _a;
       const currentState = (_a = history2[0]) == null ? void 0 : _a.state;
       if (currentState && "policy" in currentState && currentState.policy) {
-        setModalPolicy(currentState.policy);
+        const policy = currentState.policy;
+        setTimeout(() => setMobileHeadingTheme(partyHexColour(policy.party)), 0);
+        setModalPolicy(policy);
         setPolicyModalVisibility(true);
       } else {
+        setTimeout(() => setMobileHeadingTheme(""), 0);
         setModalPolicy(null);
         setPolicyModalVisibility(false);
       }
