@@ -39,7 +39,7 @@ export default function PolicyPoint ({ policy }: PolicyPointProps) {
   );
 
   function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
-    const analytics_title = `[${policy.party}] ${policy.title[LanguageOption.EN]}`;
+    const analytics_title = `[${policy.year}][${policy.topic}][${policy.party}] ${policy.title[LanguageOption.EN]}`;
     if (policy.handle) {
       setURL({ policy }, policyURL(policy), {event_name: analytics_title});
     } else {
