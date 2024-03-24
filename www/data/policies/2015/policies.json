@@ -1,0 +1,1896 @@
+[
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Don't change TFSA contribution limit",
+      "FR": "Ne pas modifier la limite de contribution au CELI"
+    },
+    "references": [
+      {
+        "date": "2015-09-11",
+        "title": "Trudeau, Mulcair pledge to pull back TFSA contribution limit ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/"
+      },
+      {
+        "date": "2015-04-21",
+        "title": "TFSA limit hiked to $10,000 as election budget delivers few goodies",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/business/budget-2015-tfsa-limit-hiked-to-10-000-as-election-budget-delivers-few-goodies-1.3040853"
+      },
+      {
+        "date": "2015-04-22",
+        "title": "Federal Budget 2015: Ottawa boosts TFSA account limits by 82% to $10,000 a year",
+        "publisher": "Financial Post",
+        "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
+      }
+    ],
+    "handle": "cpc_tfsa"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Reduce TFSA contribution limit",
+      "FR": "Réduire la limite de contribution au CELI"
+    },
+    "references": [
+      {
+        "date": "2015-09-11",
+        "title": "Trudeau, Mulcair pledge to pull back TFSA contribution limit ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/"
+      },
+      {
+        "date": "2015-04-21",
+        "title": "TFSA limit hiked to $10,000 as election budget delivers few goodies",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/business/budget-2015-tfsa-limit-hiked-to-10-000-as-election-budget-delivers-few-goodies-1.3040853"
+      },
+      {
+        "date": "2015-04-22",
+        "title": "Federal Budget 2015: Ottawa boosts TFSA account limits by 82% to $10,000 a year",
+        "publisher": "Financial Post",
+        "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
+      }
+    ],
+    "handle": "lpc_tfsa"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Reduce TFSA contribution limit",
+      "FR": "Réduire la limite de contribution au CELI"
+    },
+    "references": [
+      {
+        "date": "2015-09-11",
+        "title": "Trudeau, Mulcair pledge to pull back TFSA contribution limit ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/tfsas-surface-as-election-issue-as-opposition-vows-to-reverse-increased-limit/article26316436/"
+      },
+      {
+        "date": "2015-04-21",
+        "title": "TFSA limit hiked to $10,000 as election budget delivers few goodies",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/business/budget-2015-tfsa-limit-hiked-to-10-000-as-election-budget-delivers-few-goodies-1.3040853"
+      },
+      {
+        "date": "2015-04-22",
+        "title": "Federal Budget 2015: Ottawa boosts TFSA account limits by 82% to $10,000 a year",
+        "publisher": "Financial Post",
+        "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
+      }
+    ],
+    "handle": "ndp_tfsa"
+  },
+  {
+    "topic": "child-care",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "National $15/day daycare",
+      "FR": "Garderies à 15$ par jour à la grandeur du pays"
+    },
+    "references": [
+      {
+        "date": "2015-09-22",
+        "title": "Spin Cycle: How viable is the NDP's national child-care plan?",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-daycare-child-care-ndp-spin-cycle-1.3237594"
+      },
+      {
+        "date": "2015-08-20",
+        "title": "What we know about the NDP’s childcare plan",
+        "publisher": "Global News",
+        "url": "http://globalnews.ca/news/2176583/what-we-know-about-the-ndps-childcare-plan/"
+      }
+    ],
+    "handle": "ndp_daycare"
+  },
+  {
+    "topic": "child-care",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Keep Universal Child Care Benefit",
+      "FR": "Préserver l'universalité du système de garde d'enfants"
+    },
+    "references": [
+      {
+        "date": "2015-01-15",
+        "publisher": "Ottawa Citizen",
+        "title": "Mulcair says NDP government would keep Tory child care benefits",
+        "url": "http://ottawacitizen.com/news/politics/mulcair-says-ndp-government-would-keep-tory-child-care-benefits"
+      },
+      {
+        "publisher": "Economic Action Plan",
+        "title": "Universal Child Care Benefit",
+        "url": "http://actionplan.gc.ca/en/initiative/universal-child-care-benefit"
+      },
+      {
+        "date": "2015-07-21",
+        "publisher": "CBC",
+        "title": "3 things to know about the UCCB payments' impact",
+        "url": "http://www.cbc.ca/news/politics/3-things-to-know-about-the-uccb-payments-impact-1.3161108"
+      }
+    ],
+    "handle": "ndp_uccb"
+  },
+  {
+    "topic": "child-care",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Universal Child Care Benefit",
+      "FR": "Universalité du bénéfice de garde d'enfants"
+    },
+    "references": [
+      {
+        "publisher": "Economic Action Plan",
+        "title": "Universal Child Care Benefit",
+        "url": "http://actionplan.gc.ca/en/initiative/universal-child-care-benefit"
+      },
+      {
+        "date": "2015-07-21",
+        "publisher": "CBC",
+        "title": "3 things to know about the UCCB payments' impact",
+        "url": "http://www.cbc.ca/news/politics/3-things-to-know-about-the-uccb-payments-impact-1.3161108"
+      }
+    ],
+    "handle": "cpc_uccb"
+  },
+  {
+    "topic": "child-care",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Canada Child Benefit",
+      "FR": "Bénéfice pour les enfants du Canada"
+    },
+    "references": [
+      {
+        "date": "2015-07-21",
+        "title": "New child benefits may not be worth as much as advertised, experts say",
+        "publisher": "CTV News",
+        "url": "http://www.ctvnews.ca/politics/new-child-benefits-may-not-be-worth-as-much-as-advertised-experts-say-1.2481038"
+      },
+      {
+        "date": "2015-05-06",
+        "title": "(Opinion) Liberal child-benefit plan makes a lot of sense",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/opinion/commentary/2015/05/06/liberal-child-benefit-plan-makes-a-lot-of-sense.html"
+      }
+    ],
+    "handle": "lpc_ccb"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Repeal Bill C-51",
+      "FR": "Abroger le projet de loi C-51"
+    },
+    "references": [
+      {
+        "date": "2015-03-15",
+        "title": "Bill C-51 for Dummies: What you should know",
+        "publisher": "Yahoo! News",
+        "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html"
+      },
+      {
+        "date": "2015-06-09",
+        "title": "Bill C-51 passed by Senate, despite widespread public opposition",
+        "publisher": "National Observer",
+        "url": "http://www.nationalobserver.com/2015/06/09/news/bill-c-51-passed-senate-despite-widespread-public-opposition"
+      },
+      {
+        "date": "2015-07-22",
+        "title": "Rights Groups Launch Charter Challenge Against Harper’s Bill C-51",
+        "publisher": "Canadian Progress World",
+        "url": "http://www.canadianprogressiveworld.com/2015/07/22/rights-groups-launch-charter-challenge-against-harpers-bill-c-51/"
+      },
+      {
+        "date": "2015-02-13",
+        "title": "Bill C-51: the Good, the Bad…and the Truly Ugly",
+        "publisher": "The Walrus",
+        "url": "http://thewalrus.ca/bill-c-51-the-good-the-bad-and-the-truly-ugly/"
+      },
+      {
+        "date": "2015-02-05",
+        "title": "(Opinion) Anti-terrorism bill will unleash CSIS on a lot more than terrorists ",
+        "publisher": "CBC",
+        "url": "http://www.theglobeandmail.com/globe-debate/editorials/anti-terrorism-bill-will-unleash-csis-on-a-lot-more-than-terrorists/article22821691/"
+      },
+      {
+        "date": "2015-06-27",
+        "title": "Bill C-51, Freedom of Assembly and Canadians’ Ability to Protest",
+        "publisher": "Canadian Journalists for Free Expression",
+        "url": "https://cjfe.org/resources/features/bill-c-51-freedom-assembly-and-canadians%E2%80%99-ability-protest"
+      },
+      {
+        "date": "2015-03-06",
+        "title": "Without big changes, Bill C-51 means big data ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/globe-debate/without-big-changes-bill-c-51-means-big-data/article23320329/"
+      },
+      {
+        "date": "2015-02-16",
+        "title": "Bill C-51 Backgrounder # 3: Sharing Information and Lost Lessons from the Maher Arar Experience",
+        "publisher": "Social Science Research Network",
+        "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565886"
+      }
+    ],
+    "handle": "ndp_c51"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Keep Bill C-51",
+      "FR": "Maintien du projet de loi C-51"
+    },
+    "references": [
+      {
+        "date": "2015-03-15",
+        "title": "Bill C-51 for Dummies: What you should know",
+        "publisher": "Yahoo! News",
+        "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html"
+      },
+      {
+        "date": "2015-02-13",
+        "title": "Bill C-51: the Good, the Bad…and the Truly Ugly",
+        "publisher": "The Walrus",
+        "url": "http://thewalrus.ca/bill-c-51-the-good-the-bad-and-the-truly-ugly/"
+      },
+      {
+        "date": "2015-06-09",
+        "title": "Bill C-51 passed by Senate, despite widespread public opposition",
+        "publisher": "National Observer",
+        "url": "http://www.nationalobserver.com/2015/06/09/news/bill-c-51-passed-senate-despite-widespread-public-opposition"
+      },
+      {
+        "date": "2015-03-06",
+        "title": "Without big changes, Bill C-51 means big data ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/globe-debate/without-big-changes-bill-c-51-means-big-data/article23320329/"
+      },
+      {
+        "date": "2015-02-16",
+        "title": "Bill C-51 Backgrounder # 3: Sharing Information and Lost Lessons from the Maher Arar Experience",
+        "publisher": "Social Science Research Network",
+        "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565886"
+      }
+    ],
+    "handle": "cpc_c51"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Amend Bill C-51",
+      "FR": "Amender le projet de loi C-51"
+    },
+    "references": [
+      {
+        "date": "2015-03-15",
+        "title": "Bill C-51 for Dummies: What you should know",
+        "publisher": "Yahoo! News",
+        "url": "https://ca.news.yahoo.com/blogs/canada-politics/bill-c-51-for-dummies-233750439.html"
+      },
+      {
+        "date": "2015-02-13",
+        "title": "Bill C-51: the Good, the Bad…and the Truly Ugly",
+        "publisher": "The Walrus",
+        "url": "http://thewalrus.ca/bill-c-51-the-good-the-bad-and-the-truly-ugly/"
+      },
+      {
+        "date": "2015-06-09",
+        "title": "Bill C-51 passed by Senate, despite widespread public opposition",
+        "publisher": "National Observer",
+        "url": "http://www.nationalobserver.com/2015/06/09/news/bill-c-51-passed-senate-despite-widespread-public-opposition"
+      },
+      {
+        "date": "2015-03-06",
+        "title": "Without big changes, Bill C-51 means big data ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/globe-debate/without-big-changes-bill-c-51-means-big-data/article23320329/"
+      },
+      {
+        "date": "2015-06-17",
+        "title": "Trudeau vows to repeal parts of Bill C-51",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/trudeaus-liberals-proposing-modest-amendments-to-bill-c-51/article25010473/"
+      },
+      {
+        "date": "2015-02-16",
+        "title": "Bill C-51 Backgrounder # 3: Sharing Information and Lost Lessons from the Maher Arar Experience",
+        "publisher": "Social Science Research Network",
+        "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565886"
+      }
+    ],
+    "handle": "lpc_c51"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Decriminalize cannabis",
+      "FR": "Décriminaliser le cannabis"
+    },
+    "references": [
+      {
+        "date": "2015-08-21",
+        "title": "Mulcair pledges NDP will decriminalize pot 'the minute we form government'",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/ndp-mulcair-marijuana-decriminalization-1.3199532"
+      },
+      {
+        "date": "2014-10-20",
+        "title": "Decriminalize, study and go from there: NDP's pot policy",
+        "publisher": "Toronto Sun",
+        "url": "http://www.torontosun.com/2014/10/20/decriminalize-study-and-go-from-there-ndps-pot-policy"
+      }
+    ],
+    "handle": "ndp_marijuana"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Keep cannabis illegal",
+      "FR": "Maintien de l'illégalité du cannabis"
+    },
+    "references": [
+      {
+        "date": "2015-08-21",
+        "title": "Mulcair pledges NDP will decriminalize pot 'the minute we form government'",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/ndp-mulcair-marijuana-decriminalization-1.3199532"
+      },
+      {
+        "date": "2014-10-09",
+        "title": "Conservative government’s opposition to pot legalization unshaken",
+        "publisher": "Global News",
+        "url": "http://globalnews.ca/news/1607817/conservative-governments-opposition-to-pot-legalization-unshaken/"
+      }
+    ],
+    "handle": "cpc_marijuana"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Legalize cannabis",
+      "FR": "Légaliser le cannabis"
+    },
+    "references": [
+      {
+        "date": "2015-09-30",
+        "title": "Liberals 'committed' to legalizing marijuana: Trudeau",
+        "publisher": "CTV News",
+        "url": "http://www.ctvnews.ca/politics/election/liberals-committed-to-legalizing-marijuana-trudeau-1.2588260"
+      },
+      {
+        "date": "2014-10-16",
+        "title": "Team Trudeau on the Issues: Marijuana",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/mp-adam-vaughan-on-why-prohibition-has-failed/"
+      },
+      {
+        "date": "2015-10-01",
+        "title": "http://www.cbc.ca/news/politics/trudeau-pot-marijuana-legalization-timeline-1.3252088",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/trudeau-pot-marijuana-legalization-timeline-1.3252088"
+      }
+    ],
+    "handle": "lpc_marijuana"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Raise corporate taxes",
+      "FR": "Augmenter l'impôt des corporations"
+    },
+    "references": [
+      {
+        "date": "2015-08-27",
+        "title": "Why the NDP’s exact plan for the corporate tax rate matters",
+        "publisher": "Maclean's",
+        "url": "http://www.macleans.ca/economy/economicanalysis/why-the-ndps-exact-plan-for-the-federal-corporate-tax-rate-matters/"
+      },
+      {
+        "date": "2015-09-16",
+        "title": "NDP putting 17.5% cap on corporate tax hike as party backtracks on call to raise capital gains taxes",
+        "publisher": "National Post",
+        "url": "http://news.nationalpost.com/news/canada/canadian-politics/ndp-planning-to-hike-corporate-tax-rate-to-less-than-17-5-per-cent"
+      },
+      {
+        "date": "2015-08-23",
+        "title": "Mulcair scales back magnitude of NDP's promised corporate tax hike",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-scales-back-magnitude-of-ndp-s-promised-corporate-tax-hike-1.3201087"
+      }
+    ],
+    "handle": "ndp_corporate_taxes"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Remove stock option tax-benefit",
+      "FR": "Supprimer l'avantage fiscal sur les options d'achat d'actions"
+    },
+    "references": [
+      {
+        "date": "2015-09-21",
+        "title": "Companies would likely shift from stock options under NDP tax plan ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/report-on-business/companies-likely-to-shift-from-stock-options-under-ndp-tax-plan/article26462192/"
+      },
+      {
+        "date": "2015-09-25",
+        "title": "In letter to tech CEOs, Mulcair clarifies election promise to change tax treatment for stock options",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/report-on-business/small-business/starting-out/in-letter-to-tech-ceos-mulcair-partially-retracts-promise-to-change-tax-treatment-for-stock-options/article26553003/"
+      }
+    ],
+    "handle": "ndp_stock_options"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Lower small business tax",
+      "FR": "Diminuer l'impôt des petites entreprises"
+    },
+    "references": [
+      {
+        "date": "2015-01-27",
+        "title": "Mulcair unveils NDP plan to goose the sputtering economy: Tax cuts for small businesses and manufacturers",
+        "publisher": "National Post",
+        "url": "http://news.nationalpost.com/news/canada/canadian-politics/mulcair-unveils-ndp-plan-to-goose-the-sputtering-economy-tax-cuts-for-small-business-and-manufacturers"
+      },
+      {
+        "date": "2015-01-27",
+        "title": "Federal NDP promises tax cut for small businesses",
+        "publisher": "Ottawa Citizen",
+        "url": "http://ottawacitizen.com/news/politics/federal-ndp-promises-tax-cut-for-small-businesses"
+      },
+      {
+        "date": "2015-01-28",
+        "title": "NDP's Small Business Tax Cut Would Help The Rich: Economists",
+        "publisher": "Huffington Post",
+        "url": "http://www.huffingtonpost.ca/2015/01/28/ndp-small-business-tax-cut-wealthy-canadians_n_6561678.html"
+      }
+    ],
+    "handle": "ndp_small_business_tax"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Remove income splitting",
+      "FR": "Supprimer le partage des revenues"
+    },
+    "references": [
+      {
+        "date": "2015-05-07",
+        "title": "Would opposition parties scrap pension income splitting?",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/would-opposition-parties-scrap-pension-income-splitting-1.3064910"
+      },
+      {
+        "date": "2015-03-17",
+        "title": "Income splitting to cost Canada $2.2B and have ‘near zero’ impact on low-income households, PBO report says",
+        "publisher": "Financial Post",
+        "url": "http://business.financialpost.com/news/economy/income-splitting-to-cost-canada-2-2-billion-and-have-near-zero-impact-on-low-income-households-pbo-report-says"
+      }
+    ],
+    "handle": "ndp_income_splitting"
+  },
+  {
+    "topic": "housing",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Home renovation tax credit",
+      "FR": "Crédit d'impôt à la rénovation"
+    },
+    "references": [
+      {
+        "title": "A Permanent Home Renovation Tax Credit",
+        "publisher": "Conservative.ca",
+        "url": "http://www.conservative.ca/cpc/579/"
+      },
+      {
+        "date": "2015-08-04",
+        "title": "Stephen Harper unveils home renovation tax credit",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/08/04/stephen-harper-promises-home-renovation-tax-credit.html"
+      },
+      {
+        "date": "2015-08-06",
+        "title": "Experts divided on effect of home renovation tax break pledge",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/business/2015/08/06/experts-divided-on-effect-of-home-renovation-tax-break-pledge.html"
+      }
+    ],
+    "handle": "cpc_home_renovation"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Bump RRSP withdrawal limit",
+      "FR": "Augmenter la limite de RAP des REER"
+    },
+    "references": [
+      {
+        "date": "2015-08-13",
+        "title": "Harper vows to boost RRSP withdrawal limit for first-time buyers ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/report-on-business/economy/housing/the-real-estate-beat/harper-vows-to-boost-rrsp-withdrawal-limit-for-first-time-buyers/article25945628/"
+      },
+      {
+        "date": "2015-08-13",
+        "title": "Tories would increase RRSP access for new homebuyers",
+        "publisher": "Vancouver Sun",
+        "url": "http://www.vancouversun.com/business/Tories+would+increase+RRSP+access+homebuyers/11285817/story.html"
+      },
+      {
+        "date": "2015-08-12",
+        "title": "Stephen Harper pledges higher RRSP withdrawal limit for 1st time homebuyers",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/stephen-harper-pledges-higher-rrsp-withdrawal-limit-for-1st-time-homebuyers-1.3188580"
+      }
+    ],
+    "handle": "cpc_rrsp"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Lower middle-class taxes, new tax bracket above $200k",
+      "FR": "Diminer l'impôt de la classe moyenne, créer un nouvel échelon d'impôt pour les revenues de plus de $200k"
+    },
+    "references": [
+      {
+        "title": "Tax break for the Middle Class",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/realchange/middle-class-tax-cut/"
+      },
+      {
+        "date": "2015-05-06",
+        "title": "Liberals’ new high-income bracket may encourage tax avoidance, economists warn",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/liberals-new-high-income-bracket-may-encourage-tax-avoidance-economists-warn/article24263994/"
+      },
+      {
+        "date": "2015-05-04",
+        "title": "Justin Trudeau plan taxes top 1% to cut taxes, boost benefits for middle class",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/justin-trudeau-plan-taxes-top-1-to-cut-taxes-boost-benefits-for-middle-class-1.3060323"
+      }
+    ],
+    "handle": "lpc_middle_class_taxes"
+  },
+  {
+    "topic": "economy",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Remove income splitting",
+      "FR": "Supprimer le partage des revenues"
+    },
+    "references": [
+      {
+        "date": "2015-05-07",
+        "title": "Would opposition parties scrap pension income splitting?",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/would-opposition-parties-scrap-pension-income-splitting-1.3064910"
+      },
+      {
+        "date": "2015-03-17",
+        "title": "Income splitting to cost Canada $2.2B and have ‘near zero’ impact on low-income households, PBO report says",
+        "publisher": "Financial Post",
+        "url": "http://business.financialpost.com/news/economy/income-splitting-to-cost-canada-2-2-billion-and-have-near-zero-impact-on-low-income-households-pbo-report-says"
+      },
+      {
+        "date": "2015-05-06",
+        "title": "No, Pierre: The Liberals still have no plans to scrap income splitting for seniors",
+        "publisher": "iPolitics",
+        "url": "http://ipolitics.ca/2015/05/06/no-pierre-the-liberals-still-have-no-plans-to-scrap-income-splitting-for-seniors/"
+      }
+    ],
+    "handle": "lpc_income_splitting"
+  },
+  {
+    "topic": "international-trade",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Anti-TPP",
+      "FR": "Anti-PTP"
+    },
+    "references": [
+      {
+        "date": "2015-10-02",
+        "title": "NDP government would not adhere to a TPP deal, Mulcair says in letter",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/tpp-trade-talks-extended-an-extra-day-as-progress-seen-on-auto-imports/article26631467/"
+      },
+      {
+        "date": "2015-08-04",
+        "title": "Tom Mulcair says Stephen Harper is 'weak and vulnerable' on TPP talks",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-tom-mulcair-says-stephen-harper-is-weak-and-vulnerable-on-tpp-talks-1.3178689"
+      },
+      {
+        "date": "2015-08-04",
+        "title": "No turning back for Canada now that dairy protection is finally on TPP table ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/report-on-business/rob-commentary/no-turning-back-for-canada-now-that-dairy-protection-is-finally-on-tpp-table/article25834661/"
+      },
+      {
+        "date": "2015-08-09",
+        "title": "N.Z., U.S. dairy farmers call on Canada to open its market amid deadlocked trade talks",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/business/n-z-u-s-dairy-farmers-call-on-canada-to-open-its-market-amid-deadlocked-trade-talks-1.3184738"
+      },
+      {
+        "date": "2015-08-05",
+        "title": "The TPP Copyright Chapter Leaks: Canada May Face Website Blocking, New Criminal Provisions & Term Extension",
+        "publisher": "Michael Geist",
+        "url": "http://www.michaelgeist.ca/2015/08/the-tpp-copyright-chapter-leaks-canada-may-face-website-blocking-new-criminal-provisions-term-extension/"
+      },
+      {
+        "date": "2015-10-01",
+        "title": "How the TPP could affect Canada's auto industry",
+        "publisher": "CTV News",
+        "url": "http://www.ctvnews.ca/business/how-the-tpp-could-affect-canada-s-auto-industry-1.2589784"
+      },
+      {
+        "date": "2015-07-29",
+        "title": "Everything you need to know about the Trans-Pacific Partnership",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/everything-you-need-to-know-about-the-trans-pacific-partnership/article25769342/"
+      }
+    ],
+    "handle": "ndp_tpp"
+  },
+  {
+    "topic": "international-trade",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Pro-TPP",
+      "FR": "Pro-PTP"
+    },
+    "references": [
+      {
+        "date": "2015-06-29",
+        "title": "As TPP moves ahead, Mulcair moves to make supply management an election issue",
+        "publisher": "iPolitics",
+        "url": "http://ipolitics.ca/2015/06/29/as-tpp-moves-ahead-mulcair-moves-to-make-supply-management-an-election-issue/"
+      },
+      {
+        "date": "2015-08-04",
+        "title": "No turning back for Canada now that dairy protection is finally on TPP table ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/report-on-business/rob-commentary/no-turning-back-for-canada-now-that-dairy-protection-is-finally-on-tpp-table/article25834661/"
+      },
+      {
+        "date": "2015-08-09",
+        "title": "N.Z., U.S. dairy farmers call on Canada to open its market amid deadlocked trade talks",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/business/n-z-u-s-dairy-farmers-call-on-canada-to-open-its-market-amid-deadlocked-trade-talks-1.3184738"
+      },
+      {
+        "date": "2015-08-05",
+        "title": "The TPP Copyright Chapter Leaks: Canada May Face Website Blocking, New Criminal Provisions & Term Extension",
+        "publisher": "Michael Geist",
+        "url": "http://www.michaelgeist.ca/2015/08/the-tpp-copyright-chapter-leaks-canada-may-face-website-blocking-new-criminal-provisions-term-extension/"
+      },
+      {
+        "date": "2015-09-30",
+        "title": "Canada, Mexico seek concessions on auto rules at TPP talks",
+        "publisher": "The Globe and mail",
+        "url": "http://www.theglobeandmail.com/news/politics/trade-minister-ed-fast-at-atlanta-meetings-pushing-for-trans-pacific-partnership-deal/article26597742/"
+      },
+      {
+        "date": "2015-10-01",
+        "title": "How the TPP could affect Canada's auto industry",
+        "publisher": "CTV News",
+        "url": "http://www.ctvnews.ca/business/how-the-tpp-could-affect-canada-s-auto-industry-1.2589784"
+      },
+      {
+        "date": "2015-07-29",
+        "title": "Everything you need to know about the Trans-Pacific Partnership",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/everything-you-need-to-know-about-the-trans-pacific-partnership/article25769342/"
+      }
+    ],
+    "handle": "cpc_tpp"
+  },
+  {
+    "topic": "international-trade",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Pro-TPP, but concerns over dairy concessions",
+      "FR": "Pro-PTP, mais inquiet des concessions dans le domaine de la production laitière"
+    },
+    "references": [
+      {
+        "date": "2015-09-26",
+        "title": "Reports of dairy concessions in TPP ‘absolutely false’: Fast",
+        "publisher": "iPolitics",
+        "url": "http://ipolitics.ca/2015/09/26/liberals-wont-support-tpp-if-dairy-concessions-are-made-eyking/"
+      },
+      {
+        "date": "2015-08-04",
+        "title": "No turning back for Canada now that dairy protection is finally on TPP table ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/report-on-business/rob-commentary/no-turning-back-for-canada-now-that-dairy-protection-is-finally-on-tpp-table/article25834661/"
+      },
+      {
+        "date": "2015-08-09",
+        "title": "N.Z., U.S. dairy farmers call on Canada to open its market amid deadlocked trade talks",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/business/n-z-u-s-dairy-farmers-call-on-canada-to-open-its-market-amid-deadlocked-trade-talks-1.3184738"
+      },
+      {
+        "date": "2015-08-05",
+        "title": "The TPP Copyright Chapter Leaks: Canada May Face Website Blocking, New Criminal Provisions & Term Extension",
+        "publisher": "Michael Geist",
+        "url": "http://www.michaelgeist.ca/2015/08/the-tpp-copyright-chapter-leaks-canada-may-face-website-blocking-new-criminal-provisions-term-extension/"
+      },
+      {
+        "date": "2015-09-30",
+        "title": "Canada, Mexico seek concessions on auto rules at TPP talks",
+        "publisher": "The Globe and mail",
+        "url": "http://www.theglobeandmail.com/news/politics/trade-minister-ed-fast-at-atlanta-meetings-pushing-for-trans-pacific-partnership-deal/article26597742/"
+      },
+      {
+        "date": "2015-10-01",
+        "title": "How the TPP could affect Canada's auto industry",
+        "publisher": "CTV News",
+        "url": "http://www.ctvnews.ca/business/how-the-tpp-could-affect-canada-s-auto-industry-1.2589784"
+      },
+      {
+        "date": "2015-07-29",
+        "title": "Everything you need to know about the Trans-Pacific Partnership",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/everything-you-need-to-know-about-the-trans-pacific-partnership/article25769342/"
+      }
+    ],
+    "handle": "lpc_tpp"
+  },
+  {
+    "topic": "environment",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Lower emissions through cap-and-trade",
+      "FR": "Diminuer les émissions par un marché sur le carbone"
+    },
+    "references": [
+      {
+        "date": "2015-09-27",
+        "title": "NDP's cap-and-trade system would let provinces opt out",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-ndp-climate-change-1.3245598"
+      }
+    ],
+    "handle": "ndp_cap_and_trade"
+  },
+  {
+    "topic": "environment",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Encourage renewable energy usage",
+      "FR": "Encourager la production d'énergie renouvelable"
+    },
+    "references": [
+      {
+        "date": "2015-10-01",
+        "title": "Tom Mulcair: NDP Climate Plan Will Help Retrofit Homes, Apartments",
+        "publisher": "Huffington Post",
+        "url": "http://www.huffingtonpost.ca/2015/10/01/mulcair-pushes-home-retrofits-renewable-energy-as-part-of-climate-change-plan_n_8226962.html"
+      }
+    ],
+    "handle": "ndp_green_tech"
+  },
+  {
+    "topic": "environment",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Mostly anti-pipeline",
+      "FR": "Généralement anti-pipeline"
+    },
+    "references": [
+      {
+        "date": "2014-07-31",
+        "title": "NDP leader Thomas Mulcair throws pipeline-policy punches",
+        "publisher": "Vancouver Sun",
+        "url": "http://www.vancouversun.com/business/leader+Thomas+Mulcair+throws+pipeline+policy+punches/10078481/story.html"
+      },
+      {
+        "date": "2015-08-20",
+        "title": "NDP's carefully crafted pipeline policy will only face more attacks",
+        "publisher": "Winnipeg Free Press",
+        "url": "http://www.winnipegfreepress.com/special/federal-election/Dan-Lett-322470502.html"
+      },
+      {
+        "date": "2015-08-19",
+        "title": "Brian Gallant criticizes Tom Mulcair's Energy East pipeline stance",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/canada/new-brunswick/brian-gallant-criticizes-tom-mulcair-s-energy-east-pipeline-stance-1.3197057"
+      },
+      {
+        "date": "2015-09-23",
+        "title": "Tom Mulcair agrees with Clinton on Keystone XL",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/player/News/Politics/ID/2676007875/"
+      }
+    ],
+    "handle": "ndp_pipeline"
+  },
+  {
+    "topic": "environment",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Pro-pipeline",
+      "FR": "Pro-pipeline"
+    },
+    "references": [
+      {
+        "date": "2014-06-17",
+        "title": "Conservatives approve Northern Gateway pipeline",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2014/06/17/conservatives_approve_gateway_pipeline.html"
+      },
+      {
+        "date": "2015-09-23",
+        "title": "Conservatives take long-term view on Keystone XL pipeline",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/09/23/conservatives-take-long-term-view-on-keystone-xl-pipeline.html"
+      },
+      {
+        "date": "2014-10-22",
+        "title": "Liberals and Conservatives support Energy East oil terminal on the St. Lawrence River",
+        "publisher": "The Council of Canadians",
+        "url": "http://canadians.org/blog/liberals-and-conservatives-support-energy-east-oil-terminal-st-lawrence-river"
+      }
+    ],
+    "handle": "cpc_pipeline"
+  },
+  {
+    "topic": "environment",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "National carbon tax",
+      "FR": "Taxe nationale sur le carbone"
+    },
+    "references": [
+      {
+        "title": "Taking Action on Climate Change",
+        "publisher": "Liberal.ca",
+        "url": "http://www.liberal.ca/realchange/taking-action-on-climate-change/"
+      },
+      {
+        "date": "2015-02-06",
+        "title": "Trudeau announces carbon-pricing plan if Liberals win election",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/trudeau-vows-to-adopt-carbon-pricing-if-liberals-win-election/article22842010/"
+      },
+      {
+        "date": "2015-06-30",
+        "title": "Trudeau vows Liberal environment plan will ‘be putting a price on carbon’",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/trudeau-unveils-liberal-environment-plan-including-green-bonds/article25176587/"
+      }
+    ],
+    "handle": "lpc_carbon_tax"
+  },
+  {
+    "topic": "environment",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Focus on clean technology",
+      "FR": "Prioriser les technologies propres"
+    },
+    "references": [
+      {
+        "title": "Investing in clean technologies",
+        "publisher": "Liberal.ca",
+        "url": "http://www.liberal.ca/realchange/investing-in-clean-technologies/"
+      },
+      {
+        "date": "2015-08-18",
+        "title": "Trudeau says Liberal government would invest in clean tech, create good jobs",
+        "publisher": "CP24",
+        "url": "http://www.cp24.com/news/federal-election-2015/trudeau-says-liberal-government-would-invest-in-clean-tech-create-good-jobs-1.2522269"
+      }
+    ],
+    "handle": "lpc_green_tech"
+  },
+  {
+    "topic": "environment",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Pro-pipeline except Northern Gateway",
+      "FR": "Pro-oléoducs à l'exception du Northern Gateway"
+    },
+    "references": [
+      {
+        "date": "2015-08-19",
+        "title": "Brian Gallant criticizes Tom Mulcair's Energy East pipeline stance",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/canada/new-brunswick/brian-gallant-criticizes-tom-mulcair-s-energy-east-pipeline-stance-1.3197057"
+      },
+      {
+        "date": "2015-09-10",
+        "title": "Liberal Leader Justin Trudeau talks pipeline politics",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/09/10/liberal-leader-justin-trudeau-talks-pipeline-politics.html"
+      }
+    ],
+    "handle": "lpc_pipeline"
+  },
+  {
+    "topic": "government",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Abolish Senate",
+      "FR": "Abolir le Sénat"
+    },
+    "references": [
+      {
+        "date": "2015-09-20",
+        "title": "Tom Mulcair says some senators willing to work with NDP government",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-senate-abolition-ndp-1.3235746"
+      },
+      {
+        "date": "2015-09-28",
+        "title": "Liberal Sen. Campbell says he, 30 Senators willing to work with Mulcair if NDP wins race",
+        "publisher": "The Hill Times",
+        "url": "http://www.hilltimes.com/news/news/2015/09/28/liberal-sen-campbell-says-he-30-senators-willing-to-work-with-mulcair-if-ndp-wins-race/43517"
+      }
+    ],
+    "handle": "ndp_senate"
+  },
+  {
+    "topic": "government",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Reform Senate",
+      "FR": "Réforme du Sénat"
+    },
+    "references": [
+      {
+        "date": "2015-05-11",
+        "title": "(Opinion) Justin Trudeau’s Senate reform plan has no teeth",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/opinion/commentary/2014/05/11/justin_trudeaus_senate_reform_plan_has_no_teeth.html"
+      },
+      {
+        "date": "2015-06-12",
+        "title": "(Opinion) Justin Trudeau, let’s hear those ideas for Senate reform you promised",
+        "publisher": "National Post",
+        "url": "http://news.nationalpost.com/full-comment/stephen-maher-justin-trudeau-lets-hear-those-ideas-for-senate-reform-you-promised"
+      }
+    ],
+    "handle": "lpc_senate"
+  },
+  {
+    "topic": "government",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "No new appointments of senators",
+      "FR": "Pas de nouvelles nominations de sénateurs"
+    },
+    "references": [
+      {
+        "date": "2015-07-24",
+        "title": "Stephen Harper swears off new Senate appointments",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/07/24/stephen-harper-imposes-moratorium-on-senate-appointments.html"
+      },
+      {
+        "date": "2015-07-24",
+        "title": "Stephen Harper vows not to make any Senate appointments",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/harper-wall-to-call-for-abolition-of-senate-on-friday-report/article25658737/"
+      }
+    ],
+    "handle": "cpc_senate"
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Inquiry into missing and murdered women within 100 days of office",
+      "FR": "Enquête sur la disparition et l'assassinat des femmes autochtones dans les premiers 100 jours"
+    },
+    "references": [
+      {
+        "date": "2015-08-27",
+        "title": "Tom Mulcair vows aboriginal women inquiry within 100 days if NDP elected",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/tom-mulcair-vows-aboriginal-women-inquiry-within-100-days-if-ndp-elected-1.2748280"
+      }
+    ],
+    "handle": "ndp_aboriginal_relations"
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Do not support national inquiry",
+      "FR": "N'appuie pas d'enquête nationale"
+    },
+    "references": [
+      {
+        "date": "2015-08-27",
+        "title": "Tom Mulcair vows aboriginal women inquiry within 100 days if NDP elected",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/tom-mulcair-vows-aboriginal-women-inquiry-within-100-days-if-ndp-elected-1.2748280"
+      }
+    ],
+    "handle": "cpc_aboriginal_relations"
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Funding for training",
+      "FR": "Subvention pour la formation"
+    },
+    "references": [
+      {
+        "date": "2015-09-01",
+        "title": "What the parties are promising on Aboriginal issues",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/federal-election/2015/09/01/what-the-parties-are-promising-on-aboriginal-issues.html"
+      }
+    ],
+    "handle": "cpc_aboriginal_funding"
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Inquiry into missing and murdered women",
+      "FR": "Enquête sur les femmes autochtones disparues et assassinées"
+    },
+    "references": [
+      {
+        "title": "Missing and murdered Indigenous women and girls",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/realchange/missing-and-murdered-indigenous-women/"
+      }
+    ],
+    "handle": "lpc_aboriginal_relations"
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Invest in First Nations education",
+      "FR": "Investir dans l'éducation des Premières Nations"
+    },
+    "references": [
+      {
+        "title": "Investing $2.6 billion in First Nations education",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/realchange/investing-2-6-billion-in-first-nations-education/"
+      },
+      {
+        "title": "New investments in post-secondary funding for Indigenous students",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/realchange/new-investments-in-post-secondary-funding-for-indigenous-students/"
+      },
+      {
+        "title": "Expanding First Nations education infrastructure",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/realchange/expanding-first-nations-education-infrastructure/"
+      }
+    ],
+    "handle": "lpc_aboriginal_education"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Negotiate better prices for prescription medication",
+      "FR": "Négocier pour des meilleurs prix sur les prescriptions médicales"
+    },
+    "references": [
+      {
+        "date": "2015-09-18",
+        "title": "NDP promises $2.6 billion towards universal drug plan",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/09/18/ndp-promises-26-billion-towards-universal-drug-plan.html"
+      },
+      {
+        "date": "2015-09-18",
+        "title": "Tom Mulcair commits $2.6B to support pharmacare plan",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-seniors-medication-prices-1.3234173"
+      }
+    ],
+    "handle": "ndp_healthcare"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Expand mental healthcare",
+      "FR": "Étendre la couverture médicale en santé mentale"
+    },
+    "references": [
+      {
+        "date": "2015-09-15",
+        "title": "Tom Mulcair lays out NDP plan to improve youth mental-health care",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-mental-health-fund-youth-1.3228711"
+      },
+      {
+        "date": "2015-09-15",
+        "title": "Mulcair to improve mental health care for young Canadians",
+        "publisher": "NDP.ca",
+        "url": "http://www.ndp.ca/news/mulcair-to-improve-mental-health-care-young-canadians"
+      }
+    ],
+    "handle": "ndp_mental_healthcare"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "National Alzheimer's and dementia strategy",
+      "FR": "Stratégie nationale sur la démence et l'Alzheimer"
+    },
+    "references": [
+      {
+        "date": "2015-09-14",
+        "title": "Mulcair to launch national Alzheimer’s and dementia strategy",
+        "publisher": "NDP.ca",
+        "url": "http://www.ndp.ca/news/mulcair-to-launch-national-alzheimers-and-dementia-strategy"
+      },
+      {
+        "date": "2015-09-14",
+        "title": "Tom Mulcair makes multiple pledges to improve health care",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-healthcare-doctors-1.3227153"
+      },
+      {
+        "date": "2015-09-14",
+        "title": "Mulcair's Health Care Blitz Includes Funding For Tackling Dementia, Alzheimer's",
+        "publisher": "Huffington Post",
+        "url": "http://www.huffingtonpost.ca/2015/09/14/ndp-earmarks-500-million-over-four-years-to-build-clinics-hire-health-staff_n_8134440.html"
+      }
+    ],
+    "handle": "ndp_alzheimers"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Better funding for doctors, nurses and clinics",
+      "FR": "Augmenter le financement des docteurs, des infirmières et des cliniques"
+    },
+    "references": [
+      {
+        "date": "2015-09-14",
+        "title": "Tom Mulcair makes multiple pledges to improve health care",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-healthcare-doctors-1.3227153"
+      },
+      {
+        "date": "2015-09-14",
+        "title": "NDP prescribes $500M for health-care system",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/federal-election/2015/09/14/ndp-prescribes-500m-for-health-care-system.html"
+      }
+    ],
+    "handle": "ndp_healthcare_funding"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Negotiate better prices for prescription medication",
+      "FR": "Négocier de meilleurs prix pour les prescriptions médicales"
+    },
+    "references": [
+      {
+        "title": "Investing in health and home care",
+        "publisher": "Liberal.ca",
+        "url": "http://www.liberal.ca/realchange/investing-in-health-and-home-care/"
+      },
+      {
+        "title": "Trudeau promises $3-billion investment in home care, mental health",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/"
+      }
+    ],
+    "handle": "lpc_healthcare"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Expand mental healthcare",
+      "FR": "Étendre la couverture médicale pour la santé mentale"
+    },
+    "references": [
+      {
+        "title": "51. Priority Resolution: National Framework for Mental Health",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/policy-resolutions/51-priority-resolution-national-framework-mental-health/"
+      },
+      {
+        "title": "Trudeau promises $3-billion investment in home care, mental health",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/"
+      }
+    ],
+    "handle": "lpc_mental_healthcare"
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Better Transit Plan",
+      "FR": "Un meilleur plan pour le transport en commun"
+    },
+    "references": [
+      {
+        "date": "2015-07-24",
+        "title": "NDP leader Tom Mulcair vows to back hard services, transit",
+        "publisher": "London Free Press",
+        "url": "http://www.lfpress.com/2015/07/24/ndp-leader-tom-mulcair-promoting-plan-to-use-part-of-gas-tax-for-infrastructure-projects"
+      },
+      {
+        "date": "2015-07-24",
+        "title": "Mulcair outlines plan to invest in Ontario municipalities ",
+        "publisher": "NDP.ca",
+        "url": "http://www.ndp.ca/news/mulcair-outlines-plan-to-invest-ontario-municipalities-0"
+      },
+      {
+        "date": "2015-06-06",
+        "title": "Tom Mulcair promises Canada’s cities an extra cent from the existing gas tax",
+        "publisher": "Global News",
+        "url": "http://globalnews.ca/news/2040485/tom-mulcair-promises-canadas-cities-an-extra-cent-from-the-existing-gas-tax/"
+      }
+    ],
+    "handle": "ndp_transit"
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Invest in building and renewing infrastructure",
+      "FR": "Investir dans la construction et la rénovation des infrastructure"
+    },
+    "references": [
+      {
+        "date": "2015-08-27",
+        "title": "A look at each federal party's infrastructure election promises",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/08/27/a-look-at-each-federal-partys-infrastructure-election-promises.html"
+      }
+    ],
+    "handle": "cpc_infrastructure"
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Federal infrastructure bank",
+      "FR": "Banque de l'infrastructure du Canada"
+    },
+    "references": [
+      {
+        "title": "Financing infrastructure investments with the Canada Infrastructure Bank",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/realchange/financing-infrastructure-investments-with-the-canada-infrastructure-bank/"
+      }
+    ],
+    "handle": "lpc_infrastructure_bank"
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Double federal infrastructure investment",
+      "FR": "Doubler les investissements fédéral en investissement"
+    },
+    "references": [
+      {
+        "date": "2015-08-27",
+        "title": "A look at each federal party's infrastructure election promises",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/08/27/a-look-at-each-federal-partys-infrastructure-election-promises.html"
+      },
+      {
+        "date": "2015-08-27",
+        "title": "Justin Trudeau says Liberals plan 3 years of deficits to push infrastructure",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-liberals-infrastructure-deficits-1.3205535"
+      }
+    ],
+    "handle": "lpc_infrastructure_investment"
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Invest in public transit",
+      "FR": "Investir dans le transport en commun"
+    },
+    "references": [
+      {
+        "title": "Investing in public transit infrastructure",
+        "publisher": "Liberal.ca",
+        "url": "http://www.liberal.ca/realchange/investing-in-public-transit-infrastructure/"
+      },
+      {
+        "date": "2015-09-10",
+        "title": "Justin Trudeau announces ‘historic’ transit investment in Vancouver",
+        "publisher": "Global News",
+        "url": "http://globalnews.ca/news/2213160/justin-trudeau-to-make-announcement-about-public-transport-in-vancouver/"
+      }
+    ],
+    "handle": "lpc_transit"
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Withdraw from fight against ISIS",
+      "FR": "Se retirer de la lutte contre l'État islamique"
+    },
+    "references": [
+      {
+        "date": "2015-09-10",
+        "title": "ISIS mission: Comparing leaders' positions on military involvement",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-iraq-syria-canada-military-mission-mulcair-harper-trudeau-1.3223568"
+      },
+      {
+        "date": "2015-09-10",
+        "title": "Mulcair would pull Canada from U.S.-led mission in Mideast if elected",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/federal-election/2015/09/10/ndp-leader-tom-mulcair-promising-thousands-of-jobs-paid-internships.html"
+      }
+    ],
+    "handle": "ndp_isis"
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Accept 10,000 refugees within 2015",
+      "FR": "Accepter 10 000 réfugiés en 2015"
+    },
+    "references": [
+      {
+        "date": "2015-09-05",
+        "title": "NDP, Liberals urge government to accept thousands more Syrian refugees",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/ndp-liberal-refugees-1.3217055"
+      },
+      {
+        "date": "2015-09-05",
+        "title": "NDP and Liberals call for Canada to accept more Syrian refugees",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/09/05/ndp-and-liberals-call-for-canada-to-accept-more-syrian-refugees.html"
+      },
+      {
+        "date": "2015-09-07",
+        "title": "NDP, Liberals call for increased refugee settlement in Canada by year's end",
+        "publisher": "CTV News",
+        "url": "http://www.ctvnews.ca/politics/election/ndp-liberals-call-for-increased-refugee-settlement-in-canada-by-year-s-end-1.2549599"
+      }
+    ],
+    "handle": "ndp_refugees"
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Increase foreign aid",
+      "FR": "Augmenter l'aide internationale"
+    },
+    "references": [
+      {
+        "date": "2015-09-16",
+        "title": "NDP predicts four surpluses; health care, foreign aid details pending",
+        "publisher": "Maclean's",
+        "url": "http://www.macleans.ca/politics/ottawa/ndp-predicts-four-surpluses-health-care-foreign-aid-details-pending/"
+      },
+      {
+        "date": "2015-09-28",
+        "title": "Mulcair to restore Canadian leadership on foreign aid",
+        "publisher": "NDP.ca",
+        "url": "http://www.ndp.ca/news/mulcair-to-restore-canadian-leadership-foreign-aid"
+      },
+      {
+        "date": "2015-01-24",
+        "title": "Canada's foreign aid spending shrinking: Official",
+        "publisher": "CP24",
+        "url": "http://www.cp24.com/news/canada-s-foreign-aid-spending-shrinking-official-1.2203952"
+      }
+    ],
+    "handle": "ndp_foreign_aid"
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Pursue long-term fight against ISIS",
+      "FR": "Poursuivre le combat de long terme contre l'État Islamique"
+    },
+    "references": [
+      {
+        "date": "2015-09-10",
+        "title": "ISIS mission: Comparing leaders' positions on military involvement",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-iraq-syria-canada-military-mission-mulcair-harper-trudeau-1.3223568"
+      },
+      {
+        "date": "2015-08-10",
+        "title": "ISIS mission, not aid alone, needed to help refugees, Stephen Harper says",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-harper-religion-aug10-1.3185333"
+      }
+    ],
+    "handle": "cpc_isis"
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Accept 10,000 refugees over three years",
+      "FR": "Accepter 10 000 réfugiés d'ici 3 ans"
+    },
+    "references": [
+      {
+        "date": "2015-09-05",
+        "title": "NDP, Liberals urge government to accept thousands more Syrian refugees",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/ndp-liberal-refugees-1.3217055"
+      },
+      {
+        "date": "2015-09-05",
+        "title": "NDP and Liberals call for Canada to accept more Syrian refugees",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/09/05/ndp-and-liberals-call-for-canada-to-accept-more-syrian-refugees.html"
+      },
+      {
+        "date": "2015-09-07",
+        "title": "NDP, Liberals call for increased refugee settlement in Canada by year's end",
+        "publisher": "CTV News",
+        "url": "http://www.ctvnews.ca/politics/election/ndp-liberals-call-for-increased-refugee-settlement-in-canada-by-year-s-end-1.2549599"
+      }
+    ],
+    "handle": "cpc_refugees"
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Train local soldiers against ISIS",
+      "FR": "Entraîner les troupes canadiennes pour combattre l'État Islamique"
+    },
+    "references": [
+      {
+        "date": "2015-09-10",
+        "title": "ISIS mission: Comparing leaders' positions on military involvement",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-iraq-syria-canada-military-mission-mulcair-harper-trudeau-1.3223568"
+      },
+      {
+        "date": "2015-06-23",
+        "title": "Justin Trudeau: I'll end ISIS combat mission, restore relations with Iran",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/justin-trudeau-i-ll-end-isis-combat-mission-restore-relations-with-iran-1.3124949"
+      }
+    ],
+    "handle": "lpc_isis"
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Accept 25,000 refugees within 2015",
+      "FR": "Accepter 25 000 réfugiés d'ici 2015"
+    },
+    "references": [
+      {
+        "date": "2015-09-05",
+        "title": "NDP, Liberals urge government to accept thousands more Syrian refugees",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/ndp-liberal-refugees-1.3217055"
+      },
+      {
+        "date": "2015-09-05",
+        "title": "NDP and Liberals call for Canada to accept more Syrian refugees",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/09/05/ndp-and-liberals-call-for-canada-to-accept-more-syrian-refugees.html"
+      },
+      {
+        "date": "2015-09-07",
+        "title": "NDP, Liberals call for increased refugee settlement in Canada by year's end",
+        "publisher": "CTV News",
+        "url": "http://www.ctvnews.ca/politics/election/ndp-liberals-call-for-increased-refugee-settlement-in-canada-by-year-s-end-1.2549599"
+      }
+    ],
+    "handle": "lpc_refugees"
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Increase funding and reduce OAS age requirement to 65",
+      "FR": "Augmenter le financement et abaisser l'âge de la retraite à 65 ans"
+    },
+    "references": [
+      {
+        "title": "Security in Retirement",
+        "publisher": "NDP.ca",
+        "url": "http://www.ndp.ca/plan"
+      }
+    ],
+    "handle": "ndp_seniors"
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Support income splitting for seniors",
+      "FR": "Appuie la séparation des revenues pour les personnes agées"
+    },
+    "references": [
+      {
+        "title": "Security in Retirement",
+        "publisher": "NDP.ca",
+        "url": "http://www.ndp.ca/plan"
+      }
+    ],
+    "handle": "ndp_seniors_income_splitting"
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Single-seniors tax credit",
+      "FR": "Réduction d'impôt pour les personnes agées seules"
+    },
+    "references": [
+      {
+        "title": "Support For Canadian Seniors",
+        "publisher": "Conservative.ca",
+        "url": "http://www.conservative.ca/cpc/support-for-canadian-seniors/"
+      }
+    ],
+    "handle": "cpc_seniors"
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase funding for homecare",
+      "FR": "Augmenter le financement pour les soins à domicile"
+    },
+    "references": [
+      {
+        "title": "Trudeau promises $3-billion investment in home care, mental health",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/"
+      }
+    ],
+    "handle": "lpc_homecare"
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase funding and reduce OAS and GIS age requirement to 65",
+      "FR": "Augmenter le financement et abaisser l'âge pour le revenu minimum garantie et la pension à 65 ans"
+    },
+    "references": [
+      {
+        "title": "Retirement security for our seniors",
+        "publisher": "Liberal.ca",
+        "url": "http://www.liberal.ca/realchange/retirement-security-for-our-seniors/"
+      }
+    ],
+    "handle": "lpc_seniors"
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Support income splitting for seniors",
+      "FR": "Appuie le séparation des revenues pour les personnes agées"
+    },
+    "references": [
+      {
+        "title": "Fact Check: Trudeau will keep pension income splitting for seniors",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/fact-check-trudeau-will-keep-pension-income-splitting-for-seniors/"
+      }
+    ],
+    "handle": "lpc_seniors_income_splitting"
+  },
+  {
+    "topic": "youth",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "End interest on federal student loans",
+      "FR": "Supprimer les intérêts sur les prêts étudiant fédéraux"
+    },
+    "references": [
+      {
+        "date": "2015-10-01",
+        "title": "New Democrats announce plan to end interest on student loans",
+        "publisher": "Ottawa Citizen",
+        "url": "http://ottawacitizen.com/news/politics/new-democrats-announce-plan-to-end-interest-on-student-loans"
+      }
+    ],
+    "handle": "ndp_student_loans"
+  },
+  {
+    "topic": "youth",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Provide protections for unpaid internships",
+      "FR": "Assurer une protection contre les stages non-rémunérés"
+    },
+    "references": [
+      {
+        "date": "2015-02-17",
+        "title": "NDP will protect interns",
+        "publisher": "NDP.ca",
+        "url": "http://www.ndp.ca/news/ndp-will-protect-interns"
+      },
+      {
+        "date": "2015-09-10",
+        "title": "Tom Mulcair promises $200M to boost youth employment ",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-youth-internships-jobs-1.3222513"
+      }
+    ],
+    "handle": "ndp_internships"
+  },
+  {
+    "topic": "youth",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Invest in youth employment and opportunity",
+      "FR": "Investir dans l'emploi pour les jeunes"
+    },
+    "references": [
+      {
+        "title": "Creating Jobs and Opportunity for Young Canadians",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/files/2015/09/Creating-Jobs-and-Opportunity-For-Young-Canadians.pdf"
+      },
+      {
+        "date": "2015-09-11",
+        "title": "Justin Trudeau lays out $1.5B youth employment strategy",
+        "publisher": "CBC",
+        "url": "http://www.cbc.ca/news/politics/canada-election-2015-trudeau-youth-employment-jobs-1.3224237"
+      },
+      {
+        "date": "2015-09-11",
+        "title": "Liberals pledge to create 40,000 youth jobs",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/liberals-vows-to-outspend-ndp-on-youth-employment-strategy/article26329455/"
+      }
+    ],
+    "handle": "lpc_youth"
+  },
+  {
+    "topic": "government",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Use a “Mixed Member Parliament” electoral system",
+      "FR": "Utiliser un système électoral de type “Parlement mixte”"
+    },
+    "references": [
+      {
+        "date": "2015-09-10",
+        "title": "Electoral reform back in the spotlight",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/09/10/electoral-reform-back-in-the-spotlight.html"
+      },
+      {
+        "date": "2014-12-02",
+        "title": "The NDP wants to implement a mixed proportional system",
+        "publisher": "NDP.ca",
+        "url": "http://www.ndp.ca/news/ndp-wants-to-implement-mixed-proportional-system"
+      }
+    ],
+    "handle": "ndp_reform"
+  },
+  {
+    "topic": "government",
+    "year": 2015,
+    "party": "Conservative",
+    "title": {
+      "EN": "Require referendum for any electoral reform",
+      "FR": "Exiger un référendum pour toute réforme électorale"
+    },
+    "references": [
+      {
+        "date": "2015-07-27",
+        "title": "Tories to require a vote on changing elections",
+        "publisher": "Toronto Sun",
+        "url": "http://www.torontosun.com/2015/07/27/exclusive-tories-to-require-a-vote-on-changing-elections"
+      }
+    ],
+    "handle": "cpc_reform"
+  },
+  {
+    "topic": "government",
+    "year": 2015,
+    "party": "Liberal",
+    "title": {
+      "EN": "Form committee to find best alternative electoral system",
+      "FR": "Création d'une commission chargée de trouver le meilleur système électoral alternatif"
+    },
+    "references": [
+      {
+        "date": "2015-06-17",
+        "title": "Electoral reform spells trouble for Stephen Harper’s Conservatives",
+        "publisher": "The Star",
+        "url": "http://www.thestar.com/news/canada/2015/06/17/electoral-reform-spells-trouble-for-stephen-harpers-conservatives-hbert.html"
+      },
+      {
+        "title": "Priority Resolution 31: Restoring Trust in Canada’s Democracy",
+        "publisher": "Liberal.ca",
+        "url": "https://www.liberal.ca/policy-resolutions/31-priority-resolution-restoring-trust-canadas-democracy/"
+      },
+      {
+        "title": "Amending Formula",
+        "publisher": "University of Alberta",
+        "url": "http://ualawccsprod.srv.ualberta.ca/ccs/index.php/constitutional-keywords/489-amending-formula"
+      }
+    ],
+    "handle": "lpc_reform"
+  },
+  {
+    "topic": "science",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Create Parliamentary Science Officer",
+      "FR": "Créer le poste d'agent scientifique parlementaire"
+    },
+    "references": [
+      {
+        "date": "2014-11-26",
+        "title": "Scientific community rallies behind NDP proposal for science",
+        "publisher": "NDP.ca",
+        "url": "http://www.ndp.ca/news/scientific-community-rallies-behind-ndp-proposal-science"
+      },
+      {
+        "date": "2015-09-30",
+        "title": "Mulcair pledges to end ‘muzzling’ of scientists by creating parliamentary science officer role ",
+        "publisher": "The Globe and Mail",
+        "url": "http://www.theglobeandmail.com/news/politics/mulcair-pledges-to-end-muzzling-of-scientists-by-creating-parliamentary-science-officer-role/article26597765/"
+      },
+      {
+        "date": "2013-12-03",
+        "title": "Bill C-558 - Parliamentary Science Officer Act",
+        "publisher": "Open Parliament",
+        "url": "https://openparliament.ca/bills/41-2/C-558/"
+      }
+    ],
+    "handle": "ndp_science_officer"
+  },
+  {
+    "topic": "science",
+    "year": 2015,
+    "party": "NDP",
+    "title": {
+      "EN": "Create Chief Science Officer",
+      "FR": "Créer le poste d'agent scientifique en chef"
+    },
+    "references": [
+      {
+        "title": "Unmuzzle Scientists",
+        "publisher": "Liberal.ca",
+        "url": "http://www.liberal.ca/realchange/unmuzzle-science/"
+      }
+    ],
+    "handle": "lpc_science_officer"
+  }
+]

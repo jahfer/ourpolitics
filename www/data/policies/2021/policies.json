@@ -1,0 +1,4646 @@
+[
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Implement tax on digital services",
+      "FR": "Mettre en place une taxe sur les services numériques"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ],
+    "handle": "digital_services_tax"
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Allow tech companies to issue flow-through shares",
+      "FR": "Permettre aux entreprises technologiques d'émettre des actions accréditives"
+    },
+    "references": [
+      {
+        "date": "2021-08-11",
+        "title": "Conservatives unveil innovation policy ahead of potential election call, marking departure from Liberals",
+        "publisher": "National Post",
+        "url": "https://nationalpost.com/news/politics/conservatives-unveil-innovation-policy-ahead-of-potential-election-call-marking-departure-from-liberals"
+      },
+      {
+        "date": "2008-04-28",
+        "title": "Flow-through shares (FTSs)",
+        "publisher": "Canada Revenue Agency",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/flow-through-shares-ftss.html"
+      }
+    ],
+    "handle": "flow_through_shares"
+  },
+  {
+    "topic": "science",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Create the Canadian Advanced Research Agency",
+      "FR": "Créer l'Agence canadienne de recherche avancée"
+    },
+    "references": [
+      {
+        "date": "2021-08-11",
+        "title": "Conservatives unveil innovation policy ahead of potential election call, marking departure from Liberals",
+        "publisher": "National Post",
+        "url": "https://nationalpost.com/news/politics/conservatives-unveil-innovation-policy-ahead-of-potential-election-call-marking-departure-from-liberals"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Build 145,000 additional homes in 3&nbsp;years",
+      "FR": "Construire 1 million de logements dans les 3 prochaines années"
+    },
+    "references": [
+      {
+        "date": "2021-08-19",
+        "title": "O’Toole eyes housing crisis with million home pledge, foreign investment freeze",
+        "publisher": "Global News",
+        "url": "https://globalnews.ca/news/8125092/election-otoole-housing-conservative-canada-campaign/"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Build 120,000 additional homes, repair 130,000 homes in 4 years",
+      "FR": "Construire 120&nbsp;000 logements supplémentaires, réparer 130&nbsp;000 logements en 4 ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-24",
+        "title": "Trudeau promises new incentives worth billions and a tax on 'flipping' to help Canadians buy a home",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
+      },
+      {
+        "date": "2021-08-24",
+        "title": "Tweet",
+        "publisher": "@JustinTrudeau",
+        "url": "https://mobile.twitter.com/JustinTrudeau/status/1430153185352617988"
+      },
+      {
+        "date": "2021-08-24",
+        "title": "Liberals will take aim at real-estate speculation, propose homebuyers’ ‘bill of rights’ in ambitious housing policy",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/political-opinion/2021/08/24/liberals-will-take-aim-at-real-estate-speculation-propose-homebuyers-bill-of-rights-in-ambitious-housing-policy.html"
+      },
+      {
+        "date": "2021-08-24",
+        "title": "Tweet",
+        "publisher": "@Justin_Ling",
+        "url": "https://twitter.com/Justin_Ling/status/1430164008112431113"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Help Cities Accelerate Housing Construction",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/1-4-million-new-homes/"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Home Buyers’ Bill of Rights",
+      "FR": "Charte des droits de l'acheteur d'une maison"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Home Buyers’ Bill of Rights",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-your-rights/"
+      },
+      {
+        "date": "2021-08-24",
+        "title": "Trudeau promises new incentives worth billions and a tax on 'flipping' to help Canadians buy a home",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
+      },
+      {
+        "date": "2021-08-24",
+        "title": "Liberals will take aim at real-estate speculation, propose homebuyers’ ‘bill of rights’ in ambitious housing policy",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/political-opinion/2021/08/24/liberals-will-take-aim-at-real-estate-speculation-propose-homebuyers-bill-of-rights-in-ambitious-housing-policy.html"
+      }
+    ],
+    "handle": "homebuyers_bill_of_rights"
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
+      "FR": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Crack Down on Foreign Ownership",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/crack-down-on-foreign-ownership/"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Release 15% of federal property for housing",
+      "FR": "Libérer 15&nbsp;% des propriétés fédérales pour le logement"
+    },
+    "references": [
+      {
+        "date": "2021-08-19",
+        "title": "O’Toole eyes housing crisis with million home pledge, foreign investment freeze",
+        "publisher": "Global News",
+        "url": "https://globalnews.ca/news/8125092/election-otoole-housing-conservative-canada-campaign/"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Increase taxes on capital gains",
+      "FR": "Augmenter les impôts sur les gains en capital"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "NDP promises to expand its ‘wealth tax’ to include thousands more Canadians",
+        "publisher": "Toronto Star",
+        "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Tax on luxury goods",
+      "FR": "Taxe sur les produits de luxe"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Increase top income tax rate",
+      "FR": "Augmenter le taux supérieur d'imposition sur le revenu"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "NDP promises to expand its ‘wealth tax’ to include thousands more Canadians",
+        "publisher": "Toronto Star",
+        "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
+      }
+    ],
+    "handle": "income_tax_rate"
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Increase corporate taxes",
+      "FR": "Augmenter l'impôt sur les sociétés"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "NDP promises to expand its ‘wealth tax’ to include thousands more Canadians",
+        "publisher": "Toronto Star",
+        "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
+      },
+      {
+        "date": "2012-01-12",
+        "title": "Canada Cuts Corporate Tax Rate to 15%, Lowest Overall Rate in G-7",
+        "publisher": "The Tax Foundation",
+        "url": "https://taxfoundation.org/canada-cuts-corporate-tax-rate-15-lowest-overall-rate-g-7/"
+      }
+    ],
+    "handle": "corporate_tax_rate"
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Wealth tax of 1% per year",
+      "FR": "Impôt sur la fortune de 1&nbsp;% par an"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "NDP promises to expand its ‘wealth tax’ to include thousands more Canadians",
+        "publisher": "Toronto Star",
+        "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
+      }
+    ],
+    "handle": "wealth_tax"
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Partially cover salaries of new hires after the end of Canada Emergency Wage Subsidy for six months",
+      "FR": "Couvrir partiellement les salaires des nouveaux employés après la fin de la subvention salariale d'urgence du Canada pendant six mois"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "5% investment tax credit for two years",
+      "FR": "Crédit d'impôt à l'investissement de 5&nbsp; pendant deux ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Tax credit on personal investments in small businesses for 2 years",
+      "FR": "Crédit d'impôt sur les investissements personnels dans les petites entreprises pendant 2 ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Loans for small and medium businesses in hospitality, retail, and tourism",
+      "FR": "Prêts pour les petites et moyennes entreprises des secteurs de l'hôtellerie, de la vente au détail et du tourisme"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Low-interest loans for individuals up to $10,000 for additional training in skilled trades",
+      "FR": "Prêts à faible taux d'intérêt pour les particuliers, jusqu'à 10&nbsp;000&nbsp;$, pour une formation supplémentaire dans des métiers spécialisés"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Allow new parents to qualify for parental leave income when starting a home-based business",
+      "FR": "Permettre aux nouveaux parents de bénéficier du revenu du congé parental lorsqu'ils créent une entreprise à domicile"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Require federally regulated employers to include worker representation on their boards of directors",
+      "FR": "Obliger les employeurs sous réglementation fédérale à inclure une représentation des travailleurs dans leur conseil d'administration"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "science",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Ban cosmetic testing on animals",
+      "FR": "Interdire les tests cosmétiques sur les animaux"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
+      "FR": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Residential high risk flood insurance program",
+      "FR": "Programme d'assurance contre les inondations résidentielles à haut risque"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Minister of Red Tape Reduction",
+      "FR": "Ministre de la réduction des formalités administratives"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Update anti-corruption laws",
+      "FR": "Mettre à jour les lois anti-corruption"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Increase sickness benefits from 15 weeks to 52 weeks if suffering a serious illness",
+      "FR": "Augmenter les prestations de maladie de 15 à 52 semaines pour les personnes souffrant d'une maladie grave"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Mental Health Action Plan",
+      "FR": "Plan d'action pour la santé mentale"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2021-08-25",
+        "title": "O'Toole pledges mental health support, attaches no strings for provinces, territories",
+        "publisher": "CTV News",
+        "url": "https://www.ctvnews.ca/politics/federal-election-2021/o-toole-pledges-mental-health-support-attaches-no-strings-for-provinces-territories-1.5560625"
+      }
+    ],
+    "handle": "mental_health_action_plan"
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "FR": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Create simplified gun classification system",
+      "FR": "Créer un système simplifié de classification des armes à feu"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2021-09-05",
+        "title": "O'Toole reverses course on guns, will maintain Liberal ban during review of classifications",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/gun-control-wedge-issue-1.6165532"
+      }
+    ],
+    "handle": "gun_classification"
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Increase EI benefits during provincial recessions",
+      "FR": "Augmenter les prestations d'assurance-emploi pendant les récessions provinciales"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Double the Canada Workers Benefit with quarterly payouts",
+      "FR": "Doubler la prestation pour travailleurs canadiens par des versements trimestriels"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Require employers of gig economy workers to pay into Tax-free Employee Savings Account",
+      "FR": "Obliger les employeurs des travailleurs de la gig economy à cotiser à un compte d'épargne salariale exonéré d'impôt"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Ensure every Canadian has access to high-speed broadband internet by 2025",
+      "FR": "Veiller à ce que chaque Canadien ait accès à l'Internet à haut débit d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Allow foreign telecom companies to provide services",
+      "FR": "Autoriser les entreprises de télécommunications étrangères à fournir des services"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "child-care",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Refundable tax credit for child-care",
+      "FR": "Crédit d'impôt remboursable pour la garde d'enfants"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Canada Seniors Care Benefit",
+      "FR": "Prestation canadienne pour soins aux aînés"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "international-trade",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Border carbon adjustments",
+      "FR": "Ajustements du carbone aux frontières"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "international-trade",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Pursue CANZUK trade agreement",
+      "FR": "Poursuivre l'accord commercial CANZUK"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Reduce emissions by 30% below 2005 levels by 2030",
+      "FR": "Réduire les émissions de 30&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-08-27",
+        "title": "https://www.theglobeandmail.com/politics/article-conservative-leader-erin-otoole-rejects-canadas-new-emissions-target/",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-conservative-leader-erin-otoole-rejects-canadas-new-emissions-target/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Protect 17% of Canada's lands and waters",
+      "FR": "Protéger 17&nbsp;% des terres et des eaux du Canada"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Personal Low Carbon Savings Accounts",
+      "FR": "Comptes personnels d'épargne à faible émission de carbone"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2021-04-15",
+        "title": "Low-carbon bucks: Conservatives pitch consumer carbon pricing through savings account",
+        "publisher": "CTV News",
+        "url": "https://www.ctvnews.ca/politics/low-carbon-bucks-conservatives-pitch-consumer-carbon-pricing-through-savings-account-1.5388541"
+      },
+      {
+        "date": "2021-03-25",
+        "title": "Case in Brief: References re Greenhouse Gas Pollution Pricing Act",
+        "publisher": "Supreme Court of Canada",
+        "url": "https://www.scc-csc.ca/case-dossier/cb/2021/38663-38781-39116-eng.aspx"
+      },
+      {
+        "date": "2021-08-21",
+        "title": "O'Toole acknowledges some Conservatives 'frustrated' over carbon pricing plan",
+        "publisher": "CTV News",
+        "url": "https://www.ctvnews.ca/mobile/politics/federal-election-2021/o-toole-acknowledges-some-conservatives-frustrated-over-carbon-pricing-plan-1.5556254"
+      }
+    ],
+    "handle": "low_carbon_savings_account"
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Cap the carbon tax increase to a maximum of $50/ton for consumers",
+      "FR": "Plafonner l'augmentation de la taxe sur le carbone à un maximum de 50&nbsp;$/tonne pour les consommateurs"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Delivering on Truth and Reconciliation Commission Calls to Action",
+        "publisher": "Government of Canada",
+        "url": "https://www.rcaanc-cirnac.gc.ca/eng/1524494530110/1557511412801"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "End long-gun registry, reintroduce expiry to firearms restrictions from violent or criminal past",
+      "FR": "Mettre fin au registre des armes d'épaule, réintroduire l'expiration des restrictions sur les armes à feu en cas de passé violent ou criminel"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2019-06-02",
+        "title": "Bill C-71 has passed. What does that mean for gun owners?",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/calgary/2019/06/02/bill-c-71-has-passed-what-does-that-mean-for-gun-owners.html"
+      }
+    ]
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Recognize Jerusalem as the capital of Israel",
+      "FR": "Reconnaître Jérusalem comme capitale d'Israël"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Reduce emissions by 40–45% below 2005 levels by 2030",
+      "FR": "Réduire les émissions de 40&nbsp;–&nbsp;45&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Delivering on Our Climate Commitments",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/delivering-on-our-climate-commitments/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Protect 25% of Canada's lands and waters by 2025",
+      "FR": "Protéger 25&nbsp;% des terres et des eaux du Canada d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#127"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — More National Parks and Marine Conservation Areas",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/more-national-parks-and-marine-conservation-areas/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Ban on single-use plastics",
+      "FR": "Interdiction des plastiques à usage unique"
+    },
+    "references": []
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Improve plastic recycling",
+      "FR": "Améliorer le recyclage des plastiques"
+    },
+    "references": [
+      {
+        "date": "2021-08-28",
+        "title": "Liberals move forward to end plastic pollution and reduce waste",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/liberals-move-forward-to-end-plastic-pollution-and-reduce-waste/"
+      }
+    ],
+    "handle": "recycling"
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Reduce emissions by 50% below 2005 levels by 2030",
+      "FR": "Réduire les émissions de 50&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Eliminate fossil fuel subsidies by 2023",
+      "FR": "Éliminer les subventions aux combustibles fossiles d'ici 2023"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Eliminating Subsidies and Public Financing for Fossil Fuel",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/eliminating-subsidies-and-public-financing-for-fossil-fuel/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "100% of new light-duty cars and passenger trucks be zero-emissions by 2035",
+      "FR": "100&nbsp;% des nouvelles voitures légères et des nouveaux camions de passagers ne produiront pas d'émissions d'ici 2035"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Zero Emissions Vehicles",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/zero-emissions-vehicles/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Net zero electricity by 2035",
+      "FR": "Électricité nette zéro d'ici 2035"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Our Clean Power Advantage",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/our-clean-power-advantage/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Ensure every new building built in Canada is net-zero by 2025",
+      "FR": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Retrofit Economy that Cuts Pollution and Creates Jobs",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-retrofit-economy-that-cuts-pollution-and-creates-jobs/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase carbon tax to $170/ton by 2030",
+      "FR": "Augmenter la taxe sur le carbone à 170 $/tonne d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2020-12-11",
+        "title": "Ottawa to hike federal carbon tax to $170 a tonne by 2030",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/carbon-tax-hike-new-climate-plan-1.5837709"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Quarterly carbon tax payments back to individuals",
+      "FR": "Faire passer les paiements de l'incitation à l'action climatique d'un crédit remboursable via la déclaration de revenus à des paiements trimestriels"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#97"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Make EI simpler, expand support to seasonal and gig workers",
+      "FR": "Simplifier l'assurance-emploi et étendre le soutien aux travailleurs saisonniers et aux travailleurs indépendants"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Expand Canada Workers Benefit",
+      "FR": "Élargir la prestation des travailleurs canadiens"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Improve labour protections for gig workers",
+      "FR": "Améliorer les protections du travail pour les travailleurs indépendants"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Establish a Black-led Philanthropic Endowment Fund",
+      "FR": "Créer un fonds de dotation philanthropique dirigé par des Noirs"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Implement tax on digital services",
+      "FR": "Mettre en place une taxe sur les services numériques"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p4-en.html#252"
+      }
+    ],
+    "handle": "digital_services_tax"
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Shut down the Canada Infrastructure Bank",
+      "FR": "Fermer la Banque canadienne d'infrastructure"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Exempt Canadian companies from stock option deduction cap",
+      "FR": "Exempter les entreprises canadiennes du plafond de déduction des options d'achat d'actions"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2019-06-17",
+        "title": "Backgrounder: Proposed Changes to the Tax Treatment of Employee Stock Options",
+        "publisher": "Government of Canada",
+        "url": "https://www.canada.ca/en/department-finance/news/2019/06/backgrounder-proposed-changes-to-the-tax-treatment-of-employee-stock-options.html"
+      }
+    ],
+    "handle": "stock_option_exemption"
+  },
+  {
+    "topic": "science",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Expand Industrial Research Assistance Program",
+      "FR": "Élargir le programme d'aide à la recherche industrielle"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "science",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Fund Strategic Innovation Fund",
+      "FR": "Fonds d'innovation stratégique"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "science",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Create National Institute for Women’s Health Research",
+      "FR": "Créer l'Institut national de recherche sur la santé des femmes"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Require municipalities to increase density near the funded transit",
+      "FR": "Créer l'Institut national de recherche sur la santé des femmes"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Rent-to-own program",
+      "FR": "Programme de location avec option d'achat"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A New Rent-to-Own Program",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-new-rent-to-own-program/"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Double the Home Buyers’ Tax Credit",
+      "FR": "Doublez le crédit d'impôt pour l'achat d'une maison"
+    },
+    "references": [
+      {
+        "date": "2021-08-24",
+        "title": "Trudeau promises new incentives worth billions and a tax on 'flipping' to help Canadians buy a home",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "1% tax on non-resident, non-Canadian owned residential real estate that is vacant or underused",
+      "FR": "Taxe de 1 % sur les biens immobiliers résidentiels vacants ou sous-utilisés appartenant à des non-résidents et à des non-Canadiens"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p4-en.html#254"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Tax on luxury goods",
+      "FR": "Taxe sur les produits de luxe"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p4-en.html#253"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase cost of tobacco and vaping products",
+      "FR": "Augmenter le coût des produits du tabac et du vapotage"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase sickness benefits from 15 weeks to 26 weeks",
+      "FR": "Augmenter les prestations de maladie de 15 à 26 semaines"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Universal pharmacare",
+      "FR": "Assurance-médicaments universelle"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "FR": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Electoral reform before next election",
+      "FR": "Réforme électorale avant les prochaines élections"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Update anti-corruption laws",
+      "FR": "Mettre à jour les lois anti-corruption"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "$4 billion top-up to Canada Health Transfer",
+      "FR": "Complément de 4 milliards de dollars au Transfert canadien en matière de santé"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Develop and fund national mental health service standards across the country",
+      "FR": "L'ASPC va élaborer des normes nationales de services de santé mentale"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Comprehensive Plan for Mental Health Care Across Canada",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-comprehensive-plan-for-mental-health-care-across-canada/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Remove charity status for anti-abortion organizations",
+      "FR": "Retirer le statut d'organisme de bienfaisance aux organisations anti-avortement"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Your Sexual and Reproductive Health and Rights",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-your-sexual-and-reproductive-health-and-rights/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Cover mental health costs of veterans waiting for benefits",
+      "FR": "Couvrir les frais de santé mentale des anciens combattants en attendant les avantages"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase the home accessibility tax credit to $20,000",
+      "FR": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20&nbsp;000&nbsp;$"
+    },
+    "references": [
+      {
+        "date": "2021-08-19",
+        "title": "Trudeau promises $9b to address long-term care 'shortfalls' during Victoria campaign stop",
+        "publisher": "BIV",
+        "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase OAS by 10% for those 75+, indexed to inflation",
+      "FR": "Augmenter la SV de 10&nbsp;% pour les personnes de plus de 75&nbsp;ans, indexée à l'inflation"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "international-trade",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Border carbon adjustments",
+      "FR": "Ajustements du carbone aux frontières"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Cut income taxes by 50% for manufacturers of zero-emissions technologies",
+      "FR": "Réduire de 50&nbsp;% le taux d'imposition sur le revenu pour les fabricants de technologies à émissions nulles"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#104"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Tax credit for investments in carbon capture, utilization & storage projects",
+      "FR": "Crédit d'impôt pour les investissements dans des projets de capture, d'utilisation et de stockage du carbone"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#114"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Sure Canada is a World-Leader in Clean Technology",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-sure-canada-is-a-world-leader-in-clean-technology/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Tax credit for investments in carbon capture, utilization & storage projects",
+      "FR": "Crédit d'impôt pour les investissements dans des projets de capture, d'utilisation et de stockage du carbone"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Interest-free loans up to $40,000 for deep retrofits of homes",
+      "FR": "Prêts sans intérêt jusqu'à 40&nbsp;000&nbsp;dollars pour des améliorations profondes des logements"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#117"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "End chronic homelessness in Canada",
+      "FR": "Mettre fin à l'itinérance chronique au Canada"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
+      "FR": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Delivering on Truth and Reconciliation Commission Calls to Action",
+        "publisher": "Government of Canada",
+        "url": "https://www.rcaanc-cirnac.gc.ca/eng/1524494530110/1557511412801"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "$18 billion investment in Indigenous communities",
+      "FR": "18 milliards de dollars d'investissement dans les communautés indigènes"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p3-en.html#chap8"
+      }
+    ]
+  },
+  {
+    "topic": "child-care",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Universal $10/day child-care",
+      "FR": "Garde d'enfants universelle à 10 $/jour"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Establishing a Canada-Wide Early Learning and Child Care System (Budget 2021)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#21"
+      }
+    ],
+    "handle": "child-care"
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Remove interest on Canada Student Loans and Canada Apprentice Loans",
+      "FR": "Suppression des intérêts sur les prêts canadiens aux étudiants et les prêts canadiens aux apprentis"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      },
+        {
+          "date": "2021-09-01",
+          "title": "Forward. For Everyone. — Permanently Eliminating Interest on Canada Student Loans",
+          "publisher": "Liberal Party of Canada",
+          "url": "https://liberal.ca/our-platform/permanently-eliminating-interest-on-canada-student-loans/"
+        }
+    ]
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase threshold for repayment assistance on federal student loans to $40,000 for borrowers living alone",
+      "FR": "Augmenter le seuil de l'aide au remboursement des prêts étudiants fédéraux à 40&nbsp;000&nbsp;$ pour les emprunteurs vivant seuls"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Allow individuals to use current year’s income for Canada Student Grant eligibility",
+      "FR": "Permettre aux particuliers d'utiliser le revenu de l'année en cours pour l'admissibilité aux subventions canadiennes pour étudiants"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase student wage subsidy to $7,500 per student",
+      "FR": "Augmenter la subvention salariale des étudiants à 7 500 $ par étudiant"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Provide 98% of the country with high-speed broadband by 2026 and 100% by 2030",
+      "FR": "Fournir 98&nbsp;% du pays en haut débit d'ici 2026 et 100&nbsp;% d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-04-19",
+        "title": "Budget 2021 (PDF)",
+        "publisher": "Government of Canada",
+        "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Resettle 40,000 refugees from Afghanistan",
+      "FR": "Réinstaller 40&nbsp;000&nbsp;réfugiés d'Afghanistan"
+    },
+    "references": [
+      {
+        "date": "2021-08-13",
+        "title": "Canada expands resettlement program to bring more Afghans to safety",
+        "publisher": "Government of Canada",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2021/08/canada-expands-resettlement-program-to-bring-more-afghans-to-safety.html"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Apply Quebec's religious symbols ban for government employees to federally-regulated workplaces in Quebec",
+      "FR": "Appliquer l'interdiction des symboles religieux du Québec pour les employés du gouvernement aux lieux de travail sous réglementation fédérale au Québec"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2021-08-26",
+        "title": "Tweet",
+        "publisher": "@mikelecouteur (Global)",
+        "url": "https://twitter.com/mikelecouteur/status/1430926853473284109"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Increase the annual growth rate of the Canada Health Transfer to at least 6%",
+      "FR": "Faire passer le taux de croissance annuel du Transfert canadien en matière de santé à au moins 6&nbsp;%"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Merge Canadian Armed Forces (CAF) and Veterans Affairs Canada (VAC) into one system of benefits",
+      "FR": "Fusionner les Forces armées canadiennes (FAC) et Anciens Combattants Canada (ACC) en un seul système d'avantages, de l'enrôlement à la retraite, en passant par le service"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "$3 billion over three years to renovate Long-Term Care Homes",
+      "FR": "3 milliards de dollars sur trois&nbsp;ans pour rénover les foyers de soins de longue durée"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Double the residency deduction, increase the basic amount in the intermediate zone for Northern residents",
+      "FR": "Doubler la déduction pour résidence, augmenter le montant de base dans la zone intermédiaire pour les résidents du Nord"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Reduce hours required to qualify for the Disability Tax Credit and the Registered Disability Savings Plan",
+      "FR": "Réduire le nombre d'heures requises pour être admissible au crédit d'impôt pour personnes handicapées et au régime enregistré d'épargne-invalidité"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "international-trade",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "End ban on Canadian oil export shipping traffic on British Columbia's coast",
+      "FR": "Mettre fin à l'interdiction du trafic maritime d'exportation de pétrole canadien sur la côte de la Colombie-Britannique"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Recognize the Uyghur genocide",
+      "FR": "Reconnaître le génocide ouïghour"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
+      "FR": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      },
+      {
+        "date": "2015-12-15",
+        "title": "Truth and Reconciliation Commission of Canada: Calls to Action",
+        "publisher": "Truth and Reconciliation Commission of Canada",
+        "url": "https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/indigenous-people/aboriginal-peoples-documents/calls_to_action_english2.pdf"
+      },
+      {
+        "date": "2021-08-23",
+        "title": "O’Toole promises progress on all Indigenous truth and reconciliation calls to action",
+        "publisher": "Global News",
+        "url": "https://globalnews.ca/news/8134332/otoole-plan-trc-indigenous/"
+      }
+    ],
+    "handle": "calls_to_action"
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Increase funding for Indigenous mental health and drug treatment programs",
+      "FR": "Accroître le financement des programmes indigènes de santé mentale et de traitement de la toxicomanie"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Create Canadian Indigenous Enterprise Corporation",
+      "FR": "Créer la Societé canadienne autochtone"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "arts-and-culture",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Review the mandate of CBC English Television, CBC News Network and CBC English online news",
+      "FR": "Revoir le mandat de CBC English Television, CBC News Network et CBC English online news"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "arts-and-culture",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Introduce a digital media royalty framework",
+      "FR": "Introduire un cadre de redevances pour les médias numériques"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Allow individuals to pay for expedited processing of immigration applications",
+      "FR": "Permettre aux individus de payer pour le traitement accéléré des demandes d'immigration"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Expand super visa program",
+      "FR": "Élargir le programme de super visa"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Allow employers to sponsor applications for permanent residency",
+      "FR": "Permettre aux employeurs de parrainer les demandes de résidence permanente"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Replace all public, government-assisted refugee places with private and joint sponsorship places",
+      "FR": "Remplacer toutes les places de réfugiés publiques, assistées par le gouvernement, par des places de parrainage privé et conjoint"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "End illegal border crossings",
+      "FR": "Mettre fin aux franchissements illégaux des frontières"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Ensure that a higher proportion of immigrants settling in Quebec speak French",
+      "FR": "S'assurer qu'une plus grande proportion des immigrants qui s'installent au Québec parlent français"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Cap merchant credit card fees at 1%",
+      "FR": "Plafonner les frais de carte de crédit des commerçants à 1&nbsp;%"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Build 500,000 affordable housing units in 10 years, 50% of those in 5 years",
+      "FR": "500&nbsp;000&nbsp;unités de logement abordables en 10&nbsp;ans, dont 50&nbsp;% en 5&nbsp;ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Allow 30-year mortgages on entry-level homes for first time home buyers",
+      "FR": "Permettre des hypothèques de 30&nbsp;ans sur les maisons d'entrée de gamme pour les acheteurs d'une première maison"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "20% tax on real estate purchased by foreign buyers",
+      "FR": "Taxe de 20 % sur les biens immobiliers achetés par des acheteurs étrangers"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Double the Home Buyers’ Tax Credit",
+      "FR": "Doublez le crédit d'impôt pour l'achat d'une maison"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "First-home savings account for Canadians under 40",
+      "FR": "Compte d'épargne pour la première maison pour les Canadiens de moins de 40 ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-24",
+        "title": "Trudeau promises new incentives worth billions and a tax on 'flipping' to help Canadians buy a home",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "End homelessness in Canada within 10 years",
+      "FR": "Mettre fin à l'itinérance au Canada d'ici 10&nbsp;ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Restore door-to-door mail delivery",
+      "FR": "Rétablir la distribution du courrier en porte-à-porte"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ensure Supreme Court justices are bilingual",
+      "FR": "Veiller à ce que les juges de la Cour suprême soient bilingues"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Abolish the Senate",
+      "FR": "Abolir le Sénat"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ensure taxpayer-funded government advertising is non-partisan",
+      "FR": "Veiller à ce que la publicité gouvernementale financée par les contribuables soit non partisane"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Increase sickness benefits from 15 weeks to 50 weeks",
+      "FR": "Faire passer les prestations de maladie de 15 à 50 semaines"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Universal pharmacare",
+      "FR": "Assurance-médicaments universelle"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Independent oversight and accountability for sexual harassment and assault in the military",
+      "FR": "Contrôle indépendant et responsabilité en matière de harcèlement et d'agressions sexuels dans l'armée"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "End private, for-profit long-term care",
+      "FR": "Mettre fin aux soins de longue durée privés et à but lucratif"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Provide mental health care for uninsured Canadians",
+      "FR": "Fournir des soins de santé mentale aux Canadiens non assurés"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ensure all provinces make medical and surgical abortion available in all parts of the country",
+      "FR": "Veiller à ce que toutes les provinces rendent l'avortement médical et chirurgical disponible dans toutes les régions du pays"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ensure prescription contraceptive and reproductive health care options are easily accessible at no cost",
+      "FR": "Veiller à ce que les options de contraception sur ordonnance et de soins de santé génésique soient facilement accessibles sans frais"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Make EI more accessible",
+      "FR": "Rendre l'assurance-emploi plus accessible"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Allow parents to take shorter parental leave at a higher replacement rate",
+      "FR": "Permettre aux parents de prendre un congé parental plus court à un taux de remplacement plus élevé"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Allow self-employed workers to opt-into parental benefits at any time before taking their leave",
+      "FR": "Permettre aux travailleurs indépendants d'opter pour les prestations parentales à tout moment avant de prendre leur congé"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Guaranteed livable income for all Canadians, starting with every senior and person living with a disability",
+      "FR": "Un revenu vital garanti pour tous les Canadiens, à commencer par toutes les personnes âgées et les personnes handicapées"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Permanent paid sick leave",
+      "FR": "Congé de maladie permanent rémunéré"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Make automatic enrolment in OAS and GIS retroactive",
+      "FR": "Rendre rétroactive l'inscription automatique à la SV et au SRG"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Make the Canadian Caregiver Tax Credit refundable",
+      "FR": "Rendre le crédit d'impôt canadien pour aidants naturels remboursable"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Provide 10 days of paid leave for those dealing with family and domestic violence",
+      "FR": "Prévoir 10 jours de congé payé pour les personnes confrontées à la violence familiale et domestique"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "international-trade",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Border carbon adjustments",
+      "FR": "Ajustements du carbone aux frontières"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "international-trade",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Give trade unions ability to initiate trade disputes",
+      "FR": "Donner aux syndicats la capacité d'initier des conflits commerciaux"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Protect 30% of Canada's lands and waters by 2030",
+      "FR": "Protéger 30&nbsp;% des terres et des eaux du Canada d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ban on single-use plastics",
+      "FR": "Interdiction des plastiques à usage unique"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Improve plastic recycling",
+      "FR": "Améliorer le recyclage des plastiques"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ],
+    "handle": "recycling"
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Eliminate fossil fuel subsidies",
+      "FR": "Éliminer les subventions aux combustibles fossiles"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "100% of new car sales to be zero-emissions by 2035",
+      "FR": "100&nbsp;% de toutes les ventes de voitures neuves devront être exemptes d'émissions d'ici 2035"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Net zero electricity by 2030, 100% non-emitting electricity by 2040",
+      "FR": "Électricité nette zéro d'ici 2030, électricité 100&nbsp;% non émettrice d'ici 2040"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ensure every new building built in Canada is net-zero by 2025",
+      "FR": "S'assurer que chaque nouveau bâtiment construit au Canada est net-zéro d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ban the export of plastic waste",
+      "FR": "Interdire l'exportation de déchets plastiques"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Create Civilian Climate Corps",
+      "FR": "Créer un corps civil pour le climat"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Create a Climate Accountability Office to provide independent oversight of federal climate progress",
+      "FR": "Créer un Bureau de responsabilité climatique pour assurer une surveillance indépendante des progrès fédéraux en matière de climat"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Environmental Bill of Rights",
+      "FR": "Charte des droits environnementaux"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Telecom Consumers’ Bill of Rights",
+      "FR": "Charte des droits des consommateurs de télécommunications"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Compensate consumers who have been misled by financial advisors",
+      "FR": "Indemniser les consommateurs qui ont été trompés par des conseillers financiers"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Prevent credit and debit card companies from selling personal information",
+      "FR": "Empêcher les sociétés de cartes de crédit et de débit de vendre des informations personnelles"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Protect vulnerable contract, internship, and union workers",
+      "FR": "Interdire l'utilisation de travailleurs de remplacement dans les conflits de travail"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Regulate natural health products",
+      "FR": "Réglementer les produits de santé naturels"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Create a safe supply of medically regulated alternatives to toxic street drugs",
+      "FR": "Créer un approvisionnement sûr en alternatives médicalement réglementées aux drogues toxiques de la rue"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Create a mandatory, industry-financed pension insurance program",
+      "FR": "Créer un programme d'assurance retraite obligatoire et financé par l'industrie"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Require internet companies to take responsibility for what appears on their platform",
+      "FR": "Obliger les sociétés Internet à assumer la responsabilité de ce qui apparaît sur leur plateforme"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Better enforcement and reporting on use-of-force incidents by police",
+      "FR": "Amélioration de l'application et du signalement des incidents de recours à la force par la police"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ensure all major cities have dedicated hate crime units within local police forces",
+      "FR": "Veiller à ce que toutes les grandes villes disposent d'unités spécialisées dans les crimes haineux au sein des forces de police locales"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Require employers to be transparent about pay",
+      "FR": "Obliger les employeurs à faire preuve de transparence en matière de rémunération"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ban conversion therapy",
+      "FR": "Interdire la thérapie de conversion"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Add sexual orientation, gender identity and expression to the Employment Equity Act",
+      "FR": "Ajouter l'orientation sexuelle, l'identité et l'expression de genre à la <em>Loi sur l'équité en matière d'emploi</em>"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "National standards for identifying and recording all hate incidents",
+      "FR": "Normes nationales pour l'identification et l'enregistrement de tous les incidents de haine"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ban carding by RCMP",
+      "FR": "Interdiction des brevets par la GRC"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Proactively expunge criminal records for Canadians convicted of minor cannabis possession",
+      "FR": "Annulation proactive des casiers judiciaires des Canadiens condamnés pour possession mineure de cannabis"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Increase federal funding for legal aid programs",
+      "FR": "Augmenter le financement fédéral des programmes d'aide juridique"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Digital bill of privacy rights",
+      "FR": "Charte numérique des droits à la vie privée"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Contribute 0.7% of our Gross National Income to international aid",
+      "FR": "Contribuer 0,7&nbsp;% de notre revenu national brut à l'aide internationale"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Make sure Canadian-made weapons are not fuelling conflict and human rights abuses abroad",
+      "FR": "S'assurer que les armes fabriquées au Canada n'alimentent pas les conflits et les violations des droits de l'homme à l'étranger"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "foreign-policy",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Suspend arms sales to Israel until their withdrawal from the occupied territories",
+      "FR": "Suspendre les ventes d'armes à Israël jusqu'au retrait de ce pays des territoires occupés"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Implement all of the Truth and Reconciliation Commission's Calls to Action",
+      "FR": "Mettre en œuvre tous les appels à l'action de la Commission de vérité et réconciliation"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Create National Council for Reconciliation to provide oversight and accountability",
+      "FR": "Création d'un Conseil national de la réconciliation pour assurer la surveillance et la responsabilité"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Appoint a special prosecutor to pursue those responsible for the harm caused in residential schools",
+      "FR": "Nommer un procureur spécial pour poursuivre les responsables des préjudices causés dans les pensionnats"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Fully fund Indigenous National Housing Strategy within the first 100 days",
+      "FR": "Financer entièrement la stratégie nationale de logement autochtone dans les 100 premiers jours"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Support Indigenous-led water management training programs and water system operations",
+      "FR": "Soutenir les programmes de formation à la gestion de l'eau et l'exploitation des systèmes d'approvisionnement en eau dirigés par des autochtones"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "child-care",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Universal $10/day child-care",
+      "FR": "Garde d'enfants universelle à 10 $/jour"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Work towards making post-secondary education public",
+      "FR": "Travailler à rendre l'enseignement postsecondaire public"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Stop issuing federal student loans, double Canada Student Grants",
+      "FR": "Cesser d'émettre des prêts étudiants fédéraux, doubler les subventions canadiennes aux étudiants"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ],
+    "handle": "student_loans"
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Change EI rules to allow workers who quit their job to go to school to qualify for EI benefits",
+      "FR": "Modifier les règles de l'assurance-emploi pour permettre aux travailleurs qui quittent leur emploi pour aller à l'école d'être admissibles aux prestations d'assurance-emploi"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Require large employers to spend at least 1% of payroll on training for their employees annually",
+      "FR": "Obliger les grands employeurs à consacrer chaque année au moins 1&nbsp;% de la masse salariale à la formation de leurs employés"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "youth",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "National school nutrition program",
+      "FR": "Programme national de nutrition scolaire"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "youth",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Lower the voting age to 16",
+      "FR": "Abaisser l'âge du droit de vote à 16&nbsp;ans"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Ensure every Canadian has access to affordable, reliable high-speed broadband internet by 2025",
+      "FR": "Veiller à ce que chaque Canadien ait accès à un service Internet à large bande abordable et fiable d'ici 2025"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Declare high-speed internet an essential service",
+      "FR": "Déclarer l'internet à haut débit comme un service essentiel"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Create Crown corporation for telecom services",
+      "FR": "Créer une société d'État pour les services de télécommunications"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Require the use of Canadian-made steel, aluminum, cement and wood products for infrastructure projects",
+      "FR": "exiger l'utilisation d'acier, d'aluminium, de ciment et de produits du bois fabriqués au Canada pour les projets d'infrastructure"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Develop a public inter-city bus program",
+      "FR": "Développer un programme de bus publics interurbains"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Create Crown corporation responsible for domestic vaccine production",
+      "FR": "Créer une société d'État responsable de la production nationale de vaccins"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Work with Canada Post to provide postal banking",
+      "FR": "Travailler avec Postes Canada pour fournir des services bancaires postaux"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "arts-and-culture",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Increase funding for CBC and Radio-Canada",
+      "FR": "Augmenter le financement de CBC et de Radio-Canada"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "arts-and-culture",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Require foreign content companies to support Canadian content in both official languages",
+      "FR": "Exiger que les entreprises de contenu étrangères soutiennent le contenu canadien dans les deux langues officielles"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "arts-and-culture",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Allow income tax averaging for artists and cultural workers",
+      "FR": "Permettre l'étalement de l'impôt sur le revenu pour les artistes et les travailleurs culturels"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "End the cap on applications to sponsor parents and grandparents",
+      "FR": "Mettre fin au plafonnement des demandes de parrainage de parents et de grands-parents"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Attract more French-speaking immigrants to communities across the country",
+      "FR": "Attirer davantage d'immigrants francophones dans les communautés du pays"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "affordability",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Price cap on cell phone and internet bills",
+      "FR": "Plafonnement des prix des factures de téléphone cellulaire et d'Internet"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "affordability",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Require affordable basic plans for wireless and broadband",
+      "FR": "Exiger des plans de base abordables pour les services sans fil et à large bande"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "affordability",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Require companies to offer affordable unlimited wireless data",
+      "FR": "Obliger les entreprises à offrir des données illimitées sans fil à un prix abordable"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "affordability",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Abolish data caps for broadband internet",
+      "FR": "Abolir les plafonds de données pour l'internet à haut débit"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Right to Repair",
+      "FR": "Droit à la réparation"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Right to Repair for household appliances",
+      "FR": "Droit de réparer les appareils ménagers"
+    },
+    "references": [
+      {
+        "date": "2021-08-28",
+        "title": "Liberals move forward to end plastic pollution and reduce waste",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/liberals-move-forward-to-end-plastic-pollution-and-reduce-waste/"
+      }
+    ]
+  },
+  {
+    "topic": "affordability",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Fair Gasoline Prices Watchdog",
+      "FR": "Le chien de garde des prix équitables de l'essence"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Provide up to $5,000/year to renters",
+      "FR": "Fournir jusqu'à 5&nbsp;000&nbsp;$/an aux locataires"
+    },
+    "references": [
+      {
+        "date": "2021-08-21",
+        "title": "Tweet",
+        "publisher": "@theJagmeetSingh",
+        "url": "https://twitter.com/theJagmeetSingh/status/1429087832358932487?s=20"
+      },
+      {
+        "date": "2021-08-21",
+        "title": "Singh says NDP will crack down on 'renovictions', provide up to $5K in rent help",
+        "publisher": "CTV News",
+        "url": "https://www.ctvnews.ca/politics/federal-election-2021/singh-says-ndp-will-crack-down-on-renovictions-provide-up-to-5k-in-rent-help-1.5556192?utm_source=pocket_mylist"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "30% of light duty vehicles sold to be zero emissions by 2030",
+      "FR": "30&nbsp;% des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Ban the export of plastic waste",
+      "FR": "Interdire l'exportation de déchets plastiques"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase Guaranteed Income Supplement",
+      "FR": "Augmenter le Supplément de revenu garanti"
+    },
+    "references": [
+      {
+        "date": "2021-08-26",
+        "title": "Liberals will hike supplementary pensions for low-income seniors, Trudeau says",
+        "publisher": "CTV News",
+        "url": "https://www.ctvnews.ca/politics/federal-election-2021/liberals-will-hike-supplementary-pensions-for-low-income-seniors-trudeau-says-1.5562146"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase corporate taxes on banks and insurance companies",
+      "FR": "Augmenter les impôts sur les sociétés des banques et des compagnies d'assurance"
+    },
+    "references": [
+      {
+        "date": "2021-08-25",
+        "title": "Trudeau promises to hike taxes on Canada's big banks, insurance companies",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/trudeau-hike-taxes-banks-1.6152710"
+      }
+    ],
+    "handle": "corporate_tax_rate"
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Implement open banking for secure transfer of financial information across banks and service providers",
+      "FR": "Mettre en œuvre l'open banking pour un transfert sécurisé des informations financières entre les banques et les prestataires de services"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Implement open banking for secure transfer of financial information across banks and service providers",
+      "FR": "Mettre en œuvre l'open banking pour un transfert sécurisé des informations financières entre les banques et les prestataires de services"
+    },
+    "references": [
+      {
+        "date": "2021-08-09",
+        "title": "Canada calls screen scraping ‘unsecure,’ sets Open Banking target for 2023",
+        "publisher": "finledger",
+        "url": "https://finledger.com/2021/08/09/canada-sets-open-banking-target-for-2023/"
+      },
+      {
+        "date": "2021-08-04",
+        "title": "Government welcomes final report from Advisory Committee on Open Banking",
+        "publisher": "Government of Canada",
+        "url": "https://www.canada.ca/en/department-finance/news/2021/08/government-welcomes-final-report-from-advisory-committee-on-open-banking.html"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Increase transparency for investment management fees",
+      "FR": "Accroître la transparence des frais de gestion des investissements"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Conservative",
+    "title": {
+      "EN": "Criminal penalties and increased fines for price-fixing",
+      "FR": "Des sanctions pénales et des amendes accrues pour la fixation des prix"
+    },
+    "references": [
+      {
+        "date": "2021-08-16",
+        "title": "Canada's Recovery Plan (PDF)",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Retrofit all buildings in Canada by 2050",
+      "FR": "Rénover tous les bâtiments au Canada d'ici 2050"
+    },
+    "references": [
+      {
+        "date": "2021-08-12",
+        "title": "Ready for Better: New Democrats’ Commitments to You (PDF)",
+        "publisher": "New Democratic Party of Canada",
+        "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Ban unvaccinated passengers from interprovincial trains, commercial flights, and cruise ships",
+      "FR": "Interdire les passagers non vaccinés des trains interprovinciaux, des vols commerciaux et des navires de croisière"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Mandatory Vaccination",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/mandatory-vaccination/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Cover the cost of implementing “vaccine passports” for provinces and territories",
+      "FR": "Couvrir le coût de la mise en œuvre des «&nbsp;passeports vaccinaux&nbsp;» pour les provinces et les territoires"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Proof of Vaccination",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/proof-of-vaccination/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Provide funding to hire 7,500 new family doctors, nurses, and nurse practitioners",
+      "FR": "Fournir un financement pour l'embauche de 7&nbsp;500 nouveaux médecins de famille, infirmiers et infirmières praticiennes"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Sure Every Canadian Has Access to a Family Doctor or Primary Health Team",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-sure-every-canadian-has-access-to-a-family-doctor-or-primary-health-team/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Make Disability Tax Credit, CPP-Disability available to those with mental health challenges",
+      "FR": "Rendre le crédit d'impôt pour personnes handicapées, le RPC-invalidité accessible aux personnes ayant des problèmes de santé mentale"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A Comprehensive Plan for Mental Health Care Across Canada",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-comprehensive-plan-for-mental-health-care-across-canada/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase long term care worker wages, safer conditions for seniors",
+      "FR": "Augmentation des salaires des travailleurs des soins de longue durée, conditions plus sûres pour les personnes âgées"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Safer Conditions in Homes",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/safer-conditions-in-homes/"
+      },
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Better Working Conditions for Personal Support Workers",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/better-working-conditions-for-personal-support-workers/"
+      },
+      {
+        "date": "2021-08-19",
+        "title": "Trudeau promises $9b to address long-term care 'shortfalls' during Victoria campaign stop",
+        "publisher": "BIV",
+        "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
+      }
+    ]
+  },
+  {
+    "topic": "education",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase Eligible Educator School Supply tax credit",
+      "FR": "Augmenter le crédit d'impôt pour fournitures scolaires pour les éducateurs admissibles"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Support for Teachers",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/support-for-teachers/"
+      }
+    ]
+  },
+  {
+    "topic": "youth",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "National School Food Policy",
+      "FR": "Politique nationale en matière d'alimentation scolaire"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — School Nutrition and Healthy Eating",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/school-nutrition-and-healthy-eating/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Introduce new restrictions for marketing of food and beverages to children",
+      "FR": "Introduire de nouvelles restrictions pour la commercialisation des aliments et des boissons auprès des enfants"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — School Nutrition and Healthy Eating",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/school-nutrition-and-healthy-eating/"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "More flexible First Time Home Buyer Incentive",
+      "FR": "Un incitatif plus souple pour les acheteurs d'une première maison"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A More Flexible First Time Home Buyer Incentive",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-more-flexible-first-time-home-buyer-incentive/"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Reduce mortgage insurance costs by 25%",
+      "FR": "Réduire les frais d'assurance hypothécaire de 25&nbsp;%"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Reduce Your Monthly Mortgage Costs",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/reduce-your-monthly-mortgage-costs/"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Convert empty office and retail space into housing, including federal and commercial property",
+      "FR": "Convertir les bureaux et les espaces commerciaux vides en logements, y compris les propriétés fédérales et commerciales"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Convert Empty Office Space into Housing",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/convert-empty-office-space-into-housing/"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Anti-flipping tax for properties held for <1&nbsp;year",
+      "FR": "Taxe anti-flipping pour les propriétés détenues depuis moins d'un an"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Curb Speculation and House Flipping",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/curb-speculation-and-house-flipping/"
+      }
+    ]
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Tax landlords who increase rent too much",
+      "FR": "Taxer les propriétaires qui augmentent trop le loyer"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Keep Your Rent Fair",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/keep-your-rent-fair/"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Create Canada Financial Crimes Agency",
+      "FR": "Créer l'Agence canadienne des crimes financiers"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protect the Stability and Security of the Housing Market",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protect-the-stability-and-security-of-the-housing-market/"
+      }
+    ]
+  },
+  {
+    "topic": "child-care",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Make Canada Caregiver Credit refundable and tax-free",
+      "FR": "Rendre le crédit canadien pour aidants naturels remboursable et non imposable"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — More Support for Caregivers",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/more-support-for-caregivers/"
+      }
+    ]
+  },
+  {
+    "topic": "affordability",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Allow parents to pause federal student loan bills until their youngest child is 5 years old",
+      "FR": "Permettre aux parents de mettre en pause les factures des prêts étudiants fédéraux jusqu'à ce que leur plus jeune enfant ait 5 ans"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Giving New Parents a Break on Student Loans",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/giving-new-parents-a-break-on-student-loans/"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "1-800 number to provide seniors with access to government services and benefits",
+      "FR": "Numéro 1-800 pour permettre aux personnes âgées d'accéder aux services et avantages gouvernementaux"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A 1-800 number to Help Seniors Access Government Support",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-1-800-number-to-help-seniors-access-government-support/"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Up to 26 weeks of unemployment assistance for self-employed Canadians",
+      "FR": "Jusqu'à 26 semaines d'assistance chômage pour les travailleurs indépendants canadiens"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — An EI System that Works for Everyone",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/an-ei-system-that-works-for-everyone/"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Require employers of gig economy workers to pay towards EI and CPP like other employers",
+      "FR": "Obliger les employeurs des travailleurs de l'économie gigogne à cotiser à l'AE et au RPC comme les autres employeurs"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — An EI System that Works for Everyone",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/an-ei-system-that-works-for-everyone/"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Additional support for workers laid off after 5 years of employment at a business that closes",
+      "FR": "Soutien supplémentaire pour les travailleurs licenciés après 5 ans d'emploi dans une entreprise qui ferme"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Career Insurance Benefit",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/career-insurance-benefit/"
+      }
+    ]
+  },
+  {
+    "topic": "affordability",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Expand Home Expense deduction, continue for two more years",
+      "FR": "Élargir la déduction pour frais de logement, continuer pendant deux années supplémentaires"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Extending and Expanding the Home Expense Deduction",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/extending-and-expanding-the-home-expense-deduction/"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Make replacement workers illegal when an employer locks out union workers in a federally-regulated industry",
+      "FR": "Rendre les travailleurs de remplacement illégaux lorsqu'un employeur met en lock-out des travailleurs syndiqués dans une industrie réglementée par le gouvernement fédéral"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Workplaces Fairer, For Everyone",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-workplaces-fairer-for-everyone/"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Right to Disconnect outside of work hours",
+      "FR": "Droit à la déconnexion en dehors des heures de travail"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Workplaces Fairer, For Everyone",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-workplaces-fairer-for-everyone/"
+      }
+    ]
+  },
+  {
+    "topic": "economy",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Improve Canada Small Business Financing Program",
+      "FR": "Améliorer le programme de financement des petites entreprises du Canada"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making it Easier for Small Businesses to Invest and Grow",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-it-easier-for-small-businesses-to-invest-and-grow/"
+      }
+    ]
+  },
+  {
+    "topic": "science",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Create the Canada Advanced Research Projects Agency",
+      "FR": "Créer l'Agence canadienne de projets de recherche avancée"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — A New Advanced Research Agency",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/a-new-advanced-research-agency/"
+      }
+    ]
+  },
+  {
+    "topic": "arts-and-culture",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Temporarily match ticket sales for performing arts, live theatres, and other cultural venues",
+      "FR": "Assortir temporairement les ventes de billets pour les arts de la scène, les théâtres vivants et autres lieux culturels"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Helping Artists and Cultural Industries Recover",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/helping-artists-and-cultural-industries-recover/"
+      }
+    ]
+  },
+  {
+    "topic": "arts-and-culture",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Require foreign companies (e.g. Netflix) to contribute to the creation and promotion of Canadian arts",
+      "FR": "Exiger que les entreprises étrangères (par exemple Netflix) contribuent à la création et à la promotion des arts canadiens"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Supporting Canadian Music, Film and Television",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/supporting-canadian-music-film-and-television/"
+      }
+    ]
+  },
+  {
+    "topic": "arts-and-culture",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Require social media platforms to share revenue from news distribution with Canadian news outlets",
+      "FR": "Exiger que les plateformes de médias sociaux partagent les revenus provenant de la diffusion des nouvelles avec les organes de presse canadiens"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Levelling the Playing Field with Digital Giants",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/levelling-the-playing-field-with-digital-giants/"
+      }
+    ]
+  },
+  {
+    "topic": "arts-and-culture",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase funding for CBC/Radio-Canada, eliminate advertising on news and public affairs shows",
+      "FR": "Augmenter le financement de CBC/Radio-Canada, éliminer la publicité dans les émissions de nouvelles et d'affaires publiques"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Modernizing CBC/Radio-Canada",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/modernizing-cbc-radio-canada/"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Attract more French-speaking immigrants to communities across the country",
+      "FR": "Attirer davantage d'immigrants francophones dans les communautés du pays"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Securing the future of the French language in Canada",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/securing-the-future-of-the-french-language-in-canada/"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Remove citizenship application fees for permanent residents",
+      "FR": "Supprimer les frais de demande de citoyenneté pour les résidents permanents"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Eliminating Citizenship Application Fees for Permanent Residents",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/eliminating-citizenship-application-fees-for-permanent-residents/"
+      }
+    ]
+  },
+  {
+    "topic": "immigration",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Issue visas to spouses and children abroad who are waiting for permanent residency",
+      "FR": "Délivrer des visas aux conjoints et enfants à l'étranger qui attendent la résidence permanente"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Strengthening Family Reunification and Reducing Processing Times",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/strengthening-family-reunification-and-reducing-processing-times/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Ban conversion therapy",
+      "FR": "Interdire la thérapie de conversion"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Ban Conversion Therapy",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/ban-conversion-therapy/"
+      }
+    ]
+  },
+  {
+    "topic": "social-assistance",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Canada Disability Benefit",
+      "FR": "Prestation d'invalidité du Canada"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Introduce a Disability Benefit",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/introduce-a-disability-benefit/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Require oil and gas companies to reduce methane emissions by at least 75% below 2012 levels by 2030",
+      "FR": "Exiger des compagnies pétrolières et gazières qu'elles réduisent leurs émissions de méthane d'au moins 75&nbsp;% par rapport aux niveaux de 2012 d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Cutting Methane Emissions",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/cutting-methane-emissions/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Ban coal exports by 2030",
+      "FR": "Interdire les exportations de charbon d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Eliminating Thermal Coal Exports",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/eliminating-thermal-coal-exports/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Green Bonds",
+      "FR": "Obligations vertes"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Sustainable Finance",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/sustainable-finance/"
+      },
+      {
+        "date": "2021-04-19",
+        "title": "Feds plan $5-billion green bond issue",
+        "publisher": "Advisor's Edge",
+        "url": "https://www.advisor.ca/news/industry-news/feds-plan-5-billion-green-bond-issue/"
+      }
+    ],
+    "handle": "green_bonds"
+  },
+  {
+    "topic": "housing",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "National flood insurance program",
+      "FR": "Programme national d'assurance contre les inondations"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Our Homes and Communities from the Impacts of Climate Change",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-our-homes-and-communities-from-the-impacts-of-climate-change/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Create 15 national urban parks by 2030",
+      "FR": "Créer 15 parcs urbains nationaux d'ici 2030"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — More National Parks and Marine Conservation Areas",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/more-national-parks-and-marine-conservation-areas/"
+      }
+    ]
+  },
+  {
+    "topic": "civil-rights",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Right to a Healthy Environment",
+      "FR": "Droit à un environnement sain"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Canadians from Harmful Chemicals and Advancing Environmental Justice",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-canadians-from-harmful-chemicals-and-advancing-environmental-justice/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Mandatory labelling of chemicals in consumer products that impact health or the environment",
+      "FR": "Étiquetage obligatoire des substances chimiques présentes dans les produits de consommation ayant un impact sur la santé ou l'environnement"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Canadians from Harmful Chemicals and Advancing Environmental Justice",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-canadians-from-harmful-chemicals-and-advancing-environmental-justice/"
+      }
+    ]
+  },
+  {
+    "topic": "science",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Ban cosmetic testing on animals by 2023",
+      "FR": "Interdire les tests cosmétiques sur les animaux d'ici 2023"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Protecting Animals",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/protecting-animals/"
+      }
+    ]
+  },
+  {
+    "topic": "indigenous-relations",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Require that First Nations, Inuit, and Métis businesses and entrepreneurs own at least 5% of the total value of federal procurement contracts",
+      "FR": "Exiger que les entreprises et les entrepreneurs inuits, métis et des Premières nations détiennent au moins 5&nbsp;% de la valeur totale des contrats d'approvisionnement fédéraux"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Helping Indigenous Businesses Grow",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/helping-indigenous-businesses-grow/"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "15% minimum tax rate for individuals who reach the top tax bracket",
+      "FR": "Taux d'imposition minimum de 15&nbsp;% pour les personnes qui atteignent la tranche d'imposition supérieure"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Sure Everyone Pays Their Fair Share",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-sure-everyone-pays-their-fair-share/"
+      }
+    ]
+  },
+  {
+    "topic": "environment",
+    "year": 2021,
+    "party": "Liberal",
+    "title": {
+      "EN": "Eliminate flow-through shares for oil, gas, and coal projects",
+      "FR": "Éliminer les actions accréditives pour les projets de pétrole, de gaz et de charbon"
+    },
+    "references": [
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Making Sure Everyone Pays Their Fair Share",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/making-sure-everyone-pays-their-fair-share/"
+      }
+    ]
+  },
+  {
+    "topic": "health-and-safety",
+    "year": 2021,
+    "party": "NDP",
+    "title": {
+      "EN": "Dental care coverage for those earning <$90,000",
+      "FR": "Couverture des soins dentaires pour ceux qui gagnent <90&nbsp;000&nbsp;$"
+    },
+    "references": [
+      {
+        "date": "2021-09-04",
+        "title": "Canada election: Singh pledges federal dental care program for Canadians",
+        "publisher": "Global Nes",
+        "url": "https://globalnews.ca/video/8167500/canada-election-singh-pledges-federal-dental-care-program-for-canadians"
+      }
+    ]
+  }
+]

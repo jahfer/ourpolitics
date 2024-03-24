@@ -1,15 +1,3 @@
+node_modules
 .DS_Store
-.bsb.lock
-.merlin
-npm-debug.log
-/lib/bs/
-/node_modules/
-*.cmi
-*.cmt
-*.mlmap
-*.cmj
-*.d
-*.mlast
-build/*
-src/**/*.bs.js
-.vscode
+embeddings
