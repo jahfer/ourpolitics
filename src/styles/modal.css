@@ -3,6 +3,10 @@ dialog {
   max-width: 100vw;
 }
 
+body:has(dialog.policyModal--content[open]) {
+  overflow: hidden;
+}
+
 .policyModal--content {
   margin: 0;
   height: 100%;
