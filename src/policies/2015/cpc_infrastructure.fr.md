@@ -1,1 +1,0 @@
-Le parti Conservateur planifie d'investir la majorité des **$5.8 milliard** alloués aux infrastructures au courant des **trois prochaines années** afin de supporter en priorité le développement du patrimoine, du tourisme, des parcs, des cours d'eau et des projets d'autoroutes.

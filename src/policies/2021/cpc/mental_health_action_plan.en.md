@@ -1,3 +1,0 @@
-The Conservatives plan to provide funding for—and suggest the provinces create—an additional **1 million** spaces for Canadians to receive treatment. Importantly, they have promised not to control how healthcare funds are used by the provinces, which means they **will not enforce this funding** for mental health.
-
-Conservatives will also offer a **25% tax credit** on any additional cost of mental health coverage in employee plans for **3 years**.

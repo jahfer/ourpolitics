@@ -1,3 +1,0 @@
-The NDP would invest **$200 million** across four years towards upgrading 50,000 homes and 15,000 apartments for energy efficiency. They have also promised **$150 million** over four years towards a “green municipal fund”. The fund would aid local governments in funding projects that promote sustainable living and transit.
-
-The NDP would also look to purchase electric vehicles for the federal government and add 150 charging stations for electric-cars on federal land.

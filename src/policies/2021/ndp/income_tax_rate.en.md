@@ -1,1 +1,0 @@
-The NDP plans to raise the top marginal tax rate for those earning **over $210,000** from 33% to **35%**. This top tax bracket was [introduced](https://ourpolitics.ca/policies/2015/lpc_middle_class_taxes#en) following the 2015 election.

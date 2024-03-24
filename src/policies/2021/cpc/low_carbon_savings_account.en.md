@@ -1,3 +1,0 @@
-The Conservatives have proposed a **tax-free savings account**, which consumers would be required to pay into when **purchasing fuel** such as gasoline, propane, and diesel. Consumers could then use these funds to make “green” purchases, with the list of eligible items set by the federal government. The account would function similar to the INTERAC debit system today, which is managed by a set of private companies. 
-
-The Conservatives also plan to **remove the federal carbon tax backstop for consumers**, which applies when the province does not meet minimum federal standards for carbon pricing as is the case in Saskatchewan, Manitoba, Ontario, and New Brunswick. The backstop would continue to apply for industrial polluters.

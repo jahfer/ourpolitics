@@ -1,1 +1,0 @@
-Les conservateurs ont l'intention de mettre en place une **taxe de 3 %** sur les revenus bruts gagnés par les entreprises étrangères fournissant des services numériques au Canada. Cette taxe ne s'appliquerait qu'aux entreprises qui ne paient pas déjà l'impôt sur le revenu des sociétés au Canada.

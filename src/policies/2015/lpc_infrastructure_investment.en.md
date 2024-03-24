@@ -1,1 +1,0 @@
-The Liberals have committed to doubling the current federal infrastructure investment to **$125 billion** over the next 10 years.  The investment would be focused on public transit, social infrastructure and "green" projects.

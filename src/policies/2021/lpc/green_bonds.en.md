@@ -1,1 +1,0 @@
-The Liberals plan to issue at least **$5 billion/year** of “green bonds” to the public. The money raised will go towards projects in green infrastructure, renewable energy projects, and nature conservation.
