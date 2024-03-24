@@ -32,7 +32,7 @@ type HistoryEntry = {
 
 type RouterContextType = {
   history: Array<HistoryEntry>,
-  setURL: (state: object, url?: string, title?: string) => void,
+  setURL: (state: object, url?: string, extra?:{event_name?: string}) => void,
   setURLToPrevious: (onEmptyHistory: (() => void)) => void,
   updateURLState: (state: object) => void
 }
@@ -123,9 +123,9 @@ export function RouterProvider({ routes }: RouterProviderProps) {
     }
   }
 
-  const setURL = (state: object, url?: string, title?: string) => {
-    const clickEvent = { path: url || location.pathname, title: title || document.title };
-    Analytics.recordEvent(clickEvent);
+  const setURL = (state: object, url?: string, {event_name}:{event_name?: string} = {}) => {
+    const clickEventName = event_name || url || location.pathname;
+    Analytics.recordEvent(clickEventName);
 
     const entry = { __op_id: next_id++, uri: url || "", state };
     history.pushState(entry, "", url);

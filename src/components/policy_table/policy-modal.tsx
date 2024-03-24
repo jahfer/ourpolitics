@@ -71,7 +71,7 @@ export default function PolicyModal () {
   const closeModal = useCallback(() => {
     setURLToPrevious(() => {
       if (modalPolicy) {
-        setURL({}, `/policies/${modalPolicy?.year}`, "Close Policy Modal")
+        setURL({}, `/policies/${modalPolicy?.year}`, {event_name: "Close Policy Modal"})
       } else {
         console.error("No policy to close");
       }

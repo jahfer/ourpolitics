@@ -6,6 +6,6 @@ export function useAnalytics() {
   }, []);
 }
 
-export function recordEvent({ path, title }: { path: string, title: string }) {
-  window.goatcounter.count({ path, title, event: true });
+export function recordEvent(name: string) {
+  window.goatcounter.count({ path: name, title: name, event: true });
 }
