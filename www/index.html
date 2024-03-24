@@ -32,12 +32,18 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/css/style.css" />
-  <!-- <link rel="preload" as="image" href="/img/op_logo_en.svg">
-  <link rel="preload" as="image" href="/img/op_logo_fr.svg"> -->
 </head>
 
 <body>
   <div id="page-root"></div>
+  <script>
+    if (window.location.host !== 'ourpolitics.ca') {
+      window.goatcounter = {
+        no_onload: true
+      }
+    }
+  </script>
+  <script data-goatcounter="https://ourpolitics.goatcounter.com/count" src="/js/count.js"></script>
   <script src="/js/bundle.js"></script>
 </body>
 

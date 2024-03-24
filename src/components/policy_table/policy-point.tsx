@@ -1,10 +1,12 @@
 import * as React from 'react'
 import { useLanguage } from 'contexts/language-context'
 import { useURL } from 'contexts/router-context'
-import { Party, Policy } from 'types/schema'
+import * as Policy from 'data/policy'
+import { Party, LanguageOption } from 'types/schema'
+import { useAnalytics } from 'support/analytics'
 
 interface PolicyPointProps {
-  policy: Policy
+  policy: Policy.T
 }
 
 function partyToAcronym(party: Party) {
@@ -23,11 +25,13 @@ function partyToAcronym(party: Party) {
   }
 }
 
-const policyURL = (policy: Policy) => `/policies/${policy.year}/${partyToAcronym(policy.party)}/${policy.handle}`;
+const policyURL = (policy: Policy.T) =>
+  `/policies/${policy.year}/${partyToAcronym(policy.party)}/${policy.handle}`;
 
 export default function PolicyPoint ({ policy }: PolicyPointProps) {
   const { language } = useLanguage();
   const { setURL } = useURL();
+  const _ = useAnalytics();
 
   let formattedPolicyTitle = policy.title[language].replace(
     /([$><+]*?[0-9]+\.?,?(&nbsp;)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
@@ -35,10 +39,11 @@ export default function PolicyPoint ({ policy }: PolicyPointProps) {
   );
 
   function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
+    const analytics_title = `[${policy.party}] ${policy.title[LanguageOption.EN]}`;
     if (policy.handle) {
-      setURL({ policy }, policyURL(policy));
+      setURL({ policy }, policyURL(policy), analytics_title);
     } else {
-      setURL({ policy });
+      setURL({ policy }, undefined, analytics_title);
     }
 
     event.preventDefault();

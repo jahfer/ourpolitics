@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from 'react';
 import * as React from 'react';
+import * as Analytics from 'support/analytics';
 
 type RouteHandler<T extends string> =
   T extends `/${infer Namespace}/:${infer Param}/:${infer Param}/:${infer Param}`
@@ -31,7 +32,7 @@ type HistoryEntry = {
 
 type RouterContextType = {
   history: Array<HistoryEntry>,
-  setURL: (state: object, url?: string) => void,
+  setURL: (state: object, url?: string, title?: string) => void,
   setURLToPrevious: (onEmptyHistory: (() => void)) => void,
   updateURLState: (state: object) => void
 }
@@ -122,7 +123,10 @@ export function RouterProvider({ routes }: RouterProviderProps) {
     }
   }
 
-  const setURL = (state: object, url?: string) => {
+  const setURL = (state: object, url?: string, title?: string) => {
+    const clickEvent = { path: url || location.pathname, title: title || document.title };
+    Analytics.recordEvent(clickEvent);
+
     const entry = { __op_id: next_id++, uri: url || "", state };
     history.pushState(entry, "", url);
     setNavHistory([entry, ...navHistory]);

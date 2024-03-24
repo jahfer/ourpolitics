@@ -1,7 +1,3 @@
-Notre politique s'engage à protéger votre droit à la vie privée, et fait tout son possible pour le protéger lorsque vous visitez notre site web. Nous promettons également de ne jamais vendre vos informations à une tierce partie.
+Notre politique s'engage à protéger votre droit à la vie privée et met tout en œuvre pour la protéger lorsque vous visitez notre site web. Nous nous engageons également à ne jamais vendre vos informations à un tiers.
 
-Nous utilisons Google Analytics pour suivre les visites et l'engagement sur le site Web. Ces informations sont utilisées pour déterminer quelles parties du site sont les plus utiles à nos visiteurs et quelles sont celles qui peuvent être améliorées à l'avenir.
-
-Toutes les requêtes utilisent [l'anonymisation de l'IP](https://support.google.com/analytics/answer/2763052?hl=en), qui intervient avant tout stockage ou traitement. La collecte de données pour les fonctions publicitaires et les rapports démographiques et d'intérêt est désactivée dans Google Analytics.
-
-Si vous souhaitez désactiver complètement le suivi, nous vous recommandons d'utiliser le module complémentaire de navigateur [Opt-out de Google Analytics](https://tools.google.com/dlpage/gaoptout), qui bloquera le suivi Google Analytics sur tous les sites Web.
+**Nous ne suivons jamais les utilisateurs à l'aide d'identifiants uniques via des cookies ou tout autre moyen.** Nous utilisons [GoatCounter](https://www.goatcounter.com/) - une plateforme d'analyse ouverte et respectueuse de la vie privée - pour enregistrer les visites et l'engagement sur le site web. Ces informations sont utilisées pour déterminer quelles parties du site web sont les plus utiles à nos visiteurs et quelles parties peuvent être améliorées à l'avenir.

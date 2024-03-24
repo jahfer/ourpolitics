@@ -11,6 +11,7 @@ import { RouterProvider, route } from 'contexts/router-context'
 
 import { LanguageOption } from 'types/schema'
 import Redirect from 'components/redirect'
+import { useAnalytics } from 'support/analytics'
 
 const routes = [
   route("/", () =>
@@ -33,6 +34,8 @@ const routes = [
 ]
 
 export default function App () {
+  const _ = useAnalytics();
+
   return (
     <React.StrictMode>
       <LanguageProvider defaultLanguage={LanguageOption.EN}>

@@ -1114,7 +1114,7 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useRef(initialValue);
           }
-          function useEffect11(create, deps) {
+          function useEffect12(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useEffect(create, deps);
           }
@@ -1896,7 +1896,7 @@
           exports.useContext = useContext4;
           exports.useDebugValue = useDebugValue;
           exports.useDeferredValue = useDeferredValue;
-          exports.useEffect = useEffect11;
+          exports.useEffect = useEffect12;
           exports.useId = useId2;
           exports.useImperativeHandle = useImperativeHandle;
           exports.useInsertionEffect = useInsertionEffect;
@@ -23764,13 +23764,26 @@
   var React3 = __toESM(require_react());
 
   // src/contexts/router-context.tsx
-  var import_react2 = __toESM(require_react());
+  var import_react3 = __toESM(require_react());
   var React2 = __toESM(require_react());
+
+  // src/support/analytics.ts
+  var import_react2 = __toESM(require_react());
+  function useAnalytics() {
+    (0, import_react2.useEffect)(() => {
+      window.goatcounter.bind_events();
+    }, []);
+  }
+  function recordEvent({ path, title }) {
+    window.goatcounter.count({ path, title, event: true });
+  }
+
+  // src/contexts/router-context.tsx
   function route(path, handler) {
     const pathComponents = path.split("/").filter((part) => part.length > 0);
     return { pathComponents, handler };
   }
-  var RouterContext = (0, import_react2.createContext)({
+  var RouterContext = (0, import_react3.createContext)({
     history: [],
     setURL: () => {
     },
@@ -23780,7 +23793,7 @@
     }
   });
   function useURL() {
-    return (0, import_react2.useContext)(RouterContext);
+    return (0, import_react3.useContext)(RouterContext);
   }
   function matchPath(pathComponents, route2) {
     if (pathComponents.length !== route2.pathComponents.length) {
@@ -23823,7 +23836,7 @@
   function RouterProvider({ routes: routes2 }) {
     const path = location.pathname;
     const mount = React2.useMemo(() => mountRoute(location.pathname, routes2), [routes2, path]);
-    const [navHistory, setNavHistory] = (0, import_react2.useState)(() => {
+    const [navHistory, setNavHistory] = (0, import_react3.useState)(() => {
       if (history.state && "__op_id" in history.state) {
         return [__spreadValues({}, history.state)];
       } else {
@@ -23841,7 +23854,9 @@
         onEmptyHistory();
       }
     };
-    const setURL = (state, url) => {
+    const setURL = (state, url, title) => {
+      const clickEvent = { path: url || location.pathname, title: title || document.title };
+      recordEvent(clickEvent);
       const entry = { __op_id: next_id++, uri: url || "", state };
       history.pushState(entry, "", url);
       setNavHistory([entry, ...navHistory]);
@@ -23895,15 +23910,17 @@
   function PolicyPoint({ policy }) {
     const { language } = useLanguage();
     const { setURL } = useURL();
+    const _ = useAnalytics();
     let formattedPolicyTitle = policy.title[language].replace(
       /([$><+]*?[0-9]+\.?,?(&nbsp;)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
       "<span class='text-em'>$1</span>"
     );
     function handleClick(event) {
+      const analytics_title = "[".concat(policy.party, "] ").concat(policy.title[LanguageOption.EN]);
       if (policy.handle) {
-        setURL({ policy }, policyURL(policy));
+        setURL({ policy }, policyURL(policy), analytics_title);
       } else {
-        setURL({ policy });
+        setURL({ policy }, void 0, analytics_title);
       }
       event.preventDefault();
       return false;
@@ -23961,10 +23978,10 @@
 
   // src/components/policy_table/topic-selector.tsx
   var React6 = __toESM(require_react());
-  var import_react3 = __toESM(require_react());
+  var import_react4 = __toESM(require_react());
   function TopicSelector({ topics, onUpdate }) {
     const { t } = useTranslation();
-    const [topicFilterState, setTopicFilterState] = (0, import_react3.useState)(() => false);
+    const [topicFilterState, setTopicFilterState] = (0, import_react4.useState)(() => false);
     const [topicSelections, setTopicSelections] = React6.useState(() => {
       return new Map(topics.map((topic) => [topic, true]));
     });
@@ -24079,11 +24096,11 @@
 
   // src/contexts/policy-modal-context.tsx
   var React9 = __toESM(require_react());
-  var import_react5 = __toESM(require_react());
+  var import_react6 = __toESM(require_react());
 
   // src/components/policy_table/policy-modal.tsx
   var React8 = __toESM(require_react());
-  var import_react4 = __toESM(require_react());
+  var import_react5 = __toESM(require_react());
 
   // src/policies/2021/lpc/child_care.en.md
   var html = "<p>The Liberals have begun signing contracts with the provinces and territories to offer child-care at an average price of <strong>$10/day</strong> within the next <strong>5 years</strong>. By the end of 2022, they expect to reduce the average cost of child-care by <strong>50%</strong>.</p>\n<p>The following provinces* and territories have <strong>not</strong> yet signed deals with the government:</p>\n<ul>\n<li>Ontario</li>\n<li>Alberta</li>\n<li>New Brunswick</li>\n<li>Northwest Territories</li>\n<li>Nunavut</li>\n</ul>\n<p><em>* Quebec already operates an &quot;affordable&quot; child-care system and will continue their program separate from the federal government</em></p>\n";
@@ -24859,14 +24876,14 @@
     return /* @__PURE__ */ React8.createElement("li", { className: "reference" }, /* @__PURE__ */ React8.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React8.createElement("h2", { className: "reference--title" }, " ", source.title, " "), /* @__PURE__ */ React8.createElement("div", { className: "reference--meta" }, " ", source.publisher, " ")));
   }
   function PolicyModal() {
-    const modalId = (0, import_react4.useId)();
+    const modalId = (0, import_react5.useId)();
     const { modalPolicy, policyModalVisible } = usePolicyModal();
     const { setURL, setURLToPrevious } = useURL();
     const { language } = useLanguage();
     const { t } = useTranslation();
-    const [dialogElement, setDialogElement] = (0, import_react4.useState)(void 0);
+    const [dialogElement, setDialogElement] = (0, import_react5.useState)(void 0);
     const [content, setContent] = React8.useState("");
-    const closeModal = (0, import_react4.useCallback)(() => {
+    const closeModal = (0, import_react5.useCallback)(() => {
       setURLToPrevious(() => {
         if (modalPolicy) {
           setURL({}, "/policies/".concat(modalPolicy == null ? void 0 : modalPolicy.year));
@@ -24875,11 +24892,11 @@
         }
       });
     }, [modalPolicy]);
-    (0, import_react4.useEffect)(() => {
+    (0, import_react5.useEffect)(() => {
       const dialog = document.getElementById(modalId);
       setDialogElement(dialog);
     }, [modalId]);
-    (0, import_react4.useEffect)(() => {
+    (0, import_react5.useEffect)(() => {
       if (dialogElement) {
         if (modalPolicy) {
           dialogElement.showModal();
@@ -24890,7 +24907,7 @@
         }
       }
     }, [dialogElement, modalPolicy]);
-    (0, import_react4.useEffect)(() => {
+    (0, import_react5.useEffect)(() => {
       const handler = (event) => {
         closeModal();
       };
@@ -24899,7 +24916,7 @@
         return () => dialogElement == null ? void 0 : dialogElement.removeEventListener("cancel", handler);
       }
     }, [dialogElement, closeModal]);
-    (0, import_react4.useLayoutEffect)(() => {
+    (0, import_react5.useLayoutEffect)(() => {
       let html191 = null;
       if (modalPolicy == null ? void 0 : modalPolicy.handle) {
         const handle = "".concat(modalPolicy.handle, "_").concat(language);
@@ -24958,12 +24975,12 @@
   }
 
   // src/contexts/policy-modal-context.tsx
-  var PolicyModalContext = (0, import_react5.createContext)({
+  var PolicyModalContext = (0, import_react6.createContext)({
     modalPolicy: null,
     policyModalVisible: false
   });
   function usePolicyModal() {
-    return (0, import_react5.useContext)(PolicyModalContext);
+    return (0, import_react6.useContext)(PolicyModalContext);
   }
   function partyHexColour(party) {
     switch (party) {
@@ -24983,8 +25000,8 @@
   }
   function PolicyModalProvider({ children }) {
     const { history: history2 } = useURL();
-    const [modalPolicy, setModalPolicy] = (0, import_react5.useState)(() => null);
-    const [policyModalVisible, setPolicyModalVisibility] = (0, import_react5.useState)(!!modalPolicy);
+    const [modalPolicy, setModalPolicy] = (0, import_react6.useState)(() => null);
+    const [policyModalVisible, setPolicyModalVisibility] = (0, import_react6.useState)(!!modalPolicy);
     const policyModalValue = { modalPolicy, policyModalVisible };
     React9.useEffect(() => {
       var _a;
@@ -25128,10 +25145,10 @@
   var React15 = __toESM(require_react());
 
   // src/components/pages/content/privacy_index.en.md
-  var html187 = '<p>Our Politics is committed to protecting your right to privacy, and take every effort to\nprotect it when visiting our website. We also promise to never sell your information to a 3rd party.</p>\n<p>We use Google Analytics to track visits and engagement on the website. This information is\nused to determine what parts of the website are most useful to our visitors, and what areas\ncan be improved in the future.</p>\n<p>All requests use <a href="https://support.google.com/analytics/answer/2763052?hl=en">IP anonymization</a>, which happens before any storage or processing takes place. <em>Data Collection for Advertising Features</em> and <em>Demographics and Interest Reports</em> are disabled within Google Analytics.</p>\n<p>If you wish to opt out of tracking completely, we recommend using the\n<a href="https://tools.google.com/dlpage/gaoptout">Google Analytics Opt-out Browser Add-on</a>, which will block Google Analyics tracking on all websites.</p>\n';
+  var html187 = '<p>Our Politics is committed to protecting your right to privacy, and take every effort to protect it when visiting our website. We also promise to never sell your information to a 3rd party.</p>\n<p><strong>We never track users with unique identifiers via cookies or any other means.</strong> We use <a href="https://www.goatcounter.com/">GoatCounter</a>\u2014an open-source, privacy-conscious analytics platform\u2014to record visits and engagement on the website. This information is used to determine what parts of the website are most useful to our visitors, and what areas can be improved in the future.</p>\n';
 
   // src/components/pages/content/privacy_index.fr.md
-  var html188 = "<p>Notre politique s'engage \xE0 prot\xE9ger votre droit \xE0 la vie priv\xE9e, et fait tout son possible pour le prot\xE9ger lorsque vous visitez notre site web. Nous promettons \xE9galement de ne jamais vendre vos informations \xE0 une tierce partie.</p>\n<p>Nous utilisons Google Analytics pour suivre les visites et l'engagement sur le site Web. Ces informations sont utilis\xE9es pour d\xE9terminer quelles parties du site sont les plus utiles \xE0 nos visiteurs et quelles sont celles qui peuvent \xEAtre am\xE9lior\xE9es \xE0 l'avenir.</p>\n<p>Toutes les requ\xEAtes utilisent <a href=\"https://support.google.com/analytics/answer/2763052?hl=en\">l'anonymisation de l'IP</a>, qui intervient avant tout stockage ou traitement. La collecte de donn\xE9es pour les fonctions publicitaires et les rapports d\xE9mographiques et d'int\xE9r\xEAt est d\xE9sactiv\xE9e dans Google Analytics.</p>\n<p>Si vous souhaitez d\xE9sactiver compl\xE8tement le suivi, nous vous recommandons d'utiliser le module compl\xE9mentaire de navigateur <a href=\"https://tools.google.com/dlpage/gaoptout\">Opt-out de Google Analytics</a>, qui bloquera le suivi Google Analytics sur tous les sites Web.</p>\n";
+  var html188 = "<p>Notre politique s'engage \xE0 prot\xE9ger votre droit \xE0 la vie priv\xE9e et met tout en \u0153uvre pour la prot\xE9ger lorsque vous visitez notre site web. Nous nous engageons \xE9galement \xE0 ne jamais vendre vos informations \xE0 un tiers.</p>\n<p><strong>Nous ne suivons jamais les utilisateurs \xE0 l'aide d'identifiants uniques via des cookies ou tout autre moyen.</strong> Nous utilisons <a href=\"https://www.goatcounter.com/\">GoatCounter</a> - une plateforme d'analyse ouverte et respectueuse de la vie priv\xE9e - pour enregistrer les visites et l'engagement sur le site web. Ces informations sont utilis\xE9es pour d\xE9terminer quelles parties du site web sont les plus utiles \xE0 nos visiteurs et quelles parties peuvent \xEAtre am\xE9lior\xE9es \xE0 l'avenir.</p>\n";
 
   // src/components/pages/privacy-policy-index.tsx
   function PrivacyPolicyIndex() {
@@ -25234,6 +25251,7 @@
     route("/privacy", () => /* @__PURE__ */ React19.createElement(PrivacyPolicyIndex, null))
   ];
   function App() {
+    const _ = useAnalytics();
     return /* @__PURE__ */ React19.createElement(React19.StrictMode, null, /* @__PURE__ */ React19.createElement(LanguageProvider, { defaultLanguage: LanguageOption.EN }, /* @__PURE__ */ React19.createElement(RouterProvider, { routes })));
   }
 
