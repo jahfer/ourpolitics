@@ -17,7 +17,9 @@ export default function TopicSelector({ topics, onUpdate }: TopicSelectorProps) 
 
   React.useEffect(() => {
     const handler = () => {
-      Analytics.recordEvent("topic_filter_close");
+      if (topicFilterState) {
+        Analytics.recordEvent("topic_filter_close");
+      }
       setTopicFilterState(false);
     }
     document.body.addEventListener('click', handler);
