@@ -125,9 +125,10 @@
   flex-flow: column nowrap;
   flex: 1 0 auto;
 }
-.policyTable .policyRow.tableHeader {
-  display: none;
+.policyTable .policyRow.tableHeader,
+.policyTable .policyRow.tableFiller {
   margin-bottom: 0;
+  display: none;
 }
 .policyTable .policyTable--empty {
   margin: 0 auto;
@@ -278,7 +279,8 @@
   .policyTable .policyRow {
     flex-direction: column;
   }
-  .policyTable .policyRow.tableHeader {
+  .policyTable .policyRow.tableHeader,
+  .policyTable .policyRow.tableFiller {
     display: flex;
   }
   .policyTable .policyCells {
@@ -424,7 +426,7 @@ a {
   border: none;
 }
 .policyCell--points {
-  padding: 0;
+  padding-left: 5px;
   margin: 0;
   list-style-type: circle;
 }
@@ -483,11 +485,8 @@ a {
   padding: 10px 0;
   flex-shrink: 0;
 }
-.policyRow.filler {
-  display: none;
-}
 .policyRow.tableHeader,
-.policyRow.filler {
+.policyRow.tableFiller {
   padding: 0;
   border-bottom: none;
   margin-bottom: 10px;
@@ -669,7 +668,7 @@ a {
     border-bottom: none;
     font-size: 17px;
   }
-  .policyRow.filler {
+  .policyRow.tableFiller {
     display: flex;
   }
   .policyPoint {

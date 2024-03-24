@@ -117,9 +117,9 @@
     flex-flow: column nowrap;
     flex: 1 0 auto;
 
-    &.tableHeader {
-      display: none;
+    &.tableHeader, &.tableFiller {
       margin-bottom: 0;
+      display: none;
     }
   }
 
@@ -305,7 +305,7 @@
     .policyRow {
       flex-direction: column;
 
-      &.tableHeader {
+      &.tableHeader, &.tableFiller {
         display: flex;
       }
     }

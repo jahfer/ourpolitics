@@ -1,7 +1,8 @@
 import * as React from 'react'
 import { useState } from 'react'
-import { useLanguage, useTranslation } from 'contexts/language-context'
+import { useTranslation } from 'contexts/language-context'
 import PolicyRow from './policy-row'
+import TopicSelector from './topic-selector'
 import { Party } from 'types/schema'
 import { T as Policy } from 'data/policy'
 import * as Util from 'support/util'
@@ -14,7 +15,6 @@ interface PolicyTableProps {
 export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
   const { t } = useTranslation();
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
-  const [topicFilterState, setTopicFilterState] = useState(() => false);
 
   const sortedParties = React.useMemo(() => Util.shuffle(Array.from(parties)), [parties]);
   const topics = React.useMemo(() => Array.from(dataset.keys()), [dataset]);
@@ -29,12 +29,6 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
     let initialHeaderTop = $tableHeader.getBoundingClientRect().top;
     let initialBodyTop = document.body.getBoundingClientRect().top;
     elTop = initialHeaderTop - initialBodyTop;
-  }, []);
-
-  React.useEffect(() => {
-    const handler = () => setTopicFilterState(false);
-    document.body.addEventListener('click', handler);
-    return () => document.body.removeEventListener('click', handler);
   }, []);
 
   React.useEffect(() => {
@@ -84,36 +78,8 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
         <div className="policyCells">
-          <div id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty" onClick={(e) => { e.stopPropagation(); setTopicFilterState(!topicFilterState) }}>
-            {t("topics")}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
-            <ul className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
-              <li className="policyTable--filterBar--item policyTable--filterBar--toggleAll">
-                {
-                  [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : (
-                    <div className="policyTable--filterBar--toggle">
-                      <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, false]))) }}>{t("select_none")}</a>
-                    </div>
-                  )
-                }
-                {
-                  [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : (
-                    <div className="policyTable--filterBar--toggle">
-                      <a href="#" onClick={(e) => { e.preventDefault(); setTopicSelections(new Map(topics.map((topic) => [topic, true]))) }}>{t("select_all")}</a>
-                    </div>
-                  )
-                }
-              </li>
-              {
-                [...topicSelections.entries()].map(([topic, checked]) => {
-                  return (
-                    <li key={`filterBar--${topic}`} className="policyTable--filterBar--item policyTable--filterBar--topic" onClick={(e) => setTopicSelections(new Map(topicSelections.set(topic, !checked)))}>
-                      {t(`topic.${topic}`)}
-                      <input checked={checked} readOnly className="policyTable--filterBar--item--checkbox" type="checkbox" />
-                    </li>
-                  )
-                })
-              }
-            </ul>
+          <div id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty">
+            <TopicSelector topics={topics} onUpdate={(selections) => setTopicSelections(selections)} />
           </div>
           {
             sortedParties.map((party) => {

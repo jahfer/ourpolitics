@@ -528,7 +528,7 @@
             }
             return element;
           };
-          function createElement19(type, config, children) {
+          function createElement20(type, config, children) {
             var propName;
             var props = {};
             var key = null;
@@ -1102,7 +1102,7 @@
             }
             return dispatcher.useContext(Context);
           }
-          function useState12(initialState) {
+          function useState13(initialState) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useState(initialState);
           }
@@ -1114,7 +1114,7 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useRef(initialValue);
           }
-          function useEffect10(create, deps) {
+          function useEffect11(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useEffect(create, deps);
           }
@@ -1627,7 +1627,7 @@
                 error("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
               }
             }
-            var element = createElement19.apply(this, arguments);
+            var element = createElement20.apply(this, arguments);
             if (element == null) {
               return element;
             }
@@ -1896,7 +1896,7 @@
           exports.useContext = useContext4;
           exports.useDebugValue = useDebugValue;
           exports.useDeferredValue = useDeferredValue;
-          exports.useEffect = useEffect10;
+          exports.useEffect = useEffect11;
           exports.useId = useId2;
           exports.useImperativeHandle = useImperativeHandle;
           exports.useInsertionEffect = useInsertionEffect;
@@ -1904,7 +1904,7 @@
           exports.useMemo = useMemo3;
           exports.useReducer = useReducer;
           exports.useRef = useRef;
-          exports.useState = useState12;
+          exports.useState = useState13;
           exports.useSyncExternalStore = useSyncExternalStore;
           exports.useTransition = useTransition;
           exports.version = ReactVersion;
@@ -2400,9 +2400,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React20 = require_react();
+          var React21 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React20.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React21.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -4007,7 +4007,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React20.Children.forEach(props.children, function(child) {
+                  React21.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -9406,7 +9406,7 @@
               }
             }
           }
-          function createElement19(type, props, rootContainerElement, parentNamespace) {
+          function createElement20(type, props, rootContainerElement, parentNamespace) {
             var isCustomComponentTag;
             var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
             var domElement;
@@ -10267,7 +10267,7 @@
               }
               parentNamespace = hostContextDev.namespace;
             }
-            var domElement = createElement19(type, props, rootContainerInstance, parentNamespace);
+            var domElement = createElement20(type, props, rootContainerInstance, parentNamespace);
             precacheFiberNode(internalInstanceHandle, domElement);
             updateFiberProps(domElement, props);
             return domElement;
@@ -12454,7 +12454,7 @@
             }
           }
           var fakeInternalInstance = {};
-          var emptyRefsObject = new React20.Component().refs;
+          var emptyRefsObject = new React21.Component().refs;
           var didWarnAboutStateAssignmentForComponent;
           var didWarnAboutUninitializedState;
           var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -23526,21 +23526,20 @@
   });
 
   // src/root.tsx
-  var React19 = __toESM(require_react());
+  var React20 = __toESM(require_react());
   var import_client = __toESM(require_client());
 
   // src/components/app.tsx
-  var React18 = __toESM(require_react());
+  var React19 = __toESM(require_react());
 
   // src/components/pages/policy-comparison-index.tsx
-  var React13 = __toESM(require_react());
+  var React14 = __toESM(require_react());
 
   // src/components/policy_table/policy-comparison-table.tsx
-  var React9 = __toESM(require_react());
+  var React10 = __toESM(require_react());
 
   // src/components/policy_table/policy-table.tsx
-  var React6 = __toESM(require_react());
-  var import_react3 = __toESM(require_react());
+  var React7 = __toESM(require_react());
 
   // src/contexts/language-context.tsx
   var import_react = __toESM(require_react());
@@ -23960,6 +23959,39 @@
     )), policyCells));
   }
 
+  // src/components/policy_table/topic-selector.tsx
+  var React6 = __toESM(require_react());
+  var import_react3 = __toESM(require_react());
+  function TopicSelector({ topics, onUpdate }) {
+    const { t } = useTranslation();
+    const [topicFilterState, setTopicFilterState] = (0, import_react3.useState)(() => false);
+    const [topicSelections, setTopicSelections] = React6.useState(() => {
+      return new Map(topics.map((topic) => [topic, true]));
+    });
+    React6.useEffect(() => {
+      const handler = () => setTopicFilterState(false);
+      document.body.addEventListener("click", handler);
+      return () => document.body.removeEventListener("click", handler);
+    }, []);
+    const handleClick = (e) => {
+      e.stopPropagation();
+      setTopicFilterState(!topicFilterState);
+    };
+    const updateSelections = (selections) => {
+      setTopicSelections(selections);
+      onUpdate(selections);
+    };
+    return /* @__PURE__ */ React6.createElement("div", { onClick: handleClick }, t("topics"), /* @__PURE__ */ React6.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React6.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React6.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onClick: (e) => {
+      e.preventDefault();
+      updateSelections(new Map(topics.map((topic) => [topic, false])));
+    } }, t("select_none"))), [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onClick: (e) => {
+      e.preventDefault();
+      updateSelections(new Map(topics.map((topic) => [topic, true])));
+    } }, t("select_all")))), [...topicSelections.entries()].map(([topic, checked]) => {
+      return /* @__PURE__ */ React6.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onClick: (e) => updateSelections(new Map(topicSelections.set(topic, !checked))) }, t("topic.".concat(topic)), /* @__PURE__ */ React6.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
+    })));
+  }
+
   // src/support/util.ts
   function shuffle(array) {
     let currentIndex = array.length, randomIndex;
@@ -23977,26 +24009,20 @@
   // src/components/policy_table/policy-table.tsx
   function PolicyTable({ dataset, parties }) {
     const { t } = useTranslation();
-    const [policyRows, setPolicyRows] = React6.useState([]);
-    const [topicFilterState, setTopicFilterState] = (0, import_react3.useState)(() => false);
-    const sortedParties = React6.useMemo(() => shuffle(Array.from(parties)), [parties]);
-    const topics = React6.useMemo(() => Array.from(dataset.keys()), [dataset]);
-    const [topicSelections, setTopicSelections] = React6.useState(() => {
+    const [policyRows, setPolicyRows] = React7.useState([]);
+    const sortedParties = React7.useMemo(() => shuffle(Array.from(parties)), [parties]);
+    const topics = React7.useMemo(() => Array.from(dataset.keys()), [dataset]);
+    const [topicSelections, setTopicSelections] = React7.useState(() => {
       return new Map(topics.map((topic) => [topic, true]));
     });
     let elTop = 0;
-    React6.useEffect(() => {
+    React7.useEffect(() => {
       const $tableHeader = document.getElementById("tableHeader");
       let initialHeaderTop = $tableHeader.getBoundingClientRect().top;
       let initialBodyTop = document.body.getBoundingClientRect().top;
       elTop = initialHeaderTop - initialBodyTop;
     }, []);
-    React6.useEffect(() => {
-      const handler = () => setTopicFilterState(false);
-      document.body.addEventListener("click", handler);
-      return () => document.body.removeEventListener("click", handler);
-    }, []);
-    React6.useEffect(() => {
+    React7.useEffect(() => {
       let ignore = false;
       const $tableHeader = document.getElementById("tableHeader");
       const handler = () => {
@@ -24020,12 +24046,12 @@
         document.body.removeEventListener("scroll", handler);
       };
     }, [elTop]);
-    React6.useMemo(() => {
+    React7.useMemo(() => {
       let rows = Array.from(dataset, ([topic, policies2]) => {
         if (!topicSelections.get(topic)) {
           return null;
         } else {
-          return /* @__PURE__ */ React6.createElement(
+          return /* @__PURE__ */ React7.createElement(
             PolicyRow,
             {
               topic,
@@ -24038,19 +24064,8 @@
       });
       setPolicyRows(rows.filter((x) => x));
     }, [sortedParties, dataset, topicSelections]);
-    return /* @__PURE__ */ React6.createElement("div", { className: "policyTable" }, /* @__PURE__ */ React6.createElement("div", { id: "tableHeader", className: "policyRow container tableHeader" }, /* @__PURE__ */ React6.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React6.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty", onClick: (e) => {
-      e.stopPropagation();
-      setTopicFilterState(!topicFilterState);
-    } }, t("topics"), /* @__PURE__ */ React6.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React6.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React6.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onClick: (e) => {
-      e.preventDefault();
-      setTopicSelections(new Map(topics.map((topic) => [topic, false])));
-    } }, t("select_none"))), [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onClick: (e) => {
-      e.preventDefault();
-      setTopicSelections(new Map(topics.map((topic) => [topic, true])));
-    } }, t("select_all")))), [...topicSelections.entries()].map(([topic, checked]) => {
-      return /* @__PURE__ */ React6.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onClick: (e) => setTopicSelections(new Map(topicSelections.set(topic, !checked))) }, t("topic.".concat(topic)), /* @__PURE__ */ React6.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
-    }))), sortedParties.map((party) => {
-      return /* @__PURE__ */ React6.createElement(
+    return /* @__PURE__ */ React7.createElement("div", { className: "policyTable" }, /* @__PURE__ */ React7.createElement("div", { id: "tableHeader", className: "policyRow container tableHeader" }, /* @__PURE__ */ React7.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React7.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty" }, /* @__PURE__ */ React7.createElement(TopicSelector, { topics, onUpdate: (selections) => setTopicSelections(selections) })), sortedParties.map((party) => {
+      return /* @__PURE__ */ React7.createElement(
         "div",
         {
           key: "partyTitle--".concat(party),
@@ -24059,15 +24074,15 @@
         },
         t(party.toLowerCase())
       );
-    }))), /* @__PURE__ */ React6.createElement("div", { id: "tableFiller", className: "policyRow container tableFiller hidden" }), /* @__PURE__ */ React6.createElement("div", null, policyRows.length == 0 ? /* @__PURE__ */ React6.createElement("div", { className: "policyTable--empty" }, t("no_topics_selected")) : policyRows));
+    }))), /* @__PURE__ */ React7.createElement("div", { id: "tableFiller", className: "policyRow container tableFiller hidden" }), /* @__PURE__ */ React7.createElement("div", null, policyRows.length == 0 ? /* @__PURE__ */ React7.createElement("div", { className: "policyTable--empty" }, t("no_topics_selected")) : policyRows));
   }
 
   // src/contexts/policy-modal-context.tsx
-  var React8 = __toESM(require_react());
+  var React9 = __toESM(require_react());
   var import_react5 = __toESM(require_react());
 
   // src/components/policy_table/policy-modal.tsx
-  var React7 = __toESM(require_react());
+  var React8 = __toESM(require_react());
   var import_react4 = __toESM(require_react());
 
   // src/policies/2021/lpc/child_care.en.md
@@ -24841,7 +24856,7 @@
     }
   };
   function Reference({ source }) {
-    return /* @__PURE__ */ React7.createElement("li", { className: "reference" }, /* @__PURE__ */ React7.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React7.createElement("h2", { className: "reference--title" }, " ", source.title, " "), /* @__PURE__ */ React7.createElement("div", { className: "reference--meta" }, " ", source.publisher, " ")));
+    return /* @__PURE__ */ React8.createElement("li", { className: "reference" }, /* @__PURE__ */ React8.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React8.createElement("h2", { className: "reference--title" }, " ", source.title, " "), /* @__PURE__ */ React8.createElement("div", { className: "reference--meta" }, " ", source.publisher, " ")));
   }
   function PolicyModal() {
     const modalId = (0, import_react4.useId)();
@@ -24850,7 +24865,7 @@
     const { language } = useLanguage();
     const { t } = useTranslation();
     const [dialogElement, setDialogElement] = (0, import_react4.useState)(void 0);
-    const [content, setContent] = React7.useState("");
+    const [content, setContent] = React8.useState("");
     const closeModal = (0, import_react4.useCallback)(() => {
       setURLToPrevious(() => {
         if (modalPolicy) {
@@ -24893,10 +24908,10 @@
       setContent(html191 || "");
     }, [modalPolicy, language]);
     if (!modalPolicy) {
-      return /* @__PURE__ */ React7.createElement("dialog", { id: modalId, className: "policyModal--content" });
+      return /* @__PURE__ */ React8.createElement("dialog", { id: modalId, className: "policyModal--content" });
     }
     if (content === "") {
-      return /* @__PURE__ */ React7.createElement(
+      return /* @__PURE__ */ React8.createElement(
         "dialog",
         {
           autoFocus: true,
@@ -24905,20 +24920,20 @@
           "aria-labelledby": "policyDialog__label",
           "aria-describedby": "policyDialog__description"
         },
-        /* @__PURE__ */ React7.createElement("div", { className: "policyModal policyModal--reference" }, /* @__PURE__ */ React7.createElement("div", { className: "modal--content reference-modal--content" }, /* @__PURE__ */ React7.createElement("a", { href: "#", className: "modal--close reference-modal--close", "aria-label": "Close", onClick: (e) => {
+        /* @__PURE__ */ React8.createElement("div", { className: "policyModal policyModal--reference" }, /* @__PURE__ */ React8.createElement("div", { className: "modal--content reference-modal--content" }, /* @__PURE__ */ React8.createElement("a", { href: "#", className: "modal--close reference-modal--close", "aria-label": "Close", onClick: (e) => {
           e.preventDefault();
           closeModal();
           return false;
-        } }), /* @__PURE__ */ React7.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React7.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React7.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React7.createElement("p", null, " ", t("topic.".concat(modalPolicy.topic)), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React7.createElement(
+        } }), /* @__PURE__ */ React8.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React8.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React8.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React8.createElement("p", null, " ", t("topic.".concat(modalPolicy.topic)), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React8.createElement(
           "h1",
           {
             className: "modal--heading modal--heading__primary",
             dangerouslySetInnerHTML: { __html: modalPolicy.title[language] }
           }
-        )), /* @__PURE__ */ React7.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React7.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React7.createElement("ul", { className: "reference--list list-plain" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React7.createElement(Reference, { key: ref.url, source: ref })))))
+        )), /* @__PURE__ */ React8.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React8.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React8.createElement("ul", { className: "reference--list list-plain" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React8.createElement(Reference, { key: ref.url, source: ref })))))
       );
     }
-    return /* @__PURE__ */ React7.createElement(
+    return /* @__PURE__ */ React8.createElement(
       "dialog",
       {
         autoFocus: true,
@@ -24927,18 +24942,18 @@
         "aria-labelledby": "policyDialog__label",
         "aria-describedby": "policyDialog__description"
       },
-      /* @__PURE__ */ React7.createElement("div", { className: "policyModal" }, /* @__PURE__ */ React7.createElement("div", { className: "modal--content" }, /* @__PURE__ */ React7.createElement("a", { href: "#", className: "modal--close", "aria-label": "Close", onClick: (e) => {
+      /* @__PURE__ */ React8.createElement("div", { className: "policyModal" }, /* @__PURE__ */ React8.createElement("div", { className: "modal--content" }, /* @__PURE__ */ React8.createElement("a", { href: "#", className: "modal--close", "aria-label": "Close", onClick: (e) => {
         e.preventDefault();
         closeModal();
         return false;
-      } }), /* @__PURE__ */ React7.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React7.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React7.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React7.createElement("p", null, " ", t("topic.".concat(modalPolicy.topic)), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React7.createElement(
+      } }), /* @__PURE__ */ React8.createElement("div", { className: "modal--headingContainer" }, /* @__PURE__ */ React8.createElement("div", { className: "modal--headingInfo" }, /* @__PURE__ */ React8.createElement("div", { className: "modal--topicBox" }, " ", /* @__PURE__ */ React8.createElement("p", null, " ", t("topic.".concat(modalPolicy.topic)), " \u2014 ", t(modalPolicy.party.toLowerCase()), " "), " "))), /* @__PURE__ */ React8.createElement(
         "h1",
         {
           className: "modal--heading modal--heading__primary",
           dangerouslySetInnerHTML: { __html: modalPolicy.title[language] },
           id: "policyDialog__label"
         }
-      ), /* @__PURE__ */ React7.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React7.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React7.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React7.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React7.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React7.createElement(Reference, { key: ref.url, source: ref })))))
+      ), /* @__PURE__ */ React8.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React8.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React8.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React8.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React8.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React8.createElement(Reference, { key: ref.url, source: ref })))))
     );
   }
 
@@ -24971,7 +24986,7 @@
     const [modalPolicy, setModalPolicy] = (0, import_react5.useState)(() => null);
     const [policyModalVisible, setPolicyModalVisibility] = (0, import_react5.useState)(!!modalPolicy);
     const policyModalValue = { modalPolicy, policyModalVisible };
-    React8.useEffect(() => {
+    React9.useEffect(() => {
       var _a;
       const currentState = (_a = history2[0]) == null ? void 0 : _a.state;
       if (currentState && "policy" in currentState && currentState.policy) {
@@ -24985,7 +25000,7 @@
         setPolicyModalVisibility(false);
       }
     }, [history2]);
-    return /* @__PURE__ */ React8.createElement(PolicyModalContext.Provider, { value: policyModalValue }, /* @__PURE__ */ React8.createElement(PolicyModal, null), children);
+    return /* @__PURE__ */ React9.createElement(PolicyModalContext.Provider, { value: policyModalValue }, /* @__PURE__ */ React9.createElement(PolicyModal, null), children);
   }
 
   // src/components/policy_table/policy-comparison-table.tsx
@@ -25005,12 +25020,12 @@
     }
   }
   function PolicyComparisonTable({ year, selectedHandle }) {
-    const [isLoading, setIsLoading] = React9.useState(true);
-    const [tableDataset, setTableDataset] = React9.useState();
-    const [parties, setParties] = React9.useState();
-    const [policiesByHandle, setPoliciesByHandle] = React9.useState();
+    const [isLoading, setIsLoading] = React10.useState(true);
+    const [tableDataset, setTableDataset] = React10.useState();
+    const [parties, setParties] = React10.useState();
+    const [policiesByHandle, setPoliciesByHandle] = React10.useState();
     const { updateURLState, history: history2 } = useURL();
-    React9.useEffect(() => {
+    React10.useEffect(() => {
       if (selectedHandle && policiesByHandle) {
         const policy = policiesByHandle.get(selectedHandle);
         if (policy) {
@@ -25018,7 +25033,7 @@
         }
       }
     }, [selectedHandle, policiesByHandle]);
-    React9.useEffect(() => {
+    React10.useEffect(() => {
       let ignore = false;
       async function fetchPolicies() {
         const response = await fetch("/data/policies/".concat(year, "/policies.json"));
@@ -25050,17 +25065,17 @@
         ignore = true;
       };
     }, [year]);
-    return /* @__PURE__ */ React9.createElement(PolicyModalProvider, null, isLoading || !tableDataset || !parties ? /* @__PURE__ */ React9.createElement("div", { className: "policyCell partyTitle backgroundColor--Skeleton" }, "...") : /* @__PURE__ */ React9.createElement(PolicyTable, { dataset: tableDataset, parties }), /* @__PURE__ */ React9.createElement("footer", null, /* @__PURE__ */ React9.createElement("p", { className: "footerInfo" })));
+    return /* @__PURE__ */ React10.createElement(PolicyModalProvider, null, isLoading || !tableDataset || !parties ? /* @__PURE__ */ React10.createElement("div", { className: "policyCell partyTitle backgroundColor--Skeleton" }, "...") : /* @__PURE__ */ React10.createElement(PolicyTable, { dataset: tableDataset, parties }), /* @__PURE__ */ React10.createElement("footer", null, /* @__PURE__ */ React10.createElement("p", { className: "footerInfo" })));
   }
 
   // src/components/page.tsx
-  var React12 = __toESM(require_react());
+  var React13 = __toESM(require_react());
 
   // src/components/header.tsx
-  var React10 = __toESM(require_react());
+  var React11 = __toESM(require_react());
   function LanguageSelector() {
     const { language, setLanguage } = useLanguage();
-    return /* @__PURE__ */ React10.createElement("div", { className: "langSelection" }, /* @__PURE__ */ React10.createElement(
+    return /* @__PURE__ */ React11.createElement("div", { className: "langSelection" }, /* @__PURE__ */ React11.createElement(
       "a",
       {
         href: "#",
@@ -25071,7 +25086,7 @@
         className: language == LanguageOption.EN ? "active" : ""
       },
       "EN"
-    ), /* @__PURE__ */ React10.createElement("span", null, " | "), /* @__PURE__ */ React10.createElement(
+    ), /* @__PURE__ */ React11.createElement("span", null, " | "), /* @__PURE__ */ React11.createElement(
       "a",
       {
         href: "#",
@@ -25087,30 +25102,30 @@
   function Header({ subheading }) {
     const { language } = useLanguage();
     const { t } = useTranslation();
-    return /* @__PURE__ */ React10.createElement("header", { className: "container section" }, /* @__PURE__ */ React10.createElement("div", { className: "header" }, /* @__PURE__ */ React10.createElement(LanguageSelector, null), /* @__PURE__ */ React10.createElement("hgroup", { className: "headings flex" }, /* @__PURE__ */ React10.createElement("a", { href: "/", className: "no-hover" }, /* @__PURE__ */ React10.createElement("h1", { className: "pageTitle lang-".concat(language) }, " ", t("our_politics"), " ")), subheading ? /* @__PURE__ */ React10.createElement("h2", { className: "pageSubTitle" }, subheading) : null)));
+    return /* @__PURE__ */ React11.createElement("header", { className: "container section" }, /* @__PURE__ */ React11.createElement("div", { className: "header" }, /* @__PURE__ */ React11.createElement(LanguageSelector, null), /* @__PURE__ */ React11.createElement("hgroup", { className: "headings flex" }, /* @__PURE__ */ React11.createElement("a", { href: "/", className: "no-hover" }, /* @__PURE__ */ React11.createElement("h1", { className: "pageTitle lang-".concat(language) }, " ", t("our_politics"), " ")), subheading ? /* @__PURE__ */ React11.createElement("h2", { className: "pageSubTitle" }, subheading) : null)));
   }
 
   // src/components/footer.tsx
-  var React11 = __toESM(require_react());
+  var React12 = __toESM(require_react());
   function Footer() {
     const { t } = useTranslation();
-    return /* @__PURE__ */ React11.createElement("footer", { className: "section bg-light-alt footer pb-1" }, /* @__PURE__ */ React11.createElement("div", { className: "container" }, /* @__PURE__ */ React11.createElement("h2", { className: "subheading" }, " ", t("archives"), " "), /* @__PURE__ */ React11.createElement("ul", { className: "list-plain text-large archive-list" }, [2021, 2019, 2015].map((year) => {
-      return /* @__PURE__ */ React11.createElement("li", { key: year }, /* @__PURE__ */ React11.createElement("a", { href: "/policies/".concat(year), className: "styled" }, t("policy_comparison_title", year)));
-    })), /* @__PURE__ */ React11.createElement("p", null, /* @__PURE__ */ React11.createElement("a", { href: "/about", className: "styled" }, t("about")), "\xB7", /* @__PURE__ */ React11.createElement("a", { href: "/privacy", className: "styled" }, t("privacy_policy")))));
+    return /* @__PURE__ */ React12.createElement("footer", { className: "section bg-light-alt footer pb-1" }, /* @__PURE__ */ React12.createElement("div", { className: "container" }, /* @__PURE__ */ React12.createElement("h2", { className: "subheading" }, " ", t("archives"), " "), /* @__PURE__ */ React12.createElement("ul", { className: "list-plain text-large archive-list" }, [2021, 2019, 2015].map((year) => {
+      return /* @__PURE__ */ React12.createElement("li", { key: year }, /* @__PURE__ */ React12.createElement("a", { href: "/policies/".concat(year), className: "styled" }, t("policy_comparison_title", year)));
+    })), /* @__PURE__ */ React12.createElement("p", null, /* @__PURE__ */ React12.createElement("a", { href: "/about", className: "styled" }, t("about")), "\xB7", /* @__PURE__ */ React12.createElement("a", { href: "/privacy", className: "styled" }, t("privacy_policy")))));
   }
 
   // src/components/page.tsx
   function Page({ title, children }) {
-    return /* @__PURE__ */ React12.createElement("div", { className: "page" }, /* @__PURE__ */ React12.createElement(Header, { subheading: title }), /* @__PURE__ */ React12.createElement("div", { className: "container content" }, children), /* @__PURE__ */ React12.createElement(Footer, null));
+    return /* @__PURE__ */ React13.createElement("div", { className: "page" }, /* @__PURE__ */ React13.createElement(Header, { subheading: title }), /* @__PURE__ */ React13.createElement("div", { className: "container content" }, children), /* @__PURE__ */ React13.createElement(Footer, null));
   }
 
   // src/components/pages/policy-comparison-index.tsx
   function PolicyComparisonIndex({ year = "2019", party, policyHandle }) {
-    return /* @__PURE__ */ React13.createElement(Page, { title: year }, /* @__PURE__ */ React13.createElement("section", { className: "section" }, /* @__PURE__ */ React13.createElement(PolicyComparisonTable, { year, selectedHandle: "".concat(party, "/").concat(policyHandle) })));
+    return /* @__PURE__ */ React14.createElement(Page, { title: year }, /* @__PURE__ */ React14.createElement("section", { className: "section" }, /* @__PURE__ */ React14.createElement(PolicyComparisonTable, { year, selectedHandle: "".concat(party, "/").concat(policyHandle) })));
   }
 
   // src/components/pages/privacy-policy-index.tsx
-  var React14 = __toESM(require_react());
+  var React15 = __toESM(require_react());
 
   // src/components/pages/content/privacy_index.en.md
   var html187 = '<p>Our Politics is committed to protecting your right to privacy, and take every effort to\nprotect it when visiting our website. We also promise to never sell your information to a 3rd party.</p>\n<p>We use Google Analytics to track visits and engagement on the website. This information is\nused to determine what parts of the website are most useful to our visitors, and what areas\ncan be improved in the future.</p>\n<p>All requests use <a href="https://support.google.com/analytics/answer/2763052?hl=en">IP anonymization</a>, which happens before any storage or processing takes place. <em>Data Collection for Advertising Features</em> and <em>Demographics and Interest Reports</em> are disabled within Google Analytics.</p>\n<p>If you wish to opt out of tracking completely, we recommend using the\n<a href="https://tools.google.com/dlpage/gaoptout">Google Analytics Opt-out Browser Add-on</a>, which will block Google Analyics tracking on all websites.</p>\n';
@@ -25122,19 +25137,19 @@
   function PrivacyPolicyIndex() {
     const { language } = useLanguage();
     const { t } = useTranslation();
-    const [content, setContent] = React14.useState("");
-    React14.useEffect(() => {
+    const [content, setContent] = React15.useState("");
+    React15.useEffect(() => {
       if (language === LanguageOption.EN) {
         setContent(html187);
       } else {
         setContent(html188);
       }
     }, [language]);
-    return /* @__PURE__ */ React14.createElement(Page, { title: t("privacy_policy") }, /* @__PURE__ */ React14.createElement("section", { className: "section" }, /* @__PURE__ */ React14.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React14.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
+    return /* @__PURE__ */ React15.createElement(Page, { title: t("privacy_policy") }, /* @__PURE__ */ React15.createElement("section", { className: "section" }, /* @__PURE__ */ React15.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React15.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
   }
 
   // src/components/pages/about-index.tsx
-  var React15 = __toESM(require_react());
+  var React16 = __toESM(require_react());
 
   // src/components/pages/content/about_index.en.md
   var html189 = "<p>Our Politics started in 2015 with a single aim: making election platforms easier to understand.</p>\n<p>Plenty of people don't have time to read daily election news, but they still care about the policies. Our goal is to provide context to these announcements for those who don't follow politics.</p>\n<p>Our Politics is a voluntary contribution by <a href=\"https://mastodon.social/@jahfer\">@jahfer</a>, an Ottawa-based software developer.</p>\n";
@@ -25146,19 +25161,19 @@
   function AboutIndex() {
     const { language } = useLanguage();
     const { t } = useTranslation();
-    const [content, setContent] = React15.useState("");
-    React15.useEffect(() => {
+    const [content, setContent] = React16.useState("");
+    React16.useEffect(() => {
       if (language === LanguageOption.EN) {
         setContent(html189);
       } else {
         setContent(html190);
       }
     }, [language]);
-    return /* @__PURE__ */ React15.createElement(Page, { title: t("about") }, /* @__PURE__ */ React15.createElement("section", { className: "section" }, /* @__PURE__ */ React15.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React15.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
+    return /* @__PURE__ */ React16.createElement(Page, { title: t("about") }, /* @__PURE__ */ React16.createElement("section", { className: "section" }, /* @__PURE__ */ React16.createElement("article", { className: "text-block text-large pb-3" }, /* @__PURE__ */ React16.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))));
   }
 
   // src/components/pages/topic-details.tsx
-  var React16 = __toESM(require_react());
+  var React17 = __toESM(require_react());
 
   // src/data/policy.ts
   async function byYear(year) {
@@ -25175,8 +25190,8 @@
   // src/components/pages/topic-details.tsx
   function TopicDetails({ topic }) {
     const { t } = useTranslation();
-    const [policyCells, setPolicyCells] = React16.useState([]);
-    React16.useEffect(() => {
+    const [policyCells, setPolicyCells] = React17.useState([]);
+    React17.useEffect(() => {
       let ignore = false;
       async function loadAll() {
         const policies2 = await all();
@@ -25186,7 +25201,7 @@
           const sortedParties = shuffle(parties);
           const policyCells2 = parties.map((party) => {
             const partyPolicies = policiesForTopic.filter((policy) => policy.party === party);
-            return /* @__PURE__ */ React16.createElement(PolicyCell, { party, topic, policies: partyPolicies, key: "".concat(party, "/").concat(topic) });
+            return /* @__PURE__ */ React17.createElement(PolicyCell, { party, topic, policies: partyPolicies, key: "".concat(party, "/").concat(topic) });
           });
           setPolicyCells(policyCells2);
         }
@@ -25196,14 +25211,14 @@
         ignore = true;
       };
     }, [topic]);
-    return /* @__PURE__ */ React16.createElement(Page, { title: t("topic.".concat(topic)) }, /* @__PURE__ */ React16.createElement("section", { className: "section" }, /* @__PURE__ */ React16.createElement("article", { className: "text-block text-large pb-3" }, policyCells)));
+    return /* @__PURE__ */ React17.createElement(Page, { title: t("topic.".concat(topic)) }, /* @__PURE__ */ React17.createElement("section", { className: "section" }, /* @__PURE__ */ React17.createElement("article", { className: "text-block text-large pb-3" }, policyCells)));
   }
 
   // src/components/redirect.tsx
-  var React17 = __toESM(require_react());
+  var React18 = __toESM(require_react());
   function Redirect({ to }) {
     const { setURL } = useURL();
-    React17.useEffect(() => {
+    React18.useEffect(() => {
       setURL({}, to);
     }, []);
     return null;
@@ -25211,15 +25226,15 @@
 
   // src/components/app.tsx
   var routes = [
-    route("/", () => /* @__PURE__ */ React18.createElement(Redirect, { to: "/policies/2021" })),
-    route("/policies/:year", (year) => /* @__PURE__ */ React18.createElement(PolicyComparisonIndex, { year })),
-    route("/policies/:year/:party/:policyHandle", (year, party, policyHandle) => /* @__PURE__ */ React18.createElement(PolicyComparisonIndex, { year, party, policyHandle })),
-    route("/topics/:topic", (topic) => /* @__PURE__ */ React18.createElement(TopicDetails, { topic })),
-    route("/about", () => /* @__PURE__ */ React18.createElement(AboutIndex, null)),
-    route("/privacy", () => /* @__PURE__ */ React18.createElement(PrivacyPolicyIndex, null))
+    route("/", () => /* @__PURE__ */ React19.createElement(Redirect, { to: "/policies/2021" })),
+    route("/policies/:year", (year) => /* @__PURE__ */ React19.createElement(PolicyComparisonIndex, { year })),
+    route("/policies/:year/:party/:policyHandle", (year, party, policyHandle) => /* @__PURE__ */ React19.createElement(PolicyComparisonIndex, { year, party, policyHandle })),
+    route("/topics/:topic", (topic) => /* @__PURE__ */ React19.createElement(TopicDetails, { topic })),
+    route("/about", () => /* @__PURE__ */ React19.createElement(AboutIndex, null)),
+    route("/privacy", () => /* @__PURE__ */ React19.createElement(PrivacyPolicyIndex, null))
   ];
   function App() {
-    return /* @__PURE__ */ React18.createElement(React18.StrictMode, null, /* @__PURE__ */ React18.createElement(LanguageProvider, { defaultLanguage: LanguageOption.EN }, /* @__PURE__ */ React18.createElement(RouterProvider, { routes })));
+    return /* @__PURE__ */ React19.createElement(React19.StrictMode, null, /* @__PURE__ */ React19.createElement(LanguageProvider, { defaultLanguage: LanguageOption.EN }, /* @__PURE__ */ React19.createElement(RouterProvider, { routes })));
   }
 
   // src/root.tsx
@@ -25228,7 +25243,7 @@
   }
   var $pageRoot = document.getElementById("page-root");
   var root = (0, import_client.createRoot)($pageRoot);
-  root.render(/* @__PURE__ */ React19.createElement(App, null));
+  root.render(/* @__PURE__ */ React20.createElement(App, null));
 })();
 /*! Bundled license information:
 
