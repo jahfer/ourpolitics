@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { useState } from 'react'
 import { useTranslation } from 'contexts/language-context'
+import * as Analytics from 'support/analytics'
 
 interface TopicSelectorProps {
   topics: Array<string>,
@@ -15,13 +16,21 @@ export default function TopicSelector({ topics, onUpdate }: TopicSelectorProps) 
   });
 
   React.useEffect(() => {
-    const handler = () => setTopicFilterState(false);
+    const handler = () => {
+      Analytics.recordEvent("topic_filter_close");
+      setTopicFilterState(false);
+    }
     document.body.addEventListener('click', handler);
     return () => document.body.removeEventListener('click', handler);
   }, []);
 
   const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     e.stopPropagation();
+    if (topicFilterState) {
+      Analytics.recordEvent("topic_filter_close");
+    } else {
+      Analytics.recordEvent("topic_filter_open");
+    }
     setTopicFilterState(!topicFilterState);
   }
 
