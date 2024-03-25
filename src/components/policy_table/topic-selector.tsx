@@ -2,6 +2,25 @@ import * as React from 'react'
 import { useState } from 'react'
 import { useTranslation } from 'contexts/language-context'
 import * as Analytics from 'support/analytics'
+import { handleEnterAsClick } from 'support/util'
+
+interface TopicOptionProps {
+  name: string,
+  checked: boolean,
+  className: string,
+  onToggle: () => void,
+}
+
+function TopicOption({name, checked, className, onToggle}: TopicOptionProps) {
+  const { t } = useTranslation();
+
+  return (
+    <li key={`filterBar--${name}`} className={className} onKeyDown={handleEnterAsClick} onClick={(e) => onToggle()}>
+      {t(`topic.${name}`)}
+      <input checked={checked} readOnly type="checkbox" />
+    </li>
+  )
+}
 
 interface TopicSelectorProps {
   topics: Array<string>,
@@ -41,14 +60,6 @@ export default function TopicSelector({ topics, onUpdate }: TopicSelectorProps) 
     onUpdate(selections);
   }
 
-  const handleEnterAsClick = (e: React.KeyboardEvent<HTMLElement>) => {
-    if(e.key === 'Enter') {
-      e.currentTarget.click();
-      e.preventDefault();
-      e.stopPropagation();
-    }
-  }
-
   return (
     <div role="navigation" aria-label="Filter topics" tabIndex={0} onClick={handleClick} onKeyDown={handleEnterAsClick}>
       {t("topics")}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
@@ -72,10 +83,11 @@ export default function TopicSelector({ topics, onUpdate }: TopicSelectorProps) 
         {
           [...topicSelections.entries()].map(([topic, checked]) => {
             return (
-              <li key={`filterBar--${topic}`} className="policyTable--filterBar--item policyTable--filterBar--topic"  onKeyDown={handleEnterAsClick} onClick={(e) => updateSelections(new Map(topicSelections.set(topic, !checked)))}>
-                {t(`topic.${topic}`)}
-                <input checked={checked} readOnly className="policyTable--filterBar--item--checkbox" type="checkbox" />
-              </li>
+              <TopicOption
+                name={topic}
+                className="policyTable--filterBar--item policyTable--filterBar--topic"
+                checked={checked}
+                onToggle={() => updateSelections(new Map(topicSelections.set(topic, !checked)))} />
             )
           })
         }

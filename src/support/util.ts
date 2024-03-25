@@ -12,3 +12,11 @@ export function shuffle<T>(array: Array<T>): Array<T> {
   }
   return array;
 }
+
+export function handleEnterAsClick(e: React.KeyboardEvent<HTMLElement>) {
+  if(e.key === 'Enter') {
+    e.currentTarget.click();
+    e.preventDefault();
+    e.stopPropagation();
+  }
+}
