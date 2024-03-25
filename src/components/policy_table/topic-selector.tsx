@@ -24,10 +24,12 @@ function TopicOption({name, checked, className, onToggle}: TopicOptionProps) {
 
 interface TopicSelectorProps {
   topics: Array<string>,
+  title: string,
+  className?: string,
   onUpdate: (selections: Map<string, boolean>) => void,
 }
 
-export default function TopicSelector({ topics, onUpdate }: TopicSelectorProps) {
+export default function TopicSelector({ topics, onUpdate, title, className }: TopicSelectorProps) {
   const { t } = useTranslation();
   const [topicFilterState, setTopicFilterState] = useState(() => false);
   const [topicSelections, setTopicSelections] = React.useState(() => {
@@ -61,8 +63,14 @@ export default function TopicSelector({ topics, onUpdate }: TopicSelectorProps) 
   }
 
   return (
-    <div role="navigation" aria-label="Filter topics" tabIndex={0} onClick={handleClick} onKeyDown={handleEnterAsClick}>
-      {t("topics")}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
+    <div
+      role="navigation"
+      aria-label="Filter topics"
+      tabIndex={0}
+      onClick={handleClick}
+      onKeyDown={handleEnterAsClick}
+      className={`${className} ${(topicFilterState ? "topicSelector--open" : "topicSelector--closed")}`}>
+      {title}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
       <ul className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
         <li className="policyTable--filterBar--item policyTable--filterBar--toggleAll">
           {
