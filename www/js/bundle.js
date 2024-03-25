@@ -23774,8 +23774,8 @@
       window.goatcounter.bind_events();
     }, []);
   }
-  function recordEvent({ path, title }) {
-    window.goatcounter.count({ path, title, event: true });
+  function recordEvent(name) {
+    window.goatcounter.count({ path: name, title: name, event: true });
   }
 
   // src/contexts/router-context.tsx
@@ -23854,9 +23854,9 @@
         onEmptyHistory();
       }
     };
-    const setURL = (state, url, title) => {
-      const clickEvent = { path: url || location.pathname, title: title || document.title };
-      recordEvent(clickEvent);
+    const setURL = (state, url, { event_name } = {}) => {
+      const clickEventName = event_name || url || location.pathname;
+      recordEvent(clickEventName);
       const entry = { __op_id: next_id++, uri: url || "", state };
       history.pushState(entry, "", url);
       setNavHistory([entry, ...navHistory]);
@@ -23916,11 +23916,11 @@
       "<span class='text-em'>$1</span>"
     );
     function handleClick(event) {
-      const analytics_title = "[".concat(policy.party, "] ").concat(policy.title[LanguageOption.EN]);
+      const event_name = "policy_".concat(policy.year, "_").concat(policy.topic, "_").concat(policy.party, "_").concat(policy.handle || policy.title[LanguageOption.EN]);
       if (policy.handle) {
-        setURL({ policy }, policyURL(policy), analytics_title);
+        setURL({ policy }, policyURL(policy), { event_name });
       } else {
-        setURL({ policy }, void 0, analytics_title);
+        setURL({ policy }, void 0, { event_name });
       }
       event.preventDefault();
       return false;
@@ -23986,26 +23986,43 @@
       return new Map(topics.map((topic) => [topic, true]));
     });
     React6.useEffect(() => {
-      const handler = () => setTopicFilterState(false);
+      const handler = () => {
+        if (topicFilterState) {
+          recordEvent("topic_filter_close");
+        }
+        setTopicFilterState(false);
+      };
       document.body.addEventListener("click", handler);
       return () => document.body.removeEventListener("click", handler);
     }, []);
     const handleClick = (e) => {
       e.stopPropagation();
+      if (topicFilterState) {
+        recordEvent("topic_filter_close");
+      } else {
+        recordEvent("topic_filter_open");
+      }
       setTopicFilterState(!topicFilterState);
     };
     const updateSelections = (selections) => {
       setTopicSelections(selections);
       onUpdate(selections);
     };
-    return /* @__PURE__ */ React6.createElement("div", { onClick: handleClick }, t("topics"), /* @__PURE__ */ React6.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React6.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React6.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onClick: (e) => {
+    const handleEnterAsClick = (e) => {
+      if (e.key === "Enter") {
+        e.currentTarget.click();
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    };
+    return /* @__PURE__ */ React6.createElement("div", { role: "navigation", "aria-label": "Filter topics", tabIndex: 0, onClick: handleClick, onKeyDown: handleEnterAsClick }, t("topics"), /* @__PURE__ */ React6.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React6.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React6.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onKeyDown: handleEnterAsClick, onClick: (e) => {
       e.preventDefault();
       updateSelections(new Map(topics.map((topic) => [topic, false])));
-    } }, t("select_none"))), [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onClick: (e) => {
+    } }, t("select_none"))), [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onKeyDown: handleEnterAsClick, onClick: (e) => {
       e.preventDefault();
       updateSelections(new Map(topics.map((topic) => [topic, true])));
     } }, t("select_all")))), [...topicSelections.entries()].map(([topic, checked]) => {
-      return /* @__PURE__ */ React6.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onClick: (e) => updateSelections(new Map(topicSelections.set(topic, !checked))) }, t("topic.".concat(topic)), /* @__PURE__ */ React6.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
+      return /* @__PURE__ */ React6.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onKeyDown: handleEnterAsClick, onClick: (e) => updateSelections(new Map(topicSelections.set(topic, !checked))) }, t("topic.".concat(topic)), /* @__PURE__ */ React6.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
     })));
   }
 
@@ -24886,7 +24903,7 @@
     const closeModal = (0, import_react5.useCallback)(() => {
       setURLToPrevious(() => {
         if (modalPolicy) {
-          setURL({}, "/policies/".concat(modalPolicy == null ? void 0 : modalPolicy.year));
+          setURL({}, "/policies/".concat(modalPolicy == null ? void 0 : modalPolicy.year), { event_name: "policy_modal_close" });
         } else {
           console.error("No policy to close");
         }
@@ -25236,7 +25253,7 @@
   function Redirect({ to }) {
     const { setURL } = useURL();
     React18.useEffect(() => {
-      setURL({}, to);
+      setURL({}, to, { event_name: "".concat(to, " (redirect)") });
     }, []);
     return null;
   }

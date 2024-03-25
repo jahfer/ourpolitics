@@ -41,22 +41,30 @@ export default function TopicSelector({ topics, onUpdate }: TopicSelectorProps) 
     onUpdate(selections);
   }
 
+  const handleEnterAsClick = (e: React.KeyboardEvent<HTMLElement>) => {
+    if(e.key === 'Enter') {
+      e.currentTarget.click();
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }
+
   return (
-    <div onClick={handleClick}>
+    <div role="navigation" aria-label="Filter topics" tabIndex={0} onClick={handleClick} onKeyDown={handleEnterAsClick}>
       {t("topics")}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
       <ul className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
         <li className="policyTable--filterBar--item policyTable--filterBar--toggleAll">
           {
             [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : (
               <div className="policyTable--filterBar--toggle">
-                <a href="#" onClick={(e) => { e.preventDefault(); updateSelections(new Map(topics.map((topic) => [topic, false]))) }}>{t("select_none")}</a>
+                <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(topics.map((topic) => [topic, false]))) }}>{t("select_none")}</a>
               </div>
             )
           }
           {
             [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : (
               <div className="policyTable--filterBar--toggle">
-                <a href="#" onClick={(e) => { e.preventDefault(); updateSelections(new Map(topics.map((topic) => [topic, true]))) }}>{t("select_all")}</a>
+                <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(topics.map((topic) => [topic, true]))) }}>{t("select_all")}</a>
               </div>
             )
           }
@@ -64,7 +72,7 @@ export default function TopicSelector({ topics, onUpdate }: TopicSelectorProps) 
         {
           [...topicSelections.entries()].map(([topic, checked]) => {
             return (
-              <li key={`filterBar--${topic}`} className="policyTable--filterBar--item policyTable--filterBar--topic" onClick={(e) => updateSelections(new Map(topicSelections.set(topic, !checked)))}>
+              <li key={`filterBar--${topic}`} className="policyTable--filterBar--item policyTable--filterBar--topic"  onKeyDown={handleEnterAsClick} onClick={(e) => updateSelections(new Map(topicSelections.set(topic, !checked)))}>
                 {t(`topic.${topic}`)}
                 <input checked={checked} readOnly className="policyTable--filterBar--item--checkbox" type="checkbox" />
               </li>
