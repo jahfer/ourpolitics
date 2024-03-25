@@ -9,7 +9,7 @@ export default function Redirect({ to }: RedirectProps) {
   const { setURL } = useURL();
 
   React.useEffect(() => {
-    setURL({}, to, {event_name: "page_redirect"});
+    setURL({}, to, {event_name: `${to} (redirect)`});
   }, []);
 
   return null;
