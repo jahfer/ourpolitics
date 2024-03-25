@@ -23979,7 +23979,34 @@
   // src/components/policy_table/topic-selector.tsx
   var React6 = __toESM(require_react());
   var import_react4 = __toESM(require_react());
-  function TopicSelector({ topics, onUpdate }) {
+
+  // src/support/util.ts
+  function shuffle(array) {
+    let currentIndex = array.length, randomIndex;
+    while (currentIndex > 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex],
+        array[currentIndex]
+      ];
+    }
+    return array;
+  }
+  function handleEnterAsClick(e) {
+    if (e.key === "Enter") {
+      e.currentTarget.click();
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }
+
+  // src/components/policy_table/topic-selector.tsx
+  function TopicOption({ name, checked, className, onToggle }) {
+    const { t } = useTranslation();
+    return /* @__PURE__ */ React6.createElement("li", { key: "filterBar--".concat(name), className, onKeyDown: handleEnterAsClick, onClick: (e) => onToggle() }, t("topic.".concat(name)), /* @__PURE__ */ React6.createElement("input", { checked, readOnly: true, type: "checkbox" }));
+  }
+  function TopicSelector({ topics, onUpdate, title, className }) {
     const { t } = useTranslation();
     const [topicFilterState, setTopicFilterState] = (0, import_react4.useState)(() => false);
     const [topicSelections, setTopicSelections] = React6.useState(() => {
@@ -24008,36 +24035,36 @@
       setTopicSelections(selections);
       onUpdate(selections);
     };
-    const handleEnterAsClick = (e) => {
-      if (e.key === "Enter") {
-        e.currentTarget.click();
+    return /* @__PURE__ */ React6.createElement(
+      "div",
+      {
+        role: "navigation",
+        "aria-label": "Filter topics",
+        tabIndex: 0,
+        onClick: handleClick,
+        onKeyDown: handleEnterAsClick,
+        className: "".concat(className, " ").concat(topicFilterState ? "topicSelector--open" : "topicSelector--closed")
+      },
+      title,
+      /* @__PURE__ */ React6.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }),
+      /* @__PURE__ */ React6.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React6.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onKeyDown: handleEnterAsClick, onClick: (e) => {
         e.preventDefault();
-        e.stopPropagation();
-      }
-    };
-    return /* @__PURE__ */ React6.createElement("div", { role: "navigation", "aria-label": "Filter topics", tabIndex: 0, onClick: handleClick, onKeyDown: handleEnterAsClick }, t("topics"), /* @__PURE__ */ React6.createElement("i", { className: "fa fa-caret-".concat(topicFilterState ? "down" : "left", " policyTableColumn--icon") }), /* @__PURE__ */ React6.createElement("ul", { className: "policyTable--filterBar ".concat(topicFilterState ? "policyTable--filterBar--open" : ""), onClick: (e) => e.stopPropagation() }, /* @__PURE__ */ React6.createElement("li", { className: "policyTable--filterBar--item policyTable--filterBar--toggleAll" }, [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onKeyDown: handleEnterAsClick, onClick: (e) => {
-      e.preventDefault();
-      updateSelections(new Map(topics.map((topic) => [topic, false])));
-    } }, t("select_none"))), [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onKeyDown: handleEnterAsClick, onClick: (e) => {
-      e.preventDefault();
-      updateSelections(new Map(topics.map((topic) => [topic, true])));
-    } }, t("select_all")))), [...topicSelections.entries()].map(([topic, checked]) => {
-      return /* @__PURE__ */ React6.createElement("li", { key: "filterBar--".concat(topic), className: "policyTable--filterBar--item policyTable--filterBar--topic", onKeyDown: handleEnterAsClick, onClick: (e) => updateSelections(new Map(topicSelections.set(topic, !checked))) }, t("topic.".concat(topic)), /* @__PURE__ */ React6.createElement("input", { checked, readOnly: true, className: "policyTable--filterBar--item--checkbox", type: "checkbox" }));
-    })));
-  }
-
-  // src/support/util.ts
-  function shuffle(array) {
-    let currentIndex = array.length, randomIndex;
-    while (currentIndex > 0) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex],
-        array[currentIndex]
-      ];
-    }
-    return array;
+        updateSelections(new Map(topics.map((topic) => [topic, false])));
+      } }, t("select_none"))), [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : /* @__PURE__ */ React6.createElement("div", { className: "policyTable--filterBar--toggle" }, /* @__PURE__ */ React6.createElement("a", { href: "#", onKeyDown: handleEnterAsClick, onClick: (e) => {
+        e.preventDefault();
+        updateSelections(new Map(topics.map((topic) => [topic, true])));
+      } }, t("select_all")))), [...topicSelections.entries()].map(([topic, checked]) => {
+        return /* @__PURE__ */ React6.createElement(
+          TopicOption,
+          {
+            name: topic,
+            className: "policyTable--filterBar--item policyTable--filterBar--topic",
+            checked,
+            onToggle: () => updateSelections(new Map(topicSelections.set(topic, !checked)))
+          }
+        );
+      }))
+    );
   }
 
   // src/components/policy_table/policy-table.tsx
@@ -24098,7 +24125,7 @@
       });
       setPolicyRows(rows.filter((x) => x));
     }, [sortedParties, dataset, topicSelections]);
-    return /* @__PURE__ */ React7.createElement("div", { className: "policyTable" }, /* @__PURE__ */ React7.createElement("div", { id: "tableHeader", className: "policyRow container tableHeader" }, /* @__PURE__ */ React7.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React7.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty" }, /* @__PURE__ */ React7.createElement(TopicSelector, { topics, onUpdate: (selections) => setTopicSelections(selections) })), sortedParties.map((party) => {
+    return /* @__PURE__ */ React7.createElement("div", { className: "policyTable" }, /* @__PURE__ */ React7.createElement("div", { id: "tableHeader", className: "policyRow container tableHeader" }, /* @__PURE__ */ React7.createElement("div", { className: "policyCells" }, /* @__PURE__ */ React7.createElement("div", { id: "policyTableColumn--topics", className: "policyCell partyTitle backgroundColor--Empty" }, /* @__PURE__ */ React7.createElement(TopicSelector, { title: t("topics"), topics, onUpdate: (selections) => setTopicSelections(selections) })), sortedParties.map((party) => {
       return /* @__PURE__ */ React7.createElement(
         "div",
         {
@@ -24108,7 +24135,15 @@
         },
         t(party.toLowerCase())
       );
-    }))), /* @__PURE__ */ React7.createElement("div", { id: "tableFiller", className: "policyRow container tableFiller hidden" }), /* @__PURE__ */ React7.createElement("div", null, policyRows.length == 0 ? /* @__PURE__ */ React7.createElement("div", { className: "policyTable--empty" }, t("no_topics_selected")) : policyRows));
+    }))), /* @__PURE__ */ React7.createElement("div", { id: "tableFiller", className: "policyRow container tableFiller hidden" }), /* @__PURE__ */ React7.createElement(
+      TopicSelector,
+      {
+        title: t("topics"),
+        topics,
+        className: "policyTable--mobileFilter",
+        onUpdate: (selections) => setTopicSelections(selections)
+      }
+    ), /* @__PURE__ */ React7.createElement("div", null, policyRows.length == 0 ? /* @__PURE__ */ React7.createElement("div", { className: "policyTable--empty" }, t("no_topics_selected")) : policyRows));
   }
 
   // src/contexts/policy-modal-context.tsx
