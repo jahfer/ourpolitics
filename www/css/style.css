@@ -515,6 +515,7 @@ a {
 }
 .policyTopic--title {
   margin: 5px 0;
+  font-weight: bold;
 }
 .policyRow {
   margin-bottom: 10px 0;
@@ -783,8 +784,9 @@ body:has(dialog.policyModal--content[open]) {
   line-height: 1em;
 }
 .modal--heading.modal--heading__primary {
-  font-size: 200%;
-  margin: 40px 0 10px;
+  font-size: 2rem;
+  margin: 35px 0 10px;
+  font-weight: bold;
 }
 .modal--heading.modal--heading__secondary {
   font-size: 1.2em;
@@ -804,6 +806,9 @@ body:has(dialog.policyModal--content[open]) {
 }
 .policyModal--Green::backdrop {
   background-color: rgba(61, 155, 53, 1);
+}
+.policyModal--reference .modal--heading.modal--heading__primary {
+  font-size: 1.8rem;
 }
 .modal--details {
   font-size: 1.2rem;
@@ -842,19 +847,21 @@ body:has(dialog.policyModal--content[open]) {
   padding: 35px;
 }
 .modal--sidebar {
-  padding: 10px 35px 35px;
   background: var(--color-cream-light);
-  border-top: 1px solid #ccc;
   position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding-bottom: 35px;
 }
 .modal--sidebar a {
   text-decoration: none;
-  display: inherit;
   padding: 0;
   border: none;
+}
+.modal--sidebar > section {
+  padding: 10px 35px 0;
+  border-top: 1px solid #ccc;
 }
 .modal--close::before,
 .reference-modal--close::before {
@@ -879,37 +886,27 @@ body:has(dialog.policyModal--content[open]) {
 .modal--close:hover {
   border: none;
 }
-.reference {
+.sidebar-link {
   list-style: none;
-  margin-bottom: 15px;
   border: 2px solid transparent;
   border-radius: 5px;
-}
-.reference a:hover {
-  border: 0;
-}
-.reference--list {
-  padding-left: 0;
-  flex: 1;
-}
-.reference--list li {
-  padding: 5px;
+  padding: 5px 5px 0;
   margin-left: -5px;
+  margin-bottom: 10px;
 }
-.reference--list .reference:last-child {
-  margin-bottom: 0;
+.sidebar-link a:hover {
+  border: 0;
 }
 .policyModal:not(.policyModal--reference) .reference--list.list-plain li:nth-child(even) {
   background-color: #f0f0ec;
   border-radius: 5px;
 }
-.reference--title {
-  font-size: 1rem;
+.sidebar-link--title {
+  font-size: 1em;
   margin: 0;
   color: #3a70f0;
-  text-wrap: balance;
 }
-.reference--meta {
+.sidebar-link--meta {
   font-size: 0.75em;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
@@ -950,7 +947,7 @@ body:has(dialog.policyModal--content[open]) {
     max-width: 1000px;
     background: #303030;
     overflow: hidden;
-    border: 5px solid #303030;
+    border: 8px solid #303030;
     transition: transform .2s cubic-bezier(.59, .06, .61, 1.3);
     display: block;
     transform: scale(0.8);
@@ -964,11 +961,11 @@ body:has(dialog.policyModal--content[open]) {
   .policyReferenceModal--content {
     max-width: 570px;
     min-width: 40%;
-    top: 15%;
     bottom: auto;
   }
   .modal--heading__secondary {
     margin-bottom: 30px;
+    font-weight: bold;
   }
   .policyModal {
     height: 100%;
@@ -985,33 +982,39 @@ body:has(dialog.policyModal--content[open]) {
   }
   .modal--content {
     flex: 2.5;
-    overflow-y: scroll;
+    overflow-y: auto;
     background-color: var(--color-cream-light);
     padding-bottom: 35px;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   }
   .modal--content.reference-modal--content {
     flex: 0;
   }
   .modal--sidebar {
     flex: 1;
-    padding: 21px;
     bottom: auto;
     position: static;
     width: auto;
-    overflow-y: scroll;
+    overflow-y: auto;
     background: #303030;
     color: #fff;
-    border-top: none;
+    padding: 21px 0;
   }
   .modal--sidebar a {
     color: #fff;
   }
-  .reference:hover,
-  .reference:active {
+  .modal--sidebar > section {
+    border-top: none;
+    padding: 0 21px;
+  }
+  .sidebar-link:hover,
+  .sidebar-link:active {
     border-color: #ffbd00;
     background-color: #404040;
   }
-  .reference--title {
+  .sidebar-link--title {
     color: #ddd;
   }
   .modal--close {
@@ -1103,6 +1106,15 @@ a.no-underline:hover {
 }
 ul {
   padding-left: 0;
+  margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
 }
 .text-em {
   background-color: #e8e8da;

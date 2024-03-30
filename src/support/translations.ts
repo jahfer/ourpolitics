@@ -149,6 +149,10 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Read another policy",
     FR: "Lire une autre politique"
   },
+  "modal.similar_policies": {
+    EN: "Similar policies",
+    FR: "Politiques similaires"
+  },
   "select_all": {
     EN: "Select all",
     FR: `Tout sélectionner`

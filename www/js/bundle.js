@@ -23701,6 +23701,10 @@
       EN: "Read another policy",
       FR: "Lire une autre politique"
     },
+    "modal.similar_policies": {
+      EN: "Similar policies",
+      FR: "Politiques similaires"
+    },
     "select_all": {
       EN: "Select all",
       FR: "Tout s\xE9lectionner"
@@ -24924,8 +24928,8 @@
         };
     }
   };
-  function Reference({ source }) {
-    return /* @__PURE__ */ React8.createElement("li", { className: "reference" }, /* @__PURE__ */ React8.createElement("a", { target: "_blank", href: source.url }, /* @__PURE__ */ React8.createElement("h2", { className: "reference--title" }, " ", source.title, " "), /* @__PURE__ */ React8.createElement("div", { className: "reference--meta" }, " ", source.publisher, " ")));
+  function SidebarLink({ url, heading, subheading }) {
+    return /* @__PURE__ */ React8.createElement("li", { className: "sidebar-link" }, /* @__PURE__ */ React8.createElement("a", { target: "_blank", href: url }, /* @__PURE__ */ React8.createElement("h2", { className: "sidebar-link--title" }, " ", heading, " "), /* @__PURE__ */ React8.createElement("div", { className: "sidebar-link--meta" }, " ", subheading, " ")));
   }
   function PolicyModal() {
     const modalId = (0, import_react5.useId)();
@@ -24999,7 +25003,7 @@
             className: "modal--heading modal--heading__primary",
             dangerouslySetInnerHTML: { __html: modalPolicy.title[language] }
           }
-        )), /* @__PURE__ */ React8.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React8.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React8.createElement("ul", { className: "reference--list list-plain" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React8.createElement(Reference, { key: ref.url, source: ref })))))
+        )), /* @__PURE__ */ React8.createElement("div", null, /* @__PURE__ */ React8.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React8.createElement("section", null, /* @__PURE__ */ React8.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React8.createElement("ul", { className: "reference--list list-plain" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React8.createElement(SidebarLink, { key: ref.url, url: ref.url, heading: ref.title, subheading: ref.publisher })))), /* @__PURE__ */ React8.createElement("section", null, /* @__PURE__ */ React8.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.similar_policies"), " "), /* @__PURE__ */ React8.createElement("ul", null, /* @__PURE__ */ React8.createElement(SidebarLink, { key: "A", url: "/", heading: "Increase corporate taxes on banks and insurance companies", subheading: "Conservatives, 2021" }), /* @__PURE__ */ React8.createElement(SidebarLink, { key: "B", url: "/", heading: "5% investment tax credit for two years", subheading: "Conservatives, 2021" }))))))
       );
     }
     return /* @__PURE__ */ React8.createElement(
@@ -25022,7 +25026,7 @@
           dangerouslySetInnerHTML: { __html: modalPolicy.title[language] },
           id: "policyDialog__label"
         }
-      ), /* @__PURE__ */ React8.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React8.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React8.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React8.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React8.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React8.createElement(Reference, { key: ref.url, source: ref })))))
+      ), /* @__PURE__ */ React8.createElement("div", { id: "policyDialog__description", className: "modal--details" }, /* @__PURE__ */ React8.createElement("div", { dangerouslySetInnerHTML: { __html: content } }))), /* @__PURE__ */ React8.createElement("aside", { className: "modal--sidebar" }, /* @__PURE__ */ React8.createElement("section", null, /* @__PURE__ */ React8.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.references"), " "), /* @__PURE__ */ React8.createElement("ul", { className: "reference--list" }, modalPolicy.references.map((ref) => /* @__PURE__ */ React8.createElement(SidebarLink, { key: ref.url, url: ref.url, heading: ref.title, subheading: ref.publisher })))), /* @__PURE__ */ React8.createElement("section", null, /* @__PURE__ */ React8.createElement("h2", { className: "modal--heading modal--heading__secondary" }, " ", t("modal.similar_policies"), " "), /* @__PURE__ */ React8.createElement("ul", null, /* @__PURE__ */ React8.createElement(SidebarLink, { key: "A", url: "/", heading: "Increase corporate taxes on banks and insurance companies", subheading: "Conservatives, 2021" }), /* @__PURE__ */ React8.createElement(SidebarLink, { key: "B", url: "/", heading: "5% investment tax credit for two years", subheading: "Conservatives, 2021" })))))
     );
   }
 
