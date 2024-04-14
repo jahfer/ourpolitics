@@ -3,7 +3,6 @@ import { useId, useEffect, useState, useLayoutEffect, useCallback } from 'react'
 import { usePolicyModal } from 'contexts/policy-modal-context'
 import { useLanguage, useTranslation } from 'contexts/language-context';
 import { useURL } from 'contexts/router-context';
-import * as Policy from 'data/policy';
 import { Party } from 'types/schema';
 
 //@ts-ignore
@@ -44,16 +43,19 @@ const policies: ((year: number) => Record<keyof typeof Party, Record<string, str
   }
 }
 
-interface ReferenceProps {
-  source: Policy.ReferenceType,
+interface SidebarLinkProps {
+  url: string,
+  heading: string,
+  subheading: string,
 }
 
-function Reference ({ source }: ReferenceProps) {
+// todo: custom border colour?
+function SidebarLink ({ url, heading, subheading }: SidebarLinkProps) {
   return (
-    <li className="reference">
-      <a target="_blank" href={source.url}>
-        <h2 className="reference--title"> {source.title} </h2>
-        <div className="reference--meta"> {source.publisher} </div>
+    <li className="sidebar-link">
+      <a target="_blank" href={url}>
+        <h2 className="sidebar-link--title"> {heading} </h2>
+        <div className="sidebar-link--meta"> {subheading} </div>
       </a>
     </li>
   )
@@ -141,13 +143,17 @@ export default function PolicyModal () {
               dangerouslySetInnerHTML={{ __html: modalPolicy.title[language] }}
             />
           </div>
-
-          <aside className="modal--sidebar">
-            <h2 className="modal--heading modal--heading__secondary"> {t("modal.references")} </h2>
-            <ul className="reference--list list-plain">
-              {(modalPolicy.references.map(ref => <Reference key={ref.url} source={ref} />)) }
-            </ul>
-          </aside>
+          <div>
+            <aside className="modal--sidebar">
+              <section>
+                <h2 className="modal--heading modal--heading__secondary"> {t("modal.references")} </h2>
+                <ul className="reference--list list-plain">
+                  {(modalPolicy.references.map(ref =>
+                    <SidebarLink key={ref.url} url={ref.url} heading={ref.title} subheading={ref.publisher} />)) }
+                </ul>
+              </section>
+            </aside>
+          </div>
         </div>
       </dialog>
     )
@@ -180,10 +186,13 @@ export default function PolicyModal () {
         </div>
 
         <aside className="modal--sidebar">
-          <h2 className="modal--heading modal--heading__secondary"> {t("modal.references")} </h2>
-          <ul className="reference--list">
-            {(modalPolicy.references.map(ref => <Reference key={ref.url} source={ref} />)) }
-          </ul>
+          <section>
+            <h2 className="modal--heading modal--heading__secondary"> {t("modal.references")} </h2>
+            <ul className="reference--list">
+              {(modalPolicy.references.map(ref =>
+                <SidebarLink key={ref.url} url={ref.url} heading={ref.title} subheading={ref.publisher} />)) }
+            </ul>
+          </section>
           {/* <div className="modal--randomize">
             <a href="#" className="randomize-policy iconSuffix iconSuffix--random" onClick={e => e.preventDefault() }>
               {t("modal.random_policy")}
