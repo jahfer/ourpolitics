@@ -27,7 +27,8 @@
         "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
       }
     ],
-    "handle": "cpc_tfsa"
+    "handle": "cpc_tfsa",
+    "id": 1
   },
   {
     "topic": "economy",
@@ -57,7 +58,8 @@
         "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
       }
     ],
-    "handle": "lpc_tfsa"
+    "handle": "lpc_tfsa",
+    "id": 2
   },
   {
     "topic": "economy",
@@ -87,7 +89,8 @@
         "url": "http://business.financialpost.com/personal-finance/tfsa/federal-budget-2015-ottawa-boosts-tfsa-account-limits-by-82-to-10000-a-year"
       }
     ],
-    "handle": "ndp_tfsa"
+    "handle": "ndp_tfsa",
+    "id": 3
   },
   {
     "topic": "child-care",
@@ -111,7 +114,8 @@
         "url": "http://globalnews.ca/news/2176583/what-we-know-about-the-ndps-childcare-plan/"
       }
     ],
-    "handle": "ndp_daycare"
+    "handle": "ndp_daycare",
+    "id": 4
   },
   {
     "topic": "child-care",
@@ -140,7 +144,8 @@
         "url": "http://www.cbc.ca/news/politics/3-things-to-know-about-the-uccb-payments-impact-1.3161108"
       }
     ],
-    "handle": "ndp_uccb"
+    "handle": "ndp_uccb",
+    "id": 5
   },
   {
     "topic": "child-care",
@@ -163,7 +168,8 @@
         "url": "http://www.cbc.ca/news/politics/3-things-to-know-about-the-uccb-payments-impact-1.3161108"
       }
     ],
-    "handle": "cpc_uccb"
+    "handle": "cpc_uccb",
+    "id": 6
   },
   {
     "topic": "child-care",
@@ -187,7 +193,8 @@
         "url": "http://www.thestar.com/opinion/commentary/2015/05/06/liberal-child-benefit-plan-makes-a-lot-of-sense.html"
       }
     ],
-    "handle": "lpc_ccb"
+    "handle": "lpc_ccb",
+    "id": 7
   },
   {
     "topic": "health-and-safety",
@@ -247,7 +254,8 @@
         "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565886"
       }
     ],
-    "handle": "ndp_c51"
+    "handle": "ndp_c51",
+    "id": 8
   },
   {
     "topic": "health-and-safety",
@@ -289,7 +297,8 @@
         "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565886"
       }
     ],
-    "handle": "cpc_c51"
+    "handle": "cpc_c51",
+    "id": 9
   },
   {
     "topic": "health-and-safety",
@@ -337,7 +346,8 @@
         "url": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565886"
       }
     ],
-    "handle": "lpc_c51"
+    "handle": "lpc_c51",
+    "id": 10
   },
   {
     "topic": "health-and-safety",
@@ -361,7 +371,8 @@
         "url": "http://www.torontosun.com/2014/10/20/decriminalize-study-and-go-from-there-ndps-pot-policy"
       }
     ],
-    "handle": "ndp_marijuana"
+    "handle": "ndp_marijuana",
+    "id": 11
   },
   {
     "topic": "health-and-safety",
@@ -385,7 +396,8 @@
         "url": "http://globalnews.ca/news/1607817/conservative-governments-opposition-to-pot-legalization-unshaken/"
       }
     ],
-    "handle": "cpc_marijuana"
+    "handle": "cpc_marijuana",
+    "id": 12
   },
   {
     "topic": "health-and-safety",
@@ -415,7 +427,8 @@
         "url": "http://www.cbc.ca/news/politics/trudeau-pot-marijuana-legalization-timeline-1.3252088"
       }
     ],
-    "handle": "lpc_marijuana"
+    "handle": "lpc_marijuana",
+    "id": 13
   },
   {
     "topic": "economy",
@@ -445,7 +458,8 @@
         "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-scales-back-magnitude-of-ndp-s-promised-corporate-tax-hike-1.3201087"
       }
     ],
-    "handle": "ndp_corporate_taxes"
+    "handle": "ndp_corporate_taxes",
+    "id": 14
   },
   {
     "topic": "economy",
@@ -469,7 +483,8 @@
         "url": "http://www.theglobeandmail.com/report-on-business/small-business/starting-out/in-letter-to-tech-ceos-mulcair-partially-retracts-promise-to-change-tax-treatment-for-stock-options/article26553003/"
       }
     ],
-    "handle": "ndp_stock_options"
+    "handle": "ndp_stock_options",
+    "id": 15
   },
   {
     "topic": "economy",
@@ -499,7 +514,8 @@
         "url": "http://www.huffingtonpost.ca/2015/01/28/ndp-small-business-tax-cut-wealthy-canadians_n_6561678.html"
       }
     ],
-    "handle": "ndp_small_business_tax"
+    "handle": "ndp_small_business_tax",
+    "id": 16
   },
   {
     "topic": "economy",
@@ -523,7 +539,8 @@
         "url": "http://business.financialpost.com/news/economy/income-splitting-to-cost-canada-2-2-billion-and-have-near-zero-impact-on-low-income-households-pbo-report-says"
       }
     ],
-    "handle": "ndp_income_splitting"
+    "handle": "ndp_income_splitting",
+    "id": 17
   },
   {
     "topic": "housing",
@@ -552,7 +569,8 @@
         "url": "http://www.thestar.com/business/2015/08/06/experts-divided-on-effect-of-home-renovation-tax-break-pledge.html"
       }
     ],
-    "handle": "cpc_home_renovation"
+    "handle": "cpc_home_renovation",
+    "id": 18
   },
   {
     "topic": "economy",
@@ -582,7 +600,8 @@
         "url": "http://www.cbc.ca/news/politics/stephen-harper-pledges-higher-rrsp-withdrawal-limit-for-1st-time-homebuyers-1.3188580"
       }
     ],
-    "handle": "cpc_rrsp"
+    "handle": "cpc_rrsp",
+    "id": 19
   },
   {
     "topic": "economy",
@@ -611,7 +630,8 @@
         "url": "http://www.cbc.ca/news/politics/justin-trudeau-plan-taxes-top-1-to-cut-taxes-boost-benefits-for-middle-class-1.3060323"
       }
     ],
-    "handle": "lpc_middle_class_taxes"
+    "handle": "lpc_middle_class_taxes",
+    "id": 20
   },
   {
     "topic": "economy",
@@ -641,7 +661,8 @@
         "url": "http://ipolitics.ca/2015/05/06/no-pierre-the-liberals-still-have-no-plans-to-scrap-income-splitting-for-seniors/"
       }
     ],
-    "handle": "lpc_income_splitting"
+    "handle": "lpc_income_splitting",
+    "id": 21
   },
   {
     "topic": "international-trade",
@@ -695,7 +716,8 @@
         "url": "http://www.theglobeandmail.com/news/politics/everything-you-need-to-know-about-the-trans-pacific-partnership/article25769342/"
       }
     ],
-    "handle": "ndp_tpp"
+    "handle": "ndp_tpp",
+    "id": 22
   },
   {
     "topic": "international-trade",
@@ -749,7 +771,8 @@
         "url": "http://www.theglobeandmail.com/news/politics/everything-you-need-to-know-about-the-trans-pacific-partnership/article25769342/"
       }
     ],
-    "handle": "cpc_tpp"
+    "handle": "cpc_tpp",
+    "id": 23
   },
   {
     "topic": "international-trade",
@@ -803,7 +826,8 @@
         "url": "http://www.theglobeandmail.com/news/politics/everything-you-need-to-know-about-the-trans-pacific-partnership/article25769342/"
       }
     ],
-    "handle": "lpc_tpp"
+    "handle": "lpc_tpp",
+    "id": 24
   },
   {
     "topic": "environment",
@@ -821,7 +845,8 @@
         "url": "http://www.cbc.ca/news/politics/canada-election-2015-ndp-climate-change-1.3245598"
       }
     ],
-    "handle": "ndp_cap_and_trade"
+    "handle": "ndp_cap_and_trade",
+    "id": 25
   },
   {
     "topic": "environment",
@@ -839,7 +864,8 @@
         "url": "http://www.huffingtonpost.ca/2015/10/01/mulcair-pushes-home-retrofits-renewable-energy-as-part-of-climate-change-plan_n_8226962.html"
       }
     ],
-    "handle": "ndp_green_tech"
+    "handle": "ndp_green_tech",
+    "id": 26
   },
   {
     "topic": "environment",
@@ -875,7 +901,8 @@
         "url": "http://www.cbc.ca/player/News/Politics/ID/2676007875/"
       }
     ],
-    "handle": "ndp_pipeline"
+    "handle": "ndp_pipeline",
+    "id": 27
   },
   {
     "topic": "environment",
@@ -905,7 +932,8 @@
         "url": "http://canadians.org/blog/liberals-and-conservatives-support-energy-east-oil-terminal-st-lawrence-river"
       }
     ],
-    "handle": "cpc_pipeline"
+    "handle": "cpc_pipeline",
+    "id": 28
   },
   {
     "topic": "environment",
@@ -934,7 +962,8 @@
         "url": "http://www.theglobeandmail.com/news/politics/trudeau-unveils-liberal-environment-plan-including-green-bonds/article25176587/"
       }
     ],
-    "handle": "lpc_carbon_tax"
+    "handle": "lpc_carbon_tax",
+    "id": 29
   },
   {
     "topic": "environment",
@@ -957,7 +986,8 @@
         "url": "http://www.cp24.com/news/federal-election-2015/trudeau-says-liberal-government-would-invest-in-clean-tech-create-good-jobs-1.2522269"
       }
     ],
-    "handle": "lpc_green_tech"
+    "handle": "lpc_green_tech",
+    "id": 30
   },
   {
     "topic": "environment",
@@ -981,7 +1011,8 @@
         "url": "http://www.thestar.com/news/canada/2015/09/10/liberal-leader-justin-trudeau-talks-pipeline-politics.html"
       }
     ],
-    "handle": "lpc_pipeline"
+    "handle": "lpc_pipeline",
+    "id": 31
   },
   {
     "topic": "government",
@@ -1005,7 +1036,8 @@
         "url": "http://www.hilltimes.com/news/news/2015/09/28/liberal-sen-campbell-says-he-30-senators-willing-to-work-with-mulcair-if-ndp-wins-race/43517"
       }
     ],
-    "handle": "ndp_senate"
+    "handle": "ndp_senate",
+    "id": 32
   },
   {
     "topic": "government",
@@ -1029,7 +1061,8 @@
         "url": "http://news.nationalpost.com/full-comment/stephen-maher-justin-trudeau-lets-hear-those-ideas-for-senate-reform-you-promised"
       }
     ],
-    "handle": "lpc_senate"
+    "handle": "lpc_senate",
+    "id": 33
   },
   {
     "topic": "government",
@@ -1053,7 +1086,8 @@
         "url": "http://www.theglobeandmail.com/news/politics/harper-wall-to-call-for-abolition-of-senate-on-friday-report/article25658737/"
       }
     ],
-    "handle": "cpc_senate"
+    "handle": "cpc_senate",
+    "id": 34
   },
   {
     "topic": "indigenous-relations",
@@ -1071,7 +1105,8 @@
         "url": "http://www.cbc.ca/news/politics/tom-mulcair-vows-aboriginal-women-inquiry-within-100-days-if-ndp-elected-1.2748280"
       }
     ],
-    "handle": "ndp_aboriginal_relations"
+    "handle": "ndp_aboriginal_relations",
+    "id": 35
   },
   {
     "topic": "indigenous-relations",
@@ -1089,7 +1124,8 @@
         "url": "http://www.cbc.ca/news/politics/tom-mulcair-vows-aboriginal-women-inquiry-within-100-days-if-ndp-elected-1.2748280"
       }
     ],
-    "handle": "cpc_aboriginal_relations"
+    "handle": "cpc_aboriginal_relations",
+    "id": 36
   },
   {
     "topic": "indigenous-relations",
@@ -1107,7 +1143,8 @@
         "url": "http://www.thestar.com/news/federal-election/2015/09/01/what-the-parties-are-promising-on-aboriginal-issues.html"
       }
     ],
-    "handle": "cpc_aboriginal_funding"
+    "handle": "cpc_aboriginal_funding",
+    "id": 37
   },
   {
     "topic": "indigenous-relations",
@@ -1124,7 +1161,8 @@
         "url": "https://www.liberal.ca/realchange/missing-and-murdered-indigenous-women/"
       }
     ],
-    "handle": "lpc_aboriginal_relations"
+    "handle": "lpc_aboriginal_relations",
+    "id": 38
   },
   {
     "topic": "indigenous-relations",
@@ -1151,7 +1189,8 @@
         "url": "https://www.liberal.ca/realchange/expanding-first-nations-education-infrastructure/"
       }
     ],
-    "handle": "lpc_aboriginal_education"
+    "handle": "lpc_aboriginal_education",
+    "id": 39
   },
   {
     "topic": "health-and-safety",
@@ -1175,7 +1214,8 @@
         "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-seniors-medication-prices-1.3234173"
       }
     ],
-    "handle": "ndp_healthcare"
+    "handle": "ndp_healthcare",
+    "id": 40
   },
   {
     "topic": "health-and-safety",
@@ -1199,7 +1239,8 @@
         "url": "http://www.ndp.ca/news/mulcair-to-improve-mental-health-care-young-canadians"
       }
     ],
-    "handle": "ndp_mental_healthcare"
+    "handle": "ndp_mental_healthcare",
+    "id": 41
   },
   {
     "topic": "health-and-safety",
@@ -1229,7 +1270,8 @@
         "url": "http://www.huffingtonpost.ca/2015/09/14/ndp-earmarks-500-million-over-four-years-to-build-clinics-hire-health-staff_n_8134440.html"
       }
     ],
-    "handle": "ndp_alzheimers"
+    "handle": "ndp_alzheimers",
+    "id": 42
   },
   {
     "topic": "health-and-safety",
@@ -1253,7 +1295,8 @@
         "url": "http://www.thestar.com/news/federal-election/2015/09/14/ndp-prescribes-500m-for-health-care-system.html"
       }
     ],
-    "handle": "ndp_healthcare_funding"
+    "handle": "ndp_healthcare_funding",
+    "id": 43
   },
   {
     "topic": "health-and-safety",
@@ -1275,7 +1318,8 @@
         "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/"
       }
     ],
-    "handle": "lpc_healthcare"
+    "handle": "lpc_healthcare",
+    "id": 44
   },
   {
     "topic": "health-and-safety",
@@ -1297,7 +1341,8 @@
         "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/"
       }
     ],
-    "handle": "lpc_mental_healthcare"
+    "handle": "lpc_mental_healthcare",
+    "id": 45
   },
   {
     "topic": "infrastructure",
@@ -1327,7 +1372,8 @@
         "url": "http://globalnews.ca/news/2040485/tom-mulcair-promises-canadas-cities-an-extra-cent-from-the-existing-gas-tax/"
       }
     ],
-    "handle": "ndp_transit"
+    "handle": "ndp_transit",
+    "id": 46
   },
   {
     "topic": "infrastructure",
@@ -1345,7 +1391,8 @@
         "url": "http://www.thestar.com/news/canada/2015/08/27/a-look-at-each-federal-partys-infrastructure-election-promises.html"
       }
     ],
-    "handle": "cpc_infrastructure"
+    "handle": "cpc_infrastructure",
+    "id": 47
   },
   {
     "topic": "infrastructure",
@@ -1362,7 +1409,8 @@
         "url": "https://www.liberal.ca/realchange/financing-infrastructure-investments-with-the-canada-infrastructure-bank/"
       }
     ],
-    "handle": "lpc_infrastructure_bank"
+    "handle": "lpc_infrastructure_bank",
+    "id": 48
   },
   {
     "topic": "infrastructure",
@@ -1386,7 +1434,8 @@
         "url": "http://www.cbc.ca/news/politics/canada-election-2015-liberals-infrastructure-deficits-1.3205535"
       }
     ],
-    "handle": "lpc_infrastructure_investment"
+    "handle": "lpc_infrastructure_investment",
+    "id": 49
   },
   {
     "topic": "infrastructure",
@@ -1409,7 +1458,8 @@
         "url": "http://globalnews.ca/news/2213160/justin-trudeau-to-make-announcement-about-public-transport-in-vancouver/"
       }
     ],
-    "handle": "lpc_transit"
+    "handle": "lpc_transit",
+    "id": 50
   },
   {
     "topic": "foreign-policy",
@@ -1433,7 +1483,8 @@
         "url": "http://www.thestar.com/news/federal-election/2015/09/10/ndp-leader-tom-mulcair-promising-thousands-of-jobs-paid-internships.html"
       }
     ],
-    "handle": "ndp_isis"
+    "handle": "ndp_isis",
+    "id": 51
   },
   {
     "topic": "foreign-policy",
@@ -1463,7 +1514,8 @@
         "url": "http://www.ctvnews.ca/politics/election/ndp-liberals-call-for-increased-refugee-settlement-in-canada-by-year-s-end-1.2549599"
       }
     ],
-    "handle": "ndp_refugees"
+    "handle": "ndp_refugees",
+    "id": 52
   },
   {
     "topic": "foreign-policy",
@@ -1493,7 +1545,8 @@
         "url": "http://www.cp24.com/news/canada-s-foreign-aid-spending-shrinking-official-1.2203952"
       }
     ],
-    "handle": "ndp_foreign_aid"
+    "handle": "ndp_foreign_aid",
+    "id": 53
   },
   {
     "topic": "foreign-policy",
@@ -1517,7 +1570,8 @@
         "url": "http://www.cbc.ca/news/politics/canada-election-2015-harper-religion-aug10-1.3185333"
       }
     ],
-    "handle": "cpc_isis"
+    "handle": "cpc_isis",
+    "id": 54
   },
   {
     "topic": "foreign-policy",
@@ -1547,7 +1601,8 @@
         "url": "http://www.ctvnews.ca/politics/election/ndp-liberals-call-for-increased-refugee-settlement-in-canada-by-year-s-end-1.2549599"
       }
     ],
-    "handle": "cpc_refugees"
+    "handle": "cpc_refugees",
+    "id": 55
   },
   {
     "topic": "foreign-policy",
@@ -1571,7 +1626,8 @@
         "url": "http://www.cbc.ca/news/politics/justin-trudeau-i-ll-end-isis-combat-mission-restore-relations-with-iran-1.3124949"
       }
     ],
-    "handle": "lpc_isis"
+    "handle": "lpc_isis",
+    "id": 56
   },
   {
     "topic": "foreign-policy",
@@ -1601,7 +1657,8 @@
         "url": "http://www.ctvnews.ca/politics/election/ndp-liberals-call-for-increased-refugee-settlement-in-canada-by-year-s-end-1.2549599"
       }
     ],
-    "handle": "lpc_refugees"
+    "handle": "lpc_refugees",
+    "id": 57
   },
   {
     "topic": "social-assistance",
@@ -1618,7 +1675,8 @@
         "url": "http://www.ndp.ca/plan"
       }
     ],
-    "handle": "ndp_seniors"
+    "handle": "ndp_seniors",
+    "id": 58
   },
   {
     "topic": "social-assistance",
@@ -1635,7 +1693,8 @@
         "url": "http://www.ndp.ca/plan"
       }
     ],
-    "handle": "ndp_seniors_income_splitting"
+    "handle": "ndp_seniors_income_splitting",
+    "id": 59
   },
   {
     "topic": "social-assistance",
@@ -1652,7 +1711,8 @@
         "url": "http://www.conservative.ca/cpc/support-for-canadian-seniors/"
       }
     ],
-    "handle": "cpc_seniors"
+    "handle": "cpc_seniors",
+    "id": 60
   },
   {
     "topic": "social-assistance",
@@ -1669,7 +1729,8 @@
         "url": "http://www.theglobeandmail.com/news/politics/trudeau-promises-3-billion-investment-in-home-care-mental-health/article26597132/"
       }
     ],
-    "handle": "lpc_homecare"
+    "handle": "lpc_homecare",
+    "id": 61
   },
   {
     "topic": "social-assistance",
@@ -1686,7 +1747,8 @@
         "url": "http://www.liberal.ca/realchange/retirement-security-for-our-seniors/"
       }
     ],
-    "handle": "lpc_seniors"
+    "handle": "lpc_seniors",
+    "id": 62
   },
   {
     "topic": "social-assistance",
@@ -1703,7 +1765,8 @@
         "url": "https://www.liberal.ca/fact-check-trudeau-will-keep-pension-income-splitting-for-seniors/"
       }
     ],
-    "handle": "lpc_seniors_income_splitting"
+    "handle": "lpc_seniors_income_splitting",
+    "id": 63
   },
   {
     "topic": "youth",
@@ -1721,7 +1784,8 @@
         "url": "http://ottawacitizen.com/news/politics/new-democrats-announce-plan-to-end-interest-on-student-loans"
       }
     ],
-    "handle": "ndp_student_loans"
+    "handle": "ndp_student_loans",
+    "id": 64
   },
   {
     "topic": "youth",
@@ -1745,7 +1809,8 @@
         "url": "http://www.cbc.ca/news/politics/canada-election-2015-mulcair-youth-internships-jobs-1.3222513"
       }
     ],
-    "handle": "ndp_internships"
+    "handle": "ndp_internships",
+    "id": 65
   },
   {
     "topic": "youth",
@@ -1774,7 +1839,8 @@
         "url": "http://www.theglobeandmail.com/news/politics/liberals-vows-to-outspend-ndp-on-youth-employment-strategy/article26329455/"
       }
     ],
-    "handle": "lpc_youth"
+    "handle": "lpc_youth",
+    "id": 66
   },
   {
     "topic": "government",
@@ -1798,7 +1864,8 @@
         "url": "http://www.ndp.ca/news/ndp-wants-to-implement-mixed-proportional-system"
       }
     ],
-    "handle": "ndp_reform"
+    "handle": "ndp_reform",
+    "id": 67
   },
   {
     "topic": "government",
@@ -1816,7 +1883,8 @@
         "url": "http://www.torontosun.com/2015/07/27/exclusive-tories-to-require-a-vote-on-changing-elections"
       }
     ],
-    "handle": "cpc_reform"
+    "handle": "cpc_reform",
+    "id": 68
   },
   {
     "topic": "government",
@@ -1844,7 +1912,8 @@
         "url": "http://ualawccsprod.srv.ualberta.ca/ccs/index.php/constitutional-keywords/489-amending-formula"
       }
     ],
-    "handle": "lpc_reform"
+    "handle": "lpc_reform",
+    "id": 69
   },
   {
     "topic": "science",
@@ -1874,7 +1943,8 @@
         "url": "https://openparliament.ca/bills/41-2/C-558/"
       }
     ],
-    "handle": "ndp_science_officer"
+    "handle": "ndp_science_officer",
+    "id": 70
   },
   {
     "topic": "science",
@@ -1891,6 +1961,7 @@
         "url": "http://www.liberal.ca/realchange/unmuzzle-science/"
       }
     ],
-    "handle": "lpc_science_officer"
+    "handle": "lpc_science_officer",
+    "id": 71
   }
 ]

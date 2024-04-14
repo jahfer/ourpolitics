@@ -15,7 +15,8 @@
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
     ],
-    "handle": "digital_services_tax"
+    "handle": "digital_services_tax",
+    "id": 1
   },
   {
     "topic": "economy",
@@ -39,7 +40,8 @@
         "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/flow-through-shares-ftss.html"
       }
     ],
-    "handle": "flow_through_shares"
+    "handle": "flow_through_shares",
+    "id": 2
   },
   {
     "topic": "science",
@@ -56,7 +58,8 @@
         "publisher": "National Post",
         "url": "https://nationalpost.com/news/politics/conservatives-unveil-innovation-policy-ahead-of-potential-election-call-marking-departure-from-liberals"
       }
-    ]
+    ],
+    "id": 3
   },
   {
     "topic": "housing",
@@ -73,7 +76,8 @@
         "publisher": "Global News",
         "url": "https://globalnews.ca/news/8125092/election-otoole-housing-conservative-canada-campaign/"
       }
-    ]
+    ],
+    "id": 4
   },
   {
     "topic": "housing",
@@ -114,7 +118,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/1-4-million-new-homes/"
       }
-    ]
+    ],
+    "id": 5
   },
   {
     "topic": "housing",
@@ -144,7 +149,8 @@
         "url": "https://www.thestar.com/politics/political-opinion/2021/08/24/liberals-will-take-aim-at-real-estate-speculation-propose-homebuyers-bill-of-rights-in-ambitious-housing-policy.html"
       }
     ],
-    "handle": "homebuyers_bill_of_rights"
+    "handle": "homebuyers_bill_of_rights",
+    "id": 6
   },
   {
     "topic": "housing",
@@ -161,7 +167,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/crack-down-on-foreign-ownership/"
       }
-    ]
+    ],
+    "id": 7
   },
   {
     "topic": "housing",
@@ -178,7 +185,8 @@
         "publisher": "Global News",
         "url": "https://globalnews.ca/news/8125092/election-otoole-housing-conservative-canada-campaign/"
       }
-    ]
+    ],
+    "id": 8
   },
   {
     "topic": "economy",
@@ -195,7 +203,8 @@
         "publisher": "Toronto Star",
         "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
       }
-    ]
+    ],
+    "id": 9
   },
   {
     "topic": "economy",
@@ -212,7 +221,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 10
   },
   {
     "topic": "economy",
@@ -230,7 +240,8 @@
         "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
       }
     ],
-    "handle": "income_tax_rate"
+    "handle": "income_tax_rate",
+    "id": 11
   },
   {
     "topic": "economy",
@@ -254,7 +265,8 @@
         "url": "https://taxfoundation.org/canada-cuts-corporate-tax-rate-15-lowest-overall-rate-g-7/"
       }
     ],
-    "handle": "corporate_tax_rate"
+    "handle": "corporate_tax_rate",
+    "id": 12
   },
   {
     "topic": "economy",
@@ -272,7 +284,8 @@
         "url": "https://www.thestar.com/politics/federal/2021/08/12/ndp-promises-to-expand-its-wealth-tax-to-include-thousands-more-canadians.html"
       }
     ],
-    "handle": "wealth_tax"
+    "handle": "wealth_tax",
+    "id": 13
   },
   {
     "topic": "economy",
@@ -289,7 +302,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 14
   },
   {
     "topic": "economy",
@@ -306,7 +320,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 15
   },
   {
     "topic": "economy",
@@ -323,7 +338,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 16
   },
   {
     "topic": "economy",
@@ -340,7 +356,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 17
   },
   {
     "topic": "education",
@@ -357,7 +374,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 18
   },
   {
     "topic": "education",
@@ -374,7 +392,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 19
   },
   {
     "topic": "civil-rights",
@@ -391,7 +410,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 20
   },
   {
     "topic": "science",
@@ -408,7 +428,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 21
   },
   {
     "topic": "housing",
@@ -425,7 +446,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 22
   },
   {
     "topic": "housing",
@@ -442,7 +464,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 23
   },
   {
     "topic": "government",
@@ -459,7 +482,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 24
   },
   {
     "topic": "government",
@@ -476,7 +500,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 25
   },
   {
     "topic": "health-and-safety",
@@ -493,7 +518,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 26
   },
   {
     "topic": "health-and-safety",
@@ -517,7 +543,8 @@
         "url": "https://www.ctvnews.ca/politics/federal-election-2021/o-toole-pledges-mental-health-support-attaches-no-strings-for-provinces-territories-1.5560625"
       }
     ],
-    "handle": "mental_health_action_plan"
+    "handle": "mental_health_action_plan",
+    "id": 27
   },
   {
     "topic": "health-and-safety",
@@ -534,7 +561,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 28
   },
   {
     "topic": "health-and-safety",
@@ -558,7 +586,8 @@
         "url": "https://www.cbc.ca/news/politics/gun-control-wedge-issue-1.6165532"
       }
     ],
-    "handle": "gun_classification"
+    "handle": "gun_classification",
+    "id": 29
   },
   {
     "topic": "social-assistance",
@@ -575,7 +604,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 30
   },
   {
     "topic": "social-assistance",
@@ -592,7 +622,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 31
   },
   {
     "topic": "social-assistance",
@@ -609,7 +640,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 32
   },
   {
     "topic": "infrastructure",
@@ -626,7 +658,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 33
   },
   {
     "topic": "infrastructure",
@@ -643,7 +676,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 34
   },
   {
     "topic": "child-care",
@@ -660,7 +694,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 35
   },
   {
     "topic": "social-assistance",
@@ -677,7 +712,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 36
   },
   {
     "topic": "international-trade",
@@ -694,7 +730,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 37
   },
   {
     "topic": "international-trade",
@@ -711,7 +748,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 38
   },
   {
     "topic": "environment",
@@ -728,7 +766,8 @@
         "publisher": "The Globe and Mail",
         "url": "https://www.theglobeandmail.com/politics/article-conservative-leader-erin-otoole-rejects-canadas-new-emissions-target/"
       }
-    ]
+    ],
+    "id": 39
   },
   {
     "topic": "environment",
@@ -745,7 +784,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 40
   },
   {
     "topic": "environment",
@@ -781,7 +821,8 @@
         "url": "https://www.ctvnews.ca/mobile/politics/federal-election-2021/o-toole-acknowledges-some-conservatives-frustrated-over-carbon-pricing-plan-1.5556254"
       }
     ],
-    "handle": "low_carbon_savings_account"
+    "handle": "low_carbon_savings_account",
+    "id": 41
   },
   {
     "topic": "environment",
@@ -798,7 +839,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.rcaanc-cirnac.gc.ca/eng/1524494530110/1557511412801"
       }
-    ]
+    ],
+    "id": 42
   },
   {
     "topic": "health-and-safety",
@@ -821,7 +863,8 @@
         "publisher": "The Star",
         "url": "https://www.thestar.com/calgary/2019/06/02/bill-c-71-has-passed-what-does-that-mean-for-gun-owners.html"
       }
-    ]
+    ],
+    "id": 43
   },
   {
     "topic": "foreign-policy",
@@ -838,7 +881,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 44
   },
   {
     "topic": "environment",
@@ -855,7 +899,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/delivering-on-our-climate-commitments/"
       }
-    ]
+    ],
+    "id": 45
   },
   {
     "topic": "environment",
@@ -878,7 +923,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/more-national-parks-and-marine-conservation-areas/"
       }
-    ]
+    ],
+    "id": 46
   },
   {
     "topic": "environment",
@@ -888,7 +934,8 @@
       "EN": "Ban on single-use plastics",
       "FR": "Interdiction des plastiques à usage unique"
     },
-    "references": []
+    "references": [],
+    "id": 47
   },
   {
     "topic": "environment",
@@ -906,7 +953,8 @@
         "url": "https://liberal.ca/liberals-move-forward-to-end-plastic-pollution-and-reduce-waste/"
       }
     ],
-    "handle": "recycling"
+    "handle": "recycling",
+    "id": 48
   },
   {
     "topic": "environment",
@@ -923,7 +971,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 49
   },
   {
     "topic": "environment",
@@ -940,7 +989,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/eliminating-subsidies-and-public-financing-for-fossil-fuel/"
       }
-    ]
+    ],
+    "id": 50
   },
   {
     "topic": "environment",
@@ -957,7 +1007,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/zero-emissions-vehicles/"
       }
-    ]
+    ],
+    "id": 51
   },
   {
     "topic": "environment",
@@ -974,7 +1025,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/our-clean-power-advantage/"
       }
-    ]
+    ],
+    "id": 52
   },
   {
     "topic": "environment",
@@ -991,7 +1043,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/a-retrofit-economy-that-cuts-pollution-and-creates-jobs/"
       }
-    ]
+    ],
+    "id": 53
   },
   {
     "topic": "environment",
@@ -1008,7 +1061,8 @@
         "publisher": "CBC",
         "url": "https://www.cbc.ca/news/politics/carbon-tax-hike-new-climate-plan-1.5837709"
       }
-    ]
+    ],
+    "id": 54
   },
   {
     "topic": "environment",
@@ -1025,7 +1079,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#97"
       }
-    ]
+    ],
+    "id": 55
   },
   {
     "topic": "social-assistance",
@@ -1042,7 +1097,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 56
   },
   {
     "topic": "social-assistance",
@@ -1059,7 +1115,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 57
   },
   {
     "topic": "civil-rights",
@@ -1076,7 +1133,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 58
   },
   {
     "topic": "civil-rights",
@@ -1093,7 +1151,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 59
   },
   {
     "topic": "economy",
@@ -1111,7 +1170,8 @@
         "url": "https://www.budget.gc.ca/2021/report-rapport/p4-en.html#252"
       }
     ],
-    "handle": "digital_services_tax"
+    "handle": "digital_services_tax",
+    "id": 60
   },
   {
     "topic": "infrastructure",
@@ -1128,7 +1188,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 61
   },
   {
     "topic": "economy",
@@ -1152,7 +1213,8 @@
         "url": "https://www.canada.ca/en/department-finance/news/2019/06/backgrounder-proposed-changes-to-the-tax-treatment-of-employee-stock-options.html"
       }
     ],
-    "handle": "stock_option_exemption"
+    "handle": "stock_option_exemption",
+    "id": 62
   },
   {
     "topic": "science",
@@ -1169,7 +1231,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 63
   },
   {
     "topic": "science",
@@ -1186,7 +1249,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 64
   },
   {
     "topic": "science",
@@ -1203,7 +1267,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 65
   },
   {
     "topic": "housing",
@@ -1220,7 +1285,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 66
   },
   {
     "topic": "housing",
@@ -1237,7 +1303,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/a-new-rent-to-own-program/"
       }
-    ]
+    ],
+    "id": 67
   },
   {
     "topic": "housing",
@@ -1254,7 +1321,8 @@
         "publisher": "CBC",
         "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
       }
-    ]
+    ],
+    "id": 68
   },
   {
     "topic": "housing",
@@ -1271,7 +1339,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p4-en.html#254"
       }
-    ]
+    ],
+    "id": 69
   },
   {
     "topic": "economy",
@@ -1288,7 +1357,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p4-en.html#253"
       }
-    ]
+    ],
+    "id": 70
   },
   {
     "topic": "government",
@@ -1305,7 +1375,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 71
   },
   {
     "topic": "health-and-safety",
@@ -1322,7 +1393,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 72
   },
   {
     "topic": "health-and-safety",
@@ -1339,7 +1411,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 73
   },
   {
     "topic": "health-and-safety",
@@ -1356,7 +1429,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 74
   },
   {
     "topic": "government",
@@ -1373,7 +1447,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 75
   },
   {
     "topic": "government",
@@ -1390,7 +1465,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 76
   },
   {
     "topic": "health-and-safety",
@@ -1407,7 +1483,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 77
   },
   {
     "topic": "health-and-safety",
@@ -1430,7 +1507,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/a-comprehensive-plan-for-mental-health-care-across-canada/"
       }
-    ]
+    ],
+    "id": 78
   },
   {
     "topic": "health-and-safety",
@@ -1447,7 +1525,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/protecting-your-sexual-and-reproductive-health-and-rights/"
       }
-    ]
+    ],
+    "id": 79
   },
   {
     "topic": "health-and-safety",
@@ -1464,7 +1543,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 80
   },
   {
     "topic": "health-and-safety",
@@ -1481,7 +1561,8 @@
         "publisher": "BIV",
         "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
       }
-    ]
+    ],
+    "id": 81
   },
   {
     "topic": "social-assistance",
@@ -1498,7 +1579,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 82
   },
   {
     "topic": "international-trade",
@@ -1515,7 +1597,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 83
   },
   {
     "topic": "environment",
@@ -1532,7 +1615,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#104"
       }
-    ]
+    ],
+    "id": 84
   },
   {
     "topic": "environment",
@@ -1555,7 +1639,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/making-sure-canada-is-a-world-leader-in-clean-technology/"
       }
-    ]
+    ],
+    "id": 85
   },
   {
     "topic": "environment",
@@ -1572,7 +1657,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 86
   },
   {
     "topic": "environment",
@@ -1589,7 +1675,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#117"
       }
-    ]
+    ],
+    "id": 87
   },
   {
     "topic": "housing",
@@ -1606,7 +1693,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 88
   },
   {
     "topic": "indigenous-relations",
@@ -1623,7 +1711,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.rcaanc-cirnac.gc.ca/eng/1524494530110/1557511412801"
       }
-    ]
+    ],
+    "id": 89
   },
   {
     "topic": "indigenous-relations",
@@ -1640,7 +1729,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/p3-en.html#chap8"
       }
-    ]
+    ],
+    "id": 90
   },
   {
     "topic": "child-care",
@@ -1658,7 +1748,8 @@
         "url": "https://www.budget.gc.ca/2021/report-rapport/p2-en.html#21"
       }
     ],
-    "handle": "child-care"
+    "handle": "child-care",
+    "id": 91
   },
   {
     "topic": "education",
@@ -1675,13 +1766,14 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       },
-        {
-          "date": "2021-09-01",
-          "title": "Forward. For Everyone. — Permanently Eliminating Interest on Canada Student Loans",
-          "publisher": "Liberal Party of Canada",
-          "url": "https://liberal.ca/our-platform/permanently-eliminating-interest-on-canada-student-loans/"
-        }
-    ]
+      {
+        "date": "2021-09-01",
+        "title": "Forward. For Everyone. — Permanently Eliminating Interest on Canada Student Loans",
+        "publisher": "Liberal Party of Canada",
+        "url": "https://liberal.ca/our-platform/permanently-eliminating-interest-on-canada-student-loans/"
+      }
+    ],
+    "id": 92
   },
   {
     "topic": "education",
@@ -1698,7 +1790,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 93
   },
   {
     "topic": "education",
@@ -1715,7 +1808,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 94
   },
   {
     "topic": "education",
@@ -1732,7 +1826,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 95
   },
   {
     "topic": "infrastructure",
@@ -1749,7 +1844,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.budget.gc.ca/2021/report-rapport/toc-tdm-en.html"
       }
-    ]
+    ],
+    "id": 96
   },
   {
     "topic": "immigration",
@@ -1766,7 +1862,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2021/08/canada-expands-resettlement-program-to-bring-more-afghans-to-safety.html"
       }
-    ]
+    ],
+    "id": 97
   },
   {
     "topic": "civil-rights",
@@ -1789,7 +1886,8 @@
         "publisher": "@mikelecouteur (Global)",
         "url": "https://twitter.com/mikelecouteur/status/1430926853473284109"
       }
-    ]
+    ],
+    "id": 98
   },
   {
     "topic": "health-and-safety",
@@ -1806,7 +1904,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 99
   },
   {
     "topic": "health-and-safety",
@@ -1823,7 +1922,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 100
   },
   {
     "topic": "health-and-safety",
@@ -1840,7 +1940,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 101
   },
   {
     "topic": "social-assistance",
@@ -1857,7 +1958,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 102
   },
   {
     "topic": "social-assistance",
@@ -1874,7 +1976,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 103
   },
   {
     "topic": "international-trade",
@@ -1891,7 +1994,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 104
   },
   {
     "topic": "foreign-policy",
@@ -1908,7 +2012,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 105
   },
   {
     "topic": "indigenous-relations",
@@ -1938,7 +2043,8 @@
         "url": "https://globalnews.ca/news/8134332/otoole-plan-trc-indigenous/"
       }
     ],
-    "handle": "calls_to_action"
+    "handle": "calls_to_action",
+    "id": 106
   },
   {
     "topic": "indigenous-relations",
@@ -1955,7 +2061,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 107
   },
   {
     "topic": "indigenous-relations",
@@ -1972,7 +2079,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 108
   },
   {
     "topic": "arts-and-culture",
@@ -1989,7 +2097,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 109
   },
   {
     "topic": "arts-and-culture",
@@ -2006,7 +2115,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 110
   },
   {
     "topic": "immigration",
@@ -2023,7 +2133,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 111
   },
   {
     "topic": "immigration",
@@ -2040,7 +2151,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 112
   },
   {
     "topic": "immigration",
@@ -2057,7 +2169,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 113
   },
   {
     "topic": "immigration",
@@ -2074,7 +2187,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 114
   },
   {
     "topic": "immigration",
@@ -2091,7 +2205,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 115
   },
   {
     "topic": "immigration",
@@ -2108,7 +2223,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 116
   },
   {
     "topic": "economy",
@@ -2125,7 +2241,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 117
   },
   {
     "topic": "housing",
@@ -2142,7 +2259,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 118
   },
   {
     "topic": "housing",
@@ -2159,7 +2277,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 119
   },
   {
     "topic": "housing",
@@ -2176,7 +2295,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 120
   },
   {
     "topic": "housing",
@@ -2193,7 +2313,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 121
   },
   {
     "topic": "housing",
@@ -2210,7 +2331,8 @@
         "publisher": "CBC",
         "url": "https://www.cbc.ca/news/politics/trudeau-housing-plan-1.6151154"
       }
-    ]
+    ],
+    "id": 122
   },
   {
     "topic": "housing",
@@ -2227,7 +2349,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 123
   },
   {
     "topic": "government",
@@ -2244,7 +2367,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 124
   },
   {
     "topic": "government",
@@ -2261,7 +2385,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 125
   },
   {
     "topic": "government",
@@ -2278,7 +2403,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 126
   },
   {
     "topic": "government",
@@ -2295,7 +2421,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 127
   },
   {
     "topic": "health-and-safety",
@@ -2312,7 +2439,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 128
   },
   {
     "topic": "health-and-safety",
@@ -2329,7 +2457,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 129
   },
   {
     "topic": "health-and-safety",
@@ -2346,7 +2475,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 130
   },
   {
     "topic": "health-and-safety",
@@ -2363,7 +2493,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 131
   },
   {
     "topic": "health-and-safety",
@@ -2380,7 +2511,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 132
   },
   {
     "topic": "health-and-safety",
@@ -2397,7 +2529,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 133
   },
   {
     "topic": "health-and-safety",
@@ -2414,7 +2547,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 134
   },
   {
     "topic": "social-assistance",
@@ -2431,7 +2565,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 135
   },
   {
     "topic": "social-assistance",
@@ -2448,7 +2583,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 136
   },
   {
     "topic": "social-assistance",
@@ -2465,7 +2601,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 137
   },
   {
     "topic": "social-assistance",
@@ -2482,7 +2619,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 138
   },
   {
     "topic": "health-and-safety",
@@ -2499,7 +2637,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 139
   },
   {
     "topic": "social-assistance",
@@ -2516,7 +2655,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 140
   },
   {
     "topic": "social-assistance",
@@ -2533,7 +2673,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 141
   },
   {
     "topic": "health-and-safety",
@@ -2550,7 +2691,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 142
   },
   {
     "topic": "international-trade",
@@ -2567,7 +2709,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 143
   },
   {
     "topic": "international-trade",
@@ -2584,7 +2727,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 144
   },
   {
     "topic": "environment",
@@ -2601,7 +2745,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 145
   },
   {
     "topic": "environment",
@@ -2618,7 +2763,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 146
   },
   {
     "topic": "environment",
@@ -2636,7 +2782,8 @@
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
     ],
-    "handle": "recycling"
+    "handle": "recycling",
+    "id": 147
   },
   {
     "topic": "environment",
@@ -2653,7 +2800,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 148
   },
   {
     "topic": "environment",
@@ -2670,7 +2818,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 149
   },
   {
     "topic": "environment",
@@ -2687,7 +2836,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 150
   },
   {
     "topic": "environment",
@@ -2704,7 +2854,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 151
   },
   {
     "topic": "environment",
@@ -2721,7 +2872,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 152
   },
   {
     "topic": "environment",
@@ -2738,7 +2890,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 153
   },
   {
     "topic": "environment",
@@ -2755,7 +2908,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 154
   },
   {
     "topic": "environment",
@@ -2772,7 +2926,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 155
   },
   {
     "topic": "civil-rights",
@@ -2789,7 +2944,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 156
   },
   {
     "topic": "social-assistance",
@@ -2806,7 +2962,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 157
   },
   {
     "topic": "civil-rights",
@@ -2823,7 +2980,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 158
   },
   {
     "topic": "civil-rights",
@@ -2840,7 +2998,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 159
   },
   {
     "topic": "health-and-safety",
@@ -2857,7 +3016,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 160
   },
   {
     "topic": "health-and-safety",
@@ -2874,7 +3034,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 161
   },
   {
     "topic": "social-assistance",
@@ -2891,7 +3052,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 162
   },
   {
     "topic": "civil-rights",
@@ -2908,7 +3070,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 163
   },
   {
     "topic": "health-and-safety",
@@ -2925,7 +3088,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 164
   },
   {
     "topic": "health-and-safety",
@@ -2942,7 +3106,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 165
   },
   {
     "topic": "civil-rights",
@@ -2959,7 +3124,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 166
   },
   {
     "topic": "health-and-safety",
@@ -2976,7 +3142,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 167
   },
   {
     "topic": "civil-rights",
@@ -2993,7 +3160,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 168
   },
   {
     "topic": "health-and-safety",
@@ -3010,7 +3178,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 169
   },
   {
     "topic": "civil-rights",
@@ -3027,7 +3196,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 170
   },
   {
     "topic": "civil-rights",
@@ -3044,7 +3214,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 171
   },
   {
     "topic": "civil-rights",
@@ -3061,7 +3232,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 172
   },
   {
     "topic": "civil-rights",
@@ -3078,7 +3250,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 173
   },
   {
     "topic": "foreign-policy",
@@ -3095,7 +3268,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 174
   },
   {
     "topic": "foreign-policy",
@@ -3112,7 +3286,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 175
   },
   {
     "topic": "foreign-policy",
@@ -3129,7 +3304,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 176
   },
   {
     "topic": "indigenous-relations",
@@ -3146,7 +3322,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 177
   },
   {
     "topic": "indigenous-relations",
@@ -3163,7 +3340,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 178
   },
   {
     "topic": "indigenous-relations",
@@ -3180,7 +3358,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 179
   },
   {
     "topic": "indigenous-relations",
@@ -3197,7 +3376,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 180
   },
   {
     "topic": "indigenous-relations",
@@ -3214,7 +3394,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 181
   },
   {
     "topic": "child-care",
@@ -3231,7 +3412,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 182
   },
   {
     "topic": "education",
@@ -3248,7 +3430,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 183
   },
   {
     "topic": "education",
@@ -3266,7 +3449,8 @@
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
     ],
-    "handle": "student_loans"
+    "handle": "student_loans",
+    "id": 184
   },
   {
     "topic": "education",
@@ -3283,7 +3467,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 185
   },
   {
     "topic": "education",
@@ -3300,7 +3485,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 186
   },
   {
     "topic": "youth",
@@ -3317,7 +3503,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 187
   },
   {
     "topic": "youth",
@@ -3334,7 +3521,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 188
   },
   {
     "topic": "infrastructure",
@@ -3351,7 +3539,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 189
   },
   {
     "topic": "infrastructure",
@@ -3368,7 +3557,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 190
   },
   {
     "topic": "infrastructure",
@@ -3385,7 +3575,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 191
   },
   {
     "topic": "infrastructure",
@@ -3402,7 +3593,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 192
   },
   {
     "topic": "infrastructure",
@@ -3419,7 +3611,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 193
   },
   {
     "topic": "infrastructure",
@@ -3436,7 +3629,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 194
   },
   {
     "topic": "infrastructure",
@@ -3453,7 +3647,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 195
   },
   {
     "topic": "arts-and-culture",
@@ -3470,7 +3665,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 196
   },
   {
     "topic": "arts-and-culture",
@@ -3487,7 +3683,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 197
   },
   {
     "topic": "arts-and-culture",
@@ -3504,7 +3701,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 198
   },
   {
     "topic": "immigration",
@@ -3521,7 +3719,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 199
   },
   {
     "topic": "immigration",
@@ -3538,7 +3737,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 200
   },
   {
     "topic": "affordability",
@@ -3555,7 +3755,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 201
   },
   {
     "topic": "affordability",
@@ -3572,7 +3773,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 202
   },
   {
     "topic": "affordability",
@@ -3589,7 +3791,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 203
   },
   {
     "topic": "affordability",
@@ -3606,7 +3809,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 204
   },
   {
     "topic": "civil-rights",
@@ -3623,7 +3827,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 205
   },
   {
     "topic": "civil-rights",
@@ -3640,7 +3845,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/liberals-move-forward-to-end-plastic-pollution-and-reduce-waste/"
       }
-    ]
+    ],
+    "id": 206
   },
   {
     "topic": "affordability",
@@ -3657,7 +3863,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 207
   },
   {
     "topic": "housing",
@@ -3680,7 +3887,8 @@
         "publisher": "CTV News",
         "url": "https://www.ctvnews.ca/politics/federal-election-2021/singh-says-ndp-will-crack-down-on-renovictions-provide-up-to-5k-in-rent-help-1.5556192?utm_source=pocket_mylist"
       }
-    ]
+    ],
+    "id": 208
   },
   {
     "topic": "environment",
@@ -3697,7 +3905,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 209
   },
   {
     "topic": "environment",
@@ -3714,7 +3923,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 210
   },
   {
     "topic": "social-assistance",
@@ -3731,7 +3941,8 @@
         "publisher": "CTV News",
         "url": "https://www.ctvnews.ca/politics/federal-election-2021/liberals-will-hike-supplementary-pensions-for-low-income-seniors-trudeau-says-1.5562146"
       }
-    ]
+    ],
+    "id": 211
   },
   {
     "topic": "economy",
@@ -3749,7 +3960,8 @@
         "url": "https://www.cbc.ca/news/politics/trudeau-hike-taxes-banks-1.6152710"
       }
     ],
-    "handle": "corporate_tax_rate"
+    "handle": "corporate_tax_rate",
+    "id": 212
   },
   {
     "topic": "infrastructure",
@@ -3766,7 +3978,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 213
   },
   {
     "topic": "infrastructure",
@@ -3789,7 +4002,8 @@
         "publisher": "Government of Canada",
         "url": "https://www.canada.ca/en/department-finance/news/2021/08/government-welcomes-final-report-from-advisory-committee-on-open-banking.html"
       }
-    ]
+    ],
+    "id": 214
   },
   {
     "topic": "civil-rights",
@@ -3806,7 +4020,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 215
   },
   {
     "topic": "economy",
@@ -3823,7 +4038,8 @@
         "publisher": "Conservative Party of Canada",
         "url": "https://cpcassets.conservative.ca/wp-content/uploads/2021/08/16102359/f8279981721e07a.pdf"
       }
-    ]
+    ],
+    "id": 216
   },
   {
     "topic": "environment",
@@ -3840,7 +4056,8 @@
         "publisher": "New Democratic Party of Canada",
         "url": "http://xfer.ndp.ca/2021/Commitments/Ready%20for%20Better%20-%20NDP%202021%20commitments.pdf"
       }
-    ]
+    ],
+    "id": 217
   },
   {
     "topic": "health-and-safety",
@@ -3857,7 +4074,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/mandatory-vaccination/"
       }
-    ]
+    ],
+    "id": 218
   },
   {
     "topic": "health-and-safety",
@@ -3874,7 +4092,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/proof-of-vaccination/"
       }
-    ]
+    ],
+    "id": 219
   },
   {
     "topic": "health-and-safety",
@@ -3891,7 +4110,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/making-sure-every-canadian-has-access-to-a-family-doctor-or-primary-health-team/"
       }
-    ]
+    ],
+    "id": 220
   },
   {
     "topic": "health-and-safety",
@@ -3908,7 +4128,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/a-comprehensive-plan-for-mental-health-care-across-canada/"
       }
-    ]
+    ],
+    "id": 221
   },
   {
     "topic": "health-and-safety",
@@ -3937,7 +4158,8 @@
         "publisher": "BIV",
         "url": "https://biv.com/article/2021/08/trudeau-promises-9b-long-term-care-shortfalls-during-victoria-campaign-stop"
       }
-    ]
+    ],
+    "id": 222
   },
   {
     "topic": "education",
@@ -3954,7 +4176,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/support-for-teachers/"
       }
-    ]
+    ],
+    "id": 223
   },
   {
     "topic": "youth",
@@ -3971,7 +4194,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/school-nutrition-and-healthy-eating/"
       }
-    ]
+    ],
+    "id": 224
   },
   {
     "topic": "health-and-safety",
@@ -3988,7 +4212,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/school-nutrition-and-healthy-eating/"
       }
-    ]
+    ],
+    "id": 225
   },
   {
     "topic": "housing",
@@ -4005,7 +4230,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/a-more-flexible-first-time-home-buyer-incentive/"
       }
-    ]
+    ],
+    "id": 226
   },
   {
     "topic": "housing",
@@ -4022,7 +4248,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/reduce-your-monthly-mortgage-costs/"
       }
-    ]
+    ],
+    "id": 227
   },
   {
     "topic": "housing",
@@ -4039,7 +4266,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/convert-empty-office-space-into-housing/"
       }
-    ]
+    ],
+    "id": 228
   },
   {
     "topic": "housing",
@@ -4056,7 +4284,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/curb-speculation-and-house-flipping/"
       }
-    ]
+    ],
+    "id": 229
   },
   {
     "topic": "housing",
@@ -4073,7 +4302,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/keep-your-rent-fair/"
       }
-    ]
+    ],
+    "id": 230
   },
   {
     "topic": "government",
@@ -4090,7 +4320,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/protect-the-stability-and-security-of-the-housing-market/"
       }
-    ]
+    ],
+    "id": 231
   },
   {
     "topic": "child-care",
@@ -4107,7 +4338,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/more-support-for-caregivers/"
       }
-    ]
+    ],
+    "id": 232
   },
   {
     "topic": "affordability",
@@ -4124,7 +4356,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/giving-new-parents-a-break-on-student-loans/"
       }
-    ]
+    ],
+    "id": 233
   },
   {
     "topic": "government",
@@ -4141,7 +4374,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/a-1-800-number-to-help-seniors-access-government-support/"
       }
-    ]
+    ],
+    "id": 234
   },
   {
     "topic": "social-assistance",
@@ -4158,7 +4392,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/an-ei-system-that-works-for-everyone/"
       }
-    ]
+    ],
+    "id": 235
   },
   {
     "topic": "social-assistance",
@@ -4175,7 +4410,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/an-ei-system-that-works-for-everyone/"
       }
-    ]
+    ],
+    "id": 236
   },
   {
     "topic": "social-assistance",
@@ -4192,7 +4428,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/career-insurance-benefit/"
       }
-    ]
+    ],
+    "id": 237
   },
   {
     "topic": "affordability",
@@ -4209,7 +4446,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/extending-and-expanding-the-home-expense-deduction/"
       }
-    ]
+    ],
+    "id": 238
   },
   {
     "topic": "civil-rights",
@@ -4226,7 +4464,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/making-workplaces-fairer-for-everyone/"
       }
-    ]
+    ],
+    "id": 239
   },
   {
     "topic": "civil-rights",
@@ -4243,7 +4482,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/making-workplaces-fairer-for-everyone/"
       }
-    ]
+    ],
+    "id": 240
   },
   {
     "topic": "economy",
@@ -4260,7 +4500,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/making-it-easier-for-small-businesses-to-invest-and-grow/"
       }
-    ]
+    ],
+    "id": 241
   },
   {
     "topic": "science",
@@ -4277,7 +4518,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/a-new-advanced-research-agency/"
       }
-    ]
+    ],
+    "id": 242
   },
   {
     "topic": "arts-and-culture",
@@ -4294,7 +4536,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/helping-artists-and-cultural-industries-recover/"
       }
-    ]
+    ],
+    "id": 243
   },
   {
     "topic": "arts-and-culture",
@@ -4311,7 +4554,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/supporting-canadian-music-film-and-television/"
       }
-    ]
+    ],
+    "id": 244
   },
   {
     "topic": "arts-and-culture",
@@ -4328,7 +4572,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/levelling-the-playing-field-with-digital-giants/"
       }
-    ]
+    ],
+    "id": 245
   },
   {
     "topic": "arts-and-culture",
@@ -4345,7 +4590,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/modernizing-cbc-radio-canada/"
       }
-    ]
+    ],
+    "id": 246
   },
   {
     "topic": "immigration",
@@ -4362,7 +4608,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/securing-the-future-of-the-french-language-in-canada/"
       }
-    ]
+    ],
+    "id": 247
   },
   {
     "topic": "immigration",
@@ -4379,7 +4626,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/eliminating-citizenship-application-fees-for-permanent-residents/"
       }
-    ]
+    ],
+    "id": 248
   },
   {
     "topic": "immigration",
@@ -4396,7 +4644,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/strengthening-family-reunification-and-reducing-processing-times/"
       }
-    ]
+    ],
+    "id": 249
   },
   {
     "topic": "health-and-safety",
@@ -4413,7 +4662,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/ban-conversion-therapy/"
       }
-    ]
+    ],
+    "id": 250
   },
   {
     "topic": "social-assistance",
@@ -4430,7 +4680,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/introduce-a-disability-benefit/"
       }
-    ]
+    ],
+    "id": 251
   },
   {
     "topic": "environment",
@@ -4447,7 +4698,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/cutting-methane-emissions/"
       }
-    ]
+    ],
+    "id": 252
   },
   {
     "topic": "environment",
@@ -4464,7 +4716,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/eliminating-thermal-coal-exports/"
       }
-    ]
+    ],
+    "id": 253
   },
   {
     "topic": "environment",
@@ -4488,7 +4741,8 @@
         "url": "https://www.advisor.ca/news/industry-news/feds-plan-5-billion-green-bond-issue/"
       }
     ],
-    "handle": "green_bonds"
+    "handle": "green_bonds",
+    "id": 254
   },
   {
     "topic": "housing",
@@ -4505,7 +4759,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/protecting-our-homes-and-communities-from-the-impacts-of-climate-change/"
       }
-    ]
+    ],
+    "id": 255
   },
   {
     "topic": "environment",
@@ -4522,7 +4777,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/more-national-parks-and-marine-conservation-areas/"
       }
-    ]
+    ],
+    "id": 256
   },
   {
     "topic": "civil-rights",
@@ -4539,7 +4795,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/protecting-canadians-from-harmful-chemicals-and-advancing-environmental-justice/"
       }
-    ]
+    ],
+    "id": 257
   },
   {
     "topic": "health-and-safety",
@@ -4556,7 +4813,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/protecting-canadians-from-harmful-chemicals-and-advancing-environmental-justice/"
       }
-    ]
+    ],
+    "id": 258
   },
   {
     "topic": "science",
@@ -4573,7 +4831,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/protecting-animals/"
       }
-    ]
+    ],
+    "id": 259
   },
   {
     "topic": "indigenous-relations",
@@ -4590,7 +4849,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/helping-indigenous-businesses-grow/"
       }
-    ]
+    ],
+    "id": 260
   },
   {
     "topic": "government",
@@ -4607,7 +4867,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/making-sure-everyone-pays-their-fair-share/"
       }
-    ]
+    ],
+    "id": 261
   },
   {
     "topic": "environment",
@@ -4624,7 +4885,8 @@
         "publisher": "Liberal Party of Canada",
         "url": "https://liberal.ca/our-platform/making-sure-everyone-pays-their-fair-share/"
       }
-    ]
+    ],
+    "id": 262
   },
   {
     "topic": "health-and-safety",
@@ -4641,6 +4903,7 @@
         "publisher": "Global Nes",
         "url": "https://globalnews.ca/video/8167500/canada-election-singh-pledges-federal-dental-care-program-for-canadians"
       }
-    ]
+    ],
+    "id": 263
   }
 ]
