@@ -181,6 +181,7 @@
   .policyCell--party {
     align-self: flex-start;
     margin-bottom: 1rem;
+    font-weight: bold;
 
     &:first-of-type {
       margin-top: 0;
