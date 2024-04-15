@@ -118,7 +118,7 @@ body:has(dialog.policyModal--content[open]) {
   }
 }
 
-.modal--details {
+.html-content {
   font-size: 1.2rem;
   line-height: 1.3em;
 

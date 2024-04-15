@@ -181,6 +181,7 @@
 .policyTable .policyCell--party {
   align-self: flex-start;
   margin-bottom: 1rem;
+  font-weight: bold;
 }
 .policyTable .policyCell--party:first-of-type {
   margin-top: 0;
@@ -811,37 +812,37 @@ body:has(dialog.policyModal--content[open]) {
 .policyModal--reference .modal--heading.modal--heading__primary {
   font-size: 1.8rem;
 }
-.modal--details {
+.html-content {
   font-size: 1.2rem;
   line-height: 1.3em;
 }
-.modal--details li > p {
+.html-content li > p {
   margin: 0;
 }
-.modal--details p {
+.html-content p {
   flex: 0 1 520px;
 }
-.modal--details ul {
+.html-content ul {
   padding-left: 40px;
 }
-.modal--details blockquote {
+.html-content blockquote {
   color: #777;
   font-style: italic;
 }
-.modal--details h1,
-.modal--details h2,
-.modal--details h3,
-.modal--details h4,
-.modal--details h5,
-.modal--details h6 {
+.html-content h1,
+.html-content h2,
+.html-content h3,
+.html-content h4,
+.html-content h5,
+.html-content h6 {
   margin-bottom: 0.3em;
 }
-.modal--details h1,
-.modal--details h5,
-.modal--details h6 {
+.html-content h1,
+.html-content h5,
+.html-content h6 {
   text-transform: uppercase;
 }
-.modal--details h4 {
+.html-content h4 {
   font-style: italic;
 }
 .reference-modal--sidebar {

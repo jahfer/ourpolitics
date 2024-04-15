@@ -4,6 +4,16 @@ import { usePolicyModal } from 'contexts/policy-modal-context'
 import { useLanguage, useTranslation } from 'contexts/language-context';
 import { useURL } from 'contexts/router-context';
 import { Party } from 'types/schema';
+import { HTMLContainer, RawHTML } from 'components/system/html';
+import {
+  Card,
+  CardPrimaryContent,
+  CardAside,
+  CardBreadcrumb,
+  CardHeading,
+  HeadingLevel,
+  CardLinkList
+} from 'components/system/card';
 
 //@ts-ignore
 import { html as liberalPolicies2021 } from '../../policies/2021/lpc/*.md'
@@ -130,34 +140,24 @@ export default function PolicyModal () {
       className={`policyModal--content policyReferenceModal--content policyModal--${modalPolicy.party} ${policyModalVisible ? "policyModal--visible" : ""}`}
       aria-labelledby="policyDialog__label"
       aria-describedby="policyDialog__description">
-        <div className="policyModal policyModal--reference">
-          <div className="modal--content reference-modal--content">
+        <Card direction="column">
+          <CardPrimaryContent compact={true}>
             <a href="#" className="modal--close reference-modal--close" aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
-            <div className="modal--headingContainer">
-              <div className="modal--headingInfo">
-                <div className="modal--topicBox"> <p> {t(`topic.${modalPolicy.topic}`)} — {t(modalPolicy.party.toLowerCase())} </p> </div>
-              </div>
-            </div>
-            <h1
-              className="modal--heading modal--heading__primary"
-              dangerouslySetInnerHTML={{ __html: modalPolicy.title[language] }}
-            />
-          </div>
-          <div>
-            <aside className="modal--sidebar">
-              <section>
-                <h2 className="modal--heading modal--heading__secondary"> {t("modal.references")} </h2>
-                <ul className="reference--list list-plain">
-                  {(modalPolicy.references.map(ref =>
-                    <SidebarLink key={ref.url} url={ref.url} heading={ref.title} subheading={ref.publisher} />)) }
-                </ul>
-              </section>
-            </aside>
-          </div>
-        </div>
+            <CardBreadcrumb text={t(`topic.${modalPolicy.topic}`) + "—" + t(modalPolicy.party.toLowerCase())} />
+            <CardHeading level={HeadingLevel.H1} text={modalPolicy.title[language]} id="policyDialog__label" />
+            <HTMLContainer id="policyDialog__description">
+              <RawHTML html={content} />
+            </HTMLContainer>
+          </CardPrimaryContent>
+
+          <CardAside title={t("modal.references")}>
+            <CardLinkList links={modalPolicy.references.map(x => ({heading: x.title, subheading: x.publisher, ...x}))} />
+          </CardAside>
+        </Card>
       </dialog>
     )
   }
+
 
   return (
     <dialog
@@ -166,40 +166,21 @@ export default function PolicyModal () {
       className={`policyModal--content policyModal--${modalPolicy.party} ${policyModalVisible ? "policyModal--visible" : ""}`}
       aria-labelledby="policyDialog__label"
       aria-describedby="policyDialog__description">
-      <div className="policyModal">
 
-        <div className="modal--content">
+      <Card direction="row">
+        <CardPrimaryContent>
           <a href="#" className="modal--close" aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
-          <div className="modal--headingContainer">
-            <div className="modal--headingInfo">
-              <div className="modal--topicBox"> <p> {t(`topic.${modalPolicy.topic}`)} — {t(modalPolicy.party.toLowerCase())} </p> </div>
-            </div>
-          </div>
-          <h1
-            className="modal--heading modal--heading__primary"
-            dangerouslySetInnerHTML={{ __html: modalPolicy.title[language] }}
-            id="policyDialog__label"
-          />
-          <div id="policyDialog__description" className="modal--details">
-            <div dangerouslySetInnerHTML={{ __html: content }} />
-          </div>
-        </div>
+          <CardBreadcrumb text={t(`topic.${modalPolicy.topic}`) + "—" + t(modalPolicy.party.toLowerCase())} />
+          <CardHeading level={HeadingLevel.H1} text={modalPolicy.title[language]} id="policyDialog__label" />
+          <HTMLContainer id="policyDialog__description">
+            <RawHTML html={content} />
+          </HTMLContainer>
+        </CardPrimaryContent>
 
-        <aside className="modal--sidebar">
-          <section>
-            <h2 className="modal--heading modal--heading__secondary"> {t("modal.references")} </h2>
-            <ul className="reference--list">
-              {(modalPolicy.references.map(ref =>
-                <SidebarLink key={ref.url} url={ref.url} heading={ref.title} subheading={ref.publisher} />)) }
-            </ul>
-          </section>
-          {/* <div className="modal--randomize">
-            <a href="#" className="randomize-policy iconSuffix iconSuffix--random" onClick={e => e.preventDefault() }>
-              {t("modal.random_policy")}
-            </a>
-          </div> */}
-        </aside>
-      </div>
+        <CardAside title={t("modal.references")}>
+          <CardLinkList links={modalPolicy.references.map(x => ({heading: x.title, subheading: x.publisher, ...x}))} />
+        </CardAside>
+      </Card>
     </dialog>
   )
 }
