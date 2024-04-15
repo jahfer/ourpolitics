@@ -53,24 +53,6 @@ const policies: ((year: number) => Record<keyof typeof Party, Record<string, str
   }
 }
 
-interface SidebarLinkProps {
-  url: string,
-  heading: string,
-  subheading: string,
-}
-
-// todo: custom border colour?
-function SidebarLink ({ url, heading, subheading }: SidebarLinkProps) {
-  return (
-    <li className="sidebar-link">
-      <a target="_blank" href={url}>
-        <h2 className="sidebar-link--title"> {heading} </h2>
-        <div className="sidebar-link--meta"> {subheading} </div>
-      </a>
-    </li>
-  )
-}
-
 export default function PolicyModal () {
   const modalId = useId();
   const { modalPolicy, policyModalVisible } = usePolicyModal();
@@ -132,44 +114,26 @@ export default function PolicyModal () {
     );
   }
 
-  if (content === "") {
-    return (
-      <dialog
-      autoFocus={true}
-      id={modalId}
-      className={`policyModal--content policyReferenceModal--content policyModal--${modalPolicy.party} ${policyModalVisible ? "policyModal--visible" : ""}`}
-      aria-labelledby="policyDialog__label"
-      aria-describedby="policyDialog__description">
-        <Card direction="column">
-          <CardPrimaryContent compact={true}>
-            <a href="#" className="modal--close reference-modal--close" aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
-            <CardBreadcrumb text={t(`topic.${modalPolicy.topic}`) + "—" + t(modalPolicy.party.toLowerCase())} />
-            <CardHeading level={HeadingLevel.H1} text={modalPolicy.title[language]} id="policyDialog__label" />
-            <HTMLContainer id="policyDialog__description">
-              <RawHTML html={content} />
-            </HTMLContainer>
-          </CardPrimaryContent>
+  let dialogClass = `policyModal--content policyModal--${modalPolicy.party} ${policyModalVisible ? "policyModal--visible" : ""}`;
+  let modalCloseClass = "modal--close";
 
-          <CardAside title={t("modal.references")}>
-            <CardLinkList links={modalPolicy.references.map(x => ({heading: x.title, subheading: x.publisher, ...x}))} />
-          </CardAside>
-        </Card>
-      </dialog>
-    )
+  if (content === "") {
+    dialogClass += " policyReferenceModal--content"
+    modalCloseClass += " reference-modal--close"
   }
 
+  const modalCloseButton = <a href="#" className={modalCloseClass} aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
 
   return (
     <dialog
       autoFocus={true}
       id={modalId}
-      className={`policyModal--content policyModal--${modalPolicy.party} ${policyModalVisible ? "policyModal--visible" : ""}`}
+      className={dialogClass}
       aria-labelledby="policyDialog__label"
       aria-describedby="policyDialog__description">
-
-      <Card direction="row">
-        <CardPrimaryContent>
-          <a href="#" className="modal--close" aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
+      <Card direction={content === "" ? "column" : "row"}>
+        <CardPrimaryContent compact={!content}>
+          {modalCloseButton}
           <CardBreadcrumb text={t(`topic.${modalPolicy.topic}`) + "—" + t(modalPolicy.party.toLowerCase())} />
           <CardHeading level={HeadingLevel.H1} text={modalPolicy.title[language]} id="policyDialog__label" />
           <HTMLContainer id="policyDialog__description">
