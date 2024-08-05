@@ -93,6 +93,7 @@ export default function TopicSelector({ topics, onUpdate, title, className }: To
             return (
               <TopicOption
                 name={topic}
+                key={topic}
                 className="policyTable--filterBar--item policyTable--filterBar--topic"
                 checked={checked}
                 onToggle={() => updateSelections(new Map(topicSelections.set(topic, !checked)))} />

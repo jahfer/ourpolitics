@@ -1,5 +1,6 @@
 import * as React from 'react'
 import PolicyComparisonTable from 'components/policy_table/policy-comparison-table'
+import PolicyComparisonSummary from 'components/policy-comparison-summary'
 
 import Page from 'components/page'
 
@@ -15,6 +16,7 @@ export default function PolicyComparisonIndex (
   return (
     <Page title={year}>
       <section className="section">
+        {/* <PolicyComparisonSummary /> */}
         <PolicyComparisonTable year={year} selectedHandle={`${party}/${policyHandle}`} />
       </section>
     </Page>

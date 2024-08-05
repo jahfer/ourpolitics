@@ -85,8 +85,10 @@ export function Card({ direction, actions, children }: CardProps) {
   }
 
   return (
-    <div className={className}>
-      {children}
+    <div className="card">
+      <div className={className}>
+        {children}
+      </div>
     </div>
   )
 }

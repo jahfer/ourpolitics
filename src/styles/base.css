@@ -3,6 +3,7 @@
 @import 'styles';
 @import 'modal';
 @import 'typography';
+@import 'card';
 
 .textColor--NDP {
   color: var(--ndp-color);

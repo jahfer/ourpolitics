@@ -1,6 +1,5 @@
 import * as React from 'react'
 
-import ErrorIndex from 'components/pages/error-index'
 import PolicyComparisonIndex from 'components/pages/policy-comparison-index'
 import PrivacyPolicyIndex from 'components/pages/privacy-policy-index'
 import AboutIndex from 'components/pages/about-index'
