@@ -30,8 +30,8 @@
   <meta name="twitter:site" content="@OurPoliticsCA" />
   <meta name="twitter:creator" content="@jahfer" />
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <!-- <link rel="stylesheet" href="/src/style.css" /> -->
+  <link rel="preload" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></noscript>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
       }
     }
   </script>
-  <script data-goatcounter="https://ourpolitics.goatcounter.com/count" src="/src/count.js"></script>
+  <script data-goatcounter="https://ourpolitics.goatcounter.com/count" src="/count.js"></script>
   <script type="module" src="/src/root.tsx"></script>
 </body>
 
