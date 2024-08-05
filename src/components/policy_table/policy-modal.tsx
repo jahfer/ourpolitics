@@ -16,39 +16,39 @@ import {
 } from 'components/system/card';
 
 //@ts-ignore
-import { html as liberalPolicies2021 } from '../../policies/2021/lpc/*.md'
+import { html as liberalPolicies2021 } from 'virtual:mddir:../../policies/2021/lpc/*'
 //@ts-ignore
-import { html as ndpPolicies2021 } from '../../policies/2021/ndp/*.md'
+import { html as ndpPolicies2021 } from 'virtual:mddir:../../policies/2021/ndp/*'
 //@ts-ignore
-import { html as conservativePolicies2021 } from '../../policies/2021/cpc/*.md'
+import { html as conservativePolicies2021 } from 'virtual:mddir:../../policies/2021/cpc/*'
 //@ts-ignore
-import { html as liberalPolicies2015 } from '../../policies/2015/lpc_*.md'
+import { html as liberalPolicies2015 } from 'virtual:mddir:../../policies/2015/lpc_*'
 //@ts-ignore
-import { html as ndpPolicies2015 } from '../../policies/2015/ndp_*.md'
+import { html as ndpPolicies2015 } from 'virtual:mddir:../../policies/2015/ndp_*'
 //@ts-ignore
-import { html as conservativePolicies2015 } from '../../policies/2015/cpc_*.md'
+import { html as conservativePolicies2015 } from 'virtual:mddir:../../policies/2015/cpc_*'
 
 const policies: ((year: number) => Record<keyof typeof Party, Record<string, string>>) = (year) => {
   switch (year) {
     case 2015: return {
-      "Liberal": liberalPolicies2015,
-      "NDP": ndpPolicies2015,
-      "Conservative": conservativePolicies2015,
-      "Green": {},
+      [Party.Liberal]: liberalPolicies2015,
+      [Party.NDP]: ndpPolicies2015,
+      [Party.Conservative]: conservativePolicies2015,
+      [Party.Green]: {},
     }
 
     case 2021: return {
-      "Liberal": liberalPolicies2021,
-      "NDP": ndpPolicies2021,
-      "Conservative": conservativePolicies2021,
-      "Green": {},
+      [Party.Liberal]: liberalPolicies2021,
+      [Party.NDP]: ndpPolicies2021,
+      [Party.Conservative]: conservativePolicies2021,
+      [Party.Green]: {},
     }
 
     default: return {
-      "Liberal": {},
-      "NDP": {},
-      "Conservative": {},
-      "Green": {},
+      [Party.Liberal]: {},
+      [Party.NDP]: {},
+      [Party.Conservative]: {},
+      [Party.Green]: {},
     }
   }
 }
@@ -122,8 +122,6 @@ export default function PolicyModal () {
     modalCloseClass += " reference-modal--close"
   }
 
-  const modalCloseButton = <a href="#" className={modalCloseClass} aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
-
   return (
     <dialog
       autoFocus={true}
@@ -133,7 +131,7 @@ export default function PolicyModal () {
       aria-describedby="policyDialog__description">
       <Card direction={content === "" ? "column" : "row"}>
         <CardPrimaryContent compact={!content}>
-          {modalCloseButton}
+          <a href="#" className={modalCloseClass} aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
           <CardBreadcrumb text={t(`topic.${modalPolicy.topic}`) + "—" + t(modalPolicy.party.toLowerCase())} />
           <CardHeading level={HeadingLevel.H1} text={modalPolicy.title[language]} id="policyDialog__label" />
           <HTMLContainer id="policyDialog__description">

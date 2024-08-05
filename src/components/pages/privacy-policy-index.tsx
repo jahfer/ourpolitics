@@ -5,7 +5,7 @@ import { useLanguage, useTranslation } from 'contexts/language-context'
 import Page from 'components/page'
 
 // @ts-ignore
-import { html as PrivacyEN } from './content/privacy_index.en.md'
+import { html as PrivacyEN} from './content/privacy_index.en.md'
 // @ts-ignore
 import { html as PrivacyFR } from './content/privacy_index.fr.md'
 
