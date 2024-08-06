@@ -16,10 +16,7 @@ export default function Footer () {
               const path = `/policies/${year}`;
               return (
                 <li key={year}>
-                  <a href={path} className="styled" onClick={(event) => {
-                    setURL({}, path, {event_name: `${path} (redirect)`});
-                    event.preventDefault();
-                  }}>
+                  <a href={path} className="styled">
                     {t("policy_comparison_title", year)}
                   </a>
                 </li>

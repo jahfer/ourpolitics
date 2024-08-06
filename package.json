@@ -19,6 +19,7 @@
     "vite-tsconfig-paths": "^4.3.2"
   },
   "devDependencies": {
-    "fast-glob": "^3.3.1"
+    "fast-glob": "^3.3.1",
+    "terser": "^5.31.3"
   }
 }

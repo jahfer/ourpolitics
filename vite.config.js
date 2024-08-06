@@ -66,15 +66,21 @@ export default defineConfig({
     outDir: 'www/',
     rollupOptions: {
       output: {
-        entryFileNames: 'main.js',
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+        },
+        entryFileNames: 'assets/[name].[hash].js',
+        chunkFileNames: 'assets/[name].[hash].js',
+        assetFileNames: 'assets/[name].[hash].[ext]',
       },
     },
-    minify: 'esbuild', // Use esbuild for minification
-    sourcemap: false,
-    target: 'esnext', // Adjust based on browser support requirements
+    minify: 'terser',
+    sourcemap: 'hidden',
+    target: 'esnext',
+    compress: true,
   },
   define: {
     'window.IS_PRODUCTION': true,
   },
-  logLevel: 'debug',
+  logLevel: 'info',
 });
