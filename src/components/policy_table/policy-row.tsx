@@ -34,15 +34,15 @@ export default function PolicyRow ({ topic, parties, policies }: PolicyRowProps)
     <div className="policyRow divider-t">
     <div className="policyCells">
       <div className="policyCell policyTopic">
-        <a href="#" className="no-underline" onClick={handleClick}>
+        {/* <a href="#" className="no-underline" onClick={handleClick}> */}
           <h3
             aria-labelledby="policyTableColumn--topics"
             id={`policyTableRow--${topic}`}
             className="policyTopic--title">
-            {/* {t(`topic.${topic}`)} */}
-            <span className="policyTopic--info"><i className="fa fa-info-circle"></i> {t(`topic.${topic}`)}</span>
+            {t(`topic.${topic}`)}
+            {/* <span className="policyTopic--info"><i className="fa fa-info-circle"></i> {t(`topic.${topic}`)}</span> */}
           </h3>
-        </a>
+        {/* </a> */}
       </div>
       {policyCells}
     </div>
