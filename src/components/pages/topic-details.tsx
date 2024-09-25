@@ -4,6 +4,7 @@ import { useTranslation } from 'contexts/language-context';
 import * as Policy from 'data/policy';
 import * as Util from 'support/util';
 import PolicyCell from 'components/policy_table/policy-cell';
+import PolicyComparisonSummary from 'components/policy-comparison-summary';
 import {
   Card,
   CardPrimaryContent,
@@ -49,7 +50,8 @@ export default function TopicDetails ({ topic }: TopicDetailsParams) {
     <Page title={t(`topic.${topic}`)}>
       <section className="section">
         <article className="text-block text-large pb-3">
-          {policyCells}
+          <PolicyComparisonSummary topic={topic} />
+          {/* {policyCells} */}
           {/* <Card direction='column'>
             <CardPrimaryContent compact={true}>
               <CardBreadcrumb text="Breadcrumb" />
