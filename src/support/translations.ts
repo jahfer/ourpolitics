@@ -161,6 +161,14 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: `No topics selected. Try selecting a few by clicking on "Topics" above.`,
     FR: `Aucun sujet n'a été sélectionné. Essayez d'en sélectionner quelques-uns en cliquant sur "Sujets" ci-dessus.`
   },
+  "policy_comparison_summary": {
+    EN: "Policy comparison summary",
+    FR: "Résumé de la comparaison des politiques"
+  },
+  "view_full_comparison": {
+    EN: "Compare all topics",
+    FR: "Comparer tous les sujets"
+  }
 };
 
 export default translations;
