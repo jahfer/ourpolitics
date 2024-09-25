@@ -192,7 +192,15 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
   "guide.or": {
     EN: "or",
     FR: "ou"
-  }
+  },
+  "policy_comparison_summary": {
+    EN: "Policy comparison summary",
+    FR: "Résumé de la comparaison des politiques"
+  },
+  "view_full_comparison": {
+    EN: "Compare all topics",
+    FR: "Comparer tous les sujets"
+  },
 };
 
 export default translations;
