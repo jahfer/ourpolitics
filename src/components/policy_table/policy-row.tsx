@@ -31,7 +31,7 @@ export default function PolicyRow ({ topic, parties, policies }: PolicyRowProps)
   }
 
   return (
-    <div className="policyRow divider-t">
+    <div className="policyRow">
     <div className="policyCells">
       <div className="policyCell policyTopic">
         {/* <a href="#" className="no-underline" onClick={handleClick}> */}

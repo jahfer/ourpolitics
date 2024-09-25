@@ -2,12 +2,13 @@ import * as React from 'react'
 
 interface HTMLContainerProps {
   id?: string,
-  children: React.ReactNode;
+  children: React.ReactNode,
+  className?: string
 }
 
-export function HTMLContainer ({ id, children }: HTMLContainerProps) {
+export function HTMLContainer ({ id, children, className = "" }: HTMLContainerProps) {
   return (
-    <div id={id} className="html-content">
+    <div id={id} className={`html-content ${className}`}>
       {children}
     </div>
   )

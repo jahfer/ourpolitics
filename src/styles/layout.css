@@ -110,9 +110,17 @@
 .policyTable {
   display: flex;
   flex-flow: column nowrap;
+  gap: 1rem;
 
   a {
     color: inherit;
+  }
+
+  .policyRows {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
   }
 
   .policyRow {
@@ -122,7 +130,7 @@
     flex: 1 0 auto;
 
     &.tableHeader, &.tableFiller {
-      margin-bottom: 0;
+      margin-bottom: 0.3rem;
       display: none;
     }
   }
@@ -159,6 +167,7 @@
     display: flex;
     flex: 1 0 auto;
     flex-flow: column nowrap;
+    padding: 0 1rem;
   }
 
   .policyCell {
@@ -275,7 +284,7 @@
 }
 
 .policyTable--filterBar--topic:hover {
-  background-color: #f2f2f2;
+  background-color: var(--color-cream);
 }
 
 .clearfix::after {
@@ -351,6 +360,7 @@
 
     .policyCells {
       flex-direction: row;
+      padding: 0;
     }
 
     .policyCell {

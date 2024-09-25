@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: var(--color-cream-light);
+  background-color: var(--color-cream);
   color: #303030;
   font-family: 'Causten Round', sans-serif;
   line-height: 1.3em;
@@ -60,13 +60,13 @@ a {
   border-top: 1px solid #DCDCD5;
 }
 
-.bg-light-alt {
-  background-color: #e8e8df;
+.bg-dark-alt {
+  background-color: var(--color-cream-dark);
   color: #4C4C42;
   a {
     color: #57574C;
     &:hover {
-      background: #fff;
+      background: var(--color-cream);
     }
   }
 }
@@ -103,8 +103,13 @@ a {
   font-size: 0.9em;
 }
 
-.policyRow:first-of-type {
-  border: none;
+.policyRow:not(.tableHeader) {
+  border: 1px solid var(--color-cream-dark);
+  border-bottom: 1px solid var(--color-cream-darker);
+  padding: 1rem 0;
+  background: linear-gradient(to top, #faf6f1, #f9f5f0);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .policyCell--points {
@@ -247,7 +252,7 @@ a {
 }
 
 .emptyPolicy {
-  color: #999;
+  color: var(--color-cream-darkest);
   font-style: italic;
 }
 

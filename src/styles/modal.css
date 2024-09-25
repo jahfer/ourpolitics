@@ -48,6 +48,10 @@ body:has(dialog.policyModal--content[open]) {
   &.reference-modal--content {
     flex: 0;
   }
+
+  & .modal--heading {
+    margin-left: 10px;
+  }
 }
 
 .modal--headingInfo {
@@ -55,8 +59,8 @@ body:has(dialog.policyModal--content[open]) {
   flex: 1;
   flex-flow: row wrap;
   justify-content: space-between;
-  /* border: 1px solid #ccc; */
-  background-color: #eaeae0;
+  border: 1px solid var(--color-cream-dark);
+  background-color: var(--color-cream);
   border-radius: 4px;
   padding: 5px 10px;
   margin-right: 40px;
@@ -76,7 +80,7 @@ body:has(dialog.policyModal--content[open]) {
 }
 
 .modal--heading {
-    line-height: 1em;
+  line-height: 1em;
     /* text-wrap: balance; */
 
   &.modal--heading__primary {
@@ -93,6 +97,10 @@ body:has(dialog.policyModal--content[open]) {
 
 .modal--heading__primary:last-child {
   margin-bottom: 25px;
+}
+
+.policyModal--description {
+  margin-left: 10px;
 }
 
 .policyModal--Liberal::backdrop {
@@ -159,6 +167,7 @@ body:has(dialog.policyModal--content[open]) {
   display: flex;
   flex-direction: column;
   padding-bottom: 10px;
+  margin-left: 10px;
 
   a {
     text-decoration: none;
@@ -339,6 +348,7 @@ body:has(dialog.policyModal--content[open]) {
     background: #303030;
     color: #fff;
     padding-top: 21px;
+    margin-left: 0;
 
     a {
       color: #fff;

@@ -81,9 +81,6 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
 
   return (
     <PolicyModalProvider>
-      {/* <Banner>
-        <div dangerouslySetInnerHTML={{ __html: t("election_notice") }} />
-      </Banner> */}
       {
         (isLoading || !tableDataset || !parties) ?
         (

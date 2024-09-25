@@ -6,8 +6,10 @@
 
   --color-light-grey: #aaaaaa;
   --dark-grey: #333;
-  --color-cream: #f9f9f1;
-  --color-cream-light: #fffff9;
-
+  --color-cream: #efe8df;
+  --color-cream-light: #f9f5f0;
+  --color-cream-dark: #d7cfc4;
+  --color-cream-darker: #bdb5a9;
+  --color-cream-darkest: #57534c;
   --gutter-width: 20px;
 }

@@ -78,9 +78,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
         <div className="policyCells">
-          <div id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty">
-            <TopicSelector title={t("topics")} topics={topics} onUpdate={(selections) => setTopicSelections(selections)} />
-          </div>
+          <TopicSelector id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty" title={t("topics")} topics={topics} onUpdate={(selections) => setTopicSelections(selections)} />
           {
             sortedParties.map((party) => {
               return (
@@ -101,7 +99,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
         topics={topics}
         className="policyTable--mobileFilter"
         onUpdate={(selections) => setTopicSelections(selections)} />
-      <div>
+      <div className="policyRows">
         {
           (policyRows.length == 0)
           ? <div className="policyTable--empty">{t("no_topics_selected")}</div>

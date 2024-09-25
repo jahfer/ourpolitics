@@ -7,7 +7,7 @@ export default function Footer () {
   const { setURL } = useURL();
 
   return (
-    <footer className="section bg-light-alt footer pb-1">
+    <footer className="section bg-dark-alt footer pb-1">
       <div className="container">
         <h2 className="subheading"> {t("archives")} </h2>
         <ul className="list-plain text-large archive-list">
@@ -16,7 +16,11 @@ export default function Footer () {
               const path = `/policies/${year}`;
               return (
                 <li key={year}>
-                  <a href={path} className="styled">
+                  <a href={path} className="styled" onClick={(event) => {
+                    setURL({}, path);
+                    event.preventDefault();
+                    return false;
+                  }}>
                     {t("policy_comparison_title", year)}
                   </a>
                 </li>

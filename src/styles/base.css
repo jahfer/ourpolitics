@@ -35,5 +35,5 @@
   background-color: var(--dark-grey);
 }
 .backgroundColor--Skeleton {
-  background-color: #ddddd5;
+  background-color: var(--color-cream-darker);
 }

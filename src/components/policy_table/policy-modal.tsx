@@ -134,7 +134,7 @@ export default function PolicyModal () {
           <a href="#" className={modalCloseClass} aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
           <CardBreadcrumb text={t(`topic.${modalPolicy.topic}`) + "—" + t(modalPolicy.party.toLowerCase())} />
           <CardHeading level={HeadingLevel.H1} text={modalPolicy.title[language]} id="policyDialog__label" />
-          <HTMLContainer id="policyDialog__description">
+          <HTMLContainer id="policyDialog__description" className="policyModal--description">
             <RawHTML html={content} />
           </HTMLContainer>
         </CardPrimaryContent>

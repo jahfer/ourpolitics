@@ -26,10 +26,11 @@ interface TopicSelectorProps {
   topics: Array<string>,
   title: string,
   className?: string,
+  id?: string,
   onUpdate: (selections: Map<string, boolean>) => void,
 }
 
-export default function TopicSelector({ topics, onUpdate, title, className }: TopicSelectorProps) {
+export default function TopicSelector({ topics, onUpdate, title, id = "", className = "" }: TopicSelectorProps) {
   const { t } = useTranslation();
   const [topicFilterState, setTopicFilterState] = useState(() => false);
   const [topicSelections, setTopicSelections] = React.useState(() => {
@@ -69,6 +70,7 @@ export default function TopicSelector({ topics, onUpdate, title, className }: To
       tabIndex={0}
       onClick={handleClick}
       onKeyDown={handleEnterAsClick}
+      id={id}
       className={`${className} ${(topicFilterState ? "topicSelector--open" : "topicSelector--closed")}`}>
       {title}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
       <ul className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
