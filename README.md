@@ -9,18 +9,14 @@ Elections matter, but understanding headlines and press releases takes a lot of 
 ### Run Project
 
 ```sh
-npm install
-node serve.mjs
+$ npm run serve
 ```
-
-### Run Project with Server
-
-To run with the development server run `node serve.mjs` and view in the browser at http://localhost:8000. Running in this environment provides hot reloading and support for routing; just edit and save the file and the browser will automatically refresh.
 
 ### Build for Production
 
 ```sh
-node build.mjs
+$ npm run build
+$ npm run preview
 ```
 
 This will replace the development artifacts in `www/` for optimized versions. You can then deploy the contents of the `www/` directory.

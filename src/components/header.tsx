@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { useLanguage, useTranslation } from 'contexts/language-context'
 import { LanguageOption } from 'types/schema';
+import { Link } from './system/link';
 
 function LanguageSelector () {
   const { language, setLanguage } = useLanguage();
@@ -37,9 +38,9 @@ export default function Header ({ subheading }: HeaderProps) {
       <div className="header">
         <LanguageSelector />
         <hgroup className="headings flex">
-          <a href="/" className="no-hover">
+          <Link to="/" className="no-hover">
             <h1 className={`pageTitle lang-${language}`}> {t("our_politics")} </h1>
-          </a>
+          </Link>
           {
             subheading ?
               <h2 className="pageSubTitle">{subheading}</h2>

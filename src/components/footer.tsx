@@ -1,10 +1,9 @@
 import * as React from 'react'
 import { useTranslation } from 'contexts/language-context';
-import { useURL } from 'contexts/router-context';
+import { Link } from './system/link';
 
 export default function Footer () {
   const { t } = useTranslation();
-  const { setURL } = useURL();
 
   return (
     <footer className="section bg-dark-alt footer pb-1">
@@ -16,26 +15,22 @@ export default function Footer () {
               const path = `/policies/${year}`;
               return (
                 <li key={year}>
-                  <a href={path} className="styled" onClick={(event) => {
-                    setURL({}, path);
-                    event.preventDefault();
-                    return false;
-                  }}>
+                  <Link to={path} className="styled">
                     {t("policy_comparison_title", year)}
-                  </a>
+                  </Link>
                 </li>
               )
             })
           }
         </ul>
         <p>
-          <a href="/about" className="styled">
+          <Link to="/about" className="styled">
             {t("about")}
-          </a>
+          </Link>
           ·
-          <a href="/privacy" className="styled">
+          <Link to="/privacy" className="styled">
             {t("privacy_policy")}
-          </a>
+          </Link>
         </p>
       </div>
     </footer>
