@@ -646,7 +646,7 @@
     ]
   },
   {
-    "topic": "child-care",
+    "topic": "youth_child-care",
     "year": 2021,
     "party": "Conservative",
     "title": {
@@ -1643,7 +1643,7 @@
     ]
   },
   {
-    "topic": "child-care",
+    "topic": "youth_child-care",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -3217,7 +3217,7 @@
     ]
   },
   {
-    "topic": "child-care",
+    "topic": "youth_child-care",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3303,7 +3303,7 @@
     ]
   },
   {
-    "topic": "youth",
+    "topic": "youth_child-care",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3320,7 +3320,7 @@
     ]
   },
   {
-    "topic": "youth",
+    "topic": "youth_child-care",
     "year": 2021,
     "party": "NDP",
     "title": {
@@ -3957,7 +3957,7 @@
     ]
   },
   {
-    "topic": "youth",
+    "topic": "youth_child-care",
     "year": 2021,
     "party": "Liberal",
     "title": {
@@ -4093,7 +4093,7 @@
     ]
   },
   {
-    "topic": "child-care",
+    "topic": "youth_child-care",
     "year": 2021,
     "party": "Liberal",
     "title": {

@@ -90,7 +90,7 @@
     "handle": "ndp_tfsa"
   },
   {
-    "topic": "child-care",
+    "topic": "youth_child-care",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -114,7 +114,7 @@
     "handle": "ndp_daycare"
   },
   {
-    "topic": "child-care",
+    "topic": "youth_child-care",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -143,7 +143,7 @@
     "handle": "ndp_uccb"
   },
   {
-    "topic": "child-care",
+    "topic": "youth_child-care",
     "year": 2015,
     "party": "Conservative",
     "title": {
@@ -166,7 +166,7 @@
     "handle": "cpc_uccb"
   },
   {
-    "topic": "child-care",
+    "topic": "youth_child-care",
     "year": 2015,
     "party": "Liberal",
     "title": {
@@ -1706,7 +1706,7 @@
     "handle": "lpc_seniors_income_splitting"
   },
   {
-    "topic": "youth",
+    "topic": "youth_child-care",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1724,7 +1724,7 @@
     "handle": "ndp_student_loans"
   },
   {
-    "topic": "youth",
+    "topic": "youth_child-care",
     "year": 2015,
     "party": "NDP",
     "title": {
@@ -1748,7 +1748,7 @@
     "handle": "ndp_internships"
   },
   {
-    "topic": "youth",
+    "topic": "youth_child-care",
     "year": 2015,
     "party": "Liberal",
     "title": {

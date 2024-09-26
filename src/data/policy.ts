@@ -41,5 +41,5 @@ export function toDataset(policies: Array<T>): Map<string, Array<T>> {
 }
 
 export function topicsInDataset(dataset: Map<string, Array<T>>): Array<string> {
-  return Array.from(dataset.keys());
+  return Array.from(dataset.keys()).sort((a, b) => a.localeCompare(b));
 }

@@ -81,17 +81,13 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Science",
     FR: `Science`,
   },
-  "topic.child-care": {
-    EN: "Child Care",
-    FR: `Soin des enfants`,
-  },
   "topic.social-assistance": {
     EN: "Financial Support",
     FR: `Soutien financier`,
   },
-  "topic.youth": {
-    EN: "Youth",
-    FR: `Jeunesse`,
+  "topic.youth_child-care": {
+    EN: "Youth & Child Care",
+    FR: `Jeunesse et soin des enfants`,
   },
   "topic.senate": {
     EN: "Senate",
