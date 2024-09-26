@@ -4,6 +4,7 @@ import PolicyComparisonIndex from 'components/pages/policy-comparison-index'
 import PrivacyPolicyIndex from 'components/pages/privacy-policy-index'
 import AboutIndex from 'components/pages/about-index'
 import TopicDetails from 'components/pages/topic-details'
+import GuidedPolicyIndex from 'components/pages/guided-policy-index'
 
 import { LanguageProvider } from 'contexts/language-context'
 import { RouterProvider, route } from 'contexts/router-context'
@@ -24,6 +25,8 @@ const routes = [
 
   route("/topics/:topic", (topic) =>
     <TopicDetails topic={topic} />),
+
+  route("/guide", () => <GuidedPolicyIndex year="2021" />),
 
   route("/about", () =>
     <AboutIndex />),

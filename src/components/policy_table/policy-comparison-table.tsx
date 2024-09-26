@@ -48,11 +48,9 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
     let ignore = false;
 
     async function fetchPolicies() {
-      const response = await fetch(`/data/policies/${year}/policies.json`);
-      const policies: Array<Policy.T> = await response.json();
+      const policies = await Policy.byYear(year);
 
       if (!ignore) {
-        let dataset = new Map<string, Array<Policy.T>>();
         let parties = new Set<Party>();
         let policiesByHandle = new Map<string, Policy.T>();
 
@@ -62,13 +60,9 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
           }
 
           parties.add(policy.party);
-          if (dataset.has(policy.topic)) {
-            dataset.get(policy.topic)?.push(policy);
-          } else {
-            dataset.set(policy.topic, [policy]);
-          }
         });
-        setTableDataset(dataset);
+
+        setTableDataset(Policy.toDataset(policies));
         setParties(parties);
         setPoliciesByHandle(policiesByHandle);
         setIsLoading(false);

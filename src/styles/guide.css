@@ -1,0 +1,43 @@
+.guide {
+  max-width: 800px;
+  text-align: center;
+}
+
+.guide--topic-selector {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.guide--topic-selector-item {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-cream);
+  border: 2px solid var(--color-cream-dark);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.guide--topic-selector-item label {
+  cursor: pointer;
+}
+
+.guide--topic-selector-item input {
+  /* position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; */
+  margin-left: 10px;
+}
+
+.guide--topic-selector-item-checked {
+  border-color: var(--color-cream-darker);
+  background-color: var(--color-cream-light);
+  color: var(--color-cream-darkest);
+}

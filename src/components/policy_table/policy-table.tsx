@@ -4,11 +4,11 @@ import { useTranslation } from 'contexts/language-context'
 import PolicyRow from './policy-row'
 import TopicSelector from './topic-selector'
 import { Party } from 'types/schema'
-import { T as Policy } from 'data/policy'
+import * as Policy from 'data/policy'
 import * as Util from 'support/util'
 
 interface PolicyTableProps {
-  dataset: Map<string, Array<Policy>>;
+  dataset: Map<string, Array<Policy.T>>;
   parties: Set<Party>;
 }
 
@@ -17,10 +17,12 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
 
   const sortedParties = React.useMemo(() => Util.shuffle(Array.from(parties)), [parties]);
-  const topics = React.useMemo(() => Array.from(dataset.keys()), [dataset]);
-  const [topicSelections, setTopicSelections] = React.useState(() => {
-    return new Map(topics.map((topic) => [topic, true]))
-  });
+  const topics = React.useMemo(() => Policy.topicsInDataset(dataset), [dataset]);
+  const [topicSelections, setTopicSelections] = React.useState<Map<string, boolean>>(new Map());
+
+  React.useMemo(() => {
+    setTopicSelections(new Map(topics.map((topic) => [topic, true])));
+  }, [topics]);
 
   let elTop = 0;
 
@@ -78,7 +80,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
         <div className="policyCells">
-          <TopicSelector id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty" title={t("topics")} topics={topics} onUpdate={(selections) => setTopicSelections(selections)} />
+          <TopicSelector key={`topicSelector--${topics}`} id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty" title={t("topics")} topics={topics} onUpdate={(selections) => setTopicSelections(selections)} />
           {
             sortedParties.map((party) => {
               return (
@@ -95,6 +97,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
       </div>
       <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
       <TopicSelector
+        key={`topicSelector--${topics}`}
         title={t("topics")}
         topics={topics}
         className="policyTable--mobileFilter"

@@ -130,7 +130,7 @@
     flex: 1 0 auto;
 
     &.tableHeader, &.tableFiller {
-      margin-bottom: 0.3rem;
+      margin-bottom: 0;
       display: none;
     }
   }
@@ -236,7 +236,7 @@
   margin: 0;
   font-size: 1rem;
   text-align: left;
-  background: var(--color-cream-light);
+  background: #fff;
   border: 2px solid var(--dark-grey);
   border-top: none;
   width: 100%;
@@ -284,7 +284,7 @@
 }
 
 .policyTable--filterBar--topic:hover {
-  background-color: var(--color-cream);
+  background-color: var(--color-cream-light);
 }
 
 .clearfix::after {

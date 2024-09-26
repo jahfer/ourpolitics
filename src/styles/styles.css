@@ -109,7 +109,7 @@ a {
   padding: 1rem 0;
   background: linear-gradient(to top, #faf6f1, #f9f5f0);
   border-radius: 0.5rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
 }
 
 .policyCell--points {
@@ -120,6 +120,7 @@ a {
 
 .policyCell {
   padding: 5px;
+  padding-right: 1rem;
   font-size: 1.2rem;
   line-height: 1.3em;
 
@@ -191,7 +192,7 @@ a {
     padding: 0;
     border-bottom: none;
     margin-bottom: 10px;
-    height: 50px;
+    height: 50px; /* Needed for fixed header */
   }
 
   &.fixed {
