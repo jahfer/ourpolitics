@@ -5,7 +5,7 @@ import * as Policy from 'data/policy'
 import { handleEnterAsClick } from 'support/util'
 import { Button } from 'components/system/button'
 import { useURL } from 'contexts/router-context'
-
+import { setItem } from 'data/storage'
 import '../../styles/guide.css'
 import { Link } from 'components/system/link'
 
@@ -75,11 +75,15 @@ export default function GuidedPolicyIndex (
                 .filter(([_topic, checked]) => checked)
                 .map(([topic, _checked]) => topic);
               Policy.saveSelectedTopics(year, selectedTopics);
+              setItem("has-visited-guide", true, "local");
               setURL({}, '/policies/2021');
             }}>
               {t("guide.lets_go")}&nbsp;<span style={{fontFamily: "system-ui"}}>&rarr;</span>
             </Button><p> {t("guide.or")} <Link to="/policies/2021"
-                                          onClick={() => Policy.resetSelectedTopics(year)}>{t("guide.see_all_policies")}</Link></p>
+                                          onClick={() => {
+                                            setItem("has-visited-guide", true, "local");
+                                            Policy.resetSelectedTopics(year)
+                                          }}>{t("guide.see_all_policies")}</Link></p>
           </div>
         </div>
       </section>

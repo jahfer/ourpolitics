@@ -12,14 +12,15 @@ import { RouterProvider, route } from 'contexts/router-context'
 import { LanguageOption } from 'types/schema'
 import Redirect from 'components/redirect'
 import { useAnalytics } from 'support/analytics'
-import * as Policy from 'data/policy'
+import { getItem } from 'data/storage'
 
 const routes = [
   route("/", () => {
-    const topics = Policy.loadSelectedTopics("2021");
-    if (topics.length > 0) {
+    console.log("has visited guide", getItem("has-visited-guide", false, "local"));
+    if (getItem("has-visited-guide", false, "local")) {
       return <Redirect to="/policies/2021" />
     }
+
     return <Redirect to="/guide" />
   }),
 

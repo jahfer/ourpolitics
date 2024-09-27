@@ -1,5 +1,14 @@
-export function getItem<T>(key: string, defaultValue: T): T {
-  const storedValue = sessionStorage.getItem(key);
+// Define a type for the storage options
+type StorageType = 'session' | 'local';
+
+// Helper function to get the correct storage object
+function getStorage(type: StorageType): Storage {
+  return type === 'session' ? sessionStorage : localStorage;
+}
+
+export function getItem<T>(key: string, defaultValue: T, storageType: StorageType = 'session'): T {
+  const storage = getStorage(storageType);
+  const storedValue = storage.getItem(key);
   if (storedValue === null) {
     return defaultValue;
   }
@@ -10,14 +19,17 @@ export function getItem<T>(key: string, defaultValue: T): T {
   }
 }
 
-export function setItem<T>(key: string, value: T): void {
-  sessionStorage.setItem(key, JSON.stringify(value));
+export function setItem<T>(key: string, value: T, storageType: StorageType = 'session'): void {
+  const storage = getStorage(storageType);
+  storage.setItem(key, JSON.stringify(value));
 }
 
-export function removeItem(key: string): void {
-  sessionStorage.removeItem(key);
+export function removeItem(key: string, storageType: StorageType = 'session'): void {
+  const storage = getStorage(storageType);
+  storage.removeItem(key);
 }
 
-export function clearStorage(): void {
-  sessionStorage.clear();
+export function clearStorage(storageType: StorageType = 'session'): void {
+  const storage = getStorage(storageType);
+  storage.clear();
 }

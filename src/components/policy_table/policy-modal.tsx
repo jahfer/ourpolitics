@@ -106,7 +106,6 @@ export default function PolicyModal () {
     if (modalPolicy?.handle) {
       const handle = `${modalPolicy.handle}_${language}`;
       html = policies(modalPolicy.year)[modalPolicy.party][handle];
-      console.log(handle, html);
     }
     setContent(html || "")
   }, [modalPolicy, language]);
