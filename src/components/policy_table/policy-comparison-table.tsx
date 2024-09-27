@@ -81,7 +81,7 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
           <div className="policyCell partyTitle backgroundColor--Skeleton">
             ...
           </div>
-        ) : <PolicyTable dataset={tableDataset} parties={parties} />
+        ) : <PolicyTable dataset={tableDataset} parties={parties} year={year} />
       }
       <footer>
         <p className="footerInfo" />

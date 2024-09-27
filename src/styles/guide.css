@@ -1,6 +1,12 @@
 .guide {
   max-width: 800px;
   text-align: center;
+  padding: 1rem 0;
+}
+
+.guide h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .guide--topic-selector {
@@ -9,6 +15,7 @@
   flex-flow: row wrap;
   gap: 10px;
   justify-content: center;
+  padding: 10px 0;
 }
 
 .guide--topic-selector-item {
@@ -21,6 +28,10 @@
   font-size: 1rem;
   cursor: pointer;
   user-select: none;
+
+  &:hover {
+    border-color: var(--color-cream-darker);
+  }
 }
 
 .guide--topic-selector-item label {
@@ -39,5 +50,4 @@
 .guide--topic-selector-item-checked {
   border-color: var(--color-cream-darker);
   background-color: var(--color-cream-light);
-  color: var(--color-cream-darkest);
 }

@@ -5,17 +5,23 @@ interface LinkProps {
   to: string
   className?: string
   children: React.ReactNode,
-  resetScroll?: boolean
+  resetScroll?: boolean,
+  onClick?: () => void
 }
 
-export function Link({ to, children, className = "", resetScroll = true }: LinkProps) {
+export function Link({ to, children, className = "", resetScroll = true, onClick }: LinkProps) {
   const { setURL } = useURL()
 
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     setURL({}, to);
+
     if (resetScroll) {
       window.scrollTo(0, 0);
+    }
+
+    if (onClick) {
+      onClick();
     }
   }
 

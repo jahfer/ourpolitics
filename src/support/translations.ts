@@ -157,6 +157,18 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: `No topics selected. Try selecting a few by clicking on "Topics" above.`,
     FR: `Aucun sujet n'a été sélectionné. Essayez d'en sélectionner quelques-uns en cliquant sur "Sujets" ci-dessus.`
   },
+  "guide.whats_important_to_you": {
+    EN: "What's important to you?",
+    FR: "Qu'est-ce qui est important pour vous?"
+  },
+  "guide.lets_go": {
+    EN: "Let's go",
+    FR: "Allons-y"
+  },
+  "guide.title": (year: number) => ({
+    EN: `${year} Guide`,
+    FR: `Guide ${year}`
+  }),
 };
 
 export default translations;

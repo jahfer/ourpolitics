@@ -184,7 +184,7 @@ body:has(dialog.policyModal--content[open]) {
 
 .modal--close, .reference-modal--close {
   &::before {
-    color: #ffbd00;
+    color: var(--color-yellow);
   }
 
   &:hover::before {
@@ -256,11 +256,11 @@ body:has(dialog.policyModal--content[open]) {
   background: #222;
 
   &:hover {
-    border-color: #ffbd00 !important;
+    border-color: var(--color-yellow) !important;
   }
 
   &::after {
-    color: #ffbd00;
+    color: var(--color-yellow);
   }
 }
 
@@ -362,8 +362,8 @@ body:has(dialog.policyModal--content[open]) {
 
   .sidebar-link {
     &:hover, &:active {
-      border-color: #ffbd00;
-      background-color: #404040;
+      border-color: var(--color-yellow);
+      background-color: var(--color-charcoal-dark);
     }
   }
 
@@ -379,7 +379,7 @@ body:has(dialog.policyModal--content[open]) {
     }
 
     &:hover::before {
-      color: #ffbd00;
+      color: var(--color-yellow);
     }
   }
 
@@ -395,7 +395,7 @@ body:has(dialog.policyModal--content[open]) {
     top: 25px;
 
     &::before {
-      color: #ffbd00;
+      color: var(--color-yellow);
     }
 
     &:hover::before {

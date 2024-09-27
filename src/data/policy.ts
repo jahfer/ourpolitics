@@ -1,4 +1,5 @@
 import { Party, TranslationString } from "types/schema";
+import { setItem, getItem } from "./storage";
 
 export type ReferenceType = {
   date?: string,
@@ -42,4 +43,12 @@ export function toDataset(policies: Array<T>): Map<string, Array<T>> {
 
 export function topicsInDataset(dataset: Map<string, Array<T>>): Array<string> {
   return Array.from(dataset.keys()).sort((a, b) => a.localeCompare(b));
+}
+
+export function saveSelectedTopics(year: string, topics: Array<string>): void {
+  setItem(`selectedTopics:${year}`, topics);
+}
+
+export function loadSelectedTopics(year: string): Array<string> {
+  return getItem(`selectedTopics:${year}`, []);
 }

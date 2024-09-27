@@ -147,7 +147,7 @@
     position: sticky;
     top: 10px;
     height: 3rem;
-    background: var(--dark-grey);
+    background: var(--color-charcoal-darker);
     color: #fff;
     text-align: center;
     display: flex;
@@ -237,7 +237,7 @@
   font-size: 1rem;
   text-align: left;
   background: #fff;
-  border: 2px solid var(--dark-grey);
+  border: 2px solid var(--color-charcoal-darker);
   border-top: none;
   width: 100%;
   border-bottom-left-radius: 5px;

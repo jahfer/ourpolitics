@@ -15,9 +15,11 @@ function TopicOption({name, checked, className, onToggle}: TopicOptionProps) {
   const { t } = useTranslation();
 
   return (
-    <li key={`filterBar--${name}`} className={className} onKeyDown={handleEnterAsClick} onClick={(e) => onToggle()}>
-      {t(`topic.${name}`)}
-      <input checked={checked} readOnly type="checkbox" />
+    <li key={`filterBar--${name}`}>
+      <label className={className} onKeyDown={handleEnterAsClick}>
+        {t(`topic.${name}`)}
+        <input checked={checked} onChange={onToggle} type="checkbox" />
+      </label>
     </li>
   )
 }
@@ -28,14 +30,13 @@ interface TopicSelectorProps {
   className?: string,
   id?: string,
   onUpdate: (selections: Map<string, boolean>) => void,
+  selections: Map<string, boolean>,
 }
 
-export default function TopicSelector({ topics, onUpdate, title, id = "", className = "" }: TopicSelectorProps) {
+export default function TopicSelector({ topics, onUpdate, title, id = "", className = "", selections }: TopicSelectorProps) {
   const { t } = useTranslation();
   const [topicFilterState, setTopicFilterState] = useState(() => false);
-  const [topicSelections, setTopicSelections] = React.useState(() => {
-    return new Map(topics.map((topic) => [topic, true]))
-  });
+  const [topicSelections, setTopicSelections] = React.useState(selections);
 
   React.useEffect(() => {
     const handler = () => {

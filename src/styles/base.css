@@ -32,7 +32,7 @@
   background-color: var(--gpc-color);
 }
 .backgroundColor--Empty {
-  background-color: var(--dark-grey);
+  background-color: var(--color-charcoal-darker);
 }
 .backgroundColor--Skeleton {
   background-color: var(--color-cream-darker);

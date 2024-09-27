@@ -10,9 +10,10 @@ import * as Util from 'support/util'
 interface PolicyTableProps {
   dataset: Map<string, Array<Policy.T>>;
   parties: Set<Party>;
+  year: string;
 }
 
-export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
+export default function PolicyTable ({ dataset, parties, year }: PolicyTableProps) {
   const { t } = useTranslation();
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
 
@@ -21,8 +22,13 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
   const [topicSelections, setTopicSelections] = React.useState<Map<string, boolean>>(new Map());
 
   React.useMemo(() => {
-    setTopicSelections(new Map(topics.map((topic) => [topic, true])));
-  }, [topics]);
+    const selectedTopics = Policy.loadSelectedTopics(year);
+    if (selectedTopics.length > 0) {
+      setTopicSelections(new Map(topics.map((topic) => [topic, selectedTopics.includes(topic)])));
+    } else {
+      setTopicSelections(new Map(topics.map((topic) => [topic, true])));
+    }
+  }, [topics, year]);
 
   let elTop = 0;
 
@@ -59,19 +65,21 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
   }, [elTop]);
 
   React.useMemo(() => {
-    let rows = Array.from(dataset, ([topic, policies]) => {
-      if (!topicSelections.get(topic)) {
-        return null;
-      } else {
-        return (
-          <PolicyRow
-            topic={topic}
-            parties={sortedParties}
-            policies={policies}
-            key={topic} />
-        )
-      }
-    });
+    let rows = Array.from(dataset.entries())
+      .sort(([topicA], [topicB]) => topicA.localeCompare(topicB))
+      .map(([topic, policies]) => {
+        if (!topicSelections.get(topic)) {
+          return null;
+        } else {
+          return (
+            <PolicyRow
+              topic={topic}
+              parties={sortedParties}
+              policies={policies}
+              key={topic} />
+          )
+        }
+      });
 
     setPolicyRows(rows.filter(x => x) as Array<React.JSX.Element>);
   }, [sortedParties, dataset, topicSelections]);
@@ -80,7 +88,15 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
         <div className="policyCells">
-          <TopicSelector key={`topicSelector--${topics}`} id="policyTableColumn--topics" className="policyCell partyTitle backgroundColor--Empty" title={t("topics")} topics={topics} onUpdate={(selections) => setTopicSelections(selections)} />
+          <TopicSelector
+            key={`topicSelector--${topics}`}
+            id="policyTableColumn--topics"
+            className="policyCell partyTitle backgroundColor--Empty"
+            title={t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")}
+            topics={topics}
+            selections={topicSelections}
+
+            onUpdate={(selections) => setTopicSelections(selections)} />
           {
             sortedParties.map((party) => {
               return (
@@ -100,6 +116,7 @@ export default function PolicyTable ({ dataset, parties }: PolicyTableProps) {
         key={`topicSelector--${topics}`}
         title={t("topics")}
         topics={topics}
+        selections={topicSelections}
         className="policyTable--mobileFilter"
         onUpdate={(selections) => setTopicSelections(selections)} />
       <div className="policyRows">

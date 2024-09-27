@@ -40,6 +40,26 @@ a {
   margin-bottom: auto;
 }
 
+.btn {
+  background-color: var(--color-cream);
+  border: 2px solid var(--color-cream-dark);
+  color: var(--color-charcoal-darker);
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Causten Round', sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  background-color: var(--color-yellow-light);
+  border-color: var(--color-yellow-dark);
+}
+
 .header {
   max-height: 150px;
 }
@@ -225,13 +245,13 @@ a {
 
 .iconPrefix::before {
   font-family: 'FontAwesome';
-  color: #ffbd00;
+  color: var(--color-yellow);
   margin: 0 5px 0 -20px;
 }
 
 .iconSuffix::after {
   font-family: 'FontAwesome';
-  color: #9ec460;
+  color: var(--color-green);
   margin: 0 0 0 5px;
 }
 
@@ -353,7 +373,7 @@ a {
     font-family: 'FontAwesome';
     margin-right: 5px;
     float: left;
-    color: #9ec460;
+    color: var(--color-green);
   }
 }
 
