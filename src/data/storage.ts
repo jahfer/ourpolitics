@@ -1,5 +1,5 @@
 export function getItem<T>(key: string, defaultValue: T): T {
-  const storedValue = localStorage.getItem(key);
+  const storedValue = sessionStorage.getItem(key);
   if (storedValue === null) {
     return defaultValue;
   }
@@ -11,13 +11,13 @@ export function getItem<T>(key: string, defaultValue: T): T {
 }
 
 export function setItem<T>(key: string, value: T): void {
-  localStorage.setItem(key, JSON.stringify(value));
+  sessionStorage.setItem(key, JSON.stringify(value));
 }
 
 export function removeItem(key: string): void {
-  localStorage.removeItem(key);
+  sessionStorage.removeItem(key);
 }
 
 export function clearStorage(): void {
-  localStorage.clear();
+  sessionStorage.clear();
 }

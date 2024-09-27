@@ -1,5 +1,5 @@
 import { Party, TranslationString } from "types/schema";
-import { setItem, getItem } from "./storage";
+import { setItem, getItem, removeItem } from "./storage";
 
 export type ReferenceType = {
   date?: string,
@@ -47,6 +47,10 @@ export function topicsInDataset(dataset: Map<string, Array<T>>): Array<string> {
 
 export function saveSelectedTopics(year: string, topics: Array<string>): void {
   setItem(`selectedTopics:${year}`, topics);
+}
+
+export function resetSelectedTopics(year: string): void {
+  removeItem(`selectedTopics:${year}`);
 }
 
 export function loadSelectedTopics(year: string): Array<string> {

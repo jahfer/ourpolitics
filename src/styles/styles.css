@@ -55,9 +55,16 @@ a {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus, .btn:active {
+.btn-primary {
   background-color: var(--color-yellow-light);
   border-color: var(--color-yellow-dark);
+  color: var(--color-yellow-darker);
+
+  &:hover, &:focus, &:active {
+    background-color: var(--color-yellow-light);
+    border-color: var(--color-yellow-darker);
+    color: var(--color-charcoal-darker);
+  }
 }
 
 .header {
@@ -103,6 +110,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 0;
+  border: none;
 
   &.lang-EN { background-image: url('../img/op_logo_en.svg'); }
   &.lang-FR { background-image: url('../img/op_logo_fr.svg'); }

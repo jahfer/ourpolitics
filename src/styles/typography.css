@@ -31,6 +31,7 @@
 
 a {
   text-decoration: none;
+  border-bottom: 2px solid transparent;
 
   &.styled {
     border-radius: 4px;
@@ -42,8 +43,8 @@ a {
     border-bottom: 2px solid #d2d2c9;
   }
 
-  &.no-underline:hover {
-    border-bottom: 0;
+  &.no-underline {
+    border-bottom: 0 !important;
   }
 
   .text-block &:hover {

@@ -4,19 +4,22 @@
   --lpc-color: #D71920;
   --gpc-color: #3d9b35;
 
+  --color-green-lighter: #eff9e1;
+  --color-green-light: #ceeba0;
   --color-green: #9ec460;
 
   --color-yellow-light: #ffd769;
   --color-yellow: #ffbd00;
   --color-yellow-dark: #ce9a0c;
+  --color-yellow-darker: #574104;
 
   --color-light-grey: #aaaaaa;
   --color-charcoal: #909090;
   --color-charcoal-dark: #404040;
   --color-charcoal-darker: #303030;
 
-  --color-cream: #efe8df;
   --color-cream-light: #f9f5f0;
+  --color-cream: #efe8df;
   --color-cream-dark: #d7cfc4;
   --color-cream-darker: #bdb5a9;
   --color-cream-darkest: #57534c;

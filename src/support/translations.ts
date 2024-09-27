@@ -169,6 +169,14 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: `${year} Guide`,
     FR: `Guide ${year}`
   }),
+  "guide.see_all_policies": {
+    EN: "see all policies",
+    FR: "voir toutes les politiques"
+  },
+  "guide.or": {
+    EN: "or",
+    FR: "ou"
+  }
 };
 
 export default translations;

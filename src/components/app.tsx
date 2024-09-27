@@ -12,10 +12,16 @@ import { RouterProvider, route } from 'contexts/router-context'
 import { LanguageOption } from 'types/schema'
 import Redirect from 'components/redirect'
 import { useAnalytics } from 'support/analytics'
+import * as Policy from 'data/policy'
 
 const routes = [
-  route("/", () =>
-    <Redirect to="/policies/2021" />),
+  route("/", () => {
+    const topics = Policy.loadSelectedTopics("2021");
+    if (topics.length > 0) {
+      return <Redirect to="/policies/2021" />
+    }
+    return <Redirect to="/guide" />
+  }),
 
   route("/policies/:year", (year) =>
     <PolicyComparisonIndex year={year} />),

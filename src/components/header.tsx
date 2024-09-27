@@ -38,7 +38,7 @@ export default function Header ({ subheading }: HeaderProps) {
       <div className="header">
         <LanguageSelector />
         <hgroup className="headings flex">
-          <Link to="/" className="no-hover">
+          <Link to="/" className="no-hover no-underline">
             <h1 className={`pageTitle lang-${language}`}> {t("our_politics")} </h1>
           </Link>
           {

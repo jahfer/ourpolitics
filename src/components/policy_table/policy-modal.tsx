@@ -28,6 +28,8 @@ import { html as ndpPolicies2015 } from 'virtual:mddir:../../policies/2015/ndp_*
 //@ts-ignore
 import { html as conservativePolicies2015 } from 'virtual:mddir:../../policies/2015/cpc_*'
 
+console.log(liberalPolicies2021);
+
 const policies: ((year: number) => Record<keyof typeof Party, Record<string, string>>) = (year) => {
   switch (year) {
     case 2015: return {
@@ -104,6 +106,7 @@ export default function PolicyModal () {
     if (modalPolicy?.handle) {
       const handle = `${modalPolicy.handle}_${language}`;
       html = policies(modalPolicy.year)[modalPolicy.party][handle];
+      console.log(handle, html);
     }
     setContent(html || "")
   }, [modalPolicy, language]);
