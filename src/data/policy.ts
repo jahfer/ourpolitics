@@ -45,8 +45,11 @@ export function topicsInDataset(dataset: Map<string, Array<T>>): Array<string> {
   return Array.from(dataset.keys()).sort((a, b) => a.localeCompare(b));
 }
 
-export function saveSelectedTopics(year: string, topics: Array<string>): void {
-  setItem(`selectedTopics:${year}`, topics);
+export function saveSelectedTopics(year: string, topics: Map<string, boolean>): void {
+  const selectedTopics = [...topics.entries()]
+    .filter(([_topic, checked]) => checked)
+    .map(([topic, _checked]) => topic);
+  setItem(`selectedTopics:${year}`, selectedTopics);
 }
 
 export function resetSelectedTopics(year: string): void {

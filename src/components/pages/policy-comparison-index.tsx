@@ -4,6 +4,7 @@ import PolicyComparisonTable from 'components/policy_table/policy-comparison-tab
 import Banner from 'components/banner'
 import { useTranslation } from 'contexts/language-context'
 import Page from 'components/page'
+import * as Policy from 'data/policy'
 
 interface PolicyComparisonIndexParams {
   year?: string,
@@ -15,10 +16,17 @@ export default function PolicyComparisonIndex (
   { year = "2019", party, policyHandle }: PolicyComparisonIndexParams
 ) {
   const { t } = useTranslation()
+  const usingFilteredTopics = Policy.loadSelectedTopics(year).length > 0;
 
   return (
     <Page title={year}>
       <section className="section">
+        {
+          usingFilteredTopics ?
+            <span className="topic-change-hint">Click to change your topics</span>
+          : null
+        }
+
         {/* <Banner>
           <div dangerouslySetInnerHTML={{ __html: t("election_notice") }} />
         </Banner> */}

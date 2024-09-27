@@ -21,6 +21,15 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   const topics = React.useMemo(() => Policy.topicsInDataset(dataset), [dataset]);
   const [topicSelections, setTopicSelections] = React.useState<Map<string, boolean>>(new Map());
 
+  const setAndPersistTopicSelections = (selections: Map<string, boolean>) => {
+    setTopicSelections(selections);
+    if (Array.from(selections.values()).every(value => value === true)) {
+      Policy.resetSelectedTopics(year);
+    } else {
+      Policy.saveSelectedTopics(year, selections);
+    }
+  }
+
   React.useMemo(() => {
     const selectedTopics = Policy.loadSelectedTopics(year);
     if (selectedTopics.length > 0) {
@@ -95,8 +104,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
             title={t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")}
             topics={topics}
             selections={topicSelections}
-
-            onUpdate={(selections) => setTopicSelections(selections)} />
+            onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
           {
             sortedParties.map((party) => {
               return (
@@ -118,7 +126,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
         topics={topics}
         selections={topicSelections}
         className="policyTable--mobileFilter"
-        onUpdate={(selections) => setTopicSelections(selections)} />
+        onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
       <div className="policyRows">
         {
           (policyRows.length == 0)

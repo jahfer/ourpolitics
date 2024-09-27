@@ -71,10 +71,7 @@ export default function GuidedPolicyIndex (
           </ul>
           <div className="guide--submit-actions">
             <Button primary onClick={() => {
-              const selectedTopics = [...topics.entries()]
-                .filter(([_topic, checked]) => checked)
-                .map(([topic, _checked]) => topic);
-              Policy.saveSelectedTopics(year, selectedTopics);
+              Policy.saveSelectedTopics(year, topics);
               setItem("has-visited-guide", true, "local");
               setURL({}, '/policies/2021');
             }}>

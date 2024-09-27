@@ -100,7 +100,7 @@ body:has(dialog.policyModal--content[open]) {
 }
 
 .policyModal--description {
-  margin-left: 10px;
+  margin: 0 20px 0 10px;
 }
 
 .policyModal--Liberal::backdrop {
@@ -223,6 +223,10 @@ body:has(dialog.policyModal--content[open]) {
   }
 }
 
+.reference--list {
+  margin-right: 20px;
+}
+
 .policyModal:not(.policyModal--reference) .reference--list.list-plain li:nth-child(even) {
   background-color: #f0f0ec;
   border-radius: 5px;
@@ -319,6 +323,10 @@ body:has(dialog.policyModal--content[open]) {
   .policyModal--reference {
     flex-direction: column;
     height: auto;
+  }
+
+  .reference--list {
+    margin-right: 0;
   }
 
   .modal--details {

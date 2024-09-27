@@ -93,6 +93,20 @@
   justify-content: space-between;
 }
 
+.topic-change-hint {
+  position: absolute;
+  top: -85px;
+  left: 260px;
+  right: 0;
+
+  text-indent: -9999em;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 0;
+  border: none;
+}
+
 .header {
   display: inline;
 
@@ -206,6 +220,7 @@
   .partyTitle {
     align-self: center;
     justify-content: center;
+    user-select: none;
   }
 }
 
@@ -315,6 +330,15 @@
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @media screen and (min-width: 608px) {
   .header {
     .headings {
@@ -350,12 +374,8 @@
     }
 
     .policyTable--filterBar--item {
-      padding: 0.2rem 1rem;
+      padding: 0.5rem 1rem;
       border-bottom: none;
-    }
-
-    .policyTable--filterBar--toggleAll {
-      padding-top: 0.5rem;
     }
 
     .policyCells {
@@ -396,6 +416,27 @@
     .policyTable--filterBar {
       width: calc(100% - 15px);
     }
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .lang-EN .topic-change-hint,
+  .lang-FR .topic-change-hint {
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in-out forwards;
+    animation-delay: 0.2s;
+  }
+
+  .lang-EN .topic-change-hint {
+    background-image: url('../img/click-to-change-topics.en.png');
+  }
+
+  .lang-FR .topic-change-hint {
+    background-image: url('../img/click-to-change-topics.fr.png');
+  }
+
+  .topic-change-hint-visible {
+    opacity: 1;
   }
 }
 
