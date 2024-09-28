@@ -36,16 +36,18 @@ export default function Header ({ subheading }: HeaderProps) {
   return (
     <header className="container section">
       <div className="header">
-        <LanguageSelector />
         <hgroup className="headings flex">
           <Link to="/" className="no-hover no-underline">
             <h1 className={`pageTitle lang-${language}`}> {t("our_politics")} </h1>
           </Link>
-          {
-            subheading ?
-              <h2 className="pageSubTitle">{subheading}</h2>
-              : null
-          }
+          <div className="header--secondary-content">
+            <LanguageSelector />
+            {
+              subheading ?
+                <h2 className="pageSubTitle">{subheading}</h2>
+                : null
+            }
+          </div>
         </hgroup>
       </div>
     </header>

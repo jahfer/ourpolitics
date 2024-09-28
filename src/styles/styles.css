@@ -105,8 +105,8 @@ a {
   letter-spacing: 0.4em;
   font-size: 1.7em;
   text-indent: -9999em;
-  min-width: 80px;
-  height: 40px;
+  min-width: 140px;
+  height: 60px;
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 0;
@@ -392,12 +392,12 @@ a {
 @media screen and (min-width: 800px) {
   .pageTitle {
     height: 120px;
-    min-width: 240px;
+    min-width: 270px;
     margin-bottom: 0;
   }
 
   .pageSubTitle {
-    font-size: 5.5rem;
+    font-size: 5rem;
     margin: 0;
     padding: 20px 0;
   }
