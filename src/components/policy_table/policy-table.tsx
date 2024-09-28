@@ -93,6 +93,9 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
     setPolicyRows(rows.filter(x => x) as Array<React.JSX.Element>);
   }, [sortedParties, dataset, topicSelections]);
 
+
+  const topicTitle = t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")
+
   return (
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
@@ -101,7 +104,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
             key={`topicSelector--${topics}`}
             id="policyTableColumn--topics"
             className="policyCell partyTitle backgroundColor--Empty"
-            title={t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")}
+            title={topicTitle}
             topics={topics}
             selections={topicSelections}
             onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
@@ -122,7 +125,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
       <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
       <TopicSelector
         key={`topicSelector--${topics}`}
-        title={t("topics")}
+        title={topicTitle}
         topics={topics}
         selections={topicSelections}
         className="policyTable--mobileFilter"
