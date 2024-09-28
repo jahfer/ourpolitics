@@ -67,4 +67,8 @@
   justify-content: center;
   gap: 10px;
   align-items: center;
+
+  p {
+    margin: 0;
+  }
 }

@@ -96,8 +96,9 @@
 .topic-change-hint {
   position: absolute;
   top: -85px;
-  left: 260px;
+  left: 290px;
   right: 0;
+  z-index: -1;
 
   text-indent: -9999em;
   height: 90px;
@@ -113,6 +114,8 @@
   .langSelection {
     text-align: right;
     order: -1;
+    margin-bottom: -20px;
+    z-index: 1;
   }
 
   .langSelection, .headings {
@@ -123,7 +126,6 @@
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
-    gap: 1rem;
   }
 
   .header--secondary-content {
@@ -350,19 +352,6 @@
   }
 }
 
-@media screen and (min-width: 520px) {
-  .header {
-    .headings {
-      gap: 0;
-    }
-
-    .header--secondary-content {
-      display: flex;
-      flex-flow: column nowrap;
-    }
-  }
-}
-
 @media screen and (min-width: 650px) {
   .policyTable {
     .policyCell {
@@ -382,6 +371,8 @@
     }
 
     .header--secondary-content {
+      display: flex;
+      flex-flow: column nowrap;
       justify-content: space-between;
       height: 100%;
     }
