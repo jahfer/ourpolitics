@@ -67,3 +67,31 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
     </LanguageContext.Provider>
   );
 }
+
+export function LanguageSelector () {
+  const { language, setLanguage } = useLanguage();
+
+  return (language == LanguageOption.EN) ?
+    <>
+      <span className="active">
+        EN
+      </span>
+      <span> | </span>
+      <a
+        href="#"
+        onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}>
+        FR
+      </a>
+    </> :
+    <>
+      <a
+        href="#"
+        onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}>
+        EN
+      </a>
+      <span> | </span>
+      <span className="active">
+        FR
+      </span>
+    </>
+}

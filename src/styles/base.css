@@ -37,3 +37,6 @@
 .backgroundColor--Skeleton {
   background-color: var(--color-cream-darker);
 }
+.backgroundColor--secondaryAction {
+  background-color: var(--color-cream-dark)
+}

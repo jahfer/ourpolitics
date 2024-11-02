@@ -172,10 +172,6 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
   "guide.see_all_policies": {
     EN: "see all policies",
     FR: "voir toutes les politiques"
-  },
-  "guide.or": {
-    EN: "or",
-    FR: "ou"
   }
 };
 
