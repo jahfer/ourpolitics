@@ -14,7 +14,7 @@
               radial-gradient(120% 50% at 50% 50%, var(--lpc-color), transparent 50%),
               radial-gradient(50% 30% at 50% 80%, var(--cpc-color), transparent),
               var(--color-cream);
-  background-blend-mode: hard-light, hard-light, hard-light, normal;
+  background-blend-mode: hard-light;
   background-position: center;
 
   /* @media screen and (min-width: 750px) {
