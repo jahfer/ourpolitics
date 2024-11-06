@@ -1,31 +1,24 @@
+.guide--wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+}
+
 .guide {
-  position: relative;
   width: auto;
   max-width: min(calc(100vw - 2rem), 800px);
   text-align: center;
   padding: 2rem 0.5rem;
-  margin: 0 1rem;
+  margin-bottom: 1rem;
 
   border: 1px solid var(--color-cream-darker);
   background: linear-gradient(to top, #faf6f1, #f9f5f0);
   border-radius: 20px;
   box-shadow: 0 3px 18px rgba(0, 0, 0, 0.2);
-  background: radial-gradient(50% 30% at 50% 20%, var(--ndp-color), transparent),
-              radial-gradient(120% 50% at 50% 50%, var(--lpc-color), transparent 50%),
-              radial-gradient(50% 30% at 50% 80%, var(--cpc-color), transparent),
-              var(--color-cream);
-  background-blend-mode: hard-light;
-  background-position: center;
-
-  /* @media screen and (min-width: 750px) {
-    background:
-      radial-gradient(circle at 30% 0%, var(--ndp-color) 0%, transparent 60%),
-      radial-gradient(circle at 90% 90%, var(--cpc-color) 0%, transparent 70%),
-      radial-gradient(circle at 0% 90%, var(--lpc-color) 0%, transparent 60%),
-      var(--color-cream);
-      background-size: 100% 100%;
-      background-blend-mode: hard-light, hard-light, normal;
-  } */
+  background: radial-gradient(50% 30% at 50% 20%, #fccc40, transparent),
+              radial-gradient(120% 50% at 50% 50%, #f95258, transparent 50%),
+              radial-gradient(50% 30% at 50% 80%, #3b87e0, transparent);
 
   @media screen and (min-width: 800px) {
     margin: 1rem auto 2rem;
@@ -34,22 +27,16 @@
 }
 
 .guide--langSelector {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
   font-weight: bold;
   user-select: none;
-
-  .active {
-    color: var(--color-charcoal)
-  }
+  color: var(--color-cream-darker);
 
   a {
-    color: rgb(0, 71, 143);
+    color: var(--color-cream-darkest);
   }
 
   a:hover {
-    color: var(--color-charcoal-darker);
+    color: #000;
     border: none;
   }
 }

@@ -70,13 +70,13 @@ a {
 
 .btn-primary {
   background-color: var(--color-yellow-light);
-  border-color: var(--color-yellow-dark);
-  color: var(--color-yellow-darker);
+  border-color: var(--color-yellow-light);
+  color: var(--color-yellow-darkest);
 
   &:hover, &:focus, &:active {
     background-color: var(--color-yellow-light);
     border-color: var(--color-yellow-darker);
-    color: var(--color-charcoal-darker);
+    color: var(--color-charcoal-darkest);
   }
 }
 
