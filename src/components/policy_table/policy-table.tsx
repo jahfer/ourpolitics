@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { useState } from 'react'
 import { useTranslation } from 'contexts/language-context'
 import PolicyRow from './policy-row'
 import TopicSelector from './topic-selector'

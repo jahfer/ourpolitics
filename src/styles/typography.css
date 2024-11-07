@@ -4,28 +4,30 @@
   font-weight: 400;
   font-display: swap;
   src: /*local('Causten Round'),*/
-       url('../fonts/CaustenRoundRegular.woff2') format('woff2'), /* will be preloaded */
-       url('../fonts/CaustenRoundRegular.woff') format('woff');
+       url('/fonts/CaustenRoundRegular.woff2') format('woff2'), /* will be preloaded */
+       url('/fonts/CaustenRoundRegular.woff') format('woff');
   unicode-range: U+000-5FF; /* Latin glyphs */
 }
+
 @font-face {
   font-family: 'Causten Round';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: /*local('Causten Round'),*/
-       url('../fonts/CaustenRoundBold.woff2') format('woff2'), /* will be preloaded */
-       url('../fonts/CaustenRoundBold.woff') format('woff');
+       url('/fonts/CaustenRoundBold.woff2') format('woff2'), /* will be preloaded */
+       url('/fonts/CaustenRoundBold.woff') format('woff');
   unicode-range: U+000-5FF; /* Latin glyphs */
 }
+
 @font-face {
   font-family: 'Causten Round';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: /*local('Causten Round'),*/
-       url('../fonts/CaustenRoundBlack.woff2') format('woff2'), /* will be preloaded */
-       url('../fonts/CaustenRoundBlack.woff') format('woff');
+       url('/fonts/CaustenRoundBlack.woff2') format('woff2'), /* will be preloaded */
+       url('/fonts/CaustenRoundBlack.woff') format('woff');
   unicode-range: U+000-5FF; /* Latin glyphs */
 }
 

@@ -77,16 +77,16 @@ export default function TopicSelector({ topics, onUpdate, title, id = "", classN
       <ul className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
         <li className="policyTable--filterBar--item policyTable--filterBar--toggleAll">
           {
-            [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : (
+            [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : (
               <div className="policyTable--filterBar--toggle">
-                <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(topics.map((topic) => [topic, false]))) }}>{t("select_none")}</a>
+                <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(topics.map((topic) => [topic, true]))) }}>{t("select_all")}</a>
               </div>
             )
           }
           {
-            [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : (
+            [...topicSelections.entries()].every(([_topic, checked]) => !checked) ? null : (
               <div className="policyTable--filterBar--toggle">
-                <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(topics.map((topic) => [topic, true]))) }}>{t("select_all")}</a>
+                <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(topics.map((topic) => [topic, false]))) }}>{t("select_none")}</a>
               </div>
             )
           }

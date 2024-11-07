@@ -1,7 +1,6 @@
 import './app.css'
 
 import * as React from 'react'
-import * as Server from 'react-dom/server'
 import { createRoot } from 'react-dom/client'
 import App from './components/app'
 
