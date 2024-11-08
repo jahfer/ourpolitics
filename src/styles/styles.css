@@ -125,8 +125,8 @@ a {
   margin-bottom: 0;
   border: none;
 
-  &.lang-EN { background-image: url('../img/op_logo_en.svg'); }
-  &.lang-FR { background-image: url('../img/op_logo_fr.svg'); }
+  &.lang-EN { background-image: url('../img/op_logo_en.min.svg'); }
+  &.lang-FR { background-image: url('../img/op_logo_fr.min.svg'); }
 }
 
 .pageSubTitle {
