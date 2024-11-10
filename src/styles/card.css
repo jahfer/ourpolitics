@@ -12,14 +12,17 @@
   max-width: auto;
   border: none;
   position: relative;
-}
 
-@media screen and (min-width: 800px) {
-  .card {
+  @media screen and (min-width: 800px) {
+    border-radius: 0;
+    height: inherit;
     margin: 0 auto;
     background: #303030;
     overflow: hidden;
     border: 8px solid #303030;
+  }
+
+  @media screen and (min-width: 1000px) {
     border-radius: 7px;
   }
 }
