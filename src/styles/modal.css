@@ -284,6 +284,7 @@ body:has(dialog.policyModal--content[open]) {
     visibility: hidden;
     position: fixed;
     border: none;
+    border-radius: 8px;
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
 
     &.policyModal--visible {
@@ -422,11 +423,5 @@ body:has(dialog.policyModal--content[open]) {
 
   .policyModal--Green::backdrop {
     background-color: rgba(61, 155, 53, 0.9);
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .policyModal--content {
-    border-radius: 8px;
   }
 }

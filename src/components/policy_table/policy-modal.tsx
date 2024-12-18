@@ -14,6 +14,7 @@ import {
   HeadingLevel,
   CardLinkList
 } from 'components/system/card';
+import { Modal } from 'components/system/modal';
 
 //@ts-ignore
 import { html as liberalPolicies2021 } from 'virtual:mddir:../../policies/2021/lpc/*'
@@ -27,8 +28,6 @@ import { html as liberalPolicies2015 } from 'virtual:mddir:../../policies/2015/l
 import { html as ndpPolicies2015 } from 'virtual:mddir:../../policies/2015/ndp_*'
 //@ts-ignore
 import { html as conservativePolicies2015 } from 'virtual:mddir:../../policies/2015/cpc_*'
-
-console.log(liberalPolicies2021);
 
 const policies: ((year: number) => Record<keyof typeof Party, Record<string, string>>) = (year) => {
   switch (year) {
@@ -56,12 +55,10 @@ const policies: ((year: number) => Record<keyof typeof Party, Record<string, str
 }
 
 export default function PolicyModal () {
-  const modalId = useId();
   const { modalPolicy, policyModalVisible } = usePolicyModal();
   const { setURL, setURLToPrevious } = useURL();
   const { language } = useLanguage();
   const { t } = useTranslation();
-  const [dialogElement, setDialogElement] = useState<HTMLDialogElement | undefined>(undefined);
   const [content, setContent] = React.useState<string>("");
 
   const closeModal = useCallback(() => {
@@ -74,33 +71,6 @@ export default function PolicyModal () {
     });
   }, [modalPolicy]);
 
-  useEffect(() => {
-    const dialog = document.getElementById(modalId);
-    setDialogElement(dialog as HTMLDialogElement);
-  }, [modalId]);
-
-  useEffect(() => {
-    if (dialogElement) {
-      if (modalPolicy) {
-        dialogElement.showModal();
-        document.body.classList.add('policyModal--open');
-      } else {
-        dialogElement.close();
-        document.body.classList.remove('policyModal--open');
-      }
-    }
-  }, [dialogElement, modalPolicy])
-
-  useEffect(() => {
-    const handler = (event: Event) => {
-      closeModal();
-    }
-    if (dialogElement) {
-      dialogElement?.addEventListener("cancel", handler);
-      return (() => dialogElement?.removeEventListener("cancel", handler));
-    }
-  }, [dialogElement, closeModal]);
-
   useLayoutEffect(() => {
     let html = null;
     if (modalPolicy?.handle) {
@@ -112,7 +82,7 @@ export default function PolicyModal () {
 
   if (!modalPolicy) {
     return (
-      <dialog id={modalId} className="policyModal--content"/>
+      <Modal className="policyModal--content" open={policyModalVisible} onClose={closeModal} />
     );
   }
 
@@ -125,12 +95,12 @@ export default function PolicyModal () {
   }
 
   return (
-    <dialog
-      autoFocus={true}
-      id={modalId}
+    <Modal
       className={dialogClass}
-      aria-labelledby="policyDialog__label"
-      aria-describedby="policyDialog__description">
+      titleElementId="policyDialog__label"
+      descriptionElementId="policyDialog__description"
+      open={!!modalPolicy}
+      onClose={closeModal}>
       <Card direction={content === "" ? "column" : "row"}>
         <CardPrimaryContent compact={!content}>
           <a href="#" className={modalCloseClass} aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
@@ -145,6 +115,6 @@ export default function PolicyModal () {
           <CardLinkList links={modalPolicy.references.map(x => ({heading: x.title, subheading: x.publisher, ...x}))} />
         </CardAside>
       </Card>
-    </dialog>
+    </Modal>
   )
 }

@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { useLanguage, useTranslation, LanguageSelector } from 'contexts/language-context'
-import { LanguageOption } from 'types/schema';
 import { Link } from './system/link';
 
 interface HeaderProps {
