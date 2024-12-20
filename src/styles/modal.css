@@ -154,8 +154,7 @@ body:has(dialog.modal--content[open]) {
 .policyModal--reference {
   .card--heading {
     &.card--heading__primary {
-      font-size: 1.5rem;
-      line-height: 1.7rem;
+      font-size: 1.8rem;
     }
   }
 }
@@ -302,13 +301,6 @@ body:has(dialog.modal--content[open]) {
 }
 
 @media screen and (min-width: 800px) {
-
-  .policyModal--reference {
-    .card--heading.card--heading__primary {
-      font-size: 1.8rem;
-    }
-  }
-
   .card--heading.card--heading__primary {
     margin-top: 21px;
     margin-bottom: 10px;
