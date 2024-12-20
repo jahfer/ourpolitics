@@ -37,9 +37,9 @@ interface CardBreadcrumbProps {
 
 export function CardBreadcrumb({ text}: CardBreadcrumbProps) {
   return (
-    <div className="modal--headingContainer">
-      <div className="modal--headingInfo">
-        <div className="modal--topicBox"> <p> {text} </p> </div>
+    <div className="card--headingContainer">
+      <div className="card--headingInfo">
+        <div className="card--topicBox"> <p> {text} </p> </div>
       </div>
     </div>
   )
@@ -59,11 +59,11 @@ export function CardHeading({ level, text, id }: CardHeadingProps) {
   switch (level) {
     case HeadingLevel.H1:
       return (
-        <h1 className="modal--heading modal--heading__primary" id={id}> {text} </h1>
+        <h1 className="card--heading card--heading__primary" id={id}> {text} </h1>
       )
     case HeadingLevel.H2:
       return (
-        <h2 className="modal--heading modal--heading__secondary" id={id}> {text} </h2>
+        <h2 className="card--heading card--heading__secondary" id={id}> {text} </h2>
       )
   }
 }
@@ -100,7 +100,7 @@ interface CardPrimaryContentProps {
 
 export function CardPrimaryContent({ compact=false, children }: CardPrimaryContentProps) {
   return (
-    <div className={`modal--content ${compact ? "reference-modal--content" : ""}`}>
+    <div className={`card--content ${compact ? "reference-card--content" : ""}`}>
       { children }
     </div>
   )
@@ -113,7 +113,7 @@ interface CardAsideProps {
 
 export function CardAside({ title, children }: CardAsideProps) {
   return (
-    <aside className="modal--sidebar">
+    <aside className="card--sidebar">
       <section>
         <CardHeading level={HeadingLevel.H2} text={title} />
         {children}

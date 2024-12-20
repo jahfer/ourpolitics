@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useId, useEffect, useState } from 'react'
+import { useId, useEffect, useState, useCallback, useMemo } from 'react'
 
 interface ModalProps {
   titleElementId?: string;
@@ -28,38 +28,50 @@ export function Modal ({ className, children, titleElementId, descriptionElement
     if (open) {
       onOpen && onOpen();
       dialogElement.showModal();
-      document.body.classList.add('policyModal--open');
+      document.body.classList.add('modal--open');
     } else {
       dialogElement.close();
-      document.body.classList.remove('policyModal--open');
+      document.body.classList.remove('modal--open');
     }
   }, [dialogElement, open])
 
-  useEffect(() => {
-    if (!!onClose) {
-      const handler = (_event: Event) => {
-        onClose();
-      }
-      if (dialogElement) {
-        dialogElement?.addEventListener("cancel", handler);
-        return (() => dialogElement?.removeEventListener("cancel", handler));
-      }
-    }
+  const handler = useCallback(() => {
+    onClose && onClose();
+    // dialogElement?.classList.add("modal--closing");
+    // requestAnimationFrame(() => {
+    //   dialogElement?.addEventListener("animationend", () => {
+    //     dialogElement?.classList.remove("modal--closing");
+    //   }, { once: true });
+    // });
   }, [dialogElement, onClose]);
 
-  let dialogClassList = [];
-  if (className) dialogClassList.push(className);
-  if (open) dialogClassList.push("policyModal--visible");
-  const dialogClassStr = dialogClassList.join(" ");
+  useEffect(() => {
+    if (!!onClose && dialogElement) {
+
+      dialogElement.addEventListener("cancel", handler);
+      return (() => dialogElement?.removeEventListener("cancel", handler));
+    }
+  }, [dialogElement, handler]);
+
+  let dialogClassList = ["modal--content"];
+  if (className) dialogClassList.push(...className.split(" "));
+  if (open) dialogClassList.push("modal--visible");
+  dialogClassList.push("");
+
+  const dialogClassStr = useMemo(() => dialogClassList.join(" "), [dialogClassList]);
+  const dialogBackdropClassStr = useMemo(() => dialogClassList.join("--backdrop "), [dialogClassList]);
 
   return (
-    <dialog
-      autoFocus={true}
-      id={modalId}
-      className={dialogClassStr}
-      aria-labelledby={titleElementId}
-      aria-describedby={descriptionElementId}>
-      {children}
-    </dialog>
+    <>
+      <div className={dialogBackdropClassStr}></div>
+      <dialog
+        autoFocus={true}
+        id={modalId}
+        className={dialogClassStr}
+        aria-labelledby={titleElementId}
+        aria-describedby={descriptionElementId}>
+        {children}
+      </dialog>
+    </>
   )
 }

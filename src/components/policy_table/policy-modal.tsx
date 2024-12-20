@@ -82,11 +82,11 @@ export default function PolicyModal () {
 
   if (!modalPolicy) {
     return (
-      <Modal className="policyModal--content" open={policyModalVisible} onClose={closeModal} />
+      <Modal open={policyModalVisible} onClose={closeModal} />
     );
   }
 
-  let dialogClass = `policyModal--content policyModal--${modalPolicy.party} ${policyModalVisible ? "policyModal--visible" : ""}`;
+  let dialogClass = `policyModal--${modalPolicy.party} ${policyModalVisible ? "policyModal--visible" : ""}`;
   let modalCloseClass = "modal--close";
 
   if (content === "") {
