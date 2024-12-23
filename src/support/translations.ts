@@ -157,6 +157,10 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: `No topics selected. Try selecting a few by clicking on "Topics" above.`,
     FR: `Aucun sujet n'a été sélectionné. Essayez d'en sélectionner quelques-uns en cliquant sur "Sujets" ci-dessus.`
   },
+  "policy_table.parties_to_compare": {
+    EN: "Parties to compare",
+    FR: `Parties à comparer`
+  },
   "guide.whats_important_to_you": {
     EN: "What's important to you?",
     FR: "Qu'est-ce qui est important pour vous?"

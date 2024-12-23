@@ -179,6 +179,19 @@ a {
     font-size: 1.2rem;
   }
 
+  &.policyCell-action {
+    text-align: center;
+    padding: 15px;
+    display: block;
+    background-color: var(--color-cream-dark);
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    &:hover {
+      background-color: var(--color-cream-light);
+    }
+  }
+
   &:last-of-type {
     border: none;
   }

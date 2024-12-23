@@ -74,8 +74,8 @@ export default function TopicSelector({ topics, onUpdate, title, id = "", classN
       id={id}
       className={`${className} ${(topicFilterState ? "topicSelector--open" : "topicSelector--closed")}`}>
       {title}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
-      <ul className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
-        <li className="policyTable--filterBar--item policyTable--filterBar--toggleAll">
+      <ul className={`list policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`} onClick={e => e.stopPropagation()}>
+        <li className="list--item policyTable--filterBar--item policyTable--filterBar--toggleAll">
           {
             [...topicSelections.entries()].every(([_topic, checked]) => checked) ? null : (
               <div className="policyTable--filterBar--toggle">
@@ -97,7 +97,7 @@ export default function TopicSelector({ topics, onUpdate, title, id = "", classN
               <TopicOption
                 name={topic}
                 key={topic}
-                className="policyTable--filterBar--item policyTable--filterBar--topic"
+                className="list--item policyTable--filterBar--item"
                 checked={checked}
                 onToggle={() => updateSelections(new Map(topicSelections.set(topic, !checked)))} />
             )

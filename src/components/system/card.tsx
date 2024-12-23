@@ -106,6 +106,18 @@ export function CardPrimaryContent({ compact=false, children }: CardPrimaryConte
   )
 }
 
+interface CardBodyProps {
+  children?: React.ReactNode,
+}
+
+export function CardBody({ children }: CardBodyProps) {
+  return (
+    <div className="card--description">
+      { children }
+    </div>
+  )
+}
+
 interface CardAsideProps {
   title: string,
   children?: React.ReactNode,

@@ -5,6 +5,16 @@ import TopicSelector from './topic-selector'
 import { Party } from 'types/schema'
 import * as Policy from 'data/policy'
 import * as Util from 'support/util'
+import { Icon } from 'components/system/icon'
+import { Modal } from 'components/system/modal';
+import {
+  Card,
+  CardAside,
+  CardPrimaryContent,
+  CardHeading,
+  CardBody,
+  HeadingLevel,
+} from 'components/system/card';
 
 interface PolicyTableProps {
   dataset: Map<string, Array<Policy.T>>;
@@ -12,13 +22,27 @@ interface PolicyTableProps {
   year: string;
 }
 
+const defaultNationalParties = new Set([Party.Conservative, Party.Liberal, Party.NDP]);
+
 export default function PolicyTable ({ dataset, parties, year }: PolicyTableProps) {
   const { t } = useTranslation();
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
 
-  const sortedParties = React.useMemo(() => Util.shuffle(Array.from(parties)), [parties]);
+  const additionalPartiesSelectable = React.useMemo(() => parties.size > 3, [parties]);
+  const sortedParties = React.useMemo(() => {
+    if (!additionalPartiesSelectable) {
+      return Util.shuffle(Array.from(parties));
+    }
+    const [defaultParties, remainingParties] = Util.partition(Array.from(parties), party => defaultNationalParties.has(party));
+    const remainingSlots = 3 - defaultParties.length;
+    const filledParties = defaultParties.concat(remainingParties.slice(0, remainingSlots));
+    return Util.shuffle(filledParties);
+  }, [parties]);
+
   const topics = React.useMemo(() => Policy.topicsInDataset(dataset), [dataset]);
   const [topicSelections, setTopicSelections] = React.useState<Map<string, boolean>>(new Map());
+
+  const [partySelectorModalVisible, setPartySelectorModalVisible] = React.useState(false);
 
   const setAndPersistTopicSelections = (selections: Map<string, boolean>) => {
     setTopicSelections(selections);
@@ -92,12 +116,35 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
     setPolicyRows(rows.filter(x => x) as Array<React.JSX.Element>);
   }, [sortedParties, dataset, topicSelections]);
 
-
   const topicTitle = t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")
 
   return (
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
+        <Modal open={partySelectorModalVisible} className="policyReferenceModal--content" onClose={() => setPartySelectorModalVisible(false)}>
+          <Card direction="column">
+            <CardPrimaryContent compact={true}>
+              <CardHeading level={HeadingLevel.H1} text={t("policy_table.parties_to_compare")} />
+              <CardBody>
+                <ul className="list">
+                  {
+                    Array.from(parties).sort((a, b) => a.localeCompare(b)).map((party) => {
+                      return (
+                        <li key={`partyTitle--${party}`}>
+                          <label className="list--item policyTable--filterBar--item" onKeyDown={Util.handleEnterAsClick}>
+                          {t(party.toLowerCase())}
+                            <input checked={sortedParties.indexOf(party) != -1} onChange={() => {}} type="checkbox" />
+                          </label>
+                        </li>
+                      )
+                    })
+                  }
+                </ul>
+              </CardBody>
+            </CardPrimaryContent>
+          </Card>
+        </Modal>
+
         <div className="policyCells">
           <TopicSelector
             key={`topicSelector--${topics}`}
@@ -119,6 +166,20 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
               )
             })
           }
+
+          {
+            additionalPartiesSelectable
+            ? (
+              <a href="#" className="policyCell policyCell-action" onClick={(e) => {
+                e.preventDefault();
+                setPartySelectorModalVisible(true);
+                return false;
+              }}>
+                <Icon name="pencil" className="policyCell--info" />
+              </a>
+            )
+            : null
+          }
         </div>
       </div>
       <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
@@ -129,7 +190,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
         selections={topicSelections}
         className="policyTable--mobileFilter"
         onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
-      <div className="policyRows">
+      <div className={`policyRows ${additionalPartiesSelectable ? "policyRows--editHeader" : ""}`}>
         {
           (policyRows.length == 0)
           ? <div className="policyTable--empty">{t("no_topics_selected")}</div>
