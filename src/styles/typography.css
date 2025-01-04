@@ -1,35 +1,38 @@
-@font-face {
-  font-family: 'Causten Round';
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * © 2024 MyFonts Inc. */
+
+ @font-face {
+  font-family: "Causten Round";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: /*local('Causten Round'),*/
-       url('/fonts/CaustenRoundRegular.woff2') format('woff2'), /* will be preloaded */
-       url('/fonts/CaustenRoundRegular.woff') format('woff');
+  src: url('/fonts/Causten_Round/webFonts/CaustenRoundRegular/font.woff2') format('woff2'), url('/fonts/Causten_Round/webFonts/CaustenRoundRegular/font.woff') format('woff');
   unicode-range: U+000-5FF; /* Latin glyphs */
 }
-
 @font-face {
-  font-family: 'Causten Round';
+  font-family: "Causten Round";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: /*local('Causten Round'),*/
-       url('/fonts/CaustenRoundBold.woff2') format('woff2'), /* will be preloaded */
-       url('/fonts/CaustenRoundBold.woff') format('woff');
+  src: url('/fonts/Causten_Round/webFonts/CaustenRoundBold/font.woff2') format('woff2'), url('/fonts/Causten_Round/webFonts/CaustenRoundBold/font.woff') format('woff');
   unicode-range: U+000-5FF; /* Latin glyphs */
 }
-
 @font-face {
-  font-family: 'Causten Round';
+  font-family: "Causten Round";
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: /*local('Causten Round'),*/
-       url('/fonts/CaustenRoundBlack.woff2') format('woff2'), /* will be preloaded */
-       url('/fonts/CaustenRoundBlack.woff') format('woff');
+  src: url('/fonts/Causten_Round/webFonts/CaustenRoundBlack/font.woff2') format('woff2'), url('/fonts/Causten_Round/webFonts/CaustenRoundBlack/font.woff') format('woff');
   unicode-range: U+000-5FF; /* Latin glyphs */
 }
+
 
 a {
   text-decoration: none;
