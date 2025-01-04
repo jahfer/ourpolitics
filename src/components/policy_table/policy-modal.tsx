@@ -92,6 +92,8 @@ export default function PolicyModal () {
   if (content === "") {
     dialogClass += " policyReferenceModal--content"
     modalCloseClass += " reference-modal--close"
+  } else {
+    modalCloseClass += " on-dark-bg"
   }
 
   return (

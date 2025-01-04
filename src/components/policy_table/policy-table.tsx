@@ -6,15 +6,7 @@ import { Party } from 'types/schema'
 import * as Policy from 'data/policy'
 import * as Util from 'support/util'
 import { Icon } from 'components/system/icon'
-import { Modal } from 'components/system/modal';
-import {
-  Card,
-  CardAside,
-  CardPrimaryContent,
-  CardHeading,
-  CardBody,
-  HeadingLevel,
-} from 'components/system/card';
+import { PartySelectorModal } from 'components/policy_table/party-selector-modal';
 
 interface PolicyTableProps {
   dataset: Map<string, Array<Policy.T>>;
@@ -29,7 +21,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
 
   const additionalPartiesSelectable = React.useMemo(() => parties.size > 3, [parties]);
-  const sortedParties = React.useMemo(() => {
+  const [sortedParties, setSortedParties] = React.useState(() => {
     if (!additionalPartiesSelectable) {
       return Util.shuffle(Array.from(parties));
     }
@@ -37,12 +29,16 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
     const remainingSlots = 3 - defaultParties.length;
     const filledParties = defaultParties.concat(remainingParties.slice(0, remainingSlots));
     return Util.shuffle(filledParties);
-  }, [parties]);
+  });
 
   const topics = React.useMemo(() => Policy.topicsInDataset(dataset), [dataset]);
   const [topicSelections, setTopicSelections] = React.useState<Map<string, boolean>>(new Map());
 
   const [partySelectorModalVisible, setPartySelectorModalVisible] = React.useState(false);
+
+  const setPartySelections = (selections: Map<Party, boolean>) => {
+    setSortedParties(Array.from(selections.entries()).filter(([_, selected]) => selected).map(([party, _]) => party));
+  }
 
   const setAndPersistTopicSelections = (selections: Map<string, boolean>) => {
     setTopicSelections(selections);
@@ -121,29 +117,13 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   return (
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
-        <Modal open={partySelectorModalVisible} className="policyReferenceModal--content" onClose={() => setPartySelectorModalVisible(false)}>
-          <Card direction="column">
-            <CardPrimaryContent compact={true}>
-              <CardHeading level={HeadingLevel.H1} text={t("policy_table.parties_to_compare")} />
-              <CardBody>
-                <ul className="list">
-                  {
-                    Array.from(parties).sort((a, b) => a.localeCompare(b)).map((party) => {
-                      return (
-                        <li key={`partyTitle--${party}`}>
-                          <label className="list--item policyTable--filterBar--item" onKeyDown={Util.handleEnterAsClick}>
-                          {t(party.toLowerCase())}
-                            <input checked={sortedParties.indexOf(party) != -1} onChange={() => {}} type="checkbox" />
-                          </label>
-                        </li>
-                      )
-                    })
-                  }
-                </ul>
-              </CardBody>
-            </CardPrimaryContent>
-          </Card>
-        </Modal>
+        <PartySelectorModal
+          visible={partySelectorModalVisible}
+          onClose={() => setPartySelectorModalVisible(false)}
+          parties={parties}
+          selectedParties={sortedParties}
+          onUpdate={(parties) => setPartySelections(parties)}
+        />
 
         <div className="policyCells">
           <TopicSelector

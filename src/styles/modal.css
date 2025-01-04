@@ -278,6 +278,8 @@ body:has(dialog.modal--content[open]) {
 .sidebar-link--meta {
   font-size: 0.75em;
   letter-spacing: 0.05rem;
+  line-height: 0.9rem;
+  margin-top: 0.2rem;
   text-transform: uppercase;
   color: #999;
 }
@@ -426,7 +428,7 @@ body:has(dialog.modal--content[open]) {
   .modal--close {
     top: 21px;
 
-    &::before {
+    &.on-dark-bg::before {
       color: var(--color-cream);
     }
 
