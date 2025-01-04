@@ -25,6 +25,43 @@
   padding: 0;
 }
 
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  color: #404040;
+  margin: 0;
+  font-size: 1rem;
+  text-align: left;
+  background: #fff;
+
+  border: 2px solid var(--color-cream-dark);
+  border-radius: 6px;
+}
+
+.list li:first-child .list--item {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.list li:last-child .list--item {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.list--item {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list--item:hover {
+  background-color: var(--color-cream-light);
+  cursor: pointer;
+}
+
 .button--pill {
   display: inline-block;
   border: 2px solid #d9d9ca;
@@ -234,6 +271,13 @@
     justify-content: center;
     user-select: none;
   }
+
+  .policyCell-action {
+    align-self: center;
+    justify-content: center;
+    user-select: none;
+    flex: 0 0 40px !important;
+  }
 }
 
 .policyTableColumn--icon {
@@ -253,22 +297,14 @@
   overscroll-behavior: none;
   max-height: 50vh;
   overflow-y: scroll;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 0.5rem;
   position: absolute;
   top: 100%;
-  color: #404040;
-  margin: 0;
-  font-size: 1rem;
-  text-align: left;
-  background: #fff;
   border: 2px solid var(--color-charcoal-darker);
-  border-top: none;
   width: 100%;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top: none;
+  border-radius: 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
@@ -278,11 +314,6 @@
 }
 
 .policyTable--filterBar--item {
-  flex: 1;
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   border-bottom: 1px solid #eee;
 }
 
@@ -309,10 +340,6 @@
   & a:hover {
     border-bottom: none;
   }
-}
-
-.policyTable--filterBar--topic:hover {
-  background-color: var(--color-cream-light);
 }
 
 .clearfix::after {
@@ -379,6 +406,10 @@
   }
 
   .policyTable {
+    .policyRows--editHeader {
+      padding-right: 46px;
+    }
+
     .policyRow {
       flex-direction: column;
 

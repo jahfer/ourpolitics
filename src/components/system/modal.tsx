@@ -5,19 +5,24 @@ interface ModalProps {
   titleElementId?: string;
   descriptionElementId?: string;
   open: boolean;
+  onClose: () => void;
+  onOpen?: () => void;
   className?: string;
   children?: React.ReactNode;
-  onClose?: () => void;
-  onOpen?: () => void;
+  useCustomCloseButton?: boolean;
 }
 
-export function Modal ({ className, children, titleElementId, descriptionElementId, open, onClose, onOpen }: ModalProps) {
+export function Modal ({ className, children, titleElementId, descriptionElementId, open, onClose, onOpen, useCustomCloseButton }: ModalProps) {
   const modalId = useId();
+  const modalDialogId = useId();
   const [dialogElement, setDialogElement] = useState<HTMLDialogElement>();
+  const [dialogBackdropElement, setDialogBackdropElement] = useState<HTMLDivElement>();
 
   useEffect(() => {
     const dialog = document.getElementById(modalId);
     setDialogElement(dialog as HTMLDialogElement);
+    const dialogBackdrop = document.getElementById(modalDialogId);
+    setDialogBackdropElement(dialogBackdrop as HTMLDivElement);
   }, [modalId]);
 
   useEffect(() => {
@@ -28,48 +33,54 @@ export function Modal ({ className, children, titleElementId, descriptionElement
     if (open) {
       onOpen && onOpen();
       dialogElement.showModal();
-      document.body.classList.add('modal--open');
+      console.log(dialogBackdropElement);
+      // dialogBackdropElement?.classList.add('modal--open');
     } else {
       dialogElement.close();
-      document.body.classList.remove('modal--open');
+      // dialogBackdropElement?.classList.remove('modal--open');
     }
   }, [dialogElement, open])
 
-  const handler = useCallback(() => {
-    onClose && onClose();
-    // dialogElement?.classList.add("modal--closing");
-    // requestAnimationFrame(() => {
-    //   dialogElement?.addEventListener("animationend", () => {
-    //     dialogElement?.classList.remove("modal--closing");
-    //   }, { once: true });
-    // });
-  }, [dialogElement, onClose]);
+  const onCloseHandler = useCallback((event: Event) => {
+    event.preventDefault();
+    onClose();
+  }, [onClose]);
 
   useEffect(() => {
-    if (!!onClose && dialogElement) {
-
-      dialogElement.addEventListener("cancel", handler);
-      return (() => dialogElement?.removeEventListener("cancel", handler));
+    if (dialogElement && dialogBackdropElement) {
+      dialogElement.addEventListener("cancel", onCloseHandler);
+      dialogBackdropElement.addEventListener("click", onCloseHandler);
+      return (() => {
+        dialogElement?.removeEventListener("cancel", onCloseHandler);
+        dialogBackdropElement?.removeEventListener("click", onCloseHandler);
+      });
     }
-  }, [dialogElement, handler]);
+  }, [dialogElement, dialogBackdropElement, onCloseHandler]);
 
   let dialogClassList = ["modal--content"];
   if (className) dialogClassList.push(...className.split(" "));
-  if (open) dialogClassList.push("modal--visible");
-  dialogClassList.push("");
+  if (open) {
+    dialogClassList.push("modal--visible");
+    dialogClassList.push("modal--open");
+  }
 
   const dialogClassStr = useMemo(() => dialogClassList.join(" "), [dialogClassList]);
   const dialogBackdropClassStr = useMemo(() => dialogClassList.join("--backdrop "), [dialogClassList]);
 
   return (
     <>
-      <div className={dialogBackdropClassStr}></div>
+      <div id={modalDialogId} className={dialogBackdropClassStr}></div>
       <dialog
         autoFocus={true}
         id={modalId}
         className={dialogClassStr}
         aria-labelledby={titleElementId}
         aria-describedby={descriptionElementId}>
+        {
+          (!useCustomCloseButton)
+            ? <a href="#" className="modal--close" aria-label="Close" onClick={onCloseHandler} />
+            : null
+        }
         {children}
       </dialog>
     </>

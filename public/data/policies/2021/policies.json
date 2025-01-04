@@ -63,7 +63,7 @@
     "year": 2021,
     "party": "Conservative",
     "title": {
-      "EN": "Build 145,000 additional homes in 3&nbsp;years",
+      "EN": "Build 145,000 additional homes in 3\u00A0years",
       "FR": "Construire 1 million de logements dans les 3 prochaines années"
     },
     "references": [
@@ -81,7 +81,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Build 120,000 additional homes, repair 130,000 homes in 4 years",
-      "FR": "Construire 120&nbsp;000 logements supplémentaires, réparer 130&nbsp;000 logements en 4 ans"
+      "FR": "Construire 120\u00A0000 logements supplémentaires, réparer 130\u00A0000 logements en 4 ans"
     },
     "references": [
       {
@@ -152,7 +152,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
-      "FR": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
+      "FR": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux\u00A0ans"
     },
     "references": [
       {
@@ -169,7 +169,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Release 15% of federal property for housing",
-      "FR": "Libérer 15&nbsp;% des propriétés fédérales pour le logement"
+      "FR": "Libérer 15\u00A0% des propriétés fédérales pour le logement"
     },
     "references": [
       {
@@ -262,7 +262,7 @@
     "party": "NDP",
     "title": {
       "EN": "Wealth tax of 1% per year",
-      "FR": "Impôt sur la fortune de 1&nbsp;% par an"
+      "FR": "Impôt sur la fortune de 1\u00A0% par an"
     },
     "references": [
       {
@@ -297,7 +297,7 @@
     "party": "Conservative",
     "title": {
       "EN": "5% investment tax credit for two years",
-      "FR": "Crédit d'impôt à l'investissement de 5&nbsp; pendant deux ans"
+      "FR": "Crédit d'impôt à l'investissement de 5\u00A0 pendant deux ans"
     },
     "references": [
       {
@@ -348,7 +348,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Low-interest loans for individuals up to $10,000 for additional training in skilled trades",
-      "FR": "Prêts à faible taux d'intérêt pour les particuliers, jusqu'à 10&nbsp;000&nbsp;$, pour une formation supplémentaire dans des métiers spécialisés"
+      "FR": "Prêts à faible taux d'intérêt pour les particuliers, jusqu'à 10\u00A0000\u00A0$, pour une formation supplémentaire dans des métiers spécialisés"
     },
     "references": [
       {
@@ -416,7 +416,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Ban foreign investors not living in or moving to Canada from buying homes for 2 years",
-      "FR": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux&nbsp;ans"
+      "FR": "Interdire aux investisseurs étrangers qui ne vivent pas ou ne s'installent pas au Canada d'acheter des maisons ici pendant deux\u00A0ans"
     },
     "references": [
       {
@@ -719,7 +719,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Reduce emissions by 30% below 2005 levels by 2030",
-      "FR": "Réduire les émissions de 30&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "FR": "Réduire les émissions de 30\u00A0% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -736,7 +736,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Protect 17% of Canada's lands and waters",
-      "FR": "Protéger 17&nbsp;% des terres et des eaux du Canada"
+      "FR": "Protéger 17\u00A0% des terres et des eaux du Canada"
     },
     "references": [
       {
@@ -789,7 +789,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Cap the carbon tax increase to a maximum of $50/ton for consumers",
-      "FR": "Plafonner l'augmentation de la taxe sur le carbone à un maximum de 50&nbsp;$/tonne pour les consommateurs"
+      "FR": "Plafonner l'augmentation de la taxe sur le carbone à un maximum de 50\u00A0$/tonne pour les consommateurs"
     },
     "references": [
       {
@@ -846,7 +846,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Reduce emissions by 40–45% below 2005 levels by 2030",
-      "FR": "Réduire les émissions de 40&nbsp;–&nbsp;45&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "FR": "Réduire les émissions de 40\u00A0–\u00A045\u00A0% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -863,7 +863,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Protect 25% of Canada's lands and waters by 2025",
-      "FR": "Protéger 25&nbsp;% des terres et des eaux du Canada d'ici 2025"
+      "FR": "Protéger 25\u00A0% des terres et des eaux du Canada d'ici 2025"
     },
     "references": [
       {
@@ -914,7 +914,7 @@
     "party": "NDP",
     "title": {
       "EN": "Reduce emissions by 50% below 2005 levels by 2030",
-      "FR": "Réduire les émissions de 50&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "FR": "Réduire les émissions de 50\u00A0% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -948,7 +948,7 @@
     "party": "Liberal",
     "title": {
       "EN": "100% of new light-duty cars and passenger trucks be zero-emissions by 2035",
-      "FR": "100&nbsp;% des nouvelles voitures légères et des nouveaux camions de passagers ne produiront pas d'émissions d'ici 2035"
+      "FR": "100\u00A0% des nouvelles voitures légères et des nouveaux camions de passagers ne produiront pas d'émissions d'ici 2035"
     },
     "references": [
       {
@@ -1472,7 +1472,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Increase the home accessibility tax credit to $20,000",
-      "FR": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20&nbsp;000&nbsp;$"
+      "FR": "Faire passer le crédit d'impôt pour l'accessibilité des résidences à 20\u00A0000\u00A0$"
     },
     "references": [
       {
@@ -1489,7 +1489,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Increase OAS by 10% for those 75+, indexed to inflation",
-      "FR": "Augmenter la SV de 10&nbsp;% pour les personnes de plus de 75&nbsp;ans, indexée à l'inflation"
+      "FR": "Augmenter la SV de 10\u00A0% pour les personnes de plus de 75\u00A0ans, indexée à l'inflation"
     },
     "references": [
       {
@@ -1523,7 +1523,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Cut income taxes by 50% for manufacturers of zero-emissions technologies",
-      "FR": "Réduire de 50&nbsp;% le taux d'imposition sur le revenu pour les fabricants de technologies à émissions nulles"
+      "FR": "Réduire de 50\u00A0% le taux d'imposition sur le revenu pour les fabricants de technologies à émissions nulles"
     },
     "references": [
       {
@@ -1580,7 +1580,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Interest-free loans up to $40,000 for deep retrofits of homes",
-      "FR": "Prêts sans intérêt jusqu'à 40&nbsp;000&nbsp;dollars pour des améliorations profondes des logements"
+      "FR": "Prêts sans intérêt jusqu'à 40\u00A0000\u00A0dollars pour des améliorations profondes des logements"
     },
     "references": [
       {
@@ -1689,7 +1689,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Increase threshold for repayment assistance on federal student loans to $40,000 for borrowers living alone",
-      "FR": "Augmenter le seuil de l'aide au remboursement des prêts étudiants fédéraux à 40&nbsp;000&nbsp;$ pour les emprunteurs vivant seuls"
+      "FR": "Augmenter le seuil de l'aide au remboursement des prêts étudiants fédéraux à 40\u00A0000\u00A0$ pour les emprunteurs vivant seuls"
     },
     "references": [
       {
@@ -1740,7 +1740,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Provide 98% of the country with high-speed broadband by 2026 and 100% by 2030",
-      "FR": "Fournir 98&nbsp;% du pays en haut débit d'ici 2026 et 100&nbsp;% d'ici 2030"
+      "FR": "Fournir 98\u00A0% du pays en haut débit d'ici 2026 et 100\u00A0% d'ici 2030"
     },
     "references": [
       {
@@ -1757,7 +1757,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Resettle 40,000 refugees from Afghanistan",
-      "FR": "Réinstaller 40&nbsp;000&nbsp;réfugiés d'Afghanistan"
+      "FR": "Réinstaller 40\u00A0000\u00A0réfugiés d'Afghanistan"
     },
     "references": [
       {
@@ -1797,7 +1797,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Increase the annual growth rate of the Canada Health Transfer to at least 6%",
-      "FR": "Faire passer le taux de croissance annuel du Transfert canadien en matière de santé à au moins 6&nbsp;%"
+      "FR": "Faire passer le taux de croissance annuel du Transfert canadien en matière de santé à au moins 6\u00A0%"
     },
     "references": [
       {
@@ -1831,7 +1831,7 @@
     "party": "Conservative",
     "title": {
       "EN": "$3 billion over three years to renovate Long-Term Care Homes",
-      "FR": "3 milliards de dollars sur trois&nbsp;ans pour rénover les foyers de soins de longue durée"
+      "FR": "3 milliards de dollars sur trois\u00A0ans pour rénover les foyers de soins de longue durée"
     },
     "references": [
       {
@@ -2116,7 +2116,7 @@
     "party": "NDP",
     "title": {
       "EN": "Cap merchant credit card fees at 1%",
-      "FR": "Plafonner les frais de carte de crédit des commerçants à 1&nbsp;%"
+      "FR": "Plafonner les frais de carte de crédit des commerçants à 1\u00A0%"
     },
     "references": [
       {
@@ -2133,7 +2133,7 @@
     "party": "NDP",
     "title": {
       "EN": "Build 500,000 affordable housing units in 10 years, 50% of those in 5 years",
-      "FR": "500&nbsp;000&nbsp;unités de logement abordables en 10&nbsp;ans, dont 50&nbsp;% en 5&nbsp;ans"
+      "FR": "500\u00A0000\u00A0unités de logement abordables en 10\u00A0ans, dont 50\u00A0% en 5\u00A0ans"
     },
     "references": [
       {
@@ -2150,7 +2150,7 @@
     "party": "NDP",
     "title": {
       "EN": "Allow 30-year mortgages on entry-level homes for first time home buyers",
-      "FR": "Permettre des hypothèques de 30&nbsp;ans sur les maisons d'entrée de gamme pour les acheteurs d'une première maison"
+      "FR": "Permettre des hypothèques de 30\u00A0ans sur les maisons d'entrée de gamme pour les acheteurs d'une première maison"
     },
     "references": [
       {
@@ -2218,7 +2218,7 @@
     "party": "NDP",
     "title": {
       "EN": "End homelessness in Canada within 10 years",
-      "FR": "Mettre fin à l'itinérance au Canada d'ici 10&nbsp;ans"
+      "FR": "Mettre fin à l'itinérance au Canada d'ici 10\u00A0ans"
     },
     "references": [
       {
@@ -2592,7 +2592,7 @@
     "party": "NDP",
     "title": {
       "EN": "Protect 30% of Canada's lands and waters by 2030",
-      "FR": "Protéger 30&nbsp;% des terres et des eaux du Canada d'ici 2030"
+      "FR": "Protéger 30\u00A0% des terres et des eaux du Canada d'ici 2030"
     },
     "references": [
       {
@@ -2661,7 +2661,7 @@
     "party": "NDP",
     "title": {
       "EN": "100% of new car sales to be zero-emissions by 2035",
-      "FR": "100&nbsp;% de toutes les ventes de voitures neuves devront être exemptes d'émissions d'ici 2035"
+      "FR": "100\u00A0% de toutes les ventes de voitures neuves devront être exemptes d'émissions d'ici 2035"
     },
     "references": [
       {
@@ -2678,7 +2678,7 @@
     "party": "NDP",
     "title": {
       "EN": "Net zero electricity by 2030, 100% non-emitting electricity by 2040",
-      "FR": "Électricité nette zéro d'ici 2030, électricité 100&nbsp;% non émettrice d'ici 2040"
+      "FR": "Électricité nette zéro d'ici 2030, électricité 100\u00A0% non émettrice d'ici 2040"
     },
     "references": [
       {
@@ -3086,7 +3086,7 @@
     "party": "NDP",
     "title": {
       "EN": "Contribute 0.7% of our Gross National Income to international aid",
-      "FR": "Contribuer 0,7&nbsp;% de notre revenu national brut à l'aide internationale"
+      "FR": "Contribuer 0,7\u00A0% de notre revenu national brut à l'aide internationale"
     },
     "references": [
       {
@@ -3291,7 +3291,7 @@
     "party": "NDP",
     "title": {
       "EN": "Require large employers to spend at least 1% of payroll on training for their employees annually",
-      "FR": "Obliger les grands employeurs à consacrer chaque année au moins 1&nbsp;% de la masse salariale à la formation de leurs employés"
+      "FR": "Obliger les grands employeurs à consacrer chaque année au moins 1\u00A0% de la masse salariale à la formation de leurs employés"
     },
     "references": [
       {
@@ -3325,7 +3325,7 @@
     "party": "NDP",
     "title": {
       "EN": "Lower the voting age to 16",
-      "FR": "Abaisser l'âge du droit de vote à 16&nbsp;ans"
+      "FR": "Abaisser l'âge du droit de vote à 16\u00A0ans"
     },
     "references": [
       {
@@ -3665,7 +3665,7 @@
     "party": "NDP",
     "title": {
       "EN": "Provide up to $5,000/year to renters",
-      "FR": "Fournir jusqu'à 5&nbsp;000&nbsp;$/an aux locataires"
+      "FR": "Fournir jusqu'à 5\u00A0000\u00A0$/an aux locataires"
     },
     "references": [
       {
@@ -3688,7 +3688,7 @@
     "party": "Conservative",
     "title": {
       "EN": "30% of light duty vehicles sold to be zero emissions by 2030",
-      "FR": "30&nbsp;% des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
+      "FR": "30\u00A0% des véhicules légers vendus ne produiront aucune émission d'ici à 2030"
     },
     "references": [
       {
@@ -3865,7 +3865,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Cover the cost of implementing “vaccine passports” for provinces and territories",
-      "FR": "Couvrir le coût de la mise en œuvre des «&nbsp;passeports vaccinaux&nbsp;» pour les provinces et les territoires"
+      "FR": "Couvrir le coût de la mise en œuvre des «\u00A0passeports vaccinaux\u00A0» pour les provinces et les territoires"
     },
     "references": [
       {
@@ -3882,7 +3882,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Provide funding to hire 7,500 new family doctors, nurses, and nurse practitioners",
-      "FR": "Fournir un financement pour l'embauche de 7&nbsp;500 nouveaux médecins de famille, infirmiers et infirmières praticiennes"
+      "FR": "Fournir un financement pour l'embauche de 7\u00A0500 nouveaux médecins de famille, infirmiers et infirmières praticiennes"
     },
     "references": [
       {
@@ -4013,7 +4013,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Reduce mortgage insurance costs by 25%",
-      "FR": "Réduire les frais d'assurance hypothécaire de 25&nbsp;%"
+      "FR": "Réduire les frais d'assurance hypothécaire de 25\u00A0%"
     },
     "references": [
       {
@@ -4046,7 +4046,7 @@
     "year": 2021,
     "party": "Liberal",
     "title": {
-      "EN": "Anti-flipping tax for properties held for <1&nbsp;year",
+      "EN": "Anti-flipping tax for properties held for <1\u00A0year",
       "FR": "Taxe anti-flipping pour les propriétés détenues depuis moins d'un an"
     },
     "references": [
@@ -4438,7 +4438,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Require oil and gas companies to reduce methane emissions by at least 75% below 2012 levels by 2030",
-      "FR": "Exiger des compagnies pétrolières et gazières qu'elles réduisent leurs émissions de méthane d'au moins 75&nbsp;% par rapport aux niveaux de 2012 d'ici 2030"
+      "FR": "Exiger des compagnies pétrolières et gazières qu'elles réduisent leurs émissions de méthane d'au moins 75\u00A0% par rapport aux niveaux de 2012 d'ici 2030"
     },
     "references": [
       {
@@ -4581,7 +4581,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Require that First Nations, Inuit, and Métis businesses and entrepreneurs own at least 5% of the total value of federal procurement contracts",
-      "FR": "Exiger que les entreprises et les entrepreneurs inuits, métis et des Premières nations détiennent au moins 5&nbsp;% de la valeur totale des contrats d'approvisionnement fédéraux"
+      "FR": "Exiger que les entreprises et les entrepreneurs inuits, métis et des Premières nations détiennent au moins 5\u00A0% de la valeur totale des contrats d'approvisionnement fédéraux"
     },
     "references": [
       {
@@ -4598,7 +4598,7 @@
     "party": "Liberal",
     "title": {
       "EN": "15% minimum tax rate for individuals who reach the top tax bracket",
-      "FR": "Taux d'imposition minimum de 15&nbsp;% pour les personnes qui atteignent la tranche d'imposition supérieure"
+      "FR": "Taux d'imposition minimum de 15\u00A0% pour les personnes qui atteignent la tranche d'imposition supérieure"
     },
     "references": [
       {
@@ -4632,7 +4632,7 @@
     "party": "NDP",
     "title": {
       "EN": "Dental care coverage for those earning <$90,000",
-      "FR": "Couverture des soins dentaires pour ceux qui gagnent <90&nbsp;000&nbsp;$"
+      "FR": "Couverture des soins dentaires pour ceux qui gagnent <90\u00A0000\u00A0$"
     },
     "references": [
       {

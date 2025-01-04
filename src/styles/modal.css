@@ -23,12 +23,14 @@ dialog::backdrop {
   opacity: 0;
   transition: opacity 0.2s ease-out;
   will-change: opacity;
+
+  &.modal--open {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
-.modal--open .modal--content--backdrop {
-  visibility: visible;
-  opacity: 1;
-}
+
 
 body:has(dialog.modal--content[open]) {
   overflow: hidden;
@@ -58,6 +60,7 @@ body:has(dialog.modal--content[open]) {
   &.modal--visible {
     transform: translateY(0px);
     visibility: visible;
+    transition: transform 0.2s ease;
   }
 }
 
@@ -131,7 +134,7 @@ body:has(dialog.modal--content[open]) {
   margin-bottom: 25px;
 }
 
-.policyModal--description {
+.card--description {
   margin: 0 20px 0 10px;
 }
 
@@ -225,6 +228,7 @@ body:has(dialog.modal--content[open]) {
 }
 
 .modal--close {
+  z-index: 3000;
   padding: 0;
   border: none;
   position: absolute;
@@ -265,7 +269,7 @@ body:has(dialog.modal--content[open]) {
 }
 
 .sidebar-link--title {
-  font-size: 1em;
+  font-size: 1.02em; /* hack to fix font rendering on Windows */
   margin: 0;
   color: #3a70f0;
   /* text-wrap: balance; */
@@ -274,6 +278,8 @@ body:has(dialog.modal--content[open]) {
 .sidebar-link--meta {
   font-size: 0.75em;
   letter-spacing: 0.05rem;
+  line-height: 0.9rem;
+  margin-top: 0.2rem;
   text-transform: uppercase;
   color: #999;
 }
@@ -303,7 +309,7 @@ body:has(dialog.modal--content[open]) {
 @media screen and (min-width: 800px) {
   .card--heading.card--heading__primary {
     margin-top: 21px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
   }
 
   .card--headingInfo {
@@ -332,7 +338,7 @@ body:has(dialog.modal--content[open]) {
     visibility: hidden;
     position: fixed;
 
-    background: #000;
+    background: var(--color-charcoal-darker);
     border: 1px solid #000;
     border-radius: 8px;
 
@@ -341,13 +347,14 @@ body:has(dialog.modal--content[open]) {
     &.modal--visible {
       transform: scale(1) translateY(0px);
       visibility: visible;
+      opacity: 1;
     }
   }
 
   .policyReferenceModal--content {
     max-width: 570px;
     height: fit-content;
-    min-height: 300px;
+    /* min-height: 300px; */
     min-width: 40%;
     overflow-y: auto;
   }
@@ -421,7 +428,7 @@ body:has(dialog.modal--content[open]) {
   .modal--close {
     top: 21px;
 
-    &::before {
+    &.on-dark-bg::before {
       color: var(--color-cream);
     }
 

@@ -54,7 +54,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Reduce cell phone bills by 25%",
-      "FR": "Réduire les factures de téléphonie cellulaire de 25&nbsp;%"
+      "FR": "Réduire les factures de téléphonie cellulaire de 25\u00A0%"
     },
     "references": [
       {
@@ -71,7 +71,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Raise basic personal income tax deduction to $15,000",
-      "FR": "Augmenter la déduction de base de l'impôt sur le revenu des particuliers à 15&nbsp;000&nbsp;$"
+      "FR": "Augmenter la déduction de base de l'impôt sur le revenu des particuliers à 15\u00A0000\u00A0$"
     },
     "references": [
       {
@@ -582,7 +582,7 @@
     "party": "Liberal",
     "title": {
       "EN": "10% additional tax on luxury cars, boats and personal aircraft >$100,000",
-      "FR": "10&nbsp;% d'impôt supplémentaire sur les voitures de luxe, les bateaux et les avions personnels dépassant 100&nbsp;000&nbsp;$"
+      "FR": "10\u00A0% d'impôt supplémentaire sur les voitures de luxe, les bateaux et les avions personnels dépassant 100\u00A0000\u00A0$"
     },
     "references": [
       {
@@ -599,7 +599,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Increase Canada Child Benefit by 15% for children <1 year old",
-      "FR": "Augmenter l'Allocation canadienne pour enfants par 15&nbsp;% aux enfants âgés de moins d'un an"
+      "FR": "Augmenter l'Allocation canadienne pour enfants par 15\u00A0% aux enfants âgés de moins d'un an"
     },
     "references": [
       {
@@ -616,7 +616,7 @@
     "party": "Liberal",
     "title": {
       "EN": "3% digital goods tax on revenue from sales of online advertising and user data on companies earning $1 billion annually and $40 million in Canada (e.g. Amazon, Netflix, Apple, Facebook)",
-      "FR": "3&nbsp;% d'impôt sur la vente de publicité en ligne et de données utilisateur sur les sociétés qui gagnent 1 milliard par année et 40 millions au Canada (par exemple Amazon, Netflix, Apple, Facebook)"
+      "FR": "3\u00A0% d'impôt sur la vente de publicité en ligne et de données utilisateur sur les sociétés qui gagnent 1 milliard par année et 40 millions au Canada (par exemple Amazon, Netflix, Apple, Facebook)"
     },
     "references": [
       {
@@ -633,7 +633,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Raise federal minimum wage to $15/hour",
-      "FR": "Augmenter le salaire minimum fédéral à 15&nbsp;$ / heure"
+      "FR": "Augmenter le salaire minimum fédéral à 15\u00A0$ / heure"
     },
     "references": [
       {
@@ -650,7 +650,7 @@
     "party": "NDP",
     "title": {
       "EN": "Raise federal minimum wage to $15/hour, increasing yearly until a \"living wage\" is reached in 4 years",
-      "FR": "Augmenter le salaire minimum fédéral à 15&nbsp;$ / heure, qui augmente chaque année jusqu'à ce qu'un « salaire vital » soit atteint en 4 ans"
+      "FR": "Augmenter le salaire minimum fédéral à 15\u00A0$ / heure, qui augmente chaque année jusqu'à ce qu'un « salaire vital » soit atteint en 4 ans"
     },
     "references": [
       {
@@ -667,7 +667,7 @@
     "party": "Green",
     "title": {
       "EN": "Raise federal minimum wage to $15/hour",
-      "FR": "Augmenter le salaire minimum fédéral à 15&nbsp;$ / heure"
+      "FR": "Augmenter le salaire minimum fédéral à 15\u00A0$ / heure"
     },
     "references": [
       {
@@ -734,7 +734,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Cut tax rate on lowest income bracket from 15% to 13.75%",
-      "FR": "Réduire le taux d'imposition de la tranche de revenu la plus basse de 15&nbsp;% à 13,75&nbsp;%"
+      "FR": "Réduire le taux d'imposition de la tranche de revenu la plus basse de 15\u00A0% à 13,75\u00A0%"
     },
     "references": [
       {
@@ -761,7 +761,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Reduce emissions by >30% below 2005 levels by 2030",
-      "FR": "Réduire les émissions de plus de 30&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "FR": "Réduire les émissions de plus de 30\u00A0% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": []
   },
@@ -771,7 +771,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Reduce emissions by 30% below 2005 levels by 2030",
-      "FR": "Réduire les émissions de 30&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "FR": "Réduire les émissions de 30\u00A0% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -794,7 +794,7 @@
     "party": "NDP",
     "title": {
       "EN": "Reduce emissions by 38% below 2005 levels by 2030",
-      "FR": "Réduire les émissions de 38&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "FR": "Réduire les émissions de 38\u00A0% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -811,7 +811,7 @@
     "party": "Green",
     "title": {
       "EN": "Reduce emissions by 60% below 2005 levels by 2030",
-      "FR": "Réduire les émissions de 60&nbsp;% par rapport aux niveaux de 2005 d'ici 2030"
+      "FR": "Réduire les émissions de 60\u00A0% par rapport aux niveaux de 2005 d'ici 2030"
     },
     "references": [
       {
@@ -828,7 +828,7 @@
     "party": "Conservative",
     "title": {
       "EN": "20% refundable tax credit for green renovations",
-      "FR": "Crédit d'impôt remboursable de 20&nbsp;% pour les rénovations vertes"
+      "FR": "Crédit d'impôt remboursable de 20\u00A0% pour les rénovations vertes"
     },
     "references": [
       {
@@ -959,7 +959,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Interest-free loans up to $40k for green renovations",
-      "FR": "Prêts sans intérêt jusqu'à 40&nbsp;000&nbsp;$ pour des rénovations vertes"
+      "FR": "Prêts sans intérêt jusqu'à 40\u00A0000\u00A0$ pour des rénovations vertes"
     },
     "references": [
       {
@@ -976,7 +976,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Up to $5k grant for new homes that are certified zero-emissions",
-      "FR": "Subvention pouvant atteindre 5&nbsp;000 dollars pour les maisons neuves certifiées zéro émission"
+      "FR": "Subvention pouvant atteindre 5\u00A0000 dollars pour les maisons neuves certifiées zéro émission"
     },
     "references": [
       {
@@ -1050,7 +1050,7 @@
     "party": "Liberal",
     "title": {
       "EN": "1% vacancy and speculation tax for non-resident, non-Canadians",
-      "FR": "Taxe de 1&nbsp;% sur l'inoccupation et la spéculation pour les non-résidents et les non-Canadiens"
+      "FR": "Taxe de 1\u00A0% sur l'inoccupation et la spéculation pour les non-résidents et les non-Canadiens"
     },
     "references": []
   },
@@ -1070,7 +1070,7 @@
     "party": "NDP",
     "title": {
       "EN": "15% foreign buyers tax on sale to individuals who aren't citizens or permanent residents",
-      "FR": "Une taxe de 15&nbsp;% sur les acheteurs étrangers perçue lors de la vente à des personnes qui ne sont ni citoyens ni résidents permanents"
+      "FR": "Une taxe de 15\u00A0% sur les acheteurs étrangers perçue lors de la vente à des personnes qui ne sont ni citoyens ni résidents permanents"
     },
     "references": []
   },
@@ -1097,7 +1097,7 @@
     "party": "Liberal",
     "title": {
       "EN": "Provide up to $2,500 for Canadians in need of housing",
-      "FR": "Fournir jusqu'à 2&nbsp;500&nbsp;$ aux canadiens à la recherche d'un logement"
+      "FR": "Fournir jusqu'à 2\u00A0500\u00A0$ aux canadiens à la recherche d'un logement"
     },
     "references": [
       {
@@ -1120,7 +1120,7 @@
     "party": "NDP",
     "title": {
       "EN": "Renter's benefit up to $5,000 for eligible households",
-      "FR": "Prestation locataire jusqu'à 5&nbsp;000&nbsp;$ pour les ménages éligibles"
+      "FR": "Prestation locataire jusqu'à 5\u00A0000\u00A0$ pour les ménages éligibles"
     },
     "references": [
       {
@@ -1154,7 +1154,7 @@
     "party": "NDP",
     "title": {
       "EN": "Build 50,000 affordable homes",
-      "FR": "Construire 50&nbsp;000 logements abordables"
+      "FR": "Construire 50\u00A0000 logements abordables"
     },
     "references": [
       {
@@ -1171,7 +1171,7 @@
     "party": "Green",
     "title": {
       "EN": "Build 25,000 affordable homes",
-      "FR": "Construire 25&nbsp;000 logements abordables"
+      "FR": "Construire 25\u00A0000 logements abordables"
     },
     "references": [
       {
@@ -1188,7 +1188,7 @@
     "party": "Green",
     "title": {
       "EN": "Increase corporate tax rate from 15% to 21%",
-      "FR": "Augmenter le taux d'imposition des sociétés de 15&nbsp;% à 21&nbsp;%"
+      "FR": "Augmenter le taux d'imposition des sociétés de 15\u00A0% à 21\u00A0%"
     },
     "references": [
       {
@@ -1220,7 +1220,7 @@
     "party": "Green",
     "title": {
       "EN": "3% digital goods tax on sale of products or services from transnational e-commerce companies (e.g. Amazon, Netflix, Apple, Facebook)",
-      "FR": "3&nbsp;% d'impôt sur la vente de produits numériques ou de services auprès des entreprises de commerce électronique (par exemple Amazon, Netflix, Apple, Facebook)"
+      "FR": "3\u00A0% d'impôt sur la vente de produits numériques ou de services auprès des entreprises de commerce électronique (par exemple Amazon, Netflix, Apple, Facebook)"
     },
     "references": [
       {
@@ -1236,7 +1236,7 @@
     "party": "Conservative",
     "title": {
       "EN": "Increase RESP grant from 20% to 30% for every dollar invested, up to $2,500/year",
-      "FR": "Augmenter la subvention de la REEE de 20&nbsp;% à 30&nbsp;% pour chaque dollar investi, jusqu'à 2&nbsp;500&nbsp;$ / an"
+      "FR": "Augmenter la subvention de la REEE de 20\u00A0% à 30\u00A0% pour chaque dollar investi, jusqu'à 2\u00A0500\u00A0$ / an"
     },
     "references": [
       {

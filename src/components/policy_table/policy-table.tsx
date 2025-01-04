@@ -5,6 +5,8 @@ import TopicSelector from './topic-selector'
 import { Party } from 'types/schema'
 import * as Policy from 'data/policy'
 import * as Util from 'support/util'
+import { Icon } from 'components/system/icon'
+import { PartySelectorModal } from 'components/policy_table/party-selector-modal';
 
 interface PolicyTableProps {
   dataset: Map<string, Array<Policy.T>>;
@@ -12,13 +14,31 @@ interface PolicyTableProps {
   year: string;
 }
 
+const defaultNationalParties = new Set([Party.Conservative, Party.Liberal, Party.NDP]);
+
 export default function PolicyTable ({ dataset, parties, year }: PolicyTableProps) {
   const { t } = useTranslation();
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
 
-  const sortedParties = React.useMemo(() => Util.shuffle(Array.from(parties)), [parties]);
+  const additionalPartiesSelectable = React.useMemo(() => parties.size > 3, [parties]);
+  const [sortedParties, setSortedParties] = React.useState(() => {
+    if (!additionalPartiesSelectable) {
+      return Util.shuffle(Array.from(parties));
+    }
+    const [defaultParties, remainingParties] = Util.partition(Array.from(parties), party => defaultNationalParties.has(party));
+    const remainingSlots = 3 - defaultParties.length;
+    const filledParties = defaultParties.concat(remainingParties.slice(0, remainingSlots));
+    return Util.shuffle(filledParties);
+  });
+
   const topics = React.useMemo(() => Policy.topicsInDataset(dataset), [dataset]);
   const [topicSelections, setTopicSelections] = React.useState<Map<string, boolean>>(new Map());
+
+  const [partySelectorModalVisible, setPartySelectorModalVisible] = React.useState(false);
+
+  const setPartySelections = (selections: Map<Party, boolean>) => {
+    setSortedParties(Array.from(selections.entries()).filter(([_, selected]) => selected).map(([party, _]) => party));
+  }
 
   const setAndPersistTopicSelections = (selections: Map<string, boolean>) => {
     setTopicSelections(selections);
@@ -92,12 +112,19 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
     setPolicyRows(rows.filter(x => x) as Array<React.JSX.Element>);
   }, [sortedParties, dataset, topicSelections]);
 
-
   const topicTitle = t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")
 
   return (
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
+        <PartySelectorModal
+          visible={partySelectorModalVisible}
+          onClose={() => setPartySelectorModalVisible(false)}
+          parties={parties}
+          selectedParties={sortedParties}
+          onUpdate={(parties) => setPartySelections(parties)}
+        />
+
         <div className="policyCells">
           <TopicSelector
             key={`topicSelector--${topics}`}
@@ -119,6 +146,20 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
               )
             })
           }
+
+          {
+            additionalPartiesSelectable
+            ? (
+              <a href="#" className="policyCell policyCell-action" onClick={(e) => {
+                e.preventDefault();
+                setPartySelectorModalVisible(true);
+                return false;
+              }}>
+                <Icon name="pencil" className="policyCell--info" />
+              </a>
+            )
+            : null
+          }
         </div>
       </div>
       <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
@@ -129,7 +170,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
         selections={topicSelections}
         className="policyTable--mobileFilter"
         onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
-      <div className="policyRows">
+      <div className={`policyRows ${additionalPartiesSelectable ? "policyRows--editHeader" : ""}`}>
         {
           (policyRows.length == 0)
           ? <div className="policyTable--empty">{t("no_topics_selected")}</div>

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useId, useEffect, useState, useLayoutEffect, useCallback } from 'react'
+import { useLayoutEffect, useCallback } from 'react'
 import { usePolicyModal } from 'contexts/policy-modal-context'
 import { useLanguage, useTranslation } from 'contexts/language-context';
 import { useURL } from 'contexts/router-context';
@@ -92,6 +92,8 @@ export default function PolicyModal () {
   if (content === "") {
     dialogClass += " policyReferenceModal--content"
     modalCloseClass += " reference-modal--close"
+  } else {
+    modalCloseClass += " on-dark-bg"
   }
 
   return (
@@ -100,15 +102,18 @@ export default function PolicyModal () {
       titleElementId="policyDialog__label"
       descriptionElementId="policyDialog__description"
       open={!!modalPolicy}
-      onClose={closeModal}>
+      onClose={closeModal}
+      useCustomCloseButton={true}>
       <Card direction={content === "" ? "column" : "row"}>
         <CardPrimaryContent compact={!content}>
           <a href="#" className={modalCloseClass} aria-label="Close" onClick={e => { e.preventDefault(); closeModal(); return false;}} />
           <CardBreadcrumb text={t(`topic.${modalPolicy.topic}`) + "—" + t(modalPolicy.party.toLowerCase())} />
           <CardHeading level={HeadingLevel.H1} text={modalPolicy.title[language]} id="policyDialog__label" />
-          <HTMLContainer id="policyDialog__description" className="policyModal--description">
-            <RawHTML html={content} />
-          </HTMLContainer>
+          <div className="card--description">
+            <HTMLContainer id="policyDialog__description">
+              <RawHTML html={content} />
+            </HTMLContainer>
+          </div>
         </CardPrimaryContent>
 
         <CardAside title={t("modal.references")}>

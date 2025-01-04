@@ -13,6 +13,14 @@ export function shuffle<T>(array: Array<T>): Array<T> {
   return array;
 }
 
+export function partition<T>(arr: Array<T>, predicate: (item: T) => boolean): [Array<T>, Array<T>] {
+  const init: [Array<T>, Array<T>] = [[], []];
+  return arr.reduce((acc, item) => {
+      acc[predicate(item) ? 0 : 1].push(item);
+      return acc;
+  }, init);
+};
+
 export function handleEnterAsClick(e: React.KeyboardEvent<HTMLElement>) {
   if(e.key === 'Enter') {
     e.currentTarget.click();
