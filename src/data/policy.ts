@@ -59,3 +59,19 @@ export function resetSelectedTopics(year: string): void {
 export function loadSelectedTopics(year: string): Array<string> {
   return getItem(`selectedTopics:${year}`, []);
 }
+
+export function partyToAcronym(party: Party) {
+  switch (party) {
+    case Party.Conservative:
+      return "CPC";
+    case Party.Green:
+      return "GPC";
+    case Party.Liberal:
+      return "LPC";
+    case Party.NDP:
+      return "NDP";
+    default:
+      const _exhaustiveCheck: never = party;
+      return _exhaustiveCheck;
+  }
+}

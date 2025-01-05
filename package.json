@@ -3,7 +3,8 @@
   "scripts": {
     "build": "vite build",
     "serve": "vite",
-    "preview": "vite preview --port 8080"
+    "preview": "vite preview --port 8080",
+    "generate-sitemap": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
     "@types/node": "^20.7.2",
