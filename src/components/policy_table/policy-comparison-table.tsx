@@ -50,23 +50,23 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
     async function fetchPolicies() {
       const policies = await Policy.byYear(year);
 
-      if (!ignore) {
-        let parties = new Set<Party>();
-        let policiesByHandle = new Map<string, Policy.T>();
+      if (ignore) return;
 
-        policies.forEach((policy) => {
-          if (policy.handle) {
-            policiesByHandle.set(`${partyToAcronym(policy.party)}/${policy.handle}`, policy);
-          }
+      let parties = new Set<Party>();
+      let policiesByHandle = new Map<string, Policy.T>();
 
-          parties.add(policy.party);
-        });
+      policies.forEach((policy) => {
+        if (policy.handle) {
+          policiesByHandle.set(`${partyToAcronym(policy.party)}/${policy.handle}`, policy);
+        }
 
-        setTableDataset(Policy.toDataset(policies));
-        setParties(parties);
-        setPoliciesByHandle(policiesByHandle);
-        setIsLoading(false);
-      }
+        parties.add(policy.party);
+      });
+
+      setTableDataset(Policy.toDataset(policies));
+      setParties(parties);
+      setPoliciesByHandle(policiesByHandle);
+      setIsLoading(false);
     }
 
     fetchPolicies();

@@ -11,8 +11,6 @@ interface SelectableItemProps<T> {
 }
 
 function SelectableItem<T>({ name, checked, className, onToggle, onRender }: SelectableItemProps<T>) {
-  const { t } = useTranslation();
-
   return (
     <li key={`filterBar--${name}`}>
       <label className={className} onKeyDown={handleEnterAsClick}>
@@ -35,10 +33,8 @@ interface SelectableListProps<T> {
 
 export default function SelectableList<T>({ items, className = "", selections, onUpdate, onRender, enableToggleAll = true, enableToggleNone = true }: SelectableListProps<T>) {
   const { t } = useTranslation();
-  const [itemSelections, setItemSelections] = React.useState(selections);
 
   const updateSelections = (selections: Map<T, boolean>) => {
-    setItemSelections(selections);
     onUpdate(selections);
   }
 
@@ -50,7 +46,7 @@ export default function SelectableList<T>({ items, className = "", selections, o
           <li className="list--item policyTable--filterBar--item policyTable--filterBar--toggleAll">
             {
               enableToggleAll
-              ? ([...itemSelections.entries()].every(([_item, checked]) => checked) ? null : (
+              ? ([...selections.entries()].every(([_item, checked]) => checked) ? null : (
                 <div className="policyTable--filterBar--toggle">
                   <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(items.map((item) => [item, true]))) }}>{t("select_all")}</a>
                 </div>
@@ -59,7 +55,7 @@ export default function SelectableList<T>({ items, className = "", selections, o
             }
             {
               enableToggleNone
-              ? ([...itemSelections.entries()].every(([_item, checked]) => !checked) ? null : (
+              ? ([...selections.entries()].every(([_item, checked]) => !checked) ? null : (
                 <div className="policyTable--filterBar--toggle">
                   <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(items.map((item) => [item, false]))) }}>{t("select_none")}</a>
                 </div>
@@ -71,7 +67,7 @@ export default function SelectableList<T>({ items, className = "", selections, o
         : null
       }
       {
-        [...itemSelections.entries()].map(([item, checked]) => {
+        [...selections.entries()].map(([item, checked]) => {
           return (
             <SelectableItem
               name={item}
@@ -79,7 +75,7 @@ export default function SelectableList<T>({ items, className = "", selections, o
               className="list--item policyTable--filterBar--item"
               checked={checked}
               onRender={onRender}
-              onToggle={() => updateSelections(new Map(itemSelections.set(item, !checked)))} />
+              onToggle={() => updateSelections(new Map(selections.set(item, !checked)))} />
           )
         })
       }

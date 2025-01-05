@@ -21,7 +21,8 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
 
   const additionalPartiesSelectable = React.useMemo(() => parties.size > 3, [parties]);
-  const [sortedParties, setSortedParties] = React.useState(() => {
+
+  const shuffledParties = React.useMemo(() => {
     if (!additionalPartiesSelectable) {
       return Util.shuffle(Array.from(parties));
     }
@@ -29,7 +30,13 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
     const remainingSlots = 3 - defaultParties.length;
     const filledParties = defaultParties.concat(remainingParties.slice(0, remainingSlots));
     return Util.shuffle(filledParties);
-  });
+  }, [parties, additionalPartiesSelectable]);
+
+  const [selectedParties, setSelectedParties] = React.useState(shuffledParties);
+
+  React.useMemo(() => {
+    setSelectedParties(shuffledParties);
+  }, [shuffledParties]);
 
   const topics = React.useMemo(() => Policy.topicsInDataset(dataset), [dataset]);
   const [topicSelections, setTopicSelections] = React.useState<Map<string, boolean>>(new Map());
@@ -37,7 +44,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   const [partySelectorModalVisible, setPartySelectorModalVisible] = React.useState(false);
 
   const setPartySelections = (selections: Map<Party, boolean>) => {
-    setSortedParties(Array.from(selections.entries()).filter(([_, selected]) => selected).map(([party, _]) => party));
+    setSelectedParties(Array.from(selections.entries()).filter(([_, selected]) => selected).map(([party, _]) => party));
   }
 
   const setAndPersistTopicSelections = (selections: Map<string, boolean>) => {
@@ -102,7 +109,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
           return (
             <PolicyRow
               topic={topic}
-              parties={sortedParties}
+              parties={selectedParties}
               policies={policies}
               key={topic} />
           )
@@ -110,9 +117,12 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
       });
 
     setPolicyRows(rows.filter(x => x) as Array<React.JSX.Element>);
-  }, [sortedParties, dataset, topicSelections]);
+  }, [selectedParties, dataset, topicSelections]);
 
   const topicTitle = t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")
+
+  console.log("selectedParties", selectedParties);
+  console.log("parties", parties);
 
   return (
     <div className="policyTable">
@@ -121,7 +131,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
           visible={partySelectorModalVisible}
           onClose={() => setPartySelectorModalVisible(false)}
           parties={parties}
-          selectedParties={sortedParties}
+          selectedParties={selectedParties}
           onUpdate={(parties) => setPartySelections(parties)}
         />
 
@@ -135,7 +145,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
             selections={topicSelections}
             onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
           {
-            sortedParties.map((party) => {
+            selectedParties.map((party) => {
               return (
                 <div
                   key={`partyTitle--${party}`}
