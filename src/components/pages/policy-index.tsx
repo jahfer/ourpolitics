@@ -4,6 +4,7 @@ import { useTranslation } from 'contexts/language-context'
 import Page from 'components/page'
 import * as Policy from 'data/policy'
 import { SelectedPartiesProvider } from 'contexts/selected-parties-context'
+import { Icon } from 'components/system/icon'
 
 interface PolicyIndexParams {
   year?: string,
@@ -20,7 +21,7 @@ export default function PolicyIndex (
 
   return (
     <SelectedPartiesProvider>
-      <Page title={year}>
+    <Page title={yearSelector}>
         <section className="section">
           {
             usingFilteredTopics ?
