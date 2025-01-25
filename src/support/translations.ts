@@ -87,7 +87,7 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
   },
   "topic.youth_child-care": {
     EN: "Youth & Child Care",
-    FR: `Jeunesse et soin des enfants`,
+    FR: `Soins à l'enfance et à la jeunesse`,
   },
   "topic.senate": {
     EN: "Senate",
@@ -155,7 +155,7 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
   },
   "no_topics_selected": {
     EN: `No topics selected. Try selecting a few by clicking on "Topics" above.`,
-    FR: `Aucun sujet n'a été sélectionné. Essayez d'en sélectionner quelques-uns en cliquant sur "Sujets" ci-dessus.`
+    FR: `Aucun sujet sélectionné. Essayez d'en choisir quelques-uns en cliquant sur « Sujets » ci-dessus.`
   },
   "policy_table.political_parties": {
     EN: "Political Parties",
@@ -163,11 +163,11 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
   },
   "policy_table.party_modal_selection_description": {
     EN: "Choose which parties to compare",
-    FR: "Choisir les partis à comparer"
+    FR: "Choisissez les partis à comparer"
   },
   "guide.whats_important_to_you": {
     EN: "What's important to you?",
-    FR: "Qu'est-ce qui est important pour vous?"
+    FR: "Qu'est-ce qui est important pour toi ?"
   },
   "guide.lets_go": {
     EN: "Let's go",

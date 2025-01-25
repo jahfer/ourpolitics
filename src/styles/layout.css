@@ -419,7 +419,7 @@
     }
 
     .policyCell.policyTopic, #policyTableColumn--topics {
-      flex-basis: 270px;
+      flex-basis: 328px;
       flex-grow: 0;
     }
 
