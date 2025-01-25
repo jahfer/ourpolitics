@@ -1,0 +1,20 @@
+[
+  {
+    "topic": "economy",
+    "year": 2025,
+    "party": "Conservative",
+    "title": {
+      "EN": "Something",
+      "FR": "Quelque chose"
+    },
+    "references": [
+      {
+        "date": "2025-09-11",
+        "title": "Test Title",
+        "publisher": "",
+        "url": ""
+      }
+    ],
+    "handle": "abc"
+  }
+]
