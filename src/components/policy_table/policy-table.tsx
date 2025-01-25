@@ -6,13 +6,16 @@ import { Party } from 'types/schema'
 import * as Policy from 'data/policy'
 import * as Util from 'support/util'
 import { Icon } from 'components/system/icon'
-import { PartySelectorModal } from 'components/policy_table/party-selector-modal';
+import { PartySelectorModal } from 'components/policy_table/party-selector-modal'
+import { getItem, setItem } from 'data/storage'
 
 interface PolicyTableProps {
   dataset: Map<string, Array<Policy.T>>;
   parties: Set<Party>;
   year: string;
 }
+
+const SELECTED_PARTIES = 'selectedParties';
 
 const defaultNationalParties = new Set([Party.Conservative, Party.Liberal, Party.NDP]);
 
@@ -23,13 +26,18 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   const additionalPartiesSelectable = React.useMemo(() => parties.size > 3, [parties]);
 
   const shuffledParties = React.useMemo(() => {
-    if (!additionalPartiesSelectable) {
-      return Util.shuffle(Array.from(parties));
-    }
-    const [defaultParties, remainingParties] = Util.partition(Array.from(parties), party => defaultNationalParties.has(party));
-    const remainingSlots = 3 - defaultParties.length;
-    const filledParties = defaultParties.concat(remainingParties.slice(0, remainingSlots));
-    return Util.shuffle(filledParties);
+    const p = getItem<Party[]>(SELECTED_PARTIES, () => {
+      if (!additionalPartiesSelectable) {
+        return Util.shuffle(Array.from(parties));
+      }
+      const [defaultParties, remainingParties] = Util.partition(Array.from(parties), party => defaultNationalParties.has(party));
+      const remainingSlots = 3 - defaultParties.length;
+      const filledParties = defaultParties.concat(remainingParties.slice(0, remainingSlots));
+      return Util.shuffle(filledParties);
+    }, 'session');
+
+    setItem(SELECTED_PARTIES, p, 'session');
+    return p;
   }, [parties, additionalPartiesSelectable]);
 
   const [selectedParties, setSelectedParties] = React.useState(shuffledParties);
@@ -44,7 +52,9 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   const [partySelectorModalVisible, setPartySelectorModalVisible] = React.useState(false);
 
   const setPartySelections = (selections: Map<Party, boolean>) => {
-    setSelectedParties(Array.from(selections.entries()).filter(([_, selected]) => selected).map(([party, _]) => party));
+    const parties = Array.from(selections.entries()).filter(([_, selected]) => selected).map(([party, _]) => party)
+    setSelectedParties(parties);
+    setItem(SELECTED_PARTIES, parties);
   }
 
   const setAndPersistTopicSelections = (selections: Map<string, boolean>) => {
@@ -157,19 +167,13 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
             })
           }
 
-          {
-            additionalPartiesSelectable
-            ? (
-              <a href="#" className="policyCell policyCell-action" onClick={(e) => {
-                e.preventDefault();
-                setPartySelectorModalVisible(true);
-                return false;
-              }}>
-                <Icon name="pencil" className="policyCell--info" />
-              </a>
-            )
-            : null
-          }
+          <a href="#" className="policyCell policyCell-action" onClick={(e) => {
+            e.preventDefault();
+            setPartySelectorModalVisible(true);
+            return false;
+          }}>
+            <Icon name="pencil" className="policyCell--info" />
+          </a>
         </div>
       </div>
       <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
@@ -180,7 +184,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
         selections={topicSelections}
         className="policyTable--mobileFilter"
         onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
-      <div className={`policyRows ${additionalPartiesSelectable ? "policyRows--editHeader" : ""}`}>
+      <div className={`policyRows policyRows--editHeader`}>
         {
           (policyRows.length == 0)
           ? <div className="policyTable--empty">{t("no_topics_selected")}</div>

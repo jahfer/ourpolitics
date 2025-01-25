@@ -6,15 +6,21 @@ function getStorage(type: StorageType): Storage {
   return type === 'session' ? sessionStorage : localStorage;
 }
 
-export function getItem<T>(key: string, defaultValue: T, storageType: StorageType = 'local'): T {
+export function getItem<T>(key: string, defaultValue: T | (() => T), storageType: StorageType = 'local'): T {
   const storage = getStorage(storageType);
   const storedValue = storage.getItem(key);
   if (storedValue === null) {
+    if (typeof defaultValue === 'function') {
+      return (defaultValue as () => T)();
+    }
     return defaultValue;
   }
   try {
     return JSON.parse(storedValue) as T;
   } catch {
+    if (typeof defaultValue === 'function') {
+      return (defaultValue as () => T)();
+    }
     return defaultValue;
   }
 }

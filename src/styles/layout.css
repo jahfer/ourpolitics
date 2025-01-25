@@ -418,6 +418,11 @@
       }
     }
 
+    .policyCell.policyTopic, #policyTableColumn--topics {
+      flex-basis: 280px;
+      flex-grow: 0;
+    }
+
     .policyTable--mobileFilter {
       display: none;
     }
