@@ -5,7 +5,7 @@ import { useSettings } from 'contexts/settings-context';
 import { Setting } from 'components/settings';
 
 interface HeaderProps {
-  subheading?: string
+  subheading?: string | React.ReactNode
 }
 
 export default function Header ({ subheading }: HeaderProps) {

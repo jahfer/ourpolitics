@@ -5,7 +5,7 @@ import { SettingsPanel } from 'components/settings'
 import { useLanguage } from 'contexts/language-context'
 
 interface PageProps {
-  title?: string,
+  title?: string | React.ReactNode,
   children: React.ReactNode,
   className?: string,
   showHeader?: boolean,

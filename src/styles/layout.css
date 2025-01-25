@@ -507,6 +507,10 @@
       justify-content: end;
       height: 100%;
     }
+
+    .langSelection {
+      margin-bottom: 0;
+    }
   }
 
   .policyTable {
