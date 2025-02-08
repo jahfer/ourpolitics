@@ -9,6 +9,7 @@ import { getItem, setItem } from 'data/storage'
 import { useSettings } from 'contexts/settings-context'
 import { Setting } from 'components/settings'
 import SelectableList from 'components/system/selectable-list'
+import { Icon } from 'components/system/icon'
 
 interface PolicyTableProps {
   dataset: Map<string, Array<Policy.T>>;
@@ -177,6 +178,13 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
                   key={`partyTitle--${party}`}
                   id={`policyTableColumn--${party}`}
                   className={`policyCell partyTitle backgroundColor--${party}`}>
+                  <div className="partyHeading--detailsCard">
+                    <p>{t(party.toLowerCase())}</p>
+                    <p className="partyHeading--detailsCard--content">
+                      Have won <b>1 majority</b> and <b>3 minority</b> governments since 2015. They have kept 85% of their electoral promises, either partially or fully.
+                      <br/><br/>
+                      <a href={"#"}>See history</a> <Icon inline={true} name="arrow-circle-right"></Icon></p>
+                  </div>
                   {t(party.toLowerCase())}
                 </div>
               )
