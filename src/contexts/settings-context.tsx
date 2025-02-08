@@ -4,11 +4,13 @@ import { isEqual } from 'lodash-es';
 interface Setting {
   key: string;
   element: ReactNode;
+  fillSpace: boolean;
 }
 
 interface SettingsContextProps {
   settings: Setting[];
-  registerSetting: (key: string, element: ReactNode) => void;
+  registerSetting: (key: string, element: ReactNode, fillSpace?: boolean) => void;
+  unregisterSetting: (key: string) => void;
 }
 
 const SettingsContext = createContext<SettingsContextProps | undefined>(undefined);
@@ -16,7 +18,7 @@ const SettingsContext = createContext<SettingsContextProps | undefined>(undefine
 export const SettingsProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [settings, setSettings] = useState<Setting[]>([]);
 
-  const registerSetting = (key: string, element: ReactNode) => {
+  const registerSetting = (key: string, element: ReactNode, fillSpace: boolean = false) => {
     setSettings((prevSettings) => {
       // Check if the setting with the same key already exists
       const existingSettingIndex = prevSettings.findIndex(setting => setting.key === key);
@@ -25,19 +27,23 @@ export const SettingsProvider: React.FC<{ children: ReactNode }> = ({ children }
         if (!isEqual(prevSettings[existingSettingIndex].element, element)) {
           // Replace the existing setting
           const updatedSettings = [...prevSettings];
-          updatedSettings[existingSettingIndex] = { key, element };
+          updatedSettings[existingSettingIndex] = { key, element, fillSpace };
           return updatedSettings;
         }
         // If the element is the same, return the previous settings
         return prevSettings;
       }
       // Add the new setting
-      return [...prevSettings, { key, element }];
+      return [...prevSettings, { key, element, fillSpace }];
     });
   };
 
+  const unregisterSetting = (key: string) => {
+    setSettings((prevSettings) => prevSettings.filter(setting => setting.key !== key));
+  };
+
   return (
-    <SettingsContext.Provider value={{ settings, registerSetting }}>
+    <SettingsContext.Provider value={{ settings, registerSetting, unregisterSetting }}>
       {children}
     </SettingsContext.Provider>
   );

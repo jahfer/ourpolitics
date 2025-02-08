@@ -17,10 +17,10 @@ export default function Header ({ subheading }: HeaderProps) {
   React.useEffect(() => {
     registerSetting('language', 
       <Setting label={t("settings.select_language")}>
-        <LanguageSelector />
+        <LanguageSelector darkTheme={true} />
       </Setting>
     );
-  }, []);
+  }, [language]);
 
   return (
     <header className="container section">

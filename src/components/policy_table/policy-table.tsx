@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useTranslation } from 'contexts/language-context'
+import { useLanguage, useTranslation } from 'contexts/language-context'
 import PolicyRow from './policy-row'
 import TopicSelector from './topic-selector'
 import { Party } from 'types/schema'
@@ -21,6 +21,7 @@ const SELECTED_PARTIES = 'selectedParties';
 const defaultNationalParties = new Set([Party.Conservative, Party.Liberal, Party.NDP]);
 
 export default function PolicyTable ({ dataset, parties, year }: PolicyTableProps) {
+  const { language } = useLanguage();
   const { t } = useTranslation();
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
 
@@ -131,7 +132,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
 
   const topicTitle = t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")
 
-  const { registerSetting } = useSettings();
+  const { registerSetting, unregisterSetting } = useSettings();
 
   React.useEffect(() => {
     console.log(getItem<Party[]>(SELECTED_PARTIES, []), selectedParties);
@@ -142,16 +143,20 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
       <Setting label={t("settings.policy_table.party_modal_selection_description")}>
         <SelectableList<Party>
           items={Array.from(parties)}
-          className="list--dark"
+          className="list--dark flex flex-responsive"
           selections={partySelections}
           onRender={(party) => t(party.toLowerCase())}
           onUpdate={(parties) => setPartySelections(parties)}
           enableToggleAll={false}
           enableToggleNone={false}
         />
-      </Setting>
+      </Setting>, true /* fillSpace */
     );
-  }, [parties, selectedParties])
+
+    return () => {
+      unregisterSetting('partySelector');
+    };
+  }, [language, parties, selectedParties])
 
   return (
     <div className="policyTable">

@@ -35,16 +35,6 @@
   border-radius: 6px;
 }
 
-.list li:first-child .list--item {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-}
-
-.list li:last-child .list--item {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-}
-
 .list--item {
   flex: 1;
   padding: 0.5rem 1rem;
@@ -55,18 +45,6 @@
   & > input[type="checkbox"] {
     margin-left: 1rem;
   }
-}
-
-.list--item:hover {
-  cursor: pointer;
-}
-
-.list--light .list--item:hover {
-  background-color: var(--color-cream-light);
-}
-
-.list--dark .list--item:hover {
-  background-color: var(--color-charcoal-dark);
 }
 
 .button--pill {
@@ -120,6 +98,34 @@
   &.flex-row {
     flex-direction: row;
   }
+
+  &.flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  &.flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  &.flex-no-wrap {
+    flex-wrap: nowrap;
+  }
+
+  &.flex-responsive {
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 800px) {
+      flex-direction: row;
+    }
+  }
+
+  &.flex-justify-center {
+    justify-content: center;
+  }
+}
+
+.flex-justify-end {
+  justify-content: end;
 }
 
 .flex-grow {
@@ -148,19 +154,20 @@
 .settings-panel {
   overflow: hidden;
   transition: max-height 0.3s ease;
-  max-height: 300px;
+  max-height: 350px;
   padding: 0.5rem 0;
 
+  &.collapsed {
+    max-height: 2.6rem;
+  }
+
   .settings-panel--content {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .settings-panel--settings {
     gap: 1rem;
-  }
-
-  &.collapsed {
-    max-height: 2.4rem;
   }
 }
 
@@ -244,7 +251,7 @@
     position: sticky;
     top: 10px;
     height: 3rem;
-    background: var(--color-charcoal-darker);
+    background: var(--color-charcoal-dark);
     color: #fff;
     text-align: center;
     display: flex;
@@ -333,7 +340,7 @@
   overflow-y: scroll;
   position: absolute;
   top: 100%;
-  border: 2px solid var(--color-charcoal-darker);
+  border: 2px solid var(--color-charcoal-dark);
   width: 100%;
   border-top: none;
   border-radius: 0;

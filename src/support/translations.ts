@@ -170,8 +170,8 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     FR: "Partis à comparer"
   },
   "settings.select_language": {
-    EN: "Select language",
-    FR: "Choisir la langue"
+    EN: "Language",
+    FR: "Langue"
   },
   "guide.whats_important_to_you": {
     EN: "What's important to you?",

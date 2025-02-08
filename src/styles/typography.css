@@ -133,8 +133,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
+    @media screen and (min-width: 600px) {
+      margin-bottom: 1rem;
+    }
   }
 }
 
