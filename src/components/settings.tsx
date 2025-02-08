@@ -33,6 +33,12 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({collapsed = true}) 
     setIsCollapsed(prevState => !prevState);
   }, []);
 
+  const handleClickOutside = useCallback((event: MouseEvent) => {
+    if (settingsPanelRef.current && !settingsPanelRef.current.contains(event.target as Node)) {
+      setIsCollapsed(true);
+    }
+  }, []);
+
   useEffect(() => {
     const handleScroll = () => {
       if (settingsPanelRef.current) {
@@ -44,10 +50,12 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({collapsed = true}) 
     };
 
     window.addEventListener('scroll', handleScroll);
+    document.addEventListener('mousedown', handleClickOutside);
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, []);
+  }, [handleClickOutside]);
 
   if (settings.length === 0) {
     return null;
