@@ -126,6 +126,10 @@
   &.flex-justify-between {
     justify-content: space-between;
   }
+
+  &.flex-justify-around {
+    justify-content: space-around;
+  }
 }
 
 .flex-justify-end {

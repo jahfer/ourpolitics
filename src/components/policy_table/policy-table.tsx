@@ -143,7 +143,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
       <Setting label={t("settings.policy_table.party_modal_selection_description")}>
         <SelectableList<Party>
           items={Array.from(parties)}
-          className="list--dark flex flex-responsive"
+          className="list--dark flex flex-responsive flex-justify-around"
           selections={partySelections}
           onRender={(party) => t(party.toLowerCase())}
           onUpdate={(parties) => setPartySelections(parties)}

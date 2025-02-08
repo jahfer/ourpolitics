@@ -201,8 +201,8 @@ a {
 }
 
 .list--dark .list--item:not(.active):hover {
-  background-color: var(--color-yellow-light);
-  color: var(--color-charcoal-darkest)
+  background-color: var(--color-grey-light);
+  color: var(--color-charcoal-darkest);
 }
 
 .policyRow:not(.tableHeader) {
