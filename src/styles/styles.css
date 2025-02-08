@@ -17,7 +17,7 @@ textarea {
 }
 
 body {
-  background-color: var(--color-charcoal-dark);
+  background-color: var(--color-charcoal-darker);
   color: #303030;
   font-family: 'Causten Round', sans-serif;
   line-height: 1.3em;
