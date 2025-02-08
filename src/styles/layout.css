@@ -51,6 +51,14 @@
   }
 }
 
+.list--light .list--item:hover {
+  background-color: var(--color-cream-light);
+}
+
+.list--dark .list--item:hover {
+  background-color: var(--color-charcoal-dark);
+}
+
 .button--pill {
   display: inline-block;
   border: 2px solid #d9d9ca;
