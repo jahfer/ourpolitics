@@ -29,6 +29,7 @@
 .guide--langSelector {
   font-weight: bold;
   user-select: none;
+  margin: 0 auto;
   color: var(--color-cream-darker);
 
   a {

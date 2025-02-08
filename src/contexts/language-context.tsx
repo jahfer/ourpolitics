@@ -77,24 +77,24 @@ export function LanguageSelector ({ className = "", darkTheme = false }: Languag
   const { language, setLanguage } = useLanguage();
 
   return (
-    <ul className={`list flex flex-row ${ darkTheme ? 'list--dark' : 'list--light' } ${className}`}>
+    <ul className={`list flex flex-row flex-justify-between ${ darkTheme ? 'list--dark' : 'list--light' } ${className}`}>
     {
       (language == LanguageOption.EN) ?
         <>
-          <li>
-            <span className="list--item disabled">English</span>
+          <li className="flex-grow">
+            <span className="list--item active">English</span>
           </li>
-          <li onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}>
+          <li className="flex-grow" onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}>
             <span className="list--item">Français</span>
           </li>
         </>
         :
         <>
-          <li onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}>
+          <li className="flex-grow" onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}>
             <span className="list--item">English</span>
           </li>
-          <li>
-            <span className="list--item disabled">Français</span>
+          <li className="flex-grow">
+            <span className="list--item active">Français</span>
           </li>
         </>
     }

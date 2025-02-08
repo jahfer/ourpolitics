@@ -187,7 +187,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
       <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
       <TopicSelector
         key={`topicSelector--${topics}`}
-        title={topicTitle}
+        title={t("guide.whats_important_to_you")}
         topics={topics}
         selections={topicSelections}
         className="policyTable--mobileFilter"

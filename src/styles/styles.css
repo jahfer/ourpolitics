@@ -180,28 +180,29 @@ a {
   border-bottom: 1px solid #eee;
 }
 
-.list--light .list--item.disabled {
-  color: var(--color-cream-darker);
+.list--light .list--item.active {
+  background: var(--color-yellow-light);
 }
 
-.list--dark .list--item.disabled {
-  color: var(--color-charcoal-medium);
+.list--dark .list--item.active {
+  background: var(--color-charcoal);
 }
 
-.list--item:not(.disabled):hover {
+.list--item:not(.active):hover {
   cursor: pointer;
 }
 
-.list--item.disabled:hover {
+.list--item.active:hover {
   cursor:default;
 }
 
-.list--light .list--item:not(.disabled):hover {
+.list--light .list--item:not(.active):hover {
   background-color: var(--color-cream-light);
 }
 
-.list--dark .list--item:not(.disabled):hover {
-  background-color: var(--color-charcoal);
+.list--dark .list--item:not(.active):hover {
+  background-color: var(--color-yellow-light);
+  color: var(--color-charcoal-darkest)
 }
 
 .policyRow:not(.tableHeader) {
