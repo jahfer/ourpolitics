@@ -29,13 +29,9 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  color: #404040;
   margin: 0;
   font-size: 1rem;
   text-align: left;
-  background: #fff;
-
-  border: 2px solid var(--color-cream-dark);
   border-radius: 6px;
 }
 
@@ -51,15 +47,26 @@
 
 .list--item {
   flex: 1;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  & > input[type="checkbox"] {
+    margin-left: 1rem;
+  }
 }
 
 .list--item:hover {
-  background-color: var(--color-cream-light);
   cursor: pointer;
+}
+
+.list--light .list--item:hover {
+  background-color: var(--color-cream-light);
+}
+
+.list--dark .list--item:hover {
+  background-color: var(--color-charcoal-dark);
 }
 
 .button--pill {
@@ -109,6 +116,10 @@
   &.flex-col {
     flex-direction: column;
   }
+
+  &.flex-row {
+    flex-direction: row;
+  }
 }
 
 .flex-grow {
@@ -128,6 +139,29 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.page-content {
+  flex: 1;
+}
+
+.settings-panel {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 300px;
+  padding: 0.5rem 0;
+
+  .settings-panel--content {
+    padding: 10px;
+  }
+
+  .settings-panel--settings {
+    gap: 1rem;
+  }
+
+  &.collapsed {
+    max-height: 2.4rem;
+  }
 }
 
 .topic-change-hint {
@@ -313,10 +347,6 @@
   visibility: visible;
 }
 
-.policyTable--filterBar--item {
-  border-bottom: 1px solid #eee;
-}
-
 .policyTable--filterBar--toggleAll {
   background: #fff;
   color: #757575;
@@ -400,16 +430,12 @@
     .header--secondary-content {
       display: flex;
       flex-flow: column nowrap;
-      justify-content: space-between;
+      justify-content: end;
       height: 100%;
     }
   }
 
   .policyTable {
-    .policyRows--editHeader {
-      padding-right: 46px;
-    }
-
     .policyRow {
       flex-direction: column;
 
@@ -419,8 +445,7 @@
     }
 
     .policyCell.policyTopic, #policyTableColumn--topics {
-      flex-basis: 328px;
-      flex-grow: 0;
+      max-width: 328px;
     }
 
     .policyTable--mobileFilter {

@@ -17,7 +17,7 @@ textarea {
 }
 
 body {
-  background-color: var(--color-cream);
+  background-color: var(--color-charcoal-darker);
   color: #303030;
   font-family: 'Causten Round', sans-serif;
   line-height: 1.3em;
@@ -42,6 +42,14 @@ a {
 
 .page {
   position: relative;
+}
+
+.page-content {
+  background-color: var(--color-cream);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  box-shadow: 0 -15px 15px rgba(0,0,0,0.2);
+  border-top: 2px solid #fff;
 }
 
 .section {
@@ -147,6 +155,20 @@ a {
 
 .footer {
   border-top: 1px solid var(--color-cream-darker);
+}
+
+.list--light {
+  color: #404040;
+  background: #fff;
+}
+
+.list--dark {
+  color: #fff;
+  background: var(--color-charcoal-darkest);
+}
+
+.list--light .policyTable--filterBar--item {
+  border-bottom: 1px solid #eee;
 }
 
 .policyRow:not(.tableHeader) {
@@ -409,6 +431,18 @@ a {
   color: #fff;
 }
 
+.settings-panel {
+  background-color: var(--color-charcoal-darker);
+  color: #fff;
+
+  .setting {
+    padding: 0rem 1rem 1rem;
+    border: 1px solid var(--color-charcoal-dark);
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+  }
+}
+
 @media screen and (min-width: 650px) {
   .policyCell--points {
     padding-left: 20px;
@@ -425,7 +459,6 @@ a {
   .pageSubTitle {
     font-size: 4.5rem;
     margin: 0;
-    padding-bottom: 10px;
   }
 
   .policyCell {

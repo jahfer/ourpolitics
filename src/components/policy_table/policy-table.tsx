@@ -5,9 +5,10 @@ import TopicSelector from './topic-selector'
 import { Party } from 'types/schema'
 import * as Policy from 'data/policy'
 import * as Util from 'support/util'
-import { Icon } from 'components/system/icon'
-import { PartySelectorModal } from 'components/policy_table/party-selector-modal'
 import { getItem, setItem } from 'data/storage'
+import { useSettings } from 'contexts/settings-context'
+import { Setting } from 'components/settings'
+import SelectableList from 'components/system/selectable-list'
 
 interface PolicyTableProps {
   dataset: Map<string, Array<Policy.T>>;
@@ -37,24 +38,23 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
     }, 'session');
 
     setItem(SELECTED_PARTIES, p, 'session');
-    return p;
+    return p.filter(party => parties.has(party));
   }, [parties, additionalPartiesSelectable]);
 
   const [selectedParties, setSelectedParties] = React.useState(shuffledParties);
 
   React.useMemo(() => {
+    console.log("Setting selected parties", shuffledParties, parties);
     setSelectedParties(shuffledParties);
   }, [shuffledParties]);
 
   const topics = React.useMemo(() => Policy.topicsInDataset(dataset), [dataset]);
   const [topicSelections, setTopicSelections] = React.useState<Map<string, boolean>>(new Map());
 
-  const [partySelectorModalVisible, setPartySelectorModalVisible] = React.useState(false);
-
   const setPartySelections = (selections: Map<Party, boolean>) => {
     const parties = Array.from(selections.entries()).filter(([_, selected]) => selected).map(([party, _]) => party)
     setSelectedParties(parties);
-    setItem(SELECTED_PARTIES, parties);
+    setItem(SELECTED_PARTIES, parties, 'session');
   }
 
   const setAndPersistTopicSelections = (selections: Map<string, boolean>) => {
@@ -131,20 +131,31 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
 
   const topicTitle = t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")
 
-  console.log("selectedParties", selectedParties);
-  console.log("parties", parties);
+  const { registerSetting } = useSettings();
+
+  React.useEffect(() => {
+    console.log(getItem<Party[]>(SELECTED_PARTIES, []), selectedParties);
+
+    const partySelections = new Map(Array.from(parties).map(party => [party, selectedParties.includes(party)]));
+
+    registerSetting('partySelector',
+      <Setting label={t("settings.policy_table.party_modal_selection_description")}>
+        <SelectableList<Party>
+          items={Array.from(parties)}
+          className="list--dark"
+          selections={partySelections}
+          onRender={(party) => t(party.toLowerCase())}
+          onUpdate={(parties) => setPartySelections(parties)}
+          enableToggleAll={false}
+          enableToggleNone={false}
+        />
+      </Setting>
+    );
+  }, [parties, selectedParties])
 
   return (
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
-        <PartySelectorModal
-          visible={partySelectorModalVisible}
-          onClose={() => setPartySelectorModalVisible(false)}
-          parties={parties}
-          selectedParties={selectedParties}
-          onUpdate={(parties) => setPartySelections(parties)}
-        />
-
         <div className="policyCells">
           <TopicSelector
             key={`topicSelector--${topics}`}
@@ -166,14 +177,6 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
               )
             })
           }
-
-          <a href="#" className="policyCell policyCell-action" onClick={(e) => {
-            e.preventDefault();
-            setPartySelectorModalVisible(true);
-            return false;
-          }}>
-            <Icon name="pencil" className="policyCell--info" />
-          </a>
         </div>
       </div>
       <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
@@ -184,7 +187,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
         selections={topicSelections}
         className="policyTable--mobileFilter"
         onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
-      <div className={`policyRows policyRows--editHeader`}>
+      <div className="policyRows">
         {
           (policyRows.length == 0)
           ? <div className="policyTable--empty">{t("no_topics_selected")}</div>

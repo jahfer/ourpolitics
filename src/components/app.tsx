@@ -8,6 +8,7 @@ import GuidedPolicyIndex from 'components/pages/guided-policy-index'
 
 import { LanguageProvider } from 'contexts/language-context'
 import { RouterProvider, route } from 'contexts/router-context'
+import { SettingsProvider } from 'contexts/settings-context'
 
 import { LanguageOption } from 'types/schema'
 import Redirect from 'components/redirect'
@@ -48,7 +49,9 @@ export default function App () {
   return (
     <React.StrictMode>
       <LanguageProvider defaultLanguage={LanguageOption.EN}>
-        <RouterProvider routes={routes} />
+        <SettingsProvider>
+          <RouterProvider routes={routes} />
+        </SettingsProvider>
       </LanguageProvider>
     </React.StrictMode>
   )

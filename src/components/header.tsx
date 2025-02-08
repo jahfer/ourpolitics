@@ -1,6 +1,8 @@
 import * as React from 'react'
 import { useLanguage, useTranslation, LanguageSelector } from 'contexts/language-context'
 import { Link } from './system/link';
+import { useSettings } from 'contexts/settings-context';
+import { Setting } from 'components/settings';
 
 interface HeaderProps {
   subheading?: string
@@ -10,6 +12,16 @@ export default function Header ({ subheading }: HeaderProps) {
   const { language } = useLanguage();
   const { t } = useTranslation();
 
+  const { registerSetting } = useSettings();
+
+  React.useEffect(() => {
+    registerSetting('language', 
+      <Setting label={t("settings.select_language")}>
+        <LanguageSelector />
+      </Setting>
+    );
+  }, []);
+
   return (
     <header className="container section">
       <div className="header">
@@ -18,9 +30,6 @@ export default function Header ({ subheading }: HeaderProps) {
             <h1 className={`pageTitle lang-${language}`}> {t("our_politics")} </h1>
           </Link>
           <div className="header--secondary-content">
-            <div className="langSelection">
-              <LanguageSelector />
-            </div>
             {
               subheading ?
                 <h2 className="pageSubTitle">{subheading}</h2>

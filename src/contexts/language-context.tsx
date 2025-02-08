@@ -74,24 +74,24 @@ export function LanguageSelector () {
   return (language == LanguageOption.EN) ?
     <>
       <span className="active">
-        EN
+        English
       </span>
       <span> | </span>
       <a
         href="#"
         onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}>
-        FR
+        Français
       </a>
     </> :
     <>
       <a
         href="#"
         onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}>
-        EN
+        English
       </a>
       <span> | </span>
       <span className="active">
-        FR
+        Français
       </span>
     </>
 }
