@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Header from 'components/header'
 import Footer from 'components/footer'
+import { SettingsPanel } from 'components/settings'
 import { useLanguage } from 'contexts/language-context'
 
 interface PageProps {
@@ -15,19 +16,22 @@ export default function Page ({title, children, showHeader = true, showFooter = 
 
   return (
     <div className={`page lang-${language}`}>
-      {
-        showHeader ?
-          <Header subheading={title} />
-          : null
-      }
-      <div className="container content">
-        { children }
-      </div>
-      {
-        showFooter ?
-          <Footer />
-          : null
-      }
+      <SettingsPanel />
+      <main className="page-content">
+        {
+          showHeader ?
+            <Header subheading={title} />
+            : null
+        }
+        <div className="container content">
+          { children }
+        </div>
+        {
+          showFooter ?
+            <Footer />
+            : null
+        }
+      </main>
     </div>
   )
 }

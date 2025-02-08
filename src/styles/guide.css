@@ -10,7 +10,7 @@
   max-width: min(calc(100vw - 2rem), 800px);
   text-align: center;
   padding: 2rem 0.5rem;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
 
   border: 1px solid var(--color-cream-darker);
   background: linear-gradient(to top, #faf6f1, #f9f5f0);
@@ -112,7 +112,7 @@
 .guide--topic-selector-item-checked {
   border-color: #fff !important;
   background-color: #fff !important;
-  color: var(--color-charcoal-darker);
+  color: var(--color-charcoal-dark);
 }
 
 .guide--submit-actions {

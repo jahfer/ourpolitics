@@ -41,6 +41,10 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Green",
     FR: "Vert",
   },
+  "settings": {
+    EN: "Settings",
+    FR: `Paramètres`,
+  },
   "topic.foreign-policy": {
     EN: "Foreign Policy",
     FR: `Affaires étrangères`,
@@ -161,9 +165,13 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Political Parties",
     FR: `Partis politiques`
   },
-  "policy_table.party_modal_selection_description": {
-    EN: "Choose which parties to compare",
-    FR: "Choisissez les partis à comparer"
+  "settings.policy_table.party_modal_selection_description": {
+    EN: "Parties to compare",
+    FR: "Partis à comparer"
+  },
+  "settings.select_language": {
+    EN: "Language",
+    FR: "Langue"
   },
   "guide.whats_important_to_you": {
     EN: "What's important to you?",

@@ -51,7 +51,7 @@ export default function TopicSelector({ topics, onUpdate, title, id = "", classN
       {title}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
       <SelectableList<string>
         items={topics}
-        className={`policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`}
+        className={`list--light policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`}
         selections={selections}
         onUpdate={onUpdate}
         onRender={(topic) => t(`topic.${topic}`)}

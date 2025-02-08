@@ -52,7 +52,7 @@ body:has(dialog.modal--content[open]) {
   border: none;
 
   display: block;
-  transform: translateY(800px);
+  transform: translateY(1000px);
   transition: transform 0.2s ease;
 
   box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.2);
@@ -338,7 +338,7 @@ body:has(dialog.modal--content[open]) {
     visibility: hidden;
     position: fixed;
 
-    background: var(--color-charcoal-darker);
+    background: var(--color-charcoal-dark);
     border: 1px solid #000;
     border-radius: 8px;
 
@@ -417,7 +417,7 @@ body:has(dialog.modal--content[open]) {
   .sidebar-link {
     &:hover, &:active {
       border-color: var(--color-yellow);
-      background-color: var(--color-charcoal-dark);
+      background-color: var(--color-charcoal);
     }
   }
 

@@ -68,30 +68,60 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
   );
 }
 
-export function LanguageSelector () {
+interface LanguageSelectorProps {
+  darkTheme?: boolean;
+  className?: string;
+}
+
+export function LanguageSelector ({ className = "", darkTheme = false }: LanguageSelectorProps) {
   const { language, setLanguage } = useLanguage();
 
-  return (language == LanguageOption.EN) ?
-    <>
-      <span className="active">
-        EN
-      </span>
-      <span> | </span>
-      <a
-        href="#"
-        onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}>
-        FR
-      </a>
-    </> :
-    <>
-      <a
-        href="#"
-        onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}>
-        EN
-      </a>
-      <span> | </span>
-      <span className="active">
-        FR
-      </span>
-    </>
+  return (
+    <ul className={`list flex flex-row ${ darkTheme ? 'list--dark' : 'list--light' } ${className}`}>
+    {
+      (language == LanguageOption.EN) ?
+        <>
+          <li>
+            <span className="list--item disabled">English</span>
+          </li>
+          <li onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}>
+            <span className="list--item">Français</span>
+          </li>
+        </>
+        :
+        <>
+          <li onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}>
+            <span className="list--item">English</span>
+          </li>
+          <li>
+            <span className="list--item disabled">Français</span>
+          </li>
+        </>
+    }
+    </ul>
+  )
+
+  // return (language == LanguageOption.EN) ?
+  //   <>
+  //     <span className="active">
+  //       English
+  //     </span>
+  //     <span> | </span>
+  //     <a
+  //       href="#"
+  //       onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}>
+  //       Français
+  //     </a>
+  //   </> :
+  //   <>
+  //     <a
+  //       href="#"
+  //       onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}>
+  //       English
+  //     </a>
+  //     <span> | </span>
+  //     <span className="active">
+  //       Français
+  //     </span>
+  //   </>
 }

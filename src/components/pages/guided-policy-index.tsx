@@ -50,6 +50,10 @@ export default function GuidedPolicyIndex (
     <Page showHeader={false} showFooter={false}>
       <section className="section">
         <div className="guide--wrapper">
+          <div className="guide--langSelector">
+            <LanguageSelector className="flex-justify-center" />
+          </div>
+
           <div className="guide">
             <div className="guide--heading">
               <h1>{t("guide.whats_important_to_you")}</h1>
@@ -86,9 +90,6 @@ export default function GuidedPolicyIndex (
                                   Policy.resetSelectedTopics(year)
                                 }}>{t("guide.see_all_policies")}</Link></p>
             </div>
-          </div>
-          <div className="guide--langSelector">
-            <LanguageSelector />
           </div>
         </div>
       </section>

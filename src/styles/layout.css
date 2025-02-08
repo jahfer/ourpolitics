@@ -29,37 +29,22 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  color: #404040;
   margin: 0;
   font-size: 1rem;
   text-align: left;
-  background: #fff;
-
-  border: 2px solid var(--color-cream-dark);
   border-radius: 6px;
-}
-
-.list li:first-child .list--item {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-}
-
-.list li:last-child .list--item {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
 }
 
 .list--item {
   flex: 1;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
 
-.list--item:hover {
-  background-color: var(--color-cream-light);
-  cursor: pointer;
+  & > input[type="checkbox"] {
+    margin-left: 1rem;
+  }
 }
 
 .button--pill {
@@ -109,6 +94,38 @@
   &.flex-col {
     flex-direction: column;
   }
+
+  &.flex-row {
+    flex-direction: row;
+  }
+
+  &.flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  &.flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  &.flex-no-wrap {
+    flex-wrap: nowrap;
+  }
+
+  &.flex-responsive {
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 800px) {
+      flex-direction: row;
+    }
+  }
+
+  &.flex-justify-center {
+    justify-content: center;
+  }
+}
+
+.flex-justify-end {
+  justify-content: end;
 }
 
 .flex-grow {
@@ -128,6 +145,30 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.page-content {
+  flex: 1;
+}
+
+.settings-panel {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 350px;
+  padding: 0.5rem 0;
+
+  &.collapsed {
+    max-height: 2.6rem;
+  }
+
+  .settings-panel--content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .settings-panel--settings {
+    gap: 1rem;
+  }
 }
 
 .topic-change-hint {
@@ -210,7 +251,7 @@
     position: sticky;
     top: 10px;
     height: 3rem;
-    background: var(--color-charcoal-darker);
+    background: var(--color-charcoal-dark);
     color: #fff;
     text-align: center;
     display: flex;
@@ -299,7 +340,7 @@
   overflow-y: scroll;
   position: absolute;
   top: 100%;
-  border: 2px solid var(--color-charcoal-darker);
+  border: 2px solid var(--color-charcoal-dark);
   width: 100%;
   border-top: none;
   border-radius: 0;
@@ -311,10 +352,6 @@
 
 .policyTable--filterBar--open {
   visibility: visible;
-}
-
-.policyTable--filterBar--item {
-  border-bottom: 1px solid #eee;
 }
 
 .policyTable--filterBar--toggleAll {
@@ -400,16 +437,12 @@
     .header--secondary-content {
       display: flex;
       flex-flow: column nowrap;
-      justify-content: space-between;
+      justify-content: end;
       height: 100%;
     }
   }
 
   .policyTable {
-    .policyRows--editHeader {
-      padding-right: 46px;
-    }
-
     .policyRow {
       flex-direction: column;
 
@@ -419,8 +452,7 @@
     }
 
     .policyCell.policyTopic, #policyTableColumn--topics {
-      flex-basis: 328px;
-      flex-grow: 0;
+      max-width: 328px;
     }
 
     .policyTable--mobileFilter {
