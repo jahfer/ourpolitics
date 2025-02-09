@@ -12,7 +12,7 @@ interface SelectableItemProps<T> {
 
 function SelectableItem<T>({ name, checked, className, onToggle, onRender }: SelectableItemProps<T>) {
   return (
-    <li key={`filterBar--${name}`} className="flex-grow">
+    <li key={`filterBar--${name}`} className="flex-default">
       <label className={className} onKeyDown={handleEnterAsClick}>
         {onRender(name)}
         <input checked={checked} onChange={onToggle} type="checkbox" />

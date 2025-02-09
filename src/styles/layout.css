@@ -136,6 +136,10 @@
   justify-content: end;
 }
 
+.flex-default {
+  flex: 1;
+}
+
 .flex-grow {
   flex-grow: 1;
 }

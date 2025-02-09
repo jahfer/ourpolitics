@@ -201,8 +201,19 @@ a {
 }
 
 .list--dark .list--item:not(.active):hover {
-  background-color: var(--color-grey-light);
+  background-color: var(--color-grey-lighter);
   color: var(--color-charcoal-darkest);
+}
+
+.list--dark li {
+  @media screen and (min-width: 800px) {
+    flex-direction: row;
+    border-right: 1px solid var(--color-charcoal);
+  }
+
+  &:last-of-type {
+    border-right: none;
+  }
 }
 
 .policyRow:not(.tableHeader) {

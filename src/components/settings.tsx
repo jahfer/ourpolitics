@@ -6,12 +6,13 @@ import { fill } from 'lodash-es';
 
 interface SettingProps {
   label: string;
+  className?: string;
   children: React.ReactNode;
 }
 
-export function Setting ({label, children}: SettingProps) {
+export function Setting ({label, children, className}: SettingProps) {
   return (
-    <div className="setting">
+    <div className={`setting ${className || ''}`}>
       <h2>{label}</h2>
       {children}
     </div>

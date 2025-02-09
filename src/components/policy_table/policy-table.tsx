@@ -156,7 +156,7 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
     return () => {
       unregisterSetting('partySelector');
     };
-  }, [language, parties, selectedParties])
+  }, [language, parties, selectedParties]);
 
   return (
     <div className="policyTable">
