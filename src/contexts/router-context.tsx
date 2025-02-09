@@ -6,6 +6,9 @@ type RouteHandler<T extends string> =
   T extends `/${infer Namespace}/:${infer Param}/:${infer Param}/:${infer Param}`
   ? (a: string, b: string, c: string) => React.ReactElement
 
+  : T extends `/${infer Namespace}/:${infer Param}/${infer Namespace}/:${infer Param}`
+  ? (a: string, b: string) => React.ReactElement
+
   : T extends `/${infer Namespace}/:${infer Param}/:${infer Param}`
   ? (a: string, b: string) => React.ReactElement
 
@@ -87,6 +90,7 @@ function makeMount(pathComponents: string[], route: Route): () => React.ReactEle
 
 function mountRoute(path: string, routes: Route[]): React.ReactElement {
   const pathComponents = path.split('/').filter(part => part.length > 0);
+  console.log(pathComponents, routes.find(route => matchPath(pathComponents, route)))
   const route = routes.find(route => matchPath(pathComponents, route));
 
   if (!route) {

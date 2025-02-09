@@ -14,13 +14,15 @@ interface PolicyTableProps {
   dataset: Map<string, Array<Policy.T>>;
   parties: Set<Party>;
   year: string;
+  enableTopicFilter: boolean;
+  enableFloatingHeader: boolean;
 }
 
 const SELECTED_PARTIES = 'selectedParties';
 
 const defaultNationalParties = new Set([Party.Conservative, Party.Liberal, Party.NDP]);
 
-export default function PolicyTable ({ dataset, parties, year }: PolicyTableProps) {
+export default function PolicyTable ({ dataset, parties, year, enableTopicFilter, enableFloatingHeader }: PolicyTableProps) {
   const { language } = useLanguage();
   const { t } = useTranslation();
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
@@ -45,7 +47,6 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   const [selectedParties, setSelectedParties] = React.useState(shuffledParties);
 
   React.useMemo(() => {
-    console.log("Setting selected parties", shuffledParties, parties);
     setSelectedParties(shuffledParties);
   }, [shuffledParties]);
 
@@ -79,6 +80,8 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   let elTop = 0;
 
   React.useEffect(() => {
+    if (!enableFloatingHeader) return;
+
     const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
     let initialHeaderTop = $tableHeader.getBoundingClientRect().top;
     let initialBodyTop = document.body.getBoundingClientRect().top;
@@ -86,6 +89,8 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   }, []);
 
   React.useEffect(() => {
+    if (!enableFloatingHeader) return;
+    
     let ignore = false;
     const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
     const handler = () => {
@@ -135,8 +140,6 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
   const { registerSetting, unregisterSetting } = useSettings();
 
   React.useEffect(() => {
-    console.log(getItem<Party[]>(SELECTED_PARTIES, []), selectedParties);
-
     const partySelections = new Map(Array.from(parties).map(party => [party, selectedParties.includes(party)]));
 
     registerSetting('partySelector',
@@ -162,14 +165,28 @@ export default function PolicyTable ({ dataset, parties, year }: PolicyTableProp
     <div className="policyTable">
       <div id="tableHeader" className="policyRow container tableHeader">
         <div className="policyCells">
-          <TopicSelector
-            key={`topicSelector--${topics}`}
-            id="policyTableColumn--topics"
-            className="policyCell partyTitle backgroundColor--Empty"
-            title={topicTitle}
-            topics={topics}
-            selections={topicSelections}
-            onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
+
+          {
+            enableTopicFilter ?
+              (
+                <TopicSelector
+                  key={`topicSelector--${topics}`}
+                  id="policyTableColumn--topics"
+                  className="policyCell partyTitle backgroundColor--Empty"
+                  title={topicTitle}
+                  topics={topics}
+                  selections={topicSelections}
+                  onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
+              ) :
+              (
+                <div
+                  id="policyTableColumn--topics"
+                  className="policyCell partyTitle backgroundColor--Empty">
+                  {t("topics")}
+                </div>
+              )
+          }
+          
           {
             selectedParties.map((party) => {
               return (

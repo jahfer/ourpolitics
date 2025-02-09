@@ -10,6 +10,8 @@ import Banner from '../banner'
 interface PolicyComparisonTableProps {
   year: string,
   selectedHandle?: string,
+  canFilterTopics?: boolean,
+  floatingHeader?: boolean,
 }
 
 function partyToAcronym(party: Party) {
@@ -28,7 +30,7 @@ function partyToAcronym(party: Party) {
   }
 }
 
-export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyComparisonTableProps) {
+export default function PolicyComparisonTable ({ year, selectedHandle, canFilterTopics = true, floatingHeader = true }: PolicyComparisonTableProps) {
   const [isLoading, setIsLoading] = React.useState(true);
   const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy.T>>>();
   const [parties, setParties] = React.useState<Set<Party>>();
@@ -81,7 +83,12 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
           <div className="policyCell partyTitle backgroundColor--Skeleton">
             ...
           </div>
-        ) : <PolicyTable dataset={tableDataset} parties={parties} year={year} />
+        ) : <PolicyTable 
+              dataset={tableDataset}
+              parties={parties}
+              year={year}
+              enableTopicFilter={canFilterTopics}
+              enableFloatingHeader={floatingHeader} />
       }
       <footer>
         <p className="footerInfo" />

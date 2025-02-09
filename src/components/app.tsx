@@ -28,11 +28,11 @@ const routes = [
   route("/policies/:year", (year) =>
     <PolicyComparisonIndex year={year} />),
 
+  route("/policies/:year/topics/:topic", (year, topic) =>
+    <TopicDetails year={year} topic={topic} />),
+
   route("/policies/:year/:party/:policyHandle", (year, party, policyHandle) =>
     <PolicyComparisonIndex year={year} party={party} policyHandle={policyHandle} />),
-
-  route("/topics/:topic", (topic) =>
-    <TopicDetails topic={topic} />),
 
   route("/guide", () => <GuidedPolicyIndex year="2021" />),
 

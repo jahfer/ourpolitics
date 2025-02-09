@@ -47,7 +47,7 @@ export default function PolicyComparisonSummary ({ topic }: PolicyComparisonSumm
         .map(([year, _summary]) => (
         <div key={year} className="year-summary">
           <h3>{year}</h3>
-          <p>{static_summary}</p>
+          {static_summary}
           <Link to={`/policies/${year}`}>{t('view_full_comparison')} →</Link>
         </div>
       ))}
