@@ -44,7 +44,7 @@ export default function PolicyRow ({ topic, year, parties, policies, displayTopi
                 aria-labelledby="policyTableColumn--topics"
                 id={`policyTableRow--${topic}`}
                 className="policyTopic--title">
-                <span className="policyTopic--info"><Icon name="info-circle" /> {t(`topic.${topic}`)}</span>
+                <span className="policyTopic--info"><Icon name="info-circle" inline /> {t(`topic.${topic}`)}</span>
               </h3>
           </a>
         </div>

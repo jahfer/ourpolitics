@@ -283,12 +283,14 @@ a {
 
   &:hover {
     .policyTopic--info {
-      border: 2px solid var(--color-grey-light);
+      border: 2px solid var(--color-cream-darker);
       cursor: pointer;
     }
 
     .policyTopic--info > i {
       visibility: visible;
+      opacity: 1;
+      transform: scale(1);
     }
   }
 }
@@ -298,10 +300,14 @@ a {
   border-radius: 6px;
   padding: 5px 8px 4px;
   margin-left: calc(-1rem - 8px - 2px);
+  border: 2px solid transparent;
+  transition: border 0.2s ease-in-out;
 
   & > i {
-    padding-right: 3px;
     visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.2s ease-in-out;
+    transform: scale(0.1);
   }
 }
 
