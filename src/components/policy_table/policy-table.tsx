@@ -29,9 +29,11 @@ export default function PolicyTable ({ dataset, parties, year, enableTopicFilter
   const { t } = useTranslation();
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
 
+  const { registerSetting, unregisterSetting, subscribeToSetting, unsubscribeFromSetting } = useSettings();
+
   const additionalPartiesSelectable = React.useMemo(() => parties.size > 3, [parties]);
 
-  const shuffledParties = React.useMemo(() => {
+  const getStoredPartiesOrDefault = React.useCallback(() => {
     const p = getItem<Party[]>(SELECTED_PARTIES, () => {
       if (!additionalPartiesSelectable) {
         return Util.shuffle(Array.from(parties));
@@ -45,6 +47,8 @@ export default function PolicyTable ({ dataset, parties, year, enableTopicFilter
     setItem(SELECTED_PARTIES, p, 'session');
     return p.filter(party => parties.has(party));
   }, [parties, additionalPartiesSelectable]);
+
+  const shuffledParties = React.useMemo(getStoredPartiesOrDefault, [parties, additionalPartiesSelectable]);
 
   const [selectedParties, setSelectedParties] = React.useState(shuffledParties);
 
@@ -141,29 +145,39 @@ export default function PolicyTable ({ dataset, parties, year, enableTopicFilter
 
   const topicTitle = t("topics") + (Array.from(topicSelections.values()).find(x => !x) === false ? "*" : "")
 
-  const { registerSetting, unregisterSetting } = useSettings();
+  const handlePartySelectionChange = React.useCallback(() => {
+    console.log("Party selection change detected");
+    setSelectedParties(getStoredPartiesOrDefault());
+  }, [setSelectedParties, getStoredPartiesOrDefault]);
 
   React.useEffect(() => {
     const partySelections = new Map(Array.from(parties).map(party => [party, selectedParties.includes(party)]));
 
-    registerSetting('partySelector',
+    registerSetting('partySelector', (notifySettingsUpdated) => (
       <Setting label={t("settings.policy_table.party_modal_selection_description")}>
         <SelectableList<Party>
           items={Array.from(parties)}
           className="list--dark flex flex-responsive flex-justify-around"
           selections={partySelections}
           onRender={(party) => t(party.toLowerCase())}
-          onUpdate={(parties) => setPartySelections(parties)}
+          onUpdate={(parties) => {
+            setPartySelections(parties);
+            notifySettingsUpdated({});
+            console.log("Notifying re: settings updated");
+          }}
           enableToggleAll={false}
           enableToggleNone={false}
         />
-      </Setting>, true /* fillSpace */
-    );
+      </Setting>
+    ), true /* fillSpace */);
+
+    subscribeToSetting('partySelector', handlePartySelectionChange);
 
     return () => {
       unregisterSetting('partySelector');
+      unsubscribeFromSetting('partySelector', getStoredPartiesOrDefault);
     };
-  }, [language, parties, selectedParties]);
+  }, [language, parties, selectedParties, getStoredPartiesOrDefault]);
 
   return (
     <div className="policyTable">
