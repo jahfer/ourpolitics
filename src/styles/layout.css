@@ -144,8 +144,28 @@
   flex-grow: 1;
 }
 
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
 .flex-fixed {
   flex: 0 0 auto;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.gap-3 {
+  gap: 3rem;
 }
 
 .align-items-center {
@@ -243,7 +263,7 @@
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
 
     &.tableHeader, &.tableFiller {
       margin-bottom: 0;

@@ -284,6 +284,7 @@ a {
   &:hover {
     .policyTopic--info {
       border: 2px solid var(--color-grey-light);
+      cursor: pointer;
     }
 
     .policyTopic--info > i {

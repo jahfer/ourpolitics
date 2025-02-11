@@ -16,13 +16,15 @@ interface PolicyTableProps {
   year: string;
   enableTopicFilter: boolean;
   enableFloatingHeader: boolean;
+  initialSelectedTopics?: Map<string, boolean>;
+  hideHeader?: boolean;
 }
 
 const SELECTED_PARTIES = 'selectedParties';
 
 const defaultNationalParties = new Set([Party.Conservative, Party.Liberal, Party.NDP]);
 
-export default function PolicyTable ({ dataset, parties, year, enableTopicFilter, enableFloatingHeader }: PolicyTableProps) {
+export default function PolicyTable ({ dataset, parties, year, enableTopicFilter, enableFloatingHeader, initialSelectedTopics, hideHeader = false }: PolicyTableProps) {
   const { language } = useLanguage();
   const { t } = useTranslation();
   const [policyRows, setPolicyRows] = React.useState<Array<React.JSX.Element>>([]);
@@ -69,13 +71,13 @@ export default function PolicyTable ({ dataset, parties, year, enableTopicFilter
   }
 
   React.useMemo(() => {
-    const selectedTopics = Policy.loadSelectedTopics(year);
+    const selectedTopics = initialSelectedTopics ? Array.from(initialSelectedTopics.keys()) : Policy.loadSelectedTopics(year);
     if (selectedTopics.length > 0) {
       setTopicSelections(new Map(topics.map((topic) => [topic, selectedTopics.includes(topic)])));
     } else {
       setTopicSelections(new Map(topics.map((topic) => [topic, true])));
     }
-  }, [topics, year]);
+  }, [topics, year, initialSelectedTopics]);
 
   let elTop = 0;
 
@@ -90,7 +92,7 @@ export default function PolicyTable ({ dataset, parties, year, enableTopicFilter
 
   React.useEffect(() => {
     if (!enableFloatingHeader) return;
-    
+
     let ignore = false;
     const $tableHeader = document.getElementById("tableHeader") as HTMLElement;
     const handler = () => {
@@ -125,9 +127,11 @@ export default function PolicyTable ({ dataset, parties, year, enableTopicFilter
           return (
             <PolicyRow
               topic={topic}
+              year={year}
               parties={selectedParties}
               policies={policies}
-              key={topic} />
+              key={topic} 
+              displayTopic={enableTopicFilter}/>
           )
         }
       });
@@ -163,52 +167,53 @@ export default function PolicyTable ({ dataset, parties, year, enableTopicFilter
 
   return (
     <div className="policyTable">
-      <div id="tableHeader" className="policyRow container tableHeader">
-        <div className="policyCells">
-
-          {
-            enableTopicFilter ?
-              (
-                <TopicSelector
-                  key={`topicSelector--${topics}`}
-                  id="policyTableColumn--topics"
-                  className="policyCell partyTitle backgroundColor--Empty"
-                  title={topicTitle}
-                  topics={topics}
-                  selections={topicSelections}
-                  onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
-              ) :
-              (
-                <div
-                  id="policyTableColumn--topics"
-                  className="policyCell partyTitle backgroundColor--Empty">
-                  {t("topics")}
-                </div>
-              )
-          }
-          
-          {
-            selectedParties.map((party) => {
-              return (
-                <div
-                  key={`partyTitle--${party}`}
-                  id={`policyTableColumn--${party}`}
-                  className={`policyCell partyTitle backgroundColor--${party}`}>
-                  {t(party.toLowerCase())}
-                </div>
-              )
-            })
-          }
-        </div>
-      </div>
-      <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
-      <TopicSelector
-        key={`topicSelector--${topics}`}
-        title={t("guide.whats_important_to_you")}
-        topics={topics}
-        selections={topicSelections}
-        className="policyTable--mobileFilter"
-        onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
+      {
+        !hideHeader && (
+          <>
+            <div id="tableHeader" className="policyRow container tableHeader flex flex-grow-0">
+              <div className="policyCells">
+                {
+                  enableTopicFilter ?
+                    (
+                      <TopicSelector
+                        key={`topicSelector--${topics}`}
+                        id="policyTableColumn--topics" 
+                        className="policyCell partyTitle backgroundColor--Empty"
+                        title={topicTitle}
+                        topics={topics}
+                        selections={topicSelections}
+                        onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
+                    ) : null
+                }
+                {
+                  selectedParties.map((party) => {
+                    return (
+                      <div
+                        key={`partyTitle--${party}`}
+                        id={`policyTableColumn--${party}`}
+                        className={`policyCell partyTitle backgroundColor--${party}`}>
+                        {t(party.toLowerCase())}
+                      </div>
+                    )
+                  })
+                }
+              </div>
+            </div>
+            <div id="tableFiller" className="policyRow container tableFiller hidden"></div>
+          </>
+        )
+      }
+      {
+        enableTopicFilter ?
+        <TopicSelector
+          key={`topicSelector--${topics}`}
+          title={t("guide.whats_important_to_you")}
+          topics={topics}
+          selections={topicSelections}
+          className="policyTable--mobileFilter"
+          onUpdate={(selections) => setAndPersistTopicSelections(selections)} />
+        : null
+      }
       <div className="policyRows">
         {
           (policyRows.length == 0)

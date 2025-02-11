@@ -12,6 +12,8 @@ interface PolicyComparisonTableProps {
   selectedHandle?: string,
   canFilterTopics?: boolean,
   floatingHeader?: boolean,
+  selectedTopics?: Map<string, boolean>,
+  hideHeader?: boolean,
 }
 
 function partyToAcronym(party: Party) {
@@ -30,7 +32,7 @@ function partyToAcronym(party: Party) {
   }
 }
 
-export default function PolicyComparisonTable ({ year, selectedHandle, canFilterTopics = true, floatingHeader = true }: PolicyComparisonTableProps) {
+export default function PolicyComparisonTable ({ year, selectedHandle, canFilterTopics = true, floatingHeader = true, selectedTopics, hideHeader = false }: PolicyComparisonTableProps) {
   const [isLoading, setIsLoading] = React.useState(true);
   const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy.T>>>();
   const [parties, setParties] = React.useState<Set<Party>>();
@@ -88,11 +90,11 @@ export default function PolicyComparisonTable ({ year, selectedHandle, canFilter
               parties={parties}
               year={year}
               enableTopicFilter={canFilterTopics}
-              enableFloatingHeader={floatingHeader} />
+              enableFloatingHeader={floatingHeader}
+              initialSelectedTopics={selectedTopics}
+              hideHeader={hideHeader}
+            />
       }
-      <footer>
-        <p className="footerInfo" />
-      </footer>
     </PolicyModalProvider>
   )
 }

@@ -4,18 +4,21 @@ import { Party } from 'types/schema'
 import { useTranslation } from 'contexts/language-context'
 import { useURL } from 'contexts/router-context'
 import { T as Policy } from 'data/policy'
+import { Icon } from 'components/system/icon'
 
 interface PolicyRowProps {
   topic: string
+  year: string
   parties: Array<Party>
   policies: Array<Policy>
+  displayTopic?: boolean
 }
 
-function topicURL(topic: string) {
-  return `/topics/${topic}`;
+function topicURL(year: string, topic: string) {
+  return `/policies/${year}/topics/${topic}`;
 }
 
-export default function PolicyRow ({ topic, parties, policies }: PolicyRowProps) {
+export default function PolicyRow ({ topic, year, parties, policies, displayTopic }: PolicyRowProps) {
   const { t } = useTranslation();
   const { setURL } = useURL();
 
@@ -24,26 +27,29 @@ export default function PolicyRow ({ topic, parties, policies }: PolicyRowProps)
     return <PolicyCell party={party} topic={topic} policies={partyPolicies} key={`${party}/${topic}`} />
   });
 
-  function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
-    setURL({}, topicURL(topic));
+  const handleClick = React.useCallback((event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    setURL({}, topicURL(year, topic));
     event.preventDefault();
     return false;
-  }
+  }, [year, topic]);
 
   return (
     <div className="policyRow">
     <div className="policyCells">
-      <div className="policyCell policyTopic">
-        {/* <a href="#" className="no-underline" onClick={handleClick}> */}
-          <h3
-            aria-labelledby="policyTableColumn--topics"
-            id={`policyTableRow--${topic}`}
-            className="policyTopic--title">
-            {t(`topic.${topic}`)}
-            {/* <span className="policyTopic--info"><i className="fa fa-info-circle"></i> {t(`topic.${topic}`)}</span> */}
-          </h3>
-        {/* </a> */}
-      </div>
+    {
+      displayTopic ?
+        <div className="policyCell policyTopic">
+          <a href="#" className="no-underline" onClick={handleClick}>
+              <h3
+                aria-labelledby="policyTableColumn--topics"
+                id={`policyTableRow--${topic}`}
+                className="policyTopic--title">
+                <span className="policyTopic--info"><Icon name="info-circle" /> {t(`topic.${topic}`)}</span>
+              </h3>
+          </a>
+        </div>
+        : null
+      }
       {policyCells}
     </div>
   </div>

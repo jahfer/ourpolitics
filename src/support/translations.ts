@@ -193,9 +193,9 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "or",
     FR: "ou"
   },
-  "policy_comparison_summary": {
-    EN: "Policy comparison summary",
-    FR: "Résumé de la comparaison des politiques"
+  "policy_comparison.analysis": {
+    EN: "Analysis",
+    FR: "Analyse"
   },
   "view_full_comparison": {
     EN: "Compare all topics",
