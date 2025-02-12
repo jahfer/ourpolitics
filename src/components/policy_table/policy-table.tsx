@@ -148,7 +148,7 @@ export default function PolicyTable ({ dataset, parties, year, enableTopicFilter
   const handlePartySelectionChange = React.useCallback(() => {
     console.log("Party selection change detected");
     setSelectedParties(getStoredPartiesOrDefault());
-  }, [setSelectedParties, getStoredPartiesOrDefault]);
+  }, [getStoredPartiesOrDefault]);
 
   React.useEffect(() => {
     const partySelections = new Map(Array.from(parties).map(party => [party, selectedParties.includes(party)]));

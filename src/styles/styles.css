@@ -25,7 +25,7 @@ body {
 }
 
 a {
-  color: rgb(0, 102, 204);
+  color: var(--color-blue);
 }
 
 .text-color-dim {
@@ -296,6 +296,7 @@ a {
 }
 
 .policyTopic--info {
+  display: flex;
   background-color: var(--color-cream-light);
   border-radius: 6px;
   padding: 5px 8px 4px;

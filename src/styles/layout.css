@@ -190,7 +190,7 @@
   padding: 0.5rem 0;
 
   &.collapsed {
-    max-height: 2.6rem;
+    max-height: 2.7rem;
   }
 
   .settings-panel--content {

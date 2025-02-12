@@ -53,7 +53,7 @@ a {
   }
 
   .text-block &:hover {
-    border-color: rgb(0, 102, 204);
+    border-color: var(--color-blue);
   }
 }
 
@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 .fa-inline {
   margin-right: 0.5rem;
   vertical-align: top;
+
 }
 
 .fa-large {
