@@ -507,6 +507,17 @@
       margin-top: 0;
     }
 
+    .policyCell.partyTitle {
+      position: relative;
+      overflow: visible;
+
+      &:hover {
+        .partyHeading--detailsCard {
+          display: block;
+        }
+      }
+    }
+
     .policyCell--party {
       display: none;
     }
@@ -514,6 +525,25 @@
     .policyTable--filterBar {
       width: calc(100% - 15px);
     }
+  }
+
+  .partyHeading--detailsCard {
+    position: absolute;
+    background-color: inherit;
+    width: 100%;
+    left: 0;
+    display: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+    top: 0;
+    padding-top: 15px;
+  }
+
+  .partyHeading--detailsCard--content {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: normal;
+    padding: 0.2rem 1.2rem;
   }
 }
 
