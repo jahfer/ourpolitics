@@ -9,6 +9,7 @@ import { setItem } from 'data/storage'
 import '../../styles/guide.css'
 import { Link } from 'components/system/link'
 import { LanguageSelector } from 'contexts/language-context'
+import { Icon } from 'components/system/icon'
 
 interface GuidedPolicyIndexParams {
   year: string,
@@ -46,6 +47,47 @@ export default function GuidedPolicyIndex (
     return () => { ignore = true; };
   }, [year])
 
+  const topicToIcon = (topic: string): string => {
+    switch (topic) {
+      case 'foreign-policy':
+        return 'globe';
+      case 'economy':
+        return 'bar-chart';
+      case 'international-trade':
+        return 'ship';
+      case 'environment':
+        return 'tree';
+      case 'government':
+        return 'building';
+      case 'indigenous-relations':
+        return 'users';
+      case 'health-and-safety':
+        return 'heartbeat';
+      case 'infrastructure':
+        return 'road';
+      case 'science':
+        return 'flask';
+      case 'social-assistance':
+        return 'heart';
+      case 'youth_child-care':
+        return 'child';
+      case 'civil-rights':
+        return 'balance-scale';
+      case 'education':
+        return 'graduation-cap';
+      case 'housing':
+        return 'home';
+      case 'affordability':
+        return 'credit-card';
+      case 'arts-and-culture':
+        return 'paint-brush';
+      case 'immigration':
+        return 'suitcase';
+    }
+
+    return "";
+  }
+
   return (
     <Page showHeader={false} showFooter={false}>
       <section className="section">
@@ -63,6 +105,7 @@ export default function GuidedPolicyIndex (
                 [...topics.entries()].map(([topic, checked]) => (
                   <li key={topic}>
                     <label className={`guide--topic-selector-item ${checked ? 'guide--topic-selector-item-checked' : ''}`}>
+                      <Icon large name={topicToIcon(topic)} />
                       {t(`topic.${topic}`)}
                       <input
                         checked={checked}

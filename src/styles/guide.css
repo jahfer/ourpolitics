@@ -1,7 +1,7 @@
 .guide--wrapper {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
 }
 
@@ -12,17 +12,31 @@
   padding: 2rem 0.5rem;
   margin: 1rem auto;
 
-  border: 1px solid var(--color-cream-darker);
+  border: 3px solid var(--color-charcoal);
   background: linear-gradient(to top, #faf6f1, #f9f5f0);
-  border-radius: 20px;
+  border-radius: 1rem;
   box-shadow: 0 3px 18px rgba(0, 0, 0, 0.2);
-  background: radial-gradient(50% 30% at 50% 20%, #fccc40, transparent),
+  /* background: radial-gradient(50% 30% at 50% 20%, #fccc40, transparent),
               radial-gradient(120% 50% at 50% 50%, #f95258, transparent 50%),
-              radial-gradient(50% 30% at 50% 80%, #3b87e0, transparent);
+              radial-gradient(50% 30% at 50% 80%, #3b87e0, transparent); */
+
+  background: 
+  linear-gradient(45deg, #3b87e0 10%, transparent 30%, transparent 70%, #f58220 90%),
+  radial-gradient(100% 100% at 50% 50%, #d71920, transparent 60%),
+  radial-gradient(80% 80% at 20% 20%, #3b87e0, transparent 70%),
+  radial-gradient(80% 80% at 80% 80%, #d71920, transparent 70%),
+  linear-gradient(
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.15)
+  );
+
+  @media screen and (min-width: 600px) {
+    padding: 2rem;
+  }
 
   @media screen and (min-width: 800px) {
     margin: 1rem auto 2rem;
-    padding: 3rem 1rem;
+    padding: 3rem;
   }
 }
 
@@ -46,48 +60,66 @@
   justify-content: center;
   display: flex;
   padding: 0 1rem;
+  color: #fff;
 }
 
 .guide h1 {
   font-weight: 800;
   margin: 0;
   max-width: 600px;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   line-height: 2rem;
   margin-top: 1rem;
 
   @media screen and (min-width: 660px) {
     font-size: 3rem;
     line-height: 3.4rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.6rem;
   }
 }
 
 .guide--topic-selector {
   list-style: none;
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   justify-content: center;
   padding: 10px 0;
+
+  @media screen and (min-width: 400px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (min-width: 600px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (min-width: 800px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 .guide--topic-selector-item {
   display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   align-items: center;
+  justify-content: center;
   border: 2px solid rgba(255, 255, 255, 10%);
   padding: 4px 10px;
   border-radius: 20px;
   cursor: pointer;
   user-select: none;
-  /* font-weight: bold; */
-  color: #000;
-  background-color: rgba(255, 255, 255, 40%);
+  color: #fff;
+  background-color: rgba(255, 255, 255, 30%);
   box-shadow: 0 0 30px rgba(255, 255, 255, 30%);
-  transition: background-color 0.6s ease, border 1s ease;
+  transition: background-color 0.3s ease;
+  height: 100%;
+  font-weight: bold;
+  min-height: 6rem;
 
   &:hover {
-    /* background-color: var(--color-cream); */
+    color: var(--color-charcoal-dark);
     border-color: #fff;
     background-color: rgba(255, 255, 255, 70%);
   }
@@ -97,7 +129,7 @@
   }
 
   @media screen and (min-width: 800px) {
-    padding: 6px 16px;
+    padding: 1rem 6px;
   }
 }
 
@@ -108,12 +140,22 @@
 
 .guide--topic-selector-item input {
   margin-left: 10px;
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .guide--topic-selector-item-checked {
-  border-color: #fff !important;
+  border-color: var(--color-charcoal-dark) !important;
   background-color: #fff !important;
   color: var(--color-charcoal-dark);
+}
+
+.guide--topic-selector-item:focus-within {
+  outline: none;
+  background-color: rgba(255,215,105, 1) !important;
+  color: var(--color-charcoal-dark) !important;
 }
 
 .guide--submit-actions {
