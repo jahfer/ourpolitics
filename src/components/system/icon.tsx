@@ -4,10 +4,11 @@ interface IconProps {
   name: string,
   className?: string,
   inline?: boolean,
+  large?: boolean,
 }
 
-export function Icon ({name, className, inline = false}: IconProps) {
+export function Icon ({name, className = '', inline = false, large = false}: IconProps) {
   return (
-    <i className={`fa fa-${name} ${className} ${inline ? 'fa-inline' : ''}`}></i>
+    <i className={`fa fa-${name} ${className} ${inline && 'fa-inline'} ${large && 'fa-large'}`}></i>
   )
 }
