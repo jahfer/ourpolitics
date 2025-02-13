@@ -10,6 +10,10 @@ The JavaScript code to run Our Politics is available under the [MIT](https://ope
 
 Any written content (e.g. policies, summaries, comparisons) is available under the [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) license, for non-commercial use.
 
+## Contributions
+
+By submitting content to this repository, you agree to license your contribution under the CC BY-NC license.
+
 ## Development
 
 ### Run Project
