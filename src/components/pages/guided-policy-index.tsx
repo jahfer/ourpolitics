@@ -91,15 +91,17 @@ export default function GuidedPolicyIndex (
   return (
     <Page showHeader={false} showFooter={false}>
       <section className="section">
+
         <div className="guide--wrapper">
           <div className="guide--langSelector">
             <LanguageSelector className="flex-justify-center" />
           </div>
 
+          <div className="guide--heading">
+            <h1>{t("guide.whats_important_to_you")}</h1>
+          </div>
+
           <div className="guide">
-            <div className="guide--heading">
-              <h1>{t("guide.whats_important_to_you")}</h1>
-            </div>
             <ul className="guide--topic-selector">
               {
                 [...topics.entries()].map(([topic, checked]) => (
@@ -120,19 +122,19 @@ export default function GuidedPolicyIndex (
                 ))
               }
             </ul>
-            <div className="guide--submit-actions">
-              <Button primary onClick={() => {
-                Policy.saveSelectedTopics(year, topics);
-                setItem("has-visited-guide", true, "local");
-                setURL({}, '/policies/2021');
-              }}>
-                {t("guide.lets_go")}&nbsp;<span style={{fontFamily: "system-ui"}}>&rarr;</span>
-              </Button><p> <Link to="/policies/2021"
-                                onClick={() => {
-                                  setItem("has-visited-guide", true, "local");
-                                  Policy.resetSelectedTopics(year)
-                                }}>{t("guide.see_all_policies")}</Link></p>
-            </div>
+          </div>
+          <div className="guide--submit-actions">
+            <Button primary className="flex flex-justify-center" onClick={() => {
+              Policy.saveSelectedTopics(year, topics);
+              setItem("has-visited-guide", true, "local");
+              setURL({}, '/policies/2021');
+            }}>
+              {t("guide.lets_go")}&nbsp;<span style={{fontFamily: "system-ui"}}>&rarr;</span>
+            </Button><p> <Link to="/policies/2021"
+                              onClick={() => {
+                                setItem("has-visited-guide", true, "local");
+                                Policy.resetSelectedTopics(year)
+                              }}>{t("guide.see_all_policies")}</Link></p>
           </div>
         </div>
       </section>

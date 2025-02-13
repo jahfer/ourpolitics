@@ -3,14 +3,15 @@
   flex-flow: column nowrap;
   justify-content: space-evenly;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .guide {
   width: auto;
   max-width: min(calc(100vw - 2rem), 1000px);
   text-align: center;
-  padding: 2rem 0.5rem;
-  margin: 1rem auto;
+  padding: 1rem;
+  margin: 1rem 0;
 
   border: 3px solid var(--color-charcoal);
   background: linear-gradient(to top, #faf6f1, #f9f5f0);
@@ -30,13 +31,16 @@
       rgba(255, 255, 255, 0.15)
     );
 
+  @media screen and (min-width: 500px) {
+    padding: 1rem;
+  }
+
   @media screen and (min-width: 600px) {
     padding: 2rem;
   }
 
   @media screen and (min-width: 800px) {
     margin: 1rem auto 2rem;
-    padding: 3rem;
   }
 }
 
@@ -44,6 +48,7 @@
   font-weight: bold;
   user-select: none;
   margin: 0 auto;
+  margin-bottom: 1rem;
   color: var(--color-cream-darker);
 
   a {
@@ -60,11 +65,11 @@
   justify-content: center;
   display: flex;
   padding: 0 1rem;
-  color: #fff;
+  font-weight: bold;
   text-wrap: balance;
 }
 
-.guide h1 {
+.guide--heading h1 {
   font-weight: 800;
   margin: 0;
   max-width: 600px;
@@ -72,7 +77,13 @@
   line-height: 2rem;
   margin-top: 1rem;
 
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: 500px) {
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  @media screen and (min-width: 700px) {
     font-size: 3rem;
     line-height: 3.4rem;
     margin-bottom: 0.6rem;
@@ -83,37 +94,38 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 1rem;
+  margin: 0;
   justify-content: center;
-  padding: 10px 0;
 
   @media screen and (min-width: 500px) {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 660px) {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 915px) {
     grid-template-columns: repeat(6, 1fr);
   }
 }
 
 .guide--topic-selector-item {
   display: flex;
+  aspect-ratio: 1 / 0.8;
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
   justify-content: center;
-  border: 3px solid transparent;
+  border: 3px solid rgba(255, 255, 255, 10%);
   padding: 4px 10px;
   border-radius: 1rem;
   cursor: pointer;
   user-select: none;
   color: #fff;
-  background-color: rgba(255, 255, 255, 30%);
-  box-shadow: 0 0 30px rgba(255, 255, 255, 30%);
+  background-color: rgba(255, 255, 255, 20%);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 20%);
   transition: background-color 0.3s ease;
   height: 100%;
   font-weight: bold;
@@ -122,7 +134,7 @@
   &:hover {
     color: var(--color-charcoal-dark);
     border-color: #fff;
-    background-color: rgba(255, 255, 255, 70%);
+    background-color: rgba(255, 255, 255, 60%);
   }
 
   @media screen and (min-width: 500px) {
@@ -148,17 +160,21 @@
 }
 
 .guide--topic-selector-item-checked {
-  border-color: var(--color-charcoal-dark) !important;
+  border-color: #fff !important;
   background-color: var(--color-cream-light) !important;
   color: var(--color-charcoal-dark);
 }
 
 .guide--topic-selector-item:focus-within {
   outline: none;
-  /* background-color: rgba(255,215,105, 1) !important; */
+  color: var(--color-charcoal-darker) !important;
+  border-color: var(--color-charcoal-darker) !important;
+  /* background-color: var(--color-charcoal-darker) !important; */
+}
+
+.guide--topic-selector-item-checked:focus-within {
+  background-color: var(--color-cream-light) !important;
   color: var(--color-charcoal-dark) !important;
-  border-color: var(--color-yellow) !important;
-  background-color: rgba(255,255,255,0.8);
 }
 
 .guide--submit-actions {
@@ -168,11 +184,22 @@
   align-items: center;
   flex-direction: column;
 
+  .btn {
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    text-transform: none;
+
+    @media screen and (min-width: 500px) {
+      width: auto;
+    }
+  }
+
   a {
-    color: #fff;
+    color: var(--color-charcoal-darker);
 
     &:hover {
-      border-color: #fff;
+      border-color: var(--color-charcoal-darker);
     }
   }
 
@@ -180,7 +207,7 @@
     margin: 0;
   }
 
-  @media screen and (min-width: 460px) {
+  @media screen and (min-width: 500px) {
     flex-direction: row;
   }
 }
