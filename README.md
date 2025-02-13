@@ -6,7 +6,7 @@ Elections matter, but understanding headlines and press releases takes a lot of 
 
 ## License
 
-The JavaScript code to run Our Politics is available under the [MIT](https://opensource.org/license/mit) license, for both commercial and non-commercial use. 
+The code to run Our Politics is available under the [MIT](https://opensource.org/license/mit) license, for both commercial and non-commercial use. 
 
 Any written content (e.g. policies, summaries, comparisons) is available under the [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) license, for non-commercial use.
 
