@@ -213,6 +213,7 @@
 
   a {
     color: var(--color-charcoal-darker);
+    border-bottom-color: var(--color-cream-dark);
 
     &:hover {
       border-color: var(--color-charcoal-darker);
