@@ -177,17 +177,21 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "What's important to you?",
     FR: "Qu'est-ce qui est important pour toi ?"
   },
-  "guide.lets_go": {
-    EN: "Let's go",
-    FR: "Allons-y"
+  "guide.cta": {
+    EN: "Compare policies",
+    FR: "Comparer les politiques des partis"
   },
   "guide.title": (year: number) => ({
     EN: `${year} Guide`,
     FR: `Guide ${year}`
   }),
   "guide.see_all_policies": {
-    EN: "see all policies",
-    FR: "voir toutes les politiques"
+    EN: "explore them all",
+    FR: "toutes les parcourir"
+  },
+  "guide.or": {
+    EN: "or",
+    FR: "ou"
   }
 };
 

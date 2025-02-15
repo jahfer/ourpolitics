@@ -89,7 +89,7 @@ export default function GuidedPolicyIndex (
   }
 
   return (
-    <Page showHeader={false} showFooter={false}>
+    <Page showHeader={false} showFooter={false} className="guide--page">
       <section className="section">
 
         <div className="guide--wrapper">
@@ -124,13 +124,13 @@ export default function GuidedPolicyIndex (
             </ul>
           </div>
           <div className="guide--submit-actions">
-            <Button primary className="flex flex-justify-center" onClick={() => {
+            <Button primary className="flex flex-justify-between" onClick={() => {
               Policy.saveSelectedTopics(year, topics);
               setItem("has-visited-guide", true, "local");
               setURL({}, '/policies/2021');
             }}>
-              {t("guide.lets_go")}&nbsp;<span style={{fontFamily: "system-ui"}}>&rarr;</span>
-            </Button><p> <Link to="/policies/2021"
+              {t("guide.cta")}&nbsp;<span style={{fontFamily: "system-ui"}}>&rarr;</span>
+            </Button><p> {t('guide.or')} <Link to="/policies/2021"
                               onClick={() => {
                                 setItem("has-visited-guide", true, "local");
                                 Policy.resetSelectedTopics(year)

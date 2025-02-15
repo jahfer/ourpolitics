@@ -125,6 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fa-large {
   font-size: 2rem;
+  min-width: 36.6px;
 }
 
 .settings-panel {
