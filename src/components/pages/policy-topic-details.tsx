@@ -9,7 +9,7 @@ interface TopicDetailsParams {
   topic: string;
 }
 
-export default function TopicDetails ({ year, topic }: TopicDetailsParams) {
+export default function PolicyTopicDetails ({ year, topic }: TopicDetailsParams) {
   const { t } = useTranslation();
 
   // TODO: Track history of this page to make back/forwards work properly (also Guide history is janky too)

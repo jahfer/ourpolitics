@@ -5,6 +5,7 @@ import { useTranslation } from 'contexts/language-context'
 import { useURL } from 'contexts/router-context'
 import { T as Policy } from 'data/policy'
 import { Icon } from 'components/system/icon'
+import { Link } from 'components/system/link'
 
 interface PolicyRowProps {
   topic: string
@@ -39,14 +40,14 @@ export default function PolicyRow ({ topic, year, parties, policies, displayTopi
     {
       displayTopic ?
         <div className="policyCell policyTopic">
-          <a href="#" className="no-underline" onClick={handleClick}>
+          <Link className="no-underline" to={topicURL(year, topic)}>
             <h3
               aria-labelledby="policyTableColumn--topics"
               id={`policyTableRow--${topic}`}
               className="policyTopic--title">
               <span className="policyTopic--info"><Icon name="info-circle" inline /> {t(`topic.${topic}`)}</span>
             </h3>
-          </a>
+          </Link>
         </div>
         : null
       }

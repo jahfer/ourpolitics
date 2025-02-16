@@ -4,14 +4,14 @@ import { useTranslation } from 'contexts/language-context'
 import Page from 'components/page'
 import * as Policy from 'data/policy'
 
-interface PolicyComparisonIndexParams {
+interface PolicyIndexParams {
   year?: string,
   party?: string,
   policyHandle?: string,
 }
 
-export default function PolicyComparisonIndex (
-  { year = "2019", party, policyHandle }: PolicyComparisonIndexParams
+export default function PolicyIndex (
+  { year = "2019", party, policyHandle }: PolicyIndexParams
 ) {
   const { t } = useTranslation()
   const usingFilteredTopics = Policy.loadSelectedTopics(year).length > 0;
