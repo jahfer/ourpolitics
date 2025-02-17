@@ -8,11 +8,9 @@ const DEFAULT_PARTIES = new Set([Party.Conservative, Party.Liberal, Party.NDP]);
 export function useSelectedParties(availableParties: Set<Party>, onChange?: () => void) {
 
   const getDefaultSelections = useCallback(() => {
-    console.log("Getting default selections", availableParties);
     if (availableParties.size <= 3) {
       return Array.from(availableParties);
     }
-    console.log("Available parties: ", availableParties);
     const [defaultParties, remainingParties] = Array.from(availableParties).reduce(
       ([def, rem], party) => 
         DEFAULT_PARTIES.has(party) ? [[...def, party], rem] : [def, [...rem, party]],
@@ -25,7 +23,6 @@ export function useSelectedParties(availableParties: Set<Party>, onChange?: () =
   const [selectedParties, setSelectedParties] = useState<Set<Party>>(new Set(getDefaultSelections()));
 
   const updateSelectedParties = useCallback((parties: Party[]) => {
-    console.log("Setting selected parties: ", parties);
     if (parties.length > 0) {
       setItem(SELECTED_PARTIES, parties, 'session');
     }
@@ -36,7 +33,6 @@ export function useSelectedParties(availableParties: Set<Party>, onChange?: () =
 
   useEffect(() => {
     const parties = getItem<Party[]>(SELECTED_PARTIES, getDefaultSelections, 'session');
-    console.log("Setting selected parties from effect: ", parties);
     updateSelectedParties(parties);
   }, [availableParties, getDefaultSelections, updateSelectedParties]);
 

@@ -124,16 +124,19 @@ export default function GuidedPolicyIndex (
             </ul>
           </div>
           <div className="guide--submit-actions">
-            <Button primary className="flex flex-justify-between" onClick={() => {
-              Policy.saveSelectedTopics(year, topics);
+            <Link to="/policies/2021" className="btn btn-primary flex flex-justify-between" onClick={() => {
+              const topicList = Array.from(topics)
+                .filter(([_, checked]) => checked)
+                .map(([topic, _]) => topic);
+              Policy.saveSelectedTopics(year, topicList);
+              console.log(topicList)
               setItem("has-visited-guide", true, "local");
-              setURL({}, '/policies/2021');
             }}>
               {t("guide.cta")}&nbsp;<span style={{fontFamily: "system-ui"}}>&rarr;</span>
-            </Button><p> {t('guide.or')} <Link to="/policies/2021"
+            </Link><p> {t('guide.or')} <Link to="/policies/2021"
                               onClick={() => {
                                 setItem("has-visited-guide", true, "local");
-                                Policy.resetSelectedTopics(year)
+                                Policy.clearSelectedTopics(year)
                               }}>{t("guide.see_all_policies")}</Link></p>
           </div>
         </div>

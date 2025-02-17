@@ -91,7 +91,12 @@ export default function PolicyComparisonTable ({
 
       if (activeTopics.length === 0) {
         console.log("Setting active topics to all topics in dataset");
-        setActiveTopics(Policy.topicsInDataset(dataset));
+        const selectedTopicsFromStorage = Policy.loadSelectedTopics(year)
+        if (selectedTopicsFromStorage.length > 0) {
+          setActiveTopics(selectedTopicsFromStorage);
+        } else {
+          setActiveTopics(Policy.topicsInDataset(dataset));
+        }
       }
 
       setAvailableParties(parties);
@@ -135,7 +140,7 @@ export default function PolicyComparisonTable ({
       .sort(([topicA], [topicB]) => topicA.localeCompare(topicB))
       .filter(([topic, _policies]) => activeTopics.indexOf(topic) >= 0);
     return new Map(filtered);
-  }, [selectedParties, tableDataset, selectedTopics]);
+  }, [selectedParties, tableDataset, activeTopics]);
 
   React.useEffect(() => {
     const availablePartiesArray = Array.from(availableParties);
@@ -171,7 +176,9 @@ export default function PolicyComparisonTable ({
   if (!isLoading && filteredTableDataset) {
     if (Array.from(filteredTableDataset.values()).every((policies) => policies.length === 0)) {
       onEmpty?.();
-      return renderEmpty?.();
+      if (renderEmpty) {
+        return renderEmpty();
+      }
     }
   }
 
