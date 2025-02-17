@@ -90,7 +90,6 @@ function makeMount(pathComponents: string[], route: Route): () => React.ReactEle
 
 function mountRoute(path: string, routes: Route[]): React.ReactElement {
   const pathComponents = path.split('/').filter(part => part.length > 0);
-  console.log(pathComponents, routes.find(route => matchPath(pathComponents, route)))
   const route = routes.find(route => matchPath(pathComponents, route));
 
   if (!route) {

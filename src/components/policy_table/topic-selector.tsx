@@ -6,15 +6,22 @@ import { handleEnterAsClick } from 'support/util'
 import SelectableList from 'components/system/selectable-list'
 
 interface TopicSelectorProps {
-  topics: Array<string>,
+  availableTopics: Array<string>,
+  selectedTopics: Array<string>,
   title: string,
   className?: string,
   id?: string,
-  onUpdate: (selections: Map<string, boolean>) => void,
-  selections: Map<string, boolean>,
+  onUpdate: (selections: Array<string>) => void,
 }
 
-export default function TopicSelector({ topics, onUpdate, title, id = "", className = "", selections }: TopicSelectorProps) {
+export default function TopicSelector({
+  availableTopics,
+  onUpdate,
+  title,
+  id = "",
+  className = "",
+  selectedTopics
+}: TopicSelectorProps) {
   const { t } = useTranslation();
   const [topicFilterState, setTopicFilterState] = useState(() => false);
 
@@ -50,10 +57,10 @@ export default function TopicSelector({ topics, onUpdate, title, id = "", classN
       className={`${className} ${(topicFilterState ? "topicSelector--open" : "topicSelector--closed")}`}>
       {title}<i className={`fa fa-caret-${topicFilterState ? "down" : "left"} policyTableColumn--icon`}></i>
       <SelectableList<string>
-        items={topics}
+        items={availableTopics}
         className={`list--light policyTable--filterBar ${topicFilterState ? "policyTable--filterBar--open" : ""}`}
-        selections={selections}
-        onUpdate={onUpdate}
+        selections={new Map(availableTopics.map(t => [t, selectedTopics.includes(t)]))}
+        onUpdate={(selections) => onUpdate(Array.from(selections.keys()).filter((topic) => selections.get(topic) === true))}
         onRender={(topic) => t(`topic.${topic}`)}
       />
     </div>

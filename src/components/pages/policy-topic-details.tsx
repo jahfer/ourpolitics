@@ -11,10 +11,11 @@ interface TopicDetailsParams {
 
 export default function PolicyTopicDetails ({ year, topic }: TopicDetailsParams) {
   const { t } = useTranslation();
+  const [hasDataFor2021, setHasDataFor2021] = React.useState<boolean>(true);
+  const [hasDataFor2019, setHasDataFor2019] = React.useState<boolean>(true);
+  const [hasDataFor2015, setHasDataFor2015] = React.useState<boolean>(true);
 
   // TODO: Track history of this page to make back/forwards work properly (also Guide history is janky too)
-
-  const topicMap = new Map<string, boolean>([[topic, true]]);
 
   return (
     <Page title={t(`topic.${topic}`)}>
@@ -24,21 +25,51 @@ export default function PolicyTopicDetails ({ year, topic }: TopicDetailsParams)
           <PolicyComparisonSummary topic={topic} year={year} />
         </article>
 
-        {/* TODO: Settings no longer work when multiple components sharing the same setting are rendered... */}
-        {/* ALSO TODO: Hide other tables under a button that un-collapses them to make them visible */}
+        {/* TODO: Hide other tables under a button that un-collapses them to make them visible */}
+        
         <aside className="flex-2">
-          <div>
-            <h2>{t('policy_comparison_title', 2021)}</h2>
-            <PolicyComparisonTable year={"2021"} canFilterTopics={false} floatingHeader={false} selectedTopics={topicMap} hideHeader={false} />
-          </div>
-          <div>
-            <h2>{t('policy_comparison_title', 2019)}</h2>
-            <PolicyComparisonTable year={"2019"} canFilterTopics={false} floatingHeader={false} selectedTopics={topicMap} hideHeader={true} />
-          </div>
-          <div>
-            <h2>{t('policy_comparison_title', 2015)}</h2>
-            <PolicyComparisonTable year={"2015"} canFilterTopics={false} floatingHeader={false} selectedTopics={topicMap} hideHeader={true} />
-          </div>
+          { 
+            hasDataFor2021 &&
+            <div>
+              <h2>{t('policy_comparison_title', 2021)}</h2>
+              <PolicyComparisonTable
+                year={"2021"}
+                canFilterTopics={false}
+                floatingHeader={false}
+                selectedTopics={[topic]}
+                hideHeader={false}
+                renderEmpty={() => null}
+                onEmpty={(() => setHasDataFor2021(false))} />
+            </div>
+          }
+          { 
+            hasDataFor2019 &&
+            <div>
+              <h2>{t('policy_comparison_title', 2019)}</h2>
+              <PolicyComparisonTable
+                year={"2019"}
+                canFilterTopics={false}
+                floatingHeader={false}
+                selectedTopics={[topic]}
+                hideHeader={true}
+                renderEmpty={() => null}
+                onEmpty={(() => setHasDataFor2019(false))} />
+            </div>
+          }
+          { 
+            hasDataFor2015 &&
+            <div>
+              <h2>{t('policy_comparison_title', 2015)}</h2>
+              <PolicyComparisonTable
+                year={"2015"}
+                canFilterTopics={false}
+                floatingHeader={false}
+                selectedTopics={[topic]}
+                hideHeader={true}
+                renderEmpty={() => null}
+                onEmpty={(() => setHasDataFor2015(false))} />
+            </div>
+          }
         </aside>
       </section>
     </Page>
