@@ -28,6 +28,10 @@ a {
   color: var(--color-blue);
 }
 
+.select-disabled {
+  user-select: none;
+}
+
 .text-color-dim {
   color: #707070;
 }
@@ -185,7 +189,8 @@ a {
 }
 
 .list--dark .list--item.active {
-  background: var(--color-charcoal);
+  background: var(--color-cream);
+  color: var(--color-charcoal-darkest);
 }
 
 .list--item:not(.active):hover {
@@ -201,8 +206,7 @@ a {
 }
 
 .list--dark .list--item:not(.active):hover {
-  background-color: var(--color-grey-lighter);
-  color: var(--color-charcoal-darkest);
+  background-color: var(--color-charcoal);
 }
 
 .list--dark li {

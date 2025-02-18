@@ -4,7 +4,7 @@ import { Party } from 'types/schema'
 import { useTranslation } from 'contexts/language-context'
 import { useURL } from 'contexts/router-context'
 import { T as Policy } from 'data/policy'
-import { Icon } from 'components/system/icon'
+import { Icon, IconInlinePosition } from 'components/system/icon'
 import { Link } from 'components/system/link'
 
 interface PolicyRowProps {
@@ -45,7 +45,9 @@ export default function PolicyRow ({ topic, year, parties, policies, displayTopi
               aria-labelledby="policyTableColumn--topics"
               id={`policyTableRow--${topic}`}
               className="policyTopic--title">
-              <span className="policyTopic--info"><Icon name="info-circle" inline /> {t(`topic.${topic}`)}</span>
+              <span className="policyTopic--info">
+                <Icon name="info-circle" inline={IconInlinePosition.Left} /> {t(`topic.${topic}`)}
+              </span>
             </h3>
           </Link>
         </div>

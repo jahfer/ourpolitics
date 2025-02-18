@@ -17,7 +17,6 @@ import { getItem } from 'data/storage'
 
 const routes = [
   route("/", () => {
-    console.log("has visited guide", getItem("has-visited-guide", false));
     if (getItem("has-visited-guide", false)) {
       return <Redirect to="/policies/2021" />
     }

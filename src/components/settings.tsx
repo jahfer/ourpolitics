@@ -1,7 +1,7 @@
 import React, { useEffect, useId, useState, useCallback } from 'react';
 import { useTranslation } from 'contexts/language-context';
 import { useSettings } from 'contexts/settings-context';
-import { Icon } from 'components/system/icon';
+import { Icon, IconInlinePosition } from 'components/system/icon';
 import { fill } from 'lodash-es';
 
 interface SettingProps {
@@ -29,6 +29,18 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({collapsed = true}) 
   const settingsPanelId = useId();
   const [isCollapsed, setIsCollapsed] = useState(collapsed);
   const settingsPanelRef = React.useRef<HTMLElement>(null);
+
+  React.useEffect(() => {
+    console.log("ADDING CLASS", settingsPanelRef.current);
+    settingsPanelRef.current?.classList.add('settings-panel--closed');
+  }, [settings]);
+
+  if (isCollapsed) {
+    settingsPanelRef.current?.addEventListener('transitionend', () => {
+      settingsPanelRef.current?.classList.add('settings-panel--closed');
+      console.log("animation complete")
+  }, { once: true });
+  }
 
   const togglePanel = useCallback(() => {
     setIsCollapsed(prevState => !prevState);
@@ -65,8 +77,8 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({collapsed = true}) 
   return (
     <aside ref={settingsPanelRef} className={`settings-panel ${isCollapsed ? 'collapsed' : 'expanded'}`} id={settingsPanelId}>
       <nav className="flex flex-row container flex-justify-end">
-        <a className='btn btn-primary btn-compact' onClick={togglePanel}>
-          <Icon name="cog" inline />{t('settings')}
+        <a href="#" tabIndex={0} className='btn btn-primary btn-compact select-disabled' onClick={togglePanel}>
+          <Icon name="cog" inline={IconInlinePosition.Left} />{t('settings')}
         </a>
       </nav>
       <div className="settings-panel--content container">

@@ -9,7 +9,7 @@ import { setItem } from 'data/storage'
 import '../../styles/guide.css'
 import { Link } from 'components/system/link'
 import { LanguageSelector } from 'contexts/language-context'
-import { Icon } from 'components/system/icon'
+import { Icon, IconInlinePosition } from 'components/system/icon'
 
 interface GuidedPolicyIndexParams {
   year: string,
@@ -124,15 +124,14 @@ export default function GuidedPolicyIndex (
             </ul>
           </div>
           <div className="guide--submit-actions">
-            <Link to="/policies/2021" className="btn btn-primary flex flex-justify-between" onClick={() => {
+            <Link to="/policies/2021" className="btn btn-primary flex flex-justify-between flex-baseline" onClick={() => {
               const topicList = Array.from(topics)
                 .filter(([_, checked]) => checked)
                 .map(([topic, _]) => topic);
               Policy.saveSelectedTopics(year, topicList);
-              console.log(topicList)
               setItem("has-visited-guide", true, "local");
             }}>
-              {t("guide.cta")}&nbsp;<span style={{fontFamily: "system-ui"}}>&rarr;</span>
+              {t("guide.cta")}&nbsp;<Icon name="arrow-right" inline={IconInlinePosition.Right} />
             </Link><p> {t('guide.or')} <Link to="/policies/2021"
                               onClick={() => {
                                 setItem("has-visited-guide", true, "local");

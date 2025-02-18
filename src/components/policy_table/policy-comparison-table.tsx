@@ -49,7 +49,7 @@ export default function PolicyComparisonTable ({
 }: PolicyComparisonTableProps) {
   const { t } = useTranslation();
   const { updateURLState } = useURL();
-  const { registerSetting, unregisterSetting, subscribeToSetting, unsubscribeFromSetting } = useSettings();
+  const { registerSetting, unregisterSetting } = useSettings();
   const { language } = useLanguage();
   const [isLoading, setIsLoading] = React.useState(true);
   const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy.T>>>();
@@ -90,7 +90,6 @@ export default function PolicyComparisonTable ({
       setTableDataset(dataset);
 
       if (activeTopics.length === 0) {
-        console.log("Setting active topics to all topics in dataset");
         const selectedTopicsFromStorage = Policy.loadSelectedTopics(year)
         if (selectedTopicsFromStorage.length > 0) {
           setActiveTopics(selectedTopicsFromStorage);
@@ -117,10 +116,8 @@ export default function PolicyComparisonTable ({
     if (!availableTopics) return;
 
     if (newSelections.length === availableTopics.length) {
-      console.log("Clearing selected topics for year ", year);
       Policy.clearSelectedTopics(year);
       if (tableDataset) {
-        console.log("Setting active topics to all topics in dataset");
         setActiveTopics(Policy.topicsInDataset(tableDataset));
         return;
       }
@@ -128,7 +125,6 @@ export default function PolicyComparisonTable ({
       Policy.saveSelectedTopics(year, newSelections);
     }
 
-    console.log("Setting active topics to ", newSelections);
     setActiveTopics(newSelections);
   }, [year, availableTopics]);
 
@@ -158,7 +154,6 @@ export default function PolicyComparisonTable ({
               .from(newPartySelections.entries())
               .filter(([_, selected]) => selected)
               .map(([party, _]) => party);
-            console.log("[SETTTINGS] Updating selected parties to ", parties);
             updateSelectedParties(parties);
             notifySettingsUpdated({});
           }}
@@ -168,18 +163,27 @@ export default function PolicyComparisonTable ({
       </Setting>
     ), true);
 
+    // TODO: Subscribe to settings so that we pick up on
+    // changes from other instances of this component
+
     return () => {
       unregisterSetting('partySelector');
     };
   }, [language, availableParties, selectedParties, updateSelectedParties]);
 
+  let hasNoDataToRender = false;
   if (!isLoading && filteredTableDataset) {
     if (Array.from(filteredTableDataset.values()).every((policies) => policies.length === 0)) {
-      onEmpty?.();
-      if (renderEmpty) {
-        return renderEmpty();
-      }
+      hasNoDataToRender = true;
     }
+  }
+
+  React.useEffect(() => {
+    if (hasNoDataToRender)  onEmpty?.();
+  }, [hasNoDataToRender]);
+
+  if (hasNoDataToRender && renderEmpty) {
+    return renderEmpty();
   }
 
   return (

@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from 'react';
-import * as React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { LanguageOption, Language } from 'types/schema';
 import translations from 'support/translations';
 
@@ -73,55 +73,56 @@ interface LanguageSelectorProps {
   className?: string;
 }
 
-export function LanguageSelector ({ className = "", darkTheme = false }: LanguageSelectorProps) {
+export function LanguageSelector({ className = "", darkTheme = false }: LanguageSelectorProps) {
   const { language, setLanguage } = useLanguage();
+  const enRef = useRef<HTMLAnchorElement>(null);
+  const frRef = useRef<HTMLAnchorElement>(null);
+
+  const handleToggleLanguage = (newLanguage: Language) => {
+    setLanguage(newLanguage);
+  };
+
+  useEffect(() => {
+    // TODO check if element has focus first!!
+    if (language === LanguageOption.EN) {
+      frRef.current?.focus();
+    } else {
+      enRef.current?.focus();
+    }
+  }, [language]);
 
   return (
-    <ul className={`list flex flex-row flex-justify-between ${ darkTheme ? 'list--dark' : 'list--light' } ${className}`}>
-    {
-      (language == LanguageOption.EN) ?
-        <>
-          <li className="flex-grow">
-            <span className="list--item active">English</span>
-          </li>
-          <li className="flex-grow" onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}>
-            <span className="list--item">Français</span>
-          </li>
-        </>
-        :
-        <>
-          <li className="flex-grow" onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}>
-            <span className="list--item">English</span>
-          </li>
-          <li className="flex-grow">
-            <span className="list--item active">Français</span>
-          </li>
-        </>
-    }
+    <ul className={`list flex flex-row flex-justify-between select-disabled ${darkTheme ? 'list--dark' : 'list--light'} ${className}`}>
+      <li key="lang-toggle-en" className="flex-grow">
+        {language === LanguageOption.EN ? (
+          <span className="list--item active">English</span>
+        ) : (
+          <a
+            href="#"
+            ref={enRef}
+            className="list--item"
+            onClick={(e) => { e.preventDefault(); handleToggleLanguage(LanguageOption.EN); }}
+            tabIndex={0}
+          >
+            English
+          </a>
+        )}
+      </li>
+      <li key="lang-toggle-fr" className="flex-grow">
+        {language === LanguageOption.FR ? (
+          <span className="list--item active">Français</span>
+        ) : (
+          <a
+            href="#"
+            ref={frRef}
+            className="list--item"
+            onClick={(e) => { e.preventDefault(); handleToggleLanguage(LanguageOption.FR); }}
+            tabIndex={0}
+          >
+            Français
+          </a>
+        )}
+      </li>
     </ul>
-  )
-
-  // return (language == LanguageOption.EN) ?
-  //   <>
-  //     <span className="active">
-  //       English
-  //     </span>
-  //     <span> | </span>
-  //     <a
-  //       href="#"
-  //       onClick={e => { e.preventDefault(); setLanguage(LanguageOption.FR) }}>
-  //       Français
-  //     </a>
-  //   </> :
-  //   <>
-  //     <a
-  //       href="#"
-  //       onClick={e => { e.preventDefault(); setLanguage(LanguageOption.EN) }}>
-  //       English
-  //     </a>
-  //     <span> | </span>
-  //     <span className="active">
-  //       Français
-  //     </span>
-  //   </>
+  );
 }
