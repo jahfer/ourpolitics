@@ -77,19 +77,31 @@ export function LanguageSelector({ className = "", darkTheme = false }: Language
   const { language, setLanguage } = useLanguage();
   const enRef = useRef<HTMLAnchorElement>(null);
   const frRef = useRef<HTMLAnchorElement>(null);
+  const [isKeyboardInteraction, setIsKeyboardInteraction] = useState(false);
 
   const handleToggleLanguage = (newLanguage: Language) => {
     setLanguage(newLanguage);
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      setIsKeyboardInteraction(true);
+    }
+  };
+
   useEffect(() => {
-    // TODO check if element has focus first!!
+    if (!isKeyboardInteraction) {
+      return;
+    }
+
     if (language === LanguageOption.EN) {
       frRef.current?.focus();
     } else {
       enRef.current?.focus();
     }
-  }, [language]);
+
+    setIsKeyboardInteraction(false);
+  }, [language, enRef, frRef, isKeyboardInteraction]);
 
   return (
     <ul className={`list flex flex-row flex-justify-between select-disabled ${darkTheme ? 'list--dark' : 'list--light'} ${className}`}>
@@ -102,6 +114,7 @@ export function LanguageSelector({ className = "", darkTheme = false }: Language
             ref={enRef}
             className="list--item"
             onClick={(e) => { e.preventDefault(); handleToggleLanguage(LanguageOption.EN); }}
+            onKeyDown={handleKeyDown}
             tabIndex={0}
           >
             English
@@ -117,6 +130,7 @@ export function LanguageSelector({ className = "", darkTheme = false }: Language
             ref={frRef}
             className="list--item"
             onClick={(e) => { e.preventDefault(); handleToggleLanguage(LanguageOption.FR); }}
+            onKeyDown={handleKeyDown}
             tabIndex={0}
           >
             Français

@@ -202,9 +202,9 @@
     padding-bottom: 10px;
   }
 
-  /* &.settings-panel--closed .settings-panel--content {
+  &.settings-panel--closed .settings-panel--content {
     visibility: hidden;
-  } */
+  }
 
   &.expanded .settings-panel--content {
     visibility: visible;
