@@ -22,7 +22,7 @@ export default function PolicyTopicDetails ({ year, topic }: TopicDetailsParams)
     <SelectedPartiesProvider>
       <Page title={t(`topic.${topic}`)}>
         <section className="section flex flex-row flex-wrap gap-3">
-          <article className="text-block flex-1">
+          <article className="policy-comparison-summary text-block flex-1">
             <h2>{t('policy_comparison.analysis')}</h2>
             <PolicyComparisonSummary topic={topic} year={year} />
           </article>

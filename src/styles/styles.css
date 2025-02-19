@@ -28,6 +28,10 @@ a {
   color: var(--color-blue);
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .select-disabled {
   user-select: none;
 }
@@ -56,11 +60,6 @@ a {
   border-top: 2px solid #fff;
 }
 
-.section {
-  padding-top: 20px;
-  position: relative;
-}
-
 .content {
   margin-bottom: auto;
 }
@@ -75,9 +74,7 @@ a {
   font-weight: bold;
   font-family: 'Causten Round', sans-serif;
   text-decoration: none;
-  font-size: 0.8rem;
   letter-spacing: 0.01em;
-  text-transform: uppercase;
 }
 
 .btn-compact {
@@ -510,6 +507,9 @@ a {
       padding: 1.5rem;
     }
   }
+}
+
+.policy-comparison-summary {
 }
 
 @media screen and (min-width: 650px) {

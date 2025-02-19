@@ -77,7 +77,7 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({collapsed = true}) 
   return (
     <aside ref={settingsPanelRef} className={`settings-panel ${isCollapsed ? 'collapsed' : 'expanded'}`} id={settingsPanelId}>
       <nav className="flex flex-row container flex-justify-end">
-        <a href="#" tabIndex={0} className='btn btn-primary btn-compact select-disabled' onClick={togglePanel}>
+        <a href="#" tabIndex={0} className='btn btn-primary btn-compact select-disabled uppercase' onClick={togglePanel}>
           <Icon name="cog" inline={IconInlinePosition.Left} />{t('settings')}
         </a>
       </nav>

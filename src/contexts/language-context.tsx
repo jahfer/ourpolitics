@@ -104,7 +104,7 @@ export function LanguageSelector({ className = "", darkTheme = false }: Language
   }, [language, enRef, frRef, isKeyboardInteraction]);
 
   return (
-    <ul className={`list flex flex-row flex-justify-between select-disabled ${darkTheme ? 'list--dark' : 'list--light'} ${className}`}>
+    <ul className={`lang-toggle list flex flex-row flex-justify-between select-disabled ${darkTheme ? 'list--dark' : 'list--light'} ${className}`}>
       <li key="lang-toggle-en" className="flex-grow">
         {language === LanguageOption.EN ? (
           <span className="list--item active">English</span>
