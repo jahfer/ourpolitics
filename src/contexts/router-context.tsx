@@ -6,6 +6,9 @@ type RouteHandler<T extends string> =
   T extends `/${infer Namespace}/:${infer Param}/:${infer Param}/:${infer Param}`
   ? (a: string, b: string, c: string) => React.ReactElement
 
+  : T extends `/${infer Namespace}/:${infer Param}/${infer Namespace}/:${infer Param}`
+  ? (a: string, b: string) => React.ReactElement
+
   : T extends `/${infer Namespace}/:${infer Param}/:${infer Param}`
   ? (a: string, b: string) => React.ReactElement
 

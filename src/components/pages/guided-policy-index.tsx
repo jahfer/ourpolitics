@@ -9,7 +9,7 @@ import { setItem } from 'data/storage'
 import '../../styles/guide.css'
 import { Link } from 'components/system/link'
 import { LanguageSelector } from 'contexts/language-context'
-import { Icon } from 'components/system/icon'
+import { Icon, IconInlinePosition } from 'components/system/icon'
 
 interface GuidedPolicyIndexParams {
   year: string,
@@ -124,16 +124,18 @@ export default function GuidedPolicyIndex (
             </ul>
           </div>
           <div className="guide--submit-actions">
-            <Button primary className="flex flex-justify-between" onClick={() => {
-              Policy.saveSelectedTopics(year, topics);
+            <Link to="/policies/2021" className="btn btn-primary flex flex-justify-between flex-baseline" onClick={() => {
+              const topicList = Array.from(topics)
+                .filter(([_, checked]) => checked)
+                .map(([topic, _]) => topic);
+              Policy.saveSelectedTopics(year, topicList);
               setItem("has-visited-guide", true, "local");
-              setURL({}, '/policies/2021');
             }}>
-              {t("guide.cta")}&nbsp;<span style={{fontFamily: "system-ui"}}>&rarr;</span>
-            </Button><p> {t('guide.or')} <Link to="/policies/2021"
+              {t("guide.cta")}&nbsp;<Icon name="arrow-right" inline={IconInlinePosition.Right} />
+            </Link><p> {t('guide.or')} <Link to="/policies/2021"
                               onClick={() => {
                                 setItem("has-visited-guide", true, "local");
-                                Policy.resetSelectedTopics(year)
+                                Policy.clearSelectedTopics(year)
                               }}>{t("guide.see_all_policies")}</Link></p>
           </div>
         </div>

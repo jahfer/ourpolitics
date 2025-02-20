@@ -25,7 +25,15 @@ body {
 }
 
 a {
-  color: rgb(0, 102, 204);
+  color: var(--color-blue);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.select-disabled {
+  user-select: none;
 }
 
 .text-color-dim {
@@ -52,11 +60,6 @@ a {
   border-top: 2px solid #fff;
 }
 
-.section {
-  padding-top: 20px;
-  position: relative;
-}
-
 .content {
   margin-bottom: auto;
 }
@@ -71,9 +74,7 @@ a {
   font-weight: bold;
   font-family: 'Causten Round', sans-serif;
   text-decoration: none;
-  font-size: 0.8rem;
   letter-spacing: 0.01em;
-  text-transform: uppercase;
 }
 
 .btn-compact {
@@ -185,7 +186,8 @@ a {
 }
 
 .list--dark .list--item.active {
-  background: var(--color-charcoal);
+  background: var(--color-cream);
+  color: var(--color-charcoal-darkest);
 }
 
 .list--item:not(.active):hover {
@@ -201,8 +203,7 @@ a {
 }
 
 .list--dark .list--item:not(.active):hover {
-  background-color: var(--color-grey-lighter);
-  color: var(--color-charcoal-darkest);
+  background-color: var(--color-charcoal);
 }
 
 .list--dark li {
@@ -282,12 +283,15 @@ a {
   text-align: center;
 
   &:hover {
-    .policyTopic--info {
-      border: 2px solid var(--color-grey-light);
+    .policyTopic--info-link {
+      border: 2px solid var(--color-cream-darker);
+      cursor: pointer;
     }
 
-    .policyTopic--info > i {
+    .policyTopic--info-link > i {
       visibility: visible;
+      opacity: 1;
+      transform: scale(1);
     }
   }
 }
@@ -301,6 +305,23 @@ a {
   & > i {
     padding-right: 3px;
     visibility: hidden;
+  }
+}
+
+.policyTopic--info-link {
+  display: flex;
+  background-color: var(--color-cream-light);
+  border-radius: 6px;
+  padding: 5px 8px 4px;
+  margin-left: calc(-1rem - 8px - 2px);
+  border: 2px solid transparent;
+  transition: border 0.2s ease-in-out;
+
+  & > i {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.2s ease-in-out;
+    transform: scale(0.1);
   }
 }
 

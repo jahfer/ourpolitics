@@ -15,7 +15,7 @@ export default function Header ({ subheading }: HeaderProps) {
   const { registerSetting } = useSettings();
 
   React.useEffect(() => {
-    registerSetting('language', 
+    registerSetting('language', (_notifySettingsUpdated) => 
       <Setting label={t("settings.select_language")}>
         <LanguageSelector darkTheme={true} />
       </Setting>

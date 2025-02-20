@@ -53,7 +53,7 @@ a {
   }
 
   .text-block &:hover {
-    border-color: rgb(0, 102, 204);
+    border-color: var(--color-blue);
   }
 }
 
@@ -90,7 +90,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-block {
-  max-width: 30em;
+  min-width: 20rem;
+  max-width: 30rem;
 }
 
 .text-center {
@@ -120,7 +121,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fa-inline {
+  vertical-align: top;
+}
+
+.fa-inline-left {
   margin-right: 0.5rem;
+}
+
+.fa-inline-right {
+  margin-left: 0.5rem;
 }
 
 .fa-large {

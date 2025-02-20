@@ -18,7 +18,7 @@ export default function Page ({title, children, className = "", showHeader = tru
   return (
     <div className={`page lang-${language}`}>
       <SettingsPanel />
-      <main className="page-content">
+      <main className="page-content flex flex-col">
         {
           showHeader ?
             <Header subheading={title} />

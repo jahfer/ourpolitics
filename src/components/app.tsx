@@ -1,9 +1,9 @@
 import * as React from 'react'
 
-import PolicyComparisonIndex from 'components/pages/policy-comparison-index'
+import PolicyIndex from 'components/pages/policy-index'
 import PrivacyPolicyIndex from 'components/pages/privacy-policy-index'
 import AboutIndex from 'components/pages/about-index'
-import TopicDetails from 'components/pages/topic-details'
+import PolicyTopicDetails from 'components/pages/policy-topic-details'
 import GuidedPolicyIndex from 'components/pages/guided-policy-index'
 
 import { LanguageProvider } from 'contexts/language-context'
@@ -17,7 +17,6 @@ import { getItem } from 'data/storage'
 
 const routes = [
   route("/", () => {
-    console.log("has visited guide", getItem("has-visited-guide", false));
     if (getItem("has-visited-guide", false)) {
       return <Redirect to="/policies/2021" />
     }
@@ -26,13 +25,13 @@ const routes = [
   }),
 
   route("/policies/:year", (year) =>
-    <PolicyComparisonIndex year={year} />),
+    <PolicyIndex year={year} />),
+
+  route("/policies/:year/topics/:topic", (year, topic) =>
+    <PolicyTopicDetails year={year} topic={topic} />),
 
   route("/policies/:year/:party/:policyHandle", (year, party, policyHandle) =>
-    <PolicyComparisonIndex year={year} party={party} policyHandle={policyHandle} />),
-
-  route("/topics/:topic", (topic) =>
-    <TopicDetails topic={topic} />),
+    <PolicyIndex year={year} party={party} policyHandle={policyHandle} />),
 
   route("/guide", () => <GuidedPolicyIndex year="2021" />),
 

@@ -3,13 +3,22 @@ import PolicyTable from './policy-table'
 import { Party } from 'types/schema'
 import { useURL } from 'contexts/router-context'
 import * as Policy from 'data/policy'
-
+import { useSettings } from 'contexts/settings-context'
+import { useLanguage, useTranslation } from 'contexts/language-context'
+import { Setting } from 'components/settings'
+import SelectableList from 'components/system/selectable-list'
+import { useSelectedParties } from 'hooks/useSelectedParties'
 import { PolicyModalProvider } from 'contexts/policy-modal-context'
-import Banner from '../banner'
 
 interface PolicyComparisonTableProps {
   year: string,
   selectedHandle?: string,
+  canFilterTopics?: boolean,
+  floatingHeader?: boolean,
+  selectedTopics?: Array<string>,
+  hideHeader?: boolean,
+  renderEmpty?: () => React.ReactNode,
+  onEmpty?: () => void,
 }
 
 function partyToAcronym(party: Party) {
@@ -28,12 +37,25 @@ function partyToAcronym(party: Party) {
   }
 }
 
-export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyComparisonTableProps) {
+export default function PolicyComparisonTable ({
+  year,
+  selectedHandle,
+  selectedTopics,
+  canFilterTopics = true,
+  floatingHeader = true,
+  hideHeader = false,
+  renderEmpty,
+  onEmpty,
+}: PolicyComparisonTableProps) {
+  const { t } = useTranslation();
+  const { updateURLState } = useURL();
+  const { registerSetting, unregisterSetting } = useSettings();
+  const { language } = useLanguage();
   const [isLoading, setIsLoading] = React.useState(true);
   const [tableDataset, setTableDataset] = React.useState<Map<string, Array<Policy.T>>>();
-  const [parties, setParties] = React.useState<Set<Party>>();
+  const [availableParties, setAvailableParties] = React.useState<Set<Party>>(new Set<Party>());
   const [policiesByHandle, setPoliciesByHandle] = React.useState<Map<string, Policy.T>>();
-  const { updateURLState, history } = useURL();
+  const [activeTopics, setActiveTopics] = React.useState<Array<string>>(selectedTopics || []);
 
   React.useEffect(() => {
     if (selectedHandle && policiesByHandle) {
@@ -63,8 +85,20 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
         parties.add(policy.party);
       });
 
-      setTableDataset(Policy.toDataset(policies));
-      setParties(parties);
+      const dataset = Policy.toDataset(policies);
+
+      setTableDataset(dataset);
+
+      if (activeTopics.length === 0) {
+        const selectedTopicsFromStorage = Policy.loadSelectedTopics(year)
+        if (selectedTopicsFromStorage.length > 0) {
+          setActiveTopics(selectedTopicsFromStorage);
+        } else {
+          setActiveTopics(Policy.topicsInDataset(dataset));
+        }
+      }
+
+      setAvailableParties(parties);
       setPoliciesByHandle(policiesByHandle);
       setIsLoading(false);
     }
@@ -73,19 +107,105 @@ export default function PolicyComparisonTable ({ year, selectedHandle }: PolicyC
     return () => { ignore = true; };
   }, [year]);
 
+  let availableTopics = null;
+  if (tableDataset) {
+    availableTopics = Policy.topicsInDataset(tableDataset);
+  }
+  
+  const setAndPersistTopicSelections = React.useCallback((newSelections: Array<string>) => {
+    if (!availableTopics) return;
+
+    if (newSelections.length === availableTopics.length) {
+      Policy.clearSelectedTopics(year);
+      if (tableDataset) {
+        setActiveTopics(Policy.topicsInDataset(tableDataset));
+        return;
+      }
+    } else {
+      Policy.saveSelectedTopics(year, newSelections);
+    }
+
+    setActiveTopics(newSelections);
+  }, [year, availableTopics]);
+
+  const { selectedParties, updateSelectedParties } = useSelectedParties(availableParties);
+
+  const filteredTableDataset = React.useMemo(() => {
+    if (!tableDataset) return;
+    const filtered = Array.from(tableDataset.entries())
+      .sort(([topicA], [topicB]) => topicA.localeCompare(topicB))
+      .filter(([topic, _policies]) => activeTopics.indexOf(topic) >= 0);
+    return new Map(filtered);
+  }, [selectedParties, tableDataset, activeTopics]);
+
+  React.useEffect(() => {
+    const availablePartiesArray = Array.from(availableParties);
+    const partySelections = new Map(availablePartiesArray.map(party => [party, selectedParties.has(party)]));
+
+    registerSetting('partySelector', (notifySettingsUpdated) => (
+      <Setting label={t("settings.policy_table.party_modal_selection_description")}>
+        <SelectableList<Party>
+          items={availablePartiesArray}
+          className="list--dark flex flex-responsive flex-justify-around"
+          selections={partySelections}
+          onRender={(party: string) => t(party.toLowerCase())}
+          onUpdate={(newPartySelections) => {
+            const parties = Array
+              .from(newPartySelections.entries())
+              .filter(([_, selected]) => selected)
+              .map(([party, _]) => party);
+            updateSelectedParties(parties);
+            notifySettingsUpdated({});
+          }}
+          enableToggleAll={false}
+          enableToggleNone={false}
+        />
+      </Setting>
+    ), true);
+
+    // TODO: Subscribe to settings so that we pick up on
+    // changes from other instances of this component
+
+    return () => {
+      unregisterSetting('partySelector');
+    };
+  }, [language, availableParties, selectedParties, updateSelectedParties]);
+
+  let hasNoDataToRender = false;
+  if (!isLoading && filteredTableDataset) {
+    if (Array.from(filteredTableDataset.values()).every((policies) => policies.length === 0)) {
+      hasNoDataToRender = true;
+    }
+  }
+
+  React.useEffect(() => {
+    if (hasNoDataToRender)  onEmpty?.();
+  }, [hasNoDataToRender]);
+
+  if (hasNoDataToRender && renderEmpty) {
+    return renderEmpty();
+  }
+
   return (
     <PolicyModalProvider>
       {
-        (isLoading || !tableDataset || !parties) ?
+        (isLoading || !filteredTableDataset || !availableParties || !availableTopics) ?
         (
           <div className="policyCell partyTitle backgroundColor--Skeleton">
             ...
           </div>
-        ) : <PolicyTable dataset={tableDataset} parties={parties} year={year} />
+        ) : <PolicyTable 
+              dataset={filteredTableDataset}
+              selectedParties={selectedParties}
+              year={year}
+              enableTopicFilter={canFilterTopics}
+              enableFloatingHeader={floatingHeader}
+              availableTopics={availableTopics}
+              selectedTopics={activeTopics}
+              onTopicSelectionsUpdate={setAndPersistTopicSelections}
+              hideHeader={hideHeader}
+            />
       }
-      <footer>
-        <p className="footerInfo" />
-      </footer>
     </PolicyModalProvider>
   )
 }

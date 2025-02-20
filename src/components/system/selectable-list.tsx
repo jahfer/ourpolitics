@@ -34,10 +34,6 @@ interface SelectableListProps<T> {
 export default function SelectableList<T>({ items, className = "", selections, onUpdate, onRender, enableToggleAll = true, enableToggleNone = true }: SelectableListProps<T>) {
   const { t } = useTranslation();
 
-  const updateSelections = (selections: Map<T, boolean>) => {
-    onUpdate(selections);
-  }
-
   return (
     <ul className={`list ${className}`}>
       {
@@ -48,7 +44,7 @@ export default function SelectableList<T>({ items, className = "", selections, o
               enableToggleAll
               ? ([...selections.entries()].every(([_item, checked]) => checked) ? null : (
                 <div className="policyTable--filterBar--toggle">
-                  <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(items.map((item) => [item, true]))) }}>{t("select_all")}</a>
+                  <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); onUpdate(new Map(items.map((item) => [item, true]))) }}>{t("select_all")}</a>
                 </div>
               ))
               : null
@@ -57,7 +53,7 @@ export default function SelectableList<T>({ items, className = "", selections, o
               enableToggleNone
               ? ([...selections.entries()].every(([_item, checked]) => !checked) ? null : (
                 <div className="policyTable--filterBar--toggle">
-                  <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); updateSelections(new Map(items.map((item) => [item, false]))) }}>{t("select_none")}</a>
+                  <a href="#" onKeyDown={handleEnterAsClick} onClick={(e) => { e.preventDefault(); onUpdate(new Map(items.map((item) => [item, false]))) }}>{t("select_none")}</a>
                 </div>
               ))
               : null
@@ -75,7 +71,7 @@ export default function SelectableList<T>({ items, className = "", selections, o
               className="list--item policyTable--filterBar--item"
               checked={checked}
               onRender={onRender}
-              onToggle={() => updateSelections(new Map(selections.set(item, !checked)))} />
+              onToggle={() => onUpdate(new Map(selections.set(item, !checked)))} />
           )
         })
       }

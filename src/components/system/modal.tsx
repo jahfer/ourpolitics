@@ -33,7 +33,6 @@ export function Modal ({ className, children, titleElementId, descriptionElement
     if (open) {
       onOpen && onOpen();
       dialogElement.showModal();
-      console.log(dialogBackdropElement);
       // dialogBackdropElement?.classList.add('modal--open');
     } else {
       dialogElement.close();
