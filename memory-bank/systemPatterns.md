@@ -28,7 +28,7 @@ The application is built as a modern single-page application (SPA) using:
 
    - Base UI components
    - Reusable across features
-   - Examples: button.tsx, modal.tsx, icon.tsx
+   - Examples: button.tsx, modal.tsx, icon.tsx, feature.tsx
 
 ### Context Management
 
@@ -104,3 +104,25 @@ Located in `src/support/`:
 3. General Utilities
    - Helper functions
    - Common operations
+
+### Feature Toggles
+
+1.  Feature Component (`src/components/system/feature.tsx`)
+
+    - Conditionally renders content based on feature flag state.
+    - Features can be enabled/disabled via URL fragment using comma-separated values: `#feature:name:enable,feature:name2:disable`
+    - Use two Feature components to handle both enabled and disabled states:
+
+    ```tsx
+    <Feature name="new-design">
+      <NewDesignComponent />
+    </Feature>
+    <Feature name="new-design" disabled>
+      <OldDesignComponent />
+    </Feature>
+    ```
+
+2.  Feature Management (`src/data/features.ts`)
+    - Stores all feature flags in a single JSON blob in storage
+    - Parses URL fragments to enable/disable features
+    - Provides helper functions to get/set feature states

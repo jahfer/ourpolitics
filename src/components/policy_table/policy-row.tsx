@@ -6,6 +6,7 @@ import { useURL } from 'contexts/router-context'
 import { T as Policy } from 'data/policy'
 import { Icon, IconInlinePosition } from 'components/system/icon'
 import { Link } from 'components/system/link'
+import { Feature } from 'components/system/feature'
 
 interface PolicyRowProps {
   topic: string
@@ -28,33 +29,37 @@ export default function PolicyRow ({ topic, year, parties, policies, displayTopi
     return <PolicyCell party={party} topic={topic} policies={partyPolicies} key={`${party}/${topic}`} />
   });
 
-  const handleClick = React.useCallback((event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    setURL({}, topicURL(year, topic));
-    event.preventDefault();
-    return false;
-  }, [year, topic]);
-
   return (
     <div className="policyRow">
-    <div className="policyCells">
-    {
-      displayTopic ?
-        <div className="policyCell policyTopic">
-          <Link className="no-underline" to={topicURL(year, topic)}>
-            <h3
-              aria-labelledby="policyTableColumn--topics"
-              id={`policyTableRow--${topic}`}
-              className="policyTopic--title">
-              <span className="policyTopic--info">
-                <Icon name="info-circle" inline={IconInlinePosition.Left} /> {t(`topic.${topic}`)}
-              </span>
-            </h3>
-          </Link>
-        </div>
-        : null
-      }
-      {policyCells}
+      <div className="policyCells">
+      {
+        displayTopic ?
+          <div className="policyCell policyTopic">
+            <Feature name="policy_topic_details_page">
+              <Link className="no-underline" to={topicURL(year, topic)}>
+                <h3
+                  aria-labelledby="policyTableColumn--topics"
+                  id={`policyTableRow--${topic}`}
+                  className="policyTopic--title">
+                  <span className="policyTopic--info-link">
+                    <Icon name="info-circle" inline={IconInlinePosition.Left} /> {t(`topic.${topic}`)}
+                  </span>
+                </h3>
+              </Link>
+            </Feature>
+            <Feature name="policy_topic_details_page" disabled>
+              <h3
+                aria-labelledby="policyTableColumn--topics"
+                id={`policyTableRow--${topic}`}
+                className="policyTopic--title">
+                <span className="policyTopic--info">{t(`topic.${topic}`)}</span>
+              </h3>
+            </Feature>
+          </div>
+          : null
+        }
+        {policyCells}
+      </div>
     </div>
-  </div>
   )
 }
