@@ -10,6 +10,8 @@ export function partyToAcronym(party) {
       return "GPC";
     case "Liberal":
       return "LPC";
+    case "Bloc":
+      return "BQ";
     default:
       return party;
   }

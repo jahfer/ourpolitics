@@ -4,16 +4,16 @@ import { useTranslation } from 'contexts/language-context'
 import Page from 'components/page'
 import * as Policy from 'data/policy'
 import { SelectedPartiesProvider } from 'contexts/selected-parties-context'
-import { Icon } from 'components/system/icon'
+import {Banner, BannerType} from 'components/banner'
 
 interface PolicyIndexParams {
-  year?: string,
+  year: string,
   party?: string,
   policyHandle?: string,
 }
 
 export default function PolicyIndex (
-  { year = "2019", party, policyHandle }: PolicyIndexParams
+  { year, party, policyHandle }: PolicyIndexParams
 ) {
   const { t } = useTranslation();
 
@@ -21,7 +21,7 @@ export default function PolicyIndex (
 
   return (
     <SelectedPartiesProvider>
-    <Page title={yearSelector}>
+      <Page title={year}>
         <section className="section">
           {
             usingFilteredTopics ?
@@ -29,9 +29,10 @@ export default function PolicyIndex (
             : null
           }
 
-          {/* <Banner>
-            <div dangerouslySetInnerHTML={{ __html: t("election_notice") }} />
-          </Banner> */}
+          <Banner type={BannerType.Warning}>
+            {/* <div dangerouslySetInnerHTML={{ __html: t("banner.election_notice") }} /> */}
+            <div dangerouslySetInnerHTML={{ __html: t("banner.work-in-progress") }} />
+          </Banner>
           <PolicyComparisonTable year={year} selectedHandle={`${party}/${policyHandle}`} />
         </section>
       </Page>

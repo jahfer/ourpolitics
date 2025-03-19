@@ -1,20 +1,993 @@
 [
   {
-    "topic": "economy",
+    "topic": "immigration",
+    "party": "Liberal",
     "year": 2025,
-    "party": "Conservative",
     "title": {
-      "EN": "Something",
-      "FR": "Quelque chose"
+      "EN": "Cap Immigration Temporarily"
     },
     "references": [
       {
-        "date": "2025-09-11",
-        "title": "Test Title",
-        "publisher": "",
-        "url": ""
+        "date": "2025-02-24",
+        "title": "Liberal leadership hopeful Mark Carney says he would put a temporary cap on immigration",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/canada/article-liberal-leadership-hopeful-mark-carney-says-he-would-put-a-temporary/"
       }
     ],
-    "handle": "abc"
+    "id": 1
+  },
+  {
+    "topic": "immigration",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Hire More Border Agents"
+    },
+    "references": [
+      {
+        "date": "2025-03-04",
+        "title": "Border officer union cites staffing shortfalls as Trump proceeds with tariff threats",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/border-officer-union-cites-staffing-shortfalls-as-trump-proceeds-with-tariff-threats/article_4afb852e-69de-5e4a-9efe-680e24a49d54.html"
+      }
+    ],
+    "id": 2
+  },
+  {
+    "topic": "immigration",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Reduce Annual Permanent Resident Intake"
+    },
+    "references": [
+      {
+        "date": "2024",
+        "title": "EXCLUSIVE: Poilievre suggests capping immigration at Harper-era levels, deportations for wrongdoers",
+        "publisher": "Juno News",
+        "url": "https://www.junonews.com/p/exclusive-poilievre-vows-200k-250k"
+      }
+    ],
+    "id": 3
+  },
+  {
+    "topic": "international-trade",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Dollar-for-Dollar Retaliatory Tariffs"
+    },
+    "references": [
+      {
+        "date": "2025-03-11",
+        "title": "Trump placing 25% tariff on steel, aluminum after backing off 50% threat",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/trump-canada-steel-alumimum-tariffs-1.7480309"
+      },
+      {
+        "date": "2025-03-11",
+        "title": "Donald Trump hints at reversing latest 50 per cent tariff threat on Canadian metals, Doug Ford lines up Washington meeting in signs of potential breakthrough ",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/donald-trump-hints-at-tariff-reversal-after-ontario-suspends-electricity-surcharge/article_6af4e772-fe83-11ef-9a6b-83ab47d11c5a.html"
+      },
+      {
+        "date": "2025-03-11",
+        "title": "Trump tariffs and Canada: 25% levy on steel and aluminum will go into effect tomorrow; Doug Ford agrees to suspend electricity tax ",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/trump-tariffs-canada/article_fbd77efe-fe87-11ef-aff6-6bf80c3baf29.html"
+      },
+      {
+        "date": "2025-03-11",
+        "title": "Poilievre wants to impose 50 per cent metal tariffs on U.S. after latest Trump threat",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/poilievre-wants-to-impose-50-per-cent-metal-tariffs-on-u-s-after-latest-trump/article_f32139b7-fff6-52a0-bce9-92b0ed6cea88.html"
+      }
+    ],
+    "id": 4
+  },
+  {
+    "topic": "international-trade",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Dollar-for-Dollar Retaliatory Tariffs"
+    },
+    "references": [
+      {
+        "date": "2025-03-12",
+        "title": "Carney transition team met with PMO staff Tuesday, hope for PM swearing-in by Friday",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/jagmeet-singh-reacts-trumps-tariffs-canadian-steel-and-aluminum-1.7481228"
+      },
+      {
+        "date": "2025-03-12",
+        "title": "Trump Tariffs and Canada: U.S. tariffs on steel, aluminum in effect; Canada’s retaliatory levies start Thursday; Carney to become PM Friday",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/trump-tariffs-canada-live/article_280d0976-feb5-11ef-94ab-a393bb21ba46.html"
+      }
+    ],
+    "id": 5
+  },
+  {
+    "topic": "international-trade",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Protect Supply Management"
+    },
+    "references": [
+      {
+        "date": "2025-03-14",
+        "title": "Crise tarifaire et négociations à venir de l’ACEUM : Pas question d’abandonner la gestion de l’offre",
+        "publisher": "Bloc Québécois",
+        "url": "https://www.blocquebecois.org/crise-tarifaire-et-negociations-a-venir-de-laceum-pas-question-dabandonner-la-gestion-de-loffre/"
+      }
+    ],
+    "id": 6
+  },
+  {
+    "topic": "international-trade",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Diversify Trade Relationships"
+    },
+    "references": [
+      {
+        "date": "2025-03-14",
+        "title": "Who are the new faces in Carney's cabinet? Who's on their way out?",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/who-is-in-mark-carney-cabinet-1.7484013"
+      },
+      {
+        "date": "2025-03-14",
+        "title": "Joly tells Marco Rubio 'Canada's sovereignty is not up to debate, period'",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/g7-canada-joly-tells-rubio-hands-off-1.7483573"
+      }
+    ],
+    "id": 7
+  },
+  {
+    "topic": "government",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Conflict of Interest Act Reform"
+    },
+    "references": [
+      {
+        "date": "2025-03-11",
+        "title": "Poilievre says Carney's taking advantage of an ethics loophole. Is he right?",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/mark-carney-puts-assets-in-blind-trust-1.7480909?cmp=rss"
+      },
+      {
+        "date": "2025-03-14",
+        "title": "Incoming prime minister Mark Carney says he has put his assets in a blind trust",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/incoming-prime-minister-mark-carney-says-he-has-put-his-assets-in-a-blind-trust/article_930e6cc2-ac45-5e94-921e-b92eb095e26c.html"
+      }
+    ],
+    "id": 8
+  },
+  {
+    "topic": "government",
+    "party": "Green",
+    "year": 2025,
+    "title": {
+      "EN": "“Wartime” cabinet focused on responding to U.S. threats"
+    },
+    "references": [
+      {
+        "date": "March 11, 2025",
+        "title": "Poilievre wants to impose 50 per cent metal tariffs on U.S. after latest Trump threat",
+        "url": "https://www.thestar.com/politics/federal/poilievre-wants-to-impose-50-per-cent-metal-tariffs-on-u-s-after-latest-trump/article_f32139b7-fff6-52a0-bce9-92b0ed6cea88.html"
+      }
+    ],
+    "id": 9
+  },
+  {
+    "topic": "government",
+    "party": "Green",
+    "year": 2025,
+    "title": {
+      "EN": "Review Future Government Appointments"
+    },
+    "references": [
+      {
+        "date": "2025-03-15",
+        "title": "Opposition parties slam Trudeau cabinet's future appointments to government agencies",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/trudeau-future-appointments-reaction-1.7484422?cmp=rss"
+      }
+    ],
+    "id": 10
+  },
+  {
+    "topic": "government",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Roll Back Future Appointments"
+    },
+    "references": [
+      {
+        "date": "2025-03-15",
+        "title": "Opposition parties slam Trudeau cabinet's future appointments to government agencies",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/trudeau-future-appointments-reaction-1.7484422?cmp=rss"
+      }
+    ],
+    "id": 11
+  },
+  {
+    "topic": "government",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Oppose Future Government Appointments"
+    },
+    "references": [
+      {
+        "date": "2025-03-15",
+        "title": "Opposition parties slam Trudeau cabinet's future appointments to government agencies",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/trudeau-future-appointments-reaction-1.7484422?cmp=rss"
+      }
+    ],
+    "id": 12
+  },
+  {
+    "topic": "government",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Foreign Interference Safeguards"
+    },
+    "references": [
+      {
+        "date": "2025-01-28",
+        "title": "Rapport de la Commission Hogue : Il faut rebâtir la confiance",
+        "publisher": "Bloc Québécois",
+        "url": "https://www.blocquebecois.org/rapport-de-la-commission-hogue-il-faut-rebatir-la-confiance/"
+      }
+    ],
+    "id": 13
+  },
+  {
+    "topic": "indigenous-relations",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Cancel Chalk River Project"
+    },
+    "references": [
+      {
+        "date": "2025-02-21",
+        "title": "Victoire en Cour de la Première Nation de Kebaowek: Ottawa doit écouter et renoncer à Chalk River",
+        "publisher": "Bloc Québécois",
+        "url": "https://www.blocquebecois.org/victoire-en-cour-de-la-premiere-nation-de-kebaowek-ottawa-doit-ecouter-et-renoncer-a-chalk-river/"
+      }
+    ],
+    "id": 14
+  },
+  {
+    "topic": "affordability",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Tax-Free Essentials"
+    },
+    "references": [
+      {
+        "date": "2025-02-14",
+        "title": "Singh commits to tax-free necessities and bills – not a break for billionaires",
+        "publisher": "NDP",
+        "url": "https://www.ndp.ca/news/singh-commits-tax-free-necessities-and-bills-not-break-billionaires"
+      }
+    ],
+    "id": 15
+  },
+  {
+    "topic": "affordability",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Grocery Price Cap"
+    },
+    "references": [
+      {
+        "date": "2025-02-11",
+        "title": "Reality Check – Chrystia Freeland Flip-Flops on Grocery Price Cap",
+        "publisher": "NDP",
+        "url": "https://www.ndp.ca/news/reality-check-chrystia-freeland-flip-flops-grocery-price-cap"
+      }
+    ],
+    "id": 16
+  },
+  {
+    "topic": "civil-rights",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Investigate X for Privacy Concerns"
+    },
+    "references": [
+      {
+        "date": "2025-02-25",
+        "title": "NDP’s Masse urges investigation into X regarding data privacy concerns",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/ndps-masse-urges-investigation-x-regarding-data-privacy-concerns"
+      }
+    ],
+    "id": 17
+  },
+  {
+    "topic": "civil-rights",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Support Workers' Right to Strike"
+    },
+    "references": [
+      {
+        "date": "2025-02-20",
+        "title": "Jagmeet Singh denounces the CAQ's frontal attack on workers' rights",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/jagmeet-singh-denounces-caqs-frontal-attack-workers-rights"
+      }
+    ],
+    "id": 59
+  },
+  {
+    "topic": "civil-rights",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Expand CBSA Training Centre in Windsor"
+    },
+    "references": [
+      {
+        "date": "2025-02-10",
+        "title": "NDP will build CBSA training centre in Windsor",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/ndp-will-build-cbsa-training-centre-windsor"
+      }
+    ],
+    "id": 18
+  },
+  {
+    "topic": "civil-rights",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Redirect Anglicization Funding"
+    },
+    "references": [
+      {
+        "date": "2025-02-27",
+        "title": "Analyse des comptes publics 2023-2024: 200 millions pour l’anglicisation au Québec",
+        "publisher": "Bloc Québécois Official Website",
+        "url": "https://www.blocquebecois.org/?p=30239"
+      }
+    ],
+    "id": 19
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Ban Corporate Healthcare Billing"
+    },
+    "references": [
+      {
+        "date": "February 24th, 2025",
+        "title": "NDP commits to stop corporations from billing patients for care",
+        "publisher": "NDP.ca",
+        "url": "https://www.ndp.ca/news/ndp-commits-stop-corporations-billing-patients-care"
+      }
+    ],
+    "id": 21
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Support Abortion Access"
+    },
+    "references": [
+      {
+        "date": "March 8, 2025",
+        "title": "NDP statement on International Women’s Day 2025",
+        "publisher": "NDP.ca",
+        "url": "https://www.ndp.ca/news/ndp-statement-international-womens-day-2025"
+      }
+    ],
+    "id": 22
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Ban Hard Drugs, End Decriminalization"
+    },
+    "references": [
+      {
+        "date": "2024-04-05",
+        "title": "Poilievre Interviews with Comox Valley Record During Tour in Courtenay",
+        "publisher": "Comox Valley Record",
+        "url": "https://www.comoxvalleyrecord.com/local-news/poilievre-interviews-with-comox-valley-record-during-tour-in-courtenay-7338532"
+      }
+    ],
+    "id": 23
+  },
+  {
+    "topic": "housing",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Double Housing Construction"
+    },
+    "references": [
+      {
+        "date": "2025-02-24",
+        "title": "Liberal leadership hopeful Mark Carney says he would put a temporary cap on immigration",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/canada/article-liberal-leadership-hopeful-mark-carney-says-he-would-put-a-temporary/"
+      }
+    ],
+    "id": 25
+  },
+  {
+    "topic": "housing",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Scrap GST for First-Time Homebuyers"
+    },
+    "references": [
+      {
+        "date": "2025-02-24",
+        "title": "Liberal leadership hopeful Mark Carney says he would put a temporary cap on immigration",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/canada/article-liberal-leadership-hopeful-mark-carney-says-he-would-put-a-temporary/"
+      }
+    ],
+    "id": 26
+  },
+  {
+    "topic": "housing",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Eliminate GST on New Homes"
+    },
+    "references": [
+      {
+        "date": "2025-03-14",
+        "title": "Mark Carney’s Fourth Liberal Term Will Be Just Like Justin’s",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/mark-carneys-fourth-liberal-term-will-be-just-like-justins/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carneys-fourth-liberal-term-will-be-just-like-justins"
+      }
+    ],
+    "id": 27
+  },
+  {
+    "topic": "housing",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Incentives for Municipal Housing"
+    },
+    "references": [
+      {
+        "date": "2025-03-14",
+        "title": "Mark Carney’s Fourth Liberal Term Will Be Just Like Justin’s",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/mark-carneys-fourth-liberal-term-will-be-just-like-justins/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carneys-fourth-liberal-term-will-be-just-like-justins"
+      }
+    ],
+    "id": 28
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Invest in Affordable Housing"
+    },
+    "references": [
+      {
+        "date": "February 19th, 2025",
+        "title": "The NDP says it's time to invest more in affordable, social and community housing",
+        "publisher": "NDP.ca",
+        "url": "https://www.ndp.ca/news/ndp-says-its-time-invest-more-affordable-social-and-community-housing"
+      }
+    ],
+    "id": 29
+  },
+  {
+    "topic": "housing",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Unconditional Housing Funds Transfer"
+    },
+    "references": [
+      {
+        "date": "2025-01-30",
+        "title": "Fonds canadien pour les infrastructures liées au logement : Ottawa doit cesser de faire obstacle au logement",
+        "publisher": "Bloc Québécois",
+        "url": "https://www.blocquebecois.org/fonds-canadien-pour-les-infrastructures-liees-au-logement-ottawa-doit-cesser-de-faire-obstacle-au-logement/"
+      }
+    ],
+    "id": 30
+  },
+  {
+    "topic": "social-assistance",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Reform Employment Insurance"
+    },
+    "references": [
+      {
+        "date": "2025-03-12",
+        "title": "Jagmeet Singh reacts to Trump’s tariffs on Canadian steel and aluminum",
+        "publisher": "NDP.ca",
+        "url": "https://www.ndp.ca/news/jagmeet-singh-reacts-trumps-tariffs-canadian-steel-and-aluminum"
+      }
+    ],
+    "id": 31
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Equitable Pension System"
+    },
+    "references": [
+      {
+        "date": "2025-03-13",
+        "title": "Circonscription de Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata : Diane Sénécal investie candidate du Bloc Québécois",
+        "publisher": "Bloc Québécois",
+        "url": "https://www.blocquebecois.org/circonscription-de-cote-du-sud-riviere-du-loup-kataskomiq-temiscouata-diane-senecal-investie-candidate-du-bloc-quebecois/"
+      }
+    ],
+    "id": 32
+  },
+  {
+    "topic": "social-assistance",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Support Canada Disability Benefit"
+    },
+    "references": [
+      {
+        "date": "2025-03-03",
+        "title": "NDP welcomes long-awaited rollout of the Canada Disability Benefit",
+        "publisher": "NDP.ca",
+        "url": "https://www.ndp.ca/news/ndp-welcomes-long-awaited-rollout-canada-disability-benefit"
+      }
+    ],
+    "id": 33
+  },
+  {
+    "topic": "social-assistance",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Increase EI Payments for Tariff-Affected Workers"
+    },
+    "references": [
+      {
+        "date": "2025-03-09",
+        "title": "Trouble awaits the next Liberal leader. Here’s what they’ll be up against — and when they could face an election",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/trouble-awaits-the-next-liberal-leader-heres-what-theyll-be-up-against-and-when-they/article_294da3a8-fa9c-11ef-9883-abfa223c53c5.html"
+      }
+    ],
+    "id": 34
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Invest in Canadian Journalism"
+    },
+    "references": [
+      {
+        "date": "2025-02-20",
+        "title": "Jagmeet Singh and the NDP will invest in Canadian journalism and CBC/Radio-Canada",
+        "publisher": "NDP",
+        "url": "https://www.ndp.ca/news/jagmeet-singh-and-ndp-will-invest-canadian-journalism-and-cbcradio-canada"
+      }
+    ],
+    "id": 35
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "New Ministry for Canadian Culture"
+    },
+    "references": [
+      {
+        "date": "2025-03-14",
+        "title": "A rival left out, big GTA presence: 4 takeaways from Mark Carney’s cabinet",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/a-rival-left-out-big-gta-presence-4-takeaways-from-mark-carneys-cabinet/article_db6ab1d6-010c-11f0-8250-e7d68a0c54bc.html"
+      },
+      {
+        "date": "2025-03-14",
+        "title": "Five things to know about Prime Minister Mark Carney’s new cabinet",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/five-things-to-know-about-prime-minister-mark-carneys-new-cabinet/article_65633a69-6595-51f6-a6b5-0bea0951f474.html"
+      }
+    ],
+    "id": 36
+  },
+  {
+    "topic": "youth_child-care",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Better Wages for Childcare Workers"
+    },
+    "references": [
+      {
+        "date": "March 6th, 2025",
+        "title": "NDP wants to see better wages for child care workers, creating more spots for kids",
+        "publisher": "NDP",
+        "url": "https://www.ndp.ca/news/ndp-wants-see-better-wages-child-care-workers-creating-more-spots-kids"
+      }
+    ],
+    "id": 37
+  },
+  {
+    "topic": "infrastructure",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Use Canadian Steel for Infrastructure"
+    },
+    "references": [
+      {
+        "date": "February 19th, 2025",
+        "title": "High speed rail must be built publicly, using Canadian steel and aluminum: NDP",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/high-speed-rail-must-be-built-publicly-using-canadian-steel-and-aluminum-ndp"
+      }
+    ],
+    "id": 38
+  },
+  {
+    "topic": "infrastructure",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Prioritize Canadian Companies for Infrastructure"
+    },
+    "references": [],
+    "id": 39
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Repeal Bill C-69 for Resource Development"
+    },
+    "references": [
+      {
+        "date": "March 14, 2025",
+        "title": "Mark Carney’s Fourth Liberal Term Will Be Just Like Justin’s",
+        "publisher": "Conservative Party Website",
+        "url": "https://www.conservative.ca/mark-carneys-fourth-liberal-term-will-be-just-like-justins/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carneys-fourth-liberal-term-will-be-just-like-justins"
+      },
+      {
+        "date": "March 10, 2025",
+        "title": "Mark Carney Will Sell Out Canadians",
+        "publisher": "Conservative Party Website",
+        "url": "https://www.conservative.ca/mark-carney-will-sell-out-canadians/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carney-will-sell-out-canadians"
+      }
+    ],
+    "id": 40
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Support High-Speed Rail Project"
+    },
+    "references": [
+      {
+        "date": "February 19, 2025",
+        "title": "Projet de train à grande vitesse : Un pas dans la bonne direction",
+        "publisher": "Bloc Québécois Official Website",
+        "url": "https://www.blocquebecois.org/projet-de-train-a-grande-vitesse-un-pas-dans-la-bonne-direction/"
+      }
+    ],
+    "id": 42
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Award Icebreaker Contracts to Canadian Shipyards"
+    },
+    "references": [
+      {
+        "date": "March 8, 2025",
+        "title": "Ottawa announces 2nd domestic contract for polar icebreaker",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/ottawa-announces-2nd-domestic-contract-for-polar-icebreaker/article_8ebaa00d-a617-5af5-b4f3-7df4548af8c5.html"
+      }
+    ],
+    "id": 43
+  },
+  {
+    "topic": "infrastructure",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Build East-West Energy Grid"
+    },
+    "references": [
+      {
+        "date": "March 10, 2025",
+        "title": "NDP Workers for Canada plan to support B.C. jobs and workers",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/ndp-workers-canada-plan-support-bc-jobs-and-workers"
+      }
+    ],
+    "id": 45
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Strong Support for Ukraine"
+    },
+    "references": [
+      {
+        "date": "February 24th, 2025",
+        "title": "Statement on the three-year anniversary of the illegal invasion of Ukraine by Russia",
+        "publisher": "NDP",
+        "url": "https://www.ndp.ca/news/statement-three-year-anniversary-illegal-invasion-ukraine-russia"
+      }
+    ],
+    "id": 46
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Canadian Peacekeeping Force"
+    },
+    "references": [
+      {
+        "date": "February 14th, 2025",
+        "title": "NDP Statement on Canada’s withdrawal from the UN Mission in the Democratic Republic of Congo",
+        "publisher": "NDP",
+        "url": "https://www.ndp.ca/news/ndp-statement-canadas-withdrawal-un-mission-democratic-republic-congo"
+      }
+    ],
+    "id": 47
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Arctic Sovereignty"
+    },
+    "references": [
+      {
+        "date": "February 10th, 2025",
+        "title": "Reality Check – Pierre Poilievre insults the Arctic before claiming he'd defend it",
+        "publisher": "NDP",
+        "url": "https://www.ndp.ca/news/reality-check-pierre-poilievre-insults-arctic-claiming-hed-defend-it"
+      }
+    ],
+    "id": 48
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Confront Trump on Trade"
+    },
+    "references": [
+      {
+        "date": "March 14th, 2025",
+        "title": "Mark Carney’s Fourth Liberal Term Will Be Just Like Justin’s",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/mark-carneys-fourth-liberal-term-will-be-just-like-justins/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carneys-fourth-liberal-term-will-be-just-like-justins"
+      }
+    ],
+    "id": 49
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Arctic Security Plan"
+    },
+    "references": [
+      {
+        "date": "February 10th, 2025",
+        "title": "Poilievre pledges Arctic military base, naval icebreakers if party forms government",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/canada/article-poilievre-pledges-arctic-military-base-naval-icebreakers-if-party/"
+      }
+    ],
+    "id": 50
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Support for Gaza"
+    },
+    "references": [
+      {
+        "date": "March 12th, 2025",
+        "title": "Carney chief of staff's time in cabinet, stance on Gaza under scrutiny",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/mendicino-carney-chief-of-staff-1.7481928?cmp=rss"
+      }
+    ],
+    "id": 51
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Meet NATO Spending Target"
+    },
+    "references": [
+      {
+        "date": "March 12th, 2025",
+        "title": "Carney transition team met with PMO staff Tuesday, hope for PM swearing-in by Friday",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/carney-transition-team-met-pmo-staff-1.7481228?cmp=rss"
+      }
+    ],
+    "id": 52
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Modernize NORAD"
+    },
+    "references": [
+      {
+        "date": "March 12th, 2025",
+        "title": "Carney transition team met with PMO staff Tuesday, hope for PM swearing-in by Friday",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/carney-transition-team-met-pmo-staff-1.7481228?cmp=rss"
+      }
+    ],
+    "id": 53
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Reconsider F-35 Purchase"
+    },
+    "references": [
+      {
+        "date": "March 14th, 2025",
+        "title": "Canada reconsidering F-35 purchase amid tensions with Washington, says minister",
+        "publisher": "CBC",
+        "url": "https://www.cbc.ca/news/politics/f35-blair-trump-1.7484477?cmp=rss"
+      }
+    ],
+    "id": 54
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Support for Ukraine"
+    },
+    "references": [
+      {
+        "date": "February 24th, 2025",
+        "title": "Trois ans d’invasion russe en Ukraine: Le Bloc Québécois réaffirme son appui total à l’indépendance ukrainienne",
+        "publisher": "Bloc Québécois",
+        "url": "https://www.blocquebecois.org/trois-ans-dinvasion-russe-en-ukraine-le-bloc-quebecois-reaffirme-son-appui-total-a-lindependance-ukrainienne/"
+      }
+    ],
+    "id": 55
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Sanctions Against Rwanda"
+    },
+    "references": [
+      {
+        "date": "February 21st, 2025",
+        "title": "Le Bloc Québécois condamne les opérations du Rwanda en République démocratique du Congo",
+        "publisher": "Bloc Québécois",
+        "url": "https://www.blocquebecois.org/le-bloc-quebecois-condamne-les-operations-du-rwanda-en-republique-democratique-du-congo/"
+      }
+    ],
+    "id": 56
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Border Security Concerns"
+    },
+    "references": [
+      {
+        "date": "February 12th, 2025",
+        "title": "Diminution des heures d’ouverture des postes frontaliers : Le ministre McGuinty doit revoir sa décision",
+        "publisher": "Bloc Québécois",
+        "url": "https://www.blocquebecois.org/?p=30186"
+      }
+    ],
+    "id": 57
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Bloc",
+    "year": 2025,
+    "title": {
+      "EN": "Oppose English Promotion"
+    },
+    "references": [
+      {
+        "date": "February 27th, 2025",
+        "title": "Analyse des comptes publics 2023-2024: 200 millions pour l’anglicisation au Québec",
+        "publisher": "Bloc Québécois",
+        "url": "https://www.blocquebecois.org/analyse-des-comptes-publics-2023-2024-200-millions-pour-langlicisation-au-quebec/"
+      }
+    ],
+    "id": 58
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Modernize ports and rail for new trade corridors"
+    },
+    "references": [
+      {
+        "date": "February 20th, 2025",
+        "title": "Carney shifts carbon price strategy, pledges to make Canada a clean energy superpower",
+        "publisher": "CBC",
+        "url": "https://www.nationalobserver.com/2025/02/20/news/carney-carbon-tax-clean-energy-superpower"
+      }
+    ]
   }
 ]

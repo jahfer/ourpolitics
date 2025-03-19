@@ -19,12 +19,14 @@ const DEFAULT_YEAR = "2025"
 
 const routes = [
   route("/", () => {
-    if (getItem("has-visited-guide", false)) {
+    if (getItem("has-visited-guide", /* else */ false)) {
       return <Redirect to={`/policies/${DEFAULT_YEAR}`} />
     }
 
     return <Redirect to="/guide" />
   }),
+
+  route("/policies", () => <Redirect to={`/policies/${DEFAULT_YEAR}`} />),
 
   route("/policies/:year", (year) =>
     <PolicyIndex year={year} />),

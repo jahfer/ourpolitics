@@ -123,7 +123,7 @@ export default function GuidedPolicyIndex (
             </ul>
           </div>
           <div className="guide--submit-actions">
-            <Link to="/policies/2025" className="btn btn-primary flex flex-justify-between flex-baseline" onClick={() => {
+            <Link to="/policies" className="btn btn-primary flex flex-justify-between flex-baseline" onClick={() => {
               const topicList = Array.from(topics)
                 .filter(([_, checked]) => checked)
                 .map(([topic, _]) => topic);
@@ -131,7 +131,7 @@ export default function GuidedPolicyIndex (
               setItem("has-visited-guide", true, "local");
             }}>
               {t("guide.cta")}&nbsp;<Icon name="arrow-right" inline={IconInlinePosition.Right} />
-            </Link><p> {t('guide.or')} <Link to="/policies/2025"
+            </Link><p> {t('guide.or')} <Link to="/policies"
                               onClick={() => {
                                 setItem("has-visited-guide", true, "local");
                                 Policy.clearSelectedTopics(year)

@@ -41,6 +41,10 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: "Green",
     FR: "Vert",
   },
+  "bloc": {
+    EN: "Bloc Québécois",
+    FR: "Bloc Québécois",
+  },
   "settings": {
     EN: "Settings",
     FR: `Paramètres`,
@@ -125,9 +129,13 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
     EN: `${year} Policies`,
     FR: `Enjeux ${year}`,
   }),
-  "election_notice": {
+  "banner.election_notice": {
     EN: "The election is today! Be sure to check your local <a target='_blank' href='https://www.elections.ca/content2.aspx?section=faq&dir=votinghours&document=index&lang=e'>voting&nbsp;hours&nbsp;&rarr;</a>",
     FR: `Les élections ont lieu aujourd'hui&nbsp;! Vérifiez les <a target='_blank' href='https://www.elections.ca/content2.aspx?section=faq&dir=votinghours&document=index&lang=f'>heures de vote de votre localité&nbsp;&rarr;</a>`
+  },
+  "banner.work-in-progress": {
+    EN: "This table is a work in progress. Please check back soon for more policies.",
+    FR: `Ce tableau est un travail en cours. Veuillez revenir bientôt pour d'autres politiques.`
   },
   // "hero.election_notice": {
   //   EN: "The election is underway!",
