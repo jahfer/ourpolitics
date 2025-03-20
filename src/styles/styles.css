@@ -42,7 +42,7 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   padding-left: var(--gutter-width);
   padding-right: var(--gutter-width);

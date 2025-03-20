@@ -4,7 +4,7 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Cap Immigration Temporarily"
+      "EN": "Cap immigration temporarily"
     },
     "references": [
       {
@@ -21,7 +21,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Hire More Border Agents"
+      "EN": "Hire more border agents"
     },
     "references": [
       {
@@ -38,7 +38,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Reduce Annual Permanent Resident Intake"
+      "EN": "Reduce annual permanent resident intake"
     },
     "references": [
       {
@@ -55,7 +55,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Dollar-for-Dollar Retaliatory Tariffs"
+      "EN": "Dollar-for-dollar retaliatory tariffs"
     },
     "references": [
       {
@@ -90,7 +90,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Dollar-for-Dollar Retaliatory Tariffs"
+      "EN": "Dollar-for-dollar retaliatory tariffs"
     },
     "references": [
       {
@@ -113,7 +113,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Protect Supply Management"
+      "EN": "Protect supply management"
     },
     "references": [
       {
@@ -130,7 +130,7 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Diversify Trade Relationships"
+      "EN": "Diversify trade relationships"
     },
     "references": [
       {
@@ -153,7 +153,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Conflict of Interest Act Reform"
+      "EN": "Conflict of Interest Act reform"
     },
     "references": [
       {
@@ -189,61 +189,10 @@
   },
   {
     "topic": "government",
-    "party": "Green",
-    "year": 2025,
-    "title": {
-      "EN": "Review Future Government Appointments"
-    },
-    "references": [
-      {
-        "date": "2025-03-15",
-        "title": "Opposition parties slam Trudeau cabinet's future appointments to government agencies",
-        "publisher": "CBC News",
-        "url": "https://www.cbc.ca/news/politics/trudeau-future-appointments-reaction-1.7484422?cmp=rss"
-      }
-    ],
-    "id": 10
-  },
-  {
-    "topic": "government",
-    "party": "NDP",
-    "year": 2025,
-    "title": {
-      "EN": "Roll Back Future Appointments"
-    },
-    "references": [
-      {
-        "date": "2025-03-15",
-        "title": "Opposition parties slam Trudeau cabinet's future appointments to government agencies",
-        "publisher": "CBC News",
-        "url": "https://www.cbc.ca/news/politics/trudeau-future-appointments-reaction-1.7484422?cmp=rss"
-      }
-    ],
-    "id": 11
-  },
-  {
-    "topic": "government",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Oppose Future Government Appointments"
-    },
-    "references": [
-      {
-        "date": "2025-03-15",
-        "title": "Opposition parties slam Trudeau cabinet's future appointments to government agencies",
-        "publisher": "CBC News",
-        "url": "https://www.cbc.ca/news/politics/trudeau-future-appointments-reaction-1.7484422?cmp=rss"
-      }
-    ],
-    "id": 12
-  },
-  {
-    "topic": "government",
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Foreign Interference Safeguards"
+      "EN": "More safeguards around foreign interference"
     },
     "references": [
       {
@@ -260,7 +209,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Cancel Chalk River Project"
+      "EN": "Cancel Chalk River project"
     },
     "references": [
       {
@@ -277,7 +226,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Tax-Free Essentials"
+      "EN": "Tax-free essentials"
     },
     "references": [
       {
@@ -294,7 +243,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Grocery Price Cap"
+      "EN": "Grocery price cap"
     },
     "references": [
       {
@@ -311,7 +260,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Investigate X for Privacy Concerns"
+      "EN": "Investigate X for privacy concerns"
     },
     "references": [
       {
@@ -328,7 +277,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Support Workers' Right to Strike"
+      "EN": "Support workers' right to strike"
     },
     "references": [
       {
@@ -345,7 +294,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Expand CBSA Training Centre in Windsor"
+      "EN": "Expand CBSA training centre in Windsor"
     },
     "references": [
       {
@@ -362,7 +311,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Redirect Anglicization Funding"
+      "EN": "Redirect anglicization funding"
     },
     "references": [
       {
@@ -379,7 +328,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Ban Corporate Healthcare Billing"
+      "EN": "Ban corporate healthcare billing"
     },
     "references": [
       {
@@ -396,7 +345,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Support Abortion Access"
+      "EN": "Support abortion access"
     },
     "references": [
       {
@@ -413,7 +362,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Ban Hard Drugs, End Decriminalization"
+      "EN": "Ban hard drugs, end decriminalization"
     },
     "references": [
       {
@@ -430,7 +379,7 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Double Housing Construction"
+      "EN": "Double housing construction"
     },
     "references": [
       {
@@ -447,7 +396,7 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Scrap GST for First-Time Homebuyers"
+      "EN": "Scrap GST for first-time homebuyers"
     },
     "references": [
       {
@@ -464,7 +413,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Eliminate GST on New Homes"
+      "EN": "Eliminate GST on new homes"
     },
     "references": [
       {
@@ -481,7 +430,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Incentives for Municipal Housing"
+      "EN": "Incentives for municipal housing"
     },
     "references": [
       {
@@ -498,7 +447,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Invest in Affordable Housing"
+      "EN": "Invest in affordable housing"
     },
     "references": [
       {
@@ -515,7 +464,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Unconditional Housing Funds Transfer"
+      "EN": "Unconditional housing funds transfer"
     },
     "references": [
       {
@@ -532,7 +481,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Reform Employment Insurance"
+      "EN": "Reform employment insurance"
     },
     "references": [
       {
@@ -549,7 +498,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Equitable Pension System"
+      "EN": "Equitable pension system"
     },
     "references": [
       {
@@ -583,7 +532,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Increase EI Payments for Tariff-Affected Workers"
+      "EN": "Increase employment insurance payments for tariff-affected workers"
     },
     "references": [
       {
@@ -600,7 +549,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Invest in Canadian Journalism"
+      "EN": "Invest in Canadian journalism"
     },
     "references": [
       {
@@ -617,7 +566,7 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "New Ministry for Canadian Culture"
+      "EN": "New ministry for Canadian Culture"
     },
     "references": [
       {
@@ -640,7 +589,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Better Wages for Childcare Workers"
+      "EN": "Better wages for childcare workers"
     },
     "references": [
       {
@@ -657,7 +606,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Use Canadian Steel for Infrastructure"
+      "EN": "Use canadian steel for infrastructure"
     },
     "references": [
       {
@@ -674,7 +623,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Prioritize Canadian Companies for Infrastructure"
+      "EN": "Prioritize Canadian companies for infrastructure"
     },
     "references": [],
     "id": 39
@@ -684,7 +633,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Repeal Bill C-69 for Resource Development"
+      "EN": "Repeal Bill C-69 for resource development"
     },
     "references": [
       {
@@ -707,7 +656,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Support High-Speed Rail Project"
+      "EN": "Support high-speed rail project"
     },
     "references": [
       {
@@ -724,7 +673,7 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Award Icebreaker Contracts to Canadian Shipyards"
+      "EN": "Award icebreaker contracts to Canadian shipyards"
     },
     "references": [
       {
@@ -741,7 +690,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Build East-West Energy Grid"
+      "EN": "Build east-west energy grid"
     },
     "references": [
       {
@@ -758,24 +707,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Strong Support for Ukraine"
-    },
-    "references": [
-      {
-        "date": "February 24th, 2025",
-        "title": "Statement on the three-year anniversary of the illegal invasion of Ukraine by Russia",
-        "publisher": "NDP",
-        "url": "https://www.ndp.ca/news/statement-three-year-anniversary-illegal-invasion-ukraine-russia"
-      }
-    ],
-    "id": 46
-  },
-  {
-    "topic": "foreign-policy",
-    "party": "NDP",
-    "year": 2025,
-    "title": {
-      "EN": "Canadian Peacekeeping Force"
+      "EN": "Canadian peacekeeping force"
     },
     "references": [
       {
@@ -792,7 +724,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Arctic Sovereignty"
+      "EN": "Arctic sovereignty"
     },
     "references": [
       {
@@ -809,24 +741,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Confront Trump on Trade"
-    },
-    "references": [
-      {
-        "date": "March 14th, 2025",
-        "title": "Mark Carney’s Fourth Liberal Term Will Be Just Like Justin’s",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://www.conservative.ca/mark-carneys-fourth-liberal-term-will-be-just-like-justins/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carneys-fourth-liberal-term-will-be-just-like-justins"
-      }
-    ],
-    "id": 49
-  },
-  {
-    "topic": "foreign-policy",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Arctic Security Plan"
+      "EN": "Arctic military base, naval icebreakers"
     },
     "references": [
       {
@@ -843,31 +758,20 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Support for Gaza"
-    },
-    "references": [
-      {
-        "date": "March 12th, 2025",
-        "title": "Carney chief of staff's time in cabinet, stance on Gaza under scrutiny",
-        "publisher": "CBC",
-        "url": "https://www.cbc.ca/news/politics/mendicino-carney-chief-of-staff-1.7481928?cmp=rss"
-      }
-    ],
-    "id": 51
-  },
-  {
-    "topic": "foreign-policy",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Meet NATO Spending Target"
+      "EN": "Meet NATO spending target by 2030"
     },
     "references": [
       {
         "date": "March 12th, 2025",
         "title": "Carney transition team met with PMO staff Tuesday, hope for PM swearing-in by Friday",
-        "publisher": "CBC",
+        "publisher": "CBC News",
         "url": "https://www.cbc.ca/news/politics/carney-transition-team-met-pmo-staff-1.7481228?cmp=rss"
+      },
+      {
+        "date": "March 18th, 2025",
+        "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
       }
     ],
     "id": 52
@@ -883,7 +787,7 @@
       {
         "date": "March 12th, 2025",
         "title": "Carney transition team met with PMO staff Tuesday, hope for PM swearing-in by Friday",
-        "publisher": "CBC",
+        "publisher": "CBC News",
         "url": "https://www.cbc.ca/news/politics/carney-transition-team-met-pmo-staff-1.7481228?cmp=rss"
       }
     ],
@@ -894,14 +798,38 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Reconsider F-35 Purchase"
+      "EN": "Reconsider purchase of F-35 fighter jets from USA"
     },
     "references": [
       {
         "date": "March 14th, 2025",
         "title": "Canada reconsidering F-35 purchase amid tensions with Washington, says minister",
-        "publisher": "CBC",
+        "publisher": "CBC News",
         "url": "https://www.cbc.ca/news/politics/f35-blair-trump-1.7484477?cmp=rss"
+      },
+      {
+        "date": "March 19, 2025",
+        "title": "Canada must weigh risk Trump blocks software upgrades for F-35s: former official",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-canada-must-weigh-risk-trump-blocks-software-upgrades-for-f-35s/"
+      },
+      {
+        "date": "2025-03-18",
+        "title": "Carney announces plans to boost Canada's military footprint in the Arctic",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/carney-announces-plans-to-boost-canadas-military-footprint-in-the-arctic/article_c4b24e52-3f0e-54f6-89a7-1241f062e9ed.html"
+      },
+      {
+        "date": "2025-03-18",
+        "title": "Mark Carney says Canada will buy $6 billion missile detection system to confront threats from Russia, China",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
+      },
+      {
+        "date": "2025-03-18",
+        "title": "Mark Carney says Canada will review F-35 fighter jet contract",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
       }
     ],
     "id": 54
@@ -911,24 +839,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Support for Ukraine"
-    },
-    "references": [
-      {
-        "date": "February 24th, 2025",
-        "title": "Trois ans d’invasion russe en Ukraine: Le Bloc Québécois réaffirme son appui total à l’indépendance ukrainienne",
-        "publisher": "Bloc Québécois",
-        "url": "https://www.blocquebecois.org/trois-ans-dinvasion-russe-en-ukraine-le-bloc-quebecois-reaffirme-son-appui-total-a-lindependance-ukrainienne/"
-      }
-    ],
-    "id": 55
-  },
-  {
-    "topic": "foreign-policy",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "Sanctions Against Rwanda"
+      "EN": "Sanctions against Rwanda"
     },
     "references": [
       {
@@ -945,7 +856,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Border Security Concerns"
+      "EN": "Border security concerns"
     },
     "references": [
       {
@@ -962,7 +873,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Oppose English Promotion"
+      "EN": "Oppose english promotion"
     },
     "references": [
       {
@@ -985,8 +896,191 @@
       {
         "date": "February 20th, 2025",
         "title": "Carney shifts carbon price strategy, pledges to make Canada a clean energy superpower",
-        "publisher": "CBC",
+        "publisher": "CBC News",
         "url": "https://www.nationalobserver.com/2025/02/20/news/carney-carbon-tax-clean-energy-superpower"
+      }
+    ],
+    "id": 60
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Conservative",
+    "year": 2025,
+    "title": {
+      "EN": "Approve “Ring of Fire” mining permits within 6 months"
+    },
+    "references": [
+      {
+        "date": "2023",
+        "title": "Poilievre promises to unlock Ring of Fire",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/poilievre-promises-to-unlock-ring-of-fire/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-promises-to-unlock-ring-of-fire"
+      },
+      {
+        "date": "2025-03-19",
+        "title": "Pierre Poilievre says he wants to greenlight Ring of Fire mining permits within six months",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/poilievre-says-he-wants-to-greenlight-ring-of-fire-mining-permits-within-six-months/article_9b66819e-8fe0-56b7-a984-b5239a8cdf7f.html"
+      },
+      {
+        "date": "2025-03-19",
+        "title": "Federal Conservative leader stops in Sudbury with promises of 'unlocking' Ring of Fire",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/canada/sudbury/ring-of-fire-poiliever-critical-minerals-sudbury-1.7487363?cmp=rss"
+      }
+    ],
+    "id": 61
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Purcase $6 billion missile detection system"
+    },
+    "references": [
+      {
+        "date": "2025-03-18",
+        "title": "Canada will buy $6 billion missile detection system to confront threats from Russia, China",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
+      },
+      {
+        "date": "2025-03-18",
+        "title": "Carney announces plans to boost Canada's military footprint in the Arctic",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/carney-announces-plans-to-boost-canadas-military-footprint-in-the-arctic/article_c4b24e52-3f0e-54f6-89a7-1241f062e9ed.html"
+      },
+      {
+        "date": "2025-03-19",
+        "title": "Canada will partner with Australia to build an Arctic Over-The-Horizon Radar system along the Canada-U.S. border into the Arctic, with an investment of more than $6 billion for this early warning detection system",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/canada/north/canada-early-warning-detection-arctic-1.7486640?cmp=rss"
+      }
+    ],
+    "id": 62
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "NDP",
+    "year": 2025,
+    "title": {
+      "EN": "Cancel F-35 fighter jet contract with USA, build jets in Canada"
+    },
+    "references": [
+      {
+        "date": "2025-03-18",
+        "title": "NDP says Liberal Arctic announcement ignores challenges facing Northerners",
+        "publisher": "NDP",
+        "url": "https://www.ndp.ca/news/ndp-says-liberal-arctic-announcement-ignores-challenges-facing-northerners-0"
+      },
+      {
+        "date": "March 18, 2025",
+        "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China ",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
+      }
+    ],
+    "id": 64
+  },
+  {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "Eliminate industrial carbon tax"
+    },
+    "references": [
+      {
+        "date": "March 19, 2025",
+        "title": "Energy CEOs write to federal political leaders on how to boost production, Canadian sovereignty",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-trade-war-federal-election-energy-ceos-letter/"
+      },
+      {
+        "date": "March 19, 2025",
+        "title": "Energy sector CEOs call on Ottawa to use emergency powers to speed up key projects ",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/energy-sector-ceos-call-on-ottawa-to-use-emergency-powers-to-speed-up-key-projects/article_42ec1db1-75df-5fc7-832b-8a2a4229759e.html"
+      },
+      {
+        "date": "March 18, 2025",
+        "title": "Alberta pioneered industrial carbon pricing. Now, Poilievre says he'd kill the federal mandate for it",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/canada/calgary/alberta-carbon-pricing-poilievre-kill-backstop-promise-reaction-1.7486111?cmp=rss"
+      }
+    ]
+  },
+  {
+    "topic": "government",
+    "party": "NDP",
+    "title": {
+      "EN": "Reinstate dedicated Minister for Women and Gender Equality"
+    },
+    "references": [
+      {
+        "date": "March 19, 2025",
+        "title": "NDP Women and Gender Equality Critic Leah Gazan calls out Prime Minister Carney for silencing women and gender diverse people",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/ndp-women-and-gender-equality-critic-leah-gazan-calls-out-prime-minister-carney-silencing-women"
+      }
+    ]
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "NDP",
+    "title": { "EN": "Meet NATO defense spending target by 2032" },
+    "references": [
+      {
+        "date": "March 18, 2025",
+        "title": "NDP says Liberal Arctic announcement ignores challenges facing Northerners",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/ndp-says-liberal-arctic-announcement-ignores-challenges-facing-northerners-0"
+      },
+      {
+        "date": "March 18, 2025",
+        "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
+      }
+    ]
+  },
+  {
+    "topic": "affordability",
+    "party": "NDP",
+    "title": { "EN": "Remove GST from essential items" },
+    "references": [
+      {
+        "date": "March 18, 2025",
+        "title": "Grocery price surge shows scrapping GST works to drive down prices",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/grocery-price-surge-shows-scrapping-gst-works-drive-down-prices"
+      }
+    ]
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "title": {
+      "EN": "$253 million to fund housing and infrastructure supports in the north"
+    },
+    "references": [
+      {
+        "date": "March 18, 2025",
+        "title": "Canada partners with Australia on radar system to detect threats from Russia and China",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-canada-australia-radar-system/"
+      },
+      {
+        "date": "March 18, 2025",
+        "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
+      },
+      {
+        "date": "March 18, 2025",
+        "title": "Carney announces plans to boost Canada’s military footprint in the Arctic",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/carney-announces-plans-to-boost-canadas-military-footprint-in-the-arctic/article_c4b24e52-3f0e-54f6-89a7-1241f062e9ed.html"
       }
     ]
   }
