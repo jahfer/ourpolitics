@@ -202,7 +202,7 @@
         "url": "https://www.blocquebecois.org/rapport-de-la-commission-hogue-il-faut-rebatir-la-confiance/"
       }
     ],
-    "id": 13
+    "id": 10
   },
   {
     "topic": "indigenous-relations",
@@ -219,7 +219,7 @@
         "url": "https://www.blocquebecois.org/victoire-en-cour-de-la-premiere-nation-de-kebaowek-ottawa-doit-ecouter-et-renoncer-a-chalk-river/"
       }
     ],
-    "id": 14
+    "id": 11
   },
   {
     "topic": "affordability",
@@ -236,7 +236,7 @@
         "url": "https://www.ndp.ca/news/singh-commits-tax-free-necessities-and-bills-not-break-billionaires"
       }
     ],
-    "id": 15
+    "id": 12
   },
   {
     "topic": "affordability",
@@ -253,7 +253,7 @@
         "url": "https://www.ndp.ca/news/reality-check-chrystia-freeland-flip-flops-grocery-price-cap"
       }
     ],
-    "id": 16
+    "id": 13
   },
   {
     "topic": "civil-rights",
@@ -270,7 +270,7 @@
         "url": "https://www.ndp.ca/news/ndps-masse-urges-investigation-x-regarding-data-privacy-concerns"
       }
     ],
-    "id": 17
+    "id": 14
   },
   {
     "topic": "civil-rights",
@@ -287,7 +287,7 @@
         "url": "https://www.ndp.ca/news/jagmeet-singh-denounces-caqs-frontal-attack-workers-rights"
       }
     ],
-    "id": 59
+    "id": 15
   },
   {
     "topic": "civil-rights",
@@ -304,7 +304,7 @@
         "url": "https://www.ndp.ca/news/ndp-will-build-cbsa-training-centre-windsor"
       }
     ],
-    "id": 18
+    "id": 16
   },
   {
     "topic": "civil-rights",
@@ -321,7 +321,7 @@
         "url": "https://www.blocquebecois.org/?p=30239"
       }
     ],
-    "id": 19
+    "id": 17
   },
   {
     "topic": "health-and-safety",
@@ -338,7 +338,7 @@
         "url": "https://www.ndp.ca/news/ndp-commits-stop-corporations-billing-patients-care"
       }
     ],
-    "id": 21
+    "id": 18
   },
   {
     "topic": "health-and-safety",
@@ -355,7 +355,7 @@
         "url": "https://www.ndp.ca/news/ndp-statement-international-womens-day-2025"
       }
     ],
-    "id": 22
+    "id": 19
   },
   {
     "topic": "health-and-safety",
@@ -372,7 +372,7 @@
         "url": "https://www.comoxvalleyrecord.com/local-news/poilievre-interviews-with-comox-valley-record-during-tour-in-courtenay-7338532"
       }
     ],
-    "id": 23
+    "id": 20
   },
   {
     "topic": "housing",
@@ -389,24 +389,7 @@
         "url": "https://www.theglobeandmail.com/canada/article-liberal-leadership-hopeful-mark-carney-says-he-would-put-a-temporary/"
       }
     ],
-    "id": 25
-  },
-  {
-    "topic": "housing",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Scrap GST for first-time homebuyers"
-    },
-    "references": [
-      {
-        "date": "2025-02-24",
-        "title": "Liberal leadership hopeful Mark Carney says he would put a temporary cap on immigration",
-        "publisher": "The Globe and Mail",
-        "url": "https://www.theglobeandmail.com/canada/article-liberal-leadership-hopeful-mark-carney-says-he-would-put-a-temporary/"
-      }
-    ],
-    "id": 26
+    "id": 21
   },
   {
     "topic": "housing",
@@ -423,7 +406,7 @@
         "url": "https://www.conservative.ca/mark-carneys-fourth-liberal-term-will-be-just-like-justins/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carneys-fourth-liberal-term-will-be-just-like-justins"
       }
     ],
-    "id": 27
+    "id": 23
   },
   {
     "topic": "housing",
@@ -440,7 +423,7 @@
         "url": "https://www.conservative.ca/mark-carneys-fourth-liberal-term-will-be-just-like-justins/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carneys-fourth-liberal-term-will-be-just-like-justins"
       }
     ],
-    "id": 28
+    "id": 24
   },
   {
     "topic": "housing",
@@ -457,7 +440,7 @@
         "url": "https://www.ndp.ca/news/ndp-says-its-time-invest-more-affordable-social-and-community-housing"
       }
     ],
-    "id": 29
+    "id": 25
   },
   {
     "topic": "housing",
@@ -474,24 +457,7 @@
         "url": "https://www.blocquebecois.org/fonds-canadien-pour-les-infrastructures-liees-au-logement-ottawa-doit-cesser-de-faire-obstacle-au-logement/"
       }
     ],
-    "id": 30
-  },
-  {
-    "topic": "social-assistance",
-    "party": "NDP",
-    "year": 2025,
-    "title": {
-      "EN": "Reform employment insurance"
-    },
-    "references": [
-      {
-        "date": "2025-03-12",
-        "title": "Jagmeet Singh reacts to Trump’s tariffs on Canadian steel and aluminum",
-        "publisher": "NDP.ca",
-        "url": "https://www.ndp.ca/news/jagmeet-singh-reacts-trumps-tariffs-canadian-steel-and-aluminum"
-      }
-    ],
-    "id": 31
+    "id": 26
   },
   {
     "topic": "social-assistance",
@@ -508,7 +474,7 @@
         "url": "https://www.blocquebecois.org/circonscription-de-cote-du-sud-riviere-du-loup-kataskomiq-temiscouata-diane-senecal-investie-candidate-du-bloc-quebecois/"
       }
     ],
-    "id": 32
+    "id": 28
   },
   {
     "topic": "social-assistance",
@@ -525,7 +491,7 @@
         "url": "https://www.ndp.ca/news/ndp-welcomes-long-awaited-rollout-canada-disability-benefit"
       }
     ],
-    "id": 33
+    "id": 29
   },
   {
     "topic": "social-assistance",
@@ -542,7 +508,7 @@
         "url": "https://www.thestar.com/politics/federal/trouble-awaits-the-next-liberal-leader-heres-what-theyll-be-up-against-and-when-they/article_294da3a8-fa9c-11ef-9883-abfa223c53c5.html"
       }
     ],
-    "id": 34
+    "id": 30
   },
   {
     "topic": "arts-and-culture",
@@ -559,7 +525,7 @@
         "url": "https://www.ndp.ca/news/jagmeet-singh-and-ndp-will-invest-canadian-journalism-and-cbcradio-canada"
       }
     ],
-    "id": 35
+    "id": 31
   },
   {
     "topic": "arts-and-culture",
@@ -582,7 +548,7 @@
         "url": "https://www.thestar.com/politics/federal/five-things-to-know-about-prime-minister-mark-carneys-new-cabinet/article_65633a69-6595-51f6-a6b5-0bea0951f474.html"
       }
     ],
-    "id": 36
+    "id": 32
   },
   {
     "topic": "youth_child-care",
@@ -599,14 +565,14 @@
         "url": "https://www.ndp.ca/news/ndp-wants-see-better-wages-child-care-workers-creating-more-spots-kids"
       }
     ],
-    "id": 37
+    "id": 33
   },
   {
     "topic": "infrastructure",
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Use canadian steel for infrastructure"
+      "EN": "Use Canadian steel for infrastructure"
     },
     "references": [
       {
@@ -616,7 +582,7 @@
         "url": "https://www.ndp.ca/news/high-speed-rail-must-be-built-publicly-using-canadian-steel-and-aluminum-ndp"
       }
     ],
-    "id": 38
+    "id": 34
   },
   {
     "topic": "infrastructure",
@@ -625,8 +591,21 @@
     "title": {
       "EN": "Prioritize Canadian companies for infrastructure"
     },
-    "references": [],
-    "id": 39
+    "references": [
+      {
+        "date": "February 20, 2025",
+        "title": "Singh takes Carney to task on service cuts for people, tax cut for the ultra-wealthy in speech to unions",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/singh-takes-carney-task-service-cuts-people-tax-cut-ultra-wealthy-speech-unions"
+      },
+      {
+        "date": "February 18, 2025",
+        "title": "Canadian builds with Canadian steel: Singh lays out plan to build, not cut",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/canadian-builds-canadian-steel-singh-lays-out-plan-build-not-cut"
+      }
+    ],
+    "id": 35
   },
   {
     "topic": "infrastructure",
@@ -639,17 +618,17 @@
       {
         "date": "March 14, 2025",
         "title": "Mark Carney’s Fourth Liberal Term Will Be Just Like Justin’s",
-        "publisher": "Conservative Party Website",
+        "publisher": "Conservative Party of Canada",
         "url": "https://www.conservative.ca/mark-carneys-fourth-liberal-term-will-be-just-like-justins/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carneys-fourth-liberal-term-will-be-just-like-justins"
       },
       {
         "date": "March 10, 2025",
         "title": "Mark Carney Will Sell Out Canadians",
-        "publisher": "Conservative Party Website",
+        "publisher": "Conservative Party of Canada",
         "url": "https://www.conservative.ca/mark-carney-will-sell-out-canadians/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carney-will-sell-out-canadians"
       }
     ],
-    "id": 40
+    "id": 36
   },
   {
     "topic": "infrastructure",
@@ -666,7 +645,7 @@
         "url": "https://www.blocquebecois.org/projet-de-train-a-grande-vitesse-un-pas-dans-la-bonne-direction/"
       }
     ],
-    "id": 42
+    "id": 37
   },
   {
     "topic": "infrastructure",
@@ -683,7 +662,7 @@
         "url": "https://www.thestar.com/politics/federal/ottawa-announces-2nd-domestic-contract-for-polar-icebreaker/article_8ebaa00d-a617-5af5-b4f3-7df4548af8c5.html"
       }
     ],
-    "id": 43
+    "id": 38
   },
   {
     "topic": "infrastructure",
@@ -700,7 +679,7 @@
         "url": "https://www.ndp.ca/news/ndp-workers-canada-plan-support-bc-jobs-and-workers"
       }
     ],
-    "id": 45
+    "id": 39
   },
   {
     "topic": "foreign-policy",
@@ -717,7 +696,7 @@
         "url": "https://www.ndp.ca/news/ndp-statement-canadas-withdrawal-un-mission-democratic-republic-congo"
       }
     ],
-    "id": 47
+    "id": 40
   },
   {
     "topic": "foreign-policy",
@@ -734,7 +713,7 @@
         "url": "https://www.ndp.ca/news/reality-check-pierre-poilievre-insults-arctic-claiming-hed-defend-it"
       }
     ],
-    "id": 48
+    "id": 41
   },
   {
     "topic": "foreign-policy",
@@ -751,7 +730,7 @@
         "url": "https://www.theglobeandmail.com/canada/article-poilievre-pledges-arctic-military-base-naval-icebreakers-if-party/"
       }
     ],
-    "id": 50
+    "id": 42
   },
   {
     "topic": "foreign-policy",
@@ -774,7 +753,7 @@
         "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
       }
     ],
-    "id": 52
+    "id": 43
   },
   {
     "topic": "foreign-policy",
@@ -791,7 +770,7 @@
         "url": "https://www.cbc.ca/news/politics/carney-transition-team-met-pmo-staff-1.7481228?cmp=rss"
       }
     ],
-    "id": 53
+    "id": 44
   },
   {
     "topic": "foreign-policy",
@@ -832,7 +811,7 @@
         "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
       }
     ],
-    "id": 54
+    "id": 45
   },
   {
     "topic": "foreign-policy",
@@ -849,7 +828,7 @@
         "url": "https://www.blocquebecois.org/le-bloc-quebecois-condamne-les-operations-du-rwanda-en-republique-democratique-du-congo/"
       }
     ],
-    "id": 56
+    "id": 46
   },
   {
     "topic": "foreign-policy",
@@ -866,7 +845,7 @@
         "url": "https://www.blocquebecois.org/?p=30186"
       }
     ],
-    "id": 57
+    "id": 47
   },
   {
     "topic": "foreign-policy",
@@ -883,7 +862,7 @@
         "url": "https://www.blocquebecois.org/analyse-des-comptes-publics-2023-2024-200-millions-pour-langlicisation-au-quebec/"
       }
     ],
-    "id": 58
+    "id": 48
   },
   {
     "topic": "infrastructure",
@@ -900,14 +879,14 @@
         "url": "https://www.nationalobserver.com/2025/02/20/news/carney-carbon-tax-clean-energy-superpower"
       }
     ],
-    "id": 60
+    "id": 49
   },
   {
     "topic": "foreign-policy",
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Approve “Ring of Fire” mining permits within 6 months"
+      "EN": "Commit $1B to co-fund roads, approve “Ring of Fire” Ontario mining permits within 6 months"
     },
     "references": [
       {
@@ -927,16 +906,22 @@
         "title": "Federal Conservative leader stops in Sudbury with promises of 'unlocking' Ring of Fire",
         "publisher": "CBC News",
         "url": "https://www.cbc.ca/news/canada/sudbury/ring-of-fire-poiliever-critical-minerals-sudbury-1.7487363?cmp=rss"
+      },
+      {
+        "date": "2025-03-19",
+        "title": "Poilievre says Conservatives would co-fund roads with Ontario into Ring of Fire, speed up development",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/business/article-poilievre-says-conservatives-would-co-fund-roads-with-ontario-into/"
       }
     ],
-    "id": 61
+    "id": 50
   },
   {
     "topic": "foreign-policy",
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Purcase $6 billion missile detection system"
+      "EN": "Purchase $6 billion missile detection system"
     },
     "references": [
       {
@@ -958,7 +943,7 @@
         "url": "https://www.cbc.ca/news/canada/north/canada-early-warning-detection-arctic-1.7486640?cmp=rss"
       }
     ],
-    "id": 62
+    "id": 51
   },
   {
     "topic": "foreign-policy",
@@ -981,7 +966,7 @@
         "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
       }
     ],
-    "id": 64
+    "id": 52
   },
   {
     "topic": "environment",
@@ -1008,7 +993,8 @@
         "publisher": "CBC News",
         "url": "https://www.cbc.ca/news/canada/calgary/alberta-carbon-pricing-poilievre-kill-backstop-promise-reaction-1.7486111?cmp=rss"
       }
-    ]
+    ],
+    "id": 53
   },
   {
     "topic": "government",
@@ -1023,12 +1009,15 @@
         "publisher": "NDP Official Website",
         "url": "https://www.ndp.ca/news/ndp-women-and-gender-equality-critic-leah-gazan-calls-out-prime-minister-carney-silencing-women"
       }
-    ]
+    ],
+    "id": 54
   },
   {
     "topic": "foreign-policy",
     "party": "NDP",
-    "title": { "EN": "Meet NATO defense spending target by 2032" },
+    "title": {
+      "EN": "Meet NATO defense spending target by 2032"
+    },
     "references": [
       {
         "date": "March 18, 2025",
@@ -1042,12 +1031,15 @@
         "publisher": "The Star",
         "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
       }
-    ]
+    ],
+    "id": 55
   },
   {
     "topic": "affordability",
     "party": "NDP",
-    "title": { "EN": "Remove GST from essential items" },
+    "title": {
+      "EN": "Remove GST from essential items"
+    },
     "references": [
       {
         "date": "March 18, 2025",
@@ -1055,7 +1047,8 @@
         "publisher": "NDP Official Website",
         "url": "https://www.ndp.ca/news/grocery-price-surge-shows-scrapping-gst-works-drive-down-prices"
       }
-    ]
+    ],
+    "id": 56
   },
   {
     "topic": "infrastructure",
@@ -1082,6 +1075,413 @@
         "publisher": "The Star",
         "url": "https://www.thestar.com/politics/federal/carney-announces-plans-to-boost-canadas-military-footprint-in-the-arctic/article_c4b24e52-3f0e-54f6-89a7-1241f062e9ed.html"
       }
-    ]
+    ],
+    "id": 57
+  },
+  {
+    "topic": "infrastructure",
+    "party": "NDP",
+    "title": {
+      "EN": "Invest in northern infrastructure"
+    },
+    "references": [
+      {
+        "date": "March 18, 2025",
+        "title": "NDP will build jets in Canada, invest in Canada's North and Arctic sovereignty",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/ndp-will-build-jets-canada-invest-canadas-north-and-arctic-sovereignty"
+      }
+    ],
+    "id": 58
+  },
+  {
+    "topic": "social-assistance",
+    "party": "NDP",
+    "title": {
+      "EN": "Improve Employment Insurance for workers facing job loss"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Jagmeet Singh calls for help for workers; Steelworkers back NDP ahead of election call",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/jagmeet-singh-calls-help-workers-steelworkers-back-ndp-ahead-election-call"
+      }
+    ],
+    "id": 60
+  },
+  {
+    "topic": "international-trade",
+    "party": "NDP",
+    "title": {
+      "EN": "Expand trade beyond the U.S. with higher standards for workers and the environment"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Jagmeet Singh calls for help for workers; Steelworkers back NDP ahead of election call",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/jagmeet-singh-calls-help-workers-steelworkers-back-ndp-ahead-election-call"
+      }
+    ],
+    "id": 61
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Prioritize procurement to buy and build Canadian"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Jagmeet Singh calls for help for workers; Steelworkers back NDP ahead of election call",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/jagmeet-singh-calls-help-workers-steelworkers-back-ndp-ahead-election-call"
+      }
+    ],
+    "id": 62
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Protect Canadian industries from foreign takeovers"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Jagmeet Singh calls for help for workers; Steelworkers back NDP ahead of election call",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/jagmeet-singh-calls-help-workers-steelworkers-back-ndp-ahead-election-call"
+      }
+    ],
+    "id": 63
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Increase capital spending on infrastructure"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Jagmeet Singh calls for help for workers; Steelworkers back NDP ahead of election call",
+        "publisher": "NDP Official Website",
+        "url": "https://www.theglobeandmail.com/canada/article-manitoba-budget-offers-more-construction-spending-tax-changes/"
+      }
+    ],
+    "id": 64
+  },
+  {
+    "topic": "immigration",
+    "party": "Liberal",
+    "title": {
+      "EN": "Continue reducing temporary resident numbers"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "New immigration minister says Trump presidency could prompt best and brightest to choose Canada",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-new-immigration-minister-says-trump-presidency-could-prompt-best-and/"
+      }
+    ],
+    "id": 67
+  },
+  {
+    "topic": "immigration",
+    "party": "Liberal",
+    "title": {
+      "EN": "Consider changes to Safe Third Country Agreement with U.S."
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "New immigration minister says Trump presidency could prompt best and brightest to choose Canada",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-new-immigration-minister-says-trump-presidency-could-prompt-best-and/"
+      }
+    ],
+    "id": 68
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Conservative",
+    "title": {
+      "EN": "Revive LNG project in Quebec's Saguenay region"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Poilievre promotes reviving LNG project in Quebec’s Saguenay region",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-poilievre-promotes-reviving-lng-project-in-quebecs-saguenay-region/"
+      }
+    ],
+    "id": 69
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Conservative",
+    "title": {
+      "EN": "Create 'shovel-ready zones' for resource projects"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Poilievre promotes reviving LNG project in Quebec’s Saguenay region",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-poilievre-promotes-reviving-lng-project-in-quebecs-saguenay-region/"
+      },
+      {
+        "date": "March 20, 2025",
+        "title": "Politics Insider: Lockheed Martin offers more local jobs if Ottawa will honour full F-35 contract",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-politics-insider-lockheed-martin-offers-more-local-jobs-if-ottawa-will/"
+      }
+    ],
+    "id": 70
+  },
+  {
+    "topic": "housing",
+    "party": "Liberal",
+    "title": {
+      "EN": "Eliminate GST for first-time homebuyers on homes under $1M"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Politics Insider: Lockheed Martin offers more local jobs if Ottawa will honour full F-35 contract",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-politics-insider-lockheed-martin-offers-more-local-jobs-if-ottawa-will/"
+      }
+    ],
+    "id": 71
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "title": {
+      "EN": "Speed up energy infrastructure project approvals"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Carney pledges plan for faster development of new energy infrastructure",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-carney-pledges-plan-for-faster-development-of-new-energy/"
+      }
+    ],
+    "id": 74
+  },
+  {
+    "topic": "government",
+    "party": "Bloc",
+    "title": {
+      "EN": "Oppose Translation Bureau workforce reduction"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Translation Bureau to cut a quarter of its workforce over next 5 years",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/canada/ottawa/translation-bureau-to-cut-a-quarter-of-its-workforce-over-next-5-years-1.7488601?cmp=rss"
+      }
+    ],
+    "id": 75
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Abandon consumer carbon levy"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Donald Trump has changed the election game plan for Mark Carney and Pierre Poilievre. Here’s how",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/donald-trump-has-changed-the-election-game-plan-for-mark-carney-and-pierre-poilievre-here/article_2509d69c-6ecf-4d63-b47a-06789c818623.html"
+      }
+    ],
+    "id": 76
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Eliminate capital gains tax expansion"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Donald Trump has changed the election game plan for Mark Carney and Pierre Poilievre. Here’s how",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/donald-trump-has-changed-the-election-game-plan-for-mark-carney-and-pierre-poilievre-here/article_2509d69c-6ecf-4d63-b47a-06789c818623.html"
+      }
+    ],
+    "id": 77
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Provide humanitarian aid to Palestinians in Gaza and West Bank"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Canada pledges nearly $100M for Palestinians in Gaza, West Bank",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/canada-pledges-nearly-100m-for-palestinians-in-gaza-west-bank/article_274b104b-f99d-53e2-bd6f-4933c9fbe8b5.html"
+      }
+    ],
+    "id": 78
+  },
+  {
+    "topic": "international-trade",
+    "party": "Liberal",
+    "title": {
+      "EN": "Strengthen trade and security alliances with France and UK"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Prime Minister Mark Carney expected to call a federal election on Sunday",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal-elections/prime-minister-mark-carney-expected-to-call-a-federal-election-on-sunday/article_43178843-2f45-50cd-895c-0306d87567e2.html"
+      }
+    ],
+    "id": 79
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Shift security alliances towards Europe"
+    },
+    "references": [
+      {
+        "date": "March 19, 2025",
+        "title": "Mark Carney looking to Europe to boost Canada’s security in shift away from reliance on U.S., sources say",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/mark-carney-looking-to-europe-to-boost-canada-s-security-in-shift-away-from-reliance/article_8a871782-f454-4e7f-b8ca-b9b6d3e7b34f.html"
+      }
+    ],
+    "id": 80
+  },
+  {
+    "topic": "environment",
+    "party": "Liberal",
+    "title": {
+      "EN": "Maintain oil and gas emissions cap"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Mark Carney will maintain oil and gas emissions cap, environment minister says",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/mark-carney-will-maintain-oil-and-gas-emissions-cap-environment-minister-says/article_0210c5a6-eb1a-537c-acd7-969325d8e5eb.html"
+      }
+    ],
+    "id": 81
+  },
+  {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "Scrap oil and gas emissions cap"
+    },
+    "references": [
+      {
+        "date": "March 20, 2025",
+        "title": "Mark Carney will maintain oil and gas emissions cap, environment minister says",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/mark-carney-will-maintain-oil-and-gas-emissions-cap-environment-minister-says/article_0210c5a6-eb1a-537c-acd7-969325d8e5eb.html"
+      }
+    ],
+    "id": 82
+  },
+  {
+    "topic": "education",
+    "party": "Conservative",
+    "title": {
+      "EN": "Reinstate $4,000 apprenticeship grants for licensed trades"
+    },
+    "references": [
+      {
+        "date": "March 21, 2025",
+        "title": "Conservatives to Bring Back ‘More Boots, Less Suits,’ To Train 350,000 Trades workers",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/conservatives-to-bring-back-more-boots-less-suits-to-train-350000-trades-workers/#utm_source=rss&utm_medium=rss&utm_campaign=conservatives-to-bring-back-more-boots-less-suits-to-train-350000-trades-workers"
+      }
+    ],
+    "id": 83
+  },
+  {
+    "topic": "education",
+    "party": "Conservative",
+    "title": {
+      "EN": "Fund training halls to skill up 350,000 young workers over 5 years"
+    },
+    "references": [
+      {
+        "date": "March 21, 2025",
+        "title": "Conservatives to Bring Back ‘More Boots, Less Suits,’ To Train 350,000 Trades workers",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/conservatives-to-bring-back-more-boots-less-suits-to-train-350000-trades-workers/#utm_source=rss&utm_medium=rss&utm_campaign=conservatives-to-bring-back-more-boots-less-suits-to-train-350000-trades-workers"
+      }
+    ],
+    "id": 84
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Conservative",
+    "title": {
+      "EN": "Create rapid EI payouts for skilled tradespeople during training"
+    },
+    "references": [
+      {
+        "date": "March 21, 2025",
+        "title": "Conservatives to Bring Back ‘More Boots, Less Suits,’ To Train 350,000 Trades workers",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/conservatives-to-bring-back-more-boots-less-suits-to-train-350000-trades-workers/#utm_source=rss&utm_medium=rss&utm_campaign=conservatives-to-bring-back-more-boots-less-suits-to-train-350000-trades-workers"
+      }
+    ],
+    "id": 85
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Unify health and safety regulations for tradespeople across Canada"
+    },
+    "references": [
+      {
+        "date": "March 21, 2025",
+        "title": "Conservatives to Bring Back ‘More Boots, Less Suits,’ To Train 350,000 Trades workers",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/conservatives-to-bring-back-more-boots-less-suits-to-train-350000-trades-workers/#utm_source=rss&utm_medium=rss&utm_campaign=conservatives-to-bring-back-more-boots-less-suits-to-train-350000-trades-workers"
+      }
+    ],
+    "id": 86
+  },
+  {
+    "topic": "international-trade",
+    "party": "Liberal",
+    "title": {
+      "EN": "Strengthen interprovincial trade and create a unified Canadian economy"
+    },
+    "references": [
+      {
+        "date": "March 21, 2025",
+        "title": "PM Carney meeting with premiers today before expected Sunday election call",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/carney-premiers-meeting-1.7489368?cmp=rss"
+      }
+    ],
+    "id": 88
   }
 ]
