@@ -226,23 +226,6 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Tax-free essentials"
-    },
-    "references": [
-      {
-        "date": "2025-02-14",
-        "title": "Singh commits to tax-free necessities and bills – not a break for billionaires",
-        "publisher": "NDP",
-        "url": "https://www.ndp.ca/news/singh-commits-tax-free-necessities-and-bills-not-break-billionaires"
-      }
-    ],
-    "id": 12
-  },
-  {
-    "topic": "affordability",
-    "party": "NDP",
-    "year": 2025,
-    "title": {
       "EN": "Grocery price cap"
     },
     "references": [
@@ -700,23 +683,6 @@
   },
   {
     "topic": "foreign-policy",
-    "party": "NDP",
-    "year": 2025,
-    "title": {
-      "EN": "Arctic sovereignty"
-    },
-    "references": [
-      {
-        "date": "February 10th, 2025",
-        "title": "Reality Check – Pierre Poilievre insults the Arctic before claiming he'd defend it",
-        "publisher": "NDP",
-        "url": "https://www.ndp.ca/news/reality-check-pierre-poilievre-insults-arctic-claiming-hed-defend-it"
-      }
-    ],
-    "id": 41
-  },
-  {
-    "topic": "foreign-policy",
     "party": "Conservative",
     "year": 2025,
     "title": {
@@ -886,7 +852,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Commit $1B to co-fund roads, approve “Ring of Fire” Ontario mining permits within 6 months"
+      "EN": "Commit $1B to co-fund roads, approve “Ring of Fire” northern Ontario mining permits within 6 months"
     },
     "references": [
       {
@@ -1373,38 +1339,6 @@
     "id": 80
   },
   {
-    "topic": "environment",
-    "party": "Liberal",
-    "title": {
-      "EN": "Maintain oil and gas emissions cap"
-    },
-    "references": [
-      {
-        "date": "March 20, 2025",
-        "title": "Mark Carney will maintain oil and gas emissions cap, environment minister says",
-        "publisher": "The Star",
-        "url": "https://www.thestar.com/politics/federal/mark-carney-will-maintain-oil-and-gas-emissions-cap-environment-minister-says/article_0210c5a6-eb1a-537c-acd7-969325d8e5eb.html"
-      }
-    ],
-    "id": 81
-  },
-  {
-    "topic": "environment",
-    "party": "Conservative",
-    "title": {
-      "EN": "Scrap oil and gas emissions cap"
-    },
-    "references": [
-      {
-        "date": "March 20, 2025",
-        "title": "Mark Carney will maintain oil and gas emissions cap, environment minister says",
-        "publisher": "The Star",
-        "url": "https://www.thestar.com/politics/federal/mark-carney-will-maintain-oil-and-gas-emissions-cap-environment-minister-says/article_0210c5a6-eb1a-537c-acd7-969325d8e5eb.html"
-      }
-    ],
-    "id": 82
-  },
-  {
     "topic": "education",
     "party": "Conservative",
     "title": {
@@ -1469,10 +1403,143 @@
     "id": 86
   },
   {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "Repeal Impact Assessment Act, Oil Tanker Moratorium Act, and oil/gas production cap"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/just-the-facts-mark-carney-opposes-energy-export-projects/#utm_source=rss&utm_medium=rss&utm_campaign=just-the-facts-mark-carney-opposes-energy-export-projects"
+      }
+    ],
+    "id": 89
+  },
+  {
+    "topic": "government",
+    "party": "Conservative",
+    "title": {
+      "EN": "Re-establish a Ministry of Labour"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/mark-carney-union-buster/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carney-union-buster"
+      }
+    ],
+    "id": 90
+  },
+  {
+    "topic": "environment",
+    "party": "Bloc",
+    "title": {
+      "EN": "Invest in infrastructure adaptation and greenhouse gas emissions reduction"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/rapport-de-lirec-sur-limpact-des-changements-climatiques-linaction-climatique-a-un-cout/"
+      }
+    ],
+    "id": 91
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Oppose changes to capital gains inclusion rate"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-react-carney-scrapping-capital-gains-tax"
+      }
+    ],
+    "id": 92
+  },
+  {
+    "topic": "environment",
+    "party": "Liberal",
+    "title": {
+      "EN": "Maintain emissions cap on oil and gas production"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/just-the-facts-mark-carney-opposes-energy-export-projects/#utm_source=rss&utm_medium=rss&utm_campaign=just-the-facts-mark-carney-opposes-energy-export-projects"
+      }
+    ],
+    "id": 93
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Cancel capital gains tax increase, raise lifetime exemption"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/federal-election/article-carney-confirms-liberals-will-drop-planned-capital-gains-tax-change/"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-cancels-capital-gains-hike-1.7490020?cmp=rss"
+      }
+    ],
+    "id": 94
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Support major social programs like dental and pharmacare"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/ndp-polling-election-2025-1.7489648?cmp=rss"
+      }
+    ],
+    "id": 95
+  },
+  {
+    "topic": "government",
+    "party": "Green",
+    "title": {
+      "EN": "Seek electoral co-operation agreement with Liberals, NDP, Bloc"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/jonathan-pedneault-co-leader-green-party-election-campaign-1.7489822?cmp=rss"
+      }
+    ],
+    "id": 96
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Scrap carbon pricing on large industrial emitters"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-trades-training-union-apprenticeships-1.7489825?cmp=rss"
+      }
+    ],
+    "id": 97
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "title": {
+      "EN": "Expedite major projects by ending duplicative environmental assessments"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/mark-carney-says-he-ll-slash-red-tape-to-expedite-major-projects-like-high-speed/article_6f389d37-f119-4c79-a495-1ce7a156befa.html"
+      }
+    ],
+    "id": 98
+  },
+  {
     "topic": "international-trade",
     "party": "Liberal",
     "title": {
-      "EN": "Strengthen interprovincial trade and create a unified Canadian economy"
+      "EN": "Eliminate interprovincial trade barriers to counter U.S. tariffs"
     },
     "references": [
       {
@@ -1480,8 +1547,76 @@
         "title": "PM Carney meeting with premiers today before expected Sunday election call",
         "publisher": "CBC News",
         "url": "https://www.cbc.ca/news/politics/carney-premiers-meeting-1.7489368?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/mark-carney-says-he-ll-slash-red-tape-to-expedite-major-projects-like-high-speed/article_6f389d37-f119-4c79-a495-1ce7a156befa.html"
       }
     ],
-    "id": 88
+    "id": 99
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Liberal",
+    "title": {
+      "EN": "Waive one-week wait for EI benefits for workers affected by U.S. tariffs"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/mark-carney-says-he-ll-slash-red-tape-to-expedite-major-projects-like-high-speed/article_6f389d37-f119-4c79-a495-1ce7a156befa.html"
+      }
+    ],
+    "id": 100
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Defer corporate income tax and GST/HST payments for businesses impacted by tariffs"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/mark-carney-says-he-ll-slash-red-tape-to-expedite-major-projects-like-high-speed/article_6f389d37-f119-4c79-a495-1ce7a156befa.html"
+      }
+    ],
+    "id": 101
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "title": {
+      "EN": "Support high-speed rail from Toronto to Québec City with $3.9B funding"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/head-of-canadas-high-speed-rail-project-wants-it-to-run-into-downtown-toronto/article_a1764783-582f-4365-885c-74a80e5868f2.html"
+      }
+    ],
+    "id": 102
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Ease sanctions on Syria for democratization and humanitarian aid"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/syrian-canadians-hopeful-as-ottawa-takes-initial-steps-but-urge-more-action/article_e5c23bca-e318-5c62-98ad-63bb5a8fc822.html"
+      }
+    ],
+    "id": 103
+  },
+  {
+    "topic": "infrastructure",
+    "party": "NDP",
+    "title": {
+      "EN": "Oppose private sector involvement in high-speed rail project"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/head-of-canadas-high-speed-rail-project-wants-it-to-run-into-downtown-toronto/article_a1764783-582f-4365-885c-74a80e5868f2.html"
+      }
+    ],
+    "id": 104
   }
 ]

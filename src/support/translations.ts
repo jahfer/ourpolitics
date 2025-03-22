@@ -135,7 +135,7 @@ const translations: Record<string, TranslationString | ((...args: any[]) => Tran
   },
   "banner.work-in-progress": {
     EN: "This table is a work in progress. Please check back soon for more policies.",
-    FR: `Ce tableau est un travail en cours. Veuillez revenir bientôt pour d'autres politiques.`
+    FR: `Cette table est en cours d'élaboration. N'hésitez pas à revenir bientôt pour en savoir plus.`
   },
   // "hero.election_notice": {
   //   EN: "The election is underway!",

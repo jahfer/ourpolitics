@@ -452,15 +452,11 @@ a {
 }
 
 .banner {
-  padding: 20px;
+  padding: 0.8rem;
   border-radius: 0.5rem;
   margin-bottom: 20px;
   border: 1px solid transparent;
   color: #292929;
-  font-size: 1.2rem;
-  line-height: 1.4rem;
-
-  
 }
 
 .banner::before {
@@ -482,11 +478,12 @@ a {
 
 .banner--warning {
   background-color: var(--color-yellow-lighter);
-  border-color: var(--color-yellow)
+  border-color: var(--color-yellow);
+  color: var(--color-yellow-darkest);
 }
 
 .banner--warning::before {
-  color: var(--color-yellow-darkest);
+  color: var(--color-yellow);
   content: '\f071';
 }
 
