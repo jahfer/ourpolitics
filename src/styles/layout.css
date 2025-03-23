@@ -580,6 +580,7 @@
 
     .policyTable--filterBar {
       width: calc(100% - 15px);
+      right: 0;
     }
   }
 }
