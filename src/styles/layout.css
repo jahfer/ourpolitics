@@ -207,7 +207,7 @@
 .settings-panel {
   overflow: hidden;
   transition: max-height 0.3s ease;
-  max-height: 350px;
+  max-height: 400px;
   padding: 0.5rem 0;
 
   &.collapsed {
