@@ -12,11 +12,10 @@ interface TopicDetailsParams {
 
 export default function PolicyTopicDetails ({ year, topic }: TopicDetailsParams) {
   const { t } = useTranslation();
+  const [hasDataFor2025, setHasDataFor2025] = React.useState<boolean>(true);
   const [hasDataFor2021, setHasDataFor2021] = React.useState<boolean>(true);
   const [hasDataFor2019, setHasDataFor2019] = React.useState<boolean>(true);
   const [hasDataFor2015, setHasDataFor2015] = React.useState<boolean>(true);
-
-  // TODO: Track history of this page to make back/forwards work properly (also Guide history is janky too)
 
   return (
     <SelectedPartiesProvider>
@@ -26,10 +25,27 @@ export default function PolicyTopicDetails ({ year, topic }: TopicDetailsParams)
             <h2>{t('policy_comparison.analysis')}</h2>
             <PolicyComparisonSummary topic={topic} year={year} />
           </article>
-
-          {/* TODO: Hide other tables under a button that un-collapses them to make them visible */}
           
           <aside className="flex-2">
+          { 
+              hasDataFor2025 &&
+              <div>
+                <h2>{t('policy_comparison_title', 2025)}</h2>
+                <PolicyComparisonTable
+                  year={"2025"}
+                  canFilterTopics={false}
+                  floatingHeader={false}
+                  selectedTopics={[topic]}
+                  hideHeader={false}
+                  renderEmpty={() => null}
+                  onEmpty={(() => setHasDataFor2025(false))} />
+              </div>
+            }
+
+            {/* TODO: Hide other tables under a button that un-collapses them to make them visible */}
+            {/* TODO: Visible parties is not dictated by 2025! */}
+            {/* TODO: Handle modal close state properly, instead of redirecting to / */}
+
             { 
               hasDataFor2021 &&
               <div>
@@ -39,7 +55,7 @@ export default function PolicyTopicDetails ({ year, topic }: TopicDetailsParams)
                   canFilterTopics={false}
                   floatingHeader={false}
                   selectedTopics={[topic]}
-                  hideHeader={false}
+                  hideHeader={true}
                   renderEmpty={() => null}
                   onEmpty={(() => setHasDataFor2021(false))} />
               </div>

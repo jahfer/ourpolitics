@@ -3,7 +3,16 @@ import { Party } from 'types/schema';
 import { getItem, setItem } from 'data/storage';
 
 const SELECTED_PARTIES = 'selectedParties';
-const DEFAULT_PARTIES = new Set([Party.Conservative, Party.Liberal, Party.NDP]);
+const isFrenchCA = navigator.language.startsWith("fr-CA");
+const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone
+const isQuebecTimezone = ["America/Montreal", "America/Blanc-Sablon"].includes(userTimezone);
+const isEasternCanada = userTimezone === "America/Toronto";
+const DEFAULT_PARTIES = new Set([
+  Party.Conservative,
+  Party.Liberal,
+  Party.NDP,
+  ...(isQuebecTimezone || (isFrenchCA && isEasternCanada) ? [Party.Bloc] : [])
+]);
 
 interface SelectedPartiesContextType {
   selectedParties: Set<Party>;

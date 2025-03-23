@@ -40,7 +40,8 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
   let initialLanguage = localStorage.getItem(LANGAUGE_STORAGE_KEY) as Language;
 
   if (initialLanguage === null) {
-    initialLanguage = LanguageOption.EN;
+    const userLanguage = navigator.language.toLowerCase();
+    initialLanguage = userLanguage.startsWith('fr') ? LanguageOption.FR : LanguageOption.EN;
     localStorage.setItem(LANGAUGE_STORAGE_KEY, initialLanguage);
   }
 

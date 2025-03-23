@@ -31,6 +31,8 @@ function partyToAcronym(party: Party) {
       return "LPC";
     case Party.NDP:
       return "NDP";
+    case Party.Bloc:
+      return "BQ";
     default:
       const _exhaustiveCheck: never = party;
       return _exhaustiveCheck;

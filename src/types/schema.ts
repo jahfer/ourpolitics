@@ -10,6 +10,7 @@ export enum Party {
   Conservative = "Conservative",
   NDP = "NDP",
   Green = "Green",
+  Bloc = "Bloc",
 }
 
 export type TranslationString = Record<keyof typeof LanguageOption, string>;

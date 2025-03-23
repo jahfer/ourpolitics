@@ -51,6 +51,14 @@
   }
 }
 
+.list--light .list--item:hover {
+  background-color: var(--color-cream-light);
+}
+
+.list--dark .list--item:hover {
+  background-color: var(--color-charcoal-dark);
+}
+
 .button--pill {
   display: inline-block;
   border: 2px solid #d9d9ca;
@@ -507,6 +515,10 @@
       justify-content: end;
       height: 100%;
     }
+
+    .langSelection {
+      margin-bottom: 0;
+    }
   }
 
   .policyTable {
@@ -568,6 +580,7 @@
 
     .policyTable--filterBar {
       width: calc(100% - 15px);
+      right: 0;
     }
   }
 }

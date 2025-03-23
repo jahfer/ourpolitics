@@ -15,14 +15,18 @@ import Redirect from 'components/redirect'
 import { useAnalytics } from 'support/analytics'
 import { getItem } from 'data/storage'
 
+const DEFAULT_YEAR = "2025"
+
 const routes = [
   route("/", () => {
-    if (getItem("has-visited-guide", false)) {
-      return <Redirect to="/policies/2021" />
+    if (getItem("has-visited-guide", /* else */ false)) {
+      return <Redirect to={`/policies/${DEFAULT_YEAR}`} />
     }
 
     return <Redirect to="/guide" />
   }),
+
+  route("/policies", () => <Redirect to={`/policies/${DEFAULT_YEAR}`} />),
 
   route("/policies/:year", (year) =>
     <PolicyIndex year={year} />),
@@ -33,7 +37,7 @@ const routes = [
   route("/policies/:year/:party/:policyHandle", (year, party, policyHandle) =>
     <PolicyIndex year={year} party={party} policyHandle={policyHandle} />),
 
-  route("/guide", () => <GuidedPolicyIndex year="2021" />),
+  route("/guide", () => <GuidedPolicyIndex year={DEFAULT_YEAR} />),
 
   route("/about", () =>
     <AboutIndex />),

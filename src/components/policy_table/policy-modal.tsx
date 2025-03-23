@@ -16,12 +16,27 @@ import {
 } from 'components/system/card';
 import { Modal } from 'components/system/modal';
 
+// 2025
+//@ts-ignore
+import { html as liberalPolicies2025 } from 'virtual:mddir:../../policies/2025/lpc/*'
+//@ts-ignore
+import { html as ndpPolicies2025 } from 'virtual:mddir:../../policies/2025/ndp/*'
+//@ts-ignore
+import { html as conservativePolicies2025 } from 'virtual:mddir:../../policies/2025/cpc/*'
+//@ts-ignore
+import { html as greenPolicies2025 } from 'virtual:mddir:../../policies/2025/gpc/*'
+//@ts-ignore
+import { html as blocPolicies2025 } from 'virtual:mddir:../../policies/2025/bq/*'
+
+// 2021
 //@ts-ignore
 import { html as liberalPolicies2021 } from 'virtual:mddir:../../policies/2021/lpc/*'
 //@ts-ignore
 import { html as ndpPolicies2021 } from 'virtual:mddir:../../policies/2021/ndp/*'
 //@ts-ignore
 import { html as conservativePolicies2021 } from 'virtual:mddir:../../policies/2021/cpc/*'
+
+// 2015
 //@ts-ignore
 import { html as liberalPolicies2015 } from 'virtual:mddir:../../policies/2015/lpc_*'
 //@ts-ignore
@@ -31,11 +46,12 @@ import { html as conservativePolicies2015 } from 'virtual:mddir:../../policies/2
 
 const policies: ((year: number) => Record<keyof typeof Party, Record<string, string>>) = (year) => {
   switch (year) {
-    case 2015: return {
-      [Party.Liberal]: liberalPolicies2015,
-      [Party.NDP]: ndpPolicies2015,
-      [Party.Conservative]: conservativePolicies2015,
-      [Party.Green]: {},
+    case 2025: return {
+      [Party.Liberal]: liberalPolicies2025,
+      [Party.NDP]: ndpPolicies2025,
+      [Party.Conservative]: conservativePolicies2025,
+      [Party.Green]: greenPolicies2025,
+      [Party.Bloc]: blocPolicies2025,
     }
 
     case 2021: return {
@@ -43,6 +59,15 @@ const policies: ((year: number) => Record<keyof typeof Party, Record<string, str
       [Party.NDP]: ndpPolicies2021,
       [Party.Conservative]: conservativePolicies2021,
       [Party.Green]: {},
+      [Party.Bloc]: {},
+    }
+
+    case 2015: return {
+      [Party.Liberal]: liberalPolicies2015,
+      [Party.NDP]: ndpPolicies2015,
+      [Party.Conservative]: conservativePolicies2015,
+      [Party.Green]: {},
+      [Party.Bloc]: {},
     }
 
     default: return {
@@ -50,6 +75,7 @@ const policies: ((year: number) => Record<keyof typeof Party, Record<string, str
       [Party.NDP]: {},
       [Party.Conservative]: {},
       [Party.Green]: {},
+      [Party.Bloc]: {},
     }
   }
 }

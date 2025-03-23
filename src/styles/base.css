@@ -31,6 +31,9 @@
 .backgroundColor--Green {
   background-color: var(--gpc-color);
 }
+.backgroundColor--Bloc {
+  background-color: var(--bq-color);
+}
 .backgroundColor--Empty {
   background-color: var(--color-charcoal-dark);
 }

@@ -1,15 +1,24 @@
 import * as React from 'react'
 
-interface BannerProps {
-  children: React.ReactNode
+export enum BannerType {
+  Info,
+  Warning,
+  Error,
 }
 
-export default function Banner ({ children }: BannerProps) {
+interface BannerProps {
+  children: React.ReactNode,
+  type: BannerType
+}
+
+export function Banner ({ children, type }: BannerProps) {
+  const className = "banner--" + BannerType[type].toLowerCase()
+
   return (
-    <aside className="banner">
-    <div className="banner--content">
-      {children}
-    </div>
-  </aside>
+    <aside className={`banner ${className}`}>
+      <div className="banner--content">
+        {children}
+      </div>
+    </aside>
   )
 }
