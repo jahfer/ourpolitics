@@ -28,8 +28,15 @@ const routes = [
 
   route("/policies", () => <Redirect to={`/policies/${DEFAULT_YEAR}`} />),
 
-  route("/policies/:year", (year) =>
-    <PolicyIndex year={year} />),
+  route("/policies/:year", (year) => {
+    if (year === DEFAULT_YEAR) {
+      if (!getItem("has-visited-guide", /* else */ false)) {
+        return <Redirect to="/guide" />
+      }
+    }
+
+    return <PolicyIndex year={year} />
+  }),
 
   route("/policies/:year/topics/:topic", (year, topic) =>
     <PolicyTopicDetails year={year} topic={topic} />),

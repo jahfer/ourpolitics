@@ -31,7 +31,6 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({collapsed = true}) 
   const settingsPanelRef = React.useRef<HTMLElement>(null);
 
   React.useEffect(() => {
-    console.log("ADDING CLASS", settingsPanelRef.current);
     settingsPanelRef.current?.classList.add('settings-panel--closed');
   }, [settings]);
 
