@@ -753,24 +753,6 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Modernize NORAD",
-      "FR": "Moderniser le NORAD"
-    },
-    "references": [
-      {
-        "date": "March 12th, 2025",
-        "title": "Carney transition team met with PMO staff Tuesday, hope for PM swearing-in by Friday",
-        "publisher": "CBC News",
-        "url": "https://www.cbc.ca/news/politics/carney-transition-team-met-pmo-staff-1.7481228?cmp=rss"
-      }
-    ],
-    "id": 44
-  },
-  {
-    "topic": "foreign-policy",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
       "EN": "Reconsider purchase of F-35 fighter jets from USA",
       "FR": "Reconsidérer l'achat d'avions de combat F-35 aux États-Unis"
     },
