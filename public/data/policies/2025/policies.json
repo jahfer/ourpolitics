@@ -197,6 +197,7 @@
       {
         "date": "March 11, 2025",
         "title": "Poilievre wants to impose 50 per cent metal tariffs on U.S. after latest Trump threat",
+        "publisher": "The Star",
         "url": "https://www.thestar.com/politics/federal/poilievre-wants-to-impose-50-per-cent-metal-tariffs-on-u-s-after-latest-trump/article_f32139b7-fff6-52a0-bce9-92b0ed6cea88.html"
       }
     ],
@@ -293,7 +294,7 @@
     "id": 15
   },
   {
-    "topic": "health-and-safety",
+    "topic": "international-trade",
     "party": "NDP",
     "year": 2025,
     "title": {
@@ -363,24 +364,6 @@
       }
     ],
     "id": 19
-  },
-  {
-    "topic": "health-and-safety",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Ban hard drugs, end decriminalization",
-      "FR": "Interdire les drogues dures, mettre fin à la dépénalisation"
-    },
-    "references": [
-      {
-        "date": "2024-04-05",
-        "title": "Poilievre Interviews with Comox Valley Record During Tour in Courtenay",
-        "publisher": "Comox Valley Record",
-        "url": "https://www.comoxvalleyrecord.com/local-news/poilievre-interviews-with-comox-valley-record-during-tour-in-courtenay-7338532"
-      }
-    ],
-    "id": 20
   },
   {
     "topic": "housing",
@@ -744,6 +727,12 @@
         "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
         "publisher": "The Star",
         "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html"
+      },
+      {
+        "date": "March 24, 2025",
+        "title": "National defence is often an afterthought in Canadian elections. Not this time",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/national-defence-canada-election-1.7490509"
       }
     ],
     "id": 43
@@ -1614,29 +1603,6 @@
     "id": 98
   },
   {
-    "topic": "international-trade",
-    "party": "Liberal",
-    "title": {
-      "EN": "Eliminate inter-provincial trade barriers to counter U.S. tariffs",
-      "FR": "Éliminer les barrières commerciales interprovinciales pour contrer les droits de douane américains"
-    },
-    "references": [
-      {
-        "date": "March 21, 2025",
-        "title": "PM Carney meeting with premiers today before expected Sunday election call",
-        "publisher": "CBC News",
-        "url": "https://www.cbc.ca/news/politics/carney-premiers-meeting-1.7489368?cmp=rss"
-      },
-      {
-        "date": "March 21, 2025",
-        "title": "Mark Carney says he’ll slash red tape to expedite major projects like high speed rail",
-        "publisher": "The Star",
-        "url": "https://www.thestar.com/politics/mark-carney-says-he-ll-slash-red-tape-to-expedite-major-projects-like-high-speed/article_6f389d37-f119-4c79-a495-1ce7a156befa.html"
-      }
-    ],
-    "id": 99
-  },
-  {
     "topic": "social-assistance",
     "party": "Liberal",
     "title": {
@@ -1787,6 +1753,9 @@
         "url": "https://www.ndp.ca/news/singh-celebrates-may-1-expansion-ndps-dental-care-program"
       },
       {
+        "date": "March 22, 2025",
+        "title": "Mark Carney to run in Ottawa-area riding as Canadians get set to vote April 28 in federal election",
+        "publisher": "The Star",
         "url": "https://www.thestar.com/politics/federal/mark-carney-to-run-in-ottawa-area-riding-as-canadians-get-set-to-vote-april/article_3640eed4-9cec-41bb-9def-1b50b86a3916.html"
       }
     ],
@@ -1796,8 +1765,8 @@
     "topic": "economy",
     "party": "Liberal",
     "title": {
-      "EN": "Cut income taxes for lowest tax bracket by 1%",
-      "FR": "Réduire de 1 % l'impôt sur le revenu pour la tranche d'imposition la plus basse"
+      "EN": "Cut income taxes for lowest tax bracket from 15% to 14%",
+      "FR": "Réduction de l'impôt sur le revenu pour la tranche d'imposition la plus basse de 15 % à 14 %"
     },
     "references": [
       {
@@ -1805,6 +1774,24 @@
         "title": "Economic uncertainty top of mind for voters as parties gear up for monumental federal election",
         "publisher": "The Globe and Mail",
         "url": "https://www.theglobeandmail.com/politics/article-economic-uncertainty-top-of-mind-for-voters-as-parties-gear-up-for/"
+      },
+      {
+        "date": "March 24, 2025",
+        "title": "Poilievre and Carney agree on one thing: This federal election is about change",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/opinion/article-poilievre-and-carney-agree-on-one-thing-this-federal-election-is-about/"
+      },
+      {
+        "date": "March 23, 2025",
+        "title": "Federal election 2025 snapshot: What happened on Day 1 of the campaign",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/federal-election/article-election-snapshot-what-happened-on-day-1-of-the-campaign/"
+      },
+      {
+        "date": "March 23, 2025",
+        "title": "Federal election kicks off on patriotic note, as Canadians head to polls on April 28",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/federal-election-kicks-off-on-patriotic-note-as-canadians-head-to-polls-on-april-28/article_bc45a63e-df1e-5070-8df4-76bbb1fd34b8.html"
       }
     ],
     "id": 111
@@ -1967,5 +1954,256 @@
       }
     ],
     "id": 120
+  },
+  {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "Restore seal harvest to protect fisheries and Indigenous livelihoods",
+      "FR": "Rétablir la chasse aux phoques pour protéger les pêcheries et les moyens de subsistance des populations autochtones"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "Conservatives Will Bring Back The Seal Harvest, Save Fishing Jobs",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/conservatives-will-bring-back-the-seal-harvest-save-fishing-jobs/#utm_source=rss&utm_medium=rss&utm_campaign=conservatives-will-bring-back-the-seal-harvest-save-fishing-jobs"
+      }
+    ],
+    "id": 121
+  },
+  {
+    "topic": "housing",
+    "party": "Conservative",
+    "title": {
+      "EN": "Eliminate sales tax on new homes and incentivize municipal permits",
+      "FR": "Élimination de la taxe sur les ventes de logements neufs et incitation à l'obtention de permis municipaux"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "Canada First—For A Change",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/canada-first-for-a-change/#utm_source=rss&utm_medium=rss&utm_campaign=canada-first-for-a-change"
+      }
+    ],
+    "id": 122
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Repeal catch-and-release, mandate jail for repeat offenders, ban hard drugs",
+      "FR": "Abrogation de la remise en liberté, obligation d'emprisonnement pour les récidivistes, interdiction des drogues dures"
+    },
+    "references": [
+      {
+        "date": "2024-04-05",
+        "title": "Poilievre Interviews with Comox Valley Record During Tour in Courtenay",
+        "publisher": "Comox Valley Record",
+        "url": "https://www.comoxvalleyrecord.com/local-news/poilievre-interviews-with-comox-valley-record-during-tour-in-courtenay-7338532"
+      },
+      {
+        "date": "March 23, 2025",
+        "title": "Canada First—For A Change",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/canada-first-for-a-change/#utm_source=rss&utm_medium=rss&utm_campaign=canada-first-for-a-change"
+      }
+    ],
+    "id": 123
+  },
+  {
+    "topic": "government",
+    "party": "Liberal",
+    "title": {
+      "EN": "Eliminate federal interprovincial trade barriers by Canada Day",
+      "FR": "Éliminer les barrières commerciales fédérales interprovinciales d'ici à la fête du Canada"
+    },
+    "references": [
+      {
+        "date": "March 21, 2025",
+        "title": "PM Carney meeting with premiers today before expected Sunday election call",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/carney-premiers-meeting-1.7489368?cmp=rss"
+      },
+      {
+        "date": "March 21, 2025",
+        "title": "Mark Carney says he’ll slash red tape to expedite major projects like high speed rail",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/mark-carney-says-he-ll-slash-red-tape-to-expedite-major-projects-like-high-speed/article_6f389d37-f119-4c79-a495-1ce7a156befa.html"
+      },
+      {
+        "date": "March 23, 2025",
+        "title": "Federal election campaign begins, with leaders pitching themselves as best option amid trade tensions",
+        "publisher": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/politics/article-carney-canada-federal-election-call/"
+      }
+    ],
+    "id": 125
+  },
+  {
+    "topic": "government",
+    "party": "Liberal",
+    "title": {
+      "EN": "Balance federal operational budget over 3 years, invest in growth",
+      "FR": "Équilibrer le budget opérationnel fédéral sur trois ans, investir dans la croissance"
+    },
+    "references": [
+      {
+        "date": "February 16, 2025",
+        "title": "Liberal leadership hopeful Mark Carney says he'd run a deficit to 'invest and grow' Canada's economy",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/liberal-leadership-hopeful-mark-carney-says-he-d-run-a-deficit-to-invest-and-grow-canada-s-economy-1.7460774"
+      }
+    ],
+    "id": 126
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Oppose tax cuts for wealthy individuals and big businesses",
+      "FR": "S'opposer aux réductions d'impôts pour les particuliers fortunés et les grandes entreprises"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "https://www.thestar.com/politics/federal/jagmeet-singh-vows-ndp-is-not-going-away-as-campaign-begins-amid-slump-in-support/article_aeb776da-b08c-43fd-8d81-9d354640038c.html",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/jagmeet-singh-vows-ndp-is-not-going-away-as-campaign-begins-amid-slump-in-support/article_aeb776da-b08c-43fd-8d81-9d354640038c.html"
+      },
+      {
+        "date": "March 23, 2025",
+        "title": "Donald Trump looms large as Mark Carney triggers federal election campaign",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/donald-trump-looms-large-as-mark-carney-triggers-federal-election-campaign/article_e68a21e9-fbd0-4ecc-80ae-b8dc23d77c6c.html"
+      }
+    ],
+    "id": 128
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Reduce regulation, eliminate deficit through spending cuts",
+      "FR": "Réduire la réglementation, éliminer le déficit en réduisant les dépenses"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "This election is about Donald Trump — and a lot more",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/election-federal-carney-poilievre-trump-analysis-1.7491076"
+      }
+    ],
+    "id": 129
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Cut taxes on work, investment, energy, and homebuilding",
+      "FR": "Réduire les impôts sur le travail, l'investissement, l'énergie et la construction de logements"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "Carney and Poilievre promise tax cuts on Day 1 of election campaign",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/carney-poilievre-tax-cuts-election-1.7491224?cmp=rss"
+      }
+    ],
+    "id": 130
+  },
+  {
+    "topic": "government",
+    "party": "Conservative",
+    "title": {
+      "EN": "Reduce spending by cutting housing funds, defunding CBC, and foreign aid",
+      "FR": "Réduire les dépenses en diminuant les fonds destinés au logement, en supprimant le financement de la CBC et en réduisant l'aide à l'étranger"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "Carney and Poilievre promise tax cuts on Day 1 of election campaign",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/carney-poilievre-tax-cuts-election-1.7491224?cmp=rss"
+      },
+      {
+        "date": "March 24, 2025",
+        "title": "National defence is often an afterthought in Canadian elections. Not this time",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/national-defence-canada-election-1.7490509"
+      }
+    ],
+    "id": 131
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Reduce federal deficit and balance budget within 5 years",
+      "FR": "Réduire le déficit fédéral et équilibrer le budget en 5 ans"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "Canada election: Party leaders make their pitches as snap campaign kicks off",
+        "publisher": "CBC News",
+        "url": "https://www.cbc.ca/news/politics/livestory/canada-election-party-leaders-make-their-pitches-as-snap-campaign-kicks-off-9.6695126?cmp=rss"
+      }
+    ],
+    "id": 132
+  },
+  {
+    "topic": "international-trade",
+    "party": "Bloc",
+    "title": {
+      "EN": "Protect Quebec's interests in U.S. trade negotiations",
+      "FR": "Protéger les intérêts du Québec dans les négociations commerciales avec les États-Unis"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "Donald Trump looms large as Mark Carney triggers federal election campaign",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/donald-trump-looms-large-as-mark-carney-triggers-federal-election-campaign/article_e68a21e9-fbd0-4ecc-80ae-b8dc23d77c6c.html"
+      }
+    ],
+    "id": 134
+  },
+  {
+    "topic": "environment",
+    "party": "Green",
+    "title": {
+      "EN": "Prioritize environmental sustainability and social equity",
+      "FR": "Priorité à la durabilité environnementale et à l'équité sociale"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "Donald Trump looms large as Mark Carney triggers federal election campaign",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/federal/donald-trump-looms-large-as-mark-carney-triggers-federal-election-campaign/article_e68a21e9-fbd0-4ecc-80ae-b8dc23d77c6c.html"
+      }
+    ],
+    "id": 135
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Cut income taxes for lowest tax bracket from 15% to 12.75%",
+      "FR": "Réduction de l'impôt sur le revenu pour la tranche d'imposition la plus basse de 15 % à 12,75 %"
+    },
+    "references": [
+      {
+        "date": "March 23, 2025",
+        "title": "Poilievre To Cut Income Tax By 15% For The Average Canadian",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/poilievre-to-cut-income-tax-by-15-for-the-average-canadian/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-to-cut-income-tax-by-15-for-the-average-canadian"
+      }
+    ],
+    "id": 136
   }
 ]
