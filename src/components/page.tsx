@@ -2,7 +2,7 @@ import * as React from 'react'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import { SettingsPanel } from 'components/settings'
-import { useLanguage } from 'contexts/language-context'
+import { useLanguage, useTranslation } from 'contexts/language-context'
 
 interface PageProps {
   title?: string | React.ReactNode,
@@ -14,9 +14,11 @@ interface PageProps {
 
 export default function Page ({title, children, className = "", showHeader = true, showFooter = true}: PageProps) {
   const { language } = useLanguage();
+  const { t } = useTranslation();
 
   return (
     <div className={`page lang-${language}`}>
+      <title>{`${title} — ${t('our_politics')}`}</title>
       <SettingsPanel />
       <main className="page-content flex flex-col">
         {
