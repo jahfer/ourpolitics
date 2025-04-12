@@ -18,7 +18,7 @@ export default function PolicyPoint ({ policy }: PolicyPointProps) {
   const _ = useAnalytics();
 
   let formattedPolicyTitle = policy.title[language].replace(
-    /([$><+]*?[0-9]+\.?,?(\u00A0)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
+    /(([$><+]*|Bill )?[0-9]+\.?,?(\u00A0)?[0-9-–]*\/?(%|\$|k|( ?(years?|days?|weeks?|hours?|billions?|millions?|milliards|tons?|dollars?|heures?))*))/g,
     "<span class='text-em'>$1</span>"
   );
 

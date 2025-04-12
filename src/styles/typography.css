@@ -71,9 +71,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-em {
-  background-color: var(--color-cream);
+  /* background-color: var(--color-cream);
   padding: 0 2px;
-  border-radius: 3px;
+  border-radius: 3px; */
+  /* font-style: italic; */
+  border-bottom: 2px solid var(--color-yellow);
+  text-wrap: nowrap
 }
 
 .text-large {
