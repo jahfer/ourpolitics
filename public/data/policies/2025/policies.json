@@ -120,30 +120,6 @@
     "id": 6
   },
   {
-    "topic": "international-trade",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Diversify trade relationships",
-      "FR": "Diversifier les relations commerciales"
-    },
-    "references": [
-      {
-        "date": "2025-03-14",
-        "title": "Who are the new faces in Carney's cabinet? Who's on their way out?",
-        "publisher": "CBC News",
-        "url": "https://www.cbc.ca/news/politics/who-is-in-mark-carney-cabinet-1.7484013"
-      },
-      {
-        "date": "2025-03-14",
-        "title": "Joly tells Marco Rubio 'Canada's sovereignty is not up to debate, period'",
-        "publisher": "CBC News",
-        "url": "https://www.cbc.ca/news/politics/g7-canada-joly-tells-rubio-hands-off-1.7483573"
-      }
-    ],
-    "id": 7
-  },
-  {
     "topic": "government",
     "party": "Conservative",
     "year": 2025,
@@ -244,24 +220,6 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Investigate X for privacy concerns",
-      "FR": "Enquêter sur X pour des questions de protection de la vie privée"
-    },
-    "references": [
-      {
-        "date": "2025-02-25",
-        "title": "NDP’s Masse urges investigation into X regarding data privacy concerns",
-        "publisher": "NDP Official Website",
-        "url": "https://www.ndp.ca/news/ndps-masse-urges-investigation-x-regarding-data-privacy-concerns"
-      }
-    ],
-    "id": 14
-  },
-  {
-    "topic": "civil-rights",
-    "party": "NDP",
-    "year": 2025,
-    "title": {
       "EN": "Support workers' right to strike",
       "FR": "Soutenir le droit de grève des travailleurs"
     },
@@ -298,7 +256,7 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Redirect anglicization funding",
+      "EN": "Stop federal funding for English in Quebec",
       "FR": "Réorienter le financement de l'anglicisation"
     },
     "references": [
@@ -1023,7 +981,7 @@
     "id": 63
   },
   {
-    "topic": "economy",
+    "topic": "infrastructure",
     "party": "NDP",
     "title": {
       "EN": "Increase capital spending on infrastructure",
@@ -1319,23 +1277,6 @@
     "id": 91
   },
   {
-    "topic": "economy",
-    "party": "NDP",
-    "title": {
-      "EN": "Oppose changes to capital gains inclusion rate",
-      "FR": "S'opposer aux modifications du taux d'inclusion des plus-values"
-    },
-    "references": [
-      {
-        "date": "March 21, 2025",
-        "title": "NDP react to Carney scrapping the capital gains tax",
-        "publisher": "NDP Official Website",
-        "url": "https://www.ndp.ca/news/ndp-react-carney-scrapping-capital-gains-tax"
-      }
-    ],
-    "id": 92
-  },
-  {
     "topic": "environment",
     "party": "Liberal",
     "title": {
@@ -1419,7 +1360,7 @@
     "topic": "economy",
     "party": "Conservative",
     "title": {
-      "EN": "Scrap carbon pricing on large industrial emitters",
+      "EN": "Remove carbon pricing on large industrial emitters",
       "FR": "Abandonner la tarification du carbone pour les grands émetteurs industriels"
     },
     "references": [
@@ -1670,23 +1611,6 @@
     "id": 112
   },
   {
-    "topic": "economy",
-    "party": "Conservative",
-    "title": {
-      "EN": "Stimulate economy with tax cuts",
-      "FR": "Stimuler l'économie par des réductions d'impôts"
-    },
-    "references": [
-      {
-        "date": "March 23, 2025",
-        "title": "Economic uncertainty top of mind for voters as parties gear up for monumental federal election",
-        "publisher": "The Globe and Mail",
-        "url": "https://www.theglobeandmail.com/politics/article-economic-uncertainty-top-of-mind-for-voters-as-parties-gear-up-for/"
-      }
-    ],
-    "id": 113
-  },
-  {
     "topic": "housing",
     "party": "Conservative",
     "title": {
@@ -1879,29 +1803,6 @@
       }
     ],
     "id": 126
-  },
-  {
-    "topic": "economy",
-    "party": "NDP",
-    "title": {
-      "EN": "Oppose tax cuts for wealthy individuals and big businesses",
-      "FR": "S'opposer aux réductions d'impôts pour les particuliers fortunés et les grandes entreprises"
-    },
-    "references": [
-      {
-        "date": "March 23, 2025",
-        "title": "Jagmeet Singh vows NDP is not going away as campaign begins amid slump in support",
-        "publisher": "The Star",
-        "url": "https://www.thestar.com/politics/federal/jagmeet-singh-vows-ndp-is-not-going-away-as-campaign-begins-amid-slump-in-support/article_aeb776da-b08c-43fd-8d81-9d354640038c.html"
-      },
-      {
-        "date": "March 23, 2025",
-        "title": "Donald Trump looms large as Mark Carney triggers federal election campaign",
-        "publisher": "The Star",
-        "url": "https://www.thestar.com/politics/federal/donald-trump-looms-large-as-mark-carney-triggers-federal-election-campaign/article_e68a21e9-fbd0-4ecc-80ae-b8dc23d77c6c.html"
-      }
-    ],
-    "id": 128
   },
   {
     "topic": "economy",
@@ -2369,7 +2270,7 @@
     "topic": "economy",
     "party": "Conservative",
     "title": {
-      "EN": "End capital gains tax increase"
+      "EN": "Cancel capital gains tax increase"
     },
     "references": [
       {
@@ -2377,22 +2278,6 @@
       }
     ],
     "id": 156
-  },
-  {
-    "topic": "economy",
-    "party": "NDP",
-    "title": {
-      "EN": "Increase basic personal tax exemption"
-    },
-    "references": [
-      {
-        "url": "https://www.cbc.ca/news/politics/poilievre-singh-announce-tax-cuts-1.7493871?cmp=rss"
-      },
-      {
-        "url": "https://www.thestar.com/politics/federal/amid-plunging-polls-these-ndp-voters-are-seriously-considering-mark-carney/article_927b67e7-606e-47a4-bd1a-4796f5f11197.html"
-      }
-    ],
-    "id": 157
   },
   {
     "topic": "economy",
@@ -3213,7 +3098,7 @@
     "id": 230
   },
   {
-    "topic": "economy",
+    "topic": "infrastructure",
     "party": "Conservative",
     "title": {
       "EN": "Double Newfoundland and Labrador’s oil and gas production"
@@ -3490,19 +3375,6 @@
       }
     ],
     "id": 253
-  },
-  {
-    "topic": "international-trade",
-    "party": "Liberal",
-    "title": {
-      "EN": "Impose retaliatory tariffs on U.S. vehicles"
-    },
-    "references": [
-      {
-        "url": "https://www.thestar.com/politics/trump-tariffs-u-s-and-canadian-markets-close-after-free-falling-for-second-day-carney/article_1a6b071e-5d6f-4718-9fc1-9fad5fe818b4.html"
-      }
-    ],
-    "id": 254
   },
   {
     "topic": "health-and-safety",
@@ -3882,19 +3754,6 @@
     "id": 286
   },
   {
-    "topic": "economy",
-    "party": "Conservative",
-    "title": {
-      "EN": "Crack down on offshore tax havens"
-    },
-    "references": [
-      {
-        "url": "https://www.cbc.ca/news/politics/poilievre-crack-down-tax-havens-1.7504587?cmp=rss"
-      }
-    ],
-    "id": 287
-  },
-  {
     "topic": "housing",
     "party": "Conservative",
     "title": {
@@ -4083,19 +3942,6 @@
     "id": 302
   },
   {
-    "topic": "economy",
-    "party": "Liberal",
-    "title": {
-      "EN": "Repeal capital gains tax increase"
-    },
-    "references": [
-      {
-        "url": "https://www.theglobeandmail.com/politics/article-who-are-the-people-steering-the-liberal-and-conservative-election/"
-      }
-    ],
-    "id": 303
-  },
-  {
     "topic": "health-and-safety",
     "party": "Conservative",
     "title": {
@@ -4221,6 +4067,9 @@
     "references": [
       {
         "url": "https://www.thestar.com/politics/federal/pierre-poilievre-ramps-up-his-attacks-on-mark-carney-with-a-little-help-from-stephen/article_4b1beb80-85d8-488b-b868-f79188ceb607.html"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-crack-down-tax-havens-1.7504587?cmp=rss"
       }
     ],
     "id": 313
@@ -4710,7 +4559,7 @@
     "topic": "economy",
     "party": "Conservative",
     "title": {
-      "EN": "Cut income taxes and provide business liquidity support for tariff impacts"
+      "EN": "Business liquidity support for tariff impacts"
     },
     "references": [
       {
