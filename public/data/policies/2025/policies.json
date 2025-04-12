@@ -28,24 +28,6 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Hire more border agents",
-      "FR": "Engager plus d'agents frontaliers"
-    },
-    "references": [
-      {
-        "date": "2025-03-04",
-        "title": "Border officer union cites staffing shortfalls as Trump proceeds with tariff threats",
-        "publisher": "The Star",
-        "url": "https://www.thestar.com/politics/federal/border-officer-union-cites-staffing-shortfalls-as-trump-proceeds-with-tariff-threats/article_4afb852e-69de-5e4a-9efe-680e24a49d54.html"
-      }
-    ],
-    "id": 2
-  },
-  {
-    "topic": "immigration",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
       "EN": "Reduce annual permanent resident intake by 50%",
       "FR": "Réduire de 50 % le nombre de résidents permanents accueillis chaque année"
     },
@@ -388,8 +370,7 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Eliminate GST on new homes",
-      "FR": "Supprimer la TPS sur les logements neufs"
+      "EN": "Increase housing incentives and eliminate GST on new homes"
     },
     "references": [
       {
@@ -403,6 +384,12 @@
         "title": "As federal election campaign kicks off Sunday, Carney to seek seat in Nepean",
         "publisher": "The Star",
         "url": "https://www.thestar.com/politics/federal/as-federal-election-campaign-kicks-off-sunday-carney-to-seek-seat-in-nepean/article_cc33b7c6-ac66-5a11-a040-45ee10bf9cee.html"
+      },
+      {
+        "date": "March 23, 2025",
+        "title": "Canada First—For A Change",
+        "publisher": "Conservative Party of Canada",
+        "url": "https://www.conservative.ca/canada-first-for-a-change/#utm_source=rss&utm_medium=rss&utm_campaign=canada-first-for-a-change"
       }
     ],
     "id": 23
@@ -427,24 +414,6 @@
   },
   {
     "topic": "housing",
-    "party": "NDP",
-    "year": 2025,
-    "title": {
-      "EN": "Invest in affordable housing",
-      "FR": "Investir dans le logement abordable"
-    },
-    "references": [
-      {
-        "date": "February 19th, 2025",
-        "title": "The NDP says it's time to invest more in affordable, social and community housing",
-        "publisher": "NDP.ca",
-        "url": "https://www.ndp.ca/news/ndp-says-its-time-invest-more-affordable-social-and-community-housing"
-      }
-    ],
-    "id": 25
-  },
-  {
-    "topic": "housing",
     "party": "Bloc",
     "year": 2025,
     "title": {
@@ -460,24 +429,6 @@
       }
     ],
     "id": 26
-  },
-  {
-    "topic": "social-assistance",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "Equitable pension system",
-      "FR": "Système de pension équitable"
-    },
-    "references": [
-      {
-        "date": "2025-03-13",
-        "title": "Circonscription de Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata : Diane Sénécal investie candidate du Bloc Québécois",
-        "publisher": "Bloc Québécois",
-        "url": "https://www.blocquebecois.org/circonscription-de-cote-du-sud-riviere-du-loup-kataskomiq-temiscouata-diane-senecal-investie-candidate-du-bloc-quebecois/"
-      }
-    ],
-    "id": 28
   },
   {
     "topic": "social-assistance",
@@ -502,7 +453,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Increase employment insurance payments for tariff-affected workers",
+      "EN": "Increase EI payments for tariff-affected workers",
       "FR": "Augmenter les prestations d'assurance-emploi pour les travailleurs touchés par les tarifs douaniers"
     },
     "references": [
@@ -798,42 +749,6 @@
     "id": 46
   },
   {
-    "topic": "foreign-policy",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "Border security concerns",
-      "FR": "Préoccupations en matière de sécurité aux frontières"
-    },
-    "references": [
-      {
-        "date": "February 12th, 2025",
-        "title": "Diminution des heures d’ouverture des postes frontaliers : Le ministre McGuinty doit revoir sa décision",
-        "publisher": "Bloc Québécois",
-        "url": "https://www.blocquebecois.org/?p=30186"
-      }
-    ],
-    "id": 47
-  },
-  {
-    "topic": "arts-and-culture",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "Oppose english promotion",
-      "FR": "S'opposer à la promotion de l'anglais"
-    },
-    "references": [
-      {
-        "date": "February 27th, 2025",
-        "title": "Analyse des comptes publics 2023-2024: 200 millions pour l’anglicisation au Québec",
-        "publisher": "Bloc Québécois",
-        "url": "https://www.blocquebecois.org/analyse-des-comptes-publics-2023-2024-200-millions-pour-langlicisation-au-quebec/"
-      }
-    ],
-    "id": 48
-  },
-  {
     "topic": "infrastructure",
     "party": "Liberal",
     "year": 2025,
@@ -971,23 +886,6 @@
     "id": 53
   },
   {
-    "topic": "government",
-    "party": "NDP",
-    "title": {
-      "EN": "Reinstate dedicated Minister for Women and Gender Equality",
-      "FR": "Réintégrer la ministre de la condition féminine et de l'égalité des sexes"
-    },
-    "references": [
-      {
-        "date": "March 19, 2025",
-        "title": "NDP Women and Gender Equality Critic Leah Gazan calls out Prime Minister Carney for silencing women and gender diverse people",
-        "publisher": "NDP Official Website",
-        "url": "https://www.ndp.ca/news/ndp-women-and-gender-equality-critic-leah-gazan-calls-out-prime-minister-carney-silencing-women"
-      }
-    ],
-    "id": 54
-  },
-  {
     "topic": "foreign-policy",
     "party": "NDP",
     "title": {
@@ -1009,23 +907,6 @@
       }
     ],
     "id": 55
-  },
-  {
-    "topic": "affordability",
-    "party": "NDP",
-    "title": {
-      "EN": "Remove GST from essential items",
-      "FR": "Supprimer la TPS sur les produits de première nécessité"
-    },
-    "references": [
-      {
-        "date": "March 18, 2025",
-        "title": "Grocery price surge shows scrapping GST works to drive down prices",
-        "publisher": "NDP Official Website",
-        "url": "https://www.ndp.ca/news/grocery-price-surge-shows-scrapping-gst-works-drive-down-prices"
-      }
-    ],
-    "id": 56
   },
   {
     "topic": "infrastructure",
@@ -1077,7 +958,7 @@
     "topic": "social-assistance",
     "party": "NDP",
     "title": {
-      "EN": "Improve Employment Insurance for workers facing job loss",
+      "EN": "Improve EI for workers facing job loss",
       "FR": "Améliorer l'assurance-emploi pour les travailleurs confrontés à une perte d'emploi"
     },
     "references": [
@@ -1157,23 +1038,6 @@
       }
     ],
     "id": 64
-  },
-  {
-    "topic": "immigration",
-    "party": "Liberal",
-    "title": {
-      "EN": "Continue reducing temporary resident numbers",
-      "FR": "Continuer à réduire le nombre de résidents temporaires"
-    },
-    "references": [
-      {
-        "date": "March 20, 2025",
-        "title": "New immigration minister says Trump presidency could prompt best and brightest to choose Canada",
-        "publisher": "The Globe and Mail",
-        "url": "https://www.theglobeandmail.com/politics/article-new-immigration-minister-says-trump-presidency-could-prompt-best-and/"
-      }
-    ],
-    "id": 67
   },
   {
     "topic": "immigration",
@@ -1309,6 +1173,12 @@
     },
     "references": [
       {
+        "date": "March 19, 2025",
+        "title": "Mark Carney looking to Europe to boost Canada’s security in shift away from reliance on U.S., sources say",
+        "publisher": "The Star",
+        "url": "https://www.thestar.com/politics/mark-carney-looking-to-europe-to-boost-canada-s-security-in-shift-away-from-reliance/article_8a871782-f454-4e7f-b8ca-b9b6d3e7b34f.html"
+      },
+      {
         "date": "March 20, 2025",
         "title": "Prime Minister Mark Carney expected to call a federal election on Sunday",
         "publisher": "The Star",
@@ -1316,23 +1186,6 @@
       }
     ],
     "id": 79
-  },
-  {
-    "topic": "foreign-policy",
-    "party": "Liberal",
-    "title": {
-      "EN": "Shift security alliances towards Europe",
-      "FR": "Réorientation des alliances de sécurité vers l'Europe"
-    },
-    "references": [
-      {
-        "date": "March 19, 2025",
-        "title": "Mark Carney looking to Europe to boost Canada’s security in shift away from reliance on U.S., sources say",
-        "publisher": "The Star",
-        "url": "https://www.thestar.com/politics/mark-carney-looking-to-europe-to-boost-canada-s-security-in-shift-away-from-reliance/article_8a871782-f454-4e7f-b8ca-b9b6d3e7b34f.html"
-      }
-    ],
-    "id": 80
   },
   {
     "topic": "education",
@@ -1583,8 +1436,8 @@
     "topic": "infrastructure",
     "party": "Liberal",
     "title": {
-      "EN": "Speed up major projects by ending duplicative environmental assessments",
-      "FR": "Accélérer les grands projets en mettant fin aux évaluations environnementales redondantes"
+      "EN": "Remove redundant environmental assessment requirements",
+      "FR": "Supprimer les exigences redondantes en matière d'évaluation environnementale"
     },
     "references": [
       {
@@ -1598,6 +1451,9 @@
         "title": "Mark Carney says he’ll slash red tape to expedite major projects like high speed rail",
         "publisher": "The Star",
         "url": "https://www.thestar.com/politics/mark-carney-says-he-ll-slash-red-tape-to-expedite-major-projects-like-high-speed/article_6f389d37-f119-4c79-a495-1ce7a156befa.html"
+      },
+      {
+        "url": "https://www.cbc.ca/news/canada/calgary/mark-carney-liberals-energy-reviews-oil-gas-calgary-promise-conservative-pierre-poilievre-1.7506199?cmp=rss"
       }
     ],
     "id": 98
@@ -1925,8 +1781,8 @@
     "topic": "indigenous-relations",
     "party": "Liberal",
     "title": {
-      "EN": "Continue funding Jordan’s Principle",
-      "FR": "Continuer le financement Principe de Jordan"
+      "EN": "Continue funding Jordan’s Principle through 2026",
+      "FR": "Poursuite du financement du principe de Jordan jusqu'en 2026"
     },
     "references": [
       {
@@ -1937,23 +1793,6 @@
       }
     ],
     "id": 119
-  },
-  {
-    "topic": "environment",
-    "party": "Green",
-    "title": {
-      "EN": "Prioritize addressing climate crisis",
-      "FR": "Priorité à la lutte contre la crise climatique"
-    },
-    "references": [
-      {
-        "date": "March 22, 2025",
-        "title": "Can Mark Carney pull it off? Will Pierre Poilievre bounce back? Your guide to the biggest storylines this federal election campaign",
-        "publisher": "The Star",
-        "url": "https://www.thestar.com/politics/federal/can-mark-carney-pull-it-off-will-pierre-poilievre-bounce-back-your-guide-to-the/article_159f715a-9c01-4ae8-9612-a522d7f1702c.html"
-      }
-    ],
-    "id": 120
   },
   {
     "topic": "environment",
@@ -1971,23 +1810,6 @@
       }
     ],
     "id": 121
-  },
-  {
-    "topic": "housing",
-    "party": "Conservative",
-    "title": {
-      "EN": "Eliminate sales tax on new homes and incentivize municipal permits",
-      "FR": "Élimination de la taxe sur les ventes de logements neufs et incitation à l'obtention de permis municipaux"
-    },
-    "references": [
-      {
-        "date": "March 23, 2025",
-        "title": "Canada First—For A Change",
-        "publisher": "Conservative Party of Canada",
-        "url": "https://www.conservative.ca/canada-first-for-a-change/#utm_source=rss&utm_medium=rss&utm_campaign=canada-first-for-a-change"
-      }
-    ],
-    "id": 122
   },
   {
     "topic": "health-and-safety",
@@ -2205,5 +2027,2735 @@
       }
     ],
     "id": 136
+  },
+  {
+    "topic": "housing",
+    "party": "Conservative",
+    "title": {
+      "EN": "Eliminate GST on new homes up to $1.3M"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-to-axe-gst-on-new-homes-under-1-3-million/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-to-axe-gst-on-new-homes-under-1-3-million"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/politics/federal-election/article-poilievre-promises-to-waive-gst-on-new-homes-under-13-million/"
+      }
+    ],
+    "id": 137
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Build 100,000+ rent-controlled homes on federal land"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-will-unlock-public-land-build-more-homes-people-can-afford"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-jagmeet-singh-ndp-public-land-housing-quebec/"
+      }
+    ],
+    "id": 138
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Conservative",
+    "title": {
+      "EN": "Eliminate tolls on Confederation Bridge"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/federal-election/article-federal-election-2025-campaigns-today/"
+      }
+    ],
+    "id": 139
+  },
+  {
+    "topic": "international-trade",
+    "party": "Bloc",
+    "title": {
+      "EN": "Mandate Canadian content in federal contracts"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/menace-tarifaire-par-la-bouchede-nos-contrats-publics/"
+      }
+    ],
+    "id": 140
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Raise basic personal tax exemption to $19,500"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-announces-plan-cut-taxes-working-and-middle-class-families-not-millionaires-and"
+      }
+    ],
+    "id": 141
+  },
+  {
+    "topic": "affordability",
+    "party": "NDP",
+    "title": {
+      "EN": "Remove GST from Canadian-made cars and trucks, essentials like internet and heating"
+    },
+    "references": [
+      {
+        "date": "March 18, 2025",
+        "title": "Grocery price surge shows scrapping GST works to drive down prices",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/grocery-price-surge-shows-scrapping-gst-works-drive-down-prices"
+      },
+      {
+        "url": "https://www.ndp.ca/news/ndp-announces-plan-cut-taxes-working-and-middle-class-families-not-millionaires-and"
+      },
+      {
+        "url": "https://www.ndp.ca/news/poilievre-copies-singhs-gst-promise-fails-commit-ei-changes-protect-workers"
+      }
+    ],
+    "id": 142
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "title": {
+      "EN": "Fund high-speed rail from Toronto to Québec City"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/federal-election/article-federal-election-2025-campaigns-today/"
+      }
+    ],
+    "id": 143
+  },
+  {
+    "topic": "government",
+    "party": "Conservative",
+    "title": {
+      "EN": "Eliminate tolls on Confederation Bridge"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-will-axe-the-tolls-for-islanders/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-will-axe-the-tolls-for-islanders"
+      }
+    ],
+    "id": 144
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Provide humanitarian aid to Palestinians in Gaza and West Bank"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-carney-trump-federal-election-outcome/"
+      }
+    ],
+    "id": 145
+  },
+  {
+    "topic": "international-trade",
+    "party": "Liberal",
+    "title": {
+      "EN": "Establish $2B auto sector strategic response fund"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/liberals-to-protect-canadian-auto-workers-and-stand-up-against-tariffs/"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-carney-says-canada-cannot-rely-on-us-any-longer-and-must-achieve/"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-trump-auto-tariffs-1.7494829?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal-elections/mark-carney-says-canada-wont-back-down-promises-billions-in-counter-tariffs-following-trumps-auto/article_ddf6f1aa-d1ea-4c8e-8375-f833db9148ab.html"
+      },
+      {
+        "url": "https://www.cbc.ca/news/canada/london/auto-tariffs-us-canadian-autoworkers-1.7494120?cmp=rss"
+      },
+      {
+        "url": "https://www.cbc.ca/news/world/trump-auto-tariffs-1.7494185?cmp=rss"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-auto-sector-trump-tariffs-1.7493714?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/mark-carney-pitches-2b-fund-to-help-auto-sector-navigate-trumps-tariffs/article_7ca50a47-c553-4e9d-8577-2f21153c5971.html"
+      },
+      {
+        "url": "https://www.cbc.ca/news/business/made-in-america-cars-1.7494979?cmp=rss"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/trump-carney-poilievre-analysis-1.7495490?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/doug-ford-s-internal-polling-paints-grim-election-prospects-for-pierre-poilievre-in-ontario/article_11f8b5cc-3dec-42f6-9d4d-c342d67bee9d.html"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-conflict-of-interest-brookfield-blind-trust-1.7493849?cmp=rss"
+      },
+      {
+        "url": "https://www.cbc.ca/news/canada/ottawa/poilievre-and-carney-vie-for-seats-in-side-by-side-ridings-1.7493670?cmp=rss"
+      },
+      {
+        "url": "https://www.cbc.ca/news/canada/london/auto-tariffs-us-canadian-autoworkers-1.7494120?cmp=rss"
+      }
+    ],
+    "id": 146
+  },
+  {
+    "topic": "international-trade",
+    "party": "Liberal",
+    "title": {
+      "EN": "Diversify trade with Asia, excluding China"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-auto-sector-trump-tariffs-1.7493714?cmp=rss"
+      }
+    ],
+    "id": 147
+  },
+  {
+    "topic": "international-trade",
+    "party": "Conservative",
+    "title": {
+      "EN": "Retaliate against US tariffs with targeted measures"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/responding-to-trumps-unjustified-tariffs/#utm_source=rss&utm_medium=rss&utm_campaign=responding-to-trumps-unjustified-tariffs"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-trump-auto-tariffs-1.7494829?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal-elections/mark-carney-says-canada-wont-back-down-promises-billions-in-counter-tariffs-following-trumps-auto/article_ddf6f1aa-d1ea-4c8e-8375-f833db9148ab.html"
+      },
+      {
+        "url": "https://www.cbc.ca/news/world/trump-auto-tariffs-1.7494185?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/donald-trump-slaps-25-per-cent-tariff-on-all-autos-imported-into-the-u-s/article_b18682da-aedc-4796-a991-4899f2d84831.html"
+      }
+    ],
+    "id": 148
+  },
+  {
+    "topic": "international-trade",
+    "party": "Conservative",
+    "title": {
+      "EN": "Increase TFSA limit for Canadian investments"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-announces-canada-first-tfsa-top-up-to-bring-home-investment/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-announces-canada-first-tfsa-top-up-to-bring-home-investment"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-tfsa-hike-1.7494734?cmp=rss"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/investing/personal-finance/article-poilievre-promises-5000-tfsa-top-up-for-investments-in-canadian/"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-poilievres-all-canadian-portfolio-is-good-politics-but-an-iffy/"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/trump-carney-poilievre-analysis-1.7495490?cmp=rss"
+      }
+    ],
+    "id": 149
+  },
+  {
+    "topic": "international-trade",
+    "party": "NDP",
+    "title": {
+      "EN": "Implement retaliatory tariffs against US"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-canadian-workers-built-auto-industry-we-wont-let-american-billionaires-strip-it-parts"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-trump-auto-tariffs-1.7494829?cmp=rss"
+      },
+      {
+        "url": "https://www.cbc.ca/news/world/trump-auto-tariffs-1.7494185?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/donald-trump-slaps-25-per-cent-tariff-on-all-autos-imported-into-the-u-s/article_b18682da-aedc-4796-a991-4899f2d84831.html"
+      }
+    ],
+    "id": 150
+  },
+  {
+    "topic": "international-trade",
+    "party": "NDP",
+    "title": {
+      "EN": "Ban asset stripping in auto industry"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-canadian-workers-built-auto-industry-we-wont-let-american-billionaires-strip-it-parts"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-trump-auto-tariffs-1.7494829?cmp=rss"
+      }
+    ],
+    "id": 151
+  },
+  {
+    "topic": "international-trade",
+    "party": "NDP",
+    "title": {
+      "EN": "Require Canadian parts in US auto imports"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-canadian-workers-built-auto-industry-we-wont-let-american-billionaires-strip-it-parts"
+      }
+    ],
+    "id": 152
+  },
+  {
+    "topic": "international-trade",
+    "party": "Bloc",
+    "title": {
+      "EN": "Support Quebec aerospace industry"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/menace-tarifaire-je-choisis-laerospatiale-du-quebec/"
+      }
+    ],
+    "id": 153
+  },
+  {
+    "topic": "international-trade",
+    "party": "Bloc",
+    "title": {
+      "EN": "Maintain digital services tax"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/face-a-face-tva-occasion-manquee-de-defendre-nos-medias-face-a-trump/"
+      }
+    ],
+    "id": 154
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Temporarily defer corporate tax payments"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-carney-says-canada-cannot-rely-on-us-any-longer-and-must-achieve/"
+      }
+    ],
+    "id": 155
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "End capital gains tax increase"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/opinion/editorials/article-which-pierre-poilievre-will-voters-get/"
+      }
+    ],
+    "id": 156
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Increase basic personal tax exemption"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-singh-announce-tax-cuts-1.7493871?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/amid-plunging-polls-these-ndp-voters-are-seriously-considering-mark-carney/article_927b67e7-606e-47a4-bd1a-4796f5f11197.html"
+      }
+    ],
+    "id": 157
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Double Canada Disability Benefit"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-singh-announce-tax-cuts-1.7493871?cmp=rss"
+      }
+    ],
+    "id": 158
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Increase Guaranteed Income Supplement"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-singh-announce-tax-cuts-1.7493871?cmp=rss"
+      }
+    ],
+    "id": 159
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Reinstate capital gains tax changes"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/trump-carney-poilievre-analysis-1.7495490?cmp=rss"
+      }
+    ],
+    "id": 160
+  },
+  {
+    "topic": "economy",
+    "party": "Green",
+    "title": {
+      "EN": "Raise basic personal tax exemption to $40K"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-singh-announce-tax-cuts-1.7493871?cmp=rss"
+      }
+    ],
+    "id": 161
+  },
+  {
+    "topic": "economy",
+    "party": "Bloc",
+    "title": {
+      "EN": "Implement wage subsidy program"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/menace-tarifaire-la-subvention-salariale-de-nouveau-incontournable/"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-trump-auto-tariffs-1.7494829?cmp=rss"
+      }
+    ],
+    "id": 162
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Ban corporate purchases of affordable rentals"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-we-will-stop-corporate-landlords-mark-carneys-brookfield-buying-homes-and-hiking-your"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/ndp-housing-landlord-limits-1.7496836?cmp=rss"
+      }
+    ],
+    "id": 163
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "End federal support for corporate landlords"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-we-will-stop-corporate-landlords-mark-carneys-brookfield-buying-homes-and-hiking-your"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/ndp-housing-landlord-limits-1.7496836?cmp=rss"
+      }
+    ],
+    "id": 164
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Increase Rental Protection Fund"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-we-will-stop-corporate-landlords-mark-carneys-brookfield-buying-homes-and-hiking-your"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/ndp-housing-landlord-limits-1.7496836?cmp=rss"
+      }
+    ],
+    "id": 165
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase defence spending to 2% GDP by 2030"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/donald-trump-may-impose-escalating-tariff-levels-and-canada-could-be-on-the-lower-end/article_fa96e756-6e31-469a-8817-450ea7d25d73.html"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-former-australian-pm-morrison-says-price-of-entry-to-aukus-is-higher/"
+      }
+    ],
+    "id": 166
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase military personnel and provide pay raise"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/justin-trudeau-s-liberals-were-struggling-in-atlantic-canada-under-mark-carney-it-s-a/article_a56567f9-58bd-4a45-8434-c664ceadea4c.html"
+      }
+    ],
+    "id": 167
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "NDP",
+    "title": {
+      "EN": "Increase military spending to 2% GDP by 2032"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/donald-trump-may-impose-escalating-tariff-levels-and-canada-could-be-on-the-lower-end/article_fa96e756-6e31-469a-8817-450ea7d25d73.html"
+      }
+    ],
+    "id": 168
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Maintain existing federal healthcare programs"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-social-programs-1.7493270?cmp=rss"
+      }
+    ],
+    "id": 170
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Impose life sentences for serious crimes"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-will-lock-up-the-worst-criminals-for-life/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-will-lock-up-the-worst-criminals-for-life"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-poilievre-proposes-life-in-prison-for-fentanyl-dealers-human/"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-pressure-mounts-on-poilievre-to-refocus-conservative-campaign-on/"
+      }
+    ],
+    "id": 171
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Conservative",
+    "title": {
+      "EN": "Protect dental and childcare programs"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/top-conservative-strategist-poilievre-lose-1.7495524?cmp=rss"
+      }
+    ],
+    "id": 172
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Increase TFSA limit for Canadian investments"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/top-conservative-strategist-poilievre-lose-1.7495524?cmp=rss"
+      }
+    ],
+    "id": 173
+  },
+  {
+    "topic": "international-trade",
+    "party": "Liberal",
+    "title": {
+      "EN": "Negotiate new economic/security deal with U.S."
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/donald-trump-says-chat-with-mark-carney-went-well-we-agree-on-many-things/article_7aa6e873-be50-4cbc-9bc9-fb45cc6aa3ff.html"
+      }
+    ],
+    "id": 174
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "title": {
+      "EN": "Establish $5B trade/transport infrastructure fund"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/donald-trump-says-chat-with-mark-carney-went-well-we-agree-on-many-things/article_7aa6e873-be50-4cbc-9bc9-fb45cc6aa3ff.html"
+      },
+      {
+        "url": "https://liberal.ca/mark-carneys-liberals-announce-plan-to-diversify-canadian-trade-by-improving-canadas-trade-enabling-infrastructure/"
+      }
+    ],
+    "id": 175
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Tax write-offs for trades workers' travel"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/poilievre-continues-to-attack-liberals-record-pledges-tax-writeoffs/article_ee8de8f9-977f-435e-97f7-580a0641ff27.html"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/singh-poilievre-pitch-affordability-proposals-while-carney-meets-with-volunteers-1.7497043?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal-elections/pierre-poilievre-aligns-with-bloc-qu-b-cois-just-as-jagmeet-singh-says-he-will/article_7395e3ed-e655-4586-9123-d094c1de818a.html"
+      }
+    ],
+    "id": 176
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Eliminate tax write-offs for luxury jets"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/poilievre-continues-to-attack-liberals-record-pledges-tax-writeoffs/article_ee8de8f9-977f-435e-97f7-580a0641ff27.html"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/singh-poilievre-pitch-affordability-proposals-while-carney-meets-with-volunteers-1.7497043?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal-elections/pierre-poilievre-aligns-with-bloc-qu-b-cois-just-as-jagmeet-singh-says-he-will/article_7395e3ed-e655-4586-9123-d094c1de818a.html"
+      }
+    ],
+    "id": 177
+  },
+  {
+    "topic": "civil-rights",
+    "party": "Conservative",
+    "title": {
+      "EN": "Support Quebec's Bill 96 language law"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-aligns-with-bloc-qu-b-cois-just-as-jagmeet-singh-says-he-will/article_7395e3ed-e655-4586-9123-d094c1de818a.html"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal-elections/pierre-poilievre-aligns-with-bloc-qu-b-cois-just-as-jagmeet-singh-says-he-will/article_7395e3ed-e655-4586-9123-d094c1de818a.html"
+      }
+    ],
+    "id": 178
+  },
+  {
+    "topic": "civil-rights",
+    "party": "Liberal",
+    "title": {
+      "EN": "Challenge Quebec's Bill 96 in Supreme Court"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-aligns-with-bloc-qu-b-cois-just-as-jagmeet-singh-says-he-will/article_7395e3ed-e655-4586-9123-d094c1de818a.html"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal-elections/pierre-poilievre-aligns-with-bloc-qu-b-cois-just-as-jagmeet-singh-says-he-will/article_7395e3ed-e655-4586-9123-d094c1de818a.html"
+      }
+    ],
+    "id": 179
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Canada First Reinvestment Tax Cut"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-announces-canada-first-reinvestment-tax-cut/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-announces-canada-first-reinvestment-tax-cut"
+      }
+    ],
+    "id": 180
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Bloc",
+    "title": {
+      "EN": "Increase Old Age Security by 10% (65-74)"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/le-bloc-quebecois-persiste-pour-les-retraites-du-quebec/"
+      }
+    ],
+    "id": 181
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Bloc",
+    "title": {
+      "EN": "Tax credits, automatic tax returns for working seniors (65+)"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/le-bloc-quebecois-persiste-pour-les-retraites-du-quebec/"
+      }
+    ],
+    "id": 182
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "NDP",
+    "title": {
+      "EN": "End violence and ensure humanitarian aid in Gaza and Sudan"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/canadas-new-democrats-wish-you-eid-mubarak"
+      }
+    ],
+    "id": 191
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Expand CMHC mandate for low-interest mortgages to first-time buyers"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-first-time-buyers-well-help-you-buy-home-not-investors-and-speculators"
+      }
+    ],
+    "id": 192
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Bloc",
+    "title": {
+      "EN": "Expand tax credit for seniors aged 60 and over nationwide"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-tax-cut-capital-gains-1.7497404?cmp=rss"
+      }
+    ],
+    "id": 193
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Provide publicly backed low-interest loans for first-time homebuyers"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-tax-cut-capital-gains-1.7497404?cmp=rss"
+      }
+    ],
+    "id": 198
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Build 100,000 rent-controlled homes on federal land by 2035"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/opinion/editorials/article-the-ndps-anti-housing-housing-rhetoric/"
+      }
+    ],
+    "id": 199
+  },
+  {
+    "topic": "international-trade",
+    "party": "Bloc",
+    "title": {
+      "EN": "Demand Quebec's direct participation in USMCA negotiations with Quebec-chosen representatives"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/negociations-avec-donald-trump-le-quebec-doit-parler-de-sa-propre-voix/"
+      }
+    ],
+    "id": 200
+  },
+  {
+    "topic": "international-trade",
+    "party": "Bloc",
+    "title": {
+      "EN": "Support targeted counter-tariffs against the U.S., proportional to US tariffs"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/negociations-avec-donald-trump-le-quebec-doit-parler-de-sa-propre-voix/"
+      }
+    ],
+    "id": 201
+  },
+  {
+    "topic": "international-trade",
+    "party": "Bloc",
+    "title": {
+      "EN": "Implement binding federal Wood Charter to maximize Canadian wood use in domestic construction"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/une-charte-pour-soutenir-notre-bois-doeuvre-sur-le-marche-domestique/"
+      }
+    ],
+    "id": 202
+  },
+  {
+    "topic": "civil-rights",
+    "party": "Bloc",
+    "title": {
+      "EN": "Support Quebec's use of notwithstanding clause in Bill 96 to protect French language rights"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/loi-96-attaquer-la-clause-derogatoire-cest-attaquer-le-quebec/"
+      }
+    ],
+    "id": 203
+  },
+  {
+    "topic": "science",
+    "party": "Bloc",
+    "title": {
+      "EN": "Fund recruitment of American researchers in cutting-edge fields"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/recrutons-les-chercheurs-americains-meprises-par-donald-trump/"
+      }
+    ],
+    "id": 204
+  },
+  {
+    "topic": "education",
+    "party": "Bloc",
+    "title": {
+      "EN": "Support regional universities with targeted funding and international student management"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/recrutons-les-chercheurs-americains-meprises-par-donald-trump/"
+      }
+    ],
+    "id": 205
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Bloc",
+    "title": {
+      "EN": "Double federal funding for public transit over ten years with Quebec project control"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/faisons-travailler-des-quebecois-pour-lavenir-des-transports/"
+      }
+    ],
+    "id": 206
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Bloc",
+    "title": {
+      "EN": "Prioritize local procurement in federal contracts and subsidies"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/faisons-travailler-des-quebecois-pour-lavenir-des-transports/"
+      }
+    ],
+    "id": 207
+  },
+  {
+    "topic": "social-assistance",
+    "party": "NDP",
+    "title": {
+      "EN": "Increase EI benefits, eliminate waiting period, and extend coverage duration"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/poilievre-copies-singhs-gst-promise-fails-commit-ei-changes-protect-workers"
+      }
+    ],
+    "id": 209
+  },
+  {
+    "topic": "social-assistance",
+    "party": "NDP",
+    "title": {
+      "EN": "Raise maximum insurable earnings and EI benefit rate above 55%"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 210
+  },
+  {
+    "topic": "social-assistance",
+    "party": "NDP",
+    "title": {
+      "EN": "Reduce EI qualification threshold to 360 hours and include contractors and self-employed"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 211
+  },
+  {
+    "topic": "social-assistance",
+    "party": "NDP",
+    "title": {
+      "EN": "Expand EI Work-Sharing programs to avoid layoffs"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 212
+  },
+  {
+    "topic": "social-assistance",
+    "party": "NDP",
+    "title": {
+      "EN": "Eliminate one-week waiting period for EI benefits and extend coverage to 50 weeks"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 213
+  },
+  {
+    "topic": "infrastructure",
+    "party": "NDP",
+    "title": {
+      "EN": "Launch infrastructure plan for shovel-ready projects using Canadian materials"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 214
+  },
+  {
+    "topic": "environment",
+    "party": "NDP",
+    "title": {
+      "EN": "Build East-West clean energy grid using Canadian products"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 215
+  },
+  {
+    "topic": "international-trade",
+    "party": "NDP",
+    "title": {
+      "EN": "Ban American companies from federal procurement contracts until Trump removes tariffs"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 216
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Prevent U.S. corporations from stripping assets from Canadian plants after bailouts"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 217
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Ban U.S.-style private health care clinics and corporate takeovers of public services"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 218
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Strengthen Medicare by expanding pharmacare, dental care, and mental health supports"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 219
+  },
+  {
+    "topic": "indigenous-relations",
+    "party": "NDP",
+    "title": {
+      "EN": "Ensure Indigenous and other rights are not sacrificed in trade negotiations"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 220
+  },
+  {
+    "topic": "international-trade",
+    "party": "NDP",
+    "title": {
+      "EN": "Protect essential Canadian industries (e.g. public hydro, critical minerals) from foreign exploitation"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 221
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Ban American corporations from buying Canadian health care facilities"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-public-health-care-ours-and-were-not-giving-it"
+      }
+    ],
+    "id": 222
+  },
+  {
+    "topic": "civil-rights",
+    "party": "NDP",
+    "title": {
+      "EN": "Strengthen gender equality rights"
+    },
+    "references": [
+      {
+        "date": "March 19, 2025",
+        "title": "NDP Women and Gender Equality Critic Leah Gazan calls out Prime Minister Carney for silencing women and gender diverse people",
+        "publisher": "NDP Official Website",
+        "url": "https://www.ndp.ca/news/ndp-women-and-gender-equality-critic-leah-gazan-calls-out-prime-minister-carney-silencing-women"
+      },
+      {
+        "url": "https://www.ndp.ca/news/ndp-statement-international-transgender-day-visibility-0"
+      }
+    ],
+    "id": 223
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Retrofit 3.3 million homes with energy-saving upgrades"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-climate-action-protects-you-trumps-trade-war-and-rising-costs"
+      }
+    ],
+    "id": 224
+  },
+  {
+    "topic": "environment",
+    "party": "NDP",
+    "title": {
+      "EN": "End consumer carbon tax while maintaining industrial carbon price and emissions cap"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-climate-action-protects-you-trumps-trade-war-and-rising-costs"
+      }
+    ],
+    "id": 225
+  },
+  {
+    "topic": "international-trade",
+    "party": "NDP",
+    "title": {
+      "EN": "Introduce border carbon adjustment to protect Canadian industries from overseas polluters"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-climate-action-protects-you-trumps-trade-war-and-rising-costs"
+      }
+    ],
+    "id": 226
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Grant citizenship to eligible 'Lost Canadians'"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-americans-apply-to-revive-canadian-citizenship-to-escape-the-us-under/"
+      }
+    ],
+    "id": 227
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Conservative",
+    "title": {
+      "EN": "Create 'Canada First' National Energy Corridor for critical infrastructure"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-to-create-canada-first-national-energy-corridor/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-to-create-canada-first-national-energy-corridor"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/politics/federal-election/article-poilievre-pledges-national-energy-corridor-to-expedite-pipelines/"
+      }
+    ],
+    "id": 228
+  },
+  {
+    "topic": "international-trade",
+    "party": "Liberal",
+    "title": {
+      "EN": "Promise retaliatory tariffs in response to U.S. levies"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-canada-braces-for-impact-as-donald-trump-readies-fresh-tariffs/"
+      }
+    ],
+    "id": 229
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Eliminate capital gains tax for reinvestments in Canada (2025-2026)"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal-elections/pierre-poilievre-touts-capital-gains-tax-break-in-wake-of-reports-of-internal-party-tension/article_e0b4175f-b555-4f38-bbbb-be79b044d71f.html"
+      }
+    ],
+    "id": 230
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Double Newfoundland and Labrador’s oil and gas production"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-will-unleash-newfoundland-and-labradors-energy/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-will-unleash-newfoundland-and-labradors-energy"
+      }
+    ],
+    "id": 231
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Conservative",
+    "title": {
+      "EN": "Ensure support for individuals with autism"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/statement-from-conservative-leader-pierre-poilievre-on-world-autism-awareness-day/"
+      }
+    ],
+    "id": 232
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "Incentivize value-added processing in Canada to reduce export reliance"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war"
+      }
+    ],
+    "id": 233
+  },
+  {
+    "topic": "environment",
+    "party": "NDP",
+    "title": {
+      "EN": "Eliminate public subsidies and tax breaks for oil and gas companies"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-climate-action-protects-you-trumps-trade-war-and-rising-costs"
+      }
+    ],
+    "id": 234
+  },
+  {
+    "topic": "international-trade",
+    "party": "Conservative",
+    "title": {
+      "EN": "Remove GST on Canadian-made cars during Trump's tariffs"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-to-axe-gst-on-canadian-made-cars-create-keep-canadians-working-fund/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-to-axe-gst-on-canadian-made-cars-create-keep-canadians-working-fund"
+      }
+    ],
+    "id": 235
+  },
+  {
+    "topic": "infrastructure",
+    "party": "NDP",
+    "title": {
+      "EN": "Introduce 'victory bonds' for public infrastructure projects"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-ndp-proposes-victory-bonds-to-counter-impacts-of-tariffs/"
+      }
+    ],
+    "id": 236
+  },
+  {
+    "topic": "immigration",
+    "party": "Conservative",
+    "title": {
+      "EN": "Cap immigration based on housing capacity"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-poilievre-defends-campaign-against-critics-will-continue-to-focus-on/"
+      }
+    ],
+    "id": 237
+  },
+  {
+    "topic": "housing",
+    "party": "Conservative",
+    "title": {
+      "EN": "Build more homes to address shortages"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-poilievre-defends-campaign-against-critics-will-continue-to-focus-on/"
+      }
+    ],
+    "id": 238
+  },
+  {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "Enforce laws against illegal elver poaching"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/illegal-elver-poaching-must-end/"
+      }
+    ],
+    "id": 239
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Tougher sentencing for intimate partner violence"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-pledges-tougher-sentencing-for-intimate-partner-violence/"
+      }
+    ],
+    "id": 240
+  },
+  {
+    "topic": "international-trade",
+    "party": "Bloc",
+    "title": {
+      "EN": "Require parliamentary approval for trade agreements"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/aceum-ouvrons-grand-les-portes-closes-des-negociations-canadiennes/"
+      }
+    ],
+    "id": 241
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Build 3 million homes by 2030"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-ndp-will-build-3-million-homes-2030-and-make-housing-affordable-again"
+      }
+    ],
+    "id": 242
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Implement national rent control"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/ndp-end-landlord-money-grabs-and-bring-national-rent-control"
+      }
+    ],
+    "id": 243
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Guarantee access to a family doctor"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-pledges-federal-action-give-every-canadian-access-family-doctor-2030"
+      }
+    ],
+    "id": 244
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Streamline licensing for international doctors"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-pledges-federal-action-give-every-canadian-access-family-doctor-2030"
+      }
+    ],
+    "id": 245
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Train doctors from northern and rural communities"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-pledges-federal-action-give-every-canadian-access-family-doctor-2030"
+      }
+    ],
+    "id": 246
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Reduce administrative burdens on doctors"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-pledges-federal-action-give-every-canadian-access-family-doctor-2030"
+      }
+    ],
+    "id": 247
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Expand primary care through team-based approach"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-pledges-federal-action-give-every-canadian-access-family-doctor-2030"
+      }
+    ],
+    "id": 248
+  },
+  {
+    "topic": "international-trade",
+    "party": "Conservative",
+    "title": {
+      "EN": "Renegotiate USMCA with U.S."
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-poilievre-trump-relationship-analysis-1.7502289?cmp=rss"
+      }
+    ],
+    "id": 249
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase CBC/Radio-Canada funding by $150M, increase local news coverage"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/mark-carney-cbc-funding-1.7501902?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/mark-carney-promises-150m-funding-boost-for-cbc/article_13c0db60-5669-4a87-ad97-750fa975150e.html"
+      }
+    ],
+    "id": 250
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "Conservative",
+    "title": {
+      "EN": "Defund CBC English-language services"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/mark-carney-cbc-funding-1.7501902?cmp=rss"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/mark-carney-promises-150m-funding-boost-for-cbc/article_13c0db60-5669-4a87-ad97-750fa975150e.html"
+      }
+    ],
+    "id": 253
+  },
+  {
+    "topic": "international-trade",
+    "party": "Liberal",
+    "title": {
+      "EN": "Impose retaliatory tariffs on U.S. vehicles"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/trump-tariffs-u-s-and-canadian-markets-close-after-free-falling-for-second-day-carney/article_1a6b071e-5d6f-4718-9fc1-9fad5fe818b4.html"
+      }
+    ],
+    "id": 254
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Fund drug treatment for 50,000 Canadians"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/experts-endorse-making-recovery-a-reality/"
+      }
+    ],
+    "id": 255
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Delay RRSP withdrawal age by two years"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/conservatives-will-protect-seniors/"
+      }
+    ],
+    "id": 256
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Increase basic personal amount for seniors"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/conservatives-will-protect-seniors/"
+      }
+    ],
+    "id": 257
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Conservative",
+    "title": {
+      "EN": "Maintain retirement age and protect pensions"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/conservatives-will-protect-seniors/"
+      }
+    ],
+    "id": 258
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Conservative",
+    "title": {
+      "EN": "Implement 'One and Done' resource approvals"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-will-bring-in-one-and-done-approvals-accelerate-ten-specific-resource-projects/"
+      }
+    ],
+    "id": 259
+  },
+  {
+    "topic": "indigenous-relations",
+    "party": "Conservative",
+    "title": {
+      "EN": "Establish Indigenous Opportunities Corporation"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/poilievre-will-bring-in-one-and-done-approvals-accelerate-ten-specific-resource-projects/"
+      }
+    ],
+    "id": 260
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "Bloc",
+    "title": {
+      "EN": "Protect digital services tax for culture"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/culture-choisissons-lame-de-la-nation-quebecoise/"
+      }
+    ],
+    "id": 262
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "Bloc",
+    "title": {
+      "EN": "Protect Francophone cultural powers and broadcasting"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/culture-choisissons-lame-de-la-nation-quebecoise/"
+      }
+    ],
+    "id": 263
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "Bloc",
+    "title": {
+      "EN": "Modernize Radio-Canada/CBC"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/culture-choisissons-lame-de-la-nation-quebecoise/"
+      }
+    ],
+    "id": 265
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "Bloc",
+    "title": {
+      "EN": "Modernize copyright law for AI"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/culture-choisissons-lame-de-la-nation-quebecoise/"
+      }
+    ],
+    "id": 267
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "Bloc",
+    "title": {
+      "EN": "Support artists' tax and employment benefits"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/culture-choisissons-lame-de-la-nation-quebecoise/"
+      }
+    ],
+    "id": 268
+  },
+  {
+    "topic": "economy",
+    "party": "Bloc",
+    "title": {
+      "EN": "Equal postal rates for SMEs"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/pme-et-pouvoir-dachat-des-mesures-qui-comptent/"
+      }
+    ],
+    "id": 269
+  },
+  {
+    "topic": "economy",
+    "party": "Bloc",
+    "title": {
+      "EN": "Lower credit card fees for SMEs"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/pme-et-pouvoir-dachat-des-mesures-qui-comptent/"
+      }
+    ],
+    "id": 270
+  },
+  {
+    "topic": "environment",
+    "party": "Bloc",
+    "title": {
+      "EN": "Remove GST on second-hand goods"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/pme-et-pouvoir-dachat-des-mesures-qui-comptent/"
+      }
+    ],
+    "id": 271
+  },
+  {
+    "topic": "arts-and-culture",
+    "party": "Bloc",
+    "title": {
+      "EN": "Remove tax on books"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/pme-et-pouvoir-dachat-des-mesures-qui-comptent/"
+      }
+    ],
+    "id": 272
+  },
+  {
+    "topic": "foreign-policy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Reject boosting trade ties with China, focus on Europe"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-election-watchdog-china-influence-opinion-mark-carney/"
+      }
+    ],
+    "id": 273
+  },
+  {
+    "topic": "government",
+    "party": "Liberal",
+    "title": {
+      "EN": "Utilize AI for efficient government"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/opinion/editorials/article-let-the-real-election-campaign-finally-begin/"
+      }
+    ],
+    "id": 274
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Leverage public investment for private growth"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/opinion/editorials/article-let-the-real-election-campaign-finally-begin/"
+      }
+    ],
+    "id": 275
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Liberal",
+    "title": {
+      "EN": "Reduce RRIF minimum withdrawals, boost GIS for seniors"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-carney-retirees-conservation-liberals-target-ndp-greens/"
+      }
+    ],
+    "id": 276
+  },
+  {
+    "topic": "environment",
+    "party": "Liberal",
+    "title": {
+      "EN": "Create new national parks, free summer access"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-carney-retirees-conservation-liberals-target-ndp-greens/"
+      }
+    ],
+    "id": 277
+  },
+  {
+    "topic": "indigenous-relations",
+    "party": "Liberal",
+    "title": {
+      "EN": "Ensure clean water for First Nations, protect freshwater"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-carney-retirees-conservation-liberals-target-ndp-greens/"
+      }
+    ],
+    "id": 278
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase Guaranteed Income Supplement for seniors"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-liberals-outline-support-for-retirees-poilievre-criticizes-trump-over/"
+      }
+    ],
+    "id": 279
+  },
+  {
+    "topic": "social-assistance",
+    "party": "Conservative",
+    "title": {
+      "EN": "Delay RRSP withdrawal age by two years"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-liberals-outline-support-for-retirees-poilievre-criticizes-trump-over/"
+      }
+    ],
+    "id": 280
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Invest $16B to build 3 million homes by 2030"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-liberals-outline-support-for-retirees-poilievre-criticizes-trump-over/"
+      }
+    ],
+    "id": 281
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Establish $16B Canadian Homes Transfer fund"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-politics-insider-watchdog-detects-chinese-effort-to-shape-canadian/"
+      }
+    ],
+    "id": 282
+  },
+  {
+    "topic": "indigenous-relations",
+    "party": "Conservative",
+    "title": {
+      "EN": "Support Indigenous-led resource projects"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-conservative-pierre-poilievre-resources-approval-announcement/"
+      }
+    ],
+    "id": 283
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Shift from harm reduction to addiction treatment"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-poilievre-takes-aim-at-harm-reduction-vows-to-fund-addiction/"
+      }
+    ],
+    "id": 284
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Invest $1B in addiction treatment"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-poilievre-takes-aim-at-harm-reduction-vows-to-fund-addiction/"
+      }
+    ],
+    "id": 285
+  },
+  {
+    "topic": "economy",
+    "party": "NDP",
+    "title": {
+      "EN": "End tax agreements with tax havens"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-crack-down-tax-havens-1.7504587?cmp=rss"
+      }
+    ],
+    "id": 286
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Crack down on offshore tax havens"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-crack-down-tax-havens-1.7504587?cmp=rss"
+      }
+    ],
+    "id": 287
+  },
+  {
+    "topic": "housing",
+    "party": "Conservative",
+    "title": {
+      "EN": "Mandate 15% annual housing increase"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/conservatives-will-build-homes-for-canadians/"
+      }
+    ],
+    "id": 288
+  },
+  {
+    "topic": "housing",
+    "party": "Conservative",
+    "title": {
+      "EN": "Pre-approve transit-oriented housing"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/conservatives-will-build-homes-for-canadians/"
+      }
+    ],
+    "id": 289
+  },
+  {
+    "topic": "housing",
+    "party": "Conservative",
+    "title": {
+      "EN": "Convert federal buildings to affordable housing"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/conservatives-will-build-homes-for-canadians/"
+      }
+    ],
+    "id": 290
+  },
+  {
+    "topic": "immigration",
+    "party": "Bloc",
+    "title": {
+      "EN": "Equitable distribution of asylum seekers across provinces"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/mark-carney-doit-lancer-la-repartition-equitable-des-demandeurs-dasile/"
+      }
+    ],
+    "id": 291
+  },
+  {
+    "topic": "immigration",
+    "party": "Bloc",
+    "title": {
+      "EN": "Create Ministry of Borders for border security"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/mettons-fin-au-fiasco-federal-aux-frontieres/"
+      }
+    ],
+    "id": 292
+  },
+  {
+    "topic": "immigration",
+    "party": "Bloc",
+    "title": {
+      "EN": "Mandate French for Quebec immigrants' citizenship"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/le-francais-langue-de-la-citoyennete/"
+      }
+    ],
+    "id": 293
+  },
+  {
+    "topic": "government",
+    "party": "Bloc",
+    "title": {
+      "EN": "Exempt Quebec from Official Languages Act"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/quebec-seul-maitre-doeuvre-de-sa-politique-linguistique/"
+      }
+    ],
+    "id": 294
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "NDP",
+    "title": {
+      "EN": "Implement universal pharmacare within four years"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/singh-universal-healthcare-isnt-complete-until-pharmacare-delivered"
+      }
+    ],
+    "id": 295
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Ban foreign homebuyers and close loopholes"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/liberal-candidate-brags-about-driving-housing-prices-singh-responds-crackdown"
+      }
+    ],
+    "id": 296
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Increase anti-flipping tax to 5 years"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/liberal-candidate-brags-about-driving-housing-prices-singh-responds-crackdown"
+      }
+    ],
+    "id": 297
+  },
+  {
+    "topic": "housing",
+    "party": "NDP",
+    "title": {
+      "EN": "Invest in affordable, non-profit housing"
+    },
+    "references": [
+      {
+        "url": "https://www.ndp.ca/news/liberal-candidate-brags-about-driving-housing-prices-singh-responds-crackdown"
+      }
+    ],
+    "id": 298
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Pursue gun buyback program"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-carney-unveils-public-safety-proposals-says-gun-buyback-program-will/"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-carney-unveils-public-safety-proposals-says-gun-buyback-program-will/"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-apologizes-montreal-massacre-survivor-1.7493167?cmp=rss"
+      }
+    ],
+    "id": 299
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Enhance child protection measures online"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss"
+      }
+    ],
+    "id": 301
+  },
+  {
+    "topic": "environment",
+    "party": "Liberal",
+    "title": {
+      "EN": "Repeal entire consumer carbon price"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-who-are-the-people-steering-the-liberal-and-conservative-election/"
+      }
+    ],
+    "id": 302
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "title": {
+      "EN": "Repeal capital gains tax increase"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-who-are-the-people-steering-the-liberal-and-conservative-election/"
+      }
+    ],
+    "id": 303
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Implement 'three strikes' law for repeat offenders"
+    },
+    "references": [
+      {
+        "url": "https://www.conservative.ca/carney-hides-from-liberal-record-of-crime-and-chaos/"
+      }
+    ],
+    "id": 304
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase penalties for non-consensual intimate image distribution"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss"
+      }
+    ],
+    "id": 305
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Criminalize non-consensual sexual deepfakes"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss"
+      }
+    ],
+    "id": 306
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Boost funding for hate crime prevention in vulnerable communities"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss"
+      }
+    ],
+    "id": 307
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Criminalize obstruction of access to places of worship and community centers"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss"
+      }
+    ],
+    "id": 308
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Shift bail burden of proof for repeat offenders"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss"
+      }
+    ],
+    "id": 309
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Expand RCMP and CBSA to combat smuggling and crime"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss"
+      }
+    ],
+    "id": 310
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Increase funding for public prosecution and first responder mental health"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss"
+      }
+    ],
+    "id": 311
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Amend Canada Post Act for drug interdiction"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss"
+      }
+    ],
+    "id": 312
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Create task force to close overseas tax havens"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-ramps-up-his-attacks-on-mark-carney-with-a-little-help-from-stephen/article_4b1beb80-85d8-488b-b868-f79188ceb607.html"
+      }
+    ],
+    "id": 313
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Establish whistleblower incentives for tax dodging"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-ramps-up-his-attacks-on-mark-carney-with-a-little-help-from-stephen/article_4b1beb80-85d8-488b-b868-f79188ceb607.html"
+      }
+    ],
+    "id": 314
+  },
+  {
+    "topic": "housing",
+    "party": "Conservative",
+    "title": {
+      "EN": "Cut municipal taxes on new homes with federal match"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/conservatives-gta-crime-housing-1.7506678?cmp=rss"
+      }
+    ],
+    "id": 315
+  },
+  {
+    "topic": "housing",
+    "party": "Liberal",
+    "title": {
+      "EN": "Create Build Canada Homes for affordable housing financing"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/conservatives-gta-crime-housing-1.7506678?cmp=rss"
+      }
+    ],
+    "id": 316
+  },
+  {
+    "topic": "housing",
+    "party": "Liberal",
+    "title": {
+      "EN": "Provide grants and loans for affordable housing"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/conservatives-gta-crime-housing-1.7506678?cmp=rss"
+      }
+    ],
+    "id": 317
+  },
+  {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "Repeal Oil Tanker Moratorium Act"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/canada/british-columbia/oil-tanker-ban-north-coast-election-ellis-ross-taylor-bachrach-1.7505383?cmp=rss"
+      }
+    ],
+    "id": 318
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Conservative",
+    "title": {
+      "EN": "Create energy corridor and LNG terminal in Saguenay"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/canada/montreal/pipeline-energy-east-west-quebec-federal-election-1.7505714?cmp=rss"
+      }
+    ],
+    "id": 319
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Support right-to-repair legislation for agricultural equipment"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/canada/calgary/jason-jackson-first-person-federal-election-1.7498162?cmp=rss"
+      }
+    ],
+    "id": 320
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "title": {
+      "EN": "Create Major Federal Project Office to expedite approvals"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/canada/calgary/mark-carney-liberals-energy-reviews-oil-gas-calgary-promise-conservative-pierre-poilievre-1.7506199?cmp=rss"
+      }
+    ],
+    "id": 321
+  },
+  {
+    "topic": "infrastructure",
+    "party": "Liberal",
+    "title": {
+      "EN": "Establish First and Last Mile Fund for resource infrastructure"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/canada/calgary/mark-carney-liberals-energy-reviews-oil-gas-calgary-promise-conservative-pierre-poilievre-1.7506199?cmp=rss"
+      }
+    ],
+    "id": 323
+  },
+  {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "Repeal industrial emissions pricing framework"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/liberals-conservatives-carney-poilievre-climate-change-analysis-1.7505872?cmp=rss"
+      }
+    ],
+    "id": 324
+  },
+  {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "Oppose clean fuel regulations"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/liberals-conservatives-carney-poilievre-climate-change-analysis-1.7505872?cmp=rss"
+      }
+    ],
+    "id": 325
+  },
+  {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "Oppose oil and gas emissions cap"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/liberals-conservatives-carney-poilievre-climate-change-analysis-1.7505872?cmp=rss"
+      }
+    ],
+    "id": 326
+  },
+  {
+    "topic": "environment",
+    "party": "Conservative",
+    "title": {
+      "EN": "End industrial carbon tax"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/liberals-conservatives-carney-poilievre-climate-change-analysis-1.7505872?cmp=rss"
+      }
+    ],
+    "id": 327
+  },
+  {
+    "topic": "environment",
+    "party": "Liberal",
+    "title": {
+      "EN": "Replace consumer carbon tax with green incentives"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/liberals-conservatives-carney-poilievre-climate-change-analysis-1.7505872?cmp=rss"
+      }
+    ],
+    "id": 328
+  },
+  {
+    "topic": "environment",
+    "party": "Liberal",
+    "title": {
+      "EN": "Tighten industrial emissions pricing system"
+    },
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/liberals-conservatives-carney-poilievre-climate-change-analysis-1.7505872?cmp=rss"
+      }
+    ],
+    "id": 329
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Buy back assault-style firearms"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html"
+      }
+    ],
+    "id": 330
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Transfer firearm classification to RCMP"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html"
+      }
+    ],
+    "id": 331
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Revoke gun licenses for violent offenders"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html"
+      }
+    ],
+    "id": 332
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Train 1,000 new CBSA officers for border security"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html"
+      }
+    ],
+    "id": 333
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Hire 1,000 additional RCMP officers"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html"
+      }
+    ],
+    "id": 334
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Liberal",
+    "title": {
+      "EN": "Classify hate-motivated murders as first-degree"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html"
+      }
+    ],
+    "id": 335
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Scrap Liberal gun buyback program"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html"
+      }
+    ],
+    "id": 336
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Hire 2,000 new CBSA agents for border security"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html"
+      }
+    ],
+    "id": 337
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Deny bail to repeat offenders and mandate life sentences for serious crimes"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html"
+      }
+    ],
+    "id": 338
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "End exemptions for overdose prevention sites"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/unpacking-pierre-poilievre-plan-to-tackle-opioid-abuse-and-government-funded-drug-dens/article_4e3b2f40-8ab9-4ab5-8667-367c199b89f2.html"
+      }
+    ],
+    "id": 339
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Impose federal standards on supervised consumption sites"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/unpacking-pierre-poilievre-plan-to-tackle-opioid-abuse-and-government-funded-drug-dens/article_4e3b2f40-8ab9-4ab5-8667-367c199b89f2.html"
+      }
+    ],
+    "id": 340
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Ban supervised consumption sites near sensitive areas"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/unpacking-pierre-poilievre-plan-to-tackle-opioid-abuse-and-government-funded-drug-dens/article_4e3b2f40-8ab9-4ab5-8667-367c199b89f2.html"
+      }
+    ],
+    "id": 341
+  },
+  {
+    "topic": "health-and-safety",
+    "party": "Conservative",
+    "title": {
+      "EN": "Invest $1B in addiction treatment"
+    },
+    "references": [
+      {
+        "url": "https://www.thestar.com/politics/federal/unpacking-pierre-poilievre-plan-to-tackle-opioid-abuse-and-government-funded-drug-dens/article_4e3b2f40-8ab9-4ab5-8667-367c199b89f2.html"
+      }
+    ],
+    "id": 342
+  },
+  {
+    "topic": "civil-rights",
+    "party": "Bloc",
+    "title": {
+      "EN": "Study and establish guidelines for public prayer in federal spaces"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/ottawa-doit-encadrer-la-priere-dans-les-lieux-publics-federaux/"
+      }
+    ],
+    "id": 343
+  },
+  {
+    "topic": "civil-rights",
+    "party": "Bloc",
+    "title": {
+      "EN": "Extend Quebec's secularism law (Bill 21) to federal employees in Quebec"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/laicite-la-loi-21-doit-sappliquer-au-federal-en-sol-quebecois/"
+      }
+    ],
+    "id": 344
+  },
+  {
+    "topic": "immigration",
+    "party": "Bloc",
+    "title": {
+      "EN": "Exclude Quebec from Canada's Multiculturalism Act"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/laicite-la-loi-21-doit-sappliquer-au-federal-en-sol-quebecois/"
+      }
+    ],
+    "id": 345
+  },
+  {
+    "topic": "civil-rights",
+    "party": "Bloc",
+    "title": {
+      "EN": "Ensure citizenship ceremonies in Quebec are conducted with faces uncovered, focus on Quebec's values, and are administered in French"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/laicite-la-loi-21-doit-sappliquer-au-federal-en-sol-quebecois/"
+      }
+    ],
+    "id": 346
+  },
+  {
+    "topic": "government",
+    "party": "Bloc",
+    "title": {
+      "EN": "Abolish the position of Canada's Special Representative on Combating Islamophobia"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/laicite-la-loi-21-doit-sappliquer-au-federal-en-sol-quebecois/"
+      }
+    ],
+    "id": 347
+  },
+  {
+    "topic": "government",
+    "party": "Bloc",
+    "title": {
+      "EN": "Replace daily parliamentary prayer with a moment of reflection and eliminate oath of allegiance to the British Crown"
+    },
+    "references": [
+      {
+        "url": "https://www.blocquebecois.org/laicite-la-loi-21-doit-sappliquer-au-federal-en-sol-quebecois/"
+      }
+    ],
+    "id": 348
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Implement 'Canada First Economic Action Plan' to boost GDP by $500 billion"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-singh-urges-voters-to-elect-new-democrats-to-influence-parliament/"
+      }
+    ],
+    "id": 349
+  },
+  {
+    "topic": "government",
+    "party": "Conservative",
+    "title": {
+      "EN": "Propose new program to support independent media"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/canada/article-an-ottawa-valley-towns-local-paper-writes-one-more-chapter-of-history/"
+      }
+    ],
+    "id": 350
+  },
+  {
+    "topic": "environment",
+    "party": "Liberal",
+    "title": {
+      "EN": "Maintain federal carbon charge on gasoline and natural gas"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-east-west-oil-gas-pipeline-canada-election-nanos-poll/"
+      }
+    ],
+    "id": 351
+  },
+  {
+    "topic": "economy",
+    "party": "Conservative",
+    "title": {
+      "EN": "Cut income taxes and provide business liquidity support for tariff impacts"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-east-west-oil-gas-pipeline-canada-election-nanos-poll/"
+      }
+    ],
+    "id": 352
+  },
+  {
+    "topic": "civil-rights",
+    "party": "Conservative",
+    "title": {
+      "EN": "No laws restricting abortion, upholding 2004 policy"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-conservative-government-would-not-pass-law-restricting-abortion/"
+      }
+    ],
+    "id": 354
+  },
+  {
+    "topic": "government",
+    "party": "Liberal",
+    "title": {
+      "EN": "Propose regular classified briefings for opposition leaders on security matters"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-feds-proposing-regular-intelligence-informed-briefings-for-opposition-leaders-memo/"
+      }
+    ],
+    "id": 356
+  },
+  {
+    "topic": "government",
+    "party": "Green",
+    "title": {
+      "EN": "Support regular classified briefings for opposition leaders"
+    },
+    "references": [
+      {
+        "url": "https://www.theglobeandmail.com/politics/article-feds-proposing-regular-intelligence-informed-briefings-for-opposition-leaders-memo/"
+      }
+    ],
+    "id": 357
   }
 ]
