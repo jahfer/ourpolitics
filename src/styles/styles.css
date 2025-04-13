@@ -466,12 +466,12 @@ a {
 }
 
 .banner--info {
-  background: #ecf9d6;
-  border-color:#acd961;
+  background: var(--color-cream-light);
+  border-color: var(--color-cream-darkest);
 }
 
 .banner--info::before {
-  color: var(--color-green);
+  color: var(--color-cream-darkest);
   content: '\f05a';
 }
 
@@ -488,16 +488,8 @@ a {
 }
 
 .banner--content {
-  margin-left: 2rem;
-
-  a {
-    color: #4c7900;
-    border-bottom: 2px solid #b2d080;
-
-    &:hover {
-      border-color: #4c7900;
-    }
-  }
+  margin-left: 1rem;
+  font-size: 1.1rem
 }
 
 .archive-list {

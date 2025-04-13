@@ -29,10 +29,9 @@ export default function PolicyIndex (
             : null
           }
 
-          <Banner type={BannerType.Warning}>
-            {/* <div dangerouslySetInnerHTML={{ __html: t("banner.election_notice") }} /> */}
-            <div dangerouslySetInnerHTML={{ __html: t("banner.work-in-progress") }} />
-          </Banner>
+          {/* <Banner type={BannerType.Info}>
+            <div dangerouslySetInnerHTML={{ __html: t("banner.election_notice") }} />
+          </Banner> */}
           <PolicyComparisonTable year={year} selectedHandle={`${party}/${policyHandle}`} />
         </section>
       </Page>

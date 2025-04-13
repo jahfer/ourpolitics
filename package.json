@@ -2,8 +2,8 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "serve": "vite --host 0.0.0.0",
-    "preview": "vite preview --port 8080 --host 0.0.0.0",
+    "serve": "vite --host 0.0.0.0 --port 8080",
+    "preview": "vite preview --port 8081 --host 0.0.0.0",
     "generate-sitemap": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
