@@ -10,7 +10,7 @@ interface PolicyPointProps {
 }
 
 const policyURL = (policy: Policy.T) =>
-  `/policies/${policy.year}/${Policy.partyToAcronym(policy.party)}/${policy.handle}`;
+  `/policies/${policy.year}/${Policy.partyToAcronym(policy.party)}/${policy.handle || policy.id}`;
 
 export default function PolicyPoint ({ policy }: PolicyPointProps) {
   const { language } = useLanguage();
@@ -23,8 +23,8 @@ export default function PolicyPoint ({ policy }: PolicyPointProps) {
   );
 
   function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
-    const event_name = `policy_${policy.year}_${policy.topic}_${policy.party}_${policy.handle || policy.title[LanguageOption.EN]}`;
-    if (policy.handle) {
+    const event_name = `policy_${policy.year}_${policy.topic}_${policy.party}_${policy.id || policy.handle || policy.title[LanguageOption.EN]}`;
+    if (policy.id || policy.handle) {
       setURL({ policy }, policyURL(policy), {event_name});
     } else {
       setURL({ policy }, undefined, {event_name});

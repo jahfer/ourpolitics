@@ -28,8 +28,8 @@ const mdDirectoryImportPlugin = () => {
         });
 
         const parsedFiles = files.map(file => {
-          const lang = /\.en\.md$/.test(file) ? 'EN' : 'FR';
-          const key = [
+          const lang = /\.fr\.md$/.test(file) ? 'FR' : 'EN';
+          const key = "mddir_" + [
             path.basename(file, ".md"),
             path.basename(file, ".en.md"),
             path.basename(file, ".fr.md"),

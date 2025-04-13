@@ -46,9 +46,9 @@ function generateSitemap() {
 
       // Process each policy
       policies.forEach(policy => {
-        if (policy.handle) {
+        if (policy.handle || policy.id) {
           policyUrls.push({
-            url: `/policies/${year}/${partyToAcronym(policy.party)}/${policy.handle}`,
+            url: `/policies/${year}/${partyToAcronym(policy.party)}/${policy.handle || policy.id}`,
             priority: 0.7
           });
         }

@@ -18,15 +18,7 @@ import { Modal } from 'components/system/modal';
 
 // 2025
 //@ts-ignore
-import { html as liberalPolicies2025 } from 'virtual:mddir:../../policies/2025/lpc/*'
-//@ts-ignore
-import { html as ndpPolicies2025 } from 'virtual:mddir:../../policies/2025/ndp/*'
-//@ts-ignore
-import { html as conservativePolicies2025 } from 'virtual:mddir:../../policies/2025/cpc/*'
-//@ts-ignore
-import { html as greenPolicies2025 } from 'virtual:mddir:../../policies/2025/gpc/*'
-//@ts-ignore
-import { html as blocPolicies2025 } from 'virtual:mddir:../../policies/2025/bq/*'
+import { html as policies2025 } from 'virtual:mddir:../../policies/2025/*'
 
 // 2021
 //@ts-ignore
@@ -47,11 +39,11 @@ import { html as conservativePolicies2015 } from 'virtual:mddir:../../policies/2
 const policies: ((year: number) => Record<keyof typeof Party, Record<string, string>>) = (year) => {
   switch (year) {
     case 2025: return {
-      [Party.Liberal]: liberalPolicies2025,
-      [Party.NDP]: ndpPolicies2025,
-      [Party.Conservative]: conservativePolicies2025,
-      [Party.Green]: greenPolicies2025,
-      [Party.Bloc]: blocPolicies2025,
+      [Party.Liberal]: policies2025,
+      [Party.NDP]: policies2025,
+      [Party.Conservative]: policies2025,
+      [Party.Green]: policies2025,
+      [Party.Bloc]: policies2025,
     }
 
     case 2021: return {
@@ -99,8 +91,8 @@ export default function PolicyModal () {
 
   useLayoutEffect(() => {
     let html = null;
-    if (modalPolicy?.handle) {
-      const handle = `${modalPolicy.handle}_${language}`;
+    if (modalPolicy?.handle || modalPolicy?.id) {
+      const handle = `mddir_${modalPolicy.handle ? modalPolicy.handle : modalPolicy.id}_${language}`;
       html = policies(modalPolicy.year)[modalPolicy.party][handle];
     }
     setContent(html || "")

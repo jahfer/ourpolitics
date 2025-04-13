@@ -29,6 +29,7 @@ function partyHexColour(party: Party) {
     case Party.NDP: return "#F37021";
     case Party.Conservative: return "#1A4782";
     case Party.Green: return "#3d9b35";
+    case Party.Bloc: return "#231e56";
   }
 }
 

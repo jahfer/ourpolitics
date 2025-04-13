@@ -80,8 +80,8 @@ export default function PolicyComparisonTable ({
       let policiesByHandle = new Map<string, Policy.T>();
 
       policies.forEach((policy) => {
-        if (policy.handle) {
-          policiesByHandle.set(`${partyToAcronym(policy.party)}/${policy.handle}`, policy);
+        if (policy.handle || policy.id) {
+          policiesByHandle.set(`${partyToAcronym(policy.party)}/${policy.handle || policy.id}`, policy);
         }
 
         parties.add(policy.party);
