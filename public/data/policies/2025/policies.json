@@ -178,10 +178,16 @@
     },
     "references": [
       {
-        "url": "https://www.ndp.ca/news/reality-check-chrystia-freeland-flip-flops-grocery-price-cap",
-        "title": "Reality Check – Chrystia Freeland Flip-Flops on Grocery Price Cap",
+        "url": "https://www.ndp.ca/news/singh-well-cap-grocery-prices-and-make-food-more-affordable-canadians",
+        "title": "Singh: We’ll cap grocery prices and make food more affordable for Canadians",
         "publisher": "New Democratic Party",
-        "date": "Feb 11, 2025"
+        "date": "Mar 29, 2025"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/singh-poilievre-pitch-affordability-proposals-while-carney-meets-with-volunteers-1.7497043?cmp=rss",
+        "title": "Singh, Poilievre pitch affordability proposals while Carney meets with volunteers",
+        "publisher": "CBC News",
+        "date": "Mar 29, 2025"
       }
     ]
   },
@@ -344,30 +350,6 @@
         "title": "Jagmeet Singh and the NDP will invest in Canadian journalism and CBC/Radio-Canada",
         "publisher": "New Democratic Party",
         "date": "Feb 20, 2025"
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "topic": "arts-and-culture",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "New ministry for Canadian Culture",
-      "FR": "Nouveau ministère de la culture canadienne"
-    },
-    "references": [
-      {
-        "url": "https://www.thestar.com/politics/federal/a-rival-left-out-big-gta-presence-4-takeaways-from-mark-carneys-cabinet/article_db6ab1d6-010c-11f0-8250-e7d68a0c54bc.html",
-        "title": "A rival left out, big GTA presence: 4 takeaways from Mark Carney’s cabinet",
-        "publisher": "Toronto Star",
-        "date": "Mar 14, 2025"
-      },
-      {
-        "url": "https://www.thestar.com/politics/federal/five-things-to-know-about-prime-minister-mark-carneys-new-cabinet/article_65633a69-6595-51f6-a6b5-0bea0951f474.html",
-        "title": "Five things to know about Prime Minister Mark Carney’s new cabinet",
-        "publisher": "Toronto Star",
-        "date": "Mar 14, 2025"
       }
     ]
   },
@@ -1727,8 +1709,8 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Remove GST from Canadian-made cars and trucks, essentials like internet and heating",
-      "FR": "Supprimer la TPS sur les voitures et les camions fabriqués au Canada et sur les produits de première nécessité comme l'Internet et le chauffage."
+      "EN": "Remove GST on essential goods, and Canadian-made cars and trucks",
+      "FR": "Supprimer la TPS sur les produits de première nécessité et sur les voitures et camions fabriqués au Canada"
     },
     "references": [
       {
@@ -1744,10 +1726,10 @@
         "date": "Mar 26, 2025"
       },
       {
-        "url": "https://www.ndp.ca/news/poilievre-copies-singhs-gst-promise-fails-commit-ei-changes-protect-workers",
-        "title": "Poilievre copies Singh’s GST promise but fails to commit to EI changes to protect workers",
-        "publisher": "New Democratic Party",
-        "date": "Apr 3, 2025"
+        "url": "https://www.cbc.ca/news/politics/poilievre-singh-announce-tax-cuts-1.7493871?cmp=rss",
+        "title": "Poilievre, Singh target low-income Canadians with suite of tax cuts",
+        "publisher": "CBC News",
+        "date": "Mar 26, 2025"
       }
     ]
   },
@@ -1766,6 +1748,18 @@
         "title": "Poilievre Will Axe The Tolls For Islanders",
         "publisher": "Conservative Party of Canada",
         "date": "Mar 24, 2025"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/taxes-trade-tariffs-among-key-topics-for-federal-leaders-on-first-full-campaign-day/article_22ca5d29-0695-5329-af1f-cd7310453f46.html",
+        "title": "Taxes, trade, tariffs among key topics for federal leaders on first full campaign day",
+        "publisher": "Toronto Star",
+        "date": "Mar 24, 2025"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/canada/article-pei-throne-speech-focuses-on-strengthening-economy-in-face-of-us/",
+        "title": "P.E.I. throne speech focuses on strengthening economy in face of U.S. tariff threats",
+        "publisher": "The Globe and Mail",
+        "date": "Mar 25, 2025"
       }
     ]
   },
@@ -2260,14 +2254,14 @@
     },
     "references": [
       {
-        "url": "https://www.thestar.com/politics/federal/poilievre-continues-to-attack-liberals-record-pledges-tax-writeoffs/article_ee8de8f9-977f-435e-97f7-580a0641ff27.html",
-        "title": "Pierre Poilievre has the ‘Century Initiative’ and its links to Mark Carney in his crosshairs. So what is it? ",
-        "publisher": "Toronto Star",
-        "date": "Mar 29, 2025"
+        "url": "https://www.conservative.ca/conservatives-will-require-banks-to-recognize-the-skilled-trades/",
+        "title": "Conservatives Will Require Banks To Recognize The Skilled Trades",
+        "publisher": "Conservative Party of Canada",
+        "date": "Apr 11, 2025"
       },
       {
-        "url": "https://www.thestar.com/politics/federal-elections/pierre-poilievre-aligns-with-bloc-qu-b-cois-just-as-jagmeet-singh-says-he-will/article_7395e3ed-e655-4586-9123-d094c1de818a.html",
-        "title": "Pierre Poilievre aligns with Bloc Québécois just as Jagmeet Singh says he ‘will never support’ Conservatives ",
+        "url": "https://www.thestar.com/politics/federal/poilievre-continues-to-attack-liberals-record-pledges-tax-writeoffs/article_ee8de8f9-977f-435e-97f7-580a0641ff27.html",
+        "title": "Pierre Poilievre has the ‘Century Initiative’ and its links to Mark Carney in his crosshairs. So what is it? ",
         "publisher": "Toronto Star",
         "date": "Mar 29, 2025"
       }
@@ -2998,6 +2992,24 @@
     },
     "references": [
       {
+        "url": "https://torontosun.com/news/national/pierre-poilievre-promises-to-defund-the-cbc-after-18-4m-bonus-amount-revealed",
+        "title": "Pierre Poilievre promises to 'defund the CBC' after $18.4M bonus amount revealed",
+        "publisher": "Toronto Sun",
+        "date": "Aug 15, 2024"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/why-pierre-poilievre-has-suddenly-gone-silent-on-defunding-the-cbc/article_5c58ee2c-11ba-4399-a78f-be1130c600a9.html",
+        "title": "Why Pierre Poilievre has suddenly gone silent on defunding the CBC",
+        "publisher": "Toronto Star",
+        "date": "Apr 4, 2025"
+      },
+      {
+        "url": "https://www.junonews.com/p/poilievre-calls-to-depoliticize-news",
+        "title": "Poilievre calls to “depoliticize” news media funding, wants independent media in Parliamentary Press Gallery",
+        "publisher": "Juno News",
+        "date": "Feb 14, 2025"
+      },
+      {
         "url": "https://www.cbc.ca/news/politics/mark-carney-cbc-funding-1.7501902?cmp=rss",
         "title": "Carney pledges $150M boost to 'underfunded' CBC",
         "publisher": "CBC News",
@@ -3074,6 +3086,12 @@
         "title": "Conservatives Will Protect Seniors",
         "publisher": "Conservative Party of Canada",
         "date": "Apr 7, 2025"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-singh-announce-tax-cuts-1.7493871?cmp=rss",
+        "title": "Poilievre, Singh target low-income Canadians with suite of tax cuts",
+        "publisher": "CBC News",
+        "date": "Mar 26, 2025"
       }
     ]
   },
@@ -4130,24 +4148,6 @@
         "url": "https://www.blocquebecois.org/laicite-la-loi-21-doit-sappliquer-au-federal-en-sol-quebecois/",
         "title": "Laïcité : la loi 21 doit s’appliquer au fédéral en sol québécois",
         "publisher": "Bloc Québécois",
-        "date": "Apr 11, 2025"
-      }
-    ]
-  },
-  {
-    "id": 350,
-    "topic": "arts-and-culture",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "New program to support independent media",
-      "FR": "Nouveau programme de soutien aux médias indépendants"
-    },
-    "references": [
-      {
-        "url": "https://www.theglobeandmail.com/canada/article-an-ottawa-valley-towns-local-paper-writes-one-more-chapter-of-history/",
-        "title": "Singh: We Will Stop Corporate Landlords like Mark Carney’s Brookfield from Buying Up Homes and Hiking Your Rent",
-        "publisher": "The Globe and Mail",
         "date": "Apr 11, 2025"
       }
     ]
