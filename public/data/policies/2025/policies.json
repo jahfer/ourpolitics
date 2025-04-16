@@ -29,8 +29,8 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Reduce annual new permanent residents by 50%",
-      "FR": "Réduire de 50 % le nombre annuel de nouveaux résidents permanents"
+      "EN": "Reduce annual new permanent residents by 50%, base on housing construction",
+      "FR": "Réduire de 50 % le nombre annuel de nouveaux résidents permanents, en se basant sur la construction de logements"
     },
     "references": [
       {
@@ -38,6 +38,12 @@
         "title": "EXCLUSIVE: Poilievre suggests capping immigration at Harper-era levels, deportations for wrongdoers",
         "publisher": "Juno News",
         "date": "Feb 13, 2025"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/pbo-report-housing-gap-immigration-1.7384410",
+        "title": "Liberal government's immigration plan will cut housing gap almost in half, report says",
+        "publisher": "CBC News",
+        "date": "Nov 15, 2024"
       }
     ]
   },
@@ -52,22 +58,10 @@
     },
     "references": [
       {
-        "url": "https://www.cbc.ca/news/politics/jagmeet-singh-reacts-trumps-tariffs-canadian-steel-and-aluminum-1.7481228",
-        "title": "Carney transition team met with PMO staff Tuesday, hope for PM swearing-in by Friday",
-        "publisher": "CBC News",
-        "date": "Mar 12, 2025"
-      },
-      {
-        "url": "https://www.thestar.com/politics/federal/trump-tariffs-canada-live/article_280d0976-feb5-11ef-94ab-a393bb21ba46.html",
-        "title": "Trump Tariffs and Canada: U.S. tariffs on steel, aluminum in effect; Canada’s retaliatory levies start Thursday; Carney to become PM Friday",
-        "publisher": "Toronto Star",
-        "date": "Mar 12, 2025"
-      },
-      {
-        "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war",
-        "title": "NDP Leader Jagmeet Singh Announces Plan to Protect Canadian Workers from Trump’s Trade War",
+        "url": "https://www.ndp.ca/news/steel-and-aluminum-tariffs-singh-calls-urgent-worker-supports-and-fightback",
+        "title": "Steel and aluminum tariffs: Singh calls for urgent worker supports and fightback",
         "publisher": "New Democratic Party",
-        "date": "Apr 2, 2025"
+        "date": "Feb 10, 2025"
       }
     ]
   },
@@ -192,24 +186,6 @@
     ]
   },
   {
-    "id": 15,
-    "topic": "civil-rights",
-    "party": "NDP",
-    "year": 2025,
-    "title": {
-      "EN": "Support workers' right to strike",
-      "FR": "Soutenir le droit de grève des travailleurs"
-    },
-    "references": [
-      {
-        "url": "https://www.ndp.ca/news/jagmeet-singh-denounces-caqs-frontal-attack-workers-rights",
-        "title": "Jagmeet Singh denounces the CAQ's frontal attack on workers' rights",
-        "publisher": "New Democratic Party",
-        "date": "Feb 20, 2025"
-      }
-    ]
-  },
-  {
     "id": 16,
     "topic": "health-and-safety",
     "party": "NDP",
@@ -278,42 +254,6 @@
         "title": "Liberal leadership hopeful Mark Carney says he would put a temporary cap on immigration",
         "publisher": "The Globe and Mail",
         "date": "Feb 24, 2025"
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "topic": "housing",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Increase housing incentives, reduce regulations",
-      "FR": "Augmenter les incitations au logement, réduire les réglementations"
-    },
-    "references": [
-      {
-        "url": "https://www.conservative.ca/mark-carneys-fourth-liberal-term-will-be-just-like-justins/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carneys-fourth-liberal-term-will-be-just-like-justins",
-        "title": "Mark Carney’s Fourth Liberal Term Will Be Just Like Justin’s",
-        "publisher": "Conservative Party of Canada",
-        "date": "Mar 14, 2025"
-      },
-      {
-        "url": "https://www.thestar.com/politics/federal/as-federal-election-campaign-kicks-off-sunday-carney-to-seek-seat-in-nepean/article_cc33b7c6-ac66-5a11-a040-45ee10bf9cee.html",
-        "title": "As federal election campaign kicks off Sunday, Carney to seek seat in Nepean",
-        "publisher": "Toronto Star",
-        "date": "Mar 22, 2025"
-      },
-      {
-        "url": "https://www.conservative.ca/canada-first-for-a-change/#utm_source=rss&utm_medium=rss&utm_campaign=canada-first-for-a-change",
-        "title": "Canada First—For A Change",
-        "publisher": "Conservative Party of Canada",
-        "date": "Mar 23, 2025"
-      },
-      {
-        "url": "https://www.theglobeandmail.com/politics/article-economic-uncertainty-top-of-mind-for-voters-as-parties-gear-up-for/",
-        "title": "Economic uncertainty top of mind for voters as parties gear up for monumental federal election",
-        "publisher": "The Globe and Mail",
-        "date": "Mar 23, 2025"
       }
     ]
   },
@@ -414,24 +354,6 @@
     ]
   },
   {
-    "id": 38,
-    "topic": "infrastructure",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Award icebreaker contracts to Canadian shipyards",
-      "FR": "Attribution de contrats de brise-glace à des chantiers navals canadiens"
-    },
-    "references": [
-      {
-        "url": "https://www.thestar.com/politics/federal/ottawa-announces-2nd-domestic-contract-for-polar-icebreaker/article_8ebaa00d-a617-5af5-b4f3-7df4548af8c5.html",
-        "title": "Ottawa announces 2nd domestic contract for polar icebreaker",
-        "publisher": "Toronto Star",
-        "date": "Mar 8, 2025"
-      }
-    ]
-  },
-  {
     "id": 39,
     "topic": "infrastructure",
     "party": "NDP",
@@ -496,22 +418,10 @@
     },
     "references": [
       {
-        "url": "https://www.cbc.ca/news/politics/carney-transition-team-met-pmo-staff-1.7481228?cmp=rss",
-        "title": "Carney transition team met with PMO staff Tuesday, hope for PM swearing-in by Friday",
+        "url": "https://www.cbc.ca/news/politics/liberal-leadership-contender-mark-carney-defence-spending-1.7450718",
+        "title": "Mark Carney commits to 2% NATO defence spending benchmark by 2030",
         "publisher": "CBC News",
-        "date": "Mar 12, 2025"
-      },
-      {
-        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html",
-        "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
-        "publisher": "Toronto Star",
-        "date": "Mar 18, 2025"
-      },
-      {
-        "url": "https://www.cbc.ca/news/politics/national-defence-canada-election-1.7490509",
-        "title": "National defence is often an afterthought in Canadian elections. Not this time",
-        "publisher": "CBC News",
-        "date": "Mar 24, 2025"
+        "date": "Feb 5, 2025"
       }
     ]
   },
@@ -538,18 +448,6 @@
         "date": "Mar 19, 2025"
       },
       {
-        "url": "https://www.thestar.com/politics/federal/carney-announces-plans-to-boost-canadas-military-footprint-in-the-arctic/article_c4b24e52-3f0e-54f6-89a7-1241f062e9ed.html",
-        "title": "Carney announces plans to boost Canada’s military footprint in the Arctic",
-        "publisher": "Toronto Star",
-        "date": "Mar 18, 2025"
-      },
-      {
-        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html",
-        "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
-        "publisher": "Toronto Star",
-        "date": "Mar 18, 2025"
-      },
-      {
         "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html",
         "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
         "publisher": "Toronto Star",
@@ -572,24 +470,6 @@
         "title": "Le Bloc Québécois condamne les opérations du Rwanda en République démocratique du Congo",
         "publisher": "Bloc Québécois",
         "date": "Feb 21st, 2025"
-      }
-    ]
-  },
-  {
-    "id": 49,
-    "topic": "infrastructure",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Develop national trade corridor for energy and minerals",
-      "FR": "Développer un corridor commercial national pour l'énergie et les minéraux"
-    },
-    "references": [
-      {
-        "url": "https://www.nationalobserver.com/2025/02/20/news/carney-carbon-tax-clean-energy-superpower",
-        "title": "Carney shifts carbon price strategy, pledges to make Canada a clean energy superpower",
-        "publisher": "National Observer",
-        "date": "Feb 20, 2025"
       }
     ]
   },
@@ -640,12 +520,6 @@
     },
     "references": [
       {
-        "url": "https://www.ndp.ca/news/ndp-says-liberal-arctic-announcement-ignores-challenges-facing-northerners-0",
-        "title": "NDP says Liberal Arctic announcement ignores challenges facing Northerners",
-        "publisher": "New Democratic Party",
-        "date": "Mar 18, 2025"
-      },
-      {
         "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html",
         "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
         "publisher": "Toronto Star",
@@ -655,7 +529,7 @@
   },
   {
     "id": 57,
-    "topic": "infrastructure",
+    "topic": "housing",
     "party": "Liberal",
     "year": 2025,
     "title": {
@@ -778,10 +652,16 @@
         "date": "Mar 20, 2025"
       },
       {
-        "url": "https://www.theglobeandmail.com/politics/article-politics-insider-lockheed-martin-offers-more-local-jobs-if-ottawa-will/",
-        "title": "Politics Insider: Lockheed Martin offers more local jobs if Ottawa will honour full F-35 contract",
+        "url": "https://www.conservative.ca/poilievre-to-create-canada-first-national-energy-corridor/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-to-create-canada-first-national-energy-corridor",
+        "title": "Poilievre To Create ‘Canada First’ National Energy Corridor\n",
+        "publisher": "Conservative Party of Canada",
+        "date": "Mar 31, 2025"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/politics/federal-election/article-poilievre-pledges-national-energy-corridor-to-expedite-pipelines/",
+        "title": "Carney, Singh announce housing plans; Poilievre pledges to fast track resource projects ",
         "publisher": "The Globe and Mail",
-        "date": "Mar 20, 2025"
+        "date": "Mar 31, 2025"
       }
     ]
   },
@@ -846,37 +726,13 @@
     ]
   },
   {
-    "id": 78,
-    "topic": "foreign-policy",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Provide humanitarian aid to Palestinians in Gaza and West Bank",
-      "FR": "Fournir une aide humanitaire aux Palestiniens de Gaza et de Cisjordanie"
-    },
-    "references": [
-      {
-        "url": "https://www.thestar.com/politics/federal/canada-pledges-nearly-100m-for-palestinians-in-gaza-west-bank/article_274b104b-f99d-53e2-bd6f-4933c9fbe8b5.html",
-        "title": "Canada pledges nearly $100M for Palestinians in Gaza, West Bank",
-        "publisher": "Toronto Star",
-        "date": "Mar 20, 2025"
-      },
-      {
-        "url": "https://www.theglobeandmail.com/politics/article-carney-trump-federal-election-outcome/",
-        "title": "Carney says Trump waiting to see who becomes prime minister before agreeing to talk",
-        "publisher": "The Globe and Mail",
-        "date": "Mar 24, 2025"
-      }
-    ]
-  },
-  {
     "id": 79,
     "topic": "international-trade",
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Strengthen trade and security alliances with France and UK",
-      "FR": "Renforcer les alliances commerciales et sécuritaires avec la France et le Royaume-Uni"
+      "EN": "Strengthen trade and security alliances with Europe",
+      "FR": "Renforcer les alliances commerciales et sécuritaires avec l'Europe"
     },
     "references": [
       {
@@ -884,12 +740,6 @@
         "title": "Mark Carney looking to Europe to boost Canada’s security in shift away from reliance on U.S., sources say",
         "publisher": "Toronto Star",
         "date": "Mar 19, 2025"
-      },
-      {
-        "url": "https://www.thestar.com/politics/federal-elections/prime-minister-mark-carney-expected-to-call-a-federal-election-on-sunday/article_43178843-2f45-50cd-895c-0306d87567e2.html",
-        "title": "Prime Minister Mark Carney expected to call a federal election on Sunday",
-        "publisher": "Toronto Star",
-        "date": "Mar 20, 2025"
       }
     ]
   },
@@ -1144,22 +994,10 @@
     },
     "references": [
       {
-        "url": "https://www.theglobeandmail.com/politics/article-carney-pledges-plan-for-faster-development-of-new-energy/",
-        "title": "Carney pledges plan for faster development of new energy infrastructure",
-        "publisher": "The Globe and Mail",
-        "date": "Mar 20, 2025"
-      },
-      {
         "url": "https://www.thestar.com/politics/mark-carney-says-he-ll-slash-red-tape-to-expedite-major-projects-like-high-speed/article_6f389d37-f119-4c79-a495-1ce7a156befa.html",
         "title": "Mark Carney says he’ll slash red tape to expedite major projects like high speed rail",
         "publisher": "Toronto Star",
         "date": "Mar 21, 2025"
-      },
-      {
-        "url": "https://www.cbc.ca/news/canada/calgary/mark-carney-liberals-energy-reviews-oil-gas-calgary-promise-conservative-pierre-poilievre-1.7506199?cmp=rss",
-        "title": "Carney pledges faster project reviews to make Canada 'energy superpower'",
-        "publisher": "CBC News",
-        "date": "Apr 9, 2025"
       }
     ]
   },
@@ -1178,30 +1016,6 @@
         "title": "Mark Carney says he’ll slash red tape to expedite major projects like high speed rail",
         "publisher": "Toronto Star",
         "date": "Mar 21, 2025"
-      }
-    ]
-  },
-  {
-    "id": 101,
-    "topic": "economy",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Defer corporate income tax and GST/HST payments for businesses impacted by tariffs",
-      "FR": "Report des paiements de l'impôt sur le revenu des sociétés et de la TPS/TVH pour les entreprises touchées par les droits de douane"
-    },
-    "references": [
-      {
-        "url": "https://www.thestar.com/politics/mark-carney-says-he-ll-slash-red-tape-to-expedite-major-projects-like-high-speed/article_6f389d37-f119-4c79-a495-1ce7a156befa.html",
-        "title": "Mark Carney says he’ll slash red tape to expedite major projects like high speed rail",
-        "publisher": "Toronto Star",
-        "date": "Mar 21, 2025"
-      },
-      {
-        "url": "https://www.theglobeandmail.com/politics/article-carney-says-canada-cannot-rely-on-us-any-longer-and-must-achieve/",
-        "title": "Carney says Canada cannot rely on U.S. any longer, must achieve ‘economic autonomy’",
-        "publisher": "The Globe and Mail",
-        "date": "Mar 27, 2025"
       }
     ]
   },
@@ -1252,9 +1066,9 @@
     },
     "references": [
       {
-        "url": "https://www.theglobeandmail.com/politics/article-economic-uncertainty-top-of-mind-for-voters-as-parties-gear-up-for/",
-        "title": "Economic uncertainty top of mind for voters as parties gear up for monumental federal election",
-        "publisher": "The Globe and Mail",
+        "url": "https://liberal.ca/liberals-launch-2025-campaign-with-middle-class-tax-cut/",
+        "title": "Liberals launch 2025 campaign with middle-class tax cut",
+        "publisher": "Liberal Party of Canada",
         "date": "Mar 23, 2025"
       },
       {
@@ -1288,12 +1102,6 @@
     },
     "references": [
       {
-        "url": "https://www.theglobeandmail.com/politics/article-economic-uncertainty-top-of-mind-for-voters-as-parties-gear-up-for/",
-        "title": "Economic uncertainty top of mind for voters as parties gear up for monumental federal election",
-        "publisher": "The Globe and Mail",
-        "date": "Mar 23, 2025"
-      },
-      {
         "url": "https://liberal.ca/liberals-to-protect-canadian-auto-workers-and-stand-up-against-tariffs/",
         "title": "Liberals to protect Canadian auto workers and stand up against tariffs ",
         "publisher": "Liberal Party of Canada",
@@ -1324,12 +1132,6 @@
         "date": "Mar 27, 2025"
       },
       {
-        "url": "https://www.cbc.ca/news/world/trump-auto-tariffs-1.7494185?cmp=rss",
-        "title": "Trump going ahead with 25% tariffs on autos",
-        "publisher": "CBC News",
-        "date": "Mar 26, 2025"
-      },
-      {
         "url": "https://www.cbc.ca/news/politics/carney-auto-sector-trump-tariffs-1.7493714?cmp=rss",
         "title": "Carney promises $2B auto industry fund as Trump hits sector with tariffs",
         "publisher": "CBC News",
@@ -1340,42 +1142,6 @@
         "title": "Mark Carney pitches $2B fund to help auto sector navigate Trump’s tariffs ",
         "publisher": "Toronto Star",
         "date": "Mar 26, 2025"
-      },
-      {
-        "url": "https://www.cbc.ca/news/business/made-in-america-cars-1.7494979?cmp=rss",
-        "title": "Is there such a thing as a Made in America car anymore?",
-        "publisher": "CBC News",
-        "date": "Mar 28, 2025"
-      },
-      {
-        "url": "https://www.cbc.ca/news/politics/trump-carney-poilievre-analysis-1.7495490?cmp=rss",
-        "title": "The reality of Donald Trump crashes into the federal election",
-        "publisher": "CBC News",
-        "date": "Mar 27, 2025"
-      },
-      {
-        "url": "https://www.thestar.com/politics/doug-ford-s-internal-polling-paints-grim-election-prospects-for-pierre-poilievre-in-ontario/article_11f8b5cc-3dec-42f6-9d4d-c342d67bee9d.html",
-        "title": "Doug Ford’s internal polling paints grim election prospects for Pierre Poilievre in Ontario ",
-        "publisher": "Toronto Star",
-        "date": "Mar 27, 2025"
-      },
-      {
-        "url": "https://www.cbc.ca/news/politics/carney-conflict-of-interest-brookfield-blind-trust-1.7493849?cmp=rss",
-        "title": "Carney set up a blind trust, screens to avoid conflicts of interest. Is that enough?",
-        "publisher": "CBC News",
-        "date": "Mar 27, 2025"
-      },
-      {
-        "url": "https://www.cbc.ca/news/canada/ottawa/poilievre-and-carney-vie-for-seats-in-side-by-side-ridings-1.7493670?cmp=rss",
-        "title": "Poilievre and Carney vie for seats in side-by-side ridings",
-        "publisher": "CBC News",
-        "date": "Mar 27, 2025"
-      },
-      {
-        "url": "https://www.cbc.ca/news/canada/london/auto-tariffs-us-canadian-autoworkers-1.7494120?cmp=rss",
-        "title": "Fear and uncertainty for Ontario autoworkers after Trump announces 25% tariff",
-        "publisher": "CBC News",
-        "date": "Mar 27, 2025"
       }
     ]
   },
@@ -1399,24 +1165,6 @@
         "url": "https://www.thestar.com/politics/federal/mark-carney-to-run-in-ottawa-area-riding-as-canadians-get-set-to-vote-april/article_3640eed4-9cec-41bb-9def-1b50b86a3916.html",
         "title": "Mark Carney to run in Ottawa-area riding as Canadians get set to vote April 28 in federal election",
         "publisher": "Toronto Star",
-        "date": "Mar 22, 2025"
-      }
-    ]
-  },
-  {
-    "id": 117,
-    "topic": "infrastructure",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Fund transit projects in Montreal and Quebec City",
-      "FR": "Financer des projets de transport en commun à Montréal et à Québec"
-    },
-    "references": [
-      {
-        "url": "https://www.theglobeandmail.com/politics/article-ottawa-to-provide-more-than-1-billion-in-additional-funds-for-transit/",
-        "title": "Ottawa to provide more than $1-billion in additional funds for Montreal, Quebec City transit projects",
-        "publisher": "The Globe and Mail",
         "date": "Mar 22, 2025"
       }
     ]
@@ -1493,8 +1241,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Balance federal operational budget over 3 years, invest in growth",
-      "FR": "Équilibrer le budget opérationnel fédéral sur trois ans, investir dans la croissance"
+      "EN": "Balance federal operational budget over 3 years",
+      "FR": "Équilibrer le budget opérationnel fédéral sur trois ans"
     },
     "references": [
       {
@@ -1502,30 +1250,6 @@
         "title": "Liberal leadership hopeful Mark Carney says he'd run a deficit to 'invest and grow' Canada's economy",
         "publisher": "CBC News",
         "date": "Feb 16, 2025"
-      }
-    ]
-  },
-  {
-    "id": 129,
-    "topic": "economy",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Reduce regulation, eliminate deficit through spending cuts, balance budget within 5 years",
-      "FR": "Réduire la réglementation, éliminer le déficit en réduisant les dépenses, équilibrer le budget en 5 ans"
-    },
-    "references": [
-      {
-        "url": "https://www.cbc.ca/news/politics/election-federal-carney-poilievre-trump-analysis-1.7491076",
-        "title": "This election is about Donald Trump — and a lot more",
-        "publisher": "CBC News",
-        "date": "Mar 23, 2025"
-      },
-      {
-        "url": "https://www.cbc.ca/news/politics/livestory/canada-election-party-leaders-make-their-pitches-as-snap-campaign-kicks-off-9.6695126?cmp=rss",
-        "title": "Canada election: Party leaders make their pitches as snap campaign kicks off",
-        "publisher": "CBC News",
-        "date": "Mar 23, 2025"
       }
     ]
   },
@@ -1792,59 +1516,16 @@
     },
     "references": [
       {
-        "url": "https://www.thestar.com/politics/donald-trump-slaps-25-per-cent-tariff-on-all-autos-imported-into-the-u-s/article_b18682da-aedc-4796-a991-4899f2d84831.html",
-        "title": "Donald Trump slaps 25 per cent tariff on all autos imported into the U.S. as Mark Carney denounces the move as a ‘direct attack’ on Canada",
-        "publisher": "Toronto Star",
-        "date": "Mar 26, 2025"
-      },
-      null,
-      {
         "url": "https://www.conservative.ca/poilievre-to-axe-gst-on-canadian-made-cars-create-keep-canadians-working-fund/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-to-axe-gst-on-canadian-made-cars-create-keep-canadians-working-fund",
         "title": "Poilievre To Axe GST on Canadian-Made Cars, Create ‘Keep Canadians Working Fund’",
         "publisher": "Conservative Party of Canada",
         "date": "Apr 3, 2025"
-      }
-    ]
-  },
-  {
-    "id": 149,
-    "topic": "international-trade",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Additional annual $5,000 TFSA limit for Canadian investments",
-      "FR": "Plafond annuel supplémentaire de 5 000 $ pour les investissements canadiens dans un CELI"
-    },
-    "references": [
-      {
-        "url": "https://www.conservative.ca/poilievre-announces-canada-first-tfsa-top-up-to-bring-home-investment/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-announces-canada-first-tfsa-top-up-to-bring-home-investment",
-        "title": "Poilievre Announces ‘Canada First TFSA Top Up’ to Bring Home Investment",
-        "publisher": "Conservative Party of Canada",
-        "date": "Mar 27, 2025"
       },
       {
-        "url": "https://www.cbc.ca/news/politics/poilievre-tfsa-hike-1.7494734?cmp=rss",
-        "title": "Poilievre to hike TFSA contribution limit by $5K for those who invest in Canadian companies",
-        "publisher": "CBC News",
-        "date": "Mar 27, 2025"
-      },
-      {
-        "url": "https://www.theglobeandmail.com/investing/personal-finance/article-poilievre-promises-5000-tfsa-top-up-for-investments-in-canadian/",
-        "title": "Poilievre promises $5,000 TFSA top-up for investments in Canadian companies",
-        "publisher": "The Globe and Mail",
-        "date": "Mar 28, 2025"
-      },
-      {
-        "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-poilievres-all-canadian-portfolio-is-good-politics-but-an-iffy/",
-        "title": "Poilievre’s all-Canadian portfolio is good politics, but an iffy investing strategy",
-        "publisher": "The Globe and Mail",
-        "date": "Mar 27, 2025"
-      },
-      {
-        "url": "https://www.cbc.ca/news/politics/trump-carney-poilievre-analysis-1.7495490?cmp=rss",
-        "title": "The reality of Donald Trump crashes into the federal election",
-        "publisher": "CBC News",
-        "date": "Mar 27, 2025"
+        "url": "https://www.thestar.com/politics/donald-trump-slaps-25-per-cent-tariff-on-all-autos-imported-into-the-u-s/article_b18682da-aedc-4796-a991-4899f2d84831.html",
+        "title": "Donald Trump slaps 25 per cent tariff on all autos imported into the U.S. as Mark Carney denounces the move as a ‘direct attack’ on Canada",
+        "publisher": "Toronto Star",
+        "date": "Mar 26, 2025"
       }
     ]
   },
@@ -2109,6 +1790,12 @@
         "title": "Donald Trump may impose escalating tariff levels, and Canada could be on the lower end: sources ",
         "publisher": "Toronto Star",
         "date": "Mar 26, 2025"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/mark-carney-says-canada-will-buy-6-billion-missile-detection-system-to-confront-threats-from/article_0ad77652-040f-11f0-9fcd-9f1a2cf539b2.html",
+        "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
+        "publisher": "Toronto Star",
+        "date": "Mar 18, 2025"
       }
     ]
   },
@@ -2118,8 +1805,8 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Maintain existing federal healthcare programs",
-      "FR": "Maintenir les programmes fédéraux de soins de santé existants"
+      "EN": "Maintain existing federal dental care, child care programs",
+      "FR": "Maintenir les programmes fédéraux existants en matière de soins dentaires et de garde d'enfants"
     },
     "references": [
       {
@@ -2136,8 +1823,8 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Tougher sentencing for serious crime, “three strikes” law for repeat offenders",
-      "FR": "Peines plus sévères pour les crimes graves, loi des trois coups pour les récidivistes"
+      "EN": "Deny bail to repeat offenders, tougher sentencing for serious crime, “three strikes” law for repeat offenders",
+      "FR": "Refuser la libération sous caution aux récidivistes, durcir les peines pour les crimes graves, loi des « trois coups » pour les récidivistes"
     },
     "references": [
       {
@@ -2153,10 +1840,10 @@
         "date": "Mar 28, 2025"
       },
       {
-        "url": "https://www.theglobeandmail.com/politics/article-pressure-mounts-on-poilievre-to-refocus-conservative-campaign-on/",
-        "title": "Pressure mounts on Poilievre to refocus Conservative campaign on Donald Trump",
+        "url": "https://www.theglobeandmail.com/politics/federal-election/article-poilievre-vows-to-clamp-down-on-repeat-offenders-with-new-three/",
+        "title": "Poilievre proposes American three-strikes plan for repeat offenders, reviving a failed Harper proposal",
         "publisher": "The Globe and Mail",
-        "date": "Mar 28, 2025"
+        "date": "Apr 9, 2025"
       },
       {
         "url": "https://www.conservative.ca/poilievre-pledges-tougher-sentencing-for-intimate-partner-violence/",
@@ -2168,6 +1855,12 @@
         "url": "https://www.conservative.ca/carney-hides-from-liberal-record-of-crime-and-chaos/",
         "title": "Carney Hides from Liberal Record of Crime and Chaos",
         "publisher": "Conservative Party of Canada",
+        "date": "Apr 10, 2025"
+      },
+      {
+        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html",
+        "title": "Pierre Poilievre and Mark Carney spar over guns, reveal duelling agendas to curb crime ",
+        "publisher": "Toronto Star",
         "date": "Apr 10, 2025"
       }
     ]
@@ -2181,7 +1874,14 @@
       "EN": "Keep existing dental and childcare programs",
       "FR": "Maintien des programmes existants en matière de soins dentaires et de garde d'enfants"
     },
-    "references": [null]
+    "references": [
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-social-programs-1.7493270?cmp=rss",
+        "title": "Poilievre suggests he would 'protect' dental care, child care programs as PM",
+        "publisher": "CBC News",
+        "date": "Mar 25, 2025"
+      }
+    ]
   },
   {
     "id": 173,
@@ -2189,13 +1889,37 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Increase TFSA limit for Canadian investments",
-      "FR": "Augmentation du plafond du CELI pour les investissements canadiens"
+      "EN": "Increase TFSA limit by $5,000 for Canadian investments",
+      "FR": "Augmentation du plafond du CELI de 5 000 $ pour les investissements canadiens"
     },
     "references": [
       {
-        "url": "https://www.cbc.ca/news/politics/top-conservative-strategist-poilievre-lose-1.7495524?cmp=rss",
-        "title": "Top Conservative strategist says Poilievre needs to urgently pivot or he will lose",
+        "url": "https://www.conservative.ca/poilievre-announces-canada-first-tfsa-top-up-to-bring-home-investment/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-announces-canada-first-tfsa-top-up-to-bring-home-investment",
+        "title": "Poilievre Announces ‘Canada First TFSA Top Up’ to Bring Home Investment",
+        "publisher": "Conservative Party of Canada",
+        "date": "Mar 27, 2025"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-tfsa-hike-1.7494734?cmp=rss",
+        "title": "Poilievre to hike TFSA contribution limit by $5K for those who invest in Canadian companies",
+        "publisher": "CBC News",
+        "date": "Mar 27, 2025"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/investing/personal-finance/article-poilievre-promises-5000-tfsa-top-up-for-investments-in-canadian/",
+        "title": "Poilievre promises $5,000 TFSA top-up for investments in Canadian companies",
+        "publisher": "The Globe and Mail",
+        "date": "Mar 28, 2025"
+      },
+      {
+        "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-poilievres-all-canadian-portfolio-is-good-politics-but-an-iffy/",
+        "title": "Poilievre’s all-Canadian portfolio is good politics, but an iffy investing strategy",
+        "publisher": "The Globe and Mail",
+        "date": "Mar 27, 2025"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/trump-carney-poilievre-analysis-1.7495490?cmp=rss",
+        "title": "The reality of Donald Trump crashes into the federal election",
         "publisher": "CBC News",
         "date": "Mar 27, 2025"
       }
@@ -2335,24 +2059,6 @@
         "url": "https://www.blocquebecois.org/le-bloc-quebecois-persiste-pour-les-retraites-du-quebec/",
         "title": "Le Bloc Québécois persiste pour les retraités du Québec",
         "publisher": "Bloc Québécois",
-        "date": "Mar 30, 2025"
-      }
-    ]
-  },
-  {
-    "id": 191,
-    "topic": "foreign-policy",
-    "party": "NDP",
-    "year": 2025,
-    "title": {
-      "EN": "Provide humanitarian aid in Gaza and Sudan",
-      "FR": "Fournir une aide humanitaire à Gaza et au Soudan"
-    },
-    "references": [
-      {
-        "url": "https://www.ndp.ca/news/canadas-new-democrats-wish-you-eid-mubarak",
-        "title": "Canada’s New Democrats wish you Eid Mubarak!",
-        "publisher": "New Democratic Party",
         "date": "Mar 30, 2025"
       }
     ]
@@ -2567,7 +2273,7 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Invest in ”massive” building plan using Canadian materials, prioritizing Canadian companies",
+      "EN": "Invest in “massive” building plan using Canadian materials, prioritizing Canadian companies",
       "FR": "Investir dans un plan de construction « massif » utilisant des matériaux canadiens, en donnant la priorité aux entreprises canadiennes"
     },
     "references": [
@@ -2620,16 +2326,16 @@
     },
     "references": [
       {
-        "url": "https://www.ndp.ca/news/ndp-commits-stop-corporations-billing-patients-care",
-        "title": "NDP commits to stop corporations from billing patients for care",
-        "publisher": "New Democratic Party",
-        "date": "Feb 24, 2025"
-      },
-      {
         "url": "https://www.ndp.ca/news/ndp-leader-jagmeet-singh-announces-plan-protect-canadian-workers-trumps-trade-war",
         "title": "NDP Leader Jagmeet Singh Announces Plan to Protect Canadian Workers from Trump’s Trade War",
         "publisher": "New Democratic Party",
         "date": "Apr 2, 2025"
+      },
+      {
+        "url": "https://www.ndp.ca/news/ndp-commits-stop-corporations-billing-patients-care",
+        "title": "NDP commits to stop corporations from billing patients for care",
+        "publisher": "New Democratic Party",
+        "date": "Feb 24, 2025"
       }
     ]
   },
@@ -2708,6 +2414,12 @@
         "title": "NDP statement on the International Transgender Day of Visibility",
         "publisher": "New Democratic Party",
         "date": "Mar 31, 2025"
+      },
+      {
+        "url": "https://www.ndp.ca/news/ndp-statement-international-day-elimination-racial-discrimination-2025",
+        "title": "NDP statement on International Day for the Elimination of Racial Discrimination 2025",
+        "publisher": "New Democratic Party",
+        "date": "Mar 21, 2025"
       }
     ]
   },
@@ -2766,30 +2478,6 @@
     ]
   },
   {
-    "id": 228,
-    "topic": "infrastructure",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Fast-track approvals for critical infrastructure across Canada in a pre-approved transport corridor",
-      "FR": "Approbation accélérée des infrastructures critiques à travers le Canada dans un corridor de transport pré-approuvé"
-    },
-    "references": [
-      {
-        "url": "https://www.conservative.ca/poilievre-to-create-canada-first-national-energy-corridor/#utm_source=rss&utm_medium=rss&utm_campaign=poilievre-to-create-canada-first-national-energy-corridor",
-        "title": "Poilievre To Create ‘Canada First’ National Energy Corridor\n",
-        "publisher": "Conservative Party of Canada",
-        "date": "Mar 31, 2025"
-      },
-      {
-        "url": "https://www.theglobeandmail.com/politics/federal-election/article-poilievre-pledges-national-energy-corridor-to-expedite-pipelines/",
-        "title": "Carney, Singh announce housing plans; Poilievre pledges to fast track resource projects ",
-        "publisher": "The Globe and Mail",
-        "date": "Mar 31, 2025"
-      }
-    ]
-  },
-  {
     "id": 230,
     "topic": "economy",
     "party": "Conservative",
@@ -2819,8 +2507,8 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Double Newfoundland and Labrador’s oil and gas production",
-      "FR": "Doubler la production de pétrole et de gaz de Terre-Neuve-et-Labrador"
+      "EN": "Double Newfoundland and Labrador’s oil and gas production, approve LNG Newfoundland and Labrador project",
+      "FR": "Doublement de la production de pétrole et de gaz à Terre-Neuve-et-Labrador, approbation du projet de GNL à Terre-Neuve-et-Labrador"
     },
     "references": [
       {
@@ -2828,24 +2516,6 @@
         "title": "Poilievre Will Unleash Newfoundland and Labrador’s Energy",
         "publisher": "Conservative Party of Canada",
         "date": "Apr 1, 2025"
-      }
-    ]
-  },
-  {
-    "id": 232,
-    "topic": "social-assistance",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Ensure support for individuals with autism",
-      "FR": "Garantir un soutien aux personnes atteintes d'autisme"
-    },
-    "references": [
-      {
-        "url": "https://www.conservative.ca/statement-from-conservative-leader-pierre-poilievre-on-world-autism-awareness-day/",
-        "title": "Statement from Conservative Leader Pierre Poilievre on World Autism Awareness Day",
-        "publisher": "Conservative Party of Canada",
-        "date": "Apr 2, 2025"
       }
     ]
   },
@@ -2873,8 +2543,8 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Introduce “victory bonds” for public infrastructure projects",
-      "FR": "Introduire des « obligations de la victoire » pour les projets d'infrastructure publique"
+      "EN": "Victory bonds to fund public infrastructure projects",
+      "FR": "Obligations de victoire pour financer des projets d'infrastructure publique"
     },
     "references": [
       {
@@ -2882,24 +2552,6 @@
         "title": "NDP proposes victory bonds to counter effects of tariffs",
         "publisher": "The Globe and Mail",
         "date": "Apr 3, 2025"
-      }
-    ]
-  },
-  {
-    "id": 237,
-    "topic": "immigration",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Cap immigration based on housing capacity",
-      "FR": "Plafonner l'immigration en fonction de la capacité de logement"
-    },
-    "references": [
-      {
-        "url": "https://www.theglobeandmail.com/politics/article-poilievre-defends-campaign-against-critics-will-continue-to-focus-on/",
-        "title": "Poilievre defends campaign against critics, will continue to focus on affordability, illegal drugs",
-        "publisher": "The Globe and Mail",
-        "date": "Apr 2, 2025"
       }
     ]
   },
@@ -2945,8 +2597,8 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Guarantee access to a family doctor, expand primary care through team-based approach",
-      "FR": "Garantir l'accès à un médecin de famille, développer les soins primaires grâce à une approche fondée sur le travail d'équipe"
+      "EN": "Guarantee access to a family doctor by 2030",
+      "FR": "Garantir l'accès à un médecin de famille d'ici 2030"
     },
     "references": [
       {
@@ -3369,7 +3021,6 @@
         "publisher": "The Globe and Mail",
         "date": "Apr 7, 2025"
       },
-      null,
       {
         "url": "https://www.theglobeandmail.com/politics/article-liberals-outline-support-for-retirees-poilievre-criticizes-trump-over/",
         "title": "Liberals outline support for retirees, Poilievre criticizes Trump over stock market ‘chaos’ ",
@@ -3462,8 +3113,8 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Convert federal buildings to affordable housing",
-      "FR": "Convertir les bâtiments fédéraux en logements abordables"
+      "EN": "Sell 15% of federal buildings to be turned into affordable housing",
+      "FR": "Vente de 15 % des bâtiments fédéraux pour les transformer en logements abordables"
     },
     "references": [
       {
@@ -3558,8 +3209,8 @@
     "party": "NDP",
     "year": 2025,
     "title": {
-      "EN": "Implement universal pharmacare within four years",
-      "FR": "Mettre en place un régime universel d'assurance-médicaments dans un délai de quatre ans"
+      "EN": "Implement universal pharmacare by 2029",
+      "FR": "Mise en place d'un régime universel d'assurance-médicaments d'ici 2029"
     },
     "references": [
       {
@@ -3621,24 +3272,6 @@
         "title": "Carney announces sweeping plan to crack down on crime, strengthen the border",
         "publisher": "CBC News",
         "date": "Apr 10, 2025"
-      }
-    ]
-  },
-  {
-    "id": 302,
-    "topic": "environment",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Repeal entire consumer carbon price",
-      "FR": "Abrogation de l'ensemble du prix du carbone pour les consommateurs"
-    },
-    "references": [
-      {
-        "url": "https://www.theglobeandmail.com/politics/article-who-are-the-people-steering-the-liberal-and-conservative-election/",
-        "title": "The power company",
-        "publisher": "The Globe and Mail",
-        "date": "Apr 6, 2025"
       }
     ]
   },
@@ -3977,6 +3610,12 @@
     },
     "references": [
       {
+        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss",
+        "title": "Carney announces sweeping plan to crack down on crime, strengthen the border",
+        "publisher": "CBC News",
+        "date": "Apr 10, 2025"
+      },
+      {
         "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html",
         "title": "Pierre Poilievre and Mark Carney spar over guns, reveal duelling agendas to curb crime ",
         "publisher": "Toronto Star",
@@ -4010,24 +3649,6 @@
     "title": {
       "EN": "Hire 2,000 new CBSA agents for border security",
       "FR": "Embauche de 2 000 nouveaux agents de l'ASFC pour la sécurité des frontières"
-    },
-    "references": [
-      {
-        "url": "https://www.thestar.com/politics/federal/pierre-poilievre-and-mark-carney-spar-over-guns-reveal-duelling-agendas-to-curb-crime/article_616be89a-c2cf-4458-9ccc-10967d5660a4.html",
-        "title": "Pierre Poilievre and Mark Carney spar over guns, reveal duelling agendas to curb crime ",
-        "publisher": "Toronto Star",
-        "date": "Apr 10, 2025"
-      }
-    ]
-  },
-  {
-    "id": 338,
-    "topic": "health-and-safety",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Deny bail to repeat offenders and mandate life sentences for serious crimes",
-      "FR": "Refuser la libération sous caution aux récidivistes et imposer des peines d'emprisonnement à perpétuité pour les crimes graves."
     },
     "references": [
       {
@@ -4184,6 +3805,12 @@
         "url": "https://www.theglobeandmail.com/politics/article-conservative-government-would-not-pass-law-restricting-abortion/",
         "title": "Conservative government would not pass law restricting abortion, Poilievre says",
         "publisher": "The Globe and Mail",
+        "date": "Apr 11, 2025"
+      },
+      {
+        "url": "https://globalnews.ca/news/11127562/canada-election-poilievre-abortion/",
+        "title": "Poilievre vows not to pass abortion restrictions if elected prime minister",
+        "publisher": "Global News",
         "date": "Apr 11, 2025"
       }
     ]

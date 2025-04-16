@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useCallback, useState, useEffect } from 'react';
 import { Party } from 'types/schema';
 import { getItem, setItem } from 'data/storage';
+import { shuffle } from 'support/util'
 
 const SELECTED_PARTIES = 'selectedParties';
 const isFrenchCA = navigator.language.startsWith("fr-CA");
@@ -36,7 +37,7 @@ export function SelectedPartiesProvider({ children }: { children: React.ReactNod
       [[] as Party[], [] as Party[]]
     );
     const remainingSlots = 3 - defaultParties.length;
-    return [...defaultParties, ...remainingParties.slice(0, remainingSlots)];
+    return shuffle([...defaultParties, ...remainingParties.slice(0, remainingSlots)]);
   }, [availableParties]);
 
   const [selectedParties, setSelectedParties] = useState<Set<Party>>(new Set(getDefaultSelections()));
