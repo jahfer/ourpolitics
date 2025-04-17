@@ -39,11 +39,11 @@ import { html as conservativePolicies2015 } from 'virtual:mddir:../../policies/2
 const policies: ((year: number) => Record<keyof typeof Party, Record<string, string>>) = (year) => {
   switch (year) {
     case 2025: return {
-      [Party.Liberal]: policies2025,
-      [Party.NDP]: policies2025,
-      [Party.Conservative]: policies2025,
-      [Party.Green]: policies2025,
-      [Party.Bloc]: policies2025,
+      [Party.Liberal]: {},
+      [Party.NDP]: {},
+      [Party.Conservative]: {},
+      [Party.Green]: {},
+      [Party.Bloc]: {},
     }
 
     case 2021: return {
