@@ -404,10 +404,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/BQ/6</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/CPC/8</loc>
     <priority>0.7</priority>
   </url>
@@ -416,19 +412,11 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/BQ/10</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/BQ/11</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/NDP/13</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/NDP/15</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -448,19 +436,11 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/CPC/23</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/BQ/26</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/NDP/31</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/LPC/32</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -473,10 +453,6 @@
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/BQ/37</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/LPC/38</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -501,10 +477,6 @@
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/BQ/46</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/LPC/49</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -548,14 +520,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/LPC/76</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/LPC/78</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/LPC/79</loc>
     <priority>0.7</priority>
   </url>
@@ -584,10 +548,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/BQ/91</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/LPC/94</loc>
     <priority>0.7</priority>
   </url>
@@ -605,10 +565,6 @@
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/LPC/100</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/LPC/101</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -632,10 +588,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/LPC/117</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/LPC/119</loc>
     <priority>0.7</priority>
   </url>
@@ -652,19 +604,11 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/CPC/129</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/CPC/130</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/CPC/131</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/BQ/134</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -701,10 +645,6 @@
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/CPC/148</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/CPC/149</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -804,10 +744,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/NDP/191</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/BQ/193</loc>
     <priority>0.7</priority>
   </url>
@@ -829,10 +765,6 @@
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/BQ/204</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/BQ/205</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -892,10 +824,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/CPC/228</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/CPC/230</loc>
     <priority>0.7</priority>
   </url>
@@ -904,19 +832,11 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/CPC/232</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/NDP/234</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/NDP/236</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/CPC/237</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -960,10 +880,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/BQ/262</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/BQ/265</loc>
     <priority>0.7</priority>
   </url>
@@ -989,10 +905,6 @@
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/LPC/274</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/LPC/275</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1061,10 +973,6 @@
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/LPC/301</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/LPC/302</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1144,10 +1052,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ourpolitics.ca/policies/2025/CPC/338</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ourpolitics.ca/policies/2025/CPC/341</loc>
     <priority>0.7</priority>
   </url>
@@ -1169,14 +1073,6 @@
   </url>
   <url>
     <loc>https://ourpolitics.ca/policies/2025/BQ/348</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/CPC/350</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ourpolitics.ca/policies/2025/CPC/352</loc>
     <priority>0.7</priority>
   </url>
   <url>
