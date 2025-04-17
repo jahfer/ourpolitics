@@ -66,24 +66,6 @@
     ]
   },
   {
-    "id": 6,
-    "topic": "international-trade",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "Protect supply management",
-      "FR": "Protéger la gestion de l'offre"
-    },
-    "references": [
-      {
-        "url": "https://www.blocquebecois.org/crise-tarifaire-et-negociations-a-venir-de-laceum-pas-question-dabandonner-la-gestion-de-loffre/",
-        "title": "Crise tarifaire et négociations à venir de l’ACEUM : Pas question d’abandonner la gestion de l’offre",
-        "publisher": "Bloc Québécois",
-        "date": "Mar 14, 2025"
-      }
-    ]
-  },
-  {
     "id": 8,
     "topic": "government",
     "party": "Conservative",
@@ -122,24 +104,6 @@
         "title": "Poilievre wants to impose 50 per cent metal tariffs on U.S. after latest Trump threat",
         "publisher": "Toronto Star",
         "date": "Mar 11, 2025"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "topic": "government",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "More safeguards around foreign interference",
-      "FR": "Davantage de garanties contre l'ingérence étrangère"
-    },
-    "references": [
-      {
-        "url": "https://www.blocquebecois.org/rapport-de-la-commission-hogue-il-faut-rebatir-la-confiance/",
-        "title": "Rapport de la Commission Hogue : Il faut rebâtir la confiance",
-        "publisher": "Bloc Québécois",
-        "date": "Jan 28, 2025"
       }
     ]
   },
@@ -548,12 +512,6 @@
         "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
         "publisher": "Toronto Star",
         "date": "Mar 18, 2025"
-      },
-      {
-        "url": "https://www.thestar.com/politics/federal/carney-announces-plans-to-boost-canadas-military-footprint-in-the-arctic/article_c4b24e52-3f0e-54f6-89a7-1241f062e9ed.html",
-        "title": "Carney announces plans to boost Canada’s military footprint in the Arctic",
-        "publisher": "Toronto Star",
-        "date": "Mar 18, 2025"
       }
     ]
   },
@@ -698,30 +656,6 @@
         "title": "Translation Bureau to cut a quarter of its workforce over next 5 years",
         "publisher": "CBC News",
         "date": "Mar 20, 2025"
-      }
-    ]
-  },
-  {
-    "id": 76,
-    "topic": "environment",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Keep industrial carbon pricing and emissions cap",
-      "FR": "Maintien de la taxe carbone industrielle et du plafonnement des émissions"
-    },
-    "references": [
-      {
-        "url": "https://www.thestar.com/politics/federal/donald-trump-has-changed-the-election-game-plan-for-mark-carney-and-pierre-poilievre-here/article_2509d69c-6ecf-4d63-b47a-06789c818623.html",
-        "title": "Donald Trump has changed the election game plan for Mark Carney and Pierre Poilievre. Here’s how",
-        "publisher": "Toronto Star",
-        "date": "Mar 20, 2025"
-      },
-      {
-        "url": "https://www.conservative.ca/just-the-facts-mark-carney-opposes-energy-export-projects/#utm_source=rss&utm_medium=rss&utm_campaign=just-the-facts-mark-carney-opposes-energy-export-projects",
-        "title": "Just the Facts: Mark Carney Opposes Energy Export Projects",
-        "publisher": "Conservative Party of Canada",
-        "date": "Mar 21, 2025"
       }
     ]
   },
@@ -876,24 +810,6 @@
     ]
   },
   {
-    "id": 91,
-    "topic": "environment",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "Funds to adapt infrastructure and reduce emissions",
-      "FR": "Fonds pour l'adaptation des infrastructures et la réduction des émissions"
-    },
-    "references": [
-      {
-        "url": "https://www.blocquebecois.org/rapport-de-lirec-sur-limpact-des-changements-climatiques-linaction-climatique-a-un-cout/",
-        "title": "Rapport de l’IRÉC sur l’impact des changements climatiques : L’inaction climatique a un coût",
-        "publisher": "Bloc Québécois",
-        "date": "Mar 21, 2025"
-      }
-    ]
-  },
-  {
     "id": 94,
     "topic": "economy",
     "party": "Liberal",
@@ -947,8 +863,8 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Remove industrial carbon pricing and emissions cap",
-      "FR": "Supprimer la taxe industrielle sur le carbone"
+      "EN": "Remove industrial carbon pricing",
+      "FR": "Supprimer la tarification industrielle du carbone"
     },
     "references": [
       {
@@ -1292,24 +1208,6 @@
         "title": "National defence is often an afterthought in Canadian elections. Not this time",
         "publisher": "CBC News",
         "date": "Mar 24, 2025"
-      }
-    ]
-  },
-  {
-    "id": 134,
-    "topic": "international-trade",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "Protect Quebec's interests in U.S. trade negotiations",
-      "FR": "Protéger les intérêts du Québec dans les négociations commerciales avec les États-Unis"
-    },
-    "references": [
-      {
-        "url": "https://www.thestar.com/politics/federal/donald-trump-looms-large-as-mark-carney-triggers-federal-election-campaign/article_e68a21e9-fbd0-4ecc-80ae-b8dc23d77c6c.html",
-        "title": "Donald Trump looms large as Mark Carney triggers federal election campaign",
-        "publisher": "Toronto Star",
-        "date": "Mar 23, 2025"
       }
     ]
   },
@@ -2069,8 +1967,8 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Expand tax credit for seniors aged 60 and over nationwide",
-      "FR": "Élargissement du crédit d'impôt pour les personnes âgées de 60 ans et plus à l'ensemble du pays"
+      "EN": "Expand tax credit for seniors ages 60+ nationwide",
+      "FR": "Élargir le crédit d'impôt pour les personnes âgées de plus de 60 ans à l'ensemble du pays"
     },
     "references": [
       {
@@ -2167,24 +2065,6 @@
     "title": {
       "EN": "Fund recruitment of American researchers in cutting-edge fields",
       "FR": "Financer le recrutement de chercheurs américains dans des domaines de pointe"
-    },
-    "references": [
-      {
-        "url": "https://www.blocquebecois.org/recrutons-les-chercheurs-americains-meprises-par-donald-trump/",
-        "title": "Recrutons les chercheurs américains méprisés par Donald Trump",
-        "publisher": "Bloc Québécois",
-        "date": "Mar 31, 2025"
-      }
-    ]
-  },
-  {
-    "id": 205,
-    "topic": "education",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "Stronger support for regional universities",
-      "FR": "Soutien renforcé aux universités régionales"
     },
     "references": [
       {
@@ -2784,24 +2664,6 @@
     ]
   },
   {
-    "id": 262,
-    "topic": "arts-and-culture",
-    "party": "Bloc",
-    "year": 2025,
-    "title": {
-      "EN": "Protect digital services tax",
-      "FR": "Protéger la taxe sur les services numériques"
-    },
-    "references": [
-      {
-        "url": "https://www.blocquebecois.org/culture-choisissons-lame-de-la-nation-quebecoise/",
-        "title": "Culture : Choisissons l’âme de la nation québécoise",
-        "publisher": "Bloc Québécois",
-        "date": "Apr 7, 2025"
-      }
-    ]
-  },
-  {
     "id": 265,
     "topic": "arts-and-culture",
     "party": "Bloc",
@@ -2879,8 +2741,8 @@
     "party": "Bloc",
     "year": 2025,
     "title": {
-      "EN": "Remove GST on second-hand goods",
-      "FR": "Suppression de la TPS sur les produits d'occasion"
+      "EN": "Remove GST on second-hand goods and repairs",
+      "FR": "Suppression de la TPS sur les biens d'occasion et les réparations"
     },
     "references": [
       {
@@ -2917,24 +2779,6 @@
     "title": {
       "EN": "Use AI to improve government efficiency",
       "FR": "Utiliser l'IA pour améliorer l'efficacité des pouvoirs publics"
-    },
-    "references": [
-      {
-        "url": "https://www.theglobeandmail.com/opinion/editorials/article-let-the-real-election-campaign-finally-begin/",
-        "title": "Let the real election campaign finally begin",
-        "publisher": "The Globe and Mail",
-        "date": "Apr 8, 2025"
-      }
-    ]
-  },
-  {
-    "id": 275,
-    "topic": "economy",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Leverage public investment for private growth",
-      "FR": "Tirer parti de l'investissement public pour favoriser la croissance privée"
     },
     "references": [
       {
@@ -3016,14 +2860,14 @@
     },
     "references": [
       {
-        "url": "https://www.theglobeandmail.com/politics/article-politics-insider-watchdog-detects-chinese-effort-to-shape-canadian/",
-        "title": "Politics Insider: Watchdog detects Chinese effort to shape Canadian opinion of Carney",
-        "publisher": "The Globe and Mail",
+        "url": "https://www.ndp.ca/news/singh-ndp-will-build-3-million-homes-2030-and-make-housing-affordable-again",
+        "title": "Singh: NDP Will Build 3 Million Homes by 2030—and Make Housing Affordable Again",
+        "publisher": "New Democratic Party",
         "date": "Apr 7, 2025"
       },
       {
-        "url": "https://www.theglobeandmail.com/politics/article-liberals-outline-support-for-retirees-poilievre-criticizes-trump-over/",
-        "title": "Liberals outline support for retirees, Poilievre criticizes Trump over stock market ‘chaos’ ",
+        "url": "https://www.theglobeandmail.com/politics/federal-election/article-jagmeet-singh-says-he-has-no-regrets-about-ndps-supply-and-confidence/",
+        "title": "Jagmeet Singh says he has no regrets about NDP’s supply and confidence deal with Liberals ",
         "publisher": "The Globe and Mail",
         "date": "Apr 7, 2025"
       }
@@ -3389,8 +3233,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Amend Canada Post Act for drug interdiction",
-      "FR": "Modifier la loi sur la poste canadienne pour lutter contre la drogue"
+      "EN": "Amend Canada Post Corporation Act for drug interdiction",
+      "FR": "Modifier la loi sur la Société canadienne des postes pour lutter contre la drogue"
     },
     "references": [
       {
@@ -3407,8 +3251,8 @@
     "party": "Conservative",
     "year": 2025,
     "title": {
-      "EN": "Establish whistleblower incentives, create task force to close overseas tax havens",
-      "FR": "Mise en place d'incitations pour les dénonciateurs, création d'un groupe de travail pour fermer les paradis fiscaux à l'étranger"
+      "EN": "Whistleblower incentives, task force to close overseas tax havens",
+      "FR": "Incitations pour les dénonciateurs, groupe de travail pour fermer les paradis fiscaux à l'étranger"
     },
     "references": [
       {
@@ -3769,24 +3613,6 @@
         "url": "https://www.blocquebecois.org/laicite-la-loi-21-doit-sappliquer-au-federal-en-sol-quebecois/",
         "title": "Laïcité : la loi 21 doit s’appliquer au fédéral en sol québécois",
         "publisher": "Bloc Québécois",
-        "date": "Apr 11, 2025"
-      }
-    ]
-  },
-  {
-    "id": 352,
-    "topic": "economy",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Business-liquidity support program for tariff impacts",
-      "FR": "Programme de soutien aux liquidités des entreprises en cas d'impact tarifaire"
-    },
-    "references": [
-      {
-        "url": "https://www.theglobeandmail.com/politics/article-east-west-oil-gas-pipeline-canada-election-nanos-poll/",
-        "title": "Majority of Canadians support construction of East-West oil and gas pipeline, poll finds",
-        "publisher": "The Globe and Mail",
         "date": "Apr 11, 2025"
       }
     ]
