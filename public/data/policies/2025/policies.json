@@ -792,24 +792,6 @@
     ]
   },
   {
-    "id": 90,
-    "topic": "government",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Re-establish a Minister of Labour",
-      "FR": "Rétablir un ministre du travail"
-    },
-    "references": [
-      {
-        "url": "https://www.conservative.ca/mark-carney-union-buster/#utm_source=rss&utm_medium=rss&utm_campaign=mark-carney-union-buster",
-        "title": "Mark Carney: “Union Buster”",
-        "publisher": "Conservative Party of Canada",
-        "date": "Mar 21, 2025"
-      }
-    ]
-  },
-  {
     "id": 94,
     "topic": "economy",
     "party": "Liberal",
@@ -1206,6 +1188,12 @@
       {
         "url": "https://www.cbc.ca/news/politics/national-defence-canada-election-1.7490509",
         "title": "National defence is often an afterthought in Canadian elections. Not this time",
+        "publisher": "CBC News",
+        "date": "Mar 24, 2025"
+      },
+      {
+        "url": "https://www.cbc.ca/news/politics/poilievre-conservative-tax-cut-1.7491457?cmp=rss",
+        "title": "Poilievre pledges $14B annual income tax cut, saving average worker $900 a year",
         "publisher": "CBC News",
         "date": "Mar 24, 2025"
       }
