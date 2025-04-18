@@ -18,7 +18,10 @@ export default function Page ({title, children, className = "", showHeader = tru
 
   return (
     <div className={`page lang-${language}`}>
-      <title>{`${title} — ${t('our_politics')}`}</title>
+      { title ?
+        <title>{`${title} — ${t('our_politics')}`}</title> :
+        <title>{`2025 — ${t('our_politics')}`}</title>
+      }
       <SettingsPanel />
       <main className="page-content flex flex-col">
         {
