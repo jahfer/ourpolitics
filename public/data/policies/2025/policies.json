@@ -5,8 +5,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Cap immigration temporarily",
-      "FR": "Limiter temporairement l'immigration"
+      "EN": "Reduce immigration, focus on talent and francophones",
+      "FR": "Réduire l'immigration, se concentrer sur les talents et les francophones"
     },
     "references": [
       {
@@ -20,6 +20,12 @@
         "title": "Economic uncertainty top of mind for voters as parties gear up for monumental federal election",
         "publisher": "The Globe and Mail",
         "date": "Mar 23, 2025"
+      },
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
       }
     ]
   },
@@ -377,8 +383,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Increase military spending to 2% GDP by 2030",
-      "FR": "Atteindre l'objectif de dépenses de l'OTAN d'ici 2030"
+      "EN": "Exceed NATO target for military spending of 2% GDP before 2030",
+      "FR": "Dépasser l'objectif de l'OTAN de 2 % du PIB pour les dépenses militaires avant 2030"
     },
     "references": [
       {
@@ -386,6 +392,12 @@
         "title": "Mark Carney commits to 2% NATO defence spending benchmark by 2030",
         "publisher": "CBC News",
         "date": "Feb 5, 2025"
+      },
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
       }
     ]
   },
@@ -629,8 +641,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Eliminate GST for first-time homebuyers on new or substantially renovated homes under $1 million",
-      "FR": "Élimination de la TPS pour les acheteurs d'un premier logement sur les logements neufs ou ayant fait l'objet de rénovations importantes d'une valeur inférieure à 1 million de dollars"
+      "EN": "Cut GST for first-time homebuyers on homes up to $1.5 million",
+      "FR": "Réduction de la TPS pour les acheteurs d'un premier logement jusqu'à 1,5 million de dollars"
     },
     "references": [
       {
@@ -638,6 +650,12 @@
         "title": "Carney says he'll work with oil and gas industry, says he opposes 'preset caps'",
         "publisher": "CBC News",
         "date": "Mar 20, 2025"
+      },
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
       }
     ]
   },
@@ -923,8 +941,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Support high-speed rail project from Toronto to Québec City",
-      "FR": "Soutenir le projet de train à grande vitesse entre Toronto et Québec"
+      "EN": "Expand high-speed rail project from Windsor to Québec City",
+      "FR": "Extension du projet de train à grande vitesse entre Windsor et Québec"
     },
     "references": [
       {
@@ -932,6 +950,12 @@
         "title": "Head of Canada’s high speed rail project wants it to run into downtown Toronto",
         "publisher": "Toronto Star",
         "date": "Mar 21, 2025"
+      },
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
       }
     ]
   },
@@ -995,8 +1019,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Support targeted counter-tariffs against the U.S., establish $2 billion strategic response fund for auto sector",
-      "FR": "Mettre en place des tarifs douaniers stratégiques contre les États-Unis"
+      "EN": "Targeted counter-tariffs against the U.S., support auto sector with $2 billion Strategic Response Fund",
+      "FR": "Contre-tarifs ciblés contre les États-Unis, soutien au secteur automobile grâce à un fonds de réponse stratégique de 2 milliards de dollars"
     },
     "references": [
       {
@@ -1073,8 +1097,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Continue funding Jordan’s Principle through 2026",
-      "FR": "Poursuite du financement du principe de Jordan jusqu'en 2026"
+      "EN": "Uphold Jordan’s Principle and reform indigenous child welfare",
+      "FR": "Respecter le principe de Jordan et réformer la protection de l'enfance autochtone"
     },
     "references": [
       {
@@ -1082,6 +1106,12 @@
         "title": "As federal election campaign kicks off Sunday, Carney to seek seat in Nepean",
         "publisher": "Toronto Star",
         "date": "Mar 22, 2025"
+      },
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
       }
     ]
   },
@@ -1109,8 +1139,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Eliminate federal interprovincial trade barriers by Canada Day",
-      "FR": "Éliminer les barrières commerciales fédérales interprovinciales d'ici à la fête du Canada"
+      "EN": "Eliminate internal trade barriers, recognize credentials across Canada",
+      "FR": "Éliminer les barrières commerciales internes, reconnaître les diplômes dans tout le Canada"
     },
     "references": [
       {
@@ -1130,6 +1160,12 @@
         "title": "Federal election campaign begins, with leaders pitching themselves as best option amid trade tensions",
         "publisher": "The Globe and Mail",
         "date": "Mar 23, 2025"
+      },
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
       }
     ]
   },
@@ -1649,8 +1685,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Increase military personnel and provide pay raise",
-      "FR": "Augmentation du personnel militaire et augmentation des salaires"
+      "EN": "Increase military personnel with better pay, support, and recruitment",
+      "FR": "Augmenter le personnel militaire en améliorant les salaires, le soutien et le recrutement"
     },
     "references": [
       {
@@ -1835,8 +1871,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Establish $5 billion trade and transportation infrastructure fund to reduce reliance on the U.S.",
-      "FR": "Création d'un fonds de 5 milliards de dollars pour les infrastructures commerciales et de transport afin de réduire la dépendance à l'égard des États-Unis"
+      "EN": "Invest $5 billion in trade corridors and transportation infrastructure",
+      "FR": "Investir 5 milliards de dollars dans les corridors commerciaux et les infrastructures de transport"
     },
     "references": [
       {
@@ -1850,6 +1886,12 @@
         "title": "Mark Carney’s Liberals announce plan to diversify Canadian trade by improving Canada’s trade enabling infrastructure ",
         "publisher": "Liberal Party of Canada",
         "date": "Mar 28, 2025"
+      },
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
       }
     ]
   },
@@ -2774,6 +2816,12 @@
         "title": "Carney pledges help for retirees, more conservation efforts as Liberals target NDP, Green ridings",
         "publisher": "The Globe and Mail",
         "date": "Apr 7, 2025"
+      },
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
       }
     ]
   },
@@ -3113,26 +3161,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Boost funding for hate crime prevention in vulnerable communities",
-      "FR": "Accroître le financement de la prévention des crimes de haine dans les communautés vulnérables"
-    },
-    "references": [
-      {
-        "url": "https://www.cbc.ca/news/politics/carney-plan-border-rcmp-bail-1.7507110?cmp=rss",
-        "title": "Carney announces sweeping plan to crack down on crime, strengthen the border",
-        "publisher": "CBC News",
-        "date": "Apr 10, 2025"
-      }
-    ]
-  },
-  {
-    "id": 308,
-    "topic": "health-and-safety",
-    "party": "Liberal",
-    "year": 2025,
-    "title": {
-      "EN": "Criminalize obstruction of access to places of worship and community centers",
-      "FR": "Criminaliser l'obstruction à l'accès aux lieux de culte et aux centres communautaires"
+      "EN": "Protect vulnerable communities with additional funding for hate crime prevention",
+      "FR": "Protéger les communautés vulnérables grâce à un financement supplémentaire pour la prévention des crimes de haine"
     },
     "references": [
       {
@@ -3149,8 +3179,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Shift bail burden-of-proof for repeat offenders",
-      "FR": "Shift bail burden-of-proof for repeat offenders"
+      "EN": "Make bail more difficult for specific crimes, repeat offenders by reversing burden-of-proof",
+      "FR": "Rendre la libération sous caution plus difficile pour certains délits et pour les récidivistes en inversant la charge de la preuve"
     },
     "references": [
       {
@@ -3158,6 +3188,12 @@
         "title": "Carney announces sweeping plan to crack down on crime, strengthen the border",
         "publisher": "CBC News",
         "date": "Apr 10, 2025"
+      },
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
       }
     ]
   },
@@ -3341,8 +3377,8 @@
     "party": "Liberal",
     "year": 2025,
     "title": {
-      "EN": "Buy back assault-style firearms, transfer firearm classification to RCMP, revoke gun licenses for violent offenders",
-      "FR": "Racheter les armes à feu de type assaut, transférer la classification des armes à feu à la GRC, révoquer les permis de port d'arme pour les délinquants violents."
+      "EN": "Strengthen gun control through buyback program, transfer gun classification to RCMP",
+      "FR": "Renforcer le contrôle des armes à feu par le biais d'un programme de rachat, transférer la classification des armes à feu à la GRC"
     },
     "references": [
       {
@@ -3628,5 +3664,311 @@
         "date": "Apr 4, 2025"
       }
     ]
+  },
+  {
+    "topic": "environment",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Protect 30% of Canada's lands and waters by 2030",
+      "FR": "Protéger 30 % des terres et des eaux du Canada d'ici 2030"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 359
+  },
+  {
+    "topic": "government",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Establish Office of Digital Transformation to identify, implement, and scale technology solutions",
+      "FR": "Mettre en place un bureau de la transformation numérique pour identifier, mettre en œuvre et faire évoluer les solutions technologiques."
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 360
+  },
+  {
+    "topic": "government",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Promote “Buy Canadian” through procurement and labelling",
+      "FR": "Promouvoir le concept « Acheter canadien » par le biais de l'approvisionnement et de l'étiquetage"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 361
+  },
+  {
+    "topic": "government",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Improve support and services for veterans",
+      "FR": "Améliorer le soutien et les services aux vétérans"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 362
+  },
+  {
+    "topic": "science",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Establish the Bureau of Research, Engineering and Advanced Leadership in Science (BOREALIS)",
+      "FR": "Créer le Bureau de la recherche, de l'ingénierie et de la formation avancée en sciences"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 363
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Boost adoption of AI technology by providing an AI deployment tax credit",
+      "FR": "Stimuler l'adoption de la technologie de l'IA en offrant un crédit d'impôt pour le déploiement de l'IA"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 364
+  },
+  {
+    "topic": "youth_child-care",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Make the National School Food Program permanent",
+      "FR": "Élargir l'éligibilité à la retraite anticipée pour les travailleurs de première ligne"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 365
+  },
+  {
+    "topic": "youth_child-care",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Create 100,000 new child-care spaces by 2031",
+      "FR": "Créer 100 000 nouvelles places de garde d'enfants d'ici 2031"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 366
+  },
+  {
+    "topic": "youth_child-care",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Protect the Canada Child Benefit",
+      "FR": "Protéger la prestation canadienne pour enfants"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 367
+  },
+  {
+    "topic": "youth_child-care",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Provide funding for Student Work Placement Program, the Youth Employment and Skills Strategy (YESS), Canada Summer Jobs, Canadian Service Corps",
+      "FR": "Financement du programme de placement professionnel des étudiants, de la stratégie pour l'emploi et les compétences des jeunes (SEPC), des emplois d'été au Canada et du corps de service canadien"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 368
+  },
+  {
+    "topic": "civil-rights",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Develop a Disability Justice Framework to address biases and systemic discrimination against people with disabilities in the justice system",
+      "FR": "Élaborer un cadre de justice pour les personnes handicapées afin de lutter contre les préjugés et la discrimination systémique à l'encontre des personnes handicapées dans le système judiciaire"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 369
+  },
+  {
+    "topic": "indigenous-relations",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Continue progress on the Truth and Reconciliation Commission’s Calls to Action, National Inquiry into Missing and Murdered Indigenous Women and Girls Calls for Justice and the National Action Plan",
+      "FR": "Poursuivre les progrès concernant les appels à l'action de la Commission vérité et réconciliation, les appels à la justice de l'enquête nationale sur les femmes et les filles autochtones disparues et assassinées et le plan d'action national"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 370
+  },
+  {
+    "topic": "indigenous-relations",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Implement the United Nations Declaration on the Rights of Indigenous Peoples Act",
+      "FR": "Mise en œuvre de la loi sur la déclaration des Nations unies sur les droits des peuples autochtones"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 371
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Introduce automatic tax filing for all Canadians, starting with low-income households and seniors",
+      "FR": "Introduire la déclaration automatique des revenus pour tous les Canadiens, en commençant par les ménages à faibles revenus et les personnes âgées"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 372
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Encourage Canadian innovation to stay in Canada by introducing a patent box to reward companies who locate or stay in Canada",
+      "FR": "Encourager l'innovation canadienne à rester au Canada en introduisant une « patent box » pour récompenser les entreprises qui s'installent ou restent au Canada"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 373
+  },
+  {
+    "topic": "economy",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Make the Black Entrepreneurship Program permanent",
+      "FR": "Rendre permanent le programme d'entrepreneuriat noir"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 374
+  },
+  {
+    "topic": "science",
+    "party": "Liberal",
+    "year": 2025,
+    "title": {
+      "EN": "Attract international researchers by introducing a Canadian Sovereignty and Resilience Research Fund",
+      "FR": "Attirer des chercheurs internationaux en créant un Fonds canadien de recherche sur la souveraineté et la résilience"
+    },
+    "references": [
+      {
+        "url": "https://liberal.ca/wp-content/uploads/sites/292/2025/04/Canada-Strong.pdf",
+        "title": "Canada Strong",
+        "publisher": "Liberal Party of Canada",
+        "date": "Apr 19, 2025"
+      }
+    ],
+    "id": 375
   }
 ]
