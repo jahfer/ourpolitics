@@ -58,6 +58,7 @@
     "topic": "international-trade",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Support targeted, dollar-for-dollar counter-tariffs against the U.S.",
       "FR": "Droits de douane de rétorsion à raison d'un dollar pour un dollar"
@@ -268,6 +269,7 @@
     "topic": "youth_child-care",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Better wages for childcare workers",
       "FR": "De meilleurs salaires pour les travailleurs de la petite enfance"
@@ -286,6 +288,7 @@
     "topic": "infrastructure",
     "party": "NDP",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Support high-speed rail project from Toronto to Québec City",
       "FR": "Soutenir le projet de train à grande vitesse entre Toronto et Québec"
@@ -382,6 +385,7 @@
     "topic": "foreign-policy",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Exceed NATO target for military spending of 2% GDP before 2030",
       "FR": "Dépasser l'objectif de l'OTAN de 2 % du PIB pour les dépenses militaires avant 2030"
@@ -406,6 +410,7 @@
     "topic": "foreign-policy",
     "party": "Liberal",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Reconsider purchase of F-35 fighter jets from USA",
       "FR": "Reconsidérer l'achat d'avions de combat F-35 aux États-Unis"
@@ -454,6 +459,7 @@
     "topic": "infrastructure",
     "party": "Conservative",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Commit $1 billion to co-fund roads, approve “Ring of Fire” northern Ontario mining permits within 6 months",
       "FR": "Engager 1 milliard de dollars pour cofinancer les routes, approuver les permis d'exploitation minière du « Cercle de feu » dans le nord de l'Ontario dans un délai de 6 mois"
@@ -490,6 +496,7 @@
     "topic": "foreign-policy",
     "party": "NDP",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Cancel F-35 fighter jet contract with USA, build jets in Canada",
       "FR": "Annulation du contrat relatif aux avions de combat F-35 conclu avec les États-Unis et construction d'avions au Canada"
@@ -640,6 +647,7 @@
     "topic": "housing",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Cut GST for first-time homebuyers on homes up to $1.5 million",
       "FR": "Réduction de la TPS pour les acheteurs d'un premier logement jusqu'à 1,5 million de dollars"
@@ -736,6 +744,7 @@
     "topic": "social-assistance",
     "party": "Conservative",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Create rapid EI payouts for skilled tradespeople during training",
       "FR": "Créer des versements rapides de l'assurance-emploi pour les personnes de métier qualifiées pendant leur formation"
@@ -814,6 +823,7 @@
     "topic": "economy",
     "party": "Liberal",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Raise capital gains lifetime exemption to $1.25 million",
       "FR": "Annulation de l'augmentation de l'impôt sur les plus-values et relèvement de l'exonération cumulative"
@@ -862,6 +872,7 @@
     "topic": "environment",
     "party": "Conservative",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Remove industrial carbon pricing",
       "FR": "Supprimer la tarification industrielle du carbone"
@@ -922,6 +933,7 @@
     "topic": "social-assistance",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Waive one-week wait for EI benefits for workers affected by U.S. tariffs",
       "FR": "Suppression du délai d'attente d'une semaine pour le versement des prestations d'assurance-emploi aux travailleurs touchés par les droits de douane imposés par les États-Unis"
@@ -940,6 +952,7 @@
     "topic": "infrastructure",
     "party": "Liberal",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Expand high-speed rail project from Windsor to Québec City",
       "FR": "Extension du projet de train à grande vitesse entre Windsor et Québec"
@@ -982,6 +995,7 @@
     "topic": "economy",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Cut income taxes for lowest tax bracket from 15% to 14%",
       "FR": "Réduction de l'impôt sur le revenu pour la tranche d'imposition la plus basse de 15 % à 14 %"
@@ -1018,6 +1032,7 @@
     "topic": "international-trade",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Targeted counter-tariffs against the U.S., support auto sector with $2 billion Strategic Response Fund",
       "FR": "Contre-tarifs ciblés contre les États-Unis, soutien au secteur automobile grâce à un fonds de réponse stratégique de 2 milliards de dollars"
@@ -1072,6 +1087,7 @@
     "topic": "health-and-safety",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Expand dental care to low-income adults aged 18-64",
       "FR": "Élargir les soins dentaires aux adultes à faibles revenus âgés de 18 à 64 ans"
@@ -1240,6 +1256,7 @@
     "topic": "economy",
     "party": "Conservative",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Cut income taxes for lowest tax bracket from 15% to 12.75%",
       "FR": "Réduction de l'impôt sur le revenu pour la tranche d'imposition la plus basse de 15 % à 12,75 %"
@@ -1258,6 +1275,7 @@
     "topic": "housing",
     "party": "Conservative",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Eliminate GST on new homes up to $1.3 million",
       "FR": "Élimination de la TPS sur les maisons neuves jusqu'à 1,3 million de dollars"
@@ -1336,6 +1354,7 @@
     "topic": "economy",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Raise basic personal amount to $19,500",
       "FR": "Augmenter le montant personnel de base à 19 500"
@@ -1432,6 +1451,7 @@
     "topic": "international-trade",
     "party": "Conservative",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Support targeted counter-tariffs against the U.S., remove GST on Canadian-made cars",
       "FR": "Soutenir des contre-tarifs ciblés contre les États-Unis, supprimer la TPS sur les voitures fabriquées au Canada"
@@ -1570,6 +1590,7 @@
     "topic": "economy",
     "party": "NDP",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Reinstate capital gains tax changes",
       "FR": "Rétablir les modifications de l'impôt sur les plus-values"
@@ -1588,6 +1609,7 @@
     "topic": "economy",
     "party": "Green",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Raise basic personal amount to $40,000",
       "FR": "Augmenter le montant personnel de base à 40 000 dollars"
@@ -1702,6 +1724,7 @@
     "topic": "foreign-policy",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Increase military spending to 2% GDP by 2032",
       "FR": "Augmenter les dépenses militaires à 2% du PIB d'ici 2032"
@@ -1718,24 +1741,6 @@
         "title": "Mark Carney says Canada will buy $6-billion missile detection system to confront threats from Russia and China",
         "publisher": "Toronto Star",
         "date": "Mar 18, 2025"
-      }
-    ]
-  },
-  {
-    "id": 170,
-    "topic": "health-and-safety",
-    "party": "Conservative",
-    "year": 2025,
-    "title": {
-      "EN": "Maintain existing federal dental care, child care programs",
-      "FR": "Maintenir les programmes fédéraux existants en matière de soins dentaires et de garde d'enfants"
-    },
-    "references": [
-      {
-        "url": "https://www.cbc.ca/news/politics/poilievre-social-programs-1.7493270?cmp=rss",
-        "title": "Poilievre suggests he would 'protect' dental care, child care programs as PM",
-        "publisher": "CBC News",
-        "date": "Mar 25, 2025"
       }
     ]
   },
@@ -1789,9 +1794,10 @@
   },
   {
     "id": 172,
-    "topic": "social-assistance",
+    "topic": "health-and-safety",
     "party": "Conservative",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Keep existing dental and childcare programs",
       "FR": "Maintien des programmes existants en matière de soins dentaires et de garde d'enfants"
@@ -1924,6 +1930,7 @@
     "topic": "civil-rights",
     "party": "Conservative",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Support Quebec's Bill 96 language law",
       "FR": "Soutenir le projet de loi 96 sur la langue au Québec"
@@ -1942,6 +1949,7 @@
     "topic": "civil-rights",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Challenge Quebec's Bill 96 language law in Supreme Court",
       "FR": "Contestation de la loi 96 sur les langues devant la Cour suprême du Québec"
@@ -2014,6 +2022,7 @@
     "topic": "housing",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Provide low-interest loans for first-time homebuyers through CMHC",
       "FR": "Accorder des prêts à faible taux d'intérêt aux acheteurs d'une première maison par l'intermédiaire de la SCHL"
@@ -2056,6 +2065,7 @@
     "topic": "international-trade",
     "party": "Bloc",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Support targeted counter-tariffs against the U.S., with exceptions for the vulnerable sectors of Quebec",
       "FR": "Soutenir des contre-tarifs ciblés contre les États-Unis, avec des exceptions pour les secteurs vulnérables du Québec"
@@ -2074,6 +2084,7 @@
     "topic": "civil-rights",
     "party": "Bloc",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Support Quebec's Bill 96 language law",
       "FR": "Soutenir le projet de loi 96 sur la langue au Québec"
@@ -2128,6 +2139,7 @@
     "topic": "social-assistance",
     "party": "NDP",
     "year": 2025,
+    "order": 3,
     "title": {
       "EN": "Raise maximum insurable earnings and EI benefit rate above 55%",
       "FR": "Relever le plafond de la rémunération assurable et le taux des prestations d'assurance-emploi à plus de 55 %"
@@ -2146,6 +2158,7 @@
     "topic": "social-assistance",
     "party": "NDP",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Reduce EI qualification threshold to 360 hours and include contractors and self-employed",
       "FR": "Réduire le seuil d'admissibilité à l'assurance-emploi à 360 heures et inclure les entrepreneurs et les travailleurs indépendants"
@@ -2164,6 +2177,7 @@
     "topic": "social-assistance",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Increase EI benefits, eliminate 1-week waiting period for EI benefits and extend coverage to 50 weeks",
       "FR": "Augmentation des prestations de l'assurance-emploi, suppression du délai de carence d'une semaine pour les prestations de l'assurance-emploi et extension de la couverture à 50 semaines"
@@ -2182,6 +2196,7 @@
     "topic": "infrastructure",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Invest in “massive” building plan using Canadian materials, prioritizing Canadian companies",
       "FR": "Investir dans un plan de construction « massif » utilisant des matériaux canadiens, en donnant la priorité aux entreprises canadiennes"
@@ -2254,6 +2269,7 @@
     "topic": "health-and-safety",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Expand pharmacare, dental care, and mental health supports",
       "FR": "Élargir l'assurance-médicaments, les soins dentaires et les aides à la santé mentale"
@@ -2338,6 +2354,7 @@
     "topic": "environment",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Keep industrial carbon pricing and emissions cap",
       "FR": "Maintien de la taxe carbone industrielle et du plafonnement des émissions"
@@ -2374,6 +2391,7 @@
     "topic": "economy",
     "party": "Conservative",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Remove capital gains tax on reinvestments in Canada until 2026",
       "FR": "Suppression de l'impôt sur les plus-values pour les réinvestissements au Canada jusqu'en 2026"
@@ -3070,6 +3088,7 @@
     "topic": "health-and-safety",
     "party": "NDP",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Implement universal pharmacare by 2029",
       "FR": "Mise en place d'un régime universel d'assurance-médicaments d'ici 2029"
@@ -3334,6 +3353,7 @@
     "topic": "infrastructure",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Establish “first and last mile fund” to build roads to new resource mines",
       "FR": "Création d'un « fonds pour le premier et le dernier kilomètre » afin de construire des routes vers les nouvelles mines de ressources."
@@ -3358,6 +3378,7 @@
     "topic": "environment",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Replace consumer carbon tax with green incentives",
       "FR": "Remplacer la taxe carbone par des incitations vertes"
@@ -3418,6 +3439,7 @@
     "topic": "health-and-safety",
     "party": "Liberal",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Hire 1,000 new CBSA agents for border security",
       "FR": "Embauche de 1 000 nouveaux agents de l'ASFC pour la sécurité des frontières"
@@ -3496,6 +3518,7 @@
     "topic": "health-and-safety",
     "party": "Conservative",
     "year": 2025,
+    "order": 2,
     "title": {
       "EN": "Hire 2,000 new CBSA agents for border security",
       "FR": "Embauche de 2 000 nouveaux agents de l'ASFC pour la sécurité des frontières"
@@ -3652,6 +3675,7 @@
     "topic": "civil-rights",
     "party": "NDP",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Support Quebec's Bill 96 language law",
       "FR": "Soutenir le projet de loi 96 sur la langue au Québec"
@@ -3795,6 +3819,7 @@
     "topic": "youth_child-care",
     "party": "Liberal",
     "year": 2025,
+    "order": 1,
     "title": {
       "EN": "Create 100,000 new child-care spaces by 2031",
       "FR": "Créer 100 000 nouvelles places de garde d'enfants d'ici 2031"

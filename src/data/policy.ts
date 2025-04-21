@@ -16,6 +16,7 @@ export type T = {
   references: Array<ReferenceType>,
   handle?: string,
   id?: number,
+  order?: number,
 }
 
 export async function byYear(year: string): Promise<Array<T>> {

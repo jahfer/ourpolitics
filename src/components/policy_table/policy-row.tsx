@@ -25,7 +25,9 @@ export default function PolicyRow ({ topic, year, parties, policies, displayTopi
   const { setURL } = useURL();
 
   const policyCells = parties.map((party) => {
-    const partyPolicies = policies.filter((policy) => policy.party === party)
+    const partyPolicies = policies
+      .filter((policy) => policy.party === party)
+      .sort((a, b) => (a.order || 100) - (b.order || 100))
     return <PolicyCell party={party} topic={topic} policies={partyPolicies} key={`${party}/${topic}`} />
   });
 
