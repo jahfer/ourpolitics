@@ -36,8 +36,13 @@ export default function TopicSelector({
     return () => document.body.removeEventListener('click', handler);
   }, []);
 
-  const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-    e.stopPropagation();
+  const handleClick = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    event.stopPropagation();
+    
+    if ((event.target as Element).closest('.policyTable--filterBar')) {
+      return; 
+    }
+
     if (topicFilterState) {
       Analytics.recordEvent("topic_filter_close");
     } else {
